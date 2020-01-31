@@ -627,7 +627,7 @@ function startApp() {
             var d = parseInt(state.bal.c / 4)
             state.bal.r += state.bal.c
             if (d) {
-                state.refund.push(['xfer', 'disregardfiat', d, 'Dev Cut'])
+                state.refund.push(['xfer', 'qwoyn-dev', d, 'Dev Cut'])
                 state.refund.push(['xfer', 'qwoyn-fund', parseInt(2 * d), 'Funds'])
                 state.refund.push(['xfer', 'qwoyn', d, 'Producer Cut'])
                 state.bal.c -= d * 4
