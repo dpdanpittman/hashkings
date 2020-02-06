@@ -13,7 +13,42 @@ const ipfs = new IPFS({
     port: 5001,
     protocol: 'https'
 });
+
+/*  const init holds the initial state of a user in the form of a json 
+    as shown in the example.
+
+        const init: {
+            "delegations": {
+                "delegator": string;
+                "vests": number;
+                "availible": number;
+                "used": number;
+            }[];
+            "kudos": {};
+            "stats": {
+                "vs": number;
+                "dust": number;
+                "time": number;
+                "offsets": {
+                    "a": number;
+                    "b": number;
+                    "c": number;
+                    "d": number;
+                    "e": number;
+                    "f": number;
+                };
+                ... 5 more ...;
+                "gardeners": number;
+            };
+            ... 8 more ...;
+            "cs": {
+                 ...;
+            };
+        }
+
+*/
 const init = require('./state');
+
 const app = express()
 const port = ENV.PORT || 3000;
 const wkey = ENV.wkey
@@ -21,15 +56,132 @@ const skey = steem.PrivateKey.from(ENV.skey)
 const streamname = ENV.streamname
 
 app.use(cors())
+
+/*plot info from state.js by plot number
+            {
+            "owner": "qwoyn",
+            "strain": "",
+            "xp": 0,
+            "care": [
+                [
+                    39562272,
+                    "watered"
+                ],
+                [
+                    39533519,
+                    "watered"
+                ],
+                [
+                    39504770,
+                    "watered",
+                    "c"
+                ]
+            ],
+            "aff": [],
+            "stage": -1,
+            "substage": 0,
+            "traits": [],
+            "terps": [],
+            "id": "a10"
+            }
+*/
 app.get('/p/:addr', (req, res, next) => {
     let addr = req.params.addr
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.land[addr], null, 3))
 });
+
+//shows a log stream at current block
 app.get('/logs', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.cs, null, 3))
 });
+
+/*detailed list of seeds a user owns from state.js by username\
+        [
+        {
+            "owner": "qwoyn",
+            "strain": "",
+            "xp": 0,
+            "care": [
+                [
+                    39562272,
+                    "watered"
+                ],
+                [
+                    39533519,
+                    "watered"
+                ],
+                [
+                    39504770,
+                    "watered",
+                    "c"
+                ]
+            ],
+            "aff": [],
+            "stage": -1,
+            "substage": 0,
+            "traits": [],
+            "terps": [],
+            "id": "a10"
+        },
+        {
+            "owner": "qwoyn",
+            "strain": "hk",
+            "xp": 2250,
+            "care": [
+                [
+                    39562272,
+                    "watered"
+                ],
+                [
+                    39533519,
+                    "watered",
+                    "c"
+                ],
+                [
+                    39504770,
+                    "watered",
+                    "c"
+                ]
+            ],
+            "aff": [],
+            "planted": 33012618,
+            "stage": 5,
+            "substage": 3,
+            "id": "c46",
+            "sex": null
+        },
+        {
+            "owner": "qwoyn",
+            "strain": "mis",
+            "xp": 1,
+            "care": [
+                [
+                    39562272,
+                    "watered"
+                ],
+                [
+                    39533519,
+                    "watered",
+                    "c"
+                ],
+                [
+                    39445948,
+                    "watered",
+                    "c"
+                ]
+            ],
+            "aff": [],
+            "planted": 35387927,
+            "stage": 5,
+            "substage": 1,
+            "id": "a77",
+            "sex": null
+        },
+        "a100"
+        ]
+*/
 app.get('/a/:user', (req, res, next) => {
     let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
@@ -51,6 +203,8 @@ app.get('/a/:user', (req, res, next) => {
     res.send(JSON.stringify(arr, null, 3))
 });
 
+//overal game stats i.e. number of gardeners, number of plots available, seed prices, land price, weather info
+//at each location such as mexico or jamaica etc.
 app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     Object.keys(state.users).length
@@ -59,11 +213,13 @@ app.get('/stats', (req, res, next) => {
     res.send(JSON.stringify(ret, null, 3))
 });
 
+//entire state.json output
 app.get('/', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state, null, 3))
 });
 
+//post payouts in que
 app.get('/refunds', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify({
@@ -72,12 +228,53 @@ app.get('/refunds', (req, res, next) => {
     }, null, 3))
 });
 
+/*plot and seed information by user
+        {
+        "addrs": [
+            "a10",
+            "c46",
+            "a77",
+            "a100"
+        ],
+        "seeds": [
+            {
+                "strain": "kbr",
+                "xp": 2250,
+                "traits": [
+                    "beta"
+                ]
+            },
+            {
+                "strain": "kbr",
+                "xp": 2250,
+                "traits": [
+                    "beta"
+                ]
+            },
+            {
+                "xp": 50
+            }
+        ],
+        "inv": [],
+        "stats": [],
+        "v": 0
+        }
+
+*/
 app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.users[user], null, 3))
 });
 
+/*delegation information by user
+{
+   "delegator": "qwoyn",
+   "vests": 4900485891391,
+   "availible": 123,
+   "used": 2
+}
+*/
 app.get('/delegation/:user', (req, res, next) => {
     let user = req.params.user
     var op = {}
@@ -93,18 +290,21 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state
-var startingBlock = ENV.STARTINGBLOCK || 39541798; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40580000; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || ''
 const ago = ENV.ago || 0
-const prefix = ENV.PREFIX || 'qwoyn_';
-const clientURL = ENV.APIURL || 'https://api.steemit.com'
+const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
+const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
 var recents = []
 const transactor = steemTransact(client, steem, prefix);
 
+/****ISSUE****/
+//I think this is where the app can get the hash from qwoyn_report that is saved in state.js and use it
+//to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
     console.log(err)
@@ -120,6 +320,9 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   }
 });
 
+/****ISSUE****/
+//This is the function which is supposed to load "hash" and start the app from the block named hash
+// not 100 percent sure where hash is coming from, i think maybe processor
 function startWith(hash) {
     if (hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
@@ -144,6 +347,8 @@ function startWith(hash) {
     }
 }
 
+/****ISSUE****/
+//must find cs i think its in state.js
 function startApp() {
   if(state.cs == null) {
     state.cs = {}
@@ -1021,7 +1226,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
         processor.stop(function() {
             saveState(function() {
                 process.exit();
-                console.log('Process exited.');
+                //console.log('Process exited.');
             });
         });
     }
@@ -1317,7 +1522,7 @@ function autoPoster (loc, num) {
                           "permlink": 'h'+num,
                           "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
                           "body": body,
-                          "json_metadata": JSON.stringify({tags:["hashkings"]})}]]
+                          "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
     if(state.payday.length){
         state.payday[0] = sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
