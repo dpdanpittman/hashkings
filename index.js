@@ -308,6 +308,7 @@ const transactor = steemTransact(client, steem, prefix);
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
     console.log(err)
+    console.log('line 311 getAccountHistory')
     startWith(sh)
   } else {
     let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' )

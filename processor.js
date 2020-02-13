@@ -1,4 +1,4 @@
-module.exports = function(client, steem, currentBlockNumber=1, blockComputeSpeed=1000, prefix='', mode='latest') {
+module.exports = function(client, steem, currentBlockNumber=1, blockComputeSpeed=1000, prefix='hk_', mode='latest') {
   var onCustomJsonOperation = {};  // Stores the function to be run for each operation id.
   var onOperation = {};
 
