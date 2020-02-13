@@ -290,7 +290,7 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state
-var startingBlock = ENV.STARTINGBLOCK || 40776500; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40794466; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || ''
