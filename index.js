@@ -403,7 +403,7 @@ function startApp() {
 
         if (num % 28800 === 20000 && state.payday.length) {
             for (var item in state.cs){
-              if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined'){
+              if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined line 406 indexjs'){
                 delete state.cs[item]
               }
             }
