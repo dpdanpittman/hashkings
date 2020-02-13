@@ -290,7 +290,7 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state
-var startingBlock = ENV.STARTINGBLOCK || 40700000; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40776500; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || ''
@@ -1145,7 +1145,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                         state.users[json.from].addrs.push(addr)
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${addr}`
                     } else {
-                        state.refund.push(['xfer', json.from, amount, 'Managing Land?...Maybe have your STEEM back'])
+                        state.refund.push(['xfer', json.from, amount, 'Managing Land?...You may need to delegate more SP'])
                     }
                 } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top) {
                     if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
