@@ -294,7 +294,7 @@ var startingBlock = ENV.STARTINGBLOCK || 40776500; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || ''
-const ago = ENV.ago || 0
+const ago = ENV.ago || 40776500
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -347,8 +347,7 @@ function startWith(hash) {
     }
 }
 
-/****ISSUE****/
-//must find cs i think its in state.js
+
 function startApp() {
   if(state.cs == null) {
     state.cs = {}
@@ -403,7 +402,7 @@ function startApp() {
 
         if (num % 28800 === 20000 && state.payday.length) {
             for (var item in state.cs){
-              if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined line 406 indexjs'){
+              if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined i406'){
                 delete state.cs[item]
               }
             }
