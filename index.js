@@ -313,13 +313,13 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
     let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' )
     for(i=ebus.length -1;i>=0;i--){
       if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
-      console.log('line 317 getAccountHistory')
+      console.log('made report')
     }
     const mostRecent = recents.shift()
     console.log('starting properly')
     console.log(sh)
     console.log(mostRecent)
-    startWith(mostRecent)
+    startWith(sh)
   }
 });
 
