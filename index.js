@@ -1667,8 +1667,7 @@ function daily(addr) {
                       terps: []
                   }
                   state.land[addr] = parcel
-                }
-                
-              }
-              cleanup(addr, cleanupindex)
-                  }}}
+                  
+                }}}
+                  cleanup(addr, cleanupindex)
+                }}
