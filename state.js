@@ -3,487 +3,487 @@ module.exports = {
       {
          "delegator": "inthenow",
          "vests": 39974577206,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "buckydurddle",
          "vests": 39928672533,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "jrawsthorne",
          "vests": 79856690072,
-         "availablePlots": 1,
+         "available": 1,
          "used": 1
       },
       {
          "delegator": "choosefreedom",
          "vests": 79780132574,
-         "availablePlots": 1,
+         "available": 1,
          "used": 1
       },
       {
          "delegator": "richardcrill",
          "vests": 39889849205,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "molovelly",
          "vests": 199444676737,
-         "availablePlots": 2,
+         "available": 2,
          "used": 3
       },
       {
          "delegator": "mickvir",
          "vests": 39888208334,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "anarcist69",
          "vests": 79776276323,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "gamewatch",
          "vests": 39882850262,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "onthewayout",
          "vests": 39881464050,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "disregardfiat",
          "vests": 39869791916,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "faustofraser",
          "vests": 39868240021,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "romiferns",
          "vests": 79733439788,
-         "availablePlots": 1,
+         "available": 1,
          "used": 1
       },
       {
          "delegator": "simgirl",
          "vests": 199241104833,
-         "availablePlots": 0,
+         "available": 0,
          "used": 5
       },
       {
          "delegator": "patrickulrich",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "guiltyparties",
          "vests": 199171829701,
-         "availablePlots": 2,
+         "available": 2,
          "used": 3
       },
       {
          "delegator": "bauloewe",
          "vests": 79656273251,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "egamers",
          "vests": 79655249059,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "qwoyn-fund",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "pugqueen",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "nutritree",
          "vests": 119345558046,
-         "availablePlots": 0,
+         "available": 0,
          "used": 3
       },
       {
          "delegator": "mistakili",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "hotsauceislethal",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "a1-shroom-spores",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "stephanus",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "cgame",
          "vests": 1986364090,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "nathen007",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "ttg",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "gerber",
          "vests": 39642541845,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "agr8buzz",
          "vests": 39642413360,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "zonguin",
          "vests": 39641291677,
-         "availablePlots": 1,
+         "available": 1,
          "used": 0
       },
       {
          "delegator": "sgt-dan",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "silverlining1",
          "vests": 317019843670,
-         "availablePlots": 0,
+         "available": 0,
          "used": 8
       },
       {
          "delegator": "movingman",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "news-today",
          "vests": 79192310349,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "heremonium",
          "vests": 79188788760,
-         "availablePlots": 1,
+         "available": 1,
          "used": 1
       },
       {
          "delegator": "chronocrypto",
          "vests": 1385634320228,
-         "availablePlots": 0,
+         "available": 0,
          "used": 35
       },
       {
          "delegator": "mulletwang",
          "vests": 910517270664,
-         "availablePlots": 0,
+         "available": 0,
          "used": 23
       },
       {
          "delegator": "monsterbuster",
          "vests": 39584089315,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "luegenbaron",
          "vests": 158329200454,
-         "availablePlots": 0,
+         "available": 0,
          "used": 4
       },
       {
          "delegator": "psyo",
          "vests": 39573775822,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "theb0red1",
          "vests": 118677192475,
-         "availablePlots": 0,
+         "available": 0,
          "used": 3
       },
       {
          "delegator": "yabapmatt",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "martie7",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "wdougwatson",
          "vests": 78971254943,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "rachaeldwatson",
          "vests": 78961153897,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "mcoinz79",
          "vests": 78924524118,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "ultratrain",
          "vests": 39459992144,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "abrockman",
          "vests": 3668914128243,
-         "availablePlots": 0,
+         "available": 0,
          "used": 94
       },
       {
          "delegator": "prettynicevideo",
          "vests": 197212789711,
-         "availablePlots": 5,
+         "available": 5,
          "used": 0
       },
       {
          "delegator": "russia-btc",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "ecoinstar",
          "vests": 236636498584,
-         "availablePlots": 6,
+         "available": 6,
          "used": 0
       },
       {
          "delegator": "ecoinstats",
          "vests": 315494958109,
-         "availablePlots": 0,
+         "available": 0,
          "used": 8
       },
       {
          "delegator": "tygertyger",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "jeffjagoe",
          "vests": 512579099166,
-         "availablePlots": 0,
+         "available": 0,
          "used": 13
       },
       {
          "delegator": "ghosthunter1",
          "vests": 39422399090,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "mondoshawan",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "justinashby",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "aggamun",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "chunkysoupsvc",
          "vests": 78829477731,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "stever82",
          "vests": 118208946241,
-         "availablePlots": 0,
+         "available": 0,
          "used": 3
       },
       {
          "delegator": "ocupation",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "meowgan",
          "vests": 196874524488,
-         "availablePlots": 0,
+         "available": 0,
          "used": 5
       },
       {
          "delegator": "saboin",
          "vests": 905236104391,
-         "availablePlots": 1,
+         "available": 1,
          "used": 22
       },
       {
          "delegator": "steem-hodler",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "jonyoudyer",
          "vests": 39327266474,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "okean123",
          "vests": 39304764489,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "christoryan",
          "vests": 157196291793,
-         "availablePlots": 4,
+         "available": 4,
          "used": 0
       },
       {
          "delegator": "efathenub",
          "vests": 78593532646,
-         "availablePlots": 2,
+         "available": 2,
          "used": 0
       },
       {
          "delegator": "road2nowhere",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "myanmarbook",
          "vests": 78576761012,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "jbsharkey",
          "vests": 39287708612,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "ganjafarmer",
          "vests": 392823861175,
-         "availablePlots": 7,
+         "available": 7,
          "used": 3
       },
       {
          "delegator": "thecrazygm",
          "vests": 0,
-         "availablePlots": 0,
+         "available": 0,
          "used": 0
       },
       {
          "delegator": "d00k13",
          "vests": 392704549353,
-         "availablePlots": 9,
+         "available": 9,
          "used": 1
       },
       {
          "delegator": "qwoyn",
          "vests": 0,
-         "availablePlots": 1,
+         "available": 1,
          "used": 0
       },
       {
          "delegator": "tsnaks",
          "vests": 78521613961,
-         "availablePlots": 0,
+         "available": 0,
          "used": 2
       },
       {
          "delegator": "cuko",
          "vests": 39250077360,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "nupulse",
          "vests": 39245143941,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "atomcollector",
          "vests": 39245014206,
-         "availablePlots": 0,
+         "available": 0,
          "used": 1
       },
       {
          "delegator": "elemental010",
          "vests": 156972543212,
-         "availablePlots": 2,
+         "available": 2,
          "used": 2
       }
    ],
