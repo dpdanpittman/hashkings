@@ -1065,25 +1065,25 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
       stats: [],
       v: 0
     }
-    var availiblePlots = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
+    var availible = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
     used = 0;
     if (record) {
       const use = record.used || 0
       if (record.vests < vests) {
-        availiblePlots = parseInt(availiblePlots) - parseInt(use);
+        availible = parseInt(availible) - parseInt(use);
         used = parseInt(use)
       } else {
-        if (use > availiblePlots) {
-          var j = parseInt(use) - parseInt(availiblePlots);
+        if (use > availible) {
+          var j = parseInt(use) - parseInt(availible);
           for (var i = state.users[json.delegator].addrs.length - j; i < state.users[json.delegator].addrs.length; i++) {
             delete state.land[state.users[json.delegator].addrs[i]];
             state.lands.forSale.push(state.users[json.delegator].addrs[i])
             state.users[json.delegator].addrs.splice(i,1)
           }
-          used = parseInt(availiblePlots)
-          availiblePlots = 0
+          used = parseInt(availible)
+          availible = 0
         } else {
-          availiblePlots = parseInt(availiblePlots) - parseInt(use)
+          availible = parseInt(availible) - parseInt(use)
           used = parseInt(use)
         }
       }
@@ -1091,7 +1091,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
       state.delegations.push({
         delegator: json.delegator,
         vests,
-        availiblePlots,
+        availible,
         used
       })
   }
@@ -1122,8 +1122,8 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                     if (amount == 500 && type == 'manage') {
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing`
                         for (var i = 0; i < state.delegations.length; i++) {
-                            if (json.from == state.delegations[i].delegator && state.delegations[i].availiblePlots) {
-                                state.delegations[i].availiblePlots--;
+                            if (json.from == state.delegations[i].delegator && state.delegations[i].availible) {
+                                state.delegations[i].availible--;
                                 state.delegations[i].used++;
                                 state.bal.c += amount;
                                 allowed = true
