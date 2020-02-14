@@ -381,7 +381,7 @@ module.exports = {
       {
          "delegator": "saboin",
          "vests": 905236104391,
-         "availablePlots": 1,
+         "availablePlots": 0,
          "used": 22
       },
       {
