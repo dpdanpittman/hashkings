@@ -1614,7 +1614,7 @@ function daily(addr) {
                 state.land[addr].care.splice(i,1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
                 if(!grown)state.land[addr].care[i].push('c')
-                if (state.land[addr].substage < 14 && state.land[addr].stage > 0 && !grown) {
+                if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
                     if(!grown){
                         state.land[addr].substage++;
                         grown = true;
@@ -1623,12 +1623,12 @@ function daily(addr) {
                         state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'too wet']);
                     }
                 }
-                if (state.land[addr].substage == 14) {
+                if (state.land[addr].substage == 7) {
                     state.land[addr].substage = 0;
                     state.land[addr].stage++
                 }
-                if (state.land[addr].stage == 5 && state.land[addr].substage == 0) state.land[addr].sex = state.land.length % 1
-                if (state.land[addr].stage == 9 && state.land[addr].substage == 13) {
+                if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = state.land.length % 1
+                if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
                     state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'over']);
                     state.land[addr].substage = 12
                 }
@@ -1645,7 +1645,7 @@ function daily(addr) {
                 }}
                 try {
               if (state.land[addr].care[i][1] == 'harvested'){
-                if (!harvested && state.land[addr].stage > 7){
+                if (!harvested && state.land[addr].stage > 3){
                   harvested = true
                   kudo(state.land[addr].owner)
                   const seed = {
