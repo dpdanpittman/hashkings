@@ -1633,10 +1633,17 @@ function daily(addr) {
                     state.land[addr].substage = 12
                 }
                 for (var j = 0; j < state.land[addr].aff.length; j++) {
+                    
+                    try {
                     if (state.land[addr].aff[j][0] > processor.getCurrentBlockNumber() - 86400 && state.land[addr].aff[j][1] == 'over') {
                         state.land[addr].stage = -1;
                         break;
-                    }}}
+                    }
+                } catch(e) {
+                    console.log('An affliction happened ', e.message)
+                   }
+                   
+                }}
               if (state.land[addr].care[i][1] == 'harvested'){
                 if (!harvested && state.land[addr].stage > 7){
                   harvested = true
