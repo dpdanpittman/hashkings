@@ -1065,25 +1065,25 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
       stats: [],
       v: 0
     }
-    var available = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
+    var availablePlots = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
     used = 0;
     if (record) {
       const use = record.used || 0
       if (record.vests < vests) {
-        available = parseInt(available) - parseInt(use);
+        availablePlots = parseInt(available) - parseInt(use);
         used = parseInt(use)
       } else {
-        if (use > available) {
+        if (use > availablePlots) {
           var j = parseInt(use) - parseInt(available);
           for (var i = state.users[json.delegator].addrs.length - j; i < state.users[json.delegator].addrs.length; i++) {
             delete state.land[state.users[json.delegator].addrs[i]];
             state.lands.forSale.push(state.users[json.delegator].addrs[i])
             state.users[json.delegator].addrs.splice(i,1)
           }
-          used = parseInt(available)
-          available = 0
+          used = parseInt(availablePlots)
+          availablePlots = 0
         } else {
-          available = parseInt(available) - parseInt(use)
+          availablePlots = parseInt(availablePlots) - parseInt(use)
           used = parseInt(use)
         }
       }
@@ -1091,7 +1091,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
       state.delegations.push({
         delegator: json.delegator,
         vests,
-        available,
+        availablePlots,
         used
       })
   }
@@ -1123,7 +1123,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing`
                         for (var i = 0; i < state.delegations.length; i++) {
                             if (json.from == state.delegations[i].delegator && state.delegations[i].available) {
-                                state.delegations[i].available--;
+                                state.delegations[i].availablePlots--;
                                 state.delegations[i].used++;
                                 state.bal.c += amount;
                                 allowed = true
