@@ -43,12 +43,6 @@ module.exports = {
          "used": 1
       },
       {
-         "delegator": "anarcist69",
-         "vests": 79776276323,
-         "availible": 0,
-         "used": 2
-      },
-      {
          "delegator": "gamewatch",
          "vests": 39882850262,
          "availible": 0,
@@ -485,21 +479,25 @@ module.exports = {
          "vests": 156972543212,
          "availible": 2,
          "used": 2
+      },
+      {
+         "delegator": "anarcist69",
+         "vests": 470911834082,
+         "availible": 0,
+         "used": 12
       }
    ],
    "kudos": {
-      "simgirl": 2,
-      "movingman": 1,
-      "abrockman": 51,
-      "chronocrypto": 8,
-      "nutritree": 2,
+      "abrockman": 32,
+      "romiferns": 1,
+      "chronocrypto": 2,
+      "saboin": 3,
       "luegenbaron": 2,
       "ecoinstats": 1,
-      "nupulse": 1,
-      "tsnaks": 1,
-      "rachaeldwatson": 1,
       "jeffjagoe": 2,
-      "jbsharkey": 1
+      "stever82": 1,
+      "anarcist69": 1,
+      "mcoinz79": 1
    },
    "stats": {
       "vs": 1950,
@@ -519,14 +517,14 @@ module.exports = {
             "lat": "31.5",
             "lon": "64.1",
             "weather": {
-               "high": 288.57,
-               "low": 279.33,
-               "avg": "284.0",
+               "high": 290.23,
+               "low": 281.22,
+               "avg": "285.1",
                "precip": 0,
-               "clouds": 0,
-               "humidity": 39,
-               "winds": 3.54,
-               "windd": 38
+               "clouds": 29,
+               "humidity": 40,
+               "winds": 4.32,
+               "windd": 67
             }
          },
          "b": {
@@ -549,14 +547,14 @@ module.exports = {
             "lat": "18.1",
             "lon": "92.93",
             "weather": {
-               "high": 297,
-               "low": 296.1,
-               "avg": "296.7",
+               "high": 297.34,
+               "low": 296.52,
+               "avg": "297.0",
                "precip": 0,
-               "clouds": 18,
+               "clouds": 28,
                "humidity": 78,
-               "winds": 5.49,
-               "windd": 322
+               "winds": 5.87,
+               "windd": 318
             }
          },
          "d": {
@@ -594,14 +592,14 @@ module.exports = {
             "lat": "25.8",
             "lon": "-108.2",
             "weather": {
-               "high": 298.96,
-               "low": 284.85,
-               "avg": "290.9",
+               "high": 297.89,
+               "low": 285.62,
+               "avg": "290.6",
                "precip": 0,
-               "clouds": 0,
-               "humidity": 24,
-               "winds": 1.81,
-               "windd": 270
+               "clouds": 37,
+               "humidity": 26,
+               "winds": 0.77,
+               "windd": 229
             }
          }
       },
@@ -629,18 +627,18 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "a": 307,
-            "ac": 113,
-            "b": 328,
-            "bc": 92,
+            "a": 306,
+            "ac": 114,
+            "b": 326,
+            "bc": 94,
             "c": 320,
             "cc": 100,
-            "d": 336,
-            "dc": 84,
-            "e": 328,
-            "ec": 92,
-            "f": 352,
-            "fc": 68,
+            "d": 334,
+            "dc": 86,
+            "e": 325,
+            "ec": 95,
+            "f": 350,
+            "fc": 70,
             "g": 0,
             "gc": 0,
             "t": 420000,
@@ -670,8 +668,8 @@ module.exports = {
    },
    "bal": {
       "r": 0,
-      "c": 0,
-      "b": 0,
+      "c": 750,
+      "b": 29250,
       "p": 1277872
    },
    "refund": [],
@@ -726,10 +724,6 @@ module.exports = {
          "care": [
             [
                40798182,
-               "watered"
-            ],
-            [
-               40711964,
                "watered",
                "c"
             ]
@@ -818,12 +812,7 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "kbr",
          "xp": 50,
-         "care": [
-            [
-               40735612,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 2,
          "substage": 5,
@@ -904,6 +893,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               40808735,
+               "watered"
+            ],
+            [
                40779088,
                "watered",
                "c"
@@ -966,19 +959,16 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40779088,
+               40808735,
                "watered"
             ],
             [
-               40751783,
-               "watered"
+               40779088,
+               "watered",
+               "c"
             ],
             [
                40721041,
-               "watered"
-            ],
-            [
-               40684123,
                "watered"
             ],
             [
@@ -988,7 +978,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 7,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "beta"
          ],
@@ -1002,6 +992,10 @@ module.exports = {
          "strain": "kbr",
          "xp": 2250,
          "care": [
+            [
+               40808735,
+               "watered"
+            ],
             [
                40779088,
                "watered",
@@ -1109,13 +1103,7 @@ module.exports = {
          "owner": "movingman",
          "strain": "mis",
          "xp": 2250,
-         "care": [
-            [
-               40782401,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32565834,
          "stage": 1,
@@ -1169,28 +1157,19 @@ module.exports = {
       },
       "a50": {
          "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817413,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
+         "stage": -1,
+         "substage": 0,
          "traits": [],
-         "terps": {},
-         "planted": 39615334,
+         "terps": [],
          "id": "a50"
       },
       "c39": {
@@ -1199,21 +1178,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707678,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -1226,6 +1210,14 @@ module.exports = {
          "strain": "kbr",
          "xp": 2250,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -1250,6 +1242,14 @@ module.exports = {
          "strain": "mal",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -1280,7 +1280,11 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40712766,
+               40813342,
+               "harvested"
+            ],
+            [
+               40813326,
                "watered"
             ]
          ],
@@ -1497,7 +1501,16 @@ module.exports = {
          "owner": "abrockman",
          "strain": "kbr",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ]
+         ],
          "aff": [],
          "stage": 1,
          "substage": 0,
@@ -1510,30 +1523,19 @@ module.exports = {
       },
       "f12": {
          "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
+               40815002,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 39615339,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "f12"
       },
       "e30": {
@@ -1591,13 +1593,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "cht",
          "xp": 2250,
-         "care": [
-            [
-               40783554,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32938794,
          "stage": 8,
@@ -1704,6 +1700,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               40806519,
+               "harvested"
+            ],
+            [
                40798183,
                "watered",
                "c"
@@ -1722,57 +1722,35 @@ module.exports = {
       },
       "a53": {
          "owner": "anarcist69",
-         "strain": "kmj",
-         "xp": 750,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798183,
-               "watered"
-            ],
-            [
-               40740703,
-               "watered"
-            ],
-            [
-               40711965,
-               "watered",
-               "c"
-            ],
-            [
-               40711965,
-               "watered"
+               40817413,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 32971433,
-         "stage": 4,
-         "substage": 9,
-         "id": "a53"
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": []
       },
       "c46": {
          "owner": "qwoyn",
-         "strain": "hk",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40804431,
-               "harvested"
-            ],
-            [
-               40798182,
-               "watered"
-            ],
-            [
-               40711963,
-               "watered"
+               40807811,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 33012618,
-         "stage": 7,
-         "substage": 12,
-         "id": "c46",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": []
       },
       "c47": {
          "owner": "molovelly",
@@ -1803,8 +1781,13 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               40790176,
+               40818929,
                "watered"
+            ],
+            [
+               40790176,
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
@@ -1851,28 +1834,19 @@ module.exports = {
       },
       "a56": {
          "owner": "abrockman",
-         "strain": "mal",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817413,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
+         "stage": -1,
+         "substage": 0,
          "traits": [],
-         "terps": {},
-         "planted": 39615359,
+         "terps": [],
          "id": "a56"
       },
       "b50": {
@@ -1889,7 +1863,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b50"
       },
       "c50": {
          "owner": "abrockman",
@@ -1897,21 +1872,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "beta"
          ],
@@ -1966,7 +1946,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d40"
       },
       "e38": {
          "owner": "abrockman",
@@ -1982,7 +1963,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e38"
       },
       "f17": {
          "owner": "abrockman",
@@ -1990,35 +1972,37 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "beta"
          ],
          "terps": {},
          "planted": 39673600,
-         "id": "f17"
+         "id": "f17",
+         "sex": null
       },
       "a58": {
          "owner": "abrockman",
@@ -2026,25 +2010,25 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered",
-               "c"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
@@ -2063,21 +2047,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -2099,7 +2088,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b51"
       },
       "c52": {
          "owner": "abrockman",
@@ -2107,21 +2097,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707678,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -2143,7 +2138,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e39"
       },
       "a59": {
          "owner": "abrockman",
@@ -2151,21 +2147,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [],
          "terps": {},
          "planted": 39665430,
@@ -2193,7 +2194,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d41"
       },
       "f19": {
          "owner": "disregardfiat",
@@ -2590,40 +2592,20 @@ module.exports = {
       },
       "c57": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40807814,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 7,
-         "substage": 8,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 36793177,
-         "id": "c57",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c57"
       },
       "f28": {
          "owner": "abrockman",
@@ -2631,15 +2613,20 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
@@ -2667,7 +2654,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b58"
       },
       "a65": {
          "owner": "abrockman",
@@ -2675,29 +2663,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -2719,7 +2708,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e47"
       },
       "d46": {
          "owner": "abrockman",
@@ -2743,45 +2733,25 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d46"
       },
       "f29": {
          "owner": "abrockman",
-         "strain": "ach",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered",
-               "c"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40815008,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 7,
-         "substage": 13,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 36631358,
-         "id": "f29",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "f29"
       },
       "c58": {
          "owner": "abrockman",
@@ -2789,21 +2759,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta"
          ],
@@ -2817,30 +2792,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered",
-               "c"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "beta"
          ],
@@ -2862,7 +2837,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b59"
       },
       "d47": {
          "owner": "abrockman",
@@ -2886,7 +2862,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d47"
       },
       "e48": {
          "owner": "abrockman",
@@ -2902,7 +2879,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e48"
       },
       "b60": {
          "owner": "abrockman",
@@ -2918,7 +2896,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b60"
       },
       "c59": {
          "owner": "abrockman",
@@ -2926,21 +2905,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "beta"
          ],
@@ -2954,15 +2938,20 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
@@ -2990,7 +2979,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e49"
       },
       "d48": {
          "owner": "abrockman",
@@ -3014,7 +3004,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d48"
       },
       "f30": {
          "owner": "chronocrypto",
@@ -3072,24 +3063,19 @@ module.exports = {
       },
       "f21": {
          "owner": "romiferns",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40712767,
-               "watered",
-               "c"
+               40815006,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 6,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 37777603,
-         "sex": null
+         "traits": [],
+         "terps": []
       },
       "e32": {
          "owner": "ecoinstar",
@@ -3245,6 +3231,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               40820687,
+               "watered"
+            ],
+            [
                40794859,
                "watered",
                "c"
@@ -3274,23 +3264,21 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40794859,
+               40820687,
                "watered"
+            ],
+            [
+               40794859,
+               "watered",
+               "c"
             ],
             [
                40794857,
-               "watered"
-            ],
-            [
-               40756313,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40708402,
-               "watered"
-            ],
-            [
-               40708403,
                "watered"
             ]
          ],
@@ -3309,6 +3297,10 @@ module.exports = {
          "strain": "dp",
          "xp": 1,
          "care": [
+            [
+               40820687,
+               "watered"
+            ],
             [
                40794859,
                "watered",
@@ -3350,41 +3342,51 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "beta"
          ],
          "terps": {},
          "id": "f34",
-         "planted": 39615398
+         "planted": 39615398,
+         "sex": null
       },
       "b64": {
          "owner": "abrockman",
          "strain": "mis",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -3409,65 +3411,51 @@ module.exports = {
       },
       "f35": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40815009,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "id": "f35",
-         "planted": 39615413
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "f35"
       },
       "c68": {
          "owner": "abrockman",
-         "strain": "cg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
+               40807816,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "id": "c68",
-         "planted": 39615529
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c68"
       },
       "d55": {
          "owner": "abrockman",
          "strain": "pam",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -3496,6 +3484,14 @@ module.exports = {
          "strain": "pam",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -3598,44 +3594,17 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ]
-         ],
-         "aff": [],
-         "stage": 1,
-         "substage": 5,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 39615542,
-         "id": "f38"
-      },
-      "c71": {
-         "owner": "abrockman",
-         "strain": "mis",
-         "xp": 50,
-         "care": [
-            [
                40798499,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40798491,
@@ -3653,14 +3622,56 @@ module.exports = {
             "beta"
          ],
          "terps": {},
+         "planted": 39615542,
+         "id": "f38"
+      },
+      "c71": {
+         "owner": "abrockman",
+         "strain": "mis",
+         "xp": 50,
+         "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 2,
+         "substage": 0,
+         "traits": [
+            "beta"
+         ],
+         "terps": {},
          "planted": 39615566,
-         "id": "c71"
+         "id": "c71",
+         "sex": null
       },
       "e64": {
          "owner": "abrockman",
          "strain": "hk",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -3691,6 +3702,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
                40798499,
                "watered",
                "c"
@@ -3717,6 +3736,14 @@ module.exports = {
          "strain": "dp",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -3746,29 +3773,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "beta"
          ],
@@ -3782,25 +3810,25 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered",
-               "c"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
@@ -3818,6 +3846,14 @@ module.exports = {
          "strain": "cht",
          "xp": 2250,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -3844,30 +3880,19 @@ module.exports = {
       },
       "a80": {
          "owner": "abrockman",
-         "strain": "lb",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817419,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 39615646,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "a80"
       },
       "b69": {
@@ -3875,6 +3900,14 @@ module.exports = {
          "strain": "swz",
          "xp": 2250,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -3905,62 +3938,53 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "beta"
          ],
          "terps": {},
          "planted": 39615606,
-         "id": "f39"
+         "id": "f39",
+         "sex": null
       },
       "c72": {
          "owner": "abrockman",
-         "strain": "hk",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
+               40807817,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 39615583,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "c72"
       },
       "d59": {
@@ -3968,6 +3992,14 @@ module.exports = {
          "strain": "mis",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -3993,30 +4025,19 @@ module.exports = {
       },
       "f40": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40815010,
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
-         "terps": {},
-         "planted": 39615633,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "f40"
       },
       "c73": {
@@ -4025,15 +4046,20 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
@@ -4052,6 +4078,14 @@ module.exports = {
          "strain": "lkg",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -4078,6 +4112,14 @@ module.exports = {
          "strain": "pam",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -4107,6 +4149,14 @@ module.exports = {
          "strain": "kmj",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -4180,16 +4230,13 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [],
          "terps": {},
          "planted": 39658336,
@@ -4264,17 +4311,13 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
                "watered",
                "c"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [],
          "terps": {},
          "planted": 39658349,
@@ -4300,8 +4343,13 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               40790176,
+               40818929,
                "watered"
+            ],
+            [
+               40790176,
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
@@ -4342,10 +4390,6 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
                "watered",
                "c"
             ]
@@ -4395,18 +4439,11 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40743795,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40728360,
-               "watered"
-            ],
-            [
-               40699066,
                "watered"
             ]
          ],
@@ -4466,6 +4503,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
                40798499,
                "watered",
                "c"
@@ -4495,29 +4540,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta"
          ],
@@ -4530,6 +4576,14 @@ module.exports = {
          "strain": "lb",
          "xp": 2250,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -4559,6 +4613,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
                40798499,
                "watered",
                "c"
@@ -4584,21 +4646,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -4608,39 +4675,20 @@ module.exports = {
       },
       "f50": {
          "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40815012,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 36654773,
-         "stage": 7,
-         "substage": 10,
-         "traits": [
-            "beta"
-         ],
-         "id": "f50",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "f50"
       },
       "f51": {
          "owner": "luegenbaron",
@@ -4648,31 +4696,23 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40779088,
-               "watered"
+               40808735,
+               "watered",
+               "c"
             ],
             [
                40751783,
                "watered"
             ],
             [
-               40721041,
-               "watered",
-               "c"
-            ],
-            [
                40649291,
-               "watered"
-            ],
-            [
-               40492382,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 36666775,
          "stage": 7,
-         "substage": 2,
+         "substage": 3,
          "sex": null,
          "id": "f51"
       },
@@ -4681,6 +4721,10 @@ module.exports = {
          "strain": "swz",
          "xp": 50,
          "care": [
+            [
+               40808735,
+               "watered"
+            ],
             [
                40779088,
                "watered",
@@ -4712,7 +4756,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b73"
       },
       "e72": {
          "owner": "psyo",
@@ -4752,11 +4797,11 @@ module.exports = {
          "xp": 10,
          "care": [
             [
-               40796893,
+               40823713,
                "watered"
             ],
             [
-               40708318,
+               40796893,
                "watered",
                "c"
             ]
@@ -4784,15 +4829,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40690459,
-               "watered"
-            ],
-            [
                40568848,
-               "watered"
-            ],
-            [
-               40451440,
                "watered"
             ],
             [
@@ -4800,17 +4837,8 @@ module.exports = {
                "watered"
             ],
             [
-               40169616,
-               "watered"
-            ],
-            [
                39936492,
                "watered"
-            ],
-            [
-               37793676,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
@@ -4823,11 +4851,6 @@ module.exports = {
          "strain": "cg",
          "xp": 50,
          "care": [
-            [
-               38067259,
-               "watered",
-               "c"
-            ],
             [
                37671448,
                "watered",
@@ -4856,18 +4879,11 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40743795,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40728360,
-               "watered"
-            ],
-            [
-               40699066,
                "watered"
             ]
          ],
@@ -4938,20 +4954,12 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40747041,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40729035,
                "watered"
-            ],
-            [
-               40701678,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
@@ -4968,26 +4976,18 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40747041,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40729035,
                "watered"
-            ],
-            [
-               40701678,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
          "planted": 37460593,
          "stage": 6,
-         "substage": 1,
+         "substage": 2,
          "id": "a70",
          "sex": null
       },
@@ -5042,26 +5042,18 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40747041,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40729035,
                "watered"
-            ],
-            [
-               40701678,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
          "planted": 37460922,
          "stage": 6,
-         "substage": 0,
+         "substage": 1,
          "id": "c63",
          "sex": null
       },
@@ -5072,17 +5064,14 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40729035,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 37460930,
          "stage": 7,
-         "substage": 4,
+         "substage": 5,
          "id": "c64",
          "sex": null
       },
@@ -5188,17 +5177,14 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40729035,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 37461238,
          "stage": 5,
-         "substage": 2,
+         "substage": 3,
          "id": "c65",
          "sex": null
       },
@@ -5209,18 +5195,14 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40729035,
                "watered",
                "c"
             ]
          ],
          "aff": [],
          "planted": 37461245,
-         "stage": 7,
-         "substage": 7,
+         "stage": 8,
+         "substage": 0,
          "traits": [
             "beta"
          ],
@@ -5234,26 +5216,18 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40747041,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40729035,
                "watered"
-            ],
-            [
-               40701678,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
          "planted": 37461388,
          "stage": 6,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "beta"
          ],
@@ -5267,11 +5241,8 @@ module.exports = {
          "care": [
             [
                40795113,
-               "watered"
-            ],
-            [
-               40729035,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
@@ -5380,7 +5351,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d67"
       },
       "e75": {
          "owner": "abrockman",
@@ -5396,35 +5368,25 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e75"
       },
       "f56": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40815013,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37802467,
-         "stage": 7,
-         "substage": 5,
-         "traits": [
-            "beta"
-         ],
-         "id": "f56",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "f56"
       },
       "b75": {
          "owner": "abrockman",
@@ -5440,7 +5402,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b75"
       },
       "e76": {
          "owner": "abrockman",
@@ -5456,35 +5419,25 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e76"
       },
       "a92": {
          "owner": "abrockman",
-         "strain": "hk",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817422,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37833871,
-         "stage": 7,
-         "substage": 4,
-         "traits": [
-            "beta"
-         ],
-         "id": "a92",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "a92"
       },
       "b76": {
          "owner": "abrockman",
@@ -5500,7 +5453,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b76"
       },
       "e77": {
          "owner": "abrockman",
@@ -5516,136 +5470,75 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e77"
       },
       "c80": {
          "owner": "abrockman",
-         "strain": "mis",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
+               40807820,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37833901,
-         "stage": 7,
-         "substage": 2,
-         "traits": [
-            "beta"
-         ],
-         "id": "c80",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c80"
       },
       "f57": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40815015,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37833931,
-         "stage": 4,
-         "substage": 10,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "f57"
       },
       "c81": {
          "owner": "abrockman",
-         "strain": "cht",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40807820,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37833939,
-         "stage": 4,
-         "substage": 11,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "c81"
       },
       "f58": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40815015,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 37833943,
-         "stage": 4,
-         "substage": 10,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "f58"
       },
       "d68": {
@@ -5670,7 +5563,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d68"
       },
       "e78": {
          "owner": "wdougwatson",
@@ -5731,11 +5625,8 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
@@ -5751,11 +5642,8 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
@@ -5794,18 +5682,14 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
                "watered",
                "c"
             ]
          ],
          "aff": [],
          "planted": 37987851,
-         "stage": 6,
-         "substage": 7,
+         "stage": 7,
+         "substage": 0,
          "id": "a96",
          "sex": null
       },
@@ -5823,41 +5707,24 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b80"
       },
       "c85": {
          "owner": "abrockman",
-         "strain": "mal",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40807821,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 38037252,
-         "stage": 4,
-         "substage": 5,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "c85"
       },
       "e79": {
@@ -5874,7 +5741,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "e79"
       },
       "d70": {
          "owner": "abrockman",
@@ -5898,13 +5766,18 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d70"
       },
       "e80": {
          "owner": "mcoinz79",
          "strain": "hk",
          "xp": 50,
          "care": [
+            [
+               40819497,
+               "watered"
+            ],
             [
                40790342,
                "watered",
@@ -5928,23 +5801,21 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40794101,
+               40816224,
                "watered"
+            ],
+            [
+               40794101,
+               "watered",
+               "c"
             ],
             [
                40794097,
-               "watered"
-            ],
-            [
-               40735470,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40708199,
-               "watered"
-            ],
-            [
-               40708200,
                "watered"
             ]
          ],
@@ -5961,17 +5832,14 @@ module.exports = {
          "care": [
             [
                40796985,
-               "watered"
-            ],
-            [
-               40710769,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 38196458,
-         "stage": 5,
-         "substage": 7,
+         "stage": 6,
+         "substage": 0,
          "sex": null,
          "id": "c87"
       },
@@ -6005,10 +5873,6 @@ module.exports = {
          "care": [
             [
                40796985,
-               "watered"
-            ],
-            [
-               40710769,
                "watered",
                "c"
             ]
@@ -6016,7 +5880,7 @@ module.exports = {
          "aff": [],
          "planted": 38196479,
          "stage": 7,
-         "substage": 3,
+         "substage": 4,
          "sex": null,
          "id": "f60"
       },
@@ -6077,69 +5941,41 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b83"
       },
       "c88": {
          "owner": "abrockman",
-         "strain": "hk",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707678,
-               "harvested"
+               40807821,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 38206960,
-         "stage": 6,
-         "substage": 6,
-         "traits": [
-            "beta"
-         ],
-         "id": "c88",
-         "sex": null
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c88"
       },
       "f61": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40815015,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 38206971,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "f61"
       },
       "b84": {
@@ -6156,7 +5992,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "b84"
       },
       "d74": {
          "owner": "abrockman",
@@ -6180,39 +6017,24 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "d74"
       },
       "a103": {
          "owner": "abrockman",
-         "strain": "mis",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered",
-               "c"
-            ],
-            [
-               40707673,
-               "harvested"
-            ],
-            [
-               40707685,
-               "watered"
+               40817425,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 38325407,
-         "stage": 4,
-         "substage": 3,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "a103"
       },
       "c90": {
@@ -6221,23 +6043,21 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40803358,
+               40818735,
                "watered"
+            ],
+            [
+               40803358,
+               "watered",
+               "c"
             ],
             [
                40803260,
-               "watered"
-            ],
-            [
-               40756903,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40701886,
-               "watered"
-            ],
-            [
-               40439253,
                "watered"
             ]
          ],
@@ -6253,15 +6073,16 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40803358,
+               40818735,
                "watered"
+            ],
+            [
+               40803358,
+               "watered",
+               "c"
             ],
             [
                40803260,
-               "watered"
-            ],
-            [
-               40756903,
                "watered",
                "c"
             ]
@@ -6357,13 +6178,14 @@ module.exports = {
          "care": [
             [
                40788785,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 38475049,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 0,
          "id": "f63"
       },
       "c92": {
@@ -6373,10 +6195,6 @@ module.exports = {
          "care": [
             [
                40798583,
-               "watered"
-            ],
-            [
-               40756248,
                "watered",
                "c"
             ],
@@ -6388,7 +6206,7 @@ module.exports = {
          "aff": [],
          "planted": 38525403,
          "stage": 5,
-         "substage": 5,
+         "substage": 6,
          "sex": null,
          "id": "c92"
       },
@@ -6399,11 +6217,8 @@ module.exports = {
          "care": [
             [
                40798583,
-               "watered"
-            ],
-            [
-               40729366,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40707238,
@@ -6413,7 +6228,7 @@ module.exports = {
          "aff": [],
          "planted": 38525432,
          "stage": 5,
-         "substage": 0,
+         "substage": 1,
          "sex": null,
          "id": "f64"
       },
@@ -6447,6 +6262,10 @@ module.exports = {
          "strain": "cg",
          "xp": 50,
          "care": [
+            [
+               40823713,
+               "watered"
+            ],
             [
                40796893,
                "watered",
@@ -6488,13 +6307,14 @@ module.exports = {
          "care": [
             [
                40788785,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 38844185,
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "id": "c95"
       },
       "f66": {
@@ -6504,10 +6324,6 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
                "watered",
                "c"
             ]
@@ -6515,7 +6331,7 @@ module.exports = {
          "aff": [],
          "planted": 39106049,
          "stage": 4,
-         "substage": 2,
+         "substage": 3,
          "id": "f66"
       },
       "b87": {
@@ -6586,17 +6402,14 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40728360,
-               "watered"
+               "watered",
+               "c"
             ]
          ],
          "aff": [],
          "planted": 39333315,
-         "stage": 3,
-         "substage": 7,
+         "stage": 4,
+         "substage": 0,
          "id": "c97"
       },
       "b89": {
@@ -6626,27 +6439,21 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40743795,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40728360,
                "watered",
                "c"
-            ],
-            [
-               40676649,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39578613,
-         "stage": 1,
-         "substage": 6,
-         "id": "a91"
+         "stage": 2,
+         "substage": 0,
+         "id": "a91",
+         "sex": null
       },
       "a97": {
          "owner": "saboin",
@@ -6655,26 +6462,20 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40743795,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40728360,
-               "watered"
-            ],
-            [
-               40699066,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 39578627,
-         "stage": 1,
-         "substage": 7,
-         "id": "a97"
+         "stage": 2,
+         "substage": 0,
+         "id": "a97",
+         "sex": null
       },
       "a111": {
          "owner": "saboin",
@@ -6683,20 +6484,12 @@ module.exports = {
          "care": [
             [
                40800982,
-               "watered"
-            ],
-            [
-               40743795,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40728360,
                "watered"
-            ],
-            [
-               40699066,
-               "watered",
-               "c"
             ]
          ],
          "aff": [],
@@ -6721,57 +6514,40 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40779088,
-               "watered"
+               40808735,
+               "watered",
+               "c"
             ],
             [
                40751783,
                "watered"
             ],
             [
-               40721041,
-               "watered"
-            ],
-            [
                40684123,
-               "watered"
-            ],
-            [
-               40649291,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 39581102,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "id": "a89"
       },
       "a88": {
          "owner": "abrockman",
-         "strain": "cht",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817422,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 39594004,
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "a88"
       },
       "a106": {
@@ -6781,10 +6557,6 @@ module.exports = {
          "care": [
             [
                40798583,
-               "watered"
-            ],
-            [
-               40729366,
                "watered",
                "c"
             ],
@@ -6797,7 +6569,7 @@ module.exports = {
          "aff": [],
          "planted": 39605850,
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "id": "a106"
       },
       "c93": {
@@ -6807,26 +6579,19 @@ module.exports = {
          "care": [
             [
                40798583,
-               "watered"
-            ],
-            [
-               40756248,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40729366,
                "watered",
                "c"
-            ],
-            [
-               40707238,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39605855,
          "stage": 2,
-         "substage": 2,
+         "substage": 3,
          "id": "c93"
       },
       "a90": {
@@ -6835,30 +6600,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39615181,
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
@@ -6870,40 +6636,50 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39615198,
-         "stage": 1,
-         "substage": 7,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "beta"
          ],
-         "id": "a93"
+         "id": "a93",
+         "sex": null
       },
       "d69": {
          "owner": "abrockman",
          "strain": "hk",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered"
@@ -6928,29 +6704,19 @@ module.exports = {
       },
       "a99": {
          "owner": "abrockman",
-         "strain": "kbr",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817425,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 39615230,
-         "stage": 3,
-         "substage": 7,
-         "traits": [
-            "beta"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "a99"
       },
       "f59": {
@@ -6959,31 +6725,33 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39615246,
-         "stage": 1,
-         "substage": 7,
-         "id": "f59"
+         "stage": 2,
+         "substage": 0,
+         "id": "f59",
+         "sex": null
       },
       "a102": {
          "owner": "abrockman",
@@ -6991,30 +6759,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707685,
-               "watered"
-            ],
-            [
                40707673,
                "harvested"
-            ],
-            [
-               40707685,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39615262,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "id": "a102"
       },
       "e82": {
@@ -7022,6 +6791,14 @@ module.exports = {
          "strain": "swz",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -7051,6 +6828,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
                40798499,
                "watered"
             ],
@@ -7074,6 +6859,14 @@ module.exports = {
          "strain": "dp",
          "xp": 50,
          "care": [
+            [
+               40823577,
+               "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
             [
                40798499,
                "watered",
@@ -7099,26 +6892,19 @@ module.exports = {
       },
       "a104": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               40798499,
-               "watered"
-            ],
-            [
-               40798491,
-               "harvested"
-            ],
-            [
-               40707673,
-               "harvested"
+               40817425,
+               ""
             ]
          ],
          "aff": [],
-         "planted": 39615296,
-         "stage": 3,
-         "substage": 7,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "a104"
       },
       "c89": {
@@ -7127,34 +6913,36 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
+            ],
+            [
+               40823564,
+               "harvested"
+            ],
+            [
+               40798499,
+               "watered",
+               "c"
             ],
             [
                40798491,
                "harvested"
             ],
             [
-               40707673,
-               "harvested"
-            ],
-            [
                40707678,
-               "harvested"
-            ],
-            [
-               40681918,
                "harvested"
             ]
          ],
          "aff": [],
          "planted": 39615301,
-         "stage": 1,
-         "substage": 7,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "beta"
          ],
-         "id": "c89"
+         "id": "c89",
+         "sex": null
       },
       "f62": {
          "owner": "abrockman",
@@ -7162,15 +6950,20 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40798499,
+               40823577,
                "watered"
             ],
             [
-               40798491,
+               40823564,
                "harvested"
             ],
             [
-               40707673,
+               40798499,
+               "watered",
+               "c"
+            ],
+            [
+               40798491,
                "harvested"
             ]
          ],
@@ -7201,22 +6994,16 @@ module.exports = {
          "care": [
             [
                40803129,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40799116,
-               "watered"
-            ],
-            [
-               40752158,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40739232,
-               "watered"
-            ],
-            [
-               40739203,
                "watered"
             ],
             [
@@ -7317,40 +7104,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40790342,
+               40819497,
                "watered"
             ],
             [
-               40731266,
-               "watered"
+               40790342,
+               "watered",
+               "c"
             ],
             [
                40702579,
                "watered",
                "c"
-            ],
-            [
-               40702578,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 40040184,
          "stage": 1,
-         "substage": 3,
+         "substage": 4,
          "id": "a98"
       },
       "a112": {
          "owner": "okean123",
          "strain": "hk",
          "xp": 50,
-         "care": [
-            [
-               40702775,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 40061164,
          "stage": 1,
@@ -7393,7 +7171,8 @@ module.exports = {
          "care": [
             [
                40790672,
-               "watered"
+               "watered",
+               "c"
             ],
             [
                40790463,
@@ -7406,9 +7185,10 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40583319,
-         "stage": 1,
-         "substage": 6,
-         "id": "c99"
+         "stage": 2,
+         "substage": 0,
+         "id": "c99",
+         "sex": null
       },
       "d82": {
          "owner": "tsnaks",
@@ -7454,6 +7234,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               40809250,
+               "watered"
+            ],
+            [
+               40806066,
+               "watered"
+            ],
+            [
                40806064,
                "watered"
             ],
@@ -7477,12 +7265,159 @@ module.exports = {
          "owner": "atomcollector",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               40819422,
+               "harvested"
+            ],
+            [
+               40819418,
+               "watered"
+            ],
+            [
+               40808069,
+               "harvested"
+            ],
+            [
+               40808065,
+               "watered"
+            ],
+            [
+               40808059,
+               "harvested"
+            ],
+            [
+               40808042,
+               "watered"
+            ],
+            [
+               40808038,
+               "watered"
+            ]
+         ],
          "aff": [],
          "planted": 40794325,
          "stage": 1,
          "substage": 0,
          "id": "b91"
+      },
+      "b92": {
+         "owner": "anarcist69",
+         "strain": "cg",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809789,
+         "stage": 1,
+         "substage": 0
+      },
+      "d84": {
+         "owner": "anarcist69",
+         "strain": "pam",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809799,
+         "stage": 1,
+         "substage": 0
+      },
+      "e92": {
+         "owner": "anarcist69",
+         "strain": "cht",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809802,
+         "stage": 1,
+         "substage": 0
+      },
+      "f68": {
+         "owner": "anarcist69",
+         "strain": "cg",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809807,
+         "stage": 1,
+         "substage": 0
+      },
+      "a113": {
+         "owner": "anarcist69",
+         "strain": "kmj",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809812,
+         "stage": 1,
+         "substage": 0
+      },
+      "b93": {
+         "owner": "anarcist69",
+         "strain": "aca",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809816,
+         "stage": 1,
+         "substage": 0
+      },
+      "f69": {
+         "owner": "anarcist69",
+         "strain": "dp",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809834,
+         "stage": 1,
+         "substage": 0
+      },
+      "d85": {
+         "owner": "anarcist69",
+         "strain": "lb",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809839,
+         "stage": 1,
+         "substage": 0
+      },
+      "e93": {
+         "owner": "anarcist69",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809843,
+         "stage": 1,
+         "substage": 0
+      },
+      "e94": {
+         "owner": "anarcist69",
+         "strain": "lkg",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "planted": 40809860,
+         "stage": 1,
+         "substage": 0
+      },
+      "a100": {
+         "owner": "qwoyn",
+         "strain": "hk",
+         "xp": 2250,
+         "care": [
+            [
+               40819431,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "planted": 40819400,
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "beta"
+         ]
       }
    },
    "users": {
@@ -7631,7 +7566,15 @@ module.exports = {
             "c46",
             "a100"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
@@ -9239,6 +9182,342 @@ module.exports = {
                "traits": [
                   "beta"
                ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mal",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mal",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "ach",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "ach",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "lb",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "lb",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
             }
          ],
          "inv": [],
@@ -9253,6 +9532,20 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "swz",
                "xp": 2250,
                "traits": [
                   "beta"
@@ -9657,9 +9950,34 @@ module.exports = {
       "anarcist69": {
          "addrs": [
             "a53",
-            "e36"
+            "e36",
+            "b92",
+            "d84",
+            "e92",
+            "f68",
+            "f69",
+            "a113",
+            "b93",
+            "d85",
+            "e93",
+            "e94"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "kmj",
+               "xp": 750,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 750,
+               "traits": [
+                  "beta"
+               ]
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
@@ -10841,9 +11159,74 @@ module.exports = {
       "e": []
    },
    "payday": [
-      [],
-      [],
-      []
+      [
+         {
+            "account": "tsnaks",
+            "weight": 10000
+         }
+      ],
+      [
+         {
+            "account": "luegenbaron",
+            "weight": 9999
+         }
+      ],
+      [
+         {
+            "account": "nutritree",
+            "weight": 10000
+         }
+      ],
+      [
+         {
+            "account": "chronocrypto",
+            "weight": 9163
+         },
+         {
+            "account": "stever82",
+            "weight": 833
+         }
+      ],
+      [
+         {
+            "account": "simgirl",
+            "weight": 6666
+         },
+         {
+            "account": "saboin",
+            "weight": 3333
+         }
+      ],
+      [
+         {
+            "account": "movingman",
+            "weight": 5000
+         },
+         {
+            "account": "qwoyn",
+            "weight": 5000
+         }
+      ],
+      [
+         {
+            "account": "ecoinstats",
+            "weight": 5000
+         },
+         {
+            "account": "jbsharkey",
+            "weight": 5000
+         }
+      ],
+      [
+         {
+            "account": "nupulse",
+            "weight": 5000
+         },
+         {
+            "account": "rachaeldwatson",
+            "weight": 5000
+         }
+      ]
    ],
    "blacklist": {
       "zonguin": true,
@@ -10862,6 +11245,62 @@ module.exports = {
       "40803302:elemental010": "156972543212 vested",
       "40803357:elemental010": "elemental010 watered c90 c91 ",
       "40804431:qwoyn": "qwoyn harvested c46 ",
-      "40806064:nupulse": "nupulse watered d83 "
+      "40806064:nupulse": "nupulse watered d83 ",
+      "40806518:anarcist69": "anarcist69 harvested a53 e36 ",
+      "40808037:atomcollector": "atomcollector watered b91 ",
+      "40808041:atomcollector": "atomcollector watered b91 ",
+      "40808058:atomcollector": "atomcollector harvested b91 ",
+      "40808063:atomcollector": "atomcollector watered b91 ",
+      "40808066:atomcollector": "atomcollector harvested b91 ",
+      "40808734:luegenbaron": "luegenbaron watered b5 c37 e16 a89 f51 d65 ",
+      "40809248:nupulse": "nupulse watered d83 ",
+      "40809293:anarcist69": "470911834082 vested",
+      "40809306:anarcist69": "anarcist69 purchased b92",
+      "40809327:anarcist69": "anarcist69 purchased d84",
+      "40809340:anarcist69": "anarcist69 purchased e92",
+      "40809349:anarcist69": "anarcist69 purchased f68",
+      "40809352:anarcist69": "anarcist69 purchased f69",
+      "40809358:anarcist69": "anarcist69 purchased a113",
+      "40809361:anarcist69": "anarcist69 purchased b93",
+      "40809365:anarcist69": "anarcist69 purchased d85",
+      "40809372:anarcist69": "anarcist69 purchased e93",
+      "40809374:anarcist69": "anarcist69 purchased e94",
+      "40809627:qwoyn-dev": "qwoyn-dev refunded successfully",
+      "40809736:anarcist69": "anarcist69 purchased cg",
+      "40809743:anarcist69": "anarcist69 purchased pam",
+      "40809749:anarcist69": "anarcist69 purchased cht",
+      "40809752:qwoyn-fund": "qwoyn-fund refunded successfully",
+      "40809754:anarcist69": "anarcist69 purchased cg",
+      "40809758:anarcist69": "anarcist69 purchased kmj",
+      "40809762:anarcist69": "anarcist69 purchased aca",
+      "40809766:anarcist69": "anarcist69 purchased dp",
+      "40809771:anarcist69": "anarcist69 purchased lb",
+      "40809776:anarcist69": "anarcist69 purchased mis",
+      "40809781:anarcist69": "anarcist69 purchased lkg",
+      "40809787:anarcist69": "planted on empty plot b92",
+      "40809797:anarcist69": "planted on empty plot d84",
+      "40809801:anarcist69": "planted on empty plot e92",
+      "40809806:anarcist69": "planted on empty plot f68",
+      "40809811:anarcist69": "planted on empty plot a113",
+      "40809815:anarcist69": "planted on empty plot b93",
+      "40809833:anarcist69": "planted on empty plot f69",
+      "40809838:anarcist69": "planted on empty plot d85",
+      "40809842:anarcist69": "planted on empty plot e93",
+      "40809858:anarcist69": "planted on empty plot e94",
+      "40809879:qwoyn": "qwoyn refunded successfully",
+      "40813325:romiferns": "romiferns watered c40 f21 ",
+      "40813340:romiferns": "romiferns harvested c40 f21 ",
+      "40816222:ultratrain": "ultratrain watered c86 ",
+      "40818733:elemental010": "elemental010 watered c90 c91 ",
+      "40818925:onthewayout": "onthewayout watered f6 f15 ",
+      "40819398:qwoyn": "planted on empty plot a100",
+      "40819416:atomcollector": "atomcollector watered b91 ",
+      "40819421:atomcollector": "atomcollector harvested b91 ",
+      "40819430:qwoyn": "qwoyn watered a100 ",
+      "40819496:mcoinz79": "mcoinz79 watered a98 e80 ",
+      "40820687:nutritree": "nutritree watered d54 e58 f33 ",
+      "40823564:abrockman": "abrockman harvested b43 c39 d33 e29 c50 f17 a58 c52 f18 a59 f28 a65 c58 a66 a67 c59 f34 b64 d55 e60 a78 b67 c71 d58 e64 f38 a79 b68 b69 c73 d59 d60 e65 e66 f39 b72 c78 c79 d64 e71 a90 a93 d69 f59 a102 e82 d72 c89 e83 f62 ",
+      "40823577:abrockman": "abrockman watered b43 c39 d33 e29 c50 f17 a58 c52 f18 a59 f28 a65 c58 a66 a67 c59 f34 b64 d55 e60 a78 b67 c71 d58 e64 f38 a79 b68 b69 c73 d59 d60 e65 e66 f39 b72 c78 c79 d64 e71 a90 a93 d69 f59 a102 e82 d72 c89 e83 f62 ",
+      "40823713:chunkysoupsvc": "chunkysoupsvc watered f52 d80 "
    }
 }

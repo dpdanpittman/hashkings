@@ -290,11 +290,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state
-var startingBlock = ENV.STARTINGBLOCK || 40806000; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40824004; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || ''
-const ago = ENV.ago || 40806000
+const ago = ENV.ago || 40824004
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1611,6 +1611,7 @@ function daily(addr) {
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
+                cleanup = i
                 state.land[addr].care.splice(i,1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
                 if(!grown)state.land[addr].care[i].push('c')
