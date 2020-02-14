@@ -319,13 +319,11 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
     console.log('starting properly')
     console.log(sh)
     console.log(mostRecent)
-    startWith(sh)
+    startWith(mostRecent)
   }
 });
 
 /****ISSUE****/
-//This is the function which is supposed to load "hash" and start the app from the block named hash
-// not 100 percent sure where hash is coming from, i think maybe processor
 function startWith(hash) {
     if (hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
