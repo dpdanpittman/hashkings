@@ -19,6 +19,12 @@ module.exports = {
          "used": 1
       },
       {
+         "delegator": "elamental",
+         "vests": 156972543212,
+         "availablePlots": 2,
+         "used": 2
+      },
+      {
          "delegator": "choosefreedom",
          "vests": 79780132574,
          "availablePlots": 1,
@@ -8302,6 +8308,31 @@ module.exports = {
             "e17"
          ],
          "seeds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
+      "elamental": {
+         "addrs": [
+            "c90",
+            "c91"
+         ],
+         "seeds": [
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
