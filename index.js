@@ -1640,10 +1640,10 @@ function daily(addr) {
                         break;
                     }
                 } catch(e) {
-                    console.log('An affliction happened ', e.message)
+                    console.log('An affliction happened', e.message)
                    }
-                   
                 }}
+                try {
               if (state.land[addr].care[i][1] == 'harvested'){
                 if (!harvested && state.land[addr].stage > 7){
                   harvested = true
@@ -1675,6 +1675,11 @@ function daily(addr) {
                   }
                   state.land[addr] = parcel
                   
-                }}}
+                }}
+                } catch(e) {
+                    console.log('harvesting error', e.message)
+                   }
+            
+            }
                   cleanup(addr, cleanupindex)
                 }}
