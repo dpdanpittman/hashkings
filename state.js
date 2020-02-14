@@ -659,10 +659,10 @@ module.exports = {
       "gardeners": 128
    },
    "bal": {
-      "r": 0,
-      "c": 0,
-      "b": 5000,
-      "p": 1272872
+      "received": 0,
+      "cut": 0,
+      "balance": 5000,
+      "power": 1272872
    },
    "refund": [
       [

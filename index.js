@@ -363,7 +363,7 @@ function startApp() {
                 td.push(`${o}${((sun-state.stats.offsets[o])*4)}`, `${o}${((sun-state.stats.offsets[o])*4)-1}`, `${o}${((sun-state.stats.offsets[o])*4)-2}`, `${o}${((sun-state.stats.offsets[o])*4)-3}`);
             }
             if (sun - state.stats.offsets[o] == 1200) {
-               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)})
+               popWeather(o).then((received)=>{console.log(received);autoPoster(received,num)}).catch((e)=>{console.log(e)})
             }
             if (sun - state.stats.offsets[o] == 1500) {
                state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
@@ -829,7 +829,7 @@ function startApp() {
         }
         if (num % 28800 === 0) {
             var d = parseInt(state.bal.c / 4)
-            state.bal.r += state.bal.c
+            state.bal.received += state.bal.c
             if (d) {
                 state.refund.push(['xfer', 'qwoyn-dev', d, 'Dev Cut'])
                 state.refund.push(['xfer', 'qwoyn-fund', parseInt(2 * d), 'Funds'])
@@ -1161,12 +1161,12 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else {
-                    state.bal.r += amount
+                    state.bal.received += amount
                     state.refund.push(['xfer', json.from, amount, 'We don\'t know what you wanted... have your STEEM back'])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
                 }
             } else if (amount > 10) {
-                state.bal.r += amount
+                state.bal.received += amount
                 state.refund.push(['xfer', json.from, amount, 'Sorry, this account only accepts in game transactions.'])
                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
             }
@@ -1177,7 +1177,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                         state.balance.b += users
                         state.bal.c += ops
                     } else {
-                        state.bal.r += amount
+                        state.bal.received += amount
                         state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.'])
                         state.blacklist[json.from] = true
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
@@ -1190,7 +1190,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
             for (var i = 0; i < state.refund.length; i++) {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
                     state.refund.splice(i, 1);
-                    state.bal.r -= amount;
+                    state.bal.received -= amount;
                     state.cs[`${json.block_num}:${json.to}`] = `${json.to} refunded successfully`
                     break;
                 }
@@ -1209,7 +1209,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
         var index = state.users[from].addrs.indexOf(json.addr)
         if (index >= 0) {
             state.lands.forSale.push(state.users[from].addrs.splice(i, 1))
-            state.bal.r += state.stats.prices.purchase.land
+            state.bal.received += state.stats.prices.purchase.land
             if (state.bal.b - state.stats.prices.purchase.land > 0) {
                 state.bal.b -= state.stats.prices.purchase.land
             } else {
@@ -1355,7 +1355,7 @@ function whotopay() {
         b = 0, // counter
         c = 0, // counter
         h = 1, // top value
-        r = {j:0,i:0,h:0,g:0,f:0,e:0,d:0,c:0,b:0,a:0}
+        received = {j:0,i:0,h:0,g:0,f:0,e:0,d:0,c:0,b:0,a:0}
         o = [] // temp array
     for (d in state.kudos) {
         c = parseInt(c) + parseInt(state.kudos[d]) // total kudos
@@ -1401,7 +1401,7 @@ function whotopay() {
             if(!b)break;
         }
         if(b){
-            for (var fr in r) {
+            for (var fr in received) {
                 a[fr].push(o.pop());
                 b--
                 if(!b)break;
@@ -1412,15 +1412,15 @@ function whotopay() {
         for (var i = 0; i < o.length; i++) {
             state.kudos[o[i].account] = parseInt(o[i].weight)
         }
-    for (var r in a) { //weight the 8 accounts in 10000
+    for (var received in a) { //weight the 8 accounts in 10000
         var u = 0,
             q = 0
-        for (var i = 0; i < a[r].length; i++) {
-            u = parseInt(u) + parseInt(a[r][i].weight)
+        for (var i = 0; i < a[received].length; i++) {
+            u = parseInt(u) + parseInt(a[received][i].weight)
         }
         q = parseInt(10000/u)
-        for (var i = 0; i < a[r].length; i++) {
-            a[r][i].weight = parseInt(parseInt(a[r][i].weight) * q)
+        for (var i = 0; i < a[received].length; i++) {
+            a[received][i].weight = parseInt(parseInt(a[received][i].weight) * q)
         }
     }
     o = []
@@ -1461,18 +1461,18 @@ function popWeather (loc){
         .then(function(response) {
             return response.json();
         })
-        .then(function(r) {
-            var tmin=400,tmax=0,tave=0,precip=0,h=0,p=[],c=[],w={s:0,d:0},s=[],d=r.list[0].wind.deg
+        .then(function(received) {
+            var tmin=400,tmax=0,tave=0,precip=0,h=0,p=[],c=[],w={s:0,d:0},s=[],d=received.list[0].wind.deg
             for(i=0;i<8;i++){
-                tave += parseInt(parseFloat(r.list[i].main.temp)*100)
-                if(r.list[i].main.temp > tmax){tmax = r.list[i].main.temp}
-                if(r.list[i].main.temp < tmin){tmin = r.list[i].main.temp}
-                h = r.list[i].main.humidity
-                c = parseInt(c + parseInt(r.list[i].clouds.all))
-                if(r.list[i].rain){
-                    precip = parseFloat(precip) + parseFloat(r.list[i].rain['3h'])
+                tave += parseInt(parseFloat(received.list[i].main.temp)*100)
+                if(received.list[i].main.temp > tmax){tmax = received.list[i].main.temp}
+                if(received.list[i].main.temp < tmin){tmin = received.list[i].main.temp}
+                h = received.list[i].main.humidity
+                c = parseInt(c + parseInt(received.list[i].clouds.all))
+                if(received.list[i].rain){
+                    precip = parseFloat(precip) + parseFloat(received.list[i].rain['3h'])
                 }
-                s = r.list[i].wind.speed
+                s = received.list[i].wind.speed
             }
             tave = parseFloat(tave/800).toFixed(1)
             c = parseInt(c/8)
