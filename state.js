@@ -25,6 +25,12 @@ module.exports = {
          "used": 2
       },
       {
+         "delegator": "fbmtek23",
+         "vests": 0,
+         "availible": 0,
+         "used": 3
+      },
+      {
          "delegator": "choosefreedom",
          "vests": 79780132574,
          "availible": 1,
@@ -633,12 +639,12 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "a": 306,
-            "ac": 114,
-            "b": 326,
-            "bc": 94,
-            "c": 320,
-            "cc": 100,
+            "a": 305,
+            "ac": 115,
+            "b": 325,
+            "bc": 95,
+            "c": 319,
+            "cc": 101,
             "d": 334,
             "dc": 86,
             "e": 325,
@@ -8308,6 +8314,39 @@ module.exports = {
             "e17"
          ],
          "seeds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
+      "fbmtek23": {
+         "addrs": [
+            "a116",
+            "b96",
+            "c102"
+         ],
+         "seeds": [
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            },
+            {
+               "strain": "lb",
+               "xp": 50,
+               "traits": [
+                  "beta"
+               ]
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
