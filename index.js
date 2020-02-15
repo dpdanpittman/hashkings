@@ -1684,5 +1684,5 @@ function daily(addr) {
             }
                   
                 }
-                cleanup(addr, cleanupindex)
+                
             }
