@@ -1682,7 +1682,7 @@ function daily(addr) {
                    }
             
             }
-            cleanup(addr, cleanupindex)
+            cleanup(addr, cleanupindex);
                   
                 }
                 
