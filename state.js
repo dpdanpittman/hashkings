@@ -4832,8 +4832,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 36942849,
-         "stage": 3,
-         "substage": 10
+         "stage": 5,
+         "substage": 0
       },
       "f49": {
          "owner": "mulletwang",
@@ -4855,8 +4855,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 36942869,
-         "stage": 2,
-         "substage": 13
+         "stage": 5,
+         "substage": 1
       },
       "f53": {
          "owner": "theb0red1",
