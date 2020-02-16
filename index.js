@@ -91,7 +91,7 @@ app.get('/p/:addr', (req, res, next) => {
     res.send(JSON.stringify(state.land[addr], null, 3))
 });
 
-//shows a log stream at current block
+//shows a log 
 app.get('/logs', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.cs, null, 3))
@@ -217,6 +217,13 @@ app.get('/stats', (req, res, next) => {
 app.get('/', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state, null, 3))
+});
+
+//shows user seeds
+app.get('/s/:user', (req, res, next) => {
+    let user = req.params.user
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state.users[user.seeds], null, 3))
 });
 
 //post payouts in que
