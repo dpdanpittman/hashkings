@@ -355,6 +355,7 @@ function startWith(hash) {
             }
         });
     } else {
+        console.log('Didnt start with hash')
         state = init
         startApp()
     }
