@@ -6408,6 +6408,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               40866081,
+               "watered"
+            ],
+            [
                40819418,
                "watered",
                "c"
@@ -6426,7 +6430,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "genesis"
          ],
          "id": "b91"
       },
