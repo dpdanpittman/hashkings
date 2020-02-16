@@ -459,8 +459,8 @@ module.exports = {
       {
          "delegator": "qwoyn",
          "vests": 0,
-         "availible": 1,
-         "used": 0
+         "availible": 2,
+         "used": 2
       },
       {
          "delegator": "tsnaks",
