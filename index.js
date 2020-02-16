@@ -1614,12 +1614,17 @@ function listBens (bens){
 }
 
 function daily(addr) {
-    var grown = false, harvested = false
+    var grown = false, harvested = false, cleanupindex = 0
+
+    function cleanup (adr,ind){
+      state.land[adr].care.splice(0,ind)
+    }
 
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
                 state.land[addr].care.splice(i,1)
+                cleanup = i
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
                 if(!grown)state.land[addr].care[i].push('c')
                 if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
@@ -1688,7 +1693,7 @@ function daily(addr) {
                     console.log('harvesting error', e.message)
                    }
             
-            }
+            }cleanup(addr, cleanupindex)
                   
                 }
                 
