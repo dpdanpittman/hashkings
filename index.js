@@ -223,7 +223,9 @@ app.get('/', (req, res, next) => {
 app.get('/s/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.users[user.seeds], null, 3))
+    res.send(JSON.stringify({
+        seeds: state.users[user]
+    }, null, 3))
 });
 
 //post payouts in que
