@@ -489,8 +489,8 @@ module.exports = {
       {
          "delegator": "elemental010",
          "vests": 156972543212,
-         "availible": 2,
-         "used": 2
+         "availible": 0,
+         "used": 4
       },
       {
          "delegator": "anarcist69",
@@ -1406,6 +1406,30 @@ module.exports = {
          "planted": 36367479,
          "id": "f11",
          "sex": 1
+      },
+      "a120": {
+         "owner": "elemental010",
+         "strain": "",
+         "xp": 0,
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "a120"
+      },
+      "a121": {
+         "owner": "elemental010",
+         "strain": "",
+         "xp": 0,
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "a121"
       },
       "e19": {
          "owner": "mulletwang",
@@ -10163,7 +10187,9 @@ module.exports = {
       "elemental010": {
          "addrs": [
             "c90",
-            "c91"
+            "c91",
+            "a120",
+            "a121"
          ],
          "seeds": [],
          "inv": [],
