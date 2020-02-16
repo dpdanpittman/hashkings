@@ -624,7 +624,7 @@ module.exports = {
                "mid": 1500,
                "top": 3000
             },
-            "supplies": {}
+            "supplies": []
          },
          "purchase": {
             "land": 19500
@@ -730,7 +730,9 @@ module.exports = {
          "aff": [],
          "stage": -1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Genesis"
+         ],
          "terps": [],
          "id": "a10"
       },
@@ -743,6 +745,9 @@ module.exports = {
          "planted": 31853281,
          "stage": 7,
          "substage": 9,
+         "traits": [
+            "Genesis"
+         ],
          "id": "a2",
          "sex": 0
       },
@@ -755,7 +760,11 @@ module.exports = {
          "planted": 31885890,
          "stage": 1,
          "substage": 5,
-         "id": "b34"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b34",
+         "sex": 0
       },
       "e14": {
          "owner": "mondoshawan",
@@ -771,7 +780,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {}
+         "terps": []
       },
       "a43": {
          "owner": "gregorypatrick",
@@ -793,8 +802,11 @@ module.exports = {
          "planted": 31903005,
          "stage": 5,
          "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "a7",
-         "sex": null
+         "sex": 0
       },
       "a49": {
          "owner": "inthenow",
@@ -805,7 +817,11 @@ module.exports = {
          "planted": 31905556,
          "stage": 2,
          "substage": 7,
-         "id": "a49"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a49",
+         "sex": 1
       },
       "a9": {
          "owner": "ghosthunter1",
@@ -815,10 +831,13 @@ module.exports = {
          "aff": [],
          "stage": 2,
          "substage": 5,
-         "traits": [],
-         "terps": {},
+         "traits": [
+            "Genesis"
+         ],
+         "terps": [],
          "planted": 39630977,
-         "id": "a9"
+         "id": "a9",
+         "sex": 0
       },
       "a11": {
          "owner": "bluntsmasha",
@@ -828,8 +847,12 @@ module.exports = {
          "aff": [],
          "stage": -1,
          "substage": 0,
-         "traits": [],
-         "terps": []
+         "traits": [
+            "Genesis"
+         ],
+         "terps": [],
+         "id": "a11",
+         "sex": 1
       },
       "b2": {
          "owner": "bluntsmasha",
@@ -884,7 +907,12 @@ module.exports = {
          "aff": [],
          "planted": 31932911,
          "stage": 2,
-         "substage": 12
+         "substage": 12,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a48",
+         "sex": 0
       },
       "b5": {
          "owner": "luegenbaron",
@@ -903,9 +931,9 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 36472002,
-         "sex": null,
+         "sex": 0,
          "id": "b5"
       },
       "e8": {
@@ -917,6 +945,10 @@ module.exports = {
          "planted": 31968022,
          "stage": 1,
          "substage": 13,
+         "traits": [
+            "Genesis"
+         ],
+         "sex": 1,
          "id": "e8"
       },
       "a17": {
@@ -928,7 +960,11 @@ module.exports = {
          "planted": 31968683,
          "stage": 1,
          "substage": 2,
-         "id": "a17"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a17",
+         "sex": 0
       },
       "b41": {
          "owner": "mondoshawan",
@@ -938,9 +974,12 @@ module.exports = {
          "aff": [],
          "stage": 1,
          "substage": 0,
-         "traits": [],
-         "terps": {},
+         "traits": [
+            "Genesis"
+         ],
+         "terps": [],
          "id": "b41",
+         "sex": 1,
          "planted": 39600281
       },
       "c37": {
@@ -964,9 +1003,9 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 36471996,
-         "sex": null,
+         "sex": 0,
          "id": "c37"
       },
       "e16": {
@@ -986,9 +1025,9 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 36471974,
-         "sex": null,
+         "sex": 0,
          "id": "e16"
       },
       "e11": {
@@ -1000,6 +1039,9 @@ module.exports = {
          "planted": 32020193,
          "stage": 7,
          "substage": 7,
+         "traits": [
+            "Genesis"
+         ],
          "id": "e11",
          "sex": 1
       },
@@ -1023,7 +1065,12 @@ module.exports = {
          "aff": [],
          "planted": 32481352,
          "stage": 1,
-         "substage": 3
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e17",
+         "sex": 1,
       },
       "b42": {
          "owner": "jonyoudyer",
@@ -1034,6 +1081,9 @@ module.exports = {
          "planted": 32547991,
          "stage": 6,
          "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b42",
          "sex": 0
       },
@@ -1046,6 +1096,9 @@ module.exports = {
          "planted": 32547995,
          "stage": 5,
          "substage": 8,
+         "traits": [
+            "Genesis"
+         ],
          "id": "a3",
          "sex": 1
       },
@@ -1058,6 +1111,9 @@ module.exports = {
          "planted": 32547999,
          "stage": 6,
          "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "f9",
          "sex": 0
       },
@@ -1070,7 +1126,11 @@ module.exports = {
          "planted": 32550195,
          "stage": 3,
          "substage": 4,
-         "id": "f1"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f1",
+         "sex": 0
       },
       "a46": {
          "owner": "movingman",
@@ -1081,7 +1141,11 @@ module.exports = {
          "planted": 32565834,
          "stage": 1,
          "substage": 11,
-         "id": "a46"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a46",
+         "sex": 0
       },
       "a15": {
          "owner": "mrkhuffins",
@@ -1092,7 +1156,11 @@ module.exports = {
          "planted": 32577329,
          "stage": 1,
          "substage": 2,
-         "id": "a15"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a15",
+         "sex": 1
       },
       "b3": {
          "owner": "mrkhuffins",
@@ -1103,7 +1171,11 @@ module.exports = {
          "planted": 32577449,
          "stage": 1,
          "substage": 2,
-         "id": "b3"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b3",
+         "sex": 0
       },
       "d3": {
          "owner": "mrkhuffins",
@@ -1114,7 +1186,11 @@ module.exports = {
          "planted": 32577489,
          "stage": 1,
          "substage": 1,
-         "id": "d3"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d3",
+         "sex": 0
       },
       "d32": {
          "owner": "ecoinstar",
@@ -1126,7 +1202,8 @@ module.exports = {
          "substage": 0,
          "traits": [],
          "terps": [],
-         "id": "d32"
+         "id": "d32",
+         "sex": 1
       },
       "a50": {
          "owner": "abrockman",
@@ -1165,9 +1242,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39845294,
-         "id": "c39"
+         "id": "c39",
+         "sex": 1
       },
       "d33": {
          "owner": "abrockman",
@@ -1189,9 +1267,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40707676,
-         "id": "d33"
+         "id": "d33",
+         "sex": 1
       },
       "b43": {
          "owner": "abrockman",
@@ -1209,25 +1288,21 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40621873,
-         "id": "b43"
+         "id": "b43",
+         "sex": 0
       },
       "c40": {
          "owner": "romiferns",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40836610,
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
       },
       "a51": {
          "owner": "mulletwang",
@@ -1238,7 +1313,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
       },
       "b44": {
          "owner": "mulletwang",
@@ -1249,7 +1324,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
       },
       "e18": {
          "owner": "mulletwang",
@@ -1302,8 +1377,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32821622,
-         "stage": 1,
-         "substage": 13,
+         "stage": 2,
+         "substage": 0,
          "id": "a1"
       },
       "f11": {
@@ -1312,11 +1387,15 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
-         "stage": 1,
-         "substage": 12,
-         "traits": [],
-         "terps": {},
-         "planted": 36367479
+         "stage": 2,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "terps": [],
+         "planted": 36367479,
+         "id": "f11",
+         "sex": 1
       },
       "e19": {
          "owner": "mulletwang",
@@ -1444,7 +1523,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e29",
          "planted": 40798496
       },
@@ -1469,7 +1548,11 @@ module.exports = {
          "planted": 32917993,
          "stage": 2,
          "substage": 5,
-         "id": "e30"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e30",
+         "sex": 0
       },
       "b45": {
          "owner": "thehermitmonk",
@@ -1480,7 +1563,11 @@ module.exports = {
          "planted": 32918003,
          "stage": 2,
          "substage": 5,
-         "id": "b45"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b45",
+         "sex": 0
       },
       "b46": {
          "owner": "thehermitmonk",
@@ -1491,7 +1578,11 @@ module.exports = {
          "planted": 32918020,
          "stage": 2,
          "substage": 5,
-         "id": "b46"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b46",
+         "sex": 1
       },
       "e31": {
          "owner": "simgirl",
@@ -1501,7 +1592,10 @@ module.exports = {
          "aff": [],
          "planted": 32938707,
          "stage": 7,
-         "substage": 8,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "e31",
          "sex": 1
       },
@@ -1512,8 +1606,11 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32938794,
-         "stage": 8,
+         "stage": 5,
          "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "f13",
          "sex": 0
       },
@@ -1525,7 +1622,10 @@ module.exports = {
          "aff": [],
          "planted": 32938928,
          "stage": 7,
-         "substage": 8,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b47",
          "sex": 1
       },
@@ -1538,6 +1638,9 @@ module.exports = {
          "planted": 32939019,
          "stage": 8,
          "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "d35",
          "sex": 0
       },
@@ -1550,6 +1653,9 @@ module.exports = {
          "planted": 32946899,
          "stage": 5,
          "substage": 6,
+         "traits": [
+            "Genesis"
+         ],
          "id": "d36",
          "sex": 1
       },
@@ -1562,7 +1668,11 @@ module.exports = {
          "planted": 32950340,
          "stage": 2,
          "substage": 7,
-         "id": "e33"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e33",
+         "sex": 1
       },
       "e34": {
          "owner": "molovelly",
@@ -1573,7 +1683,11 @@ module.exports = {
          "planted": 32961543,
          "stage": 4,
          "substage": 1,
-         "id": "e34"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e34",
+         "sex": 0
       },
       "c45": {
          "owner": "mickvir",
@@ -1582,9 +1696,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32970753,
-         "stage": 2,
-         "substage": 12,
-         "id": "c45"
+         "stage": 3,
+         "substage": 5,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c45",
+         "sex": 0
       },
       "e35": {
          "owner": "choosefreedom",
@@ -1595,6 +1713,9 @@ module.exports = {
          "planted": 32971170,
          "stage": 8,
          "substage": 5,
+         "traits": [
+            "Genesis"
+         ],
          "id": "e35",
          "sex": 0
       },
@@ -1641,7 +1762,12 @@ module.exports = {
          "planted": 33024825,
          "stage": 4,
          "substage": 2,
-         "id": "c47"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c47",
+         "sex": 1
+
       },
       "c48": {
          "owner": "gamewatch",
@@ -1650,10 +1776,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33038041,
-         "stage": 9,
-         "substage": 6,
+         "stage": 6,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "c48",
-         "sex": 0
+         "sex": 0,
       },
       "f6": {
          "owner": "onthewayout",
@@ -1672,8 +1801,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
-         "planted": 39953101
+         "terps": [],
+         "planted": 39953101,
+         "id": "f6",
+         "sex": 0
       },
       "b49": {
          "owner": "hotsauceislethal",
@@ -1684,7 +1815,11 @@ module.exports = {
          "planted": 33081456,
          "stage": 4,
          "substage": 6,
-         "id": "b49"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b49",
+         "sex": 1
       },
       "f16": {
          "owner": "hotsauceislethal",
@@ -1693,9 +1828,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33081480,
-         "stage": 4,
-         "substage": 11,
-         "id": "f16"
+         "stage": 5,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f16",
+         "sex": 1
       },
       "d37": {
          "owner": "hotsauceislethal",
@@ -1706,7 +1845,11 @@ module.exports = {
          "planted": 33081510,
          "stage": 4,
          "substage": 3,
-         "id": "d37"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d37",
+         "sex": 0
       },
       "a56": {
          "owner": "abrockman",
@@ -1752,14 +1895,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 1,
+         "stage": 2,
          "substage": 5,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39756671,
-         "id": "c50"
+         "id": "c50",
+         "sex": 0
       },
       "d38": {
          "owner": "aggamun",
@@ -1767,13 +1911,14 @@ module.exports = {
          "xp": 2250,
          "care": [],
          "aff": [],
-         "stage": 2,
-         "substage": 12,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "beta"
          ],
-         "terps": {},
-         "planted": 36380242
+         "terps": [],
+         "planted": 36380242,
+         "id": 1
       },
       "a57": {
          "owner": "guiltyparties",
@@ -1840,10 +1985,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39673600,
          "id": "f17",
-         "sex": null
+         "sex": 0
       },
       "a58": {
          "owner": "abrockman",
@@ -1865,14 +2010,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 8,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615410,
-         "id": "a58"
+         "id": "a58",
+         "sex": 1
       },
       "f18": {
          "owner": "abrockman",
@@ -1894,14 +2040,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
+         "stage": 5,
          "substage": 4,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39704831,
-         "id": "f18"
+         "id": "f18",
+         "sex": 1
       },
       "b51": {
          "owner": "abrockman",
@@ -1935,14 +2082,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
+         "stage": 5,
          "substage": 4,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39704829,
-         "id": "c52"
+         "id": "c52",
+         "sex": 1
       },
       "e39": {
          "owner": "abrockman",
@@ -1978,8 +2126,10 @@ module.exports = {
          "aff": [],
          "stage": 3,
          "substage": 5,
-         "traits": [],
-         "terps": {},
+         "traits": [
+            "Genesis"
+         ],
+         "terps": [],
          "planted": 39665430,
          "id": "a59"
       },
@@ -2009,6 +2159,9 @@ module.exports = {
          "planted": 33197746,
          "stage": 1,
          "substage": 8,
+         "traits": [
+            "Genesis"
+         ],
          "id": "f19"
       },
       "d39": {
@@ -2018,9 +2171,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33202294,
-         "stage": 3,
-         "substage": 10,
-         "id": "d39"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d39",
+         "sex": 1
       },
       "f20": {
          "owner": "a1-shroom-spores",
@@ -2029,9 +2186,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33235337,
-         "stage": 1,
-         "substage": 9,
-         "id": "f20"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f20",
+         "sex": 0
       },
       "c53": {
          "owner": "a1-shroom-spores",
@@ -2040,9 +2201,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33235342,
-         "stage": 1,
-         "substage": 10,
-         "id": "c53"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c53",
+         "sex": 1
       },
       "b52": {
          "owner": "mulletwang",
@@ -2095,9 +2260,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33249781,
-         "stage": 2,
-         "substage": 2,
-         "id": "a6"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a6",
+         "sex": 0
       },
       "f22": {
          "owner": "a1-shroom-spores",
@@ -2106,9 +2275,10 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33266589,
-         "stage": 1,
-         "substage": 8,
-         "id": "f22"
+         "stage": 4,
+         "substage": 0,
+         "id": "f22",
+         "sex": 0
       },
       "f24": {
          "owner": "a1-shroom-spores",
@@ -2117,9 +2287,10 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33267006,
-         "stage": 1,
-         "substage": 8,
-         "id": "f24"
+         "stage": 4,
+         "substage": 0,
+         "id": "f24",
+         "sex": 1
       },
       "b48": {
          "owner": "ecoinstar",
@@ -2129,7 +2300,10 @@ module.exports = {
          "aff": [],
          "planted": 33274967,
          "stage": 7,
-         "substage": 7,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b48",
          "sex": 0
       },
@@ -2140,9 +2314,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33284534,
-         "stage": 3,
-         "substage": 11,
-         "id": "f8"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f8",
+         "sex": 1
       },
       "a60": {
          "owner": "pugqueen",
@@ -2151,9 +2329,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33284656,
-         "stage": 1,
-         "substage": 11,
-         "id": "a60"
+         "stage": 4,
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a60",
+         "sex": 0
       },
       "f3": {
          "owner": "eldun",
@@ -2162,8 +2344,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33286020,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f3",
+         "sex": 1
       },
       "b37": {
          "owner": "eldun",
@@ -2172,8 +2359,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33286026,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b37",
+         "sex": 0
       },
       "d42": {
          "owner": "meowgan",
@@ -2182,9 +2374,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33291386,
-         "stage": 3,
-         "substage": 3,
-         "id": "d42"
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d42",
+         "sex": 0
       },
       "a61": {
          "owner": "chronocrypto",
@@ -2229,9 +2425,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33324513,
-         "stage": 2,
-         "substage": 7,
-         "id": "d43"
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d43",
+         "sex": 1
       },
       "b56": {
          "owner": "chronocrypto",
@@ -2300,8 +2500,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33455803,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a47",
+         "sex": 1
       },
       "c35": {
          "owner": "napoleon2702",
@@ -2310,8 +2515,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33455877,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c35",
+         "sex": 0
       },
       "f4": {
          "owner": "napoleon2702",
@@ -2320,8 +2530,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33455933,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f4",
+         "sex": 1
       },
       "d31": {
          "owner": "napoleon2702",
@@ -2330,8 +2545,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33456016,
-         "stage": 1,
-         "substage": 3
+         "stage": 4,
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d31",
+         "sex": 0
       },
       "d45": {
          "owner": "yabapmatt",
@@ -2340,8 +2560,12 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33456211,
-         "stage": 1,
-         "substage": 1
+         "stage": 4,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d45"
       },
       "c56": {
          "owner": "yabapmatt",
@@ -2374,6 +2598,9 @@ module.exports = {
          "planted": 33537639,
          "stage": 6,
          "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
          "id": "e45",
          "sex": 1
       },
@@ -2384,6 +2611,9 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33540883,
+         "traits": [
+            "Genesis"
+         ],
          "stage": 3,
          "substage": 0
       },
@@ -2419,12 +2649,12 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 13,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39845299,
          "id": "f28"
       },
@@ -2465,7 +2695,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40102294,
          "id": "a65"
       },
@@ -2535,7 +2765,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40398110,
          "id": "c58"
       },
@@ -2564,10 +2794,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40018917,
          "id": "a66",
-         "sex": null
+         "sex": 0
       },
       "b59": {
          "owner": "abrockman",
@@ -2647,7 +2877,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40102297,
          "id": "c59"
       },
@@ -2671,12 +2901,12 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 9,
+         "stage": 3,
+         "substage": 4,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39924007,
          "id": "a67"
       },
@@ -2728,9 +2958,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33715931,
-         "stage": 2,
+         "stage": 4,
          "substage": 4,
-         "id": "c61"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c61",
+         "sex": 1
       },
       "c62": {
          "owner": "bauloewe",
@@ -2739,9 +2973,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33716139,
-         "stage": 2,
+         "stage": 4,
          "substage": 4,
-         "id": "c62"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c62",
+         "sex": 0
       },
       "e50": {
          "owner": "egamers",
@@ -2750,8 +2988,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33721858,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e50",
+         "sex": 0
       },
       "d51": {
          "owner": "egamers",
@@ -2760,19 +3003,19 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33722066,
-         "stage": 1,
-         "substage": 4
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d51",
+         "sex": 1
       },
       "f21": {
          "owner": "romiferns",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40815006,
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -2787,7 +3030,10 @@ module.exports = {
          "aff": [],
          "planted": 33747743,
          "stage": 6,
-         "substage": 10,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
          "id": "e32",
          "sex": 0
       },
@@ -2798,9 +3044,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33795208,
-         "stage": 2,
-         "substage": 13,
-         "id": "e51"
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e51",
+         "sex": 2
       },
       "e52": {
          "owner": "guiltyparties",
@@ -2809,9 +3059,14 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33868363,
-         "stage": 2,
-         "substage": 7,
-         "id": "e52"
+         "stage": 4,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e52",
+         "sex": 0
+
       },
       "e7": {
          "owner": "ghosthunter1",
@@ -2822,7 +3077,7 @@ module.exports = {
          "planted": 33889017,
          "stage": 6,
          "substage": 12,
-         "sex": null,
+         "sex": 0,
          "id": "e7"
       },
       "b1": {
@@ -2832,9 +3087,12 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33889021,
-         "stage": 6,
-         "substage": 12,
-         "sex": null,
+         "stage": 4,
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "sex": 0,
          "id": "b1"
       },
       "c60": {
@@ -2905,7 +3163,11 @@ module.exports = {
          "aff": [],
          "planted": 34290212,
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a18"
       },
       "d4": {
          "owner": "ngc",
@@ -2915,7 +3177,11 @@ module.exports = {
          "aff": [],
          "planted": 34290219,
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d4"
       },
       "c8": {
          "owner": "ngc",
@@ -2925,7 +3191,11 @@ module.exports = {
          "aff": [],
          "planted": 34290229,
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c8"
       },
       "e58": {
          "owner": "nutritree",
@@ -2943,9 +3213,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 37997008,
-         "id": "e58"
+         "id": "e58",
+         "sex": 0
       },
       "f33": {
          "owner": "nutritree",
@@ -2965,13 +3236,14 @@ module.exports = {
          ],
          "aff": [],
          "stage": 4,
-         "substage": 11,
+         "substage": 4,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 37462681,
-         "id": "f33"
+         "id": "f33",
+         "sex": 0
       },
       "d54": {
          "owner": "nutritree",
@@ -2989,9 +3261,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 37997003,
-         "id": "d54"
+         "id": "d54",
+         "sex": 1
       },
       "a8": {
          "owner": "prettynicevideo",
@@ -3000,8 +3273,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 34352651,
-         "stage": 1,
-         "substage": 7
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a8",
+         "sex": 0
       },
       "f34": {
          "owner": "abrockman",
@@ -3023,15 +3301,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 2,
+         "stage": 4,
          "substage": 1,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f34",
          "planted": 39615398,
-         "sex": null
+         "sex": 0
       },
       "b64": {
          "owner": "abrockman",
@@ -3047,7 +3325,7 @@ module.exports = {
          "stage": 3,
          "substage": 6,
          "traits": [],
-         "terps": {},
+         "terps": [],
          "planted": 39615291,
          "id": "b64"
       },
@@ -3095,9 +3373,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615533,
-         "id": "d55"
+         "id": "d55",
+         "sex": 0
       },
       "e60": {
          "owner": "abrockman",
@@ -3110,14 +3389,15 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615539,
-         "id": "e60"
+         "id": "e60",
+         "sex": 0
       },
       "e61": {
          "owner": "silverlining1",
@@ -3128,6 +3408,9 @@ module.exports = {
          "planted": 34863376,
          "stage": 6,
          "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
          "sex": 1
       },
       "a72": {
@@ -3139,6 +3422,9 @@ module.exports = {
          "planted": 34863416,
          "stage": 6,
          "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
          "sex": 0
       },
       "c69": {
@@ -3149,7 +3435,12 @@ module.exports = {
          "aff": [],
          "planted": 34918478,
          "stage": 4,
-         "substage": 3
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "sex": 1,
+         "id": "c69"
       },
       "c70": {
          "owner": "russia-btc",
@@ -3159,7 +3450,12 @@ module.exports = {
          "aff": [],
          "planted": 34923377,
          "stage": 4,
-         "substage": 3
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c70",
+         "sex": 0
       },
       "d56": {
          "owner": "russia-btc",
@@ -3169,7 +3465,12 @@ module.exports = {
          "aff": [],
          "planted": 34923464,
          "stage": 4,
-         "substage": 3
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d56",
+         "sex": 1
       },
       "e63": {
          "owner": "russia-btc",
@@ -3179,7 +3480,11 @@ module.exports = {
          "aff": [],
          "planted": 34923468,
          "stage": 4,
-         "substage": 3
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e63"
       },
       "a75": {
          "owner": "russia-btc",
@@ -3216,10 +3521,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615542,
          "id": "f38",
-         "sex": null
+         "sex": 0
       },
       "c71": {
          "owner": "abrockman",
@@ -3246,10 +3551,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615566,
          "id": "c71",
-         "sex": null
+         "sex": 0
       },
       "e64": {
          "owner": "abrockman",
@@ -3267,7 +3572,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615572,
          "id": "e64"
       },
@@ -3285,7 +3590,7 @@ module.exports = {
          "stage": 1,
          "substage": 12,
          "traits": [],
-         "terps": {},
+         "terps": [],
          "planted": 39615325,
          "id": "b67"
       },
@@ -3309,7 +3614,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615551,
          "id": "d58"
       },
@@ -3338,7 +3643,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615548,
          "id": "a78"
       },
@@ -3367,7 +3672,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615626,
          "id": "a79"
       },
@@ -3387,7 +3692,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39924011,
          "id": "b68"
       },
@@ -3419,7 +3724,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40502386,
          "id": "b69"
       },
@@ -3448,10 +3753,10 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615606,
          "id": "f39",
-         "sex": null
+         "sex": 0
       },
       "c72": {
          "owner": "abrockman",
@@ -3485,7 +3790,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40102302,
          "id": "d59"
       },
@@ -3526,7 +3831,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39615652,
          "id": "c73"
       },
@@ -3548,7 +3853,7 @@ module.exports = {
          "stage": 3,
          "substage": 1,
          "traits": [],
-         "terps": {},
+         "terps": [],
          "planted": 40018924,
          "id": "d60"
       },
@@ -3568,7 +3873,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40537003,
          "id": "e65"
       },
@@ -3588,7 +3893,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40102307,
          "id": "e66"
       },
@@ -3601,7 +3906,7 @@ module.exports = {
          "planted": 35953032,
          "stage": 6,
          "substage": 2,
-         "sex": null
+         "sex": 0
       },
       "e67": {
          "owner": "agr8buzz",
@@ -3612,7 +3917,7 @@ module.exports = {
          "planted": 35954422,
          "stage": 5,
          "substage": 13,
-         "sex": null
+         "sex": 0
       },
       "c74": {
          "owner": "silverlining1",
@@ -3646,7 +3951,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39658336,
          "id": "c75"
       },
@@ -3661,7 +3966,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39704079,
          "id": "d61"
       },
@@ -3716,7 +4021,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39658349,
          "id": "f44"
       },
@@ -3751,7 +4056,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 39983477
       },
       "b71": {
@@ -3766,7 +4071,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "sex": null,
+         "sex": 0,
          "id": "b71"
       },
       "a83": {
@@ -3780,7 +4085,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40417692,
          "id": "a83"
       },
@@ -3831,7 +4136,7 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "sex": null,
+         "sex": 0,
          "id": "c77"
       },
       "d62": {
@@ -3847,7 +4152,7 @@ module.exports = {
             "genesis"
          ],
          "id": "d62",
-         "sex": null
+         "sex": 0
       },
       "f47": {
          "owner": "mulletwang",
@@ -3868,7 +4173,7 @@ module.exports = {
          "planted": 36646019,
          "stage": 5,
          "substage": 13,
-         "sex": null
+         "sex": 0
       },
       "b72": {
          "owner": "abrockman",
@@ -3886,7 +4191,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40681921,
          "id": "b72"
       },
@@ -3915,7 +4220,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40447684,
          "id": "c78"
       },
@@ -3939,7 +4244,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40681925,
          "id": "d64"
       },
@@ -3959,7 +4264,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40707682,
          "id": "e71"
       },
@@ -3988,7 +4293,7 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40019026,
          "id": "c79"
       },
@@ -4018,7 +4323,7 @@ module.exports = {
          "planted": 36666775,
          "stage": 7,
          "substage": 3,
-         "sex": null,
+         "sex": 0,
          "id": "f51"
       },
       "d65": {
@@ -4035,7 +4340,7 @@ module.exports = {
          "planted": 36666802,
          "stage": 7,
          "substage": 2,
-         "sex": null,
+         "sex": 0,
          "id": "d65"
       },
       "b73": {
@@ -4073,7 +4378,7 @@ module.exports = {
             "genesis"
          ],
          "id": "e70",
-         "sex": null
+         "sex": 0
       },
       "f52": {
          "owner": "chunkysoupsvc",
@@ -4090,7 +4395,7 @@ module.exports = {
          "planted": 36808759,
          "stage": 5,
          "substage": 13,
-         "sex": null,
+         "sex": 0,
          "id": "f52"
       },
       "f48": {
@@ -4156,7 +4461,7 @@ module.exports = {
             "genesis"
          ],
          "id": "f55",
-         "sex": null
+         "sex": 0
       },
       "b74": {
          "owner": "saboin",
@@ -4171,7 +4476,7 @@ module.exports = {
             "genesis"
          ],
          "id": "b74",
-         "sex": null
+         "sex": 0
       },
       "e73": {
          "owner": "rachaeldwatson",
@@ -4189,7 +4494,7 @@ module.exports = {
          "stage": 7,
          "substage": 4,
          "id": "e73",
-         "sex": null
+         "sex": 0
       },
       "a69": {
          "owner": "chronocrypto",
@@ -4206,7 +4511,7 @@ module.exports = {
          "stage": 5,
          "substage": 8,
          "id": "a69",
-         "sex": null
+         "sex": 0
       },
       "a70": {
          "owner": "chronocrypto",
@@ -4223,7 +4528,7 @@ module.exports = {
          "stage": 6,
          "substage": 2,
          "id": "a70",
-         "sex": null
+         "sex": 0
       },
       "b61": {
          "owner": "chronocrypto",
@@ -4235,7 +4540,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "id": "b61",
-         "sex": null
+         "sex": 0
       },
       "b62": {
          "owner": "chronocrypto",
@@ -4247,7 +4552,7 @@ module.exports = {
          "stage": 6,
          "substage": 0,
          "id": "b62",
-         "sex": null
+         "sex": 0
       },
       "c63": {
          "owner": "chronocrypto",
@@ -4264,7 +4569,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "id": "c63",
-         "sex": null
+         "sex": 0
       },
       "c64": {
          "owner": "chronocrypto",
@@ -4276,7 +4581,7 @@ module.exports = {
          "stage": 7,
          "substage": 5,
          "id": "c64",
-         "sex": null
+         "sex": 0
       },
       "d52": {
          "owner": "chronocrypto",
@@ -4288,7 +4593,7 @@ module.exports = {
          "stage": 7,
          "substage": 6,
          "id": "d52",
-         "sex": null
+         "sex": 0
       },
       "d53": {
          "owner": "chronocrypto",
@@ -4300,7 +4605,7 @@ module.exports = {
          "stage": 6,
          "substage": 0,
          "id": "d53",
-         "sex": null
+         "sex": 0
       },
       "e53": {
          "owner": "chronocrypto",
@@ -4315,7 +4620,7 @@ module.exports = {
             "beta"
          ],
          "id": "e53",
-         "sex": null
+         "sex": 0
       },
       "e54": {
          "owner": "chronocrypto",
@@ -4330,7 +4635,7 @@ module.exports = {
             "beta"
          ],
          "id": "e54",
-         "sex": null
+         "sex": 0
       },
       "c65": {
          "owner": "chronocrypto",
@@ -4342,7 +4647,7 @@ module.exports = {
          "stage": 5,
          "substage": 3,
          "id": "c65",
-         "sex": null
+         "sex": 0
       },
       "a71": {
          "owner": "chronocrypto",
@@ -4357,7 +4662,7 @@ module.exports = {
             "beta"
          ],
          "id": "a71",
-         "sex": null
+         "sex": 0
       },
       "f31": {
          "owner": "chronocrypto",
@@ -4377,7 +4682,7 @@ module.exports = {
             "beta"
          ],
          "id": "f31",
-         "sex": null
+         "sex": 0
       },
       "f32": {
          "owner": "chronocrypto",
@@ -4389,7 +4694,7 @@ module.exports = {
          "stage": 7,
          "substage": 8,
          "id": "f32",
-         "sex": null
+         "sex": 0
       },
       "b63": {
          "owner": "chronocrypto",
@@ -4404,7 +4709,7 @@ module.exports = {
             "beta"
          ],
          "id": "b63",
-         "sex": null
+         "sex": 0
       },
       "e55": {
          "owner": "chronocrypto",
@@ -4419,7 +4724,7 @@ module.exports = {
             "beta"
          ],
          "id": "e55",
-         "sex": null
+         "sex": 0
       },
       "e56": {
          "owner": "chronocrypto",
@@ -4434,7 +4739,7 @@ module.exports = {
             "beta"
          ],
          "id": "e56",
-         "sex": null
+         "sex": 0
       },
       "d67": {
          "owner": "abrockman",
@@ -4660,7 +4965,7 @@ module.exports = {
             "genesis"
          ],
          "id": "b78",
-         "sex": null
+         "sex": 0
       },
       "c83": {
          "owner": "saboin",
@@ -4689,7 +4994,7 @@ module.exports = {
             "genesis"
          ],
          "id": "c84",
-         "sex": null
+         "sex": 0
       },
       "b79": {
          "owner": "saboin",
@@ -4704,7 +5009,7 @@ module.exports = {
             "genesis"
          ],
          "id": "b79",
-         "sex": null
+         "sex": 0
       },
       "a96": {
          "owner": "saboin",
@@ -4719,7 +5024,7 @@ module.exports = {
             "genesis"
          ],
          "id": "a96",
-         "sex": null
+         "sex": 0
       },
       "b80": {
          "owner": "abrockman",
@@ -4788,7 +5093,7 @@ module.exports = {
          "planted": 38122021,
          "stage": 5,
          "substage": 9,
-         "sex": null,
+         "sex": 0,
          "id": "e80"
       },
       "c86": {
@@ -4822,7 +5127,7 @@ module.exports = {
          "planted": 38196458,
          "stage": 6,
          "substage": 0,
-         "sex": null,
+         "sex": 0,
          "id": "c87"
       },
       "d71": {
@@ -4834,7 +5139,7 @@ module.exports = {
          "planted": 38196473,
          "stage": 6,
          "substage": 6,
-         "sex": null,
+         "sex": 0,
          "id": "d71"
       },
       "f60": {
@@ -4846,7 +5151,7 @@ module.exports = {
          "planted": 38196479,
          "stage": 7,
          "substage": 4,
-         "sex": null,
+         "sex": 0,
          "id": "f60"
       },
       "b82": {
@@ -4858,7 +5163,7 @@ module.exports = {
          "planted": 38196505,
          "stage": 5,
          "substage": 8,
-         "sex": null,
+         "sex": 0,
          "id": "b82"
       },
       "e81": {
@@ -5012,7 +5317,7 @@ module.exports = {
          "planted": 38433483,
          "stage": 6,
          "substage": 10,
-         "sex": null,
+         "sex": 0,
          "id": "d76"
       },
       "d77": {
@@ -5035,7 +5340,7 @@ module.exports = {
          "planted": 38442140,
          "stage": 5,
          "substage": 2,
-         "sex": null,
+         "sex": 0,
          "id": "e84"
       },
       "f63": {
@@ -5063,7 +5368,7 @@ module.exports = {
          "planted": 38525403,
          "stage": 5,
          "substage": 6,
-         "sex": null,
+         "sex": 0,
          "id": "c92"
       },
       "f64": {
@@ -5080,7 +5385,7 @@ module.exports = {
          "planted": 38525432,
          "stage": 5,
          "substage": 1,
-         "sex": null,
+         "sex": 0,
          "id": "f64"
       },
       "b85": {
@@ -5262,7 +5567,7 @@ module.exports = {
             "genesis"
          ],
          "id": "a91",
-         "sex": null
+         "sex": 0
       },
       "a97": {
          "owner": "saboin",
@@ -5282,7 +5587,7 @@ module.exports = {
             "genesis"
          ],
          "id": "a97",
-         "sex": null
+         "sex": 0
       },
       "a111": {
          "owner": "saboin",
@@ -5430,7 +5735,7 @@ module.exports = {
             "beta"
          ],
          "id": "a93",
-         "sex": null
+         "sex": 0
       },
       "d69": {
          "owner": "abrockman",
@@ -5491,7 +5796,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "f59",
-         "sex": null
+         "sex": 0
       },
       "a102": {
          "owner": "abrockman",
@@ -5615,7 +5920,7 @@ module.exports = {
             "beta"
          ],
          "id": "c89",
-         "sex": null
+         "sex": 0
       },
       "f62": {
          "owner": "abrockman",
@@ -5688,7 +5993,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "id": "b86",
-         "sex": null
+         "sex": 0
       },
       "e85": {
          "owner": "jeffjagoe",
@@ -5803,7 +6108,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "id": "c99",
-         "sex": null
+         "sex": 0
       },
       "d82": {
          "owner": "tsnaks",
@@ -5815,7 +6120,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "d82",
-         "sex": null
+         "sex": 0
       },
       "e91": {
          "owner": "cuko",
