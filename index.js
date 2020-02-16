@@ -302,11 +302,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40859805; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40864606; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 40859805;
+const ago = ENV.ago || 40864606;
 const prefix = ENV.PREFIX || 'hk_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -323,9 +323,8 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
     startWith(sh)
   } else {
     let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' )
-    for(i=ebus.length -1;i>=0;i--){
+    for(i=ebus.length -1; i>=0; i--){
       if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
-      console.log('made report')
     }
     const mostRecent = recents.shift()
     console.log('starting properly')

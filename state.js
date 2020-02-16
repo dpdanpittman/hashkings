@@ -1076,7 +1076,7 @@ module.exports = {
             "Genesis"
          ],
          "id": "e17",
-         "sex": 1,
+         "sex": 1
       },
       "b42": {
          "owner": "jonyoudyer",
@@ -1308,7 +1308,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": [],
+         "terps": []
       },
       "a51": {
          "owner": "mulletwang",
@@ -1319,7 +1319,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": [],
+         "terps": []
       },
       "b44": {
          "owner": "mulletwang",
@@ -1330,7 +1330,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": [],
+         "terps": []
       },
       "e18": {
          "owner": "mulletwang",
@@ -1777,7 +1777,6 @@ module.exports = {
          ],
          "id": "c47",
          "sex": 1
-
       },
       "c48": {
          "owner": "gamewatch",
@@ -1792,7 +1791,7 @@ module.exports = {
             "Genesis"
          ],
          "id": "c48",
-         "sex": 0,
+         "sex": 0
       },
       "f6": {
          "owner": "onthewayout",
@@ -3076,7 +3075,6 @@ module.exports = {
          ],
          "id": "e52",
          "sex": 0
-
       },
       "e7": {
          "owner": "ghosthunter1",
@@ -5059,7 +5057,6 @@ module.exports = {
          ],
          "id": "b77",
          "sex": 1
-         
       },
       "b78": {
          "owner": "saboin",
@@ -6140,7 +6137,6 @@ module.exports = {
          ],
          "id": "f62",
          "sex": 1
-         
       },
       "c94": {
          "owner": "ghosthunter1",
@@ -6421,7 +6417,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "d84": {
          "owner": "anarcist69",
@@ -6434,7 +6430,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "e92": {
          "owner": "anarcist69",
@@ -6447,7 +6443,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "f68": {
          "owner": "anarcist69",
@@ -6460,7 +6456,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "a113": {
          "owner": "anarcist69",
@@ -6473,7 +6469,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "b93": {
          "owner": "anarcist69",
@@ -6486,7 +6482,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "f69": {
          "owner": "anarcist69",
@@ -6499,7 +6495,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "d85": {
          "owner": "anarcist69",
@@ -6512,7 +6508,7 @@ module.exports = {
          "substage": 0,
          "traits": [
             "Genesis"
-         ],
+         ]
       },
       "e93": {
          "owner": "anarcist69",
@@ -10402,18 +10398,6 @@ module.exports = {
       "e": []
    },
    "payday": [
-      [
-         {
-            "account": "mcoinz79",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-            "account": "nupulse",
-            "weight": 10000
-         }
-      ],
       [
          {
             "account": "rachaeldwatson",
