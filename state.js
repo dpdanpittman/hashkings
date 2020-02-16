@@ -731,7 +731,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "id": "a10"
@@ -746,7 +746,7 @@ module.exports = {
          "stage": 7,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a2",
          "sex": 0
@@ -761,7 +761,7 @@ module.exports = {
          "stage": 4,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b34",
          "sex": 0
@@ -777,7 +777,7 @@ module.exports = {
          "substage": 1,
          "id": "e14",
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "sex": 1
@@ -792,7 +792,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a43",
          "sex": 1
@@ -807,7 +807,7 @@ module.exports = {
          "stage": 5,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a7",
          "sex": 0
@@ -822,7 +822,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a49",
          "sex": 1
@@ -836,7 +836,7 @@ module.exports = {
          "stage": 2,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39630977,
@@ -852,7 +852,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "id": "a11"
@@ -900,7 +900,7 @@ module.exports = {
          "stage": 5,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b32",
          "sex": 1
@@ -915,7 +915,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a48",
          "sex": 0
@@ -935,7 +935,7 @@ module.exports = {
          "stage": 8,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 36472002,
@@ -952,7 +952,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 1,
          "id": "e8"
@@ -967,7 +967,7 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a17",
          "sex": 0
@@ -981,7 +981,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "id": "b41",
@@ -1007,7 +1007,7 @@ module.exports = {
          "stage": 8,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 36471996,
@@ -1029,7 +1029,7 @@ module.exports = {
          "stage": 9,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 36471974,
@@ -1046,7 +1046,7 @@ module.exports = {
          "stage": 7,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e11",
          "sex": 1
@@ -1073,7 +1073,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e17",
          "sex": 1
@@ -1088,7 +1088,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b42",
          "sex": 0
@@ -1103,7 +1103,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a3",
          "sex": 1
@@ -1118,7 +1118,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f9",
          "sex": 0
@@ -1133,7 +1133,7 @@ module.exports = {
          "stage": 3,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f1",
          "sex": 0
@@ -1148,7 +1148,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a46",
          "sex": 0
@@ -1163,7 +1163,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a15",
          "sex": 1
@@ -1178,7 +1178,7 @@ module.exports = {
          "stage": 4,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b3",
          "sex": 0
@@ -1193,7 +1193,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d3",
          "sex": 0
@@ -1246,7 +1246,7 @@ module.exports = {
          "stage": 2,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39845294,
@@ -1271,7 +1271,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40707676,
@@ -1292,7 +1292,7 @@ module.exports = {
          "stage": 1,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40621873,
@@ -1386,7 +1386,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a1",
          "sex": 0
@@ -1400,7 +1400,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 36367479,
@@ -1555,7 +1555,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "id": "e29",
@@ -1583,7 +1583,7 @@ module.exports = {
          "stage": 4,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e30",
          "sex": 0
@@ -1598,7 +1598,7 @@ module.exports = {
          "stage": 4,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b45",
          "sex": 0
@@ -1613,7 +1613,7 @@ module.exports = {
          "stage": 2,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b46",
          "sex": 1
@@ -1628,7 +1628,7 @@ module.exports = {
          "stage": 7,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e31",
          "sex": 1
@@ -1643,7 +1643,7 @@ module.exports = {
          "stage": 5,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f13",
          "sex": 0
@@ -1658,7 +1658,7 @@ module.exports = {
          "stage": 7,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b47",
          "sex": 1
@@ -1673,7 +1673,7 @@ module.exports = {
          "stage": 8,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d35",
          "sex": 0
@@ -1688,7 +1688,7 @@ module.exports = {
          "stage": 5,
          "substage": 6,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d36",
          "sex": 1
@@ -1703,7 +1703,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e33",
          "sex": 1
@@ -1718,7 +1718,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e34",
          "sex": 0
@@ -1733,7 +1733,7 @@ module.exports = {
          "stage": 4,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c45",
          "sex": 0
@@ -1748,7 +1748,7 @@ module.exports = {
          "stage": 8,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e35",
          "sex": 0
@@ -1797,7 +1797,7 @@ module.exports = {
          "stage": 4,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c47",
          "sex": 1
@@ -1812,7 +1812,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c48",
          "sex": 0
@@ -1832,7 +1832,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39953101,
@@ -1849,7 +1849,7 @@ module.exports = {
          "stage": 4,
          "substage": 6,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b49",
          "sex": 1
@@ -1864,7 +1864,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f16",
          "sex": 1
@@ -1879,7 +1879,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d37",
          "sex": 0
@@ -1931,7 +1931,7 @@ module.exports = {
          "stage": 2,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39756671,
@@ -1947,7 +1947,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 36380242,
@@ -1963,7 +1963,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a57",
          "sex": 0
@@ -2020,7 +2020,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39673600,
@@ -2050,7 +2050,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615410,
@@ -2080,7 +2080,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39704831,
@@ -2122,7 +2122,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39704829,
@@ -2164,7 +2164,7 @@ module.exports = {
          "stage": 3,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39665430,
@@ -2193,7 +2193,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f19",
          "sex": 0
@@ -2208,7 +2208,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d39",
          "sex": 1
@@ -2223,7 +2223,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f20",
          "sex": 0
@@ -2238,7 +2238,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c53",
          "sex": 1
@@ -2297,7 +2297,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a6",
          "sex": 0
@@ -2312,7 +2312,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f22",
          "sex": 0
@@ -2339,7 +2339,7 @@ module.exports = {
          "stage": 7,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b48",
          "sex": 0
@@ -2354,7 +2354,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f8",
          "sex": 1
@@ -2369,7 +2369,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a60",
          "sex": 0
@@ -2384,7 +2384,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f3",
          "sex": 1
@@ -2399,7 +2399,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b37",
          "sex": 0
@@ -2414,7 +2414,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d42",
          "sex": 0
@@ -2465,7 +2465,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d43",
          "sex": 1
@@ -2540,7 +2540,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a47",
          "sex": 1
@@ -2555,7 +2555,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c35",
          "sex": 0
@@ -2570,7 +2570,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f4",
          "sex": 1
@@ -2585,7 +2585,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d31",
          "sex": 0
@@ -2600,7 +2600,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d45",
          "sex": 1
@@ -2637,7 +2637,7 @@ module.exports = {
          "stage": 6,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e45",
          "sex": 1
@@ -2652,7 +2652,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a64",
          "sex": 0
@@ -2692,7 +2692,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39845299,
@@ -2734,7 +2734,7 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40102294,
@@ -2804,7 +2804,7 @@ module.exports = {
          "stage": 1,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40398110,
@@ -2833,7 +2833,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40018917,
@@ -2911,7 +2911,7 @@ module.exports = {
          "stage": 3,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40102297,
@@ -2941,7 +2941,7 @@ module.exports = {
          "stage": 3,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39924007,
@@ -2994,7 +2994,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c61",
          "sex": 1
@@ -3009,7 +3009,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c62",
          "sex": 0
@@ -3024,7 +3024,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e50",
          "sex": 0
@@ -3039,7 +3039,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d51",
          "sex": 1
@@ -3065,7 +3065,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e32",
          "sex": 0
@@ -3080,7 +3080,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e51",
          "sex": 2
@@ -3095,7 +3095,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e52",
          "sex": 0
@@ -3110,7 +3110,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "e7"
@@ -3125,7 +3125,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "b1"
@@ -3200,7 +3200,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a18",
          "sex": 1
@@ -3215,7 +3215,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d4",
          "sex": 0
@@ -3230,7 +3230,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c8"
       },
@@ -3248,7 +3248,7 @@ module.exports = {
          "stage": 5,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 37997008,
@@ -3275,7 +3275,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 37462681,
@@ -3296,7 +3296,7 @@ module.exports = {
          "stage": 5,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 37997003,
@@ -3313,7 +3313,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a8",
          "sex": 0
@@ -3341,7 +3341,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "id": "f34",
@@ -3408,7 +3408,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615533,
@@ -3429,7 +3429,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615539,
@@ -3446,7 +3446,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e61",
          "sex": 1
@@ -3461,7 +3461,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0
       },
@@ -3475,7 +3475,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 1,
          "id": "c69"
@@ -3490,7 +3490,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c70",
          "sex": 0
@@ -3505,7 +3505,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d56",
          "sex": 1
@@ -3520,7 +3520,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e63",
          "sex": 1
@@ -3535,7 +3535,7 @@ module.exports = {
          "stage": 4,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a75",
          "sex": 0
@@ -3563,7 +3563,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615542,
@@ -3593,7 +3593,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615566,
@@ -3614,7 +3614,7 @@ module.exports = {
          "stage": 3,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615572,
@@ -3635,7 +3635,7 @@ module.exports = {
          "stage": 3,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39615325,
@@ -3660,7 +3660,7 @@ module.exports = {
          "stage": 3,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615551,
@@ -3690,7 +3690,7 @@ module.exports = {
          "stage": 1,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615548,
@@ -3719,7 +3719,7 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615626,
@@ -3740,7 +3740,7 @@ module.exports = {
          "stage": 3,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39924011,
@@ -3772,7 +3772,7 @@ module.exports = {
          "stage": 1,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40502386,
@@ -3801,7 +3801,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615606,
@@ -3838,7 +3838,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40102302,
@@ -3879,7 +3879,7 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39615652,
@@ -3921,7 +3921,7 @@ module.exports = {
          "stage": 1,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40537003,
@@ -3941,7 +3941,7 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40102307,
@@ -3957,7 +3957,7 @@ module.exports = {
          "stage": 6,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "a81",
          "sex": 0
@@ -3972,7 +3972,7 @@ module.exports = {
          "stage": 5,
          "substage": 3,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "e67",
          "sex": 0
@@ -4007,7 +4007,7 @@ module.exports = {
          "stage": 3,
          "substage": 4,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39658336,
@@ -4022,7 +4022,7 @@ module.exports = {
          "stage": 1,
          "substage": 6,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39704079,
@@ -4038,7 +4038,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f42",
          "sex": 1
@@ -4053,7 +4053,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a82"
       },
@@ -4067,7 +4067,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b70"
       },
@@ -4081,7 +4081,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f43",
          "sex": 1
@@ -4095,7 +4095,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 39658349,
@@ -4111,7 +4111,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "f37"
       },
@@ -4130,7 +4130,7 @@ module.exports = {
          "stage": 2,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 39983477,
@@ -4146,7 +4146,7 @@ module.exports = {
          "stage": 7,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "b71"
@@ -4160,7 +4160,7 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "terps": [],
          "planted": 40417692,
@@ -4176,7 +4176,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f45",
          "sex": 1
@@ -4191,7 +4191,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f46",
          "sex": 0
@@ -4206,7 +4206,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a84",
          "sex": 1
@@ -4226,7 +4226,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "c77"
@@ -4241,7 +4241,7 @@ module.exports = {
          "stage": 4,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "d62",
          "sex": 0
@@ -4256,7 +4256,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f47",
          "sex": 1
@@ -4271,7 +4271,7 @@ module.exports = {
          "stage": 5,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0
       },
@@ -4289,7 +4289,7 @@ module.exports = {
          "stage": 1,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40681921,
@@ -4318,7 +4318,7 @@ module.exports = {
          "stage": 1,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40447684,
@@ -4342,7 +4342,7 @@ module.exports = {
          "stage": 1,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40681925,
@@ -4362,7 +4362,7 @@ module.exports = {
          "stage": 1,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40707682,
@@ -4391,7 +4391,7 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "terps": [],
          "planted": 40019026,
@@ -4465,7 +4465,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e72",
          "sex": 1
@@ -4480,7 +4480,7 @@ module.exports = {
          "stage": 7,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "e70",
          "sex": 0
@@ -4501,7 +4501,7 @@ module.exports = {
          "stage": 5,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "f52"
@@ -4516,7 +4516,7 @@ module.exports = {
          "stage": 5,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f48",
          "sex": 1
@@ -4571,7 +4571,7 @@ module.exports = {
          "stage": 6,
          "substage": 0,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "f55",
          "sex": 0
@@ -4586,7 +4586,7 @@ module.exports = {
          "stage": 7,
          "substage": 6,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "b74",
          "sex": 0
@@ -4624,7 +4624,7 @@ module.exports = {
          "stage": 5,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a69",
          "sex": 0
@@ -4644,7 +4644,7 @@ module.exports = {
          "stage": 6,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a70",
          "sex": 0
@@ -4659,7 +4659,7 @@ module.exports = {
          "stage": 5,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b61",
          "sex": 0
@@ -4674,7 +4674,7 @@ module.exports = {
          "stage": 6,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b62",
          "sex": 0
@@ -4694,7 +4694,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c63",
          "sex": 0
@@ -4709,7 +4709,7 @@ module.exports = {
          "stage": 7,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c64",
          "sex": 0
@@ -4724,7 +4724,7 @@ module.exports = {
          "stage": 7,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d52",
          "sex": 0
@@ -4751,7 +4751,7 @@ module.exports = {
          "stage": 5,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e53",
          "sex": 0
@@ -4766,7 +4766,7 @@ module.exports = {
          "stage": 5,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e54",
          "sex": 0
@@ -4781,7 +4781,7 @@ module.exports = {
          "stage": 5,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c65",
          "sex": 0
@@ -4796,7 +4796,7 @@ module.exports = {
          "stage": 8,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "a71",
          "sex": 0
@@ -4816,7 +4816,7 @@ module.exports = {
          "stage": 6,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "f31",
          "sex": 0
@@ -4831,7 +4831,7 @@ module.exports = {
          "stage": 7,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f32",
          "sex": 0
@@ -4846,7 +4846,7 @@ module.exports = {
          "stage": 6,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "b63",
          "sex": 0
@@ -4861,7 +4861,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e55",
          "sex": 0
@@ -4876,7 +4876,7 @@ module.exports = {
          "stage": 7,
          "substage": 5,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e56",
          "sex": 0
@@ -5047,7 +5047,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e78",
          "sex": 1
@@ -5060,7 +5060,7 @@ module.exports = {
          "aff": [],
          "planted": 37909137,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "stage": 4,
          "substage": 1,
@@ -5077,7 +5077,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b77",
          "sex": 1
@@ -5092,7 +5092,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b78",
          "sex": 0
@@ -5107,7 +5107,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c83",
          "sex": 0
@@ -5122,7 +5122,7 @@ module.exports = {
          "stage": 6,
          "substage": 2,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "c84",
          "sex": 0
@@ -5137,7 +5137,7 @@ module.exports = {
          "stage": 5,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "b79",
          "sex": 0
@@ -5152,7 +5152,7 @@ module.exports = {
          "stage": 7,
          "substage": 0,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "a96",
          "sex": 0
@@ -5220,7 +5220,7 @@ module.exports = {
          "stage": 5,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "e80"
@@ -5246,7 +5246,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c86",
          "sex": 1
@@ -5261,7 +5261,7 @@ module.exports = {
          "stage": 6,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "c87"
@@ -5276,7 +5276,7 @@ module.exports = {
          "stage": 6,
          "substage": 6,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "d71"
@@ -5291,7 +5291,7 @@ module.exports = {
          "stage": 7,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "f60"
@@ -5306,7 +5306,7 @@ module.exports = {
          "stage": 5,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "b82"
@@ -5321,7 +5321,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e81",
          "sex": 1
@@ -5419,7 +5419,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c90",
          "sex": 1
@@ -5445,7 +5445,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c91",
          "sex": 1
@@ -5470,7 +5470,7 @@ module.exports = {
          "stage": 6,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "d76"
@@ -5485,7 +5485,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d77",
          "sex": 0
@@ -5500,7 +5500,7 @@ module.exports = {
          "stage": 5,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "e84"
@@ -5515,7 +5515,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f63",
          "sex": 1
@@ -5552,7 +5552,7 @@ module.exports = {
          "stage": 5,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "sex": 0,
          "id": "f64"
@@ -5567,7 +5567,7 @@ module.exports = {
          "stage": 4,
          "substage": 4,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b85",
          "sex": 1
@@ -5588,7 +5588,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d80",
          "sex": 0
@@ -5603,7 +5603,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d81",
          "sex": 1
@@ -5618,7 +5618,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c95",
          "sex": 0
@@ -5633,7 +5633,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "f66",
          "sex": 1
@@ -5670,7 +5670,7 @@ module.exports = {
          "stage": 3,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a108",
          "sex": 1
@@ -5695,7 +5695,7 @@ module.exports = {
          "stage": 4,
          "substage": 3,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "b88",
          "sex": 0
@@ -5710,7 +5710,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "c97",
          "sex": 1
@@ -5725,7 +5725,7 @@ module.exports = {
          "stage": 3,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "b89",
          "sex": 1
@@ -5740,7 +5740,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "f70"
       },
@@ -5760,7 +5760,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "a91",
          "sex": 0
@@ -5780,7 +5780,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "a97",
          "sex": 0
@@ -5800,7 +5800,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "a111"
       },
@@ -5858,7 +5858,7 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a106",
          "sex": 0
@@ -5879,7 +5879,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c93",
          "sex": 1
@@ -5908,7 +5908,7 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "a90"
       },
@@ -5936,7 +5936,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "a93",
          "sex": 0
@@ -5960,7 +5960,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "d69",
          "sex": 1
@@ -6043,7 +6043,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e82",
          "sex": 1
@@ -6067,7 +6067,7 @@ module.exports = {
          "stage": 3,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d72",
          "sex": 0
@@ -6087,7 +6087,7 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "e83",
          "sex": 1
@@ -6128,7 +6128,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "c89",
          "sex": 0
@@ -6157,7 +6157,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "f62",
          "sex": 1
@@ -6172,7 +6172,7 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "c94",
          "sex": 0
@@ -6198,7 +6198,7 @@ module.exports = {
          "stage": 2,
          "substage": 5,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a94",
          "sex": 1
@@ -6213,7 +6213,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b86",
          "sex": 0
@@ -6228,7 +6228,7 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "e85",
          "sex": 1
@@ -6296,7 +6296,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "a112",
          "sex": 0
@@ -6311,7 +6311,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "b81"
       },
@@ -6325,7 +6325,7 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "b90",
          "sex": 1
@@ -6345,7 +6345,7 @@ module.exports = {
          "stage": 2,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "c99",
          "sex": 0
@@ -6360,7 +6360,7 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d82",
          "sex": 0
@@ -6373,7 +6373,7 @@ module.exports = {
          "aff": [],
          "planted": 40719443,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "stage": 1,
          "substage": 1,
@@ -6398,7 +6398,7 @@ module.exports = {
          "stage": 1,
          "substage": 2,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ],
          "id": "d83"
       },
@@ -6430,7 +6430,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "genesis"
+            "Genesis Seed"
          ],
          "id": "b91"
       },
@@ -6444,7 +6444,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "d84": {
@@ -6457,7 +6457,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "e92": {
@@ -6470,7 +6470,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "f68": {
@@ -6483,7 +6483,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "a113": {
@@ -6496,7 +6496,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "b93": {
@@ -6509,7 +6509,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "f69": {
@@ -6522,7 +6522,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "d85": {
@@ -6535,7 +6535,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "Genesis"
+            "Genesis Seed"
          ]
       },
       "e93": {
@@ -6574,7 +6574,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Seed"
          ],
          "id": "a100"
       }
@@ -6730,7 +6730,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -6769,56 +6769,56 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -6913,7 +6913,7 @@ module.exports = {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -6924,7 +6924,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -6935,7 +6935,7 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -7300,21 +7300,21 @@ module.exports = {
                "strain": "cg",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -7403,7 +7403,7 @@ module.exports = {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -7457,7 +7457,7 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "genesis"
+                  "Genesis Seed"
                ]
             }
          ],
@@ -7485,21 +7485,21 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -7517,14 +7517,14 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -7543,14 +7543,14 @@ module.exports = {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -7576,14 +7576,14 @@ module.exports = {
                "strain": "lb",
                "xp": 750,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 750,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -7706,1043 +7706,1043 @@ module.exports = {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
-            },
-            {
-               "strain": "kmj",
-               "xp": 50,
-               "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -8760,42 +8760,42 @@ module.exports = {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -8850,280 +8850,280 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -9207,28 +9207,28 @@ module.exports = {
                "strain": "kmj",
                "xp": 750,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kmj",
                "xp": 750,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -9282,14 +9282,14 @@ module.exports = {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -9396,21 +9396,21 @@ module.exports = {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -9421,7 +9421,7 @@ module.exports = {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -9432,133 +9432,133 @@ module.exports = {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -9691,21 +9691,21 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "dp",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -9754,7 +9754,7 @@ module.exports = {
                "strain": "dp",
                "xp": 10,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
@@ -9877,84 +9877,84 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "genesis"
+                  "Genesis Seed"
                ]
             },
             {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "genesis"
+                  "Genesis Seed"
                ]
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "genesis"
+                  "Genesis Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "genesis"
+                  "Genesis Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
@@ -10238,14 +10238,14 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Seed"
                ]
             }
          ],
