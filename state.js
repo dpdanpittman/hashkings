@@ -4138,17 +4138,14 @@ module.exports = {
       },
       "b71": {
          "owner": "saboin",
-         "strain": "mal",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 36340722,
-         "stage": 7,
-         "substage": 2,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "sex": 0,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "b71"
       },
       "a83": {
@@ -4213,38 +4210,27 @@ module.exports = {
       },
       "c77": {
          "owner": "saboin",
-         "strain": "ach",
-         "xp": 50,
-         "care": [
-            [
-               40728360,
-               "watered"
-            ]
-         ],
+         "strain": "",
+         "xp": 0,
+         "care": [],
          "aff": [],
-         "planted": 36550308,
-         "stage": 6,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "sex": 0,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
          "id": "c77"
       },
       "d62": {
          "owner": "saboin",
-         "strain": "tha",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 36550315,
-         "stage": 4,
-         "substage": 2,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d62",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "d62"
       },
       "f47": {
          "owner": "mulletwang",
@@ -4472,18 +4458,15 @@ module.exports = {
       },
       "e70": {
          "owner": "saboin",
-         "strain": "kbr",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 36793676,
-         "stage": 7,
-         "substage": 2,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "e70",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "e70"
       },
       "f52": {
          "owner": "chunkysoupsvc",
@@ -4558,38 +4541,27 @@ module.exports = {
       },
       "f55": {
          "owner": "saboin",
-         "strain": "dp",
-         "xp": 50,
-         "care": [
-            [
-               40728360,
-               "watered"
-            ]
-         ],
+         "strain": "",
+         "xp": 0,
+         "care": [],
          "aff": [],
-         "planted": 37021811,
-         "stage": 6,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "f55",
-         "sex": 0
+         "traits": [],
+         "terps": [],
+         "id": "f55"
       },
       "b74": {
          "owner": "saboin",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 37021825,
-         "stage": 7,
-         "substage": 6,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b74",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "b74"
       },
       "e73": {
          "owner": "rachaeldwatson",
@@ -5084,18 +5056,15 @@ module.exports = {
       },
       "b78": {
          "owner": "saboin",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 37987784,
-         "stage": 6,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b78",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "b78"
       },
       "c83": {
          "owner": "saboin",
@@ -5114,48 +5083,39 @@ module.exports = {
       },
       "c84": {
          "owner": "saboin",
-         "strain": "pam",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 37987842,
-         "stage": 6,
-         "substage": 2,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "c84",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c84"
       },
       "b79": {
          "owner": "saboin",
-         "strain": "mis",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 37987848,
-         "stage": 5,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b79",
-         "sex": 0
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "b79"
       },
       "a96": {
          "owner": "saboin",
-         "strain": "afg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 37987851,
-         "stage": 7,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "a96",
-         "sex": 0
+         "traits": [],
+         "terps": [],
+         "id": "a96"
       },
       "b80": {
          "owner": "abrockman",
@@ -5625,18 +5585,15 @@ module.exports = {
       },
       "f66": {
          "owner": "saboin",
-         "strain": "aca",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 39106049,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "f66",
-         "sex": 1
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "f66"
       },
       "b87": {
          "owner": "meowgan",
@@ -5702,18 +5659,15 @@ module.exports = {
       },
       "c97": {
          "owner": "saboin",
-         "strain": "hk",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "planted": 39333315,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "c97",
-         "sex": 1
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "id": "c97"
       },
       "b89": {
          "owner": "saboin",
@@ -9908,6 +9862,174 @@ module.exports = {
                   "Beta Seed"
                ]
             },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "ach",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "tha",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "pam",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "aca",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "ach",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "tha",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "pam",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "aca",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },            
             {
                "strain": "cht",
                "xp": 50,
