@@ -1,6 +1,6 @@
 {
   "name": "hashkings-api",
-  "version": "0.0.1",
+  "version": "5.7.5",
   "description": "Steem Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "qwoyn",
     "hashkings"
   ],
-  "author": "disregardfiat",
+  "author": "disregardfiat, qwoyn",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
