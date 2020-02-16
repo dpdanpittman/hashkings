@@ -789,9 +789,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 31900185,
-         "stage": 2,
-         "substage": 13,
-         "id": "a43"
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a43",
+         "sex": 1
       },
       "a7": {
          "owner": "prettynicevideo",
@@ -815,8 +819,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 31905556,
-         "stage": 2,
-         "substage": 7,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Genesis"
          ],
@@ -851,8 +855,7 @@ module.exports = {
             "Genesis"
          ],
          "terps": [],
-         "id": "a11",
-         "sex": 1
+         "id": "a11"
       },
       "b2": {
          "owner": "bluntsmasha",
@@ -895,7 +898,10 @@ module.exports = {
          "aff": [],
          "planted": 31929923,
          "stage": 5,
-         "substage": 12,
+         "substage": 5,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b32",
          "sex": 1
       },
@@ -906,8 +912,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 31932911,
-         "stage": 2,
-         "substage": 12,
+         "stage": 4,
+         "substage": 4,
          "traits": [
             "Genesis"
          ],
@@ -927,7 +933,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 8,
-         "substage": 13,
+         "substage": 4,
          "traits": [
             "beta"
          ],
@@ -958,7 +964,7 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 31968683,
-         "stage": 1,
+         "stage": 3,
          "substage": 2,
          "traits": [
             "Genesis"
@@ -972,7 +978,7 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
-         "stage": 1,
+         "stage": 4,
          "substage": 0,
          "traits": [
             "Genesis"
@@ -1038,7 +1044,7 @@ module.exports = {
          "aff": [],
          "planted": 32020193,
          "stage": 7,
-         "substage": 7,
+         "substage": 3,
          "traits": [
             "Genesis"
          ],
@@ -1064,7 +1070,7 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32481352,
-         "stage": 1,
+         "stage": 4,
          "substage": 3,
          "traits": [
             "Genesis"
@@ -1139,8 +1145,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32565834,
-         "stage": 1,
-         "substage": 11,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Genesis"
          ],
@@ -1154,8 +1160,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32577329,
-         "stage": 1,
-         "substage": 2,
+         "stage": 4,
+         "substage": 4,
          "traits": [
             "Genesis"
          ],
@@ -1169,7 +1175,7 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32577449,
-         "stage": 1,
+         "stage": 4,
          "substage": 2,
          "traits": [
             "Genesis"
@@ -1184,8 +1190,8 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32577489,
-         "stage": 1,
-         "substage": 1,
+         "stage": 4,
+         "substage": 4,
          "traits": [
             "Genesis"
          ],
@@ -1377,9 +1383,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32821622,
-         "stage": 2,
+         "stage": 4,
          "substage": 0,
-         "id": "a1"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a1",
+         "sex": 0
       },
       "f11": {
          "owner": "choosefreedom",
@@ -1546,7 +1556,7 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32917993,
-         "stage": 2,
+         "stage": 4,
          "substage": 5,
          "traits": [
             "Genesis"
@@ -1561,7 +1571,7 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 32918003,
-         "stage": 2,
+         "stage": 4,
          "substage": 5,
          "traits": [
             "Genesis"
@@ -1927,9 +1937,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33193480,
-         "stage": 3,
-         "substage": 10,
-         "id": "a57"
+         "stage": 4,
+         "substage": 4,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a57",
+         "sex": 0
       },
       "d40": {
          "owner": "abrockman",
@@ -2131,18 +2145,14 @@ module.exports = {
          ],
          "terps": [],
          "planted": 39665430,
-         "id": "a59"
+         "id": "a59",
+         "sex": 1
       },
       "d41": {
          "owner": "abrockman",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40798491,
-               "harvested"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -2158,11 +2168,12 @@ module.exports = {
          "aff": [],
          "planted": 33197746,
          "stage": 1,
-         "substage": 8,
+         "substage": 1,
          "traits": [
             "Genesis"
          ],
-         "id": "f19"
+         "id": "f19",
+         "sex": 0
       },
       "d39": {
          "owner": "guiltyparties",
@@ -2277,6 +2288,9 @@ module.exports = {
          "planted": 33266589,
          "stage": 4,
          "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "f22",
          "sex": 0
       },
@@ -2565,7 +2579,8 @@ module.exports = {
          "traits": [
             "Genesis"
          ],
-         "id": "d45"
+         "id": "d45",
+         "sex": 1
       },
       "c56": {
          "owner": "yabapmatt",
@@ -2611,11 +2626,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 33540883,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Genesis"
          ],
-         "stage": 3,
-         "substage": 0
+         "id": "a64",
+         "sex": 0
       },
       "c57": {
          "owner": "abrockman",
@@ -2656,7 +2673,8 @@ module.exports = {
          ],
          "terps": [],
          "planted": 39845299,
-         "id": "f28"
+         "id": "f28",
+         "sex": 1
       },
       "b58": {
          "owner": "abrockman",
@@ -2815,12 +2833,7 @@ module.exports = {
          "owner": "abrockman",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40798491,
-               "harvested"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -2879,7 +2892,8 @@ module.exports = {
          ],
          "terps": [],
          "planted": 40102297,
-         "id": "c59"
+         "id": "c59",
+         "sex": 0
       },
       "a67": {
          "owner": "abrockman",
@@ -2908,7 +2922,8 @@ module.exports = {
          ],
          "terps": [],
          "planted": 39924007,
-         "id": "a67"
+         "id": "a67",
+         "sex": 1
       },
       "e49": {
          "owner": "abrockman",
@@ -2926,12 +2941,7 @@ module.exports = {
          "owner": "abrockman",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40798491,
-               "harvested"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
