@@ -7142,9 +7142,15 @@ module.exports = {
       },
       "jrawsthorne": {
          "addrs": [
-            "f8"
+            "f8",
+            "a117"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "aca",
+               "xp": 2250
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
