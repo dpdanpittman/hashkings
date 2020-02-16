@@ -5605,7 +5605,8 @@ module.exports = {
          "aff": [],
          "planted": 39186713,
          "stage": 1,
-         "substage": 5
+         "substage": 5,
+         "id": "b87"
       },
       "c96": {
          "owner": "meowgan",
@@ -5615,7 +5616,8 @@ module.exports = {
          "aff": [],
          "planted": 39273991,
          "stage": 1,
-         "substage": 4
+         "substage": 4,
+         "id": "c96"
       },
       "a108": {
          "owner": "ganjafarmer",
@@ -5624,8 +5626,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 39306807,
-         "stage": 1,
-         "substage": 5
+         "stage": 3,
+         "substage": 5,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a108",
+         "sex": 1
       },
       "e87": {
          "owner": "ganjafarmer",
@@ -5644,12 +5651,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 39333310,
-         "stage": 3,
-         "substage": 8,
+         "stage": 4,
+         "substage": 3,
          "traits": [
             "genesis"
          ],
-         "id": "b88"
+         "id": "b88",
+         "sex": 0
       },
       "c97": {
          "owner": "saboin",
@@ -5659,11 +5667,12 @@ module.exports = {
          "aff": [],
          "planted": 39333315,
          "stage": 4,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "genesis"
          ],
-         "id": "c97"
+         "id": "c97",
+         "sex": 1
       },
       "b89": {
          "owner": "saboin",
@@ -5677,7 +5686,8 @@ module.exports = {
          "traits": [
             "genesis"
          ],
-         "id": "b89"
+         "id": "b89",
+         "sex": 1
       },
       "f70": {
          "owner": "saboin",
@@ -5746,8 +5756,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39578640,
-         "stage": 2,
-         "substage": 11,
+         "stage": 4,
+         "substage": 1,
          "traits": [
             "genesis"
          ],
@@ -5806,7 +5816,11 @@ module.exports = {
          "planted": 39605850,
          "stage": 3,
          "substage": 3,
-         "id": "a106"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a106",
+         "sex": 0
       },
       "c93": {
          "owner": "jeffjagoe",
@@ -5823,7 +5837,11 @@ module.exports = {
          "planted": 39605855,
          "stage": 2,
          "substage": 3,
-         "id": "c93"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "c93",
+         "sex": 1
       },
       "a90": {
          "owner": "abrockman",
@@ -5898,12 +5916,13 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39615213,
-         "stage": 1,
-         "substage": 8,
+         "stage": 2,
+         "substage": 3,
          "traits": [
             "beta"
          ],
-         "id": "d69"
+         "id": "d69",
+         "sex": 1
       },
       "a99": {
          "owner": "abrockman",
@@ -5980,12 +5999,13 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39615273,
-         "stage": 1,
-         "substage": 8,
+         "stage": 2,
+         "substage": 1,
          "traits": [
             "beta"
          ],
-         "id": "e82"
+         "id": "e82",
+         "sex": 1
       },
       "d72": {
          "owner": "abrockman",
@@ -6005,7 +6025,11 @@ module.exports = {
          "planted": 39615285,
          "stage": 3,
          "substage": 5,
-         "id": "d72"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "d72",
+         "sex": 0
       },
       "e83": {
          "owner": "abrockman",
@@ -6019,12 +6043,13 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39615288,
-         "stage": 1,
-         "substage": 12,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "beta"
          ],
-         "id": "e83"
+         "id": "e83",
+         "sex": 1
       },
       "a104": {
          "owner": "abrockman",
@@ -6088,9 +6113,14 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39615313,
-         "stage": 1,
-         "substage": 10,
-         "id": "f62"
+         "stage": 2,
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "f62",
+         "sex": 1
+         
       },
       "c94": {
          "owner": "ghosthunter1",
@@ -6104,7 +6134,8 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "id": "c94"
+         "id": "c94",
+         "sex": 0
       },
       "a94": {
          "owner": "rachaeldwatson",
@@ -6124,9 +6155,13 @@ module.exports = {
          ],
          "aff": [],
          "planted": 39649112,
-         "stage": 1,
-         "substage": 12,
-         "id": "a94"
+         "stage": 2,
+         "substage": 5,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a94",
+         "sex": 1
       },
       "b86": {
          "owner": "jeffjagoe",
@@ -6137,6 +6172,9 @@ module.exports = {
          "planted": 39724099,
          "stage": 2,
          "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b86",
          "sex": 0
       },
@@ -6149,7 +6187,11 @@ module.exports = {
          "planted": 39724113,
          "stage": 3,
          "substage": 2,
-         "id": "e85"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "e85",
+         "sex": 1
       },
       "a109": {
          "owner": "ganjafarmer",
@@ -6211,8 +6253,13 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 40061164,
-         "stage": 1,
-         "substage": 11
+         "stage": 2,
+         "substage": 3,
+         "traits": [
+            "Genesis"
+         ],
+         "id": "a112",
+         "sex": 0
       },
       "b81": {
          "owner": "road2nowhere",
@@ -6225,7 +6272,8 @@ module.exports = {
          "substage": 0,
          "traits": [
             "beta"
-         ]
+         ],
+         "id": "b81"
       },
       "b90": {
          "owner": "jbsharkey",
@@ -6236,7 +6284,11 @@ module.exports = {
          "planted": 40254636,
          "stage": 2,
          "substage": 2,
-         "id": "b90"
+         "traits": [
+            "Genesis"
+         ],
+         "id": "b90",
+         "sex": 1
       },
       "c99": {
          "owner": "tsnaks",
@@ -6252,6 +6304,9 @@ module.exports = {
          "planted": 40583319,
          "stage": 2,
          "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
          "id": "c99",
          "sex": 0
       },
@@ -6264,6 +6319,9 @@ module.exports = {
          "planted": 40583322,
          "stage": 2,
          "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "d82",
          "sex": 0
       },
@@ -6274,6 +6332,9 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 40719443,
+         "traits": [
+            "Genesis"
+         ],
          "stage": 1,
          "substage": 1,
          "id": "e91"
@@ -6296,6 +6357,9 @@ module.exports = {
          "planted": 40778449,
          "stage": 1,
          "substage": 2,
+         "traits": [
+            "Genesis"
+         ],
          "id": "d83"
       },
       "b91": {
@@ -6321,6 +6385,9 @@ module.exports = {
          "planted": 40794325,
          "stage": 1,
          "substage": 1,
+         "traits": [
+            "Genesis"
+         ],
          "id": "b91"
       },
       "b92": {
@@ -6331,7 +6398,10 @@ module.exports = {
          "aff": [],
          "planted": 40809789,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "d84": {
          "owner": "anarcist69",
@@ -6341,7 +6411,10 @@ module.exports = {
          "aff": [],
          "planted": 40809799,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "e92": {
          "owner": "anarcist69",
@@ -6351,7 +6424,10 @@ module.exports = {
          "aff": [],
          "planted": 40809802,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "f68": {
          "owner": "anarcist69",
@@ -6361,7 +6437,10 @@ module.exports = {
          "aff": [],
          "planted": 40809807,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "a113": {
          "owner": "anarcist69",
@@ -6371,7 +6450,10 @@ module.exports = {
          "aff": [],
          "planted": 40809812,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "b93": {
          "owner": "anarcist69",
@@ -6381,7 +6463,10 @@ module.exports = {
          "aff": [],
          "planted": 40809816,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "f69": {
          "owner": "anarcist69",
@@ -6391,7 +6476,10 @@ module.exports = {
          "aff": [],
          "planted": 40809834,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "d85": {
          "owner": "anarcist69",
@@ -6401,7 +6489,10 @@ module.exports = {
          "aff": [],
          "planted": 40809839,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "traits": [
+            "Genesis"
+         ],
       },
       "e93": {
          "owner": "anarcist69",
@@ -10321,9 +10412,6 @@ module.exports = {
       "steembeem": true
    },
    "cs": {
-      "40855002:qwoyn-dev": "qwoyn-dev refunded successfully",
-      "40855127:qwoyn-fund": "qwoyn-fund refunded successfully",
-      "40855252:qwoyn": "qwoyn refunded successfully",
       "40855377:hashkings": "29250 to vesting"
    }
 }
