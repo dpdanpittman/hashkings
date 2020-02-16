@@ -11,7 +11,7 @@ const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({
     host: 'ipfs.infura.io',
     port: 5001,
-    protocol: 'https'
+    protocol: 'http'
 });
 
 /*  const init holds the initial state of a user in the form of a json 
