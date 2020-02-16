@@ -1602,16 +1602,11 @@ function listBens (bens){
 }
 
 function daily(addr) {
-    var grown = false, harvested = false, cleanupindex = 0
-    
-    function cleanup (adr,ind){
-        state.land[adr].care.splice(0,ind)
-      }
+    var grown = false, harvested = false
 
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
-                cleanup = i
                 state.land[addr].care.splice(i,1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
                 if(!grown)state.land[addr].care[i].push('c')
@@ -1682,7 +1677,6 @@ function daily(addr) {
                    }
             
             }
-            cleanup(addr, cleanupindex);
                   
                 }
                 
