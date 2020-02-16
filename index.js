@@ -221,11 +221,14 @@ app.get('/', (req, res, next) => {
 
 //shows user seeds
 app.get('/s/:user', (req, res, next) => {
-    let user = req.params.user
+    let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify({
-        seeds: state.users[user]
-    }, null, 3))
+    if(state.users[user]){
+        for (var i = 0 ; i < state.users[user].seeds.length ; i++){
+            arr.push(state.users[user].seeds[i])
+        }
+    }
+    res.send(JSON.stringify(arr, null, 3))
 });
 
 //post payouts in que
