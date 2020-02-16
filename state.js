@@ -7148,7 +7148,10 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "genesis"
+               ]
             }
          ],
          "inv": [],
