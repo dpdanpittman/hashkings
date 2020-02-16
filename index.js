@@ -1693,7 +1693,7 @@ function daily(addr) {
                     console.log('harvesting error', e.message)
                    }
             
-            }cleanup(addr, cleanupindex)
+            }//cleanup(addr, cleanupindex)
                   
                 }
                 
