@@ -567,14 +567,14 @@ module.exports = {
             "lat": "-22.9",
             "lon": "-43.2",
             "weather": {
-               "high": 300.65,
-               "low": 298.01,
+               "high": 300.68,
+               "low": 297.92,
                "avg": "299.6",
-               "precip": 2.19,
-               "clouds": 6,
-               "humidity": 88,
-               "winds": 0.67,
-               "windd": 343
+               "precip": 2.38,
+               "clouds": 25,
+               "humidity": 86,
+               "winds": 0.84,
+               "windd": 345
             }
          },
          "e": {
@@ -979,11 +979,6 @@ module.exports = {
          "strain": "kbr",
          "xp": 2250,
          "care": [
-            [
-               40808735,
-               "watered",
-               "c"
-            ],
             [
                40721041,
                "watered",
@@ -1453,11 +1448,6 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
                "harvested"
             ]
@@ -1626,12 +1616,7 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               40828209,
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -1658,7 +1643,8 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "id": "c46"
       },
       "c47": {
          "owner": "molovelly",
@@ -2961,11 +2947,6 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40820687,
-               "watered",
-               "c"
-            ],
-            [
                40794857,
                "watered"
             ]
@@ -3147,16 +3128,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -3308,16 +3280,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -3645,16 +3608,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -3674,16 +3628,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -4069,16 +4014,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -4193,13 +4129,7 @@ module.exports = {
          "owner": "saboin",
          "strain": "kbr",
          "xp": 50,
-         "care": [
-            [
-               40800982,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 36793676,
          "stage": 7,
@@ -4319,11 +4249,6 @@ module.exports = {
          "strain": "hk",
          "xp": 1,
          "care": [
-            [
-               40803129,
-               "watered",
-               "c"
-            ],
             [
                40739232,
                "watered",
@@ -4462,12 +4387,7 @@ module.exports = {
          "owner": "chronocrypto",
          "strain": "lb",
          "xp": 2250,
-         "care": [
-            [
-               40729035,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 37460985,
          "stage": 5,
@@ -4482,12 +4402,7 @@ module.exports = {
          "owner": "chronocrypto",
          "strain": "lb",
          "xp": 2250,
-         "care": [
-            [
-               40729035,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 37461000,
          "stage": 5,
@@ -4582,12 +4497,7 @@ module.exports = {
          "owner": "chronocrypto",
          "strain": "lkg",
          "xp": 2250,
-         "care": [
-            [
-               40729035,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 37461937,
          "stage": 6,
@@ -4602,13 +4512,7 @@ module.exports = {
          "owner": "chronocrypto",
          "strain": "hk",
          "xp": 2250,
-         "care": [
-            [
-               40729035,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 37462033,
          "stage": 7,
@@ -4975,11 +4879,6 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40819497,
-               "watered",
-               "c"
-            ],
-            [
                40702578,
                "watered"
             ]
@@ -5070,12 +4969,7 @@ module.exports = {
          "owner": "ecoinstats",
          "strain": "aca",
          "xp": 50,
-         "care": [
-            [
-               40710769,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 38196512,
          "stage": 4,
@@ -5240,13 +5134,7 @@ module.exports = {
          "owner": "jeffjagoe",
          "strain": "dp",
          "xp": 50,
-         "care": [
-            [
-               40729366,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 38442140,
          "stage": 5,
@@ -5757,16 +5645,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -5805,16 +5684,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               40823577,
-               "watered",
-               "c"
-            ],
-            [
                40823564,
-               "harvested"
-            ],
-            [
-               40798491,
                "harvested"
             ]
          ],
@@ -5951,13 +5821,7 @@ module.exports = {
          "owner": "jeffjagoe",
          "strain": "mal",
          "xp": 50,
-         "care": [
-            [
-               40729366,
-               "watered",
-               "c"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 39724113,
          "stage": 3,
@@ -6269,7 +6133,8 @@ module.exports = {
          "substage": 1,
          "traits": [
             "beta"
-         ]
+         ],
+         "id": "a100"
       }
    },
    "users": {
@@ -10119,12 +9984,6 @@ module.exports = {
       "e": []
    },
    "payday": [
-      [
-         {
-            "account": "anarcist69",
-            "weight": 10000
-         }
-      ],
       [
          {
             "account": "jeffjagoe",
