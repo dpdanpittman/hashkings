@@ -219,7 +219,7 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
-//shows user seeds
+//shows seeds by user
 app.get('/s/:user', (req, res, next) => {
     let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
@@ -301,18 +301,18 @@ app.get('/delegation/:user', (req, res, next) => {
 });
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
-var state
-var startingBlock = ENV.STARTINGBLOCK || 40857406; //GENESIS BLOCK
+var state;
+var startingBlock = ENV.STARTINGBLOCK || 40859610; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
-const sh = ENV.sh || ''
-const ago = ENV.ago || 40857406
+const sh = ENV.sh || '';
+const ago = ENV.ago || 40859610;
 const prefix = ENV.PREFIX || 'hk_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
-var recents = []
-const transactor = steemTransact(client, steem, prefix);
+var recents = [];
+//const transactor = steemTransact(client, steem, prefix);
 
 /****ISSUE****/
 //I think this is where the app can get the hash from qwoyn_report that is saved in state.js and use it
@@ -1216,7 +1216,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
     processor.start();
 
 
-    var transactor = steemTransact(client, steem, prefix);
+    //var transactor = steemTransact(client, steem, prefix);
     processor.on('return', function(json, from) {
         var index = state.users[from].addrs.indexOf(json.addr)
         if (index >= 0) {
