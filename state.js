@@ -724,8 +724,8 @@ module.exports = {
    "land": {
       "a10": {
          "owner": "qwoyn",
-         "strain": "",
-         "xp": 0,
+         "strain": "mis",
+         "xp": 50,
          "care": [],
          "aff": [],
          "stage": -1,
@@ -3737,7 +3737,8 @@ module.exports = {
          "aff": [],
          "planted": 35956172,
          "stage": 4,
-         "substage": 4
+         "substage": 4,
+         "traits": []
       },
       "c75": {
          "owner": "saboin",
@@ -3747,7 +3748,9 @@ module.exports = {
          "aff": [],
          "stage": 3,
          "substage": 4,
-         "traits": [],
+         "traits": [
+            "genesis"
+         ],
          "terps": {},
          "planted": 39658336,
          "id": "c75"
@@ -3760,7 +3763,9 @@ module.exports = {
          "aff": [],
          "stage": 1,
          "substage": 6,
-         "traits": [],
+         "traits": [
+            "genesis"
+         ],
          "terps": {},
          "planted": 39704079,
          "id": "d61"
@@ -3813,7 +3818,9 @@ module.exports = {
          "aff": [],
          "stage": 3,
          "substage": 3,
-         "traits": [],
+         "traits": [
+            "genesis"
+         ],
          "terps": {},
          "planted": 39658349,
          "id": "f44"
@@ -3867,6 +3874,9 @@ module.exports = {
          "planted": 36340722,
          "stage": 7,
          "substage": 13,
+         "traits": [
+            "genesis"
+         ],
          "sex": null,
          "id": "b71"
       },
@@ -3878,7 +3888,9 @@ module.exports = {
          "aff": [],
          "stage": 1,
          "substage": 8,
-         "traits": [],
+         "traits": [
+            "genesis"
+         ],
          "terps": {},
          "planted": 40417692,
          "id": "a83"
@@ -3927,6 +3939,9 @@ module.exports = {
          "planted": 36550308,
          "stage": 6,
          "substage": 11,
+         "traits": [
+            "genesis"
+         ],
          "sex": null,
          "id": "c77"
       },
@@ -3939,6 +3954,9 @@ module.exports = {
          "planted": 36550315,
          "stage": 7,
          "substage": 12,
+         "traits": [
+            "genesis"
+         ],
          "id": "d62",
          "sex": null
       },
@@ -4186,6 +4204,9 @@ module.exports = {
          "planted": 36793676,
          "stage": 7,
          "substage": 11,
+         "traits": [
+            "genesis"
+         ],
          "id": "e70",
          "sex": null
       },
@@ -4266,6 +4287,9 @@ module.exports = {
          "planted": 37021811,
          "stage": 6,
          "substage": 12,
+         "traits": [
+            "genesis"
+         ],
          "id": "f55",
          "sex": null
       },
@@ -4284,6 +4308,9 @@ module.exports = {
          "planted": 37021825,
          "stage": 7,
          "substage": 6,
+         "traits": [
+            "genesis"
+         ],
          "id": "b74",
          "sex": null
       },
@@ -4818,6 +4845,9 @@ module.exports = {
          "planted": 37987784,
          "stage": 6,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "b78",
          "sex": null
       },
@@ -4830,6 +4860,9 @@ module.exports = {
          "planted": 37987826,
          "stage": 4,
          "substage": 10,
+         "traits": [
+            "genesis"
+         ],
          "id": "c83"
       },
       "c84": {
@@ -4841,6 +4874,9 @@ module.exports = {
          "planted": 37987842,
          "stage": 6,
          "substage": 8,
+         "traits": [
+            "genesis"
+         ],
          "id": "c84",
          "sex": null
       },
@@ -4859,6 +4895,9 @@ module.exports = {
          "planted": 37987848,
          "stage": 5,
          "substage": 9,
+         "traits": [
+            "genesis"
+         ],
          "id": "b79",
          "sex": null
       },
@@ -4871,6 +4910,9 @@ module.exports = {
          "planted": 37987851,
          "stage": 7,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "a96",
          "sex": null
       },
@@ -5321,6 +5363,9 @@ module.exports = {
          "planted": 39106049,
          "stage": 4,
          "substage": 3,
+         "traits": [
+            "genesis"
+         ],
          "id": "f66"
       },
       "b87": {
@@ -5378,6 +5423,9 @@ module.exports = {
          "planted": 39333310,
          "stage": 3,
          "substage": 8,
+         "traits": [
+            "genesis"
+         ],
          "id": "b88"
       },
       "c97": {
@@ -5389,6 +5437,9 @@ module.exports = {
          "planted": 39333315,
          "stage": 4,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "c97"
       },
       "b89": {
@@ -5406,6 +5457,9 @@ module.exports = {
          "planted": 39392167,
          "stage": 3,
          "substage": 1,
+         "traits": [
+            "genesis"
+         ],
          "id": "b89"
       },
       "f70": {
@@ -5417,6 +5471,9 @@ module.exports = {
          "planted": 40827506,
          "stage": 1,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "f70"
       },
       "a91": {
@@ -5434,6 +5491,9 @@ module.exports = {
          "planted": 39578613,
          "stage": 2,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "a91",
          "sex": null
       },
@@ -5451,6 +5511,9 @@ module.exports = {
          "planted": 39578627,
          "stage": 2,
          "substage": 0,
+         "traits": [
+            "genesis"
+         ],
          "id": "a97",
          "sex": null
       },
@@ -5468,6 +5531,9 @@ module.exports = {
          "planted": 39578640,
          "stage": 2,
          "substage": 11,
+         "traits": [
+            "genesis"
+         ],
          "id": "a111"
       },
       "e88": {
@@ -9493,19 +9559,31 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "genesis"
+               ]
             },
             {
                "strain": "lkg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "genesis"
+               ]
             },
             {
                "strain": "pam",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "genesis"
+               ]
             },
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "genesis"
+               ]
             },
             {
                "strain": "cht",
