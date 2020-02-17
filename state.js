@@ -672,7 +672,7 @@ module.exports = {
       "gardeners": 130
    },
    "bal": {
-      "r": 2,
+      "r": 0,
       "c": 0,
       "b": 0,
       "p": 1307122
@@ -10571,7 +10571,5 @@ module.exports = {
       "zonguin": true,
       "steembeem": true
    },
-   "cs": {
-      "40855377:hashkings": "29250 to vesting"
-   }
+   "cs": {}
 }

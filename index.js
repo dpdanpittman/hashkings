@@ -302,12 +302,12 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`));
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40880487; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40886723; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 40864606;
-const prefix = ENV.PREFIX || 'hk_'; // part of custom json visible on the blockchain during watering etc..
+const ago = ENV.ago || 40886723;
+const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com'; // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
@@ -315,16 +315,16 @@ var recents = [];
 const transactor = steemTransact(client, steem, prefix);
 
 /****ISSUE****/
-//I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
+//I think this is where the app can get the hash from qwoyn_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
     console.log(err);
     startWith(sh);
   } else {
-    let ebus = result.filter( tx => tx[1].op[1].id === 'hashkings_report' )
+    let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' );
     for(i=ebus.length -1; i>=0; i--){
-      if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
+      if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash) 
     }
     const mostRecent = recents.shift();
     console.log('starting properly');
@@ -340,85 +340,85 @@ function startWith(hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
         ipfs.cat(hash, (err, file) => {
             if (!err) {
-                var data = JSON.parse(file.toString())
-                startingBlock = data[0]
+                var data = JSON.parse(file.toString());
+                startingBlock = data[0];
                 if (startingBlock == ago){startWith(hash)}
                 else {
                 state = JSON.parse(data[1]);
                 startApp();
                 }
             } else {
-                const mostRecent = recents.shift()
-                console.log('Attempting start from:'+mostRecent)
+                const mostRecent = recents.shift();
+                console.log('Attempting start from:'+mostRecent);
                 startWith(mostRecent)
             }
         });
     } else {
-        console.log('Didnt start with hash')
-        state = init
-        startApp()
+        console.log('Didnt start with hash');
+        state = init;
+        startApp();
     }
 }
 
 function startApp() {
   if(state.cs == null) {
-    state.cs = {}
+    state.cs = {};
   }
     processor = steemState(client, steem, startingBlock, 10, prefix);
 
 
     processor.onBlock(function(num, block) {
-        const sun = (num - state.stats.time) % 28800
-        var td = []
+        const sun = (num - state.stats.time) % 28800;
+        var td = [];
         for (var o in state.stats.offsets) {
             if (sun - state.stats.offsets[o] < 1200 && sun - state.stats.offsets[o] > 0) {
                 td.push(`${o}${((sun-state.stats.offsets[o])*4)}`, `${o}${((sun-state.stats.offsets[o])*4)-1}`, `${o}${((sun-state.stats.offsets[o])*4)-2}`, `${o}${((sun-state.stats.offsets[o])*4)-3}`);
             }
             if (sun - state.stats.offsets[o] == 1200) {
-               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)})
+               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)});
             }
             if (sun - state.stats.offsets[o] == 1500) {
-               state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
+               state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
             }
         }
         for (var i = 0; i < td.length; i++) {
-            daily(td[i])
+            daily(td[i]);
         }
         if (num % 125 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
             if (state.refund[0].length == 4) {
-                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3]);
             } else if (state.refund[0].length == 3){
-                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2])
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2]);
             } else if (state.refund[0].length == 2) {
-                var op = true, bens = false
+                var op = true, bens = false;
                 try {
                     if (state.refund[1][1] == 'comment_options') op = false
                     if (state.refund[1][1].extentions[0][1].beneficiaries.length) bens = true
                 } catch (e) {}
                 if(op || bens){bot[state.refund[0][0]].call(this, state.refund[0][1])} else {
-                    state.refund.shift()
+                    state.refund.shift();
                 }
             }
         }
         if (num % 100 === 0 && !processor.isStreaming()) {
             if(!state.news.e)state.news.e=[]
             client.database.getDynamicGlobalProperties().then(function(result) {
-                console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.')
+                console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.');
             });
         }
 
         if (num % 1000 === 0 && processor.isStreaming()) {
             if(!state.blacklist)state.blacklist={}
-            ipfsSaveState(num, JSON.stringify(state))
+            ipfsSaveState(num, JSON.stringify(state));
         }
 
         if (num % 28800 === 20000 && state.payday.length) {
             for (var item in state.cs){
               if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined i406'){
-                delete state.cs[item]
+                delete state.cs[item];
               }
             }
-            state.payday[0] = sortExtentions(state.payday[0],'account')
+            state.payday[0] = sortExtentions(state.payday[0],'account');
         var body = `\nhttps://i.imgur.com/jTxih7O.png
         \n
         \n<center><h1>What is Kief?</h1></center>
