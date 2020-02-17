@@ -1683,7 +1683,6 @@ function daily(addr) {
                   state.land[addr] = parcel;
                   
                 }}
-                } 
             
             }
                   
