@@ -553,7 +553,7 @@ function startApp() {
             state.payday.shift();
     }
         if (num % 28800 === 20300 && state.payday && state.payday[0].length) {
-            state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
+            state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
         }
         if (num % 28800 === 25000 && state.payday.length) {
 
