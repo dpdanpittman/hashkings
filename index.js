@@ -1651,7 +1651,6 @@ function daily(addr) {
                     console.log('An affliction happened', e.message);
                    }
                 }}
-                try {
               if (state.land[addr].care[i][1] == 'harvested'){
                 if (!harvested && state.land[addr].stage > 3){
                   harvested = true;
@@ -1684,9 +1683,7 @@ function daily(addr) {
                   state.land[addr] = parcel;
                   
                 }}
-                } catch(e) {
-                    console.log('harvesting error', e.message);
-                   }
+                } 
             
             }
                   
