@@ -503,7 +503,7 @@ function startApp() {
         \n
         \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. 
         \n
-        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`;
+        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`
         var footer = `\n<center><h1>Hashkings Official Links</h1></center>
         \n
         \n<center>[Hashkings Web App](https://www.hashkings.app)    
@@ -525,9 +525,10 @@ function startApp() {
         \n
         \n       
         \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
-        \n`;
+        \n`
             if (state.news.h.length > 0){
-                body = body + state.news.h[0] + footer ;state.news.h.shift();
+                body = body + state.news.h[0] + footer ;
+                state.news.h.shift();
             } else {
                 body = body + footer;
             }
