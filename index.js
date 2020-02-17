@@ -4,7 +4,7 @@ var steemState = require('./processor');
 var steemTransact = require('steem-transact');
 var fs = require('fs');
 const cors = require('cors');
-const express = require('express');
+const express = require('express')
 const ENV = process.env;
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
@@ -86,15 +86,15 @@ app.use(cors());
             }
 */
 app.get('/p/:addr', (req, res, next) => {
-    let addr = req.params.addr;
+    let addr = req.params.addr
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.land[addr], null, 3));
+    res.send(JSON.stringify(state.land[addr], null, 3))
 });
 
 //shows a log 
 app.get('/logs', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.cs, null, 3));
+    res.send(JSON.stringify(state.cs, null, 3))
 });
 
 /*detailed list of seeds a user owns from state.js by username\
@@ -183,52 +183,52 @@ app.get('/logs', (req, res, next) => {
         ]
 */
 app.get('/a/:user', (req, res, next) => {
-    let user = req.params.user, arr = [];
+    let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
         for (var i = 0 ; i < state.users[user].addrs.length ; i++){
-            arr.push(state.users[user].addrs[i]);
+            arr.push(state.users[user].addrs[i])
         }
     }
     for ( var i = 0 ; i < arr.length ; i++){
-        insert = '';
-        var insert = state.land[arr[i]];
+        insert = ''
+        var insert = state.land[arr[i]]
         if(insert){
             insert.id = arr[i]
             if(insert.care.length>3){insert.care.splice(3,insert.care.length-3)}
             if(insert.aff.length>3){insert.aff.splice(3,insert.aff.length-3)}
-            arr.splice(i,1,insert);
+            arr.splice(i,1,insert)
         }
     }
-    res.send(JSON.stringify(arr, null, 3));
+    res.send(JSON.stringify(arr, null, 3))
 });
 
 //overal game stats i.e. number of gardeners, number of plots available, seed prices, land price, weather info
 //at each location such as mexico or jamaica etc.
 app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    Object.keys(state.users).length;
-    var ret = state.stats;
-    ret.gardeners = Object.keys(state.users).length;
-    res.send(JSON.stringify(ret, null, 3));
+    Object.keys(state.users).length
+    var ret = state.stats
+    ret.gardeners = Object.keys(state.users).length
+    res.send(JSON.stringify(ret, null, 3))
 });
 
 //entire state.json output
 app.get('/', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state, null, 3));
+    res.send(JSON.stringify(state, null, 3))
 });
 
 //shows seeds by user
 app.get('/s/:user', (req, res, next) => {
-    let user = req.params.user, arr = [];
+    let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
         for (var i = 0 ; i < state.users[user].seeds.length ; i++){
-            arr.push(state.users[user].seeds[i]);
+            arr.push(state.users[user].seeds[i])
         }
     }
-    res.send(JSON.stringify(arr, null, 3));
+    res.send(JSON.stringify(arr, null, 3))
 });
 
 //post payouts in que
@@ -237,7 +237,7 @@ app.get('/refunds', (req, res, next) => {
     res.send(JSON.stringify({
         refunds: state.refund,
         bal: state.bal
-    }, null, 3));
+    }, null, 3))
 });
 
 /*plot and seed information by user
@@ -274,9 +274,9 @@ app.get('/refunds', (req, res, next) => {
 
 */
 app.get('/u/:user', (req, res, next) => {
-    let user = req.params.user;
+    let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.users[user], null, 3));
+    res.send(JSON.stringify(state.users[user], null, 3))
 });
 
 /*delegation information by user
@@ -288,49 +288,49 @@ app.get('/u/:user', (req, res, next) => {
 }
 */
 app.get('/delegation/:user', (req, res, next) => {
-    let user = req.params.user;
-    var op = {};
+    let user = req.params.user
+    var op = {}
     for(i=0;i<state.delegations.length;i++){
         if(state.delegations[i].delegator == user){
-            op = state.delegations[i];
+            op = state.delegations[i]
             break;
         }
     }
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(op, null, 3));
+    res.send(JSON.stringify(op, null, 3))
 });
 
-app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`));
+app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40886723; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40885487; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 40886723;
+const ago = ENV.ago || 40885487;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const clientURL = ENV.APIURL || 'https://api.steemit.com'; // can be changed to another node
+const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
 var recents = [];
 const transactor = steemTransact(client, steem, prefix);
 
 /****ISSUE****/
-//I think this is where the app can get the hash from qwoyn_report that is saved in state.js and use it
+//I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
-    console.log(err);
-    startWith(sh);
+    console.log(err)
+    startWith(sh)
   } else {
-    let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' );
+    let ebus = result.filter( tx => tx[1].op[1].id === 'hashkings_report' )
     for(i=ebus.length -1; i>=0; i--){
-      if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash) 
+      if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
     }
-    const mostRecent = recents.shift();
-    console.log('starting properly');
-    console.log(sh);
-    console.log(mostRecent);
-    startWith(mostRecent);
+    const mostRecent = recents.shift()
+    console.log('starting properly')
+    console.log(sh)
+    console.log(mostRecent)
+    startWith(mostRecent)
   }
 });
 
@@ -340,82 +340,82 @@ function startWith(hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
         ipfs.cat(hash, (err, file) => {
             if (!err) {
-                var data = JSON.parse(file.toString());
-                startingBlock = data[0];
+                var data = JSON.parse(file.toString())
+                startingBlock = data[0]
                 if (startingBlock == ago){startWith(hash)}
                 else {
                 state = JSON.parse(data[1]);
                 startApp();
                 }
             } else {
-                const mostRecent = recents.shift();
-                console.log('Attempting start from:'+mostRecent);
+                const mostRecent = recents.shift()
+                console.log('Attempting start from:'+mostRecent)
                 startWith(mostRecent)
             }
         });
     } else {
-        console.log('Didnt start with hash');
-        state = init;
-        startApp();
+        console.log('Didnt start with hash')
+        state = init
+        startApp()
     }
 }
 
 function startApp() {
   if(state.cs == null) {
-    state.cs = {};
+    state.cs = {}
   }
     processor = steemState(client, steem, startingBlock, 10, prefix);
 
 
     processor.onBlock(function(num, block) {
-        const sun = (num - state.stats.time) % 28800;
-        var td = [];
+        const sun = (num - state.stats.time) % 28800
+        var td = []
         for (var o in state.stats.offsets) {
             if (sun - state.stats.offsets[o] < 1200 && sun - state.stats.offsets[o] > 0) {
                 td.push(`${o}${((sun-state.stats.offsets[o])*4)}`, `${o}${((sun-state.stats.offsets[o])*4)-1}`, `${o}${((sun-state.stats.offsets[o])*4)-2}`, `${o}${((sun-state.stats.offsets[o])*4)-3}`);
             }
             if (sun - state.stats.offsets[o] == 1200) {
-               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)});
+               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)})
             }
             if (sun - state.stats.offsets[o] == 1500) {
-               state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
+               state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
             }
         }
         for (var i = 0; i < td.length; i++) {
-            daily(td[i]);
+            daily(td[i])
         }
         if (num % 125 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
             if (state.refund[0].length == 4) {
-                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3]);
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
             } else if (state.refund[0].length == 3){
-                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2]);
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2])
             } else if (state.refund[0].length == 2) {
-                var op = true, bens = false;
+                var op = true, bens = false
                 try {
                     if (state.refund[1][1] == 'comment_options') op = false
                     if (state.refund[1][1].extentions[0][1].beneficiaries.length) bens = true
                 } catch (e) {}
                 if(op || bens){bot[state.refund[0][0]].call(this, state.refund[0][1])} else {
-                    state.refund.shift();
+                    state.refund.shift()
                 }
             }
         }
         if (num % 100 === 0 && !processor.isStreaming()) {
             if(!state.news.e)state.news.e=[]
             client.database.getDynamicGlobalProperties().then(function(result) {
-                console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.');
+                console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.')
             });
         }
 
         if (num % 1000 === 0 && processor.isStreaming()) {
             if(!state.blacklist)state.blacklist={}
-            ipfsSaveState(num, JSON.stringify(state));
+            ipfsSaveState(num, JSON.stringify(state))
         }
 
         if (num % 28800 === 20000 && state.payday.length) {
             for (var item in state.cs){
               if(item.split(':')[0] < num - 28800 || item.split(':')[0] == 'undefined i406'){
-                delete state.cs[item];
+                delete state.cs[item]
               }
             }
             state.payday[0] = sortExtentions(state.payday[0],'account')
@@ -527,12 +527,11 @@ function startApp() {
         \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
         \n`
             if (state.news.h.length > 0){
-                body = body + state.news.h[0] + footer;
-                state.news.h.shift();
+                body = body + state.news.h[0] + footer ;state.news.h.shift();
             } else {
-                body = body + footer;
+                body = body + footer
             }
-            body = body + listBens(state.payday[0]);
+            body = body + listBens(state.payday[0])
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -558,7 +557,7 @@ function startApp() {
         }
         if (num % 28800 === 25000 && state.payday.length) {
 
-            state.payday[0] = sortExtentions(state.payday[0],'account');
+            state.payday[0] = sortExtentions(state.payday[0],'account')
             var body = `\nhttps://i.imgur.com/jTxih7O.png
             \n
             \n<center><h1>What is Kief?</h1></center>
@@ -642,7 +641,7 @@ function startApp() {
             \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  
             \nd supply** once they are gone the only way to purchase them is on an exchange. 
             \n
-            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`;
+            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`
             var footer = `\n<center><h1>Hashkings Official Links</h1></center>
             \n
             \n<center>[Hashkings Web App](https://www.hashkings.app)    
@@ -664,13 +663,13 @@ function startApp() {
             \n
             \n       
             \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
-            \n`;
+            \n`
             if (state.news.i.length > 0){
                 body = body + state.news.i[0] + footer ;state.news.i.shift();
             } else {
-                body = body + footer;
+                body = body + footer
             }
-            body = body + listBens(state.payday[0]);
+            body = body + listBens(state.payday[0])
             state.refund.push(
                               ['ssign',
                                 [
@@ -695,13 +694,13 @@ function startApp() {
                                           "allow_curation_rewards": true,
                                           "extensions":
                                         [[0,{"beneficiaries":state.payday[0]}]]}]]])
-            state.payday.shift();
+            state.payday.shift()
     }
         if (num % 28800 === 25300 && state.payday && state.payday.length) {
-    state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
+    state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
     }
         if (num % 28800 === 22000 && state.payday[0].length) {
-            state.payday[0] = sortExtentions(state.payday[0],'account');
+            state.payday[0] = sortExtentions(state.payday[0],'account')
         var body = `\nhttps://i.imgur.com/jTxih7O.png\n
             \n<center><h1>What is Kief?</h1></center>
             \n
@@ -785,7 +784,7 @@ function startApp() {
             \n
             \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. 
             \n
-            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`;
+            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`
             var footer = `\n<center><h1>Hashkings Official Links</h1></center>
             \n
             \n<center>[Hashkings Web App](https://www.hashkings.app)    
@@ -807,13 +806,13 @@ function startApp() {
             \n
             \n       
             \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
-            \n`;
+            \n`
             if (state.news.t.length > 0){
                 body = body + state.news.t[0] + footer ;state.news.t.shift();
             } else {
-                body = body + footer;
+                body = body + footer
             }
-            body = body + listBens(state.payday[0]);
+            body = body + listBens(state.payday[0])
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -831,61 +830,61 @@ function startApp() {
                                   "allow_curation_rewards": true,
                                   "extensions":
                                   [[0,
-                                    {"beneficiaries":state.payday[0]}]]}]] ]);
-            state.payday.shift();
+                                    {"beneficiaries":state.payday[0]}]]}]] ])
+            state.payday.shift()
     }
     if (num % 28800 === 22300) {
-    state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
+    state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
     }
         if (num % 28800 === 28750) {
-            state.payday = whotopay();
+            state.payday = whotopay()
         }
         if (num % 28800 === 0) {
-            var d = parseInt(state.bal.c / 4);
-            state.bal.r += state.bal.c;
+            var d = parseInt(state.bal.c / 4)
+            state.bal.r += state.bal.c
             if (d) {
-                state.refund.push(['xfer', 'qwoyn-dev', d, 'Dev Cut']);
-                state.refund.push(['xfer', 'qwoyn-fund', parseInt(2 * d), 'Funds']);
-                state.refund.push(['xfer', 'qwoyn', d, 'Producer Cut']);
-                state.bal.c -= d * 4;
-                d = parseInt(state.bal.c / 5) * 2;
+                state.refund.push(['xfer', 'qwoyn-dev', d, 'Dev Cut'])
+                state.refund.push(['xfer', 'qwoyn-fund', parseInt(2 * d), 'Funds'])
+                state.refund.push(['xfer', 'qwoyn', d, 'Producer Cut'])
+                state.bal.c -= d * 4
+                d = parseInt(state.bal.c / 5) * 2
                 //state.refund.push(['xfer', 'qwoyn-chest', state.bal.c, 'Warchest'])
-                state.bal.c = 0;
-                state.refund.push(['power', username, state.bal.b, 'Power to the people!']);
+                state.bal.c = 0
+                state.refund.push(['power', username, state.bal.b, 'Power to the people!'])
             }
     }
   })
 
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
-            plantnames = '';
+            plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
             if (state.land[plants[i]].owner == from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'harvested']);
-                plantnames += `${plants[i]} `;
+                plantnames += `${plants[i]} `
             }
             } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`;
+              state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
             }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`;
+        state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
     });
     
     processor.on('water', function(json, from) {
         let plants = json.plants,
-            plantnames = '';
+            plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
             if (state.land[plants[i]].owner == from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
-                plantnames += `${plants[i]} `;
+                plantnames += `${plants[i]} `
             }
             } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`;
+              state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
             }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`;
+        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
 /*
     processor.on('return', function(json, from) {
@@ -903,16 +902,16 @@ function startApp() {
     });
 */
     processor.on('redeem', function(j, f) {
-        state.cs[`${j.block_num}:${f}`] = `Redeem Op:${f} -> ${j}`;
+        state.cs[`${j.block_num}:${f}`] = `Redeem Op:${f} -> ${j}`
         if (state.users[f]){if (state.users[f].v && state.users[f].v > 0) {
-            state.users[f].v--;
-            let type = j.type || '';
+            state.users[f].v--
+            let type = j.type || ''
             if (state.stats.supply.strains.indexOf(type) < 0) type = state.stats.supply.strains[state.users.length % state.stats.supply.strains.length]
             var seed = {
                 strain: type,
                 xp: 50
             }
-            state.users[f].seeds.push(seed);
+            state.users[f].seeds.push(seed)
         }}
     });
 
@@ -940,18 +939,18 @@ function startApp() {
     });
 
     processor.on('give_seed', function(json, from) {
-        var seed='';
+        var seed=''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].seeds.length; i++){
                   if (json.qual){
                     if(state.users[from].seeds[i].strain == json.seed && state.users[from].seeds[i].xp == json.qual){
-                      seed=state.users[from].seeds.splice(i, 1)[0];
-                      break;
+                      seed=state.users[from].seeds.splice(i, 1)[0]
+                      break
                     }
                   } else if(state.users[from].seeds[i].strain == json.seed){
-                    seed=state.users[from].seeds.splice(i, 1)[0];
-                    break;
+                    seed=state.users[from].seeds.splice(i, 1)[0]
+                    break
                   }
               }
           } catch (e) {}
@@ -965,18 +964,18 @@ function startApp() {
                   v: 0
                 }
               } else {
-                  state.users[json.to].seeds.push(seed);
+                  state.users[json.to].seeds.push(seed)
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent a ${seed.xp} xp ${seed.strain} to ${json.to}`;
+              state.cs[`${json.block_num}:${from}`] = `${from} sent a ${seed.xp} xp ${seed.strain} to ${json.to}`
           } else {
-              state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`;
+              state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
           }
         }
     });
     processor.on('plant', function(json, from) {
-        var index, seed='';
+        var index, seed=''
         try{
-            index = state.users[from].addrs.indexOf(json.addr);
+            index = state.users[from].addrs.indexOf(json.addr)
             for (var i = 0;i < state.users[from].seeds.length; i++){
                 if(state.users[from].seeds[i].strain == json.seed){seed=state.users[from].seeds.splice(i, 1)[0];break;}
             }
@@ -988,7 +987,7 @@ function startApp() {
         }
         if (index >= 0 && seed) {
             if (!state.land[json.addr]) {
-                state.cs[`${json.block_num}:${from}`] = `planted on empty plot ${json.addr}`;
+                state.cs[`${json.block_num}:${from}`] = `planted on empty plot ${json.addr}`
                 const parcel = {
                     owner: from,
                     strain: seed.strain,
@@ -1001,35 +1000,35 @@ function startApp() {
                     traits: seed.traits,
                     terps: seed.terps
                 }
-                state.land[json.addr] = parcel;
+                state.land[json.addr] = parcel
             } else if (state.land[json.addr].stage < 0) {
-                state.cs[`${json.block_num}:${from}`] = `planted on harvested plot ${json.addr} `;
-                state.land[json.addr].strain = seed.strain;
-                state.land[json.addr].xp = seed.xp;
-                state.land[json.addr].care = [];
-                state.land[json.addr].aff = [];
-                state.land[json.addr].planted = processor.getCurrentBlockNumber();
-                state.land[json.addr].stage = 1;
-                state.land[json.addr].substage = 0;
-                state.land[json.addr].traits = seed.traits || [];
-                state.land[json.addr].terps = seed.terps || [];
+                state.cs[`${json.block_num}:${from}`] = `planted on harvested plot ${json.addr} `
+                state.land[json.addr].strain = seed.strain
+                state.land[json.addr].xp = seed.xp
+                state.land[json.addr].care = []
+                state.land[json.addr].aff = []
+                state.land[json.addr].planted = processor.getCurrentBlockNumber()
+                state.land[json.addr].stage = 1
+                state.land[json.addr].substage = 0
+                state.land[json.addr].traits = seed.traits || []
+                state.land[json.addr].terps = seed.terps || {}
             } else {
                 state.users[from].seeds.unshift(seed);
-                state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`;
+                state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
             }
         } else if (seed) {
             state.users[from].seeds.unshift(seed);
-            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that land`;
+            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that land`
         } else {
-            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a plant!`;
+            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a plant!`
         }
     });
     processor.onOperation('transfer_to_vesting', function(json) {
         if (json.to == username && json.from == username) {
-            const amount = parseInt(parseFloat(json.amount) * 1000);
-            state.cs[`${json.block_num}:${json.from}`] = `${amount} to vesting`;
-            state.bal.b -= amount;
-            state.bal.p += amount;
+            const amount = parseInt(parseFloat(json.amount) * 1000)
+            state.cs[`${json.block_num}:${json.from}`] = `${amount} to vesting`
+            state.bal.b -= amount
+            state.bal.p += amount
             for (var i = 0; i < state.refund.length; i++) {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
                     state.refund.splice(i, 1);
@@ -1043,7 +1042,7 @@ function startApp() {
             if(state.refund[i][0]=='ssign'){
                 if(state.refund[i][1][0][0]=='comment'){
                     if (json.author == streamname && json.permlink == state.refund[i][1][0][1].permlink && state.refund[i][1][0][0] == 'comment') {
-                        state.refund.splice(i,1);
+                        state.refund.splice(i,1)
                     }
                 }
             }
@@ -1054,7 +1053,7 @@ function startApp() {
             if(state.refund[i] && state.refund[i][0]=='sign'){
                 if(state.refund[i][1][0][0]=='vote'){
                     if (json.author == streamname && json.permlink == state.refund[i][1][0][1].permlink && state.refund[i][1][0][0] == 'vote') {
-                        state.refund.splice(i,1);
+                        state.refund.splice(i,1)
                     }
                 }
             }
@@ -1066,7 +1065,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
   if(json.delegatee == username){
     for (var i = 0; i < state.delegations.length; i++) {
       if (state.delegations[i].delegator == json.delegator) {
-        record = state.delegations.splice(i, 1)[0];
+        record = state.delegations.splice(i, 1)[0]
         break;
       }
     }
@@ -1081,10 +1080,10 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
     var availible = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
     used = 0;
     if (record) {
-      const use = record.used || 0;
+      const use = record.used || 0
       if (record.vests < vests) {
         availible = parseInt(availible) - parseInt(use);
-        used = parseInt(use);
+        used = parseInt(use)
       } else {
         if (use > availible) {
           var j = parseInt(use) - parseInt(availible);
@@ -1093,11 +1092,11 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
             state.lands.forSale.push(state.users[json.delegator].addrs[i])
             state.users[json.delegator].addrs.splice(i,1)
           }
-          used = parseInt(availible);
-          availible = 0;
+          used = parseInt(availible)
+          availible = 0
         } else {
-          availible = parseInt(availible) - parseInt(use);
-          used = parseInt(use);
+          availible = parseInt(availible) - parseInt(use)
+          used = parseInt(use)
         }
       }
       }
@@ -1128,10 +1127,10 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                 u: 0
             }
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
-                type = json.memo.split(" ")[1] || '';
+                type = json.memo.split(" ")[1] || ''
             if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top) {
                 if (state.stats.supply.land[want]) {
-                    var allowed = false;
+                    var allowed = false
                     if (amount == 500 && type == 'manage') {
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing`
                         for (var i = 0; i < state.delegations.length; i++) {
@@ -1139,97 +1138,96 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                                 state.delegations[i].availible--;
                                 state.delegations[i].used++;
                                 state.bal.c += amount;
-                                allowed = true;
+                                allowed = true
                                 break;
                             }
                         }
                     } else {
-                        const c = parseInt(amount * 0.025);
-                        state.bal.c += c;
-                        state.bal.b += amount - c;
-                        allowed = true;
+                        const c = parseInt(amount * 0.025)
+                        state.bal.c += c
+                        state.bal.b += amount - c
+                        allowed = true
                     }
                     if (allowed) {
-                        state.stats.supply.land[want]--;
-                        const sel = `${want}c`;
-                        const num = state.stats.supply.land[sel]++;
-                        var addr = `${want}${num}`;
-                        state.users[json.from].addrs.push(addr);
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${addr}`;
+                        state.stats.supply.land[want]--
+                        const sel = `${want}c`
+                        const num = state.stats.supply.land[sel]++
+                        var addr = `${want}${num}`
+                        state.users[json.from].addrs.push(addr)
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${addr}`
                     } else {
-                        state.refund.push(['xfer', json.from, amount, 'Managing Land?...You may need to delegate more SP']);
+                        state.refund.push(['xfer', json.from, amount, 'Managing Land?...You may need to delegate more SP'])
                     }
                 } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top) {
                     if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
-                    var xp = 1;
+                    var xp = 1
                     if (want == 'mseed') xp = 10
                     if (want == 'tseed') xp = 50
                     var seed = {
                         strain: type,
                         xp: xp
                     }
-                    state.users[json.from].seeds.push(seed);
-                    const c = parseInt(amount * 0.12);
-                    state.bal.c += c;
-                    state.bal.b += amount - c;
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`;
+                    state.users[json.from].seeds.push(seed)
+                    const c = parseInt(amount * 0.025)
+                    state.bal.c += c
+                    state.bal.b += amount - c
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else {
-                    state.bal.r += amount;
-                    state.refund.push(['xfer', json.from, amount, 'We don\'t know what you wanted... have your STEEM back']);
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`;
+                    state.bal.r += amount
+                    state.refund.push(['xfer', json.from, amount, 'We don\'t know what you wanted... have your STEEM back'])
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
                 }
             } else if (amount > 10) {
-                state.bal.r += amount;
-                state.refund.push(['xfer', json.from, amount, 'Sorry, this account only accepts in game transactions.']);
-                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`;
+                state.bal.r += amount
+                state.refund.push(['xfer', json.from, amount, 'Sorry, this account only accepts in game transactions.'])
+                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
             }
                 } else {
                     if (state.blacklist[json.from]){
                         var users = parseInt(amount/2),
-                            ops = parseInt(amount - users);
-                        state.balance.b += users;
-                        state.bal.c += ops;
+                            ops = parseInt(amount - users)
+                        state.balance.b += users
+                        state.bal.c += ops
                     } else {
-                        state.bal.r += amount;
-                        state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.']);
-                        state.blacklist[json.from] = true;
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`;
+                        state.bal.r += amount
+                        state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.'])
+                        state.blacklist[json.from] = true
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
                     }
                 }
             })
 
         } else if (json.from == username) {
-            const amount = parseInt(parseFloat(json.amount) * 1000);
+            const amount = parseInt(parseFloat(json.amount) * 1000)
             for (var i = 0; i < state.refund.length; i++) {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
                     state.refund.splice(i, 1);
                     state.bal.r -= amount;
-                    state.cs[`${json.block_num}:${json.to}`] = `${json.to} refunded successfully`;
+                    state.cs[`${json.block_num}:${json.to}`] = `${json.to} refunded successfully`
                     break;
                 }
             }
         }
     });
     processor.onStreamingStart(function() {
-        console.log("At real time.");
+        console.log("At real time.")
     });
 
     processor.start();
-    console.log(" - Processor started");
 
 
     //var transactor = steemTransact(client, steem, prefix);
     processor.on('return', function(json, from) {
-        var index = state.users[from].addrs.indexOf(json.addr);
+        var index = state.users[from].addrs.indexOf(json.addr)
         if (index >= 0) {
-            state.lands.forSale.push(state.users[from].addrs.splice(i, 1));
-            state.bal.r += state.stats.prices.purchase.land;
+            state.lands.forSale.push(state.users[from].addrs.splice(i, 1))
+            state.bal.r += state.stats.prices.purchase.land
             if (state.bal.b - state.stats.prices.purchase.land > 0) {
-                state.bal.b -= state.stats.prices.purchase.land;
+                state.bal.b -= state.stats.prices.purchase.land
             } else {
-                state.bal.d += state.stats.prices.purchase.land;
+                state.bal.d += state.stats.prices.purchase.land
             }
-            state.refund.push(['xfer', from, state.stats.prices.purchase.land, 'We\'re sorry to see you go!']);
+            state.refund.push(['xfer', from, state.stats.prices.purchase.land, 'We\'re sorry to see you go!'])
         }
 
     });
@@ -1249,37 +1247,37 @@ function ipfsSaveState(blocknum, hashable) {
     ipfs.add(Buffer.from(JSON.stringify([blocknum, hashable]), 'ascii'), (err, IpFsHash) => {
         if (!err) {
             if (IpFsHash[0].hash === undefined){
-               ipfsSaveState(blocknum, hashable);
+               ipfsSaveState(blocknum, hashable) 
             } else {
-                state.stats.bu = IpFsHash[0].hash;
-                state.stats.bi = blocknum;
-                console.log(blocknum + `:Saved:  ${IpFsHash[0].hash}`);
+                state.stats.bu = IpFsHash[0].hash
+                state.stats.bi = blocknum
+                console.log(blocknum + `:Saved:  ${IpFsHash[0].hash}`)
                 state.refund.push(['customJson', 'report', {
                     stateHash: state.stats.bu,
                     block: blocknum
                 }])
             }
         } else {
-            console.log('IPFS Error', err);
+            console.log('IPFS Error', err)
         }
     })
 };
 var bot = {
     xfer: function(toa, amount, memo) {
-        const float = parseFloat(amount / 1000).toFixed(3);
+        const float = parseFloat(amount / 1000).toFixed(3)
         const data = {
             amount: `${float} STEEM`,
             from: username,
             to: toa,
             memo: memo
         }
-        console.log(data, key);
+        console.log(data, key)
         client.broadcast.transfer(data, key).then(
             function(result) {
-                console.log(result);
+                console.log(result)
             },
             function(error) {
-                console.log(error);
+                console.log(error)
             }
         );
     },
@@ -1292,34 +1290,34 @@ var bot = {
             json: JSON.stringify(json),
         }, key).then(
             result => {
-                console.log('Signed ${json}');
+                console.log('Signed ${json}')
             },
             error => {
-                console.log('Error sending customJson');
+                console.log('Error sending customJson')
             }
         )} else {state.refund.splice(0,1)}
     },
     sign: function(op, callback) {
-        console.log('attempting'+op[0]);
+        console.log('attempting'+op[0])
         client.broadcast.sendOperations(op, key).then(
             function(result) {
-                console.log(result);
+                console.log(result)
             },
             function(error) {
-                console.log(error);
-                state.refund.pop();
+                console.log(error)
+                state.refund.pop()
             }
         );
     },
     ssign: function(op, callback) {
-        console.log('attempting'+op[0]);
+        console.log('attempting'+op[0])
         client.broadcast.sendOperations(op, skey).then(
             function(result) {
-                console.log(result);
+                console.log(result)
             },
             function(error) {
-                console.log(error);
-                state.refund.pop();
+                console.log(error)
+                state.refund.pop()
             }
         );
     },
@@ -1334,20 +1332,20 @@ var bot = {
         ];
         client.broadcast.sendOperations([op], key).then(
             function(result) {
-                console.log(result);
+                console.log(result)
             },
             function(error) {
-                console.log(error);
+                console.log(error)
             }
         );
     },
     sendOp: function(op) {
         client.broadcast.sendOperations(op, key).then(
             function(result) {
-                console.log(result);
+                console.log(result)
             },
             function(error) {
-                console.log(error);
+                console.log(error)
             }
         );
     }
@@ -1369,12 +1367,12 @@ function whotopay() {
         b = 0, // counter
         c = 0, // counter
         h = 1, // top value
-        r = {j:0,i:0,h:0,g:0,f:0,e:0,d:0,c:0,b:0,a:0},
+        r = {j:0,i:0,h:0,g:0,f:0,e:0,d:0,c:0,b:0,a:0}
         o = [] // temp array
     for (d in state.kudos) {
-        c = parseInt(c) + parseInt(state.kudos[d]); // total kudos
+        c = parseInt(c) + parseInt(state.kudos[d]) // total kudos
         if (state.kudos[d] > h) { // top kudos(for sorting)
-            h = state.kudos[d];
+            h = state.kudos[d]
         };
         if (state.kudos[d] == 1) { // for sorting , unshift 1 assuming most will be 1
             o.unshift({
@@ -1404,66 +1402,66 @@ function whotopay() {
         }
     }
     if (o.length > (maxEx * 10)) {
-        b = (maxEx * 10);
+        b = (maxEx * 10)
     } else {
-        b = o.length;
+        b = o.length
     }
     while (b) { // assign bennies to posts, top kudos down
         for (var fo in a) {
             a[fo].push(o.pop());
-            b--;
+            b--
             if(!b)break;
         }
         if(b){
             for (var fr in r) {
                 a[fr].push(o.pop());
-                b--;
+                b--
                 if(!b)break;
             }
         }
     }
     state.kudos = {} //put back bennies over the max extentions limit
         for (var i = 0; i < o.length; i++) {
-            state.kudos[o[i].account] = parseInt(o[i].weight);
+            state.kudos[o[i].account] = parseInt(o[i].weight)
         }
     for (var r in a) { //weight the 8 accounts in 10000
         var u = 0,
             q = 0
         for (var i = 0; i < a[r].length; i++) {
-            u = parseInt(u) + parseInt(a[r][i].weight);
+            u = parseInt(u) + parseInt(a[r][i].weight)
         }
         q = parseInt(10000/u)
         for (var i = 0; i < a[r].length; i++) {
-            a[r][i].weight = parseInt(parseInt(a[r][i].weight) * q);
+            a[r][i].weight = parseInt(parseInt(a[r][i].weight) * q)
         }
     }
-    o = [];
+    o = []
     for (var i in a){
-        o.push(a[i]);
+        o.push(a[i])
     }
-    console.log('payday:'+o);
-    return o;
+    console.log('payday:'+o)
+    return o
 }
 function sortExtentions(a, key) {
-    var b=[],c=[];
+    var b=[],c=[]
     for(i=0;i<a.length;i++){
-        b.push(a[i][key]);
+        b.push(a[i][key])
     }
-    b = b.sort();
+    b = b.sort()
     while (c.length < a.length){
       for(i=0;i<a.length;i++){
         if(a[i][key] == b[0]){
-            c.push(a[i]);
-            b.shift();
+            c.push(a[i])
+            b.shift()
         }
       }
     }
-    return c;
+    return c
 }
 function kudo(user) {
-    console.log('Kudos: ' + user);
+    console.log('Kudos: ' + user)
     if (!state.kudos[user]) {
-        state.kudos[user] = 1;
+        state.kudos[user] = 1
     } else {
         state.kudos[user]++
     }
@@ -1478,18 +1476,18 @@ function popWeather (loc){
         .then(function(r) {
             var tmin=400,tmax=0,tave=0,precip=0,h=0,p=[],c=[],w={s:0,d:0},s=[],d=r.list[0].wind.deg
             for(i=0;i<8;i++){
-                tave += parseInt(parseFloat(r.list[i].main.temp)*100);
+                tave += parseInt(parseFloat(r.list[i].main.temp)*100)
                 if(r.list[i].main.temp > tmax){tmax = r.list[i].main.temp}
                 if(r.list[i].main.temp < tmin){tmin = r.list[i].main.temp}
-                h = r.list[i].main.humidity;
-                c = parseInt(c + parseInt(r.list[i].clouds.all));
+                h = r.list[i].main.humidity
+                c = parseInt(c + parseInt(r.list[i].clouds.all))
                 if(r.list[i].rain){
-                    precip = parseFloat(precip) + parseFloat(r.list[i].rain['3h']);
+                    precip = parseFloat(precip) + parseFloat(r.list[i].rain['3h'])
                 }
-                s = r.list[i].wind.speed;
+                s = r.list[i].wind.speed
             }
-            tave = parseFloat(tave/800).toFixed(1);
-            c = parseInt(c/8);
+            tave = parseFloat(tave/800).toFixed(1)
+            c = parseInt(c/8)
             state.stats.env[loc].weather = {
                 high: tmax,
                 low: tmin,
@@ -1500,15 +1498,15 @@ function popWeather (loc){
                 winds: s,
                 windd: d
             }
-            resolve(loc);
+            resolve(loc)
         }).catch(e=>{
-            reject(e);
+            reject(e)
         })
     })
 }
 
 function autoPoster (loc, num) {
-    var body = `\nhttps://source.unsplash.com/user/kimzy/1600x900# \n${state.stats.env[loc].name} Growers Daily News\n`, bens = '';
+    var body = `\nhttps://source.unsplash.com/user/kimzy/1600x900# \n${state.stats.env[loc].name} Growers Daily News\n`, bens = ''
     var footer = `\n<center><h1>Hashkings Official Links</h1>
     \n[Hashkings Web App](https://www.hashkings.app)
     \n[Hashkings Discord](https://discord.gg/QW6tWF9)
@@ -1520,14 +1518,14 @@ function autoPoster (loc, num) {
     \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.
     \n<a href="https://discord.gg/DcsPHUG"><img src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg">
     \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***
-    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***`;
+    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***`
     if (state.news[loc].length > 0){
         body = body + state.news[loc][0];state.news[loc].shift();
     }
-    body = body + `\n## Todays Weather\nYou can expect ${cloudy(state.stats.env[loc].weather.clouds)} with a high of ${parseFloat(state.stats.env[loc].weather.high - 272.15).toFixed(1)} Celsius. Winds will be out of the ${metWind(state.stats.env[loc].weather.windd)} at ${parseFloat(state.stats.env[loc].weather.winds).toFixed(1)} M/s. `;  
+    body = body + `\n## Todays Weather\nYou can expect ${cloudy(state.stats.env[loc].weather.clouds)} with a high of ${parseFloat(state.stats.env[loc].weather.high - 272.15).toFixed(1)} Celsius. Winds will be out of the ${metWind(state.stats.env[loc].weather.windd)} at ${parseFloat(state.stats.env[loc].weather.winds).toFixed(1)} M/s. `
     if (state.stats.env[loc].weather.precip){body = body + `Models predict ${parseFloat(state.stats.env[loc].weather.precip).toFixed(2)}mm of rain. `}
-    body = body + `Relative humidity will be around ${state.stats.env[loc].weather.humidity}% and a low of ${parseFloat(state.stats.env[loc].weather.low - 272.15).toFixed(1)} Celsius overnight.\n` + footer;
-    body = body + listBens(state.payday[0]);
+    body = body + `Relative humidity will be around ${state.stats.env[loc].weather.humidity}% and a low of ${parseFloat(state.stats.env[loc].weather.low - 272.15).toFixed(1)} Celsius overnight.\n` + footer
+    body = body + listBens(state.payday[0])
     var ops = [["comment",
                          {"parent_author": "",
                           "parent_permlink": 'hashkings',
@@ -1535,9 +1533,9 @@ function autoPoster (loc, num) {
                           "permlink": 'h'+num,
                           "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
                           "body": body,
-                          "json_metadata": JSON.stringify({tags:["hk-stream"]})}]];
+                          "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
     if(state.payday.length){
-        state.payday[0] = sortExtentions(state.payday[0],'account');
+        state.payday[0] = sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
                          {"author": streamname,
                           "permlink": 'h'+num,
@@ -1547,15 +1545,15 @@ function autoPoster (loc, num) {
                           "allow_curation_rewards": true,
                           "extensions":
                           [[0,
-                            {"beneficiaries":state.payday[0]}]]}];
-        ops.push(bens);
-        state.payday.shift();
+                            {"beneficiaries":state.payday[0]}]]}]
+        ops.push(bens)
+        state.payday.shift()
     }
-    state.refund.push(['ssign',ops]);
+    state.refund.push(['ssign',ops])
 }
 
 function cloudy(per){
-    const range = parseInt(per/20);
+    const range = parseInt(per/20)
     switch(range){
         case 4:
             return 'cloudy skies'
@@ -1575,7 +1573,7 @@ function cloudy(per){
     }
 }
 function metWind(deg){
-    const range = parseInt((deg-22.5)/8);
+    const range = parseInt((deg-22.5)/8)
     switch(range){
         case 7:
             return 'North'
@@ -1608,38 +1606,38 @@ function listBens (bens){
     var text = `\n<h4>All Hashkings Rewards go directly to our users!</h4>
                 \n
                 \nThis post benefits:
-                \n`;
+                \n`
     for(i=0;i<bens.length;i++){
-        text = text + `* @${bens[i].account} with ${parseFloat(bens[i].weight/100).toFixed(2)}%\n`;
+        text = text + `* @${bens[i].account} with ${parseFloat(bens[i].weight/100).toFixed(2)}%\n`
     }
-    return text;
+    return text
 }
 
 function daily(addr) {
-    var grown = false, harvested = false;
+    var grown = false, harvested = false
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
-                state.land[addr].care.splice(i,1);
+                state.land[addr].care.splice(i,1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
                 if(!grown)state.land[addr].care[i].push('c')
                 if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
                     if(!grown){
                         state.land[addr].substage++;
                         grown = true;
-                        kudo(state.land[addr].owner);
+                        kudo(state.land[addr].owner)
                     } else {
                         state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'You watered too soon']);
                     }
                 }
                 if (state.land[addr].substage == 7) {
                     state.land[addr].substage = 0;
-                    state.land[addr].stage++;
+                    state.land[addr].stage++
                 }
                 if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = state.land.length % 1
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
                     state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'over']);
-                    state.land[addr].substage = 7;
+                    state.land[addr].substage = 7
                 }
                 for (var j = 0; j < state.land[addr].aff.length; j++) {
                     
@@ -1649,14 +1647,14 @@ function daily(addr) {
                         break;
                     }
                 } catch(e) {
-                    console.log('An affliction happened', e.message);
+                    console.log('An affliction happened', e.message)
                    }
                 }}
                 try {
               if (state.land[addr].care[i][1] == 'harvested'){
                 if (!harvested && state.land[addr].stage > 3){
-                  harvested = true;
-                  kudo(state.land[addr].owner);
+                  harvested = true
+                  kudo(state.land[addr].owner)
                   const seed = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
@@ -1667,9 +1665,9 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta']
                   }
-                  state.users[state.land[addr].owner].seeds.push(seed);
+                  state.users[state.land[addr].owner].seeds.push(seed)
 
-                  state.users[state.land[addr].owner].seeds.push(seed2);
+                  state.users[state.land[addr].owner].seeds.push(seed2)
 
                   const parcel = {
                       owner: state.land[addr].owner,
@@ -1682,11 +1680,11 @@ function daily(addr) {
                       traits: [],
                       terps: []
                   }
-                  state.land[addr] = parcel;
+                  state.land[addr] = parcel
                   
                 }}
                 } catch(e) {
-                    console.log('harvesting error', e.message);
+                    console.log('harvesting error', e.message)
                    }
             
             }
