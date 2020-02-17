@@ -4,7 +4,7 @@ var steemState = require('./processor');
 var steemTransact = require('steem-transact');
 var fs = require('fs');
 const cors = require('cors');
-const express = require('express')
+const express = require('express');
 const ENV = process.env;
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
@@ -86,15 +86,15 @@ app.use(cors());
             }
 */
 app.get('/p/:addr', (req, res, next) => {
-    let addr = req.params.addr
+    let addr = req.params.addr;
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.land[addr], null, 3))
+    res.send(JSON.stringify(state.land[addr], null, 3));
 });
 
 //shows a log 
 app.get('/logs', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.cs, null, 3))
+    res.send(JSON.stringify(state.cs, null, 3));
 });
 
 /*detailed list of seeds a user owns from state.js by username\
@@ -183,52 +183,52 @@ app.get('/logs', (req, res, next) => {
         ]
 */
 app.get('/a/:user', (req, res, next) => {
-    let user = req.params.user, arr = []
+    let user = req.params.user, arr = [];
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
         for (var i = 0 ; i < state.users[user].addrs.length ; i++){
-            arr.push(state.users[user].addrs[i])
+            arr.push(state.users[user].addrs[i]);
         }
     }
     for ( var i = 0 ; i < arr.length ; i++){
-        insert = ''
-        var insert = state.land[arr[i]]
+        insert = '';
+        var insert = state.land[arr[i]];
         if(insert){
             insert.id = arr[i]
             if(insert.care.length>3){insert.care.splice(3,insert.care.length-3)}
             if(insert.aff.length>3){insert.aff.splice(3,insert.aff.length-3)}
-            arr.splice(i,1,insert)
+            arr.splice(i,1,insert);
         }
     }
-    res.send(JSON.stringify(arr, null, 3))
+    res.send(JSON.stringify(arr, null, 3));
 });
 
 //overal game stats i.e. number of gardeners, number of plots available, seed prices, land price, weather info
 //at each location such as mexico or jamaica etc.
 app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    Object.keys(state.users).length
-    var ret = state.stats
-    ret.gardeners = Object.keys(state.users).length
-    res.send(JSON.stringify(ret, null, 3))
+    Object.keys(state.users).length;
+    var ret = state.stats;
+    ret.gardeners = Object.keys(state.users).length;
+    res.send(JSON.stringify(ret, null, 3));
 });
 
 //entire state.json output
 app.get('/', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state, null, 3))
+    res.send(JSON.stringify(state, null, 3));
 });
 
 //shows seeds by user
 app.get('/s/:user', (req, res, next) => {
-    let user = req.params.user, arr = []
+    let user = req.params.user, arr = [];
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
         for (var i = 0 ; i < state.users[user].seeds.length ; i++){
-            arr.push(state.users[user].seeds[i])
+            arr.push(state.users[user].seeds[i]);
         }
     }
-    res.send(JSON.stringify(arr, null, 3))
+    res.send(JSON.stringify(arr, null, 3));
 });
 
 //post payouts in que
@@ -237,7 +237,7 @@ app.get('/refunds', (req, res, next) => {
     res.send(JSON.stringify({
         refunds: state.refund,
         bal: state.bal
-    }, null, 3))
+    }, null, 3));
 });
 
 /*plot and seed information by user
@@ -274,9 +274,9 @@ app.get('/refunds', (req, res, next) => {
 
 */
 app.get('/u/:user', (req, res, next) => {
-    let user = req.params.user
+    let user = req.params.user;
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.users[user], null, 3))
+    res.send(JSON.stringify(state.users[user], null, 3));
 });
 
 /*delegation information by user
@@ -288,16 +288,16 @@ app.get('/u/:user', (req, res, next) => {
 }
 */
 app.get('/delegation/:user', (req, res, next) => {
-    let user = req.params.user
-    var op = {}
+    let user = req.params.user;
+    var op = {};
     for(i=0;i<state.delegations.length;i++){
         if(state.delegations[i].delegator == user){
-            op = state.delegations[i]
+            op = state.delegations[i];
             break;
         }
     }
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(op, null, 3))
+    res.send(JSON.stringify(op, null, 3));
 });
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`));
@@ -308,7 +308,7 @@ const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
 const ago = ENV.ago || 40864606;
 const prefix = ENV.PREFIX || 'hk_'; // part of custom json visible on the blockchain during watering etc..
-const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
+const clientURL = ENV.APIURL || 'https://api.steemit.com'; // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
 var recents = [];
@@ -319,18 +319,18 @@ const transactor = steemTransact(client, steem, prefix);
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
-    console.log(err)
-    startWith(sh)
+    console.log(err);
+    startWith(sh);
   } else {
     let ebus = result.filter( tx => tx[1].op[1].id === 'hashkings_report' )
     for(i=ebus.length -1; i>=0; i--){
       if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
     }
-    const mostRecent = recents.shift()
-    console.log('starting properly')
-    console.log(sh)
-    console.log(mostRecent)
-    startWith(mostRecent)
+    const mostRecent = recents.shift();
+    console.log('starting properly');
+    console.log(sh);
+    console.log(mostRecent);
+    startWith(mostRecent);
   }
 });
 
