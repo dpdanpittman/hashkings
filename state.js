@@ -672,7 +672,7 @@ module.exports = {
       "gardeners": 130
    },
    "bal": {
-      "r": 2,
+      "r": 0,
       "c": 0,
       "b": 0,
       "p": 1307122
@@ -1213,13 +1213,20 @@ module.exports = {
       },
       "a50": {
          "owner": "abrockman",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "mal",
+         "xp": 50,
+         "care": [
+            [
+               40881581,
+               "planted"
+            ],
+         ],
          "aff": [],
          "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "id": "a50"
       },

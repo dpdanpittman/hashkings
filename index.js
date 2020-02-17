@@ -300,9 +300,9 @@ app.get('/delegation/:user', (req, res, next) => {
     res.send(JSON.stringify(op, null, 3))
 });
 
-app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
+app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`));
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40864606; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40880487; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
@@ -503,7 +503,7 @@ function startApp() {
         \n
         \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. 
         \n
-        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`
+        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n`;
         var footer = `\n<center><h1>Hashkings Official Links</h1></center>
         \n
         \n<center>[Hashkings Web App](https://www.hashkings.app)    
@@ -525,7 +525,7 @@ function startApp() {
         \n
         \n       
         \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
-        \n`
+        \n`;
             if (state.news.h.length > 0){
                 body = body + state.news.h[0] + footer ;state.news.h.shift();
             } else {
@@ -553,11 +553,11 @@ function startApp() {
             state.payday.shift()
     }
         if (num % 28800 === 20300 && state.payday && state.payday[0].length) {
-            state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
+            state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]]);
         }
         if (num % 28800 === 25000 && state.payday.length) {
 
-            state.payday[0] = sortExtentions(state.payday[0],'account')
+            state.payday[0] = sortExtentions(state.payday[0],'account');
             var body = `\nhttps://i.imgur.com/jTxih7O.png
             \n
             \n<center><h1>What is Kief?</h1></center>
