@@ -6,7 +6,7 @@ var fs = require('fs');
 const cors = require('cors');
 const express = require('express')
 const ENV = process.env;
-const maxEx = process.max_extentions || 8
+const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({
     host: 'ipfs.infura.io',
@@ -49,13 +49,13 @@ const ipfs = new IPFS({
 */
 const init = require('./state');
 
-const app = express()
+const app = express();
 const port = ENV.PORT || 3000;
-const wkey = ENV.wkey
-const skey = steem.PrivateKey.from(ENV.skey)
-const streamname = ENV.streamname
+const wkey = ENV.wkey;
+const skey = steem.PrivateKey.from(ENV.skey);
+const streamname = ENV.streamname;
 
-app.use(cors())
+app.use(cors());
 
 /*plot info from state.js by plot number
             {
@@ -315,14 +315,14 @@ var recents = [];
 const transactor = steemTransact(client, steem, prefix);
 
 /****ISSUE****/
-//I think this is where the app can get the hash from qwoyn_report that is saved in state.js and use it
+//I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
     console.log(err)
     startWith(sh)
   } else {
-    let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' )
+    let ebus = result.filter( tx => tx[1].op[1].id === 'hashkings_report' )
     for(i=ebus.length -1; i>=0; i--){
       if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
     }
@@ -1637,7 +1637,7 @@ function daily(addr) {
                 if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = state.land.length % 1
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
                     state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'over']);
-                    state.land[addr].substage = 12
+                    state.land[addr].substage = 7
                 }
                 for (var j = 0; j < state.land[addr].aff.length; j++) {
                     
@@ -1687,7 +1687,7 @@ function daily(addr) {
                     console.log('harvesting error', e.message)
                    }
             
-            }//cleanup(addr, cleanupindex)
+            }
                   
                 }
                 
