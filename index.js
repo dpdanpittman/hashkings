@@ -418,7 +418,7 @@ function startApp() {
                 delete state.cs[item];
               }
             }
-            state.payday[0] = sortExtentions(state.payday[0],'account');
+            state.payday[0] = sortExtentions(state.payday[0],'account')
         var body = `\nhttps://i.imgur.com/jTxih7O.png
         \n
         \n<center><h1>What is Kief?</h1></center>
@@ -527,7 +527,7 @@ function startApp() {
         \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!
         \n`
             if (state.news.h.length > 0){
-                body = body + state.news.h[0] + footer ;
+                body = body + state.news.h[0] + footer;
                 state.news.h.shift();
             } else {
                 body = body + footer;
