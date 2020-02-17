@@ -549,8 +549,8 @@ function startApp() {
                                   "allow_curation_rewards": true,
                                   "extensions":
                                   [[0,
-                                    {"beneficiaries":state.payday[0]}]]}]] ]);
-            state.payday.shift();
+                                    {"beneficiaries":state.payday[0]}]]}]] ])
+            state.payday.shift()
     }
         if (num % 28800 === 20300 && state.payday && state.payday[0].length) {
             state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
