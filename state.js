@@ -691,7 +691,22 @@ module.export = {
       "b": 0,
       "p": 1307122
    },
-   "refund": [],
+   "refund": [
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h40916998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ]
+   ],
    "lands": {
       "forSale": [
          "e13",
