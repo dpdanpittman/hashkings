@@ -1,3 +1,28 @@
+//                       .                          
+//                       M                          
+//                      dM                          
+//                      MMr                         
+//                     4MMML                  .     
+//                     MMMMM.                xf     
+//     .               "MMMMM               .MM-     
+//      Mh..          +MMMMMM            .MMMM      
+//      .MMM.         .MMMMML.          MMMMMh      
+//       )MMMh.        MMMMMM         MMMMMMM       
+//        3MMMMx.     'MMMMMMf      xnMMMMMM"       
+//        '*MMMMM      MMMMMM.     nMMMMMMP"        
+//          *MMMMMx    "MMMMM\    .MMMMMMM=         
+//           *MMMMMh   "MMMMM"   JMMMMMMP           
+//             MMMMMM   3MMMM.  dMMMMMM            .
+//              MMMMMM  "MMMM  .MMMMM(        .nnMP"
+//  =..          *MMMMx  MMM"  dMMMM"    .nnMMMMM*  
+//    "MMn...     'MMMMr 'MM   MMM"   .nMMMMMMM*"   
+//     "4MMMMnn..   *MMM  MM  MMP"  .dMMMMMMM""     
+//       ^MMMMMMMMx.  *ML "M .M*  .MMMMMM**"        
+//          *PMMMMMMhn. *x > M  .MMMM**""           
+//             ""**MMMMhx/.h/ .=*"                  
+//                      .3P"%....                   
+//                    nP"     "*MMnx       DaFreakyG
+
 var steem = require('dsteem');
 var steemjs = require('steem');
 var steemState = require('./processor');
@@ -302,11 +327,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40885487; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 40915628; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 40885487;
+const ago = ENV.ago || 40915628;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
