@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
    "delegations": [
       {
          "delegator": "inthenow",
@@ -691,22 +691,7 @@ module.export = {
       "b": 0,
       "p": 1307122
    },
-   "refund": [
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h40916998",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ]
-   ],
+   "refund": [],
    "lands": {
       "forSale": [
          "e13",
