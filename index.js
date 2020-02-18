@@ -315,22 +315,20 @@ var recents = [];
 const transactor = steemTransact(client, steem, prefix);
 
 /****ISSUE****/
-//I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
-//to start the app.  this should prevent the app having to start from GENESIS BLOCK
 steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   if (err){
     console.log(err)
     startWith(sh)
   } else {
-    let ebus = result.filter( tx => tx[1].op[1].id === 'hashkings_report' )
+    let ebus = result.filter( tx => tx[1].op[1].id === 'qwoyn_report' )
     for(i=ebus.length -1; i>=0; i--){
       if(JSON.parse(ebus[i][1].op[1].json).stateHash !== null)recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
     }
     const mostRecent = recents.shift()
-    console.log('starting properly')
     console.log(sh)
     console.log(mostRecent)
     startWith(mostRecent)
+    console.log('starting properly with most recent')
   }
 });
 
