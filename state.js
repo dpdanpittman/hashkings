@@ -7612,10 +7612,6 @@ module.export = {
          "xp": 2250,
          "care": [
             [
-               40916254,
-               "watered"
-            ],
-            [
                40886900,
                "watered",
                "c"
@@ -11386,7 +11382,6 @@ module.export = {
       "40914779:jonyoudyer": "jonyoudyer harvested a2 a3 f9 b42 d36 e11 ",
       "40915030:stever82": "stever82 harvested f63 d81 ",
       "40915033:stever82": "stever82 watered c95 ",
-      "40915980:cuko": "cuko watered e91 ",
-      "40916253:qwoyn": "qwoyn watered a100 "
+      "40915980:cuko": "cuko watered e91 "
    }
 }
