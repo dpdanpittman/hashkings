@@ -698,7 +698,7 @@ module.exports = {
             [
                "vote",
                {
-                  "author": "haskings-test",
+                  "author": "hk-stream",
                   "permlink": "h40889200",
                   "voter": "hashkings",
                   "weight": 10000
@@ -712,7 +712,7 @@ module.exports = {
             [
                "vote",
                {
-                  "author": "haskings-test",
+                  "author": "hk-stream",
                   "permlink": "h40895398",
                   "voter": "hashkings",
                   "weight": 10000
@@ -738,7 +738,7 @@ module.exports = {
             [
                "comment_options",
                {
-                  "author": "haskings-test",
+                  "author": "hk-stream",
                   "permlink": "h40915798",
                   "max_accepted_payout": "1000000.000 SBD",
                   "percent_steem_dollars": 10000,
