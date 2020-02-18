@@ -124,7 +124,7 @@ module.export = {
          "delegator": "pugqueen",
          "vests": 0,
          "availible": 0,
-         "used": 0
+         "used": 1
       },
       {
          "delegator": "nutritree",
@@ -457,6 +457,24 @@ module.export = {
          "used": 2
       },
       {
+         "delegator": "qwoyn-dev",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
+      },
+      {
+         "delegator": "qwoyn-chest",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
+      },
+      {
+         "delegator": "hashkings",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
+      },
+      {
          "delegator": "tsnaks",
          "vests": 78521613961,
          "availible": 0,
@@ -601,7 +619,7 @@ module.export = {
             "weather": {
                "high": 298.94,
                "low": 293.47,
-               "avg": "296.5",
+               "avg": "296.2",
                "precip": 2.39,
                "clouds": 30,
                "humidity": 97,
@@ -649,8 +667,8 @@ module.export = {
       },
       "supply": {
          "land": {
-            "a": 305,
-            "ac": 115,
+            "a": 302,
+            "ac": 118,
             "b": 325,
             "bc": 95,
             "c": 319,
@@ -697,7 +715,6 @@ module.export = {
    "refund": [],
    "lands": {
       "forSale": [
-         "e13",
          "e57",
          "a55",
          "c49",
@@ -769,6 +786,62 @@ module.export = {
          ],
          "terps": [],
          "id": "a10"
+      },
+      "a300": {
+         "owner": "qwoyn-fund",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "a300"
+      },
+      "a301": {
+         "owner": "qwoyn-dev",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "a301"
+      },
+      "a303": {
+         "owner": "qwoyn-chest",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "a303"
+      },
+      "e13": {
+         "owner": "hashkings",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "e13"
       },
       "a2": {
          "owner": "jonyoudyer",
@@ -1100,7 +1173,7 @@ module.export = {
          "xp": 0,
          "care": [
             [
-               40915811,
+               40915810,
                ""
             ]
          ],
@@ -2518,19 +2591,19 @@ module.export = {
          "id": "f8",
          "sex": 1
       },
-      "a60": {
+      "a305": {
          "owner": "pugqueen",
          "strain": "hk",
          "xp": 2250,
          "care": [],
          "aff": [],
          "planted": 33284656,
-         "stage": 4,
+         "stage": 2,
          "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
-         "id": "a60",
+         "id": "a305",
          "sex": 0
       },
       "f3": {
@@ -3599,7 +3672,7 @@ module.export = {
          "xp": 0,
          "care": [
             [
-               40915815,
+               40915816,
                ""
             ]
          ],
@@ -7353,7 +7426,7 @@ module.export = {
          "xp": 50,
          "care": [
             [
-               40915981,
+               40915982,
                "watered"
             ],
             [
@@ -7561,6 +7634,10 @@ module.export = {
          "xp": 2250,
          "care": [
             [
+               40918475,
+               "watered"
+            ],
+            [
                40916254,
                "watered"
             ],
@@ -7743,6 +7820,33 @@ module.export = {
             "a10",
             "c46",
             "a100"
+         ],
+         "seeds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
+      "qwoyn-dev": {
+         "addrs": [
+            "a301",
+         ],
+         "seeds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
+      "qwoyn-chest": {
+         "addrs": [
+            "a303",
+         ],
+         "seeds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
+      "hashkings": {
+         "addrs": [
+            "a302",
          ],
          "seeds": [],
          "inv": [],
@@ -8419,7 +8523,7 @@ module.export = {
       },
       "pugqueen": {
          "addrs": [
-            "e13"
+            "a305"
          ],
          "seeds": [],
          "inv": [],
@@ -8471,7 +8575,9 @@ module.export = {
          "u": 0
       },
       "qwoyn-fund": {
-         "addrs": [],
+         "addrs": [
+            "a300"
+         ],
          "seeds": [
             {
                "strain": "aca",
@@ -11336,6 +11442,7 @@ module.export = {
       "40915030:stever82": "stever82 harvested f63 d81 ",
       "40915033:stever82": "stever82 watered c95 ",
       "40915980:cuko": "cuko watered e91 ",
-      "40916253:qwoyn": "qwoyn watered a100 "
+      "40916253:qwoyn": "qwoyn watered a100 ",
+      "40918474:qwoyn": "qwoyn watered a100 "
    }
 }
