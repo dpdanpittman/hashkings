@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
    "delegations": [
       {
          "delegator": "inthenow",
@@ -500,26 +500,23 @@ module.export = {
       }
    ],
    "kudos": {
-      "abrockman": 56,
-      "chronocrypto": 14,
+      "abrockman": 38,
+      "chronocrypto": 11,
       "nutritree": 1,
       "theb0red1": 4,
       "qwoyn": 1,
       "mcoinz79": 2,
-      "saboin": 10,
+      "saboin": 3,
       "luegenbaron": 2,
-      "ecoinstats": 5,
+      "ecoinstats": 4,
       "chunkysoupsvc": 1,
       "nupulse": 1,
       "tsnaks": 1,
       "stever82": 1,
       "anarcist69": 1,
       "rachaeldwatson": 1,
-      "jeffjagoe": 4,
-      "cuko": 1,
-      "jonyoudyer": 1,
-      "atomcollector": 1,
-      "jbsharkey": 1
+      "jeffjagoe": 2,
+      "cuko": 1
    },
    "stats": {
       "vs": 1950,
@@ -555,13 +552,13 @@ module.export = {
             "lon": "37.9",
             "weather": {
                "high": 302.99,
-               "low": 294.17,
+               "low": 294.27,
                "avg": "298.3",
-               "precip": 0.5700000000000001,
-               "clouds": 8,
-               "humidity": 93,
-               "winds": 1.27,
-               "windd": 74
+               "precip": 0.69,
+               "clouds": 9,
+               "humidity": 92,
+               "winds": 2.02,
+               "windd": 65
             }
          },
          "c": {
@@ -601,7 +598,7 @@ module.export = {
             "weather": {
                "high": 298.94,
                "low": 293.47,
-               "avg": "296.3",
+               "avg": "296.5",
                "precip": 2.39,
                "clouds": 30,
                "humidity": 97,
@@ -694,44 +691,7 @@ module.export = {
       "b": 0,
       "p": 1307122
    },
-   "refund": [
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h40916998",
-                  "title": "Hashkings Almanac for Africa | 40916998",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 30.8 Celsius. Winds will be out of the Northwest at 1.3 M/s. Models predict 0.57mm of rain. Relative humidity will be around 93% and a low of 22.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h40916998",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": []
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ]
-   ],
+   "refund": [],
    "lands": {
       "forSale": [
          "e13",
@@ -1133,19 +1093,23 @@ module.export = {
       },
       "b42": {
          "owner": "jonyoudyer",
-         "strain": "",
-         "xp": 0,
+         "strain": "swz",
+         "xp": 2250,
          "care": [
             [
-               40915811,
-               ""
+               40914781,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": []
+         "planted": 32547991,
+         "stage": 6,
+         "substage": 4,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "id": "b42",
+         "sex": 0
       },
       "a3": {
          "owner": "jonyoudyer",
@@ -1380,8 +1344,7 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40910020,
@@ -1394,7 +1357,7 @@ module.export = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 6,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -2068,13 +2031,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2271,13 +2233,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2899,13 +2860,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3085,13 +3045,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3148,13 +3107,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3632,19 +3590,29 @@ module.export = {
       },
       "b64": {
          "owner": "abrockman",
-         "strain": "",
-         "xp": 0,
+         "strain": "mis",
+         "xp": 50,
          "care": [
             [
-               40915816,
-               ""
+               40911181,
+               "watered"
+            ],
+            [
+               40910020,
+               "watered"
+            ],
+            [
+               40910005,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
+         "stage": 3,
+         "substage": 6,
          "traits": [],
-         "terps": []
+         "terps": [],
+         "planted": 39615291,
+         "id": "b64"
       },
       "f35": {
          "owner": "abrockman",
@@ -3929,8 +3897,7 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40910020,
@@ -3943,7 +3910,7 @@ module.export = {
          ],
          "aff": [],
          "stage": 3,
-         "substage": 6,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -4058,8 +4025,7 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40910020,
@@ -4072,7 +4038,7 @@ module.export = {
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -4107,8 +4073,7 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40910020,
@@ -4121,7 +4086,7 @@ module.export = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 6,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4569,13 +4534,12 @@ module.export = {
          "care": [
             [
                40911082,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -4726,8 +4690,7 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40910020,
@@ -4740,7 +4703,7 @@ module.export = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4917,13 +4880,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5079,13 +5041,12 @@ module.export = {
          "care": [
             [
                40911082,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5158,14 +5119,13 @@ module.export = {
          "care": [
             [
                40894295,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 37460894,
          "stage": 5,
-         "substage": 5,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -5179,14 +5139,13 @@ module.export = {
          "care": [
             [
                40894295,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 37460915,
          "stage": 6,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -5404,14 +5363,13 @@ module.export = {
          "care": [
             [
                40894295,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 37461884,
          "stage": 6,
-         "substage": 5,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5529,13 +5487,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5591,13 +5548,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5779,13 +5735,12 @@ module.export = {
          "care": [
             [
                40911082,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5844,13 +5799,12 @@ module.export = {
          "care": [
             [
                40911082,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5885,13 +5839,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6075,14 +6028,13 @@ module.export = {
          "care": [
             [
                40911952,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 38196505,
          "stage": 5,
-         "substage": 4,
+         "substage": 3,
          "traits": [
             "Genesis Seed"
          ],
@@ -6117,13 +6069,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6178,13 +6129,12 @@ module.export = {
          "care": [
             [
                40911181,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6426,14 +6376,13 @@ module.export = {
          "care": [
             [
                40911218,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 38525435,
          "stage": 4,
-         "substage": 5,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -6579,19 +6528,27 @@ module.export = {
       },
       "b88": {
          "owner": "saboin",
-         "strain": "",
-         "xp": 0,
+         "strain": "mal",
+         "xp": 50,
          "care": [
             [
-               40915822,
-               ""
+               40911082,
+               "watered"
+            ],
+            [
+               40910536,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": []
+         "planted": 39333310,
+         "stage": 4,
+         "substage": 3,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "id": "b88",
+         "sex": 0
       },
       "c97": {
          "owner": "saboin",
@@ -6620,14 +6577,13 @@ module.export = {
          "care": [
             [
                40911082,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 39392167,
          "stage": 3,
-         "substage": 2,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
@@ -7201,14 +7157,13 @@ module.export = {
          "care": [
             [
                40911218,
-               "watered",
-               "c"
+               "watered"
             ]
          ],
          "aff": [],
          "planted": 39724099,
          "stage": 2,
-         "substage": 1,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -7325,8 +7280,7 @@ module.export = {
          "care": [
             [
                40908019,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40893437,
@@ -7336,7 +7290,7 @@ module.export = {
          "aff": [],
          "planted": 40254636,
          "stage": 2,
-         "substage": 3,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -7389,10 +7343,6 @@ module.export = {
          "strain": "kbr",
          "xp": 50,
          "care": [
-            [
-               40915981,
-               "watered"
-            ],
             [
                40901702,
                "watered",
@@ -7447,12 +7397,16 @@ module.export = {
          "care": [
             [
                40900831,
-               "watered",
-               "c"
+               "watered"
             ],
             [
                40888780,
                "watered"
+            ],
+            [
+               40866081,
+               "watered",
+               "c"
             ],
             [
                40808065,
@@ -7462,7 +7416,7 @@ module.export = {
          "aff": [],
          "planted": 40794325,
          "stage": 1,
-         "substage": 3,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -7598,10 +7552,6 @@ module.export = {
          "xp": 2250,
          "care": [
             [
-               40916254,
-               "watered"
-            ],
-            [
                40886900,
                "watered",
                "c"
@@ -7659,20 +7609,6 @@ module.export = {
             {
                "strain": "kbr",
                "xp": 50
-            },
-            {
-               "strain": "swz",
-               "xp": 2250,
-               "traits": [
-                  "beta"
-               ]
-            },
-            {
-               "strain": "swz",
-               "xp": 2250,
-               "traits": [
-                  "beta"
-               ]
             }
          ],
          "inv": [],
@@ -9531,20 +9467,6 @@ module.export = {
                "traits": [
                   "beta"
                ]
-            },
-            {
-               "strain": "mis",
-               "xp": 50,
-               "traits": [
-                  "beta"
-               ]
-            },
-            {
-               "strain": "mis",
-               "xp": 50,
-               "traits": [
-                  "beta"
-               ]
             }
          ],
          "inv": [],
@@ -10842,20 +10764,6 @@ module.export = {
                "traits": [
                   "Beta Seed"
                ]
-            },
-            {
-               "strain": "mal",
-               "xp": 50,
-               "traits": [
-                  "beta"
-               ]
-            },
-            {
-               "strain": "mal",
-               "xp": 50,
-               "traits": [
-                  "beta"
-               ]
             }
          ],
          "inv": [],
@@ -11358,6 +11266,19 @@ module.export = {
       "e": []
    },
    "payday": [
+      [
+         {
+            "account": "mcoinz79",
+            "weight": 10000
+         }
+      ],
+      [
+         {
+            "account": "atomcollector",
+            "weight": 10000
+         }
+      ],
+      [],
       [],
       [],
       []
@@ -11371,8 +11292,6 @@ module.export = {
       "40914059:rachaeldwatson": "rachaeldwatson harvested e73 ",
       "40914779:jonyoudyer": "jonyoudyer harvested a2 a3 f9 b42 d36 e11 ",
       "40915030:stever82": "stever82 harvested f63 d81 ",
-      "40915033:stever82": "stever82 watered c95 ",
-      "40915980:cuko": "cuko watered e91 ",
-      "40916253:qwoyn": "qwoyn watered a100 "
+      "40915033:stever82": "stever82 watered c95 "
    }
 }
