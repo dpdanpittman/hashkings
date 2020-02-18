@@ -11435,14 +11435,5 @@ module.export = {
       "zonguin": true,
       "steembeem": true
    },
-   "cs": {
-      "40913762:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
-      "40914059:rachaeldwatson": "rachaeldwatson harvested e73 ",
-      "40914779:jonyoudyer": "jonyoudyer harvested a2 a3 f9 b42 d36 e11 ",
-      "40915030:stever82": "stever82 harvested f63 d81 ",
-      "40915033:stever82": "stever82 watered c95 ",
-      "40915980:cuko": "cuko watered e91 ",
-      "40916253:qwoyn": "qwoyn watered a100 ",
-      "40918474:qwoyn": "qwoyn watered a100 "
-   }
+   "cs": {}
 }
