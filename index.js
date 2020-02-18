@@ -948,9 +948,7 @@ function startApp() {
     processor.on('report', function(json, from) {
         try{for (var i = 0; i < state.refund.length; i++) {
             if (state.refund[i][2].block == json.block) state.refund.splice(i, 1)
-        }}catch(e){
-            console.log('Reports not being made', e.message)
-        }
+        }}catch(e){}
     });
     processor.on('grant', function(json, from) {
         if(from=='hashkings'){state.users[json.to].v = 1}
