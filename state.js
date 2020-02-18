@@ -118,7 +118,25 @@ module.exports = {
          "delegator": "qwoyn-fund",
          "vests": 0,
          "availible": 0,
-         "used": 0
+         "used": 1
+      },
+      {
+         "delegator": "qwoyn-dev",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
+      },
+      {
+         "delegator": "qwoyn-chest",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
+      },
+      {
+         "delegator": "hashkings",
+         "vests": 0,
+         "availible": 0,
+         "used": 1
       },
       {
          "delegator": "pugqueen",
@@ -694,10 +712,6 @@ module.exports = {
    "refund": [],
    "lands": {
       "forSale": [
-         "e13",
-         "e57",
-         "a55",
-         "c49",
          "e37",
          "e40",
          "f23",
@@ -766,6 +780,62 @@ module.exports = {
          ],
          "terps": [],
          "id": "a10"
+      },
+      "e13": {
+         "owner": "qwoyn-fund",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "e13"
+      },
+      "e57": {
+         "owner": "qwoyn-dev",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "e57"
+      },
+      "c49": {
+         "owner": "qwoyn-chest",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "c49"
+      },
+      "a55": {
+         "owner": "hashkings",
+         "strain": "mis",
+         "xp": 50,
+         "care": [],
+         "aff": [],
+         "stage": 0,
+         "substage": 0,
+         "traits": [
+            "Genesis Seed"
+         ],
+         "terps": [],
+         "id": "a55"
       },
       "a2": {
          "owner": "jonyoudyer",
@@ -8444,7 +8514,9 @@ module.exports = {
          "u": 0
       },
       "qwoyn-fund": {
-         "addrs": [],
+         "addrs": [
+            "e13"
+         ],
          "seeds": [
             {
                "strain": "aca",
@@ -8454,7 +8526,55 @@ module.exports = {
          "inv": [],
          "stats": [],
          "v": 0,
-         "a": 1,
+         "a": 0,
+         "u": 0
+      },
+      "qwoyn-dev": {
+         "addrs": [
+            "e57"
+         ],
+         "seeds": [
+            {
+               "strain": "aca",
+               "xp": 2250
+            }
+         ],
+         "inv": [],
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "qwoyn-chest": {
+         "addrs": [
+            "c49"
+         ],
+         "seeds": [
+            {
+               "strain": "aca",
+               "xp": 2250
+            }
+         ],
+         "inv": [],
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "hashkings": {
+         "addrs": [
+            "a55"
+         ],
+         "seeds": [
+            {
+               "strain": "aca",
+               "xp": 2250
+            }
+         ],
+         "inv": [],
+         "stats": [],
+         "v": 0,
+         "a": 0,
          "u": 0
       },
       "jrawsthorne": {
