@@ -6506,10 +6506,6 @@ module.export = {
          "xp": 50,
          "care": [
             [
-               40915035,
-               "watered"
-            ],
-            [
                40906043,
                "watered"
             ]
@@ -7403,10 +7399,6 @@ module.export = {
          "strain": "kbr",
          "xp": 50,
          "care": [
-            [
-               40915981,
-               "watered"
-            ],
             [
                40901702,
                "watered",
