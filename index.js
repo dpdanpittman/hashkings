@@ -1651,6 +1651,8 @@ function sexing (){
 
     if(sex > 0){
         sexAtBirth = "male";
+    } else{
+        sexAtBirth = "female";
     }
     return sexAtBirth
 }
