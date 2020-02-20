@@ -781,7 +781,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "terps": [],
-         "id": "a10"
+         "id": "a10",
+         "sex": "female"
       },
       "e13": {
          "owner": "qwoyn-fund",
@@ -868,7 +869,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b34",
-         "sex": 0
+         "sex": "female"
       },
       "e14": {
          "owner": "mondoshawan",
@@ -884,7 +885,7 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
-         "sex": 1
+         "sex": "male"
       },
       "a43": {
          "owner": "gregorypatrick",
@@ -899,7 +900,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a43",
-         "sex": 1
+         "sex": "male"
       },
       "a7": {
          "owner": "prettynicevideo",
@@ -914,7 +915,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a7",
-         "sex": 0
+         "sex": "female"
       },
       "a49": {
          "owner": "inthenow",
@@ -929,7 +930,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a49",
-         "sex": 1
+         "sex": "male"
       },
       "a9": {
          "owner": "ghosthunter1",
@@ -945,7 +946,7 @@ module.exports = {
          "terps": [],
          "planted": 39630977,
          "id": "a9",
-         "sex": 0
+         "sex": "female"
       },
       "a11": {
          "owner": "bluntsmasha",
@@ -1004,7 +1005,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b32",
-         "sex": 1
+         "sex": "male"
       },
       "a48": {
          "owner": "californiacrypto",
@@ -1019,7 +1020,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a48",
-         "sex": 0
+         "sex": "female"
       },
       "b5": {
          "owner": "luegenbaron",
@@ -1045,7 +1046,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 1,
+         "sex": "male",
          "id": "e8"
       },
       "a17": {
@@ -1061,7 +1062,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a17",
-         "sex": 0
+         "sex": "female"
       },
       "b41": {
          "owner": "mondoshawan",
@@ -1076,7 +1077,7 @@ module.exports = {
          ],
          "terps": [],
          "id": "b41",
-         "sex": 1,
+         "sex": "male",
          "planted": 39600281
       },
       "c37": {
@@ -1132,7 +1133,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e17",
-         "sex": 1
+         "sex": "male"
       },
       "b42": {
          "owner": "jonyoudyer",
@@ -1190,7 +1191,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f1",
-         "sex": 0
+         "sex": "female"
       },
       "a46": {
          "owner": "movingman",
@@ -1205,7 +1206,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a46",
-         "sex": 0
+         "sex": "female"
       },
       "a15": {
          "owner": "mrkhuffins",
@@ -1220,7 +1221,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a15",
-         "sex": 1
+         "sex": "male"
       },
       "b3": {
          "owner": "mrkhuffins",
@@ -1235,7 +1236,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b3",
-         "sex": 0
+         "sex": "female"
       },
       "d3": {
          "owner": "mrkhuffins",
@@ -1250,7 +1251,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d3",
-         "sex": 0
+         "sex": "female"
       },
       "d32": {
          "owner": "ecoinstar",
@@ -1263,7 +1264,7 @@ module.exports = {
          "traits": [],
          "terps": [],
          "id": "d32",
-         "sex": 1
+         "sex": "male"
       },
       "a50": {
          "owner": "abrockman",
@@ -1321,7 +1322,7 @@ module.exports = {
          "terps": [],
          "planted": 39845294,
          "id": "c39",
-         "sex": 1
+         "sex": "male"
       },
       "d33": {
          "owner": "abrockman",
@@ -1351,7 +1352,7 @@ module.exports = {
          "terps": [],
          "planted": 40707676,
          "id": "d33",
-         "sex": 1
+         "sex": "male"
       },
       "b43": {
          "owner": "abrockman",
@@ -1483,7 +1484,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a1",
-         "sex": 0
+         "sex": "female"
       },
       "f11": {
          "owner": "choosefreedom",
@@ -1499,7 +1500,7 @@ module.exports = {
          "terps": [],
          "planted": 36367479,
          "id": "f11",
-         "sex": 1
+         "sex": "male"
       },
       "a120": {
          "owner": "elemental010",
@@ -1706,7 +1707,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e30",
-         "sex": 0
+         "sex": "female"
       },
       "b45": {
          "owner": "thehermitmonk",
@@ -1721,7 +1722,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b45",
-         "sex": 0
+         "sex": "female"
       },
       "b46": {
          "owner": "thehermitmonk",
@@ -1736,7 +1737,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b46",
-         "sex": 1
+         "sex": "male"
       },
       "e31": {
          "owner": "simgirl",
@@ -1757,7 +1758,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e31",
-         "sex": 1
+         "sex": "male"
       },
       "f13": {
          "owner": "simgirl",
@@ -1778,7 +1779,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f13",
-         "sex": 0
+         "sex": "female"
       },
       "b47": {
          "owner": "simgirl",
@@ -1800,7 +1801,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b47",
-         "sex": 1
+         "sex": "male"
       },
       "d35": {
          "owner": "simgirl",
@@ -1821,7 +1822,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d35",
-         "sex": 0
+         "sex": "female"
       },
       "d36": {
          "owner": "jonyoudyer",
@@ -1852,7 +1853,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e33",
-         "sex": 1
+         "sex": "male"
       },
       "e34": {
          "owner": "molovelly",
@@ -1867,7 +1868,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e34",
-         "sex": 0
+         "sex": "female"
       },
       "c45": {
          "owner": "mickvir",
@@ -1882,7 +1883,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c45",
-         "sex": 0
+         "sex": "female"
       },
       "e35": {
          "owner": "choosefreedom",
@@ -1897,7 +1898,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e35",
-         "sex": 0
+         "sex": "female"
       },
       "e36": {
          "owner": "anarcist69",
@@ -1985,7 +1986,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c47",
-         "sex": 1
+         "sex": "male"
       },
       "c48": {
          "owner": "gamewatch",
@@ -2000,7 +2001,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c48",
-         "sex": 0
+         "sex": "female"
       },
       "f6": {
          "owner": "onthewayout",
@@ -2026,7 +2027,7 @@ module.exports = {
          "terps": [],
          "planted": 39953101,
          "id": "f6",
-         "sex": 0
+         "sex": "female"
       },
       "b49": {
          "owner": "hotsauceislethal",
@@ -2041,7 +2042,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b49",
-         "sex": 1
+         "sex": "male"
       },
       "f16": {
          "owner": "hotsauceislethal",
@@ -2056,7 +2057,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f16",
-         "sex": 1
+         "sex": "male"
       },
       "d37": {
          "owner": "hotsauceislethal",
@@ -2071,7 +2072,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d37",
-         "sex": 0
+         "sex": "female"
       },
       "a56": {
          "owner": "abrockman",
@@ -2160,7 +2161,7 @@ module.exports = {
          "terps": [],
          "planted": 39756671,
          "id": "c50",
-         "sex": 0
+         "sex": "female"
       },
       "d38": {
          "owner": "aggamun",
@@ -2190,7 +2191,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a57",
-         "sex": 0
+         "sex": "female"
       },
       "d40": {
          "owner": "abrockman",
@@ -2275,7 +2276,7 @@ module.exports = {
          "terps": [],
          "planted": 39673600,
          "id": "f17",
-         "sex": 0
+         "sex": "female"
       },
       "a58": {
          "owner": "abrockman",
@@ -2480,7 +2481,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f19",
-         "sex": 0
+         "sex": "female"
       },
       "d39": {
          "owner": "guiltyparties",
@@ -2495,7 +2496,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d39",
-         "sex": 1
+         "sex": "male"
       },
       "f20": {
          "owner": "a1-shroom-spores",
@@ -2510,7 +2511,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f20",
-         "sex": 0
+         "sex": "female"
       },
       "c53": {
          "owner": "a1-shroom-spores",
@@ -2525,7 +2526,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c53",
-         "sex": 1
+         "sex": "male"
       },
       "b52": {
          "owner": "mulletwang",
@@ -2584,7 +2585,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a6",
-         "sex": 0
+         "sex": "female"
       },
       "f22": {
          "owner": "a1-shroom-spores",
@@ -2599,7 +2600,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f22",
-         "sex": 0
+         "sex": "female"
       },
       "f24": {
          "owner": "a1-shroom-spores",
@@ -2611,7 +2612,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "id": "f24",
-         "sex": 1
+         "sex": "male"
       },
       "b48": {
          "owner": "ecoinstar",
@@ -2626,7 +2627,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b48",
-         "sex": 0
+         "sex": "female"
       },
       "f8": {
          "owner": "jrawsthorne",
@@ -2641,7 +2642,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f8",
-         "sex": 1
+         "sex": "male"
       },
       "a60": {
          "owner": "pugqueen",
@@ -2656,7 +2657,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a60",
-         "sex": 0
+         "sex": "female"
       },
       "f3": {
          "owner": "eldun",
@@ -2671,7 +2672,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f3",
-         "sex": 1
+         "sex": "male"
       },
       "b37": {
          "owner": "eldun",
@@ -2686,7 +2687,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b37",
-         "sex": 0
+         "sex": "female"
       },
       "d42": {
          "owner": "meowgan",
@@ -2701,7 +2702,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d42",
-         "sex": 0
+         "sex": "female"
       },
       "a61": {
          "owner": "chronocrypto",
@@ -2752,7 +2753,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d43",
-         "sex": 1
+         "sex": "male"
       },
       "b56": {
          "owner": "chronocrypto",
@@ -2827,7 +2828,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a47",
-         "sex": 1
+         "sex": "male"
       },
       "c35": {
          "owner": "napoleon2702",
@@ -2842,7 +2843,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c35",
-         "sex": 0
+         "sex": "female"
       },
       "f4": {
          "owner": "napoleon2702",
@@ -2857,7 +2858,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f4",
-         "sex": 1
+         "sex": "male"
       },
       "d31": {
          "owner": "napoleon2702",
@@ -2872,7 +2873,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d31",
-         "sex": 0
+         "sex": "female"
       },
       "d45": {
          "owner": "yabapmatt",
@@ -2887,7 +2888,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d45",
-         "sex": 1
+         "sex": "male"
       },
       "c56": {
          "owner": "yabapmatt",
@@ -2930,7 +2931,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e45",
-         "sex": 1
+         "sex": "male"
       },
       "a64": {
          "owner": "molovelly",
@@ -2945,7 +2946,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a64",
-         "sex": 0
+         "sex": "female"
       },
       "c57": {
          "owner": "abrockman",
@@ -3205,7 +3206,7 @@ module.exports = {
          "terps": [],
          "planted": 40018917,
          "id": "a66",
-         "sex": 0
+         "sex": "female"
       },
       "b59": {
          "owner": "abrockman",
@@ -3353,7 +3354,7 @@ module.exports = {
          "terps": [],
          "planted": 40102297,
          "id": "c59",
-         "sex": 0
+         "sex": "female"
       },
       "a67": {
          "owner": "abrockman",
@@ -3383,7 +3384,7 @@ module.exports = {
          "terps": [],
          "planted": 39924007,
          "id": "a67",
-         "sex": 1
+         "sex": "male"
       },
       "e49": {
          "owner": "abrockman",
@@ -3492,7 +3493,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e50",
-         "sex": 0
+         "sex": "female"
       },
       "d51": {
          "owner": "egamers",
@@ -3507,7 +3508,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d51",
-         "sex": 1
+         "sex": "male"
       },
       "f21": {
          "owner": "romiferns",
@@ -3542,7 +3543,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e32",
-         "sex": 0
+         "sex": "female"
       },
       "e51": {
          "owner": "heremonium",
@@ -3572,7 +3573,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e52",
-         "sex": 0
+         "sex": "female"
       },
       "e7": {
          "owner": "ghosthunter1",
@@ -3586,7 +3587,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "e7"
       },
       "b1": {
@@ -3601,7 +3602,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "b1"
       },
       "c60": {
@@ -3677,7 +3678,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a18",
-         "sex": 1
+         "sex": "male"
       },
       "d4": {
          "owner": "ngc",
@@ -3692,7 +3693,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d4",
-         "sex": 0
+         "sex": "female"
       },
       "c8": {
          "owner": "ngc",
@@ -3747,7 +3748,7 @@ module.exports = {
          "terps": [],
          "planted": 37462681,
          "id": "f33",
-         "sex": 0
+         "sex": "female"
       },
       "d54": {
          "owner": "nutritree",
@@ -3777,7 +3778,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a8",
-         "sex": 0
+         "sex": "female"
       },
       "f34": {
          "owner": "abrockman",
@@ -3924,7 +3925,7 @@ module.exports = {
          "terps": [],
          "planted": 39615533,
          "id": "d55",
-         "sex": 0
+         "sex": "female"
       },
       "e60": {
          "owner": "abrockman",
@@ -3968,7 +3969,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e61",
-         "sex": 1
+         "sex": "male"
       },
       "a72": {
          "owner": "silverlining1",
@@ -3982,7 +3983,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0
+         "sex": "female"
       },
       "c69": {
          "owner": "russia-btc",
@@ -3996,7 +3997,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 1,
+         "sex": "male",
          "id": "c69"
       },
       "c70": {
@@ -4012,7 +4013,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c70",
-         "sex": 0
+         "sex": "female"
       },
       "d56": {
          "owner": "russia-btc",
@@ -4027,7 +4028,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d56",
-         "sex": 1
+         "sex": "male"
       },
       "e63": {
          "owner": "russia-btc",
@@ -4042,7 +4043,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e63",
-         "sex": 1
+         "sex": "male"
       },
       "a75": {
          "owner": "russia-btc",
@@ -4057,7 +4058,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a75",
-         "sex": 0
+         "sex": "female"
       },
       "f38": {
          "owner": "abrockman",
@@ -4087,7 +4088,7 @@ module.exports = {
          "terps": [],
          "planted": 39615542,
          "id": "f38",
-         "sex": 0
+         "sex": "female"
       },
       "c71": {
          "owner": "abrockman",
@@ -4117,7 +4118,7 @@ module.exports = {
          "terps": [],
          "planted": 39615566,
          "id": "c71",
-         "sex": 0
+         "sex": "female"
       },
       "e64": {
          "owner": "abrockman",
@@ -4198,7 +4199,7 @@ module.exports = {
          "terps": [],
          "planted": 39615551,
          "id": "d58",
-         "sex": 0
+         "sex": "female"
       },
       "a78": {
          "owner": "abrockman",
@@ -4258,7 +4259,7 @@ module.exports = {
          "terps": [],
          "planted": 39615626,
          "id": "a79",
-         "sex": 1
+         "sex": "male"
       },
       "b68": {
          "owner": "abrockman",
@@ -4378,7 +4379,7 @@ module.exports = {
          "terps": [],
          "planted": 39615606,
          "id": "f39",
-         "sex": 0
+         "sex": "female"
       },
       "c72": {
          "owner": "abrockman",
@@ -4595,7 +4596,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a81",
-         "sex": 0
+         "sex": "female"
       },
       "e67": {
          "owner": "agr8buzz",
@@ -4610,7 +4611,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e67",
-         "sex": 0
+         "sex": "female"
       },
       "c74": {
          "owner": "silverlining1",
@@ -4705,7 +4706,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f42",
-         "sex": 1
+         "sex": "male"
       },
       "a82": {
          "owner": "silverlining1",
@@ -4748,7 +4749,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f43",
-         "sex": 1
+         "sex": "male"
       },
       "f44": {
          "owner": "saboin",
@@ -4886,7 +4887,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f45",
-         "sex": 1
+         "sex": "male"
       },
       "f46": {
          "owner": "theb0red1",
@@ -4912,7 +4913,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a84",
-         "sex": 1
+         "sex": "male"
       },
       "c77": {
          "owner": "saboin",
@@ -4985,7 +4986,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f47",
-         "sex": 1
+         "sex": "male"
       },
       "d63": {
          "owner": "monsterbuster",
@@ -4999,7 +5000,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0
+         "sex": "female"
       },
       "b72": {
          "owner": "abrockman",
@@ -5232,7 +5233,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e72",
-         "sex": 1
+         "sex": "male"
       },
       "e70": {
          "owner": "saboin",
@@ -5285,7 +5286,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "f52"
       },
       "f48": {
@@ -5301,7 +5302,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f48",
-         "sex": 1
+         "sex": "male"
       },
       "f49": {
          "owner": "mulletwang",
@@ -6089,7 +6090,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e78",
-         "sex": 1
+         "sex": "male"
       },
       "c82": {
          "owner": "wdougwatson",
@@ -6104,7 +6105,7 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "id": "c82",
-         "sex": 0
+         "sex": "female"
       },
       "b77": {
          "owner": "ocupation",
@@ -6119,7 +6120,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b77",
-         "sex": 1
+         "sex": "male"
       },
       "b78": {
          "owner": "saboin",
@@ -6415,7 +6416,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c86",
-         "sex": 1
+         "sex": "male"
       },
       "c87": {
          "owner": "ecoinstats",
@@ -6439,7 +6440,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "c87"
       },
       "d71": {
@@ -6460,7 +6461,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "d71"
       },
       "f60": {
@@ -6485,7 +6486,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "f60"
       },
       "b82": {
@@ -6507,7 +6508,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "b82"
       },
       "e81": {
@@ -6529,7 +6530,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e81",
-         "sex": 1
+         "sex": "male"
       },
       "b83": {
          "owner": "abrockman",
@@ -6759,7 +6760,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "d76"
       },
       "d77": {
@@ -6781,7 +6782,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d77",
-         "sex": 0
+         "sex": "female"
       },
       "e84": {
          "owner": "jeffjagoe",
@@ -6849,7 +6850,7 @@ module.exports = {
          "planted": 38525403,
          "stage": 6,
          "substage": 0,
-         "sex": 0,
+         "sex": "female",
          "id": "c92"
       },
       "f64": {
@@ -6886,7 +6887,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": 0,
+         "sex": "female",
          "id": "f64"
       },
       "b85": {
@@ -6921,7 +6922,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b85",
-         "sex": 1
+         "sex": "male"
       },
       "d80": {
          "owner": "chunkysoupsvc",
@@ -6942,7 +6943,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d80",
-         "sex": 0
+         "sex": "female"
       },
       "d81": {
          "owner": "stever82",
@@ -6992,7 +6993,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c95",
-         "sex": 0
+         "sex": "female"
       },
       "f66": {
          "owner": "saboin",
@@ -7058,7 +7059,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a108",
-         "sex": 1
+         "sex": "male"
       },
       "e87": {
          "owner": "ganjafarmer",
@@ -7149,7 +7150,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b89",
-         "sex": 1
+         "sex": "male"
       },
       "f70": {
          "owner": "saboin",
@@ -7206,7 +7207,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a91",
-         "sex": 0
+         "sex": "female"
       },
       "a97": {
          "owner": "saboin",
@@ -7235,7 +7236,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a97",
-         "sex": 0
+         "sex": "female"
       },
       "a111": {
          "owner": "saboin",
@@ -7353,7 +7354,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a106",
-         "sex": 0
+         "sex": "female"
       },
       "c93": {
          "owner": "jeffjagoe",
@@ -7385,7 +7386,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c93",
-         "sex": 1
+         "sex": "male"
       },
       "a90": {
          "owner": "abrockman",
@@ -7442,7 +7443,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "a93",
-         "sex": 0
+         "sex": "female"
       },
       "d69": {
          "owner": "abrockman",
@@ -7471,7 +7472,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "d69",
-         "sex": 1
+         "sex": "male"
       },
       "a99": {
          "owner": "abrockman",
@@ -7526,7 +7527,7 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "f59",
-         "sex": 0
+         "sex": "female"
       },
       "a102": {
          "owner": "abrockman",
@@ -7580,7 +7581,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e82",
-         "sex": 1
+         "sex": "male"
       },
       "d72": {
          "owner": "abrockman",
@@ -7633,7 +7634,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e83",
-         "sex": 1
+         "sex": "male"
       },
       "a104": {
          "owner": "abrockman",
@@ -7691,7 +7692,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "c89",
-         "sex": 0
+         "sex": "female"
       },
       "f62": {
          "owner": "abrockman",
@@ -7720,7 +7721,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f62",
-         "sex": 1
+         "sex": "male"
       },
       "c94": {
          "owner": "ghosthunter1",
@@ -7735,7 +7736,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "c94",
-         "sex": 0
+         "sex": "female"
       },
       "a94": {
          "owner": "rachaeldwatson",
@@ -7760,7 +7761,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a94",
-         "sex": 1
+         "sex": "male"
       },
       "b86": {
          "owner": "jeffjagoe",
@@ -7794,7 +7795,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b86",
-         "sex": 0
+         "sex": "female"
       },
       "e85": {
          "owner": "jeffjagoe",
@@ -7827,7 +7828,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e85",
-         "sex": 1
+         "sex": "male"
       },
       "a109": {
          "owner": "ganjafarmer",
@@ -7899,7 +7900,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a112",
-         "sex": 0
+         "sex": "female"
       },
       "b81": {
          "owner": "road2nowhere",
@@ -7935,7 +7936,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b90",
-         "sex": 1
+         "sex": "male"
       },
       "c99": {
          "owner": "tsnaks",
@@ -7964,7 +7965,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c99",
-         "sex": 0
+         "sex": "female"
       },
       "d82": {
          "owner": "tsnaks",
@@ -7989,7 +7990,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d82",
-         "sex": 0
+         "sex": "female"
       },
       "e91": {
          "owner": "cuko",
