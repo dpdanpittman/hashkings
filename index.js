@@ -1645,7 +1645,7 @@ function listBens (bens){
 }
 
 function sexing (){
-    var sexAtBirth;
+    var sexAtBirth = 'Not Sex';
 
     sex = state.land.length % 1;
 
