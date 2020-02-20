@@ -8462,7 +8462,15 @@ module.exports = {
             "c46",
             "a100"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "aca",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ]
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0
