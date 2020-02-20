@@ -118,7 +118,7 @@ module.exports = {
          "delegator": "qwoyn-fund",
          "vests": 0,
          "availible": 0,
-         "used": 1
+         "used": 4
       },
       {
          "delegator": "qwoyn-dev",
@@ -715,7 +715,6 @@ module.exports = {
    "refund": [],
    "lands": {
       "forSale": [
-         "e37",
          "e40",
          "f23",
          "e41",
@@ -8460,7 +8459,8 @@ module.exports = {
          "addrs": [
             "a10",
             "c46",
-            "a100"
+            "a100",
+            "e37"
          ],
          "seeds": [
             {
