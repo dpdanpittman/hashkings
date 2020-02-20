@@ -1565,9 +1565,7 @@ function autoPoster (loc, num) {
                           "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
                           "body": body,
                           "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
-    if(state.payday.length < 5){
-        console.log('not enough players to post')
-    }else {
+    if(state.payday.length){
         state.payday[0] = sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
                          {"author": streamname,
