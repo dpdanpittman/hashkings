@@ -777,8 +777,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 0,
-         "substage": 0,
+         "stage": 4,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
