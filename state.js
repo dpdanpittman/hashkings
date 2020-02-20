@@ -8208,7 +8208,7 @@ module.exports = {
          "aff": [],
          "planted": 40819400,
          "stage": 1,
-         "substage": 4,
+         "substage": 7,
          "traits": [
             "Beta Seed"
          ],
