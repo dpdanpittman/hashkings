@@ -12976,24 +12976,9 @@ module.exports = {
             "weight": 10000
          }
       ],
-      [
-         {
-            "account": "qwoyn",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-         "account": "qwoyn",
-         "weight": 10000
-      }
-      ],
-      [
-         {
-         "account": "qwoyn",
-         "weight": 10000
-      }
-      ]
+      [],
+      [],
+      []
    ],
    "blacklist": {
       "zonguin": true,
