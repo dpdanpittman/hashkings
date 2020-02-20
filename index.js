@@ -1646,8 +1646,8 @@ function listBens (bens){
 
 function sexing (){
     var sexAtBirth;
-    state.land[addr].sex = state.land.length % 1;
-    sex = state.land[addr].sex;
+
+    sex = state.land.length % 1;
 
     if(sex > 0){
         sexAtBirth = "male";
