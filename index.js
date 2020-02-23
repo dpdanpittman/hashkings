@@ -256,6 +256,18 @@ app.get('/s/:user', (req, res, next) => {
     res.send(JSON.stringify(arr, null, 3))
 });
 
+//shows pollen by user
+app.get('/pollen/:user', (req, res, next) => {
+    let user = req.params.user, arr = []
+    res.setHeader('Content-Type', 'application/json');
+    if(state.users[user]){
+        for (var i = 0 ; i < state.users[user].pollen.length ; i++){
+            arr.push(state.users[user].pollen[i])
+        }
+    }
+    res.send(JSON.stringify(arr, null, 3))
+});
+
 //post payouts in que
 app.get('/refunds', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
@@ -327,11 +339,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 40978900; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41058184; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 40978900;
+const ago = ENV.ago || 41058184;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1003,6 +1015,43 @@ function startApp() {
         }
     });
 
+    //send pollen
+    processor.on('give_pollen', function(json, from) {
+        var pollen=''
+        if(json.to && json.to.length > 2){
+          try{
+              for (var i = 0;i < state.users[from].pollen.length; i++){
+                  if (json.qual){
+                    if(state.users[from].pollen[i].strain == json.pollen && state.users[from].pollen[i].xp == json.qual){
+                      pollen=state.users[from].pollen.splice(i, 1)[0]
+                      break
+                    }
+                  } else if(state.users[from].pollen[i].strain == json.pollen){
+                    pollen=state.users[from].pollen.splice(i, 1)[0]
+                    break
+                  }
+              }
+          } catch (e) {}
+          if (pollen) {
+              if (!state.users[json.to]) {
+                state.users[json.to] = {
+                  addrs: [],
+                  seeds: [],
+                  pollen: [pollen],
+                  inv: [],
+                  stats: [],
+                  v: 0
+                }
+              } else {
+                  state.users[json.to].pollen.push(pollen)
+              }
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${seed.strain} pollen to ${json.to}`
+          } else {
+              state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that pollen`
+          }
+        }
+    });
+
     processor.on('plant', function(json, from) {
         var index, seed=''
         try{
@@ -1104,6 +1153,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
     if (!state.users[json.delegator] && json.delegatee == username) state.users[json.delegator] = {
       addrs: [],
       seeds: [],
+      pollen: [],
       inv: [],
       stats: [],
       v: 0
@@ -1151,6 +1201,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
+                pollen: [],
                 inv: [],
                 stats: [],
                 v: 0,
@@ -1664,7 +1715,7 @@ function daily(addr) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
                 state.land[addr].care.splice(i,1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
-                if(!grown)state.land[addr].care[i].push('c')
+                if(!grown)state.land[addr].care[i].push('')
                 if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
                     if(!grown){
                         state.land[addr].substage++;
@@ -1696,19 +1747,21 @@ function daily(addr) {
                    }
                 }}
                 try {
-              if (state.land[addr].care[i][1] == 'harvested'){
+              if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female'){
                 if (!harvested && state.land[addr].stage > 3){
                   harvested = true
                   kudo(state.land[addr].owner)
                   const seed = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
-                      traits: ['beta']
+                      traits: ['beta seed'],
+                      terps: []
                   }
                   const seed2 = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
-                      traits: ['beta']
+                      traits: ['beta seed'],
+                      terps: []
                   }
                   state.users[state.land[addr].owner].seeds.push(seed)
 
@@ -1718,18 +1771,58 @@ function daily(addr) {
                       owner: state.land[addr].owner,
                       strain: '',
                       xp: 0,
-                      care: [[processor.getCurrentBlockNumber(),'']],
+                      care: [[processor.getCurrentBlockNumber(),'tilled']],
                       aff: [],
                       stage: -1,
                       substage: 0,
-                      traits: [],
-                      terps: []
+                      traits: []
                   }
                   state.land[addr] = parcel
                   
                 }}
                 } catch(e) {
                     console.log('', e.message)
+                   }
+
+                //pollen at harvest if male
+                try {
+              if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'male'){
+                if (!harvested && state.land[addr].stage > 3){
+                  harvested = true
+                  kudo(state.land[addr].owner)
+                  const pollen1 = {
+                      strain: state.land[addr].strain,
+                      xp: state.land[addr].xp,
+                      traits: ['beta pollen'],
+                      terps: [],
+                      level: state.land[addr].xp
+                  }
+                  const pollen2 = {
+                      strain: state.land[addr].strain,
+                      xp: state.land[addr].xp,
+                      traits: ['beta pollen'],
+                      terps: [],
+                      level: state.land[addr].xp
+                  }
+                  state.users[state.land[addr].owner].pollen.push(pollen1)
+
+                  state.users[state.land[addr].owner].pollen.push(pollen2)
+
+                  const parcel = {
+                      owner: state.land[addr].owner,
+                      strain: '',
+                      xp: 0,
+                      care: [[processor.getCurrentBlockNumber(),'tilled']],
+                      aff: [],
+                      stage: -1,
+                      substage: 0,
+                      quality: []
+                  }
+                  state.land[addr] = parcel
+                  
+                }}
+                } catch(e) {
+                    console.log('pollen harvested', e.message)
                    }
             
             }
