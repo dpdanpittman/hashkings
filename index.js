@@ -339,11 +339,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41058184; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41058772; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41058184;
+const ago = ENV.ago || 41058772;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1210,7 +1210,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
             }
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || ''
-            if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top) {
+            if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
                 if (state.stats.supply.land[want]) {
                     var allowed = false
                     if (amount == 500 && type == 'manage') {
@@ -1240,10 +1240,11 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                     } else {
                         state.refund.push(['xfer', json.from, amount, 'Managing Land?...You may need to delegate more SP'])
                     }
-                } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top) {
+                } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
                     if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
                     var xp = 1
                     if (want == 'mseed') xp = 10
+                    if (want == 'spseed') xp = 200
                     if (want == 'tseed') xp = 50
                     var seed = {
                         strain: type,
