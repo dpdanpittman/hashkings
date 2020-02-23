@@ -10715,8 +10715,24 @@ module.exports = {
             "a100",
             "e37"
          ],
-         "seeds": [],
-         "pollen": [],
+         "seeds": [
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+         ],
+         "pollen": [
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ]
+            },
+         ],
          "inv": [],
          "stats": [],
          "v": 0
@@ -15123,7 +15139,71 @@ module.exports = {
             "d93",
             "d94"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "tha",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "lbr",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "dp",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ]
+            },
+         ],
          "pollen": [],
          "inv": [],
          "stats": [],
