@@ -1067,7 +1067,7 @@ function startApp() {
         }
         if (index >= 0 && seed) {
             if (!state.land[json.addr]) {
-                state.cs[`${json.block_num}:${from}`] = `planted on empty plot ${json.addr}`
+                state.cs[`${json.block_num}:${from}`] = `planted ${seed.strain} on empty plot ${json.addr}`
                 const parcel = {
                     owner: from,
                     strain: seed.strain,
@@ -1214,7 +1214,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                 if (state.stats.supply.land[want]) {
                     var allowed = false
                     if (amount == 500 && type == 'manage') {
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing`
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing ${addr}`
                         for (var i = 0; i < state.delegations.length; i++) {
                             if (json.from == state.delegations[i].delegator && state.delegations[i].availible) {
                                 state.delegations[i].availible--;
@@ -1225,7 +1225,7 @@ processor.onOperation('delegate_vesting_shares', function(json, from) { //grab p
                             }
                         }
                     } else {
-                        const c = parseInt(amount * 0.1) //increased hashkings cut to 10 percent
+                        const c = parseInt(amount * 0.025) 
                         state.bal.c += c
                         state.bal.b += amount - c
                         allowed = true
