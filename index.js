@@ -1822,7 +1822,7 @@ function daily(addr) {
                   
                 }}
                 } catch(e) {
-                    console.log('pollen harvested', e.message)
+                    console.log('pollen harvest issue', e.message)
                    }
             
             }

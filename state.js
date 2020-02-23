@@ -1934,13 +1934,14 @@ module.exports = {
          "xp": 2250,
          "care": [],
          "aff": [],
-         "stage": 1,
+         "stage": 4,
          "substage": 3,
          "traits": [
             "Beta Seed"
          ],
          "terps": {},
          "id": "c46",
+         "sex": "male",
          "planted": 40888045
       },
       "c47": {
