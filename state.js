@@ -9053,8 +9053,8 @@ module.exports = {
       },
       "f74": {
          "owner": "vcdragon",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "sog",
+         "xp": 200,
          "care": [
             [
                41096653,
@@ -9214,8 +9214,8 @@ module.exports = {
       },
       "a117": {
          "owner": "vcdragon",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "sog",
+         "xp": 200,
          "care": [
             [
                41096653,
