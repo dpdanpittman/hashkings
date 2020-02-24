@@ -10314,7 +10314,16 @@ module.exports = {
          "owner": "qwoyn",
          "strain": "aca",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               41095350,
+               "watered"
+            ],
+            [
+               41095333,
+               "watered"
+            ]
+         ],
          "aff": [],
          "planted": 41079615,
          "stage": 1,
@@ -15504,6 +15513,8 @@ module.exports = {
       "41088127:vcdragon": "vcdragon refunded successfully",
       "41088252:vcdragon": "vcdragon refunded successfully",
       "41092008:qwoyn": "qwoyn harvested c46 ",
-      "41093159:nupulse": "nupulse watered d83 "
+      "41093159:nupulse": "nupulse watered d83 ",
+      "41095333:qwoyn": "qwoyn watered e37 ",
+      "41095350:qwoyn": "qwoyn watered e37 "
    }
 }
