@@ -1108,7 +1108,10 @@ function startApp() {
         try{
             index = state.users[from].addrs.indexOf(json.addr)
             for (var i = 0; i < state.users[from].seeds.length; i++){
-                if(state.users[from].seeds[i].strain == json.seed){seed=state.users[from].seeds.splice(i, 1)[0];break;}
+                if(state.users[from].seeds[i].strain == json.seed) {
+                    seed = state.users[from].seeds.splice(i, 1)[0]; 
+                    break; 
+                }
             }
         } catch (e) {}
         if (!seed){
@@ -1159,13 +1162,24 @@ function startApp() {
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
             plantnames = ''
+            var pollen = ''
         for (var i = 0; i < plants.length; i++) {
             try {
                 if (state.land[plants[i]].owner == from) {
                     state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                     plantnames += `${plants[i]} `
-                    //decrease pollen
-                    
+                    //decrease pollen by 1
+                try {
+                    if(state.users[from].pollen[i].strain == json.pollen) {
+                        pollen = state.users[from].pollen.splice(i, 1)[0]; 
+                        break; 
+                    }
+                } catch (e) {}
+                    if (!pollen){
+                        try {
+                            if(state.users[from].pollen.length)seed == state.users[from].pollen.splice(0, 1)[0]
+                        }catch (e) {}
+                    }
                     //change seed.pollinated to true
                     if(state.land[addr].stage > 2) {
                     var seed = {
@@ -1915,14 +1929,10 @@ function daily(addr) {
                 } catch(e) {
                     console.log('', e.message)
                    }
-                
-
-                
-               
 
                     //buds at harvest if pollinated
                 try {
-                    if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].pollinated == false){
+                    if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].pollinated == false && state.land[addr].sex == 'female'){
                       if (!harvested && state.land[addr].stage > 3){
                         harvested = true
                         kudo(state.land[addr].owner)
