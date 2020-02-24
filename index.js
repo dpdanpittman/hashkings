@@ -1161,19 +1161,21 @@ function startApp() {
             plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
-            if (state.land[plants[i]].owner == from) {
-                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                plantnames += `${plants[i]} `
-                //decrease pollen
-                
-                //change seed.pollinated to true
-                var seed = {
-                    pollinated: true,
-                    xp: 50
+                if (state.land[plants[i]].owner == from) {
+                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${plants[i]} `
+                    //decrease pollen
+                    
+                    //change seed.pollinated to true
+                    if(state.land[addr].stage > 2) {
+                    var seed = {
+                        pollinated: true
+                    }
+                    state.users[from].seeds.push(seed)
+                    } else {
+                        state.cs[`${json.block_num}:${from}`] = `${from} sorry plant must be older to pollinate`
+                    }
                 }
-                state.users[from].seeds.push(seed)
-                
-            }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
             }

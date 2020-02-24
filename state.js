@@ -9589,7 +9589,7 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40819400,
-         "stage": 2,
+         "stage": 3,
          "substage": 1,
          "traits": [
             "Beta Seed"
