@@ -9439,91 +9439,107 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 1,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 1,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 750,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 750,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 750,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 750,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9578,7 +9594,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "tha",
-               "xp": 10
+               "xp": 10,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9597,27 +9617,51 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seeds"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9638,15 +9682,17 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9669,7 +9715,8 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "Beta Pollen"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
@@ -9677,6 +9724,7 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
+               "pollinated": false,
                "terps": [],
                "level": 2250
             },
@@ -9686,6 +9734,7 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
+               "pollinated": false,
                "terps": [],
                "level": 2250
             }
@@ -9731,56 +9780,64 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9825,11 +9882,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -9887,18 +9952,24 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
@@ -9909,81 +9980,120 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 50,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 50,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
-               ]
+                  "Beta Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10104,43 +10214,83 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10179,7 +10329,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 750
+               "xp": 750,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10197,11 +10351,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10266,7 +10428,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10287,11 +10453,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10346,21 +10520,24 @@ module.exports = {
                "xp": 1,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 1,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 1,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10465,7 +10642,8 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10507,7 +10685,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10525,7 +10707,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10543,7 +10729,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10561,7 +10751,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10582,7 +10776,8 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10614,21 +10809,24 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10648,14 +10846,16 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10676,14 +10876,16 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10700,29 +10902,43 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 750,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 750,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -10844,812 +11060,928 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 1,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 1,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
-            },
-            {
-               "strain": "aca",
-               "xp": 2250,
-               "traits": [
-                  "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "aca",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
@@ -11657,7 +11989,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "aca",
@@ -11665,7 +11998,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "dp",
@@ -11673,7 +12007,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "dp",
@@ -11681,7 +12016,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -11702,28 +12038,32 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -11761,339 +12101,435 @@ module.exports = {
          "seeds": [
             {
                "strain": "tha",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "ach",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [
@@ -12170,7 +12606,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12226,14 +12666,16 @@ module.exports = {
                "xp": 750,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12249,7 +12691,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12288,21 +12734,27 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12331,11 +12783,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
-               "xp": 2250
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12351,7 +12811,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12419,21 +12883,24 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
@@ -12444,7 +12911,8 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
@@ -12455,371 +12923,424 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12833,11 +13354,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12880,28 +13409,32 @@ module.exports = {
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 2250,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12942,7 +13475,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -12956,11 +13493,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13003,42 +13548,51 @@ module.exports = {
                "xp": 1,
                "traits": [
                   "beta"
-               ]
+               ],
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 1,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13084,112 +13638,128 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "ach",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "ach",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13208,11 +13778,16 @@ module.exports = {
                "xp": 10,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13234,11 +13809,19 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
-               "xp": 10
+               "xp": 10,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
@@ -13246,7 +13829,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "cht",
@@ -13254,7 +13838,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [
@@ -13358,7 +13943,12 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13374,7 +13964,12 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13422,226 +14017,276 @@ module.exports = {
          "seeds": [
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "ach",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "tha",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kmj",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mis",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "pam",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "Beta Seed"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lb",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "sog",
-               "xp": 200
+               "xp": 200,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [
@@ -13700,14 +14345,16 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13746,7 +14393,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13767,7 +14418,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "cg",
@@ -13775,7 +14427,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "hk",
@@ -13783,7 +14436,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "hk",
@@ -13791,7 +14445,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13833,7 +14488,8 @@ module.exports = {
                "xp": 1,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13847,7 +14503,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13875,7 +14535,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13898,19 +14562,35 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cht",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "mal",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             },
             {
                "strain": "cg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13930,7 +14610,8 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13946,7 +14627,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
-               "xp": 1
+               "xp": 1,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13962,7 +14647,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "mal",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -13987,7 +14676,11 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14009,28 +14702,32 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "lkg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "afg",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14061,28 +14758,32 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "dp",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "hk",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14106,21 +14807,24 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "kbr",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "swz",
                "xp": 50,
                "traits": [
                   "beta"
-               ]
+               ],
+               "pollinated": false
             },
             {
                "strain": "aca",
@@ -14128,7 +14832,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "aca",
@@ -14136,7 +14841,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14163,7 +14869,12 @@ module.exports = {
          "seeds": [
             {
                "strain": "cht",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14179,7 +14890,12 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14196,11 +14912,21 @@ module.exports = {
          "seeds": [
             {
                "strain": "kmj",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "beta seed"
+               ],
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "mal",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -14279,11 +15005,21 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false
             },
             {
                "strain": "dp",
-               "xp": 50
+               "xp": 50,
+               "traits": [
+                  "Genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false
             }
          ],
          "pollen": [],
