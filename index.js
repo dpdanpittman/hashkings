@@ -1844,7 +1844,6 @@ function daily(addr) {
                 kudo(state.land[addr].owner);
                 state.land[addr].pollinated = true;
             }
-
                 //female harvested pollinated plant
                 try {
               if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == true){
@@ -1888,8 +1887,6 @@ function daily(addr) {
                 } catch(e) {
                     console.log('', e.message)
                    }
-
-
                    //harvest buds if female not pollinated
                    try {
                     if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == false){
