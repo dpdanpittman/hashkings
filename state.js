@@ -9203,8 +9203,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e37",
-         "sex": "female",
-         "pollinated": false
+         "sex": "female"
       },
       "a117": {
          "owner": "vcdragon",
