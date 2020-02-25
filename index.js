@@ -1840,10 +1840,7 @@ function daily(addr) {
                     console.log('An affliction happened', e.message)
                    }
                 }
-            }
-
-            //pollinating
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated') {
+            } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated') {
                 kudo(state.land[addr].owner);
                 state.land[addr].pollinated = true;
             }
