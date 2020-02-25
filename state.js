@@ -8191,14 +8191,17 @@ module.exports = {
       },
       "a100": {
          "owner": "qwoyn",
-         "strain": "lkg",
-         "xp": 50,
-         "care": [],
+         "strain": "",
+         "xp": 0,
+         "care": [
+            [
+               41134223,
+               "tilled"
+            ]
+         ],
          "aff": [],
-         "planted": 40009860,
-         "stage": 4,
-         "substage": 2,
-         "id": "a100",
+         "stage": -1,
+         "substage": 0,
          "traits": [],
          "pollinated": false
       },
