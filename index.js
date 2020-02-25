@@ -957,9 +957,12 @@ function startApp() {
                     state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                     plantnames += `${plants[i]} `
 
-                    //change state of pollinated to true
-                    state.land[addr].pollinated = true;
-                    
+                    //////
+                    const pollinatedTrue = {
+                        pollinated: true
+                    }
+                    state.land[json.addr] = pollinatedTrue
+                    //////                    
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
@@ -972,7 +975,9 @@ function startApp() {
                 for (var i = 0;i < state.users[from].pollen.length; i++){
                     if(state.users[from].pollen[i].strain == json.pollen){pollen=state.users[from].pollen.splice(i, 1)[0];break;}
                 }
-            } catch (e) {}
+            } catch (e) {
+                state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
+            }
             kudo(state.land[addr].owner)
             state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollen}`
         });
