@@ -963,10 +963,6 @@ function startApp() {
                     }
                     state.land[json.addr] = pollinatedTrue
                     //////
-
-
-                    //change state of pollinated to true
-                    state.land[addr].pollinated = true;
                     
                 }
                 } catch (e){
@@ -983,7 +979,6 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            kudo(state.land[addr].owner)
             state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollen}`
         });
     
