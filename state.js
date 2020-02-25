@@ -8659,8 +8659,7 @@ module.exports = {
             ],
             [
                41064986,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8680,8 +8679,7 @@ module.exports = {
          "care": [
             [
                41096653,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8705,8 +8703,7 @@ module.exports = {
             ],
             [
                41064986,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8730,8 +8727,7 @@ module.exports = {
             ],
             [
                41064986,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8755,8 +8751,7 @@ module.exports = {
             ],
             [
                41064986,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8776,8 +8771,7 @@ module.exports = {
          "care": [
             [
                41096653,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
@@ -8801,8 +8795,7 @@ module.exports = {
             ],
             [
                41064986,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41064742,
