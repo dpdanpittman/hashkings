@@ -799,6 +799,7 @@ module.exports = {
          ],
          "terps": [],
          "id": "e13",
+         "sex": "female",
          "pollinated": true
       },
       "e57": {
@@ -807,12 +808,13 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
-         "stage": 0,
-         "substage": 0,
+         "stage": 4,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
          "terps": [],
+         "sex": "male",
          "id": "e57"
       },
       "c49": {
@@ -9201,6 +9203,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e37",
+         "sex": "female",
          "pollinated": false
       },
       "a117": {
