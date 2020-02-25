@@ -1250,7 +1250,7 @@ function startApp() {
         addrs: [],
         seeds: [],
         pollen: [],
-        //buds: [],
+        buds: [],
         inv: [],
         stats: [],
         v: 0
