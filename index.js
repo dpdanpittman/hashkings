@@ -958,11 +958,12 @@ function startApp() {
                     plantnames += `${plants[i]} `
 
                     //////
-                    const pollinatedTrue = {
+                    const pol = {
                         pollinated: true
                     }
-                    state.land[json.addr] = pollinatedTrue
                     //////
+
+                    state.users[state.land[addr].owner].push(pol)
                     
                 }
                 } catch (e){
