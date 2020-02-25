@@ -9575,24 +9575,7 @@ module.exports = {
             "a100",
             "e37"
          ],
-         "seeds": [
-            {
-               "strain": "hk",
-               "xp": 2250,
-               "traits": [
-                  "beta buds"
-               ],
-               "terps": []
-            },
-            {
-               "strain": "hk",
-               "xp": 2250,
-               "traits": [
-                  "beta buds"
-               ],
-               "terps": []
-            }
-         ],
+         "seeds": [],
          "pollen": [
             {
                "strain": "hk",
@@ -9613,7 +9596,24 @@ module.exports = {
                "level": 2250
             }
          ],
-         "buds": [],
+         "buds": [
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            }
+         ],
          "inv": [],
          "stats": [],
          "v": 0

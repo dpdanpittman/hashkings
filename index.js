@@ -1908,8 +1908,8 @@ function daily(addr) {
                             //familyTree: state.land[addr].strain,
                         }
 
-                        state.users[state.land[addr].owner].seeds.push(bud1)
-                        state.users[state.land[addr].owner].seeds.push(bud2)
+                        state.users[state.land[addr].owner].buds.push(bud1)
+                        state.users[state.land[addr].owner].buds.push(bud2)
       
                         const parcel = {
                             owner: state.land[addr].owner,
