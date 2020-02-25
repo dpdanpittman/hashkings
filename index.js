@@ -963,7 +963,7 @@ function startApp() {
                     }
                     //////
 
-                    state.users[state.land[addr].owner].push(pol)
+                    state.users[state.land[addr].owner].addr.push(pol)
                     
                 }
                 } catch (e){
