@@ -734,26 +734,21 @@ module.exports = {
          "e41",
          "e46",
          "b39",
-         "c66",
          "a76",
          "c67",
          "e59",
          "c43",
          "b57",
          "f26",
-         "a63",
          "d66",
          "e74",
-         "a52",
          "c44",
          "f14",
          "a73",
          "b65",
-         "a74",
          "f36",
          "b66",
          "c42",
-         "c38",
          "d57",
          "a105",
          "c51",
@@ -770,7 +765,6 @@ module.exports = {
          "f72",
          "d86",
          "b99",
-         "a117",
          "b106",
          "e102"
       ]
@@ -1522,7 +1516,7 @@ module.exports = {
          "id": "a120",
          "planted": 41064920
       },
-      "a121": {
+      "a52": {
          "owner": "elemental010",
          "strain": "sog",
          "xp": 200,
@@ -1532,7 +1526,7 @@ module.exports = {
          "substage": 0,
          "traits": [],
          "terps": {},
-         "id": "a121",
+         "id": "a52",
          "planted": 41073981
       },
       "e19": {
@@ -6901,7 +6895,7 @@ module.exports = {
          "id": "a103",
          "planted": 40910579
       },
-      "c90": {
+      "c38": {
          "owner": "elemental010",
          "strain": "",
          "xp": 0,
@@ -10559,9 +10553,9 @@ module.exports = {
       },
       "fbmtek23": {
          "addrs": [
-            "a116",
+            "a74",
             "b96",
-            "c102"
+            "c66"
          ],
          "seeds": [
             {
@@ -10593,7 +10587,7 @@ module.exports = {
       },
       "elamental": {
          "addrs": [
-            "c90",
+            "c66",
             "c91"
          ],
          "seeds": [
@@ -13890,10 +13884,10 @@ module.exports = {
       },
       "elemental010": {
          "addrs": [
-            "c90",
+            "c38",
             "c91",
             "a120",
-            "a121"
+            "a52",
          ],
          "seeds": [
             {
@@ -14233,7 +14227,7 @@ module.exports = {
             "d88",
             "d89",
             "d90",
-            "a120",
+            "a63",
             "b104",
             "c105",
             "d91",
@@ -14414,38 +14408,11 @@ module.exports = {
       "41085615:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
       "41085834:saboin": "saboin watered c75 d61 f44 a83 b71 c77 d62 e70 a91 f55 b74 a96 b78 c83 a97 b79 c84 f66 c97 b88 a111 b89 f70 b97 ",
       "41086206:cuko": "cuko watered e91 b95 a115 ",
-      "41087845:vcdragon": "vcdragon is managing undefined",
-      "41087848:vcdragon": "vcdragon is managing undefined",
-      "41087850:vcdragon": "vcdragon is managing undefined",
-      "41087854:vcdragon": "vcdragon is managing undefined",
-      "41087878:vcdragon": "vcdragon refunded successfully",
-      "41087883:vcdragon": "1215827817101 vested",
-      "41087891:vcdragon": "vcdragon purchased a122",
-      "41087894:vcdragon": "vcdragon purchased b105",
-      "41087898:vcdragon": "vcdragon purchased c107",
-      "41087901:vcdragon": "vcdragon purchased d95",
-      "41087904:vcdragon": "vcdragon purchased e101",
-      "41087908:vcdragon": "vcdragon purchased f75",
-      "41087918:vcdragon": "planted dp on empty plot a117",
-      "41087921:vcdragon": "planted hk on empty plot d93",
-      "41087924:vcdragon": "planted mis on empty plot b105",
-      "41087928:vcdragon": "planted tha on empty plot c107",
-      "41087931:vcdragon": "planted cht on empty plot e101",
-      "41087940:vcdragon": "vcdragon did something unexpected with a plant!",
-      "41087943:vcdragon": "planted dp on empty plot a122",
-      "41087947:vcdragon": "vcdragon can't plant that.",
-      "41087950:vcdragon": "planted hk on empty plot f75",
-      "41087956:vcdragon": "planted lbr on empty plot d94",
-      "41087958:vcdragon": "vcdragon did something unexpected with a plant!",
-      "41088002:vcdragon": "vcdragon refunded successfully",
-      "41088127:vcdragon": "vcdragon refunded successfully",
-      "41088252:vcdragon": "vcdragon refunded successfully",
       "41092008:qwoyn": "qwoyn harvested c46 ",
       "41093159:nupulse": "nupulse watered d83 ",
       "41095333:qwoyn": "qwoyn watered e37 ",
       "41095350:qwoyn": "qwoyn watered e37 ",
       "41096533:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
-      "41096653:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
       "41097628:qwoyn-dev": "qwoyn-dev refunded successfully",
       "41097753:qwoyn-fund": "qwoyn-fund refunded successfully",
       "41097877:qwoyn": "qwoyn refunded successfully",
