@@ -1856,7 +1856,7 @@ function daily(addr) {
                       traits: ['beta pollinated seed'],
                       terps: [],
                       //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
-                      pollinated: false
+                      //pollinated: false
                   }
                   const seed2 = {
                       strain: state.land[addr].strain,
@@ -1864,7 +1864,7 @@ function daily(addr) {
                       traits: ['beta pollinated seed'],
                       terps: [],
                       //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
-                      pollinated: false
+                      //pollinated: false
                   }
                   state.users[state.land[addr].owner].seeds.push(seed)
 
