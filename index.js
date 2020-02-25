@@ -955,24 +955,13 @@ function startApp() {
                 try {
                 if (state.land[plants[i]].owner == from) {
                     state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants[i]} `
-
-                    //////
-                    const pol = {
-                        pollinated: true
-                    }
-                    //////
-                    //state.land[addr].pollinated = true
-                    state.users[state.land[addr].owner].addr.pollinated.push(pol)
-                    
+                    plantnames += `${plants[i]} `                    
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
                 }
             }
             // remove pollen used
-            let pollen = json.pollen,
-                pollennames = ''
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
                 for (var i = 0;i < state.users[from].pollen.length; i++){
@@ -1831,6 +1820,13 @@ function daily(addr) {
                     state.land[addr].substage = 0;
                     state.land[addr].stage++
                 }
+
+                //pollinating
+                if (state.land[addr].care[i][1] == 'pollinated') {
+                    kudo(state.land[addr].owner);
+                    state.land[addr].pollinated = true;
+                }
+
                 //added sexing
                 if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = sexing()//state.land.length % 1
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
