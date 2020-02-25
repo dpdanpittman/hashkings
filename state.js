@@ -781,7 +781,8 @@ module.exports = {
          "traits": [
             "beta"
          ],
-         "terps": {},
+         "terps": [],
+         "pollinated": true,
          "id": "a10",
          "planted": 41079627
       },
@@ -8420,13 +8421,14 @@ module.exports = {
          "care": [],
          "aff": [],
          "planted": 40819400,
-         "stage": 3,
+         "stage": 4,
          "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "id": "a100",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e95": {
          "owner": "romiferns",
@@ -9192,12 +9194,13 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41079615,
-         "stage": 1,
-         "substage": 0,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
-         "id": "e37"
+         "id": "e37",
+         "pollinated": false
       },
       "a117": {
          "owner": "vcdragon",
