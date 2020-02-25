@@ -9436,7 +9436,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -9444,7 +9444,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -9452,7 +9452,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -9460,7 +9460,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -9468,7 +9468,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9476,7 +9476,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9484,7 +9484,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -9492,7 +9492,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -9500,7 +9500,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -9508,7 +9508,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -9516,7 +9516,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -9524,7 +9524,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -9532,7 +9532,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9591,7 +9591,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9614,7 +9614,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9622,7 +9622,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -9630,7 +9630,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -9638,7 +9638,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -9646,7 +9646,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -9654,7 +9654,7 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9677,7 +9677,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -9685,7 +9685,7 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9709,7 +9709,7 @@ module.exports = {
                "traits": [
                   "Beta Pollen"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9717,7 +9717,7 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "pollinated": false,
+               "pollinated": true,
                "terps": [],
                "level": 2250
             },
@@ -9727,7 +9727,7 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "pollinated": false,
+               "pollinated": true,
                "terps": [],
                "level": 2250
             }
@@ -9774,7 +9774,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9782,7 +9782,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -9790,7 +9790,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -9798,7 +9798,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -9806,7 +9806,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -9814,7 +9814,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -9822,7 +9822,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -9830,7 +9830,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9879,7 +9879,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -9887,7 +9887,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -9946,7 +9946,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -9954,7 +9954,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -9962,7 +9962,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -9974,7 +9974,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -9982,7 +9982,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -9990,7 +9990,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -9998,7 +9998,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -10006,7 +10006,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -10014,7 +10014,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -10022,7 +10022,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -10030,7 +10030,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -10038,7 +10038,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -10046,7 +10046,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -10054,7 +10054,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -10062,7 +10062,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -10070,7 +10070,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -10078,7 +10078,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -10086,7 +10086,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10211,7 +10211,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -10219,7 +10219,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -10227,7 +10227,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -10235,7 +10235,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -10243,7 +10243,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -10251,7 +10251,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -10259,7 +10259,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -10267,7 +10267,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -10275,7 +10275,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -10283,7 +10283,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10326,7 +10326,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10348,7 +10348,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -10356,7 +10356,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10425,7 +10425,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10450,7 +10450,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -10458,7 +10458,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10514,7 +10514,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -10522,7 +10522,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -10530,7 +10530,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10636,7 +10636,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10682,7 +10682,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10704,7 +10704,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10726,7 +10726,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10748,7 +10748,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10770,7 +10770,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10803,7 +10803,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -10811,7 +10811,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -10819,7 +10819,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10840,7 +10840,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -10848,7 +10848,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10870,7 +10870,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -10878,7 +10878,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -10899,7 +10899,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -10907,7 +10907,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -10915,7 +10915,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -10923,7 +10923,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -10931,7 +10931,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -11054,7 +11054,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11062,7 +11062,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11070,7 +11070,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -11078,7 +11078,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11086,7 +11086,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11094,7 +11094,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11102,7 +11102,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11110,7 +11110,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11118,7 +11118,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11126,7 +11126,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11134,7 +11134,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11142,7 +11142,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11150,7 +11150,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11158,7 +11158,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11166,7 +11166,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11174,7 +11174,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11182,7 +11182,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11190,7 +11190,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11198,7 +11198,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11206,7 +11206,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11214,7 +11214,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11222,7 +11222,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11230,7 +11230,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11238,7 +11238,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11246,7 +11246,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11254,7 +11254,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11262,7 +11262,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11270,7 +11270,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11278,7 +11278,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11286,7 +11286,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11294,7 +11294,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11302,7 +11302,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11310,7 +11310,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11318,7 +11318,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -11326,7 +11326,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -11334,7 +11334,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11342,7 +11342,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11350,7 +11350,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11358,7 +11358,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11366,7 +11366,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11374,7 +11374,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11382,7 +11382,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11390,7 +11390,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11398,7 +11398,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11406,7 +11406,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11414,7 +11414,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11422,7 +11422,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11430,7 +11430,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11438,7 +11438,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11446,7 +11446,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -11454,7 +11454,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -11462,7 +11462,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11470,7 +11470,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11478,7 +11478,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11486,7 +11486,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11494,7 +11494,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -11502,7 +11502,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -11510,7 +11510,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11518,7 +11518,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11526,7 +11526,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11534,7 +11534,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11542,7 +11542,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11550,7 +11550,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11558,7 +11558,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11566,7 +11566,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -11574,15 +11574,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
-            },
-            {
-               "strain": "kmj",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -11590,7 +11582,15 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
+            },
+            {
+               "strain": "kmj",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11598,7 +11598,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11606,7 +11606,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11614,7 +11614,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11622,7 +11622,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11630,7 +11630,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11638,7 +11638,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11646,7 +11646,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11654,7 +11654,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11662,7 +11662,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11670,7 +11670,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11678,7 +11678,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -11686,7 +11686,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11694,7 +11694,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11702,7 +11702,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11710,7 +11710,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11718,15 +11718,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
-            },
-            {
-               "strain": "aca",
-               "xp": 2250,
-               "traits": [
-                  "beta"
-               ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11734,7 +11726,15 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "xp": 2250,
+               "traits": [
+                  "beta"
+               ],
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11742,7 +11742,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11750,7 +11750,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11758,7 +11758,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -11766,7 +11766,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11774,7 +11774,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11782,7 +11782,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -11790,7 +11790,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -11798,7 +11798,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11806,7 +11806,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -11814,7 +11814,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11822,7 +11822,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -11830,7 +11830,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11838,7 +11838,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11846,7 +11846,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11854,7 +11854,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -11862,7 +11862,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11870,7 +11870,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11878,7 +11878,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11886,7 +11886,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11894,7 +11894,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -11902,7 +11902,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -11910,7 +11910,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11918,7 +11918,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -11926,7 +11926,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11934,7 +11934,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -11942,7 +11942,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11950,7 +11950,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -11958,7 +11958,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -11966,7 +11966,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -11974,7 +11974,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11983,7 +11983,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -11992,7 +11992,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12001,7 +12001,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12010,7 +12010,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12032,7 +12032,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -12040,7 +12040,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12048,7 +12048,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12056,7 +12056,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12098,7 +12098,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12106,7 +12106,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12114,7 +12114,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -12122,7 +12122,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12130,7 +12130,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12138,7 +12138,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -12146,7 +12146,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -12154,7 +12154,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -12162,7 +12162,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -12170,7 +12170,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12178,7 +12178,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12186,7 +12186,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -12194,7 +12194,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -12202,7 +12202,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12210,7 +12210,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12218,7 +12218,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12226,7 +12226,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12234,7 +12234,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12242,7 +12242,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12250,7 +12250,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -12258,7 +12258,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -12266,7 +12266,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12274,7 +12274,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -12282,7 +12282,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12290,7 +12290,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12298,7 +12298,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12306,7 +12306,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12314,7 +12314,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -12322,7 +12322,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -12330,7 +12330,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -12338,7 +12338,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -12346,7 +12346,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "ach",
@@ -12354,7 +12354,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "ach",
@@ -12362,7 +12362,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12370,7 +12370,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12378,7 +12378,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12386,7 +12386,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12394,7 +12394,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12402,7 +12402,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12410,7 +12410,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12418,7 +12418,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12426,7 +12426,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12434,7 +12434,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12442,7 +12442,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12450,7 +12450,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12458,7 +12458,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12466,7 +12466,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12474,7 +12474,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12482,7 +12482,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12490,7 +12490,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12498,7 +12498,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12506,7 +12506,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12514,7 +12514,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -12522,7 +12522,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [
@@ -12603,7 +12603,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12660,7 +12660,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -12668,7 +12668,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12688,7 +12688,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12731,7 +12731,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -12739,7 +12739,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -12747,7 +12747,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12780,7 +12780,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -12788,7 +12788,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12808,7 +12808,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -12877,7 +12877,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12885,7 +12885,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -12893,7 +12893,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -12905,7 +12905,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -12917,7 +12917,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -12925,7 +12925,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -12933,7 +12933,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12941,7 +12941,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12949,7 +12949,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -12957,7 +12957,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -12965,7 +12965,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12973,7 +12973,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -12981,7 +12981,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12989,7 +12989,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -12997,7 +12997,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13005,7 +13005,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13013,7 +13013,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13021,7 +13021,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13029,7 +13029,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13037,7 +13037,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13045,7 +13045,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13053,7 +13053,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13061,7 +13061,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13069,7 +13069,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13077,7 +13077,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13085,7 +13085,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13093,7 +13093,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13101,7 +13101,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13109,7 +13109,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13117,7 +13117,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13125,7 +13125,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -13133,7 +13133,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -13141,7 +13141,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13149,7 +13149,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13157,7 +13157,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -13165,7 +13165,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -13173,7 +13173,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -13181,7 +13181,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -13189,7 +13189,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13197,7 +13197,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13205,7 +13205,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13213,7 +13213,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13221,7 +13221,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13229,7 +13229,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13237,7 +13237,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13245,7 +13245,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13253,7 +13253,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13261,7 +13261,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13269,7 +13269,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13277,7 +13277,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13285,7 +13285,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13293,7 +13293,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13301,7 +13301,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13309,7 +13309,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13317,7 +13317,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13325,7 +13325,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13333,7 +13333,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13351,7 +13351,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -13359,7 +13359,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13403,7 +13403,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -13411,7 +13411,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -13419,7 +13419,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -13427,7 +13427,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13472,7 +13472,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13490,7 +13490,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -13498,7 +13498,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13545,7 +13545,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13553,7 +13553,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13561,7 +13561,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13569,7 +13569,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -13577,7 +13577,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -13585,7 +13585,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13632,7 +13632,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -13640,7 +13640,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -13648,7 +13648,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -13656,7 +13656,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13664,7 +13664,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13672,7 +13672,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -13680,7 +13680,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -13688,7 +13688,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -13696,7 +13696,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -13704,7 +13704,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13712,7 +13712,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -13720,7 +13720,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -13728,7 +13728,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -13736,7 +13736,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "ach",
@@ -13744,7 +13744,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "ach",
@@ -13752,7 +13752,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13772,7 +13772,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13780,7 +13780,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13806,7 +13806,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -13814,7 +13814,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -13823,7 +13823,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -13832,7 +13832,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [
@@ -13941,7 +13941,7 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -13962,7 +13962,7 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14015,7 +14015,7 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -14023,7 +14023,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -14031,7 +14031,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -14039,7 +14039,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -14047,7 +14047,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -14055,7 +14055,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "ach",
@@ -14063,7 +14063,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "tha",
@@ -14071,7 +14071,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -14079,7 +14079,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -14087,7 +14087,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kmj",
@@ -14095,7 +14095,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mis",
@@ -14103,7 +14103,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "pam",
@@ -14111,7 +14111,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -14119,7 +14119,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14127,7 +14127,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -14135,7 +14135,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14143,7 +14143,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14151,7 +14151,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -14159,7 +14159,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -14167,7 +14167,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -14175,7 +14175,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -14183,7 +14183,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -14191,7 +14191,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lb",
@@ -14199,7 +14199,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -14207,7 +14207,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -14215,7 +14215,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -14223,7 +14223,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -14231,7 +14231,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -14239,7 +14239,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -14247,7 +14247,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -14255,7 +14255,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -14263,7 +14263,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -14271,7 +14271,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "sog",
@@ -14279,7 +14279,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [
@@ -14339,7 +14339,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -14347,7 +14347,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14390,7 +14390,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14412,7 +14412,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -14421,7 +14421,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14430,7 +14430,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14439,7 +14439,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14482,7 +14482,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14500,7 +14500,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14532,7 +14532,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14559,7 +14559,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cht",
@@ -14567,7 +14567,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -14575,7 +14575,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "cg",
@@ -14583,7 +14583,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14604,7 +14604,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14624,7 +14624,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14644,7 +14644,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14673,7 +14673,7 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14696,7 +14696,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "lkg",
@@ -14704,7 +14704,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -14712,7 +14712,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "afg",
@@ -14720,7 +14720,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14752,7 +14752,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -14760,7 +14760,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "hk",
@@ -14768,7 +14768,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -14776,7 +14776,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14801,7 +14801,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "kbr",
@@ -14809,7 +14809,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "swz",
@@ -14817,7 +14817,7 @@ module.exports = {
                "traits": [
                   "beta"
                ],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -14826,7 +14826,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "aca",
@@ -14835,7 +14835,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14867,7 +14867,7 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14888,7 +14888,7 @@ module.exports = {
                   "Genesis seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -14910,7 +14910,7 @@ module.exports = {
                   "beta seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "mal",
@@ -14919,7 +14919,7 @@ module.exports = {
                   "Genesis seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
@@ -15003,7 +15003,7 @@ module.exports = {
                   "Genesis seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             },
             {
                "strain": "dp",
@@ -15012,7 +15012,7 @@ module.exports = {
                   "Genesis seed"
                ],
                "terps": [],
-               "pollinated": false
+               "pollinated": true
             }
          ],
          "pollen": [],
