@@ -955,7 +955,7 @@ function startApp() {
                 try {
                 if (state.land[plants[i]].owner == from) {
                     state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants[i]} `                    
+                    plantnames += `${plants[i]} `
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
@@ -970,7 +970,7 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollennames} pollen`
+            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames}`
         });
     
 /*
@@ -1821,14 +1821,10 @@ function daily(addr) {
                     state.land[addr].stage++
                 }
 
-                //pollinating
-                if (state.land[addr].care[i][1] == 'pollinated') {
-                    kudo(state.land[addr].owner);
-                    state.land[addr].pollinated = true;
-                }
-
                 //added sexing
                 if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = sexing()//state.land.length % 1
+                
+                //afflictions
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
                     state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'over']);
                     state.land[addr].substage = 7
@@ -1843,7 +1839,14 @@ function daily(addr) {
                 } catch(e) {
                     console.log('An affliction happened', e.message)
                    }
-                }}
+                }
+            }
+
+            //pollinating
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated') {
+                kudo(state.land[addr].owner);
+                state.land[addr].pollinated = true;
+            }
 
                 //female harvested pollinated plant
                 try {
