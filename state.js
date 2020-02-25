@@ -1509,29 +1509,27 @@ module.exports = {
       },
       "a120": {
          "owner": "elemental010",
-         "strain": "afg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "stage": 1,
+         "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": {},
-         "id": "a120",
-         "planted": 41064920
+         "terps": [],
+         "id": "a120"
       },
       "a52": {
          "owner": "elemental010",
-         "strain": "sog",
-         "xp": 200,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "stage": 1,
+         "stage": -1,
          "substage": 0,
          "traits": [],
-         "terps": {},
-         "id": "a52",
-         "planted": 41073981
+         "terps": [],
+         "id": "a52"
       },
       "e19": {
          "owner": "mulletwang",

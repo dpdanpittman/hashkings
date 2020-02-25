@@ -245,7 +245,7 @@ app.get('/', (req, res, next) => {
 });
 
 //shows seeds by user
-app.get('/s/:user', (req, res, next) => {
+app.get('/seeds/:user', (req, res, next) => {
     let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
