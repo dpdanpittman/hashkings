@@ -962,8 +962,8 @@ function startApp() {
                         pollinated: true
                     }
                     //////
-                    state.land[addr].pollinated = true
-                    //state.users[state.land[addr].owner].addr.push(pol)
+                    //state.land[addr].pollinated = true
+                    state.users[state.land[addr].owner].addr.pollinated.push(pol)
                     
                 }
                 } catch (e){
