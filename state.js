@@ -792,13 +792,14 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
-         "stage": 0,
-         "substage": 0,
+         "stage": 4,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
          "terps": [],
-         "id": "e13"
+         "id": "e13",
+         "pollinated": true
       },
       "e57": {
          "owner": "qwoyn-dev",
@@ -9711,8 +9712,7 @@ module.exports = {
                "xp": 50,
                "traits": [
                   "Beta Pollen"
-               ],
-               "pollinated": true
+               ]
             },
             {
                "strain": "hk",
@@ -9720,7 +9720,6 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "pollinated": true,
                "terps": [],
                "level": 2250
             },
@@ -9730,7 +9729,6 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "pollinated": true,
                "terps": [],
                "level": 2250
             }
