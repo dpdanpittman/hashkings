@@ -951,21 +951,23 @@ function startApp() {
     processor.on('pollinate', function(json, from) {
             let plants = json.plants,
                 plantnames = ''
-            let plots = json.addr,
-                plotnames = ''
             for (var i = 0; i < plants.length; i++) {
                 try {
                 if (state.land[plants[i]].owner == from) {
                     state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                     plantnames += `${plants[i]} `
-                    plotnames += `${plots[i]} `
 
                     //////
                     const pollinatedTrue = {
                         pollinated: true
                     }
                     state.land[json.addr] = pollinatedTrue
-                    //////                    
+                    //////
+
+
+                    //change state of pollinated to true
+                    state.land[addr].pollinated = true;
+                    
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
