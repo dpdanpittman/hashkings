@@ -1182,7 +1182,7 @@ function startApp() {
                 state.land[json.addr].stage = 1
                 state.land[json.addr].substage = 0
                 state.land[json.addr].traits = seed.traits || []
-                state.land[json.addr].terps = seed.terps || {}
+                state.land[json.addr].terps = seed.terps || []
                 state.land[json.addr].pollinated = seed.pollinated
             } else {
                 state.users[from].seeds.unshift(seed);

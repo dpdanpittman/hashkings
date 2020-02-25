@@ -800,7 +800,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
          "terps": [],
          "pollinated": true,
@@ -900,7 +900,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b34",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e14": {
          "owner": "mondoshawan",
@@ -946,7 +947,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a7",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a49": {
          "owner": "inthenow",
@@ -977,7 +979,8 @@ module.exports = {
          "terps": [],
          "planted": 39630977,
          "id": "a9",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a11": {
          "owner": "bluntsmasha",
@@ -1051,7 +1054,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a48",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b5": {
          "owner": "luegenbaron",
@@ -1093,7 +1097,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a17",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b41": {
          "owner": "mondoshawan",
@@ -1207,7 +1212,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f1",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a46": {
          "owner": "movingman",
@@ -1222,7 +1228,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a46",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a15": {
          "owner": "mrkhuffins",
@@ -1252,7 +1259,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b3",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d3": {
          "owner": "mrkhuffins",
@@ -1267,7 +1275,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d3",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d32": {
          "owner": "ecoinstar",
@@ -1381,7 +1390,8 @@ module.exports = {
          "terps": [],
          "planted": 40707676,
          "id": "d33",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b43": {
          "owner": "abrockman",
@@ -1433,7 +1443,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40895479,
          "id": "c40"
       },
@@ -1522,7 +1532,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a1",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f11": {
          "owner": "choosefreedom",
@@ -1711,7 +1722,8 @@ module.exports = {
          "terps": [],
          "id": "e29",
          "planted": 40798496,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f12": {
          "owner": "abrockman",
@@ -1745,7 +1757,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f12",
          "planted": 40910007
       },
@@ -1762,7 +1774,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e30",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b45": {
          "owner": "thehermitmonk",
@@ -1777,7 +1790,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b45",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b46": {
          "owner": "thehermitmonk",
@@ -1828,7 +1842,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f13",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b47": {
          "owner": "simgirl",
@@ -1858,7 +1873,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d35",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d36": {
          "owner": "jonyoudyer",
@@ -1899,7 +1915,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e34",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "c45": {
          "owner": "mickvir",
@@ -1914,7 +1931,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c45",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e35": {
          "owner": "choosefreedom",
@@ -1929,7 +1947,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e35",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e36": {
          "owner": "anarcist69",
@@ -1948,9 +1967,10 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40891884,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a53": {
          "owner": "anarcist69",
@@ -1973,9 +1993,10 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40891867,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c46": {
          "owner": "qwoyn",
@@ -2021,7 +2042,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c48",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f6": {
          "owner": "onthewayout",
@@ -2043,7 +2065,8 @@ module.exports = {
          "terps": [],
          "planted": 39953101,
          "id": "f6",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b49": {
          "owner": "hotsauceislethal",
@@ -2088,7 +2111,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d37",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a56": {
          "owner": "abrockman",
@@ -2122,7 +2146,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a56",
          "planted": 40910014
       },
@@ -2150,10 +2174,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b50",
          "planted": 40910034,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c50": {
          "owner": "abrockman",
@@ -2190,7 +2215,8 @@ module.exports = {
          "terps": [],
          "planted": 39756671,
          "id": "c50",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d38": {
          "owner": "aggamun",
@@ -2220,7 +2246,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a57",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d40": {
          "owner": "abrockman",
@@ -2272,10 +2299,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e38",
          "planted": 40910019,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f17": {
          "owner": "abrockman",
@@ -2312,7 +2340,8 @@ module.exports = {
          "terps": [],
          "planted": 39673600,
          "id": "f17",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a58": {
          "owner": "abrockman",
@@ -2346,7 +2375,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40910037,
          "id": "a58"
       },
@@ -2382,7 +2411,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40910073,
          "id": "f18"
       },
@@ -2410,10 +2439,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b51",
          "planted": 40910058,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c52": {
          "owner": "abrockman",
@@ -2447,7 +2477,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40910040,
          "id": "c52"
       },
@@ -2475,10 +2505,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e39",
          "planted": 40910067,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a59": {
          "owner": "abrockman",
@@ -2512,7 +2543,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a59",
          "planted": 40971208
       },
@@ -2540,10 +2571,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d41",
          "planted": 40910068,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f19": {
          "owner": "disregardfiat",
@@ -2557,8 +2589,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "id": "f19",
-         "sex": "female"
+         "id": "f19"
       },
       "d39": {
          "owner": "guiltyparties",
@@ -2588,7 +2619,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f20",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "c53": {
          "owner": "a1-shroom-spores",
@@ -2666,7 +2698,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a6",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f22": {
          "owner": "a1-shroom-spores",
@@ -2681,7 +2714,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f22",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f24": {
          "owner": "a1-shroom-spores",
@@ -2708,7 +2742,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b48",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f8": {
          "owner": "jrawsthorne",
@@ -2738,7 +2773,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a60",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f3": {
          "owner": "eldun",
@@ -2768,7 +2804,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b37",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d42": {
          "owner": "meowgan",
@@ -2783,7 +2820,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d42",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a61": {
          "owner": "chronocrypto",
@@ -2924,7 +2962,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c35",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f4": {
          "owner": "napoleon2702",
@@ -2954,7 +2993,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d31",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d45": {
          "owner": "yabapmatt",
@@ -3021,7 +3061,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a64",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "c57": {
          "owner": "abrockman",
@@ -3055,7 +3096,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c57",
          "planted": 40910135
       },
@@ -3091,7 +3132,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40910141,
          "id": "f28"
       },
@@ -3119,10 +3160,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b58",
          "planted": 40910129,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a65": {
          "owner": "abrockman",
@@ -3159,7 +3201,8 @@ module.exports = {
          "terps": [],
          "planted": 40102294,
          "id": "a65",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e47": {
          "owner": "abrockman",
@@ -3185,10 +3228,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e47",
          "planted": 40910147,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d46": {
          "owner": "abrockman",
@@ -3248,7 +3292,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f29",
          "planted": 40910342
       },
@@ -3287,7 +3331,8 @@ module.exports = {
          "terps": [],
          "planted": 40398110,
          "id": "c58",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a66": {
          "owner": "abrockman",
@@ -3324,7 +3369,8 @@ module.exports = {
          "terps": [],
          "planted": 40018917,
          "id": "a66",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b59": {
          "owner": "abrockman",
@@ -3350,10 +3396,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b59",
          "planted": 40910335,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d47": {
          "owner": "abrockman",
@@ -3379,10 +3426,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d47",
          "planted": 40910080,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e48": {
          "owner": "abrockman",
@@ -3408,10 +3456,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e48",
          "planted": 40910339,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b60": {
          "owner": "abrockman",
@@ -3437,10 +3486,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b60",
          "planted": 40910400,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c59": {
          "owner": "abrockman",
@@ -3487,7 +3537,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40993029,
          "id": "a67"
       },
@@ -3515,10 +3565,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e49",
          "planted": 40910411,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d48": {
          "owner": "abrockman",
@@ -3544,10 +3595,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d48",
          "planted": 40910348,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f30": {
          "owner": "chronocrypto",
@@ -3598,7 +3650,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e50",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d51": {
          "owner": "egamers",
@@ -3636,7 +3689,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40895485,
          "id": "f21"
       },
@@ -3653,7 +3706,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e32",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e51": {
          "owner": "heremonium",
@@ -3683,7 +3737,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e52",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e7": {
          "owner": "ghosthunter1",
@@ -3709,7 +3764,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "b1"
+         "id": "b1",
+         "pollinated": true
       },
       "c60": {
          "owner": "chronocrypto",
@@ -3798,8 +3854,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "id": "d4",
-         "sex": "female"
+         "id": "d4"
       },
       "c8": {
          "owner": "ngc",
@@ -3837,7 +3892,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e58",
          "planted": 40972523
       },
@@ -3866,7 +3921,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 41027965,
          "id": "f33"
       },
@@ -3891,7 +3946,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d54",
          "planted": 40972532
       },
@@ -3908,7 +3963,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a8",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "f34": {
          "owner": "abrockman",
@@ -3942,7 +3998,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40910426,
          "id": "f34"
       },
@@ -3970,7 +4026,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40919431,
          "id": "b64"
       },
@@ -4006,7 +4062,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f35",
          "planted": 40910434
       },
@@ -4042,7 +4098,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c68",
          "planted": 40910421
       },
@@ -4070,7 +4126,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 41026759,
          "id": "d55"
       },
@@ -4098,7 +4154,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40919435,
          "id": "e60"
       },
@@ -4168,7 +4224,7 @@ module.exports = {
          "id": "d56",
          "planted": 41104930,
          "traits": [
-            "beta seed"
+            "Beta Seed"
          ],
          "terps": []
       },
@@ -4184,7 +4240,7 @@ module.exports = {
          "id": "e63",
          "planted": 41104912,
          "traits": [
-            "beta seed"
+            "Beta Seed"
          ],
          "terps": []
       },
@@ -4234,7 +4290,8 @@ module.exports = {
          "terps": [],
          "planted": 39615542,
          "id": "f38",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c71": {
          "owner": "abrockman",
@@ -4271,7 +4328,8 @@ module.exports = {
          "terps": [],
          "planted": 39615566,
          "id": "c71",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e64": {
          "owner": "abrockman",
@@ -4297,7 +4355,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40945227,
          "id": "e64"
       },
@@ -4325,7 +4383,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40945225,
          "id": "b67"
       },
@@ -4405,7 +4463,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a79",
          "planted": 41053698
       },
@@ -4433,7 +4491,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b68",
          "planted": 41053701
       },
@@ -4469,7 +4527,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a80",
          "planted": 40910077
       },
@@ -4537,7 +4595,8 @@ module.exports = {
          "terps": [],
          "planted": 39615606,
          "id": "f39",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c72": {
          "owner": "abrockman",
@@ -4571,7 +4630,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c72",
          "planted": 40910439
       },
@@ -4635,7 +4694,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f40",
          "planted": 40910478
       },
@@ -4695,7 +4754,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d60",
          "planted": 41062117
       },
@@ -4769,7 +4828,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a81",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e67": {
          "owner": "agr8buzz",
@@ -4784,7 +4844,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e67",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "c74": {
          "owner": "silverlining1",
@@ -4829,7 +4890,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 41023276,
          "id": "c75"
       },
@@ -4915,7 +4976,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f44",
          "planted": 41061476
       },
@@ -4970,10 +5031,11 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b71",
          "planted": 40910555,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a83": {
          "owner": "saboin",
@@ -5062,10 +5124,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c77",
          "planted": 40910944,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d62": {
          "owner": "saboin",
@@ -5083,7 +5146,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d62",
          "planted": 40910901
       },
@@ -5114,7 +5177,8 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b72": {
          "owner": "abrockman",
@@ -5180,7 +5244,8 @@ module.exports = {
          "terps": [],
          "planted": 40447684,
          "id": "c78",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d64": {
          "owner": "abrockman",
@@ -5209,7 +5274,8 @@ module.exports = {
          "terps": [],
          "planted": 40681925,
          "id": "d64",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e71": {
          "owner": "abrockman",
@@ -5238,7 +5304,8 @@ module.exports = {
          "terps": [],
          "planted": 40707682,
          "id": "e71",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c79": {
          "owner": "abrockman",
@@ -5275,7 +5342,8 @@ module.exports = {
          "terps": [],
          "planted": 40019026,
          "id": "c79",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f50": {
          "owner": "abrockman",
@@ -5309,7 +5377,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f50",
          "planted": 40910557
       },
@@ -5349,10 +5417,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b73",
          "planted": 40910442,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e72": {
          "owner": "psyo",
@@ -5385,10 +5454,11 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e70",
          "planted": 40910549,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f52": {
          "owner": "chunkysoupsvc",
@@ -5404,7 +5474,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "beta seed"
+            "Beta Seed"
          ],
          "planted": 41111275,
          "terps": [],
@@ -5487,10 +5557,11 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f55",
          "planted": 40910542,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b74": {
          "owner": "saboin",
@@ -5508,10 +5579,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b74",
          "planted": 40910931,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e73": {
          "owner": "rachaeldwatson",
@@ -5532,12 +5604,13 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40924640,
          "id": "e73",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a69": {
          "owner": "chronocrypto",
@@ -5767,10 +5840,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d67",
          "planted": 40910482,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e75": {
          "owner": "abrockman",
@@ -5796,10 +5870,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e75",
          "planted": 40910487,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f56": {
          "owner": "abrockman",
@@ -5833,7 +5908,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f56",
          "planted": 40910638
       },
@@ -5861,10 +5936,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b75",
          "planted": 40910490,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e76": {
          "owner": "abrockman",
@@ -5890,10 +5966,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e76",
          "planted": 40910570,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a92": {
          "owner": "abrockman",
@@ -5927,7 +6004,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a92",
          "planted": 40910416
       },
@@ -5955,10 +6032,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b76",
          "planted": 40910562,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e77": {
          "owner": "abrockman",
@@ -5984,10 +6062,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e77",
          "planted": 40910615,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c80": {
          "owner": "abrockman",
@@ -6021,7 +6100,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c80",
          "planted": 40910504
       },
@@ -6057,7 +6136,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f57",
          "planted": 40910673
       },
@@ -6093,7 +6172,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c81",
          "planted": 40910566
       },
@@ -6129,7 +6208,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f58",
          "planted": 40910710
       },
@@ -6157,10 +6236,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d68",
          "planted": 40910575,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e78": {
          "owner": "wdougwatson",
@@ -6190,7 +6270,8 @@ module.exports = {
          "stage": 4,
          "substage": 1,
          "id": "c82",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "b77": {
          "owner": "ocupation",
@@ -6223,10 +6304,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b78",
          "planted": 40910988,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c83": {
          "owner": "saboin",
@@ -6249,7 +6331,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40944585,
          "id": "c83"
       },
@@ -6274,10 +6356,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c84",
          "planted": 40910978,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b79": {
          "owner": "saboin",
@@ -6295,10 +6378,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b79",
          "planted": 40911015,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a96": {
          "owner": "saboin",
@@ -6321,10 +6405,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a96",
          "planted": 40910921,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b80": {
          "owner": "abrockman",
@@ -6350,10 +6435,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b80",
          "planted": 40910677,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c85": {
          "owner": "abrockman",
@@ -6387,7 +6473,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c85",
          "planted": 40910622
       },
@@ -6415,10 +6501,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e79",
          "planted": 40910649,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d70": {
          "owner": "abrockman",
@@ -6444,10 +6531,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d70",
          "planted": 40910630,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e80": {
          "owner": "mcoinz79",
@@ -6468,9 +6556,9 @@ module.exports = {
          "stage": 1,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e80",
          "planted": 40960748
       },
@@ -6522,7 +6610,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "c87"
+         "id": "c87",
+         "pollinated": true
       },
       "d71": {
          "owner": "ecoinstats",
@@ -6543,7 +6632,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "d71"
+         "id": "d71",
+         "pollinated": true
       },
       "f60": {
          "owner": "ecoinstats",
@@ -6568,7 +6658,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "f60"
+         "id": "f60",
+         "pollinated": true
       },
       "b82": {
          "owner": "ecoinstats",
@@ -6589,7 +6680,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "b82"
+         "id": "b82",
+         "pollinated": true
       },
       "e81": {
          "owner": "ecoinstats",
@@ -6636,10 +6728,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b83",
          "planted": 40910712,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "c88": {
          "owner": "abrockman",
@@ -6673,7 +6766,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c88",
          "planted": 40910646
       },
@@ -6709,7 +6802,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f61",
          "planted": 40911137
       },
@@ -6737,10 +6830,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b84",
          "planted": 40911140,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d74": {
          "owner": "abrockman",
@@ -6766,10 +6860,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d74",
          "planted": 40910642,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a103": {
          "owner": "abrockman",
@@ -6803,7 +6898,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a103",
          "planted": 40910579
       },
@@ -6860,7 +6955,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
-         "id": "d76"
+         "id": "d76",
+         "pollinated": true
       },
       "d77": {
          "owner": "ecoinstats",
@@ -6881,7 +6977,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d77",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "e84": {
          "owner": "jeffjagoe",
@@ -6911,7 +7008,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40938041,
          "id": "f63"
       },
@@ -6945,9 +7042,9 @@ module.exports = {
          "stage": 1,
          "substage": 3,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40983628,
          "id": "c92"
       },
@@ -6982,9 +7079,9 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
-         "terps": {},
+         "terps": [],
          "id": "b85",
          "planted": 41062257
       },
@@ -7003,7 +7100,7 @@ module.exports = {
          "stage": 1,
          "substage": 1,
          "traits": [
-            "beta seed"
+            "Beta Seed"
          ],
          "planted": 41111265,
          "terps": [],
@@ -7024,9 +7121,9 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
-         "terps": {},
+         "terps": [],
          "id": "d81",
          "planted": 40961495
       },
@@ -7069,10 +7166,11 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "f66",
          "planted": 40910893,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b87": {
          "owner": "meowgan",
@@ -7137,7 +7235,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40944593,
          "id": "b88"
       },
@@ -7162,10 +7260,11 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "c97",
          "planted": 40911054,
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b89": {
          "owner": "saboin",
@@ -7201,7 +7300,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f70",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a91": {
          "owner": "saboin",
@@ -7226,7 +7326,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a91",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a97": {
          "owner": "saboin",
@@ -7251,7 +7352,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a97",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a111": {
          "owner": "saboin",
@@ -7274,7 +7376,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40944599,
          "id": "a111"
       },
@@ -7331,7 +7433,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a88",
          "planted": 40910144
       },
@@ -7362,7 +7464,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a106",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "c93": {
          "owner": "jeffjagoe",
@@ -7434,7 +7537,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "a90",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a93": {
          "owner": "abrockman",
@@ -7470,7 +7574,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "a93",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "d69": {
          "owner": "abrockman",
@@ -7532,7 +7637,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a99",
          "planted": 40910495
       },
@@ -7567,7 +7672,8 @@ module.exports = {
          "stage": 3,
          "substage": 0,
          "id": "f59",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": true
       },
       "a102": {
          "owner": "abrockman",
@@ -7600,7 +7706,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "a102",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e82": {
          "owner": "abrockman",
@@ -7654,7 +7761,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "planted": 40945232,
          "id": "d72"
       },
@@ -7682,7 +7789,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "e83",
          "planted": 41053706
       },
@@ -7718,7 +7825,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "terps": {},
+         "terps": [],
          "id": "a104",
          "planted": 40910613
       },
@@ -7756,7 +7863,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "c89",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "f62": {
          "owner": "abrockman",
@@ -7807,7 +7915,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "c94",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "a94": {
          "owner": "rachaeldwatson",
@@ -7861,7 +7970,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b86",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e85": {
          "owner": "jeffjagoe",
@@ -7962,7 +8072,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a112",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b81": {
          "owner": "road2nowhere",
@@ -8029,7 +8140,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c99",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d82": {
          "owner": "tsnaks",
@@ -8058,7 +8170,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d82",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e91": {
          "owner": "cuko",
@@ -8079,7 +8192,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "e91",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "d83": {
          "owner": "nupulse",
@@ -8108,7 +8222,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d83",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b91": {
          "owner": "atomcollector",
@@ -8129,7 +8244,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b91",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "b92": {
          "owner": "anarcist69",
@@ -8364,7 +8480,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "e95",
-         "sex": "female"
+         "sex": "female",
+         "pollinated": false
       },
       "e86": {
          "owner": "jeffjagoe",
@@ -8390,7 +8507,7 @@ module.exports = {
          "stage": 1,
          "substage": 6,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
          "id": "e86"
       },
@@ -8438,7 +8555,7 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
          "id": "f65"
       },
@@ -8479,7 +8596,7 @@ module.exports = {
          "stage": 1,
          "substage": 4,
          "traits": [
-            "beta"
+            "Beta Pollen"
          ],
          "id": "a115"
       },
@@ -9582,7 +9699,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 2250
@@ -9591,7 +9708,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 2250
@@ -11565,7 +11682,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11573,15 +11690,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "xp": 2250,
-               "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11589,7 +11698,15 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "xp": 2250,
+               "traits": [
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11597,7 +11714,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11605,7 +11722,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11613,7 +11730,7 @@ module.exports = {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11621,7 +11738,7 @@ module.exports = {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11629,7 +11746,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11637,7 +11754,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11645,7 +11762,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11653,7 +11770,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11661,7 +11778,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11669,7 +11786,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11677,7 +11794,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11685,7 +11802,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11693,7 +11810,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11701,7 +11818,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11709,7 +11826,7 @@ module.exports = {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11717,7 +11834,7 @@ module.exports = {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11725,7 +11842,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11733,7 +11850,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11741,7 +11858,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11749,7 +11866,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11757,7 +11874,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11765,7 +11882,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11773,7 +11890,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11781,7 +11898,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11789,7 +11906,7 @@ module.exports = {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11797,7 +11914,7 @@ module.exports = {
                "strain": "cht",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11805,7 +11922,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11813,7 +11930,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11821,7 +11938,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11829,7 +11946,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -11837,7 +11954,7 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -11846,7 +11963,7 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -11855,7 +11972,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -11864,7 +11981,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -12387,7 +12504,7 @@ module.exports = {
                "strain": "tha",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -12396,7 +12513,7 @@ module.exports = {
                "strain": "tha",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -12405,7 +12522,7 @@ module.exports = {
                "strain": "tha",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -12414,7 +12531,7 @@ module.exports = {
                "strain": "tha",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -12924,7 +13041,7 @@ module.exports = {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12932,7 +13049,7 @@ module.exports = {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12940,7 +13057,7 @@ module.exports = {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12948,7 +13065,7 @@ module.exports = {
                "strain": "dp",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12956,7 +13073,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12964,7 +13081,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12972,7 +13089,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12980,7 +13097,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12988,7 +13105,7 @@ module.exports = {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -12996,7 +13113,7 @@ module.exports = {
                "strain": "tha",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13004,7 +13121,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13012,7 +13129,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13020,7 +13137,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13028,7 +13145,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13036,7 +13153,7 @@ module.exports = {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13044,7 +13161,7 @@ module.exports = {
                "strain": "afg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13052,7 +13169,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13060,7 +13177,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13068,7 +13185,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13076,7 +13193,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13084,7 +13201,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13092,7 +13209,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13100,7 +13217,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13108,7 +13225,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13116,7 +13233,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13124,7 +13241,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13132,7 +13249,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13140,7 +13257,7 @@ module.exports = {
                "strain": "lb",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13148,7 +13265,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13156,7 +13273,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13164,7 +13281,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13172,7 +13289,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13180,7 +13297,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13188,7 +13305,7 @@ module.exports = {
                "strain": "hk",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -13258,7 +13375,7 @@ module.exports = {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13266,7 +13383,7 @@ module.exports = {
                "strain": "pam",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13274,7 +13391,7 @@ module.exports = {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13282,7 +13399,7 @@ module.exports = {
                "strain": "swz",
                "xp": 2250,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -13405,7 +13522,7 @@ module.exports = {
                "strain": "dp",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13413,7 +13530,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13421,7 +13538,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13429,7 +13546,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13437,7 +13554,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -13484,7 +13601,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13492,7 +13609,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13500,7 +13617,7 @@ module.exports = {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13508,7 +13625,7 @@ module.exports = {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13516,7 +13633,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13524,7 +13641,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13532,7 +13649,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13540,7 +13657,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13548,7 +13665,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13556,7 +13673,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13564,7 +13681,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13572,7 +13689,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13580,7 +13697,7 @@ module.exports = {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13588,7 +13705,7 @@ module.exports = {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13596,7 +13713,7 @@ module.exports = {
                "strain": "ach",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -13604,7 +13721,7 @@ module.exports = {
                "strain": "ach",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -13674,7 +13791,7 @@ module.exports = {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -13683,7 +13800,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -13694,7 +13811,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -13703,7 +13820,7 @@ module.exports = {
                "strain": "pam",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -13712,7 +13829,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -13721,7 +13838,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -13730,7 +13847,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -13739,7 +13856,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -14027,7 +14144,7 @@ module.exports = {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14035,7 +14152,7 @@ module.exports = {
                "strain": "mal",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14043,7 +14160,7 @@ module.exports = {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14051,7 +14168,7 @@ module.exports = {
                "strain": "lb",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14059,7 +14176,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14067,7 +14184,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14075,7 +14192,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14083,7 +14200,7 @@ module.exports = {
                "strain": "cht",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14091,7 +14208,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14099,7 +14216,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14141,7 +14258,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -14150,7 +14267,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta pollen"
+                  "Beta Pollen"
                ],
                "terps": [],
                "level": 50
@@ -14191,7 +14308,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14199,7 +14316,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -14263,7 +14380,7 @@ module.exports = {
                "strain": "cg",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -14272,7 +14389,7 @@ module.exports = {
                "strain": "hk",
                "xp": 10,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -14316,7 +14433,7 @@ module.exports = {
                "strain": "hk",
                "xp": 1,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -14438,7 +14555,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -14530,7 +14647,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14538,7 +14655,7 @@ module.exports = {
                "strain": "lkg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14546,7 +14663,7 @@ module.exports = {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14554,7 +14671,7 @@ module.exports = {
                "strain": "afg",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -14586,7 +14703,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14594,7 +14711,7 @@ module.exports = {
                "strain": "dp",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14602,7 +14719,7 @@ module.exports = {
                "strain": "hk",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14610,7 +14727,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             }
@@ -14635,7 +14752,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14643,7 +14760,7 @@ module.exports = {
                "strain": "kbr",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14651,7 +14768,7 @@ module.exports = {
                "strain": "swz",
                "xp": 50,
                "traits": [
-                  "beta"
+                  "Beta Pollen"
                ],
                "pollinated": true
             },
@@ -14659,7 +14776,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -14668,7 +14785,7 @@ module.exports = {
                "strain": "aca",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
@@ -14743,7 +14860,7 @@ module.exports = {
                "strain": "kmj",
                "xp": 50,
                "traits": [
-                  "beta seed"
+                  "Beta Seed"
                ],
                "terps": [],
                "pollinated": true
