@@ -971,7 +971,7 @@ function startApp() {
                 }
             }
             // remove pollen used
-            var index, pollen=''
+            let pollen = json.pollen
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
                 for (var i = 0;i < state.users[from].pollen.length; i++){
@@ -980,11 +980,9 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames}`
+            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollen} pollen`
         });
     
-
-
 /*
     processor.on('return', function(json, from) {
         let lands = json.lands,
