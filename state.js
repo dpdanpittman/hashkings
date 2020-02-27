@@ -803,6 +803,7 @@ module.exports = {
             "Beta Seeds"
          ],
          "terps": [],
+         "father": "hk",
          "pollinated": true,
          "id": "a10",
          "planted": 41079627
