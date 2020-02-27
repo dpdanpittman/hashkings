@@ -9675,6 +9675,7 @@ module.exports = {
          ],
          "id": "e37",
          "sex": "female",
+         "father": "hk",
          "pollinated": true
       },
       "a117": {
