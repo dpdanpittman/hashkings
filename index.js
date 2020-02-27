@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41135473; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41174026; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41135473;
+const ago = ENV.ago || 41174026;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1855,7 +1855,7 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       //pollinated: false
                   }
                   const seed2 = {
@@ -1863,7 +1863,7 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       //pollinated: false
                   }
                   state.users[state.land[addr].owner].seeds.push(seed)
@@ -1887,6 +1887,7 @@ function daily(addr) {
                 } catch(e) {
                     console.log('', e.message)
                    }
+                   
                    //harvest buds if female not pollinated
                    try {
                     if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == false){
@@ -1896,16 +1897,16 @@ function daily(addr) {
                         const bud1 = {
                             strain: state.land[addr].strain,
                             xp: state.land[addr].xp,
-                            traits: ['beta buds'],
-                            terps: [],
-                            //familyTree: state.land[addr].strain,
+                            traits: ['Beta Buds'],
+                            terps: [state.land[addr].strain.terps],
+                            familyTree: state.land[addr].strain,
                         }
                         const bud2 = {
                             strain: state.land[addr].strain,
                             xp: state.land[addr].xp,
-                            traits: ['beta buds'],
+                            traits: ['Beta Buds'],
                             terps: [],
-                            //familyTree: state.land[addr].strain,
+                            familyTree: state.land[addr].strain,
                         }
 
                         state.users[state.land[addr].owner].buds.push(bud1)
@@ -1939,14 +1940,16 @@ function daily(addr) {
                   const pollen1 = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
-                      traits: ['beta pollen'],
-                      terps: []
+                      traits: ['Beta Pollen'],
+                      terps: [],
+                      familyTree: state.land[addr].strain,
                   }
                   const pollen2 = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
-                      traits: ['beta pollen'],
-                      terps: []
+                      traits: ['Beta Pollen'],
+                      terps: [],
+                      familyTree: state.land[addr].strain,
                   }
                   state.users[state.land[addr].owner].pollen.push(pollen1)
 
