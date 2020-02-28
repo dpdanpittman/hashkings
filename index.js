@@ -1840,7 +1840,8 @@ function daily(addr) {
                     console.log('An affliction happened', e.message)
                    }
                 }
-            } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated') {
+//              if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
+            } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 3) {
                 kudo(state.land[addr].owner);
                 state.land[addr].pollinated = true;
                 state.land[addr].father = state.land[addr].pollen;
@@ -1857,7 +1858,8 @@ function daily(addr) {
                       traits: ['beta pollinated seed'],
                       terps: [],
                       familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
-                      pollinated: false
+                      pollinated: false,
+                      father: 'Beta Seed'
                   }
                   const seed2 = {
                       strain: state.land[addr].strain,
@@ -1865,7 +1867,8 @@ function daily(addr) {
                       traits: ['beta pollinated seed'],
                       terps: [],
                       familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
-                      pollinated: false
+                      pollinated: false,
+                      father: 'Beta Seed'
                   }
                   state.users[state.land[addr].owner].seeds.push(seed)
 
@@ -1901,6 +1904,7 @@ function daily(addr) {
                             traits: ['Beta Buds'],
                             terps: [state.land[addr].strain.terps],
                             familyTree: state.land[addr].strain,
+                            father: 'Sensimilla'
                         }
                         const bud2 = {
                             strain: state.land[addr].strain,
@@ -1908,6 +1912,7 @@ function daily(addr) {
                             traits: ['Beta Buds'],
                             terps: [],
                             familyTree: state.land[addr].strain,
+                            father: 'Sensimilla'
                         }
 
                         state.users[state.land[addr].owner].buds.push(bud1)
@@ -1944,6 +1949,7 @@ function daily(addr) {
                       traits: ['Beta Pollen'],
                       terps: [],
                       familyTree: state.land[addr].strain,
+                      father: 'Sensimilla'
                   }
                   const pollen2 = {
                       strain: state.land[addr].strain,
@@ -1951,6 +1957,7 @@ function daily(addr) {
                       traits: ['Beta Pollen'],
                       terps: [],
                       familyTree: state.land[addr].strain,
+                      father: 'Sensimilla'
                   }
                   state.users[state.land[addr].owner].pollen.push(pollen1)
 
