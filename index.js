@@ -39,6 +39,11 @@ const ipfs = new IPFS({
     protocol: 'https'
 });
 
+import * as ipfsSaveState from './ipfsSaveState.js';
+import * as kudo from './kudo.js';
+import * as sortExtentions from './sortExtentions.js';
+import * as whotopay from './whotopay.js';
+
 /*  const init holds the initial state of a user in the form of a json 
     as shown in the example.
 
@@ -383,15 +388,6 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   }
 });
 
-function kudo(user) {
-    console.log('Kudos: ' + user)
-    if (!state.kudos[user]) {
-        state.kudos[user] = 1
-    } else {
-        state.kudos[user]++
-    }
-}
-
 /****ISSUE****/
 function startWith(hash) {
     if (hash) {
@@ -469,7 +465,7 @@ function startApp() {
 
         if (num % 1000 === 0 && processor.isStreaming()) {
             if(!state.blacklist)state.blacklist={}
-            ipfsSaveState(num, JSON.stringify(state))
+            ipfsSaveState.ipfsSaveState(num, JSON.stringify(state))
         }
 
         if (num % 28800 === 20000 && state.payday.length) {
@@ -478,7 +474,7 @@ function startApp() {
                 delete state.cs[item]
               }
             }
-            state.payday[0] = sortExtentions(state.payday[0],'account')
+            state.payday[0] = sortExtentions.sortExtentions(state.payday[0],'account')
         var body = `\nhttps://i.imgur.com/jTxih7O.png
         \n
         \n<center><h1>What is Kief?</h1></center>
@@ -617,7 +613,7 @@ function startApp() {
         }
         if (num % 28800 === 25000 && state.payday.length) {
 
-            state.payday[0] = sortExtentions(state.payday[0],'account')
+            state.payday[0] = sortExtentions.sortExtentions(state.payday[0],'account')
             var body = `\nhttps://i.imgur.com/jTxih7O.png
             \n
             \n<center><h1>What is Kief?</h1></center>
@@ -760,7 +756,7 @@ function startApp() {
     state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
     }
         if (num % 28800 === 22000 && state.payday[0].length) {
-            state.payday[0] = sortExtentions(state.payday[0],'account')
+            state.payday[0] = sortExtentions.sortExtentions(state.payday[0],'account')
         var body = `\nhttps://i.imgur.com/jTxih7O.png\n
             \n<center><h1>What is Kief?</h1></center>
             \n
@@ -897,7 +893,7 @@ function startApp() {
     state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
     }
         if (num % 28800 === 28750) {
-            state.payday = whotopay()
+            state.payday = whotopay.whotopay()
         }
         if (num % 28800 === 0) {
             var d = parseInt(state.bal.c / 4)
@@ -1426,25 +1422,6 @@ function startApp() {
     }
 }
 
-function ipfsSaveState(blocknum, hashable) {
-    ipfs.add(Buffer.from(JSON.stringify([blocknum, hashable]), 'ascii'), (err, IpFsHash) => {
-        if (!err) {
-            if (IpFsHash[0].hash === undefined){
-               ipfsSaveState(blocknum, hashable) 
-            } else {
-                state.stats.bu = IpFsHash[0].hash
-                state.stats.bi = blocknum
-                console.log(blocknum + `:Saved:  ${IpFsHash[0].hash}`)
-                state.refund.push(['customJson', 'report', {
-                    stateHash: state.stats.bu,
-                    block: blocknum
-                }])
-            }
-        } else {
-            console.log('IPFS Error', err)
-        }
-    })
-};
 var bot = {
     xfer: function(toa, amount, memo) {
         const float = parseFloat(amount / 1000).toFixed(3)
@@ -1534,114 +1511,6 @@ var bot = {
     }
 }
 
-function whotopay() {
-    var a = {
-            a: [],
-            b: [],
-            c: [],
-            d: [],
-            e: [],
-            f: [],
-            g: [],
-            h: [],
-            i: [],
-            j: []
-        }, // 10 arrays for bennies
-        b = 0, // counter
-        c = 0, // counter
-        h = 1, // top value
-        r = {j:0,i:0,h:0,g:0,f:0,e:0,d:0,c:0,b:0,a:0}
-        o = [] // temp array
-    for (d in state.kudos) {
-        c = parseInt(c) + parseInt(state.kudos[d]) // total kudos
-        if (state.kudos[d] > h) { // top kudos(for sorting)
-            h = state.kudos[d]
-        };
-        if (state.kudos[d] == 1) { // for sorting , unshift 1 assuming most will be 1
-            o.unshift({
-                account: d,
-                weight: 1
-            })
-        } else {
-            if(!o.length){o.unshift({ //if nothing to sort, unshift into array
-                account: d,
-                weight: parseInt(state.kudos[d])
-            })}
-            for (var i = o.length - 1; i > 0; i--) { // insert sort
-                    if (state.kudos[d] <= o[i].weight) {
-                        o.splice(i, 0, {
-                            account: d,
-                            weight: parseInt(state.kudos[d])
-                        });
-                        break;
-                    } else if (state.kudos[d] > o[o.length-1].weight) {
-                        o.push({
-                            account: d,
-                            weight: parseInt(state.kudos[d])
-                        });
-                        break;
-                    }
-            }
-        }
-    }
-    if (o.length > (maxEx * 10)) {
-        b = (maxEx * 10)
-    } else {
-        b = o.length
-    }
-    while (b) { // assign bennies to posts, top kudos down
-        for (var fo in a) {
-            a[fo].push(o.pop());
-            b--
-            if(!b)break;
-        }
-        if(b){
-            for (var fr in r) {
-                a[fr].push(o.pop());
-                b--
-                if(!b)break;
-            }
-        }
-    }
-    state.kudos = {} //put back bennies over the max extentions limit
-        for (var i = 0; i < o.length; i++) {
-            state.kudos[o[i].account] = parseInt(o[i].weight)
-        }
-    for (var r in a) { //weight the 8 accounts in 10000
-        var u = 0,
-            q = 0
-        for (var i = 0; i < a[r].length; i++) {
-            u = parseInt(u) + parseInt(a[r][i].weight)
-        }
-        q = parseInt(10000/u)
-        for (var i = 0; i < a[r].length; i++) {
-            a[r][i].weight = parseInt(parseInt(a[r][i].weight) * q)
-        }
-    }
-    o = []
-    for (var i in a){
-        o.push(a[i])
-    }
-    console.log('payday:'+o)
-    return o
-}
-function sortExtentions(a, key) {
-    var b=[],c=[]
-    for(i=0;i<a.length;i++){
-        b.push(a[i][key])
-    }
-    b = b.sort()
-    while (c.length < a.length){
-      for(i=0;i<a.length;i++){
-        if(a[i][key] == b[0]){
-            c.push(a[i])
-            b.shift()
-        }
-      }
-    }
-    return c
-}
-
 function popWeather (loc){
     return new Promise((resolve, reject) => {
         fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${state.stats.env[loc].lat}&lon=${state.stats.env[loc].lon}&APPID=${wkey}`)
@@ -1710,7 +1579,7 @@ function autoPoster (loc, num) {
                           "body": body,
                           "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
     if(state.payday.length){
-        state.payday[0] = sortExtentions(state.payday[0],'account')
+        state.payday[0] = sortExtentions.sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
                          {"author": streamname,
                           "permlink": 'h'+num,
@@ -1813,7 +1682,7 @@ function daily(addr) {
                     if(!grown){
                         state.land[addr].substage++;
                         grown = true;
-                        kudo(state.land[addr].owner)
+                        kudo.kudo(state.land[addr].owner)
                     } else {
                         state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'You watered too soon']);
                     }
@@ -1844,7 +1713,7 @@ function daily(addr) {
                 }
 //              if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 3) {
-                kudo(state.land[addr].owner);
+                kudo.kudo(state.land[addr].owner);
                 state.land[addr].pollinated = true;
                 state.land[addr].father = state.land[addr].pollen;
             }
@@ -1853,7 +1722,7 @@ function daily(addr) {
               if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == true){
                 if (!harvested && state.land[addr].stage > 3){
                   harvested = true
-                  kudo(state.land[addr].owner)
+                  kudo.kudo(state.land[addr].owner)
                   const seed = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
@@ -1899,7 +1768,7 @@ function daily(addr) {
                     if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == false){
                       if (!harvested && state.land[addr].stage > 3){
                         harvested = true
-                        kudo(state.land[addr].owner)
+                        kudo.kudo(state.land[addr].owner)
                         const bud1 = {
                             strain: state.land[addr].strain,
                             xp: state.land[addr].xp,
@@ -1944,7 +1813,7 @@ function daily(addr) {
               if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'male'){
                 if (!harvested && state.land[addr].stage > 3){
                   harvested = true
-                  kudo(state.land[addr].owner)
+                  kudo.kudo(state.land[addr].owner)
                   const pollen1 = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
