@@ -965,7 +965,10 @@ function startApp() {
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
                 for (var i = 0;i < state.users[from].pollen.length; i++){
-                    if(state.users[from].pollen[i].strain == json.pollen){pollen=state.users[from].pollen.splice(i, 1)[0];break;}
+                    if(state.users[from].pollen[i].strain == json.pollen && state.land[plants[i]].stage > 3) {
+                        pollen=state.users[from].pollen.splice(i, 1)[0];
+                        break;
+                    }
                 }
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`

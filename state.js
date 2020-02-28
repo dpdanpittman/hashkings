@@ -9557,6 +9557,15 @@ module.exports = {
                ],
                "terps": [],
                "level": 2250
+            },
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 2250
             }
          ],
          "buds": [
