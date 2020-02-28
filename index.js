@@ -1169,7 +1169,8 @@ function startApp() {
                     substage: 0,
                     traits: seed.traits,
                     terps: seed.terps,
-                    pollinated: seed.pollinated
+                    pollinated: seed.pollinated,
+                    father: seed.father,
                 }
                 state.land[json.addr] = parcel
             } else if (state.land[json.addr].stage < 0) {
@@ -1184,6 +1185,7 @@ function startApp() {
                 state.land[json.addr].traits = seed.traits || []
                 state.land[json.addr].terps = seed.terps || []
                 state.land[json.addr].pollinated = seed.pollinated
+                state.land[json.addr].father = seed.father
             } else {
                 state.users[from].seeds.unshift(seed);
                 state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
