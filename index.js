@@ -39,10 +39,10 @@ const ipfs = new IPFS({
     protocol: 'https'
 });
 
-import * as ipfsSaveState from './ipfsSaveState.js';
-import * as kudo from './kudo.js';
-import * as sortExtentions from './sortExtentions.js';
-import * as whotopay from './whotopay.js';
+import ipfsSaveState from './ipfsSaveState.js';
+import kudo from './kudo.js';
+import sortExtentions from './sortExtentions.js';
+import whotopay from './whotopay.js';
 
 /*  const init holds the initial state of a user in the form of a json 
     as shown in the example.
