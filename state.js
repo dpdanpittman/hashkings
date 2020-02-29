@@ -1,4 +1,4 @@
-{
+module.exports = {
    "delegations": [
       {
          "delegator": "inthenow",
@@ -780,7 +780,7 @@
                               {
                                  "account": "qwoyn",
                                  "weight": 10000
-                              },
+                              }
                            ]
                         }
                      ]
@@ -827,7 +827,7 @@
                               {
                                  "account": "qwoyn",
                                  "weight": 10000
-                              },
+                              }
                            ]
                         }
                      ]
@@ -896,7 +896,7 @@
                               {
                                  "account": "qwoyn",
                                  "weight": 10000
-                              },
+                              }
                            ]
                         }
                      ]
@@ -975,7 +975,7 @@
                               {
                                  "account": "qwoyn",
                                  "weight": 10000
-                              },
+                              }
                            ]
                         }
                      ]
