@@ -15532,15 +15532,6 @@ module.exports = {
                ],
                "terps": [],
                "level": 50
-            },
-            {
-               "strain": "mis",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
             }
          ],
          "inv": [],
@@ -16212,7 +16203,17 @@ module.exports = {
             "a115"
          ],
          "seeds": [],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "mis",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+         ],
          "buds": [],
          "inv": [],
          "stats": [],
