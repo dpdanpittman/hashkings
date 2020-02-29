@@ -965,7 +965,7 @@ function startApp() {
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
                 for (var i = 0;i < state.users[from].pollen.length; i++){
-                    if(state.users[from].pollen[i].strain == json.pollen && state.land[plants[i]].stage > 3) {
+                    if(state.users[from].pollen[i].strain == json.pollen && state.land[plants[i]].stage >= 3) {
                         pollen=state.users[from].pollen.splice(i, 1)[0];
                         break;
                     }
@@ -1070,36 +1070,36 @@ function startApp() {
 
     //send pollen
     processor.on('give_pollen', function(json, from) {
-        var pollen=''
+        var pollens=''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].pollen.length; i++){
                   if (json.qual){
-                    if(state.users[from].pollen[i].strain == json.pollen && state.users[from].pollen[i].xp == json.qual){
-                      pollen=state.users[from].pollen.splice(i, 1)[0]
+                    if(state.users[from].pollen[i].strain == json.pollens && state.users[from].pollen[i].xp == json.qual){
+                      pollens=state.users[from].pollen.splice(i, 1)[0]
                       break
                     }
-                  } else if(state.users[from].pollen[i].strain == json.pollen){
-                    pollen=state.users[from].pollen.splice(i, 1)[0]
+                  } else if(state.users[from].pollen[i].strain == json.pollens){
+                    pollens=state.users[from].pollen.splice(i, 1)[0]
                     break
                   }
               }
           } catch (e) {}
-          if (pollen) {
+          if (pollens) {
               if (!state.users[json.to]) {
                 state.users[json.to] = {
                   addrs: [],
                   seeds: [],
                   buds: [],
-                  pollen: [pollen],
+                  pollen: [pollens],
                   inv: [],
                   stats: [],
                   v: 0
                 }
               } else {
-                  state.users[json.to].pollen.push(pollen)
+                  state.users[json.to].pollen.push(pollens)
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent ${seed.strain} pollen to ${json.to}`
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${pollens.strain} pollen to ${json.to}`
           } else {
               state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that pollen`
           }
@@ -1109,36 +1109,36 @@ function startApp() {
     
    //send buds
     processor.on('give_buds', function(json, from) {
-        var buds=''
+        var bud=''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
                   if (json.qual){
-                    if(state.users[from].buds[i].strain == json.buds && state.users[from].buds[i].xp == json.qual){
-                        buds=state.users[from].buds.splice(i, 1)[0]
+                    if(state.users[from].buds[i].strain == json.bud && state.users[from].buds[i].xp == json.qual){
+                        bud=state.users[from].buds.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].buds[i].strain == json.buds){
-                    buds=state.users[from].buds.splice(i, 1)[0]
+                    bud=state.users[from].buds.splice(i, 1)[0]
                     break
                   }
               }
           } catch (e) {}
-          if (buds) {
+          if (bud) {
               if (!state.users[json.to]) {
                 state.users[json.to] = {
                   addrs: [],
                   seeds: [],
                   pollen: [],
-                  buds: [buds],
+                  buds: [bud],
                   inv: [],
                   stats: [],
                   v: 0
                 }
               } else {
-                  state.users[json.to].buds.push(buds)
+                  state.users[json.to].buds.push(bud)
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent ${seed.strain} buds to ${json.to}`
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${bud.strain} buds to ${json.to}`
           } else {
               state.cs[`${json.block_num}:${from}`] = `${from} doesn't own those buds`
           }
