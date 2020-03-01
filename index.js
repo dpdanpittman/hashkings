@@ -950,22 +950,21 @@ function startApp() {
 
     processor.on('pollinate', function(json, from) {
             let plants = json.plants,
-                plantnames = ''
-            
+                plantnames = '',
+                pollenName = json.pollen
                 try {
-                if (state.land.plants.owner == from) {
+                if (state.land.plants.owner === from) {
                     state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                     plantnames += `${plants} `
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
                 }
-            
             // remove pollen used
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
                 for (var i = 0;i < state.users[from].pollen.length; i++){
-                    if(state.users[from].pollen[i].strain == json.pollen && state.land[plants[i]].stage >= 3) {
+                    if(state.users[from].pollen.strain == json.pollen && state.land[plants[i]].stage) {
                         pollen=state.users[from].pollen.splice(i, 1)[0];
                         break;
                     }
@@ -973,7 +972,7 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames}`
+            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
         });
     
 /*

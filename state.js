@@ -744,20 +744,6 @@ module.exports ={
    },
    "refund": [
       [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41206000",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
          "ssign",
          [
             [
@@ -805,7 +791,7 @@ module.exports ={
                "vote",
                {
                   "author": "hk-stream",
-                  "permlink": "h41212198",
+                  "permlink": "h41209000",
                   "voter": "hashkings",
                   "weight": 10000
                }
