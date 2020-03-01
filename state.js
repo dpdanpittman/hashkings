@@ -757,47 +757,6 @@ module.exports = {
                   "parent_author": "",
                   "parent_permlink": "hashkings",
                   "author": "hk-stream",
-                  "permlink": "h41232598",
-                  "title": "Hashkings Almanac for Jamaica | 41232598",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nJamaica Growers Daily News\n\n## Todays Weather\nYou can expect scattered clouds in the sky with a high of 27.6 Celsius. Winds will be out of the Northeast at 3.0 M/s. Models predict 8.89mm of rain. Relative humidity will be around 93% and a low of 20.5 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41232598",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": [
-                              {
-                                 "account": "qwoyn",
-                                 "weight": 10000
-                              }
-                           ]
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
                   "permlink": "h41240998",
                   "title": "Hashkings Almanac for Asia | 41240998",
                   "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 25.7 Celsius. Winds will be out of the Northeast at 3.8 M/s. Relative humidity will be around 65% and a low of 25.1 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
@@ -817,7 +776,12 @@ module.exports = {
                      [
                         0,
                         {
-                           "beneficiaries": []
+                           "beneficiaries": [
+                              {
+                                 "account": "vcdragon",
+                                 "weight": 10000
+                              }
+                           ]
                         }
                      ]
                   ]
@@ -949,7 +913,10 @@ module.exports = {
                      [
                         0,
                         {
-                           "beneficiaries": []
+                           "beneficiaries": [{
+                              "account": "abrockman",
+                              "weight": 10000
+                           }]
                         }
                      ]
                   ]
@@ -999,7 +966,10 @@ module.exports = {
                      [
                         0,
                         {
-                           "beneficiaries": []
+                           "beneficiaries": [{
+                              "account": "chronocrypto",
+                              "weight": 10000
+                           }]
                         }
                      ]
                   ]
@@ -1063,7 +1033,10 @@ module.exports = {
                      [
                         0,
                         {
-                           "beneficiaries": []
+                           "beneficiaries": [{
+                              "account": "qwoyn",
+                              "weight": 10000
+                           }]
                         }
                      ]
                   ]
@@ -1113,7 +1086,10 @@ module.exports = {
                      [
                         0,
                         {
-                           "beneficiaries": []
+                           "beneficiaries": [{
+                              "account": "saboin",
+                              "weight": 10000
+                           }]
                         }
                      ]
                   ]
@@ -1146,136 +1122,6 @@ module.exports = {
          "qwoyn-fund",
          900,
          "Funds"
-      ],
-      [
-         "xfer",
-         "qwoyn",
-         450,
-         "Producer Cut"
-      ],
-      [
-         "power",
-         "hashkings",
-         17400,
-         "Power to the people!"
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h41276998",
-                  "title": "Hashkings Almanac for Mexico | 41276998",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nMexico Growers Daily News\n\n## Todays Weather\nYou can expect scattered clouds in the sky with a high of 31.5 Celsius. Winds will be out of the Northeast at 1.9 M/s. Relative humidity will be around 31% and a low of 16.3 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @abrockman with 98.98%\n* @ultratrain with 0.98%\n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41276998",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": [
-                              {
-                                 "account": "abrockman",
-                                 "weight": 9898
-                              },
-                              {
-                                 "account": "ultratrain",
-                                 "weight": 98
-                              }
-                           ]
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41276998",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h41279398",
-                  "title": "Hashkings Almanac for Afganistan | 41279398",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfganistan Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 25.0 Celsius. Winds will be out of the West at 5.6 M/s. Relative humidity will be around 27% and a low of 15.2 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @tsnaks with 66.66%\n* @jbsharkey with 33.33%\n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41279398",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": [
-                              {
-                                 "account": "jbsharkey",
-                                 "weight": 3333
-                              },
-                              {
-                                 "account": "tsnaks",
-                                 "weight": 6666
-                              }
-                           ]
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41279398",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
       ]
    ],
    "lands": {
@@ -9489,21 +9335,16 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41282754,
+               "watered"
+            ],
+            [
                41282753,
                "watered"
             ],
             [
                41277972,
                "watered"
-            ],
-            [
-               41256324,
-               "pollinated"
-            ],
-            [
-               41249728,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
@@ -9927,23 +9768,16 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41282754,
+               "watered"
+            ],
+            [
                41282753,
                "watered"
             ],
             [
                41277972,
                "watered"
-            ],
-            [
-               41249728,
-               "watered",
-               ""
-            ],
-            [
-               41222141,
-               "watered",
-               "",
-               ""
             ]
          ],
          "aff": [],
@@ -9959,20 +9793,15 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41282754,
+               "watered"
+            ],
+            [
                41282753,
                "watered"
             ],
             [
                41277972,
-               "watered",
-               ""
-            ],
-            [
-               41249728,
-               "watered"
-            ],
-            [
-               41222141,
                "watered",
                ""
             ]
@@ -9992,6 +9821,10 @@ module.exports = {
          "strain": "hk",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10073,6 +9906,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10095,6 +9932,10 @@ module.exports = {
          "strain": "kmj",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10119,6 +9960,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10141,6 +9986,10 @@ module.exports = {
          "strain": "lb",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10166,6 +10015,10 @@ module.exports = {
          "xp": 200,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10188,6 +10041,10 @@ module.exports = {
          "strain": "mis",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10212,6 +10069,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10234,6 +10095,10 @@ module.exports = {
          "strain": "mal",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10259,6 +10124,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10281,6 +10150,10 @@ module.exports = {
          "strain": "aca",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10306,6 +10179,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10329,6 +10206,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10351,6 +10232,10 @@ module.exports = {
          "strain": "kbr",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10376,6 +10261,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10398,6 +10287,10 @@ module.exports = {
          "strain": "ach",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10422,6 +10315,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10444,6 +10341,10 @@ module.exports = {
          "strain": "lb",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10468,6 +10369,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10491,6 +10396,10 @@ module.exports = {
          "xp": 200,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10513,6 +10422,10 @@ module.exports = {
          "strain": "kmj",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10538,6 +10451,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10560,6 +10477,10 @@ module.exports = {
          "strain": "mal",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10584,6 +10505,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10606,6 +10531,10 @@ module.exports = {
          "strain": "cht",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10658,6 +10587,10 @@ module.exports = {
          "xp": 200,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10684,6 +10617,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10709,6 +10646,10 @@ module.exports = {
          "strain": "mis",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10737,6 +10678,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10762,6 +10707,10 @@ module.exports = {
          "strain": "cht",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -10789,6 +10738,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10815,6 +10768,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41283298,
+               "watered"
+            ],
+            [
                41253947,
                "watered",
                ""
@@ -10840,6 +10797,10 @@ module.exports = {
          "strain": "lbr",
          "xp": 50,
          "care": [
+            [
+               41283298,
+               "watered"
+            ],
             [
                41253947,
                "watered",
@@ -17151,6 +17112,7 @@ module.exports = {
       "41282258:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 a104 b98 ",
       "41282558:badpupper": "badpupper watered e104 a125 ",
       "41282753:cuko": "cuko watered e91 b95 a115 ",
-      "41282877:cuko": "cuko pollinated  with mis"
+      "41282877:cuko": "cuko pollinated  with mis",
+      "41283298:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 "
    }
 }
