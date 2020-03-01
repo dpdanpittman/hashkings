@@ -973,7 +973,7 @@ module.exports ={
             ]
          ],
          "aff": [],
-         "stage": 1,
+         "stage": 3,
          "substage": 4,
          "traits": [
             "Beta Seeds"
@@ -981,6 +981,7 @@ module.exports ={
          "terps": [],
          "father": "hk",
          "pollinated": true,
+         "sex": "female",
          "id": "a10",
          "planted": 41079627
       },
