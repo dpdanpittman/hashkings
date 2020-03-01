@@ -951,16 +951,16 @@ function startApp() {
     processor.on('pollinate', function(json, from) {
             let plants = json.plants,
                 plantnames = ''
-            for (var i = 0; i < plants.length; i++) {
+            
                 try {
-                if (state.land[plants[i]].owner == from) {
-                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants[i]} `
+                if (state.land.plants.owner == from) {
+                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${plants} `
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
                 }
-            }
+            
             // remove pollen used
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
