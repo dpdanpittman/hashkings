@@ -949,14 +949,14 @@ function startApp() {
 
 
     processor.on('pollinate', function(json, from) {
-            let plants = json.plants,
+            let addr = json.plants,
                 plantnames = '',
                 pollenName = json.pollen
-                for (var i = 0; i < plants.length; i++) {
+                for (var i = 0; i < addr.length; i++) {
                 try {
-                if (state.land[plants[i]].owner === from) {
-                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames = `${plants[i]}`
+                if (state.land[addr[i]].owner === from) {
+                    state.land[addr[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${addr[i]}`
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
@@ -966,8 +966,8 @@ function startApp() {
             var index
             try{
                 index = state.users[from].addrs.indexOf(json.plants)
-                if (index >= 0 && plants) {
-                for (var i = 0;i < state.users[from].pollen.length; i++){
+                if (index >= 0 && addr) {
+                for (var i = 0; i < state.users[from].pollen.length; i++){
                     if(state.users[from].pollen.strain === json.pollen) {
                         pollen=state.users[from].pollen.splice(i, 1)[0];
                         break;
