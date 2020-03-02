@@ -592,7 +592,7 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
-            if(state.payday.length === 0){
+            if(state.payday.length < 1){
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -751,7 +751,7 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
-            if(state.payday.length === 0){
+            if(state.payday.length < 1){
             state.refund.push(
                               ['ssign',
                                 [
@@ -921,7 +921,7 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
-            if(state.payday.length === 0){
+            if(state.payday.length < 1){
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -1786,7 +1786,7 @@ function autoPoster (loc, num) {
                           "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
                           "body": body,
                           "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
-    if(state.payday.length === 0){
+    if(state.payday.length < 1){
         state.payday[0] = sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
                          {"author": streamname,
