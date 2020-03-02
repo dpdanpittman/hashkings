@@ -963,7 +963,7 @@ function startApp() {
                 }
             }
             // remove pollen used
-            var index, pollen = '',
+            var index, pollen = ''
             try{
                 index = state.users[from].addrs.indexOf(json.plants)
                 if (index >= 0 && pollen) {
