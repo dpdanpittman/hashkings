@@ -592,6 +592,7 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
+            if(state.payday.length === 0){
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -609,7 +610,27 @@ function startApp() {
                                   "allow_curation_rewards": true,
                                   "extensions":
                                   [[0,
-                                    {"beneficiaries":state.payday[0]}]]}]] ])
+                                    {"beneficiaries": JSON.stringify({account:["qwoyn-fund"],weight:[10000]})}]]}]] ])
+            } else if(state.payday.length > 0){
+                state.refund.push(['ssign',[["comment",
+                                     {"parent_author": "",
+                                      "parent_permlink": 'hashkings',
+                                      "author": streamname,
+                                      "permlink": 'h'+num,
+                                      "title": `Farmers Guide | ${num}`,
+                                      "body": body,
+                                      "json_metadata": JSON.stringify({tags:["hashkings"]})}],
+                                    ["comment_options",
+                                     {"author": streamname,
+                                      "permlink": 'h'+num,
+                                      "max_accepted_payout": "1000000.000 SBD",
+                                      "percent_steem_dollars": 10000,
+                                      "allow_votes": true,
+                                      "allow_curation_rewards": true,
+                                      "extensions":
+                                      [[0,
+                                        {"beneficiaries":state.payday[0]}]]}]] ])
+                }
             state.payday.shift()
     }
         if (num % 28800 === 20300 && state.payday && state.payday[0].length) {
@@ -730,18 +751,19 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
+            if(state.payday.length === 0){
             state.refund.push(
                               ['ssign',
                                 [
                                  ["comment",
                                   {
                                       "parent_author": "",
-                                      "parent_permlink": 'hashkings',
+                                      "parent_permlink": 'hk-stream',
                                       "author": streamname,
                                       "permlink": 'h'+num,
                                       "title": `Farmers Guide | ${num}`,
                                       "body": body,
-                                      "json_metadata": JSON.stringify({tags:["hashkings"]})
+                                      "json_metadata": JSON.stringify({tags:["hk-stream"]})
                                    }
                                   ],
                                     ["comment_options",
@@ -753,7 +775,33 @@ function startApp() {
                                           "allow_votes": true,
                                           "allow_curation_rewards": true,
                                           "extensions":
-                                        [[0,{"beneficiaries":state.payday[0]}]]}]]])
+                                        [[0,{"beneficiaries": JSON.stringify({account:["qwoyn-fund"],weight:[10000]})}]]}]]])
+            } else if(state.payday.length > 0){
+                state.refund.push(
+                                  ['ssign',
+                                    [
+                                     ["comment",
+                                      {
+                                          "parent_author": "",
+                                          "parent_permlink": 'hk-stream',
+                                          "author": streamname,
+                                          "permlink": 'h'+num,
+                                          "title": `Farmers Guide | ${num}`,
+                                          "body": body,
+                                          "json_metadata": JSON.stringify({tags:["hk-stream"]})
+                                       }
+                                      ],
+                                        ["comment_options",
+                                          {
+                                              "author": streamname,
+                                              "permlink": 'h'+num,
+                                              "max_accepted_payout": "1000000.000 SBD",
+                                              "percent_steem_dollars": 10000,
+                                              "allow_votes": true,
+                                              "allow_curation_rewards": true,
+                                              "extensions":
+                                            [[0,{"beneficiaries":state.payday[0]}]]}]]])
+                }
             state.payday.shift()
     }
         if (num % 28800 === 25300 && state.payday && state.payday.length) {
@@ -873,6 +921,7 @@ function startApp() {
                 body = body + footer
             }
             body = body + listBens(state.payday[0])
+            if(state.payday.length === 0){
             state.refund.push(['ssign',[["comment",
                                  {"parent_author": "",
                                   "parent_permlink": 'hashkings',
@@ -890,7 +939,27 @@ function startApp() {
                                   "allow_curation_rewards": true,
                                   "extensions":
                                   [[0,
-                                    {"beneficiaries":state.payday[0]}]]}]] ])
+                                    {"beneficiaries": JSON.stringify({account:["qwoyn-fund"],weight:[10000]})}]]}]] ])
+            } else if(state.payday.length > 0){
+                state.refund.push(['ssign',[["comment",
+                                     {"parent_author": "",
+                                      "parent_permlink": 'hashkings',
+                                      "author": streamname,
+                                      "permlink": 'h'+num,
+                                      "title": `Farmers Guide | ${num}`,
+                                      "body": body,
+                                      "json_metadata": JSON.stringify({tags:["hashkings"]})}],
+                                    ["comment_options",
+                                     {"author": streamname,
+                                      "permlink": 'h'+num,
+                                      "max_accepted_payout": "1000000.000 SBD",
+                                      "percent_steem_dollars": 10000,
+                                      "allow_votes": true,
+                                      "allow_curation_rewards": true,
+                                      "extensions":
+                                      [[0,
+                                        {"beneficiaries":state.payday[0]}]]}]] ])
+                }
             state.payday.shift()
     }
     if (num % 28800 === 22300) {
@@ -1365,13 +1434,13 @@ function startApp() {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else {
                     state.bal.r += amount
-                    state.refund.push(['xfer', wrongTransaction, amount, 'We don\'t know what you wanted... have your STEEM back'])
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
+                    state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
                 }
             } else if (amount > 10) {
                 state.bal.r += amount
-                state.refund.push(['xfer', wrongTransaction, amount, 'Sorry, this account only accepts in game transactions.'])
-                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
+                state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
+                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
             }
                 } else {
                     if (state.blacklist[json.from]){
@@ -1717,7 +1786,21 @@ function autoPoster (loc, num) {
                           "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
                           "body": body,
                           "json_metadata": JSON.stringify({tags:["hk-stream"]})}]]
-    if(state.payday.length){
+    if(state.payday.length === 0){
+        state.payday[0] = sortExtentions(state.payday[0],'account')
+        bens = ["comment_options",
+                         {"author": streamname,
+                          "permlink": 'h'+num,
+                          "max_accepted_payout": "1000000.000 SBD",
+                          "percent_steem_dollars": 10000,
+                          "allow_votes": true,
+                          "allow_curation_rewards": true,
+                          "extensions":
+                          [[0,
+                            {"beneficiaries": JSON.stringify({account:["qwoyn-fund"],weight:[10000]})}]]}]
+        ops.push(bens)
+        state.payday.shift()
+    } else if(state.payday.length > 0){
         state.payday[0] = sortExtentions(state.payday[0],'account')
         bens = ["comment_options",
                          {"author": streamname,
