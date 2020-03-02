@@ -920,7 +920,7 @@ function startApp() {
             plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
-            if (state.land[plants[i]].owner == from) {
+            if (state.land[plants[i]].owner === from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'harvested']);
                 plantnames += `${plants[i]} `
             }
@@ -936,7 +936,7 @@ function startApp() {
             plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
-            if (state.land[plants[i]].owner == from) {
+            if (state.land[plants[i]].owner === from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
                 plantnames += `${plants[i]} `
             }
@@ -952,14 +952,16 @@ function startApp() {
             let plants = json.plants,
                 plantnames = '',
                 pollenName = json.pollen
+                for (var i = 0; i < plants.length; i++) {
                 try {
-                if (state.land.plants.owner === from) {
-                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames = `${plants}`
+                if (state.land[plants[i]].owner === from) {
+                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames = `${plants[i]}`
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
                 }
+            }
             // remove pollen used
             try{
                 index = state.users[from].addrs.indexOf(json.addr)
