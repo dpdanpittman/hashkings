@@ -1,0 +1,96 @@
+Hashkings API Docs
+
+Accounting
+
+- JSON
+
+{
+   "refunds": [
+      [
+         "xfer",
+         "qwoyn-dev",
+         312,
+         "Sorry, this account only accepts in game transactions."
+      ]
+   ],
+   "bal": {
+      "r": 887,
+      "c": 0,
+      "b": 2925,
+      "p": 1307122
+   }
+}
+
+- Description
+
+--Refunds
+"xfer" is a refund for an amount of steem that was sent to @hashkings. 
+"qwoyn-dev" is the user who sent the transaction.
+312 is the amount
+"Sorry, this account only accepts in game transactions." is the memo which is sent to the user during refund.
+
+--bal - (Balance)
+"r" Money received during a 24 hour period at 1/1000th of a STEEM. (887 = .887 STEEM)
+"c" Hashkings earnings.  Any money received for seeds minus 97.5% plus all leasing fees in a 24 hour period
+"b" Current @hashkings balance
+"p" Current @hashkings STEEM POWER
+
+-Expected outome in the example
+
+--Refund 
+Should be sent within a few minutes
+
+---Log output
+
+{
+  amount: '0.312 STEEM',
+  from: 'hashkings',
+  to: 'qwoyn-dev',
+  memo: 'Sorry, this account only accepts in game transactions.'
+} PrivateKey {
+2020-02-20T04:51:33.079180+00:00 app[web.1]:   key: <Buffer 5e 7c 8a d9 c1 49 17 bf 68 bc ce 21 0a 9f 85 56 c9 03 84 4a 6d 8f 11 32 7b 7c 73 e3 21 78 f6 85>
+}
+{
+  id: '4fbd122efa5feb3baa5b2bbd6383e91cba8b9910',
+  block_num: 40975253,
+  trx_num: 18,
+  expired: false
+}
+
+--Balance
+"r" should decrease by 312 due to refund then "r" should decrease by 500 and "b" will increase to 3425 due to leasing fee.
+
+
+This refund should happen within just a few minutes
+
+
+Troubleshooting
+
+- Error
+
+	attemptingcomment,[object Object]
+	app[web.1]: VError [RPCError]: beneficiaries.size(): Must specify at least one beneficiary
+	app[web.1]:     at Client.<anonymous> (/app/node_modules/dsteem/lib/client.js:171:23)
+	app[web.1]:     at Generator.next (<anonymous>)
+	app[web.1]:     at fulfilled (/app/node_modules/dsteem/lib/client.js:38:58)
+	app[web.1]:     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+	app[web.1]:   name: 'RPCError',
+	app[web.1]:   jse_shortmsg: 'beneficiaries.size(): Must specify at least one beneficiary',
+	app[web.1]:   jse_info: {
+	app[web.1]:     code: 10,
+	app[web.1]:     name: 'assert_exception',
+	app[web.1]:     message: 'Assert Exception',
+	app[web.1]:     stack: [ [Object], [Object], [Object] ]
+	app[web.1]:   },
+	app[web.1]:   message: 'beneficiaries.size(): Must specify at least one beneficiary'
+	app[web.1]: }
+	
+	- Meaning
+	
+	  1. Not enough users watering plots
+	  2. Not enough users receiving kudos
+	  
+	- Solution
+	
+	Supplement needed number or users with backup users and begin to water with each user every 24 hours
+	
