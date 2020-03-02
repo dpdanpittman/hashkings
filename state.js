@@ -747,8 +747,7 @@ module.exports = {
       "b": 21377,
       "p": 1461742
    },
-   "refund": [
-   ],
+   "refund": [],
    "lands": {
       "forSale": [
          "e40",
