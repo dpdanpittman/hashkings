@@ -1291,6 +1291,7 @@ function startApp() {
     }
     });
     processor.onOperation('transfer', function(json) {
+        var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             fetch(`http://blacklist.usesteem.com/user/${json.from}`)
@@ -1359,12 +1360,12 @@ function startApp() {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else {
                     state.bal.r += amount
-                    state.refund.push(['xfer', json.from, amount, 'We don\'t know what you wanted... have your STEEM back'])
+                    state.refund.push(['xfer', wrongTransaction, amount, 'We don\'t know what you wanted... have your STEEM back'])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
                 }
             } else if (amount > 10) {
                 state.bal.r += amount
-                state.refund.push(['xfer', json.from, amount, 'Sorry, this account only accepts in game transactions.'])
+                state.refund.push(['xfer', wrongTransaction, amount, 'Sorry, this account only accepts in game transactions.'])
                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...refund?`
             }
                 } else {
