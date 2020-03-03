@@ -954,7 +954,7 @@ function startApp() {
             let plants = json.plants,
                 plantnames = '',
                 pollenName = json.pollen
-                for (var i = 0; i < plants.length; i++) {
+                for (var i = 0; i < 1; i++) {
                 try {
                 if (state.land.plants[i].owner === from) {
                     state.land.plants[i].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
