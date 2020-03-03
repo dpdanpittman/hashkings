@@ -383,6 +383,8 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   }
 });
 
+//assigns kudos to user. kudos determine who has properly watered their plants and 
+//increments kudos accordingly
 function kudo(user) {
     console.log('Kudos: ' + user)
     if (!state.kudos[user]) {
@@ -954,9 +956,9 @@ function startApp() {
                 pollenName = json.pollen
                 for (var i = 0; i < plants.length; i++) {
                 try {
-                if (state.land.plants.owner === from) {
-                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants}`
+                if (state.land[plants[i]].owner === from) {
+                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${plants[i]}`
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
