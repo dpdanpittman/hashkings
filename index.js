@@ -955,8 +955,7 @@ function startApp() {
             pollen = json.pollen,
             pollenName = ''
         var pollenState = {
-            father: pollenName,
-            pollinated: true
+            father: pollenName
         }      
         for (var i = 0; i < 1; i++) {
             try {
@@ -966,7 +965,7 @@ function startApp() {
                 pollenName += `${pollen}`;
              
                 state.users[from].pollen.splice(i, 1)[0];
-                
+                state.land[plants].pollinated = true;
                 state.land[plants].push(pollenState);          
             }
             } catch (e){
