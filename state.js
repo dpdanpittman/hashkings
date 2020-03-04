@@ -8378,6 +8378,7 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "id": "e91",
+         "father": "mis",
          "sex": "female",
          "pollinated": true
       },
