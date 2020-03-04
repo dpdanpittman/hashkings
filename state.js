@@ -797,7 +797,7 @@ module.exports = {
             "Beta Seeds"
          ],
          "terps": [],
-         "father": "hk",
+         "father": "beta",
          "pollinated": true,
          "sex": "female",
          "id": "a10",
@@ -880,6 +880,7 @@ module.exports = {
          ],
          "id": "b34",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e14": {
@@ -896,7 +897,8 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
-         "sex": "male"
+         "sex": "male",
+         "father": "beta"
       },
       "a43": {
          "owner": "gregorypatrick",
@@ -911,6 +913,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a43",
+         "father": "beta",
          "sex": "male"
       },
       "a7": {
@@ -927,6 +930,7 @@ module.exports = {
          ],
          "id": "a7",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a49": {
@@ -942,6 +946,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a49",
+         "father": "beta",
          "sex": "male"
       },
       "a9": {
@@ -959,6 +964,7 @@ module.exports = {
          "planted": 39630977,
          "id": "a9",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a11": {
@@ -970,6 +976,7 @@ module.exports = {
          "stage": -1,
          "substage": 0,
          "terps": [],
+         "father": "beta",
          "id": "a11"
       },
       "b2": {
@@ -1018,6 +1025,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b32",
+         "father": "beta",
          "sex": "male"
       },
       "a48": {
@@ -1034,6 +1042,7 @@ module.exports = {
          ],
          "id": "a48",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b5": {
@@ -1061,6 +1070,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "male",
+         "father": "beta",
          "id": "e8"
       },
       "a17": {
@@ -1077,6 +1087,7 @@ module.exports = {
          ],
          "id": "a17",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b41": {
@@ -1093,6 +1104,7 @@ module.exports = {
          "terps": [],
          "id": "b41",
          "sex": "male",
+         "father": "beta",
          "planted": 39600281
       },
       "c37": {
@@ -1144,6 +1156,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e17",
+         "father": "beta",
          "sex": "male"
       },
       "b42": {
@@ -1160,6 +1173,7 @@ module.exports = {
          "terps": [],
          "id": "b42",
          "planted": 41261591,
+         "father": "beta",
          "pollinated": true
       },
       "a3": {
@@ -1188,6 +1202,7 @@ module.exports = {
          "terps": [],
          "id": "f9",
          "planted": 41261654,
+         "father": "beta",
          "pollinated": true
       },
       "f1": {
@@ -1204,6 +1219,7 @@ module.exports = {
          ],
          "id": "f1",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a46": {
@@ -1220,6 +1236,7 @@ module.exports = {
          ],
          "id": "a46",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a15": {
@@ -1235,6 +1252,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a15",
+         "father": "beta",
          "sex": "male"
       },
       "b3": {
@@ -1251,6 +1269,7 @@ module.exports = {
          ],
          "id": "b3",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d3": {
@@ -1267,6 +1286,7 @@ module.exports = {
          ],
          "id": "d3",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d32": {
@@ -1317,7 +1337,9 @@ module.exports = {
          ],
          "terps": [],
          "id": "a50",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "c39": {
          "owner": "abrockman",
@@ -1340,7 +1362,8 @@ module.exports = {
          "planted": 41250124,
          "traits": [],
          "terps": [],
-         "id": "c39"
+         "id": "c39",
+         "father": "beta",
       },
       "d33": {
          "owner": "abrockman",
@@ -1371,6 +1394,7 @@ module.exports = {
          "planted": 40707676,
          "id": "d33",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b43": {
@@ -1401,7 +1425,8 @@ module.exports = {
          "terps": [],
          "planted": 40621873,
          "id": "b43",
-         "sex": null
+         "father": "beta",
+         "sex": "male"
       },
       "c40": {
          "owner": "romiferns",
@@ -1423,6 +1448,7 @@ module.exports = {
          "terps": [],
          "planted": 40895479,
          "id": "c40",
+         "father": "beta",
          "sex": "female"
       },
       "a51": {
@@ -1511,6 +1537,7 @@ module.exports = {
          ],
          "id": "a1",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f11": {
@@ -1527,6 +1554,7 @@ module.exports = {
          "terps": [],
          "planted": 36367479,
          "id": "f11",
+         "father": "beta",
          "sex": "male"
       },
       "a120": {
@@ -1554,6 +1582,7 @@ module.exports = {
          "terps": [],
          "id": "a120",
          "planted": 41133491,
+         "father": "beta",
          "pollinated": true
       },
       "a52": {
@@ -1581,6 +1610,7 @@ module.exports = {
          "terps": [],
          "id": "a52",
          "planted": 41133505,
+         "father": "beta",
          "pollinated": true
       },
       "e19": {
@@ -1732,6 +1762,7 @@ module.exports = {
          "id": "e29",
          "planted": 40798496,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f12": {
@@ -1770,6 +1801,7 @@ module.exports = {
          "terps": [],
          "id": "f12",
          "planted": 40910007,
+         "father": "beta",
          "sex": "female"
       },
       "e30": {
@@ -1786,6 +1818,7 @@ module.exports = {
          ],
          "id": "e30",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b45": {
@@ -1802,6 +1835,7 @@ module.exports = {
          ],
          "id": "b45",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b46": {
@@ -1817,6 +1851,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b46",
+         "father": "beta",
          "sex": "male"
       },
       "e31": {
@@ -1832,6 +1867,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e31",
+         "father": "beta",
          "sex": "male"
       },
       "f13": {
@@ -1847,6 +1883,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f13",
+         "father": "beta",
          "sex": "female",
          "pollinated": true
       },
@@ -1863,6 +1900,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b47",
+         "father": "beta",
          "sex": "male"
       },
       "d35": {
@@ -1878,6 +1916,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d35",
+         "father": "beta",
          "sex": "female",
          "pollinated": true
       },
@@ -1895,6 +1934,7 @@ module.exports = {
          "terps": [],
          "id": "d36",
          "planted": 41261658,
+         "father": "beta",
          "pollinated": true
       },
       "e33": {
@@ -1910,6 +1950,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e33",
+         "father": "beta",
          "sex": "male"
       },
       "e34": {
@@ -1926,6 +1967,7 @@ module.exports = {
          ],
          "id": "e34",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "c45": {
@@ -1942,6 +1984,7 @@ module.exports = {
          ],
          "id": "c45",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e35": {
@@ -1958,6 +2001,7 @@ module.exports = {
          ],
          "id": "e35",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e36": {
@@ -1985,6 +2029,7 @@ module.exports = {
          "terps": [],
          "planted": 40891884,
          "sex": "female",
+         "father": "beta",
          "pollinated": false,
          "id": "e36"
       },
@@ -2017,6 +2062,7 @@ module.exports = {
          "terps": [],
          "planted": 40891867,
          "sex": "female",
+         "father": "beta",
          "pollinated": false,
          "id": "a53"
       },
@@ -2044,6 +2090,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c47",
+         "father": "beta",
          "sex": "male"
       },
       "c48": {
@@ -2060,6 +2107,7 @@ module.exports = {
          ],
          "id": "c48",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f6": {
@@ -2077,6 +2125,7 @@ module.exports = {
          "planted": 39953101,
          "id": "f6",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b49": {
@@ -2092,6 +2141,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b49",
+         "father": "beta",
          "sex": "male"
       },
       "f16": {
@@ -2107,6 +2157,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f16",
+         "father": "beta",
          "sex": "male"
       },
       "d37": {
@@ -2123,6 +2174,7 @@ module.exports = {
          ],
          "id": "d37",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a56": {
@@ -2161,6 +2213,7 @@ module.exports = {
          "terps": [],
          "id": "a56",
          "planted": 40910014,
+         "father": "beta",
          "sex": "female"
       },
       "b50": {
@@ -2192,6 +2245,7 @@ module.exports = {
          "id": "b50",
          "planted": 40910034,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c50": {
@@ -2215,6 +2269,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
+         "father": "beta",
          "pollinated": true,
          "planted": 41250139,
          "terps": [],
@@ -2231,6 +2286,7 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
+         "father": "beta",
          "terps": [],
          "planted": 36380242,
          "id": 1
@@ -2249,6 +2305,7 @@ module.exports = {
          ],
          "id": "a57",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d40": {
@@ -2306,6 +2363,7 @@ module.exports = {
          "id": "e38",
          "planted": 40910019,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f17": {
@@ -2345,6 +2403,7 @@ module.exports = {
          "planted": 39673600,
          "id": "f17",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a58": {
@@ -2383,6 +2442,7 @@ module.exports = {
          "terps": [],
          "planted": 40910037,
          "id": "a58",
+         "father": "beta",
          "sex": "female"
       },
       "f18": {
@@ -2421,6 +2481,7 @@ module.exports = {
          "terps": [],
          "planted": 40910073,
          "id": "f18",
+         "father": "beta",
          "sex": "female"
       },
       "b51": {
@@ -2452,6 +2513,7 @@ module.exports = {
          "id": "b51",
          "planted": 40910058,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c52": {
@@ -2482,6 +2544,7 @@ module.exports = {
          "terps": [],
          "planted": 40910040,
          "id": "c52",
+         "father": "beta",
          "sex": "female"
       },
       "e39": {
@@ -2513,6 +2576,7 @@ module.exports = {
          "id": "e39",
          "planted": 40910067,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a59": {
@@ -2551,6 +2615,7 @@ module.exports = {
          "terps": [],
          "id": "a59",
          "planted": 40971208,
+         "father": "beta",
          "sex": "female"
       },
       "d41": {
@@ -2582,6 +2647,7 @@ module.exports = {
          "id": "d41",
          "planted": 40910068,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f19": {
@@ -2596,6 +2662,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
+         "father": "beta",
          "id": "f19"
       },
       "d39": {
@@ -2611,6 +2678,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d39",
+         "father": "beta",
          "sex": "male"
       },
       "f20": {
@@ -2627,6 +2695,7 @@ module.exports = {
          ],
          "id": "f20",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "c53": {
@@ -2642,6 +2711,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c53",
+         "father": "beta",
          "sex": "male"
       },
       "b52": {
@@ -2706,6 +2776,7 @@ module.exports = {
          ],
          "id": "a6",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f22": {
@@ -2722,6 +2793,7 @@ module.exports = {
          ],
          "id": "f22",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f24": {
@@ -2734,6 +2806,7 @@ module.exports = {
          "stage": 4,
          "substage": 0,
          "id": "f24",
+         "father": "beta",
          "sex": "male"
       },
       "b48": {
@@ -2750,6 +2823,7 @@ module.exports = {
          ],
          "id": "b48",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f8": {
@@ -2765,6 +2839,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f8",
+         "father": "beta",
          "sex": "male"
       },
       "a60": {
@@ -2781,6 +2856,7 @@ module.exports = {
          ],
          "id": "a60",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f3": {
@@ -2796,6 +2872,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f3",
+         "father": "beta",
          "sex": "male"
       },
       "b37": {
@@ -2812,6 +2889,7 @@ module.exports = {
          ],
          "id": "b37",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d42": {
@@ -2828,6 +2906,7 @@ module.exports = {
          ],
          "id": "d42",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a61": {
@@ -2879,6 +2958,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d43",
+         "father": "beta",
          "sex": "male"
       },
       "b56": {
@@ -2954,6 +3034,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a47",
+         "father": "beta",
          "sex": "male"
       },
       "c35": {
@@ -2970,6 +3051,7 @@ module.exports = {
          ],
          "id": "c35",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f4": {
@@ -2985,6 +3067,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f4",
+         "father": "beta",
          "sex": "male"
       },
       "d31": {
@@ -3001,6 +3084,7 @@ module.exports = {
          ],
          "id": "d31",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d45": {
@@ -3016,6 +3100,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d45",
+         "father": "beta",
          "sex": "male"
       },
       "c56": {
@@ -3026,7 +3111,8 @@ module.exports = {
          "aff": [],
          "planted": 33456234,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "father": "beta",
       },
       "e43": {
          "owner": "chronocrypto",
@@ -3053,6 +3139,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e45",
+         "father": "beta",
          "sex": "male"
       },
       "a64": {
@@ -3069,6 +3156,7 @@ module.exports = {
          ],
          "id": "a64",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "c57": {
@@ -3099,6 +3187,7 @@ module.exports = {
          "terps": [],
          "id": "c57",
          "planted": 40910135,
+         "father": "beta",
          "sex": "female"
       },
       "f28": {
@@ -3137,6 +3226,7 @@ module.exports = {
          "terps": [],
          "planted": 40910141,
          "id": "f28",
+         "father": "beta",
          "sex": "female"
       },
       "b58": {
@@ -3168,6 +3258,7 @@ module.exports = {
          "id": "b58",
          "planted": 40910129,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a65": {
@@ -3207,6 +3298,7 @@ module.exports = {
          "planted": 40102294,
          "id": "a65",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e47": {
@@ -3238,6 +3330,7 @@ module.exports = {
          "id": "e47",
          "planted": 40910147,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d46": {
@@ -3245,11 +3338,6 @@ module.exports = {
          "strain": "",
          "xp": 0,
          "care": [
-            [
-               41282258,
-               "watered",
-               ""
-            ],
             [
                41282244,
                "harvested"
@@ -3302,6 +3390,7 @@ module.exports = {
          "terps": [],
          "id": "f29",
          "planted": 40910342,
+         "father": "beta",
          "sex": "female"
       },
       "c58": {
@@ -3333,6 +3422,7 @@ module.exports = {
          "planted": 40398110,
          "id": "c58",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a66": {
@@ -3372,6 +3462,7 @@ module.exports = {
          "planted": 40018917,
          "id": "a66",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b59": {
@@ -3403,6 +3494,7 @@ module.exports = {
          "id": "b59",
          "planted": 40910335,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d47": {
@@ -3434,6 +3526,7 @@ module.exports = {
          "id": "d47",
          "planted": 40910080,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e48": {
@@ -3465,6 +3558,7 @@ module.exports = {
          "id": "e48",
          "planted": 40910339,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b60": {
@@ -3496,6 +3590,7 @@ module.exports = {
          "id": "b60",
          "planted": 40910400,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c59": {
@@ -3523,7 +3618,8 @@ module.exports = {
          "traits": [],
          "id": "c59",
          "planted": 41110011,
-         "terps": {}
+         "father": "beta",
+         "terps": []
       },
       "a67": {
          "owner": "abrockman",
@@ -3561,6 +3657,7 @@ module.exports = {
          "terps": [],
          "planted": 40993029,
          "id": "a67",
+         "father": "beta",
          "sex": "female"
       },
       "e49": {
@@ -3592,6 +3689,7 @@ module.exports = {
          "id": "e49",
          "planted": 40910411,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d48": {
@@ -3623,6 +3721,7 @@ module.exports = {
          "id": "d48",
          "planted": 40910348,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f30": {
@@ -3675,6 +3774,7 @@ module.exports = {
          ],
          "id": "e50",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d51": {
@@ -3690,6 +3790,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d51",
+         "father": "beta",
          "sex": "male"
       },
       "f21": {
@@ -3717,6 +3818,7 @@ module.exports = {
          "terps": [],
          "planted": 40895485,
          "id": "f21",
+         "father": "beta",
          "sex": "female"
       },
       "e32": {
@@ -3733,6 +3835,7 @@ module.exports = {
          ],
          "id": "e32",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e51": {
@@ -3748,7 +3851,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e51",
-         "sex": 2
+         "father": "beta",
+         "sex": 'female'
       },
       "e52": {
          "owner": "guiltyparties",
@@ -3764,6 +3868,7 @@ module.exports = {
          ],
          "id": "e52",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e7": {
@@ -3861,6 +3966,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a18",
+         "father": "beta",
          "sex": "male"
       },
       "d4": {
@@ -3875,7 +3981,8 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "id": "d4"
+         "id": "d4",
+         "father": "beta"
       },
       "c8": {
          "owner": "ngc",
@@ -3889,7 +3996,8 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "id": "c8"
+         "id": "c8",
+         "father": "beta"
       },
       "e58": {
          "owner": "nutritree",
@@ -3916,6 +4024,7 @@ module.exports = {
          "terps": [],
          "id": "e58",
          "planted": 40972523,
+         "father": "beta",
          "sex": "female"
       },
       "f33": {
@@ -3947,6 +4056,7 @@ module.exports = {
          "terps": [],
          "planted": 41027965,
          "id": "f33",
+         "father": "beta",
          "sex": "female"
       },
       "d54": {
@@ -3974,6 +4084,7 @@ module.exports = {
          "terps": [],
          "id": "d54",
          "planted": 40972532,
+         "father": "beta",
          "sex": "female"
       },
       "a8": {
@@ -3990,6 +4101,7 @@ module.exports = {
          ],
          "id": "a8",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "f34": {
@@ -4028,6 +4140,7 @@ module.exports = {
          "terps": [],
          "planted": 40910426,
          "id": "f34",
+         "father": "beta",
          "sex": "female"
       },
       "b64": {
@@ -4058,6 +4171,7 @@ module.exports = {
          "terps": [],
          "planted": 40919431,
          "id": "b64",
+         "father": "beta",
          "sex": "female"
       },
       "f35": {
@@ -4096,6 +4210,7 @@ module.exports = {
          "terps": [],
          "id": "f35",
          "planted": 40910434,
+         "father": "beta",
          "sex": "female"
       },
       "c68": {
@@ -4126,6 +4241,7 @@ module.exports = {
          "terps": [],
          "id": "c68",
          "planted": 40910421,
+         "father": "beta",
          "sex": "female"
       },
       "d55": {
@@ -4155,6 +4271,7 @@ module.exports = {
          ],
          "terps": [],
          "planted": 41026759,
+         "father": "beta",
          "id": "d55"
       },
       "e60": {
@@ -4185,6 +4302,7 @@ module.exports = {
          "terps": [],
          "planted": 40919435,
          "id": "e60",
+         "father": "beta",
          "sex": "female"
       },
       "e61": {
@@ -4256,6 +4374,7 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
+         "father": "beta",
          "sex": "female"
       },
       "e63": {
@@ -4283,6 +4402,7 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
+         "father": "beta",
          "sex": "female"
       },
       "a75": {
@@ -4309,6 +4429,7 @@ module.exports = {
          "id": "a75",
          "planted": 41129928,
          "terps": [],
+         "father": "beta",
          "pollinated": true
       },
       "f38": {
@@ -4348,6 +4469,7 @@ module.exports = {
          "planted": 39615542,
          "id": "f38",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c71": {
@@ -4379,7 +4501,8 @@ module.exports = {
          "planted": 39615566,
          "id": "c71",
          "sex": "female",
-         "pollinated": false
+         "pollinated": false,
+         "father": "beta"
       },
       "e64": {
          "owner": "abrockman",
@@ -4409,6 +4532,7 @@ module.exports = {
          "terps": [],
          "planted": 40945227,
          "id": "e64",
+         "father": "beta",
          "sex": "female"
       },
       "b67": {
@@ -4439,6 +4563,7 @@ module.exports = {
          "terps": [],
          "planted": 40945225,
          "id": "b67",
+         "father": "beta",
          "sex": "female"
       },
       "d58": {
@@ -4469,6 +4594,7 @@ module.exports = {
          "id": "d58",
          "planted": 41146492,
          "terps": [],
+         "father": "beta",
          "pollinated": true
       },
       "a78": {
@@ -4507,7 +4633,8 @@ module.exports = {
          "terps": [],
          "planted": 39615548,
          "id": "a78",
-         "sex": null
+         "father": "beta",
+         "sex": 'male'
       },
       "a79": {
          "owner": "abrockman",
@@ -4544,6 +4671,7 @@ module.exports = {
          ],
          "terps": [],
          "id": "a79",
+         "father": "beta",
          "planted": 41053698
       },
       "b68": {
@@ -4573,6 +4701,7 @@ module.exports = {
          ],
          "terps": [],
          "id": "b68",
+         "father": "beta",
          "planted": 41053701,
          "sex": "female"
       },
@@ -4612,6 +4741,7 @@ module.exports = {
          "terps": [],
          "id": "a80",
          "planted": 40910077,
+         "father": "beta",
          "sex": "female"
       },
       "b69": {
@@ -4642,7 +4772,8 @@ module.exports = {
          "terps": [],
          "planted": 40502386,
          "id": "b69",
-         "sex": null
+         "father": "beta",
+         "sex": 'female'
       },
       "f39": {
          "owner": "abrockman",
@@ -4681,6 +4812,7 @@ module.exports = {
          "planted": 39615606,
          "id": "f39",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c72": {
@@ -4711,6 +4843,7 @@ module.exports = {
          "terps": [],
          "id": "c72",
          "planted": 40910439,
+         "father": "beta",
          "sex": "female"
       },
       "d59": {
@@ -4740,6 +4873,7 @@ module.exports = {
          ],
          "terps": [],
          "planted": 40102302,
+         "father": "beta",
          "id": "d59"
       },
       "f40": {
@@ -4778,6 +4912,7 @@ module.exports = {
          "terps": [],
          "id": "f40",
          "planted": 40910478,
+         "father": "beta",
          "sex": "female"
       },
       "c73": {
@@ -4807,6 +4942,7 @@ module.exports = {
          ],
          "terps": [],
          "planted": 39615652,
+         "father": "beta",
          "id": "c73"
       },
       "d60": {
@@ -4836,6 +4972,7 @@ module.exports = {
          ],
          "terps": [],
          "id": "d60",
+         "father": "beta",
          "planted": 41062117
       },
       "e65": {
@@ -4866,7 +5003,8 @@ module.exports = {
          "terps": [],
          "planted": 40537003,
          "id": "e65",
-         "sex": null
+         "father": "beta",
+         "sex": 'male'
       },
       "e66": {
          "owner": "abrockman",
@@ -4895,7 +5033,9 @@ module.exports = {
          ],
          "terps": [],
          "planted": 40102307,
-         "id": "e66"
+         "father": "beta",
+         "id": "e66",
+         "sex": "male"
       },
       "a81": {
          "owner": "gerber",
@@ -4911,6 +5051,7 @@ module.exports = {
          ],
          "id": "a81",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e67": {
@@ -4927,6 +5068,7 @@ module.exports = {
          ],
          "id": "e67",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "c74": {
@@ -4976,7 +5118,9 @@ module.exports = {
          "terps": [],
          "planted": 41023276,
          "id": "c75",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "d61": {
          "owner": "saboin",
@@ -5003,7 +5147,8 @@ module.exports = {
          "terps": [],
          "planted": 39704079,
          "id": "d61",
-         "sex": null
+         "father": "beta",
+         "sex": 'male'
       },
       "f42": {
          "owner": "silverlining1",
@@ -5078,7 +5223,9 @@ module.exports = {
          "terps": [],
          "id": "f44",
          "planted": 41061476,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f37": {
          "owner": "mondoshawan",
@@ -5092,7 +5239,9 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
-         "id": "f37"
+         "id": "f37",
+         "father": "beta",
+         "sex": 'female'
       },
       "f15": {
          "owner": "onthewayout",
@@ -5107,7 +5256,9 @@ module.exports = {
          ],
          "terps": [],
          "planted": 39983477,
-         "id": "f15"
+         "id": "f15",
+         "father": "beta",
+         "pollinated": false
       },
       "b71": {
          "owner": "saboin",
@@ -5136,6 +5287,7 @@ module.exports = {
          "id": "b71",
          "planted": 40910555,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a83": {
@@ -5174,7 +5326,10 @@ module.exports = {
          ],
          "terps": [],
          "planted": 40417692,
-         "id": "a83"
+         "id": "a83",
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "f45": {
          "owner": "aggamun",
@@ -5189,6 +5344,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f45",
+         "father": "beta",
          "sex": "male"
       },
       "f46": {
@@ -5213,6 +5369,7 @@ module.exports = {
          ],
          "terps": [],
          "planted": 41146081,
+         "father": "beta",
          "pollinated": true,
          "id": "f46"
       },
@@ -5229,6 +5386,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a84",
+         "father": "beta",
          "sex": "male"
       },
       "c77": {
@@ -5257,6 +5415,7 @@ module.exports = {
          "id": "c77",
          "planted": 40910944,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d62": {
@@ -5284,6 +5443,7 @@ module.exports = {
          "terps": [],
          "id": "d62",
          "planted": 40910901,
+         "father": "beta",
          "sex": "female"
       },
       "f47": {
@@ -5309,6 +5469,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b72": {
@@ -5339,7 +5500,8 @@ module.exports = {
          "terps": [],
          "planted": 40681921,
          "id": "b72",
-         "sex": null
+         "father": "beta",
+         "sex": 'male'
       },
       "c78": {
          "owner": "abrockman",
@@ -5370,6 +5532,7 @@ module.exports = {
          "planted": 40447684,
          "id": "c78",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d64": {
@@ -5401,6 +5564,7 @@ module.exports = {
          "planted": 40681925,
          "id": "d64",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e71": {
@@ -5432,6 +5596,7 @@ module.exports = {
          "planted": 40707682,
          "id": "e71",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c79": {
@@ -5463,6 +5628,7 @@ module.exports = {
          "planted": 40019026,
          "id": "c79",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f50": {
@@ -5501,6 +5667,7 @@ module.exports = {
          "terps": [],
          "id": "f50",
          "planted": 40910557,
+         "father": "beta",
          "sex": "female"
       },
       "d65": {
@@ -5544,6 +5711,7 @@ module.exports = {
          "id": "b73",
          "planted": 40910442,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e72": {
@@ -5559,6 +5727,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e72",
+         "father": "beta",
          "sex": "male"
       },
       "e70": {
@@ -5587,6 +5756,7 @@ module.exports = {
          "id": "e70",
          "planted": 40910549,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f52": {
@@ -5637,6 +5807,9 @@ module.exports = {
          "planted": 36942869,
          "stage": 5,
          "substage": 2,
+         "father": "beta",
+         "pollinated": false,
+         "sex": 'male',
          "id": "f49"
       },
       "f53": {
@@ -5657,6 +5830,9 @@ module.exports = {
          "planted": 36946523,
          "stage": 3,
          "substage": 4,
+         "father": "beta",
+         "pollinated": false,
+         "sex": 'male',
          "id": "f53"
       },
       "f54": {
@@ -5677,6 +5853,9 @@ module.exports = {
          "planted": 36946537,
          "stage": 3,
          "substage": 4,
+         "father": "beta",
+         "pollinated": false,
+         "sex": "female",
          "id": "f54"
       },
       "f55": {
@@ -5709,6 +5888,7 @@ module.exports = {
          "id": "f55",
          "planted": 40910542,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b74": {
@@ -5738,6 +5918,7 @@ module.exports = {
          "id": "b74",
          "planted": 40910931,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e73": {
@@ -5769,6 +5950,7 @@ module.exports = {
          "planted": 40924640,
          "id": "e73",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a69": {
@@ -6004,6 +6186,7 @@ module.exports = {
          "id": "d67",
          "planted": 40910482,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e75": {
@@ -6035,6 +6218,7 @@ module.exports = {
          "id": "e75",
          "planted": 40910487,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f56": {
@@ -6073,6 +6257,8 @@ module.exports = {
          "terps": [],
          "id": "f56",
          "planted": 40910638,
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b75": {
@@ -6104,6 +6290,7 @@ module.exports = {
          "id": "b75",
          "planted": 40910490,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e76": {
@@ -6135,6 +6322,7 @@ module.exports = {
          "id": "e76",
          "planted": 40910570,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a92": {
@@ -6173,6 +6361,8 @@ module.exports = {
          "terps": [],
          "id": "a92",
          "planted": 40910416,
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b76": {
@@ -6204,6 +6394,7 @@ module.exports = {
          "id": "b76",
          "planted": 40910562,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e77": {
@@ -6235,6 +6426,7 @@ module.exports = {
          "id": "e77",
          "planted": 40910615,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c80": {
@@ -6265,7 +6457,9 @@ module.exports = {
          "terps": [],
          "id": "c80",
          "planted": 40910504,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f57": {
          "owner": "abrockman",
@@ -6303,7 +6497,9 @@ module.exports = {
          "terps": [],
          "id": "f57",
          "planted": 40910673,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "c81": {
          "owner": "abrockman",
@@ -6333,7 +6529,9 @@ module.exports = {
          "terps": [],
          "id": "c81",
          "planted": 40910566,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f58": {
          "owner": "abrockman",
@@ -6371,7 +6569,9 @@ module.exports = {
          "terps": [],
          "id": "f58",
          "planted": 40910710,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "d68": {
          "owner": "abrockman",
@@ -6402,6 +6602,7 @@ module.exports = {
          "id": "d68",
          "planted": 40910575,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e78": {
@@ -6417,6 +6618,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e78",
+         "father": "beta",
          "sex": "male"
       },
       "c82": {
@@ -6433,6 +6635,7 @@ module.exports = {
          "substage": 1,
          "id": "c82",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "b77": {
@@ -6448,6 +6651,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b77",
+         "father": "beta",
          "sex": "male"
       },
       "b78": {
@@ -6477,6 +6681,7 @@ module.exports = {
          "id": "b78",
          "planted": 40910988,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c83": {
@@ -6504,7 +6709,9 @@ module.exports = {
          "terps": [],
          "planted": 40944585,
          "id": "c83",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "c84": {
          "owner": "saboin",
@@ -6532,6 +6739,7 @@ module.exports = {
          "id": "c84",
          "planted": 40910978,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b79": {
@@ -6561,6 +6769,7 @@ module.exports = {
          "id": "b79",
          "planted": 40911015,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a96": {
@@ -6593,6 +6802,7 @@ module.exports = {
          "id": "a96",
          "planted": 40910921,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b80": {
@@ -6624,6 +6834,7 @@ module.exports = {
          "id": "b80",
          "planted": 40910677,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c85": {
@@ -6654,7 +6865,9 @@ module.exports = {
          "terps": [],
          "id": "c85",
          "planted": 40910622,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "e79": {
          "owner": "abrockman",
@@ -6685,6 +6898,7 @@ module.exports = {
          "id": "e79",
          "planted": 40910649,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d70": {
@@ -6716,6 +6930,7 @@ module.exports = {
          "id": "d70",
          "planted": 40910630,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e80": {
@@ -6743,7 +6958,9 @@ module.exports = {
          "terps": [],
          "id": "e80",
          "planted": 40960748,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "c86": {
          "owner": "ultratrain",
@@ -6759,6 +6976,7 @@ module.exports = {
          "stage": 1,
          "substage": 3,
          "pollinated": true,
+         "father": "beta",
          "planted": 41189273,
          "traits": [
             "Genesis Seed"
@@ -6789,6 +7007,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "sex": "female",
+         "father": "beta",
          "id": "c87",
          "pollinated": true
       },
@@ -6816,6 +7035,7 @@ module.exports = {
          ],
          "sex": "female",
          "id": "d71",
+         "father": "beta",
          "pollinated": true
       },
       "f60": {
@@ -6851,6 +7071,7 @@ module.exports = {
          ],
          "sex": "female",
          "id": "f60",
+         "father": "beta",
          "pollinated": true
       },
       "b82": {
@@ -6877,6 +7098,7 @@ module.exports = {
          ],
          "sex": "female",
          "id": "b82",
+         "father": "beta",
          "pollinated": true
       },
       "e81": {
@@ -6902,6 +7124,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e81",
+         "father": "beta",
          "sex": "male"
       },
       "b83": {
@@ -6933,6 +7156,7 @@ module.exports = {
          "id": "b83",
          "planted": 40910712,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "c88": {
@@ -6963,7 +7187,9 @@ module.exports = {
          "terps": [],
          "id": "c88",
          "planted": 40910646,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f61": {
          "owner": "abrockman",
@@ -7001,7 +7227,9 @@ module.exports = {
          "terps": [],
          "id": "f61",
          "planted": 40911137,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "b84": {
          "owner": "abrockman",
@@ -7032,6 +7260,7 @@ module.exports = {
          "id": "b84",
          "planted": 40911140,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d74": {
@@ -7063,6 +7292,7 @@ module.exports = {
          "id": "d74",
          "planted": 40910642,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a103": {
@@ -7101,7 +7331,9 @@ module.exports = {
          "terps": [],
          "id": "a103",
          "planted": 40910579,
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "c38": {
          "owner": "elemental010",
@@ -7128,6 +7360,7 @@ module.exports = {
          "terps": [],
          "id": "c38",
          "planted": 41133484,
+         "father": "beta",
          "pollinated": true
       },
       "c91": {
@@ -7155,6 +7388,7 @@ module.exports = {
          "terps": [],
          "id": "c91",
          "planted": 41133497,
+         "father": "beta",
          "pollinated": true
       },
       "d75": {
@@ -7163,9 +7397,13 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "traits": [],
          "planted": 38400774,
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "father": "beta",
+         "id": "d75",
+         "pollinated": false
       },
       "d76": {
          "owner": "ecoinstats",
@@ -7191,6 +7429,7 @@ module.exports = {
          ],
          "sex": "female",
          "id": "d76",
+         "father": "beta",
          "pollinated": true
       },
       "d77": {
@@ -7217,6 +7456,7 @@ module.exports = {
          ],
          "id": "d77",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "e84": {
@@ -7255,6 +7495,7 @@ module.exports = {
          "terps": [],
          "planted": 40938041,
          "id": "f63",
+         "father": "beta",
          "sex": "female"
       },
       "c92": {
@@ -7270,6 +7511,8 @@ module.exports = {
          ],
          "terps": [],
          "planted": 40983628,
+         "father": "beta",
+         "pollinated": false,
          "id": "c92"
       },
       "f64": {
@@ -7297,6 +7540,8 @@ module.exports = {
          ],
          "terps": [],
          "id": "b85",
+         "father": "beta",
+         "pollinated": false,
          "planted": 41062257
       },
       "d80": {
@@ -7325,6 +7570,7 @@ module.exports = {
          ],
          "planted": 41111265,
          "terps": [],
+         "father": "beta",
          "pollinated": true,
          "id": "d80"
       },
@@ -7347,6 +7593,8 @@ module.exports = {
          "terps": [],
          "id": "d81",
          "planted": 40961495,
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c95": {
@@ -7365,7 +7613,9 @@ module.exports = {
          "traits": [],
          "id": "c95",
          "planted": 41109123,
-         "terps": {}
+         "terps": [],
+         "father": "beta",
+         "pollinated": false
       },
       "f66": {
          "owner": "saboin",
@@ -7397,6 +7647,7 @@ module.exports = {
          "id": "f66",
          "planted": 40910893,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b87": {
@@ -7404,10 +7655,14 @@ module.exports = {
          "strain": "aca",
          "xp": 50,
          "care": [],
+         "traits": [],
          "aff": [],
+         "terps": [],
          "planted": 39186713,
          "stage": 1,
          "substage": 5,
+         "father": "beta",
+         "pollinated": false,
          "id": "b87"
       },
       "c96": {
@@ -7416,9 +7671,13 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "terps": [],
+         "traits": [],
          "planted": 39273991,
          "stage": 1,
          "substage": 4,
+         "father": "beta",
+         "pollinated": false,
          "id": "c96"
       },
       "a108": {
@@ -7427,6 +7686,7 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "terps": [],
          "planted": 39306807,
          "stage": 3,
          "substage": 5,
@@ -7434,6 +7694,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a108",
+         "father": "beta",
          "sex": "male"
       },
       "e87": {
@@ -7442,9 +7703,12 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "terps": [],
          "planted": 39306818,
          "stage": 1,
-         "substage": 4
+         "substage": 4,
+         "father": "beta",
+         "pollinated": false
       },
       "b88": {
          "owner": "saboin",
@@ -7472,6 +7736,8 @@ module.exports = {
          "terps": [],
          "planted": 40944593,
          "id": "b88",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c97": {
@@ -7500,6 +7766,7 @@ module.exports = {
          "id": "c97",
          "planted": 40911054,
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b89": {
@@ -7509,18 +7776,15 @@ module.exports = {
          "care": [
             [
                41287769,
-               "watered",
-               ""
+               "watered"
             ],
             [
                41222370,
-               "watered",
-               "",
-               ""
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
+         "stage": 3,
          "substage": 1,
          "quality": [],
          "id": "b89",
@@ -7529,7 +7793,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "terps": [],
-         "pollinated": true,
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "f70": {
@@ -7561,6 +7826,7 @@ module.exports = {
          ],
          "id": "f70",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a91": {
@@ -7592,6 +7858,7 @@ module.exports = {
          ],
          "id": "a91",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a97": {
@@ -7623,6 +7890,7 @@ module.exports = {
          ],
          "id": "a97",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a111": {
@@ -7654,6 +7922,8 @@ module.exports = {
          "terps": [],
          "planted": 40944599,
          "id": "a111",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e88": {
@@ -7662,9 +7932,13 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
-         "planted": 39580383,
+         "traits": [],
+         "terps": [],
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "planted": 39580383,
+         "father": "beta",
+         "pollinated": false
       },
       "a89": {
          "owner": "luegenbaron",
@@ -7713,7 +7987,9 @@ module.exports = {
          "terps": [],
          "id": "a88",
          "planted": 40910144,
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "a106": {
          "owner": "jeffjagoe",
@@ -7729,6 +8005,7 @@ module.exports = {
          ],
          "id": "a106",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "c93": {
@@ -7744,7 +8021,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "c93",
-         "sex": "male"
+         "sex": "male",
+         "father": "beta"
       },
       "a90": {
          "owner": "abrockman",
@@ -7782,6 +8060,7 @@ module.exports = {
          ],
          "id": "a90",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a93": {
@@ -7820,6 +8099,7 @@ module.exports = {
          ],
          "id": "a93",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "d69": {
@@ -7873,7 +8153,9 @@ module.exports = {
          "terps": [],
          "id": "a99",
          "planted": 40910495,
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "f59": {
          "owner": "abrockman",
@@ -7908,6 +8190,7 @@ module.exports = {
          "substage": 5,
          "id": "f59",
          "sex": "female",
+         "father": "beta",
          "pollinated": true
       },
       "a102": {
@@ -7943,6 +8226,7 @@ module.exports = {
          "substage": 6,
          "id": "a102",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e82": {
@@ -7972,6 +8256,7 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e82",
+         "father": "beta",
          "sex": "male"
       },
       "d72": {
@@ -8002,7 +8287,9 @@ module.exports = {
          "terps": [],
          "planted": 40945232,
          "id": "d72",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "e83": {
          "owner": "abrockman",
@@ -8031,7 +8318,9 @@ module.exports = {
          ],
          "terps": [],
          "id": "e83",
-         "planted": 41053706
+         "planted": 41053706,
+         "father": "beta",
+         "pollinated": false
       },
       "a104": {
          "owner": "abrockman",
@@ -8069,7 +8358,9 @@ module.exports = {
          "terps": [],
          "id": "a104",
          "planted": 40910613,
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "c89": {
          "owner": "abrockman",
@@ -8099,6 +8390,7 @@ module.exports = {
          ],
          "id": "c89",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "f62": {
@@ -8109,6 +8401,7 @@ module.exports = {
          "aff": [],
          "stage": 1,
          "substage": 0,
+         "father": "beta",
          "pollinated": true,
          "id": "f62",
          "planted": 41282254,
@@ -8131,6 +8424,7 @@ module.exports = {
          ],
          "id": "c94",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "a94": {
@@ -8156,6 +8450,7 @@ module.exports = {
          "stage": 1,
          "substage": 3,
          "pollinated": true,
+         "father": "beta",
          "planted": 41223204,
          "traits": [
             "Beta Seeds"
@@ -8177,6 +8472,7 @@ module.exports = {
          ],
          "id": "b86",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e85": {
@@ -8192,6 +8488,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e85",
+         "father": "beta",
          "sex": "male"
       },
       "a109": {
@@ -8200,9 +8497,14 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "terps": [],
+         "traits": [],
          "planted": 39820326,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "id": "a109",
+         "father": "beta",
+         "pollinated": false
       },
       "e6": {
          "owner": "prettynicevideo",
@@ -8210,9 +8512,14 @@ module.exports = {
          "xp": 2250,
          "care": [],
          "aff": [],
+         "traits": [],
+         "terps": [],
          "planted": 39855805,
          "stage": 1,
-         "substage": 1
+         "substage": 1,
+         "id": "e6",
+         "father": "beta",
+         "pollinated": false
       },
       "a101": {
          "owner": "ecoinstats",
@@ -8245,7 +8552,9 @@ module.exports = {
          "stage": 3,
          "substage": 3,
          "id": "a98",
-         "sex": null
+         "sex": 'male',
+         "father": "beta",
+         "pollinated": false
       },
       "a112": {
          "owner": "okean123",
@@ -8261,6 +8570,7 @@ module.exports = {
          ],
          "id": "a112",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b81": {
@@ -8275,6 +8585,8 @@ module.exports = {
          "traits": [
             "Beta Seed"
          ],
+         "father": "beta",
+         "pollinated": false,
          "id": "b81"
       },
       "b90": {
@@ -8297,6 +8609,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b90",
+         "father": "beta",
          "sex": "male"
       },
       "c99": {
@@ -8322,6 +8635,7 @@ module.exports = {
          ],
          "id": "c99",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "d82": {
@@ -8347,6 +8661,7 @@ module.exports = {
          ],
          "id": "d82",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e91": {
@@ -8417,6 +8732,7 @@ module.exports = {
          ],
          "id": "d83",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b91": {
@@ -8443,6 +8759,7 @@ module.exports = {
          ],
          "id": "b91",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "b92": {
@@ -8470,7 +8787,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b92",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "d84": {
          "owner": "anarcist69",
@@ -8496,7 +8815,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d84",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "e92": {
          "owner": "anarcist69",
@@ -8522,7 +8843,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "e92",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f68": {
          "owner": "anarcist69",
@@ -8552,7 +8875,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f68",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "a113": {
          "owner": "anarcist69",
@@ -8582,7 +8907,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "a113",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "b93": {
          "owner": "anarcist69",
@@ -8609,7 +8936,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "b93",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "f69": {
          "owner": "anarcist69",
@@ -8639,7 +8968,9 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "f69",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "d85": {
          "owner": "anarcist69",
@@ -8665,6 +8996,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "id": "d85",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e93": {
@@ -8688,7 +9021,9 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e93",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "e94": {
          "owner": "anarcist69",
@@ -8711,7 +9046,9 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e94",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "a100": {
          "owner": "qwoyn",
@@ -8723,6 +9060,7 @@ module.exports = {
          "substage": 0,
          "traits": [],
          "pollinated": false,
+         "father": "beta",
          "id": "a100"
       },
       "e95": {
@@ -8742,6 +9080,7 @@ module.exports = {
          "substage": 0,
          "id": "e95",
          "sex": "female",
+         "father": "beta",
          "pollinated": false
       },
       "e86": {
@@ -8756,7 +9095,9 @@ module.exports = {
          "traits": [
             "Beta Seeds"
          ],
-         "id": "e86"
+         "id": "e86",
+         "father": "beta",
+         "pollinated": false
       },
       "e96": {
          "owner": "stever82",
@@ -8776,7 +9117,9 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e96",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "f65": {
          "owner": "jeffjagoe",
@@ -8784,13 +9127,17 @@ module.exports = {
          "xp": 50,
          "care": [],
          "aff": [],
+         "terps": [],
+         "traits": [],
          "planted": 40990618,
          "stage": 1,
          "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
-         "id": "f65"
+         "id": "f65",
+         "father": "beta",
+         "pollinated": false
       },
       "b95": {
          "owner": "cuko",
@@ -8820,7 +9167,9 @@ module.exports = {
          "stage": 2,
          "substage": 6,
          "id": "b95",
-         "sex": "female"
+         "father": "beta",
+         "sex": "female",
+         "pollinated": false
       },
       "a115": {
          "owner": "cuko",
@@ -8853,7 +9202,9 @@ module.exports = {
             "Beta Seeds"
          ],
          "id": "a115",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "a116": {
          "owner": "vcdragon",
@@ -8884,7 +9235,9 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "a116",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "b97": {
          "owner": "saboin",
@@ -8908,7 +9261,9 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "b97",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false
       },
       "b98": {
          "owner": "abrockman",
@@ -8933,6 +9288,8 @@ module.exports = {
          "planted": 41063384,
          "stage": 1,
          "substage": 6,
+         "father": "beta",
+         "pollinated": false,
          "id": "b98"
       },
       "c101": {
@@ -8960,6 +9317,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "c101",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e97": {
@@ -8987,6 +9346,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e97",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "a118": {
@@ -9018,6 +9379,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "a118",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b100": {
@@ -9046,6 +9409,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "b100",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e98": {
@@ -9073,6 +9438,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e98",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d87": {
@@ -9100,6 +9467,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d87",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "a119": {
@@ -9131,6 +9500,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "a119",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b101": {
@@ -9159,6 +9530,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "b101",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c102": {
@@ -9186,6 +9559,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "c102",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b102": {
@@ -9214,6 +9589,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "b102",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c103": {
@@ -9241,6 +9618,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "c103",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d88": {
@@ -9268,6 +9647,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d88",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b103": {
@@ -9296,6 +9677,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "b103",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c104": {
@@ -9323,6 +9706,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "c104",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d89": {
@@ -9350,6 +9735,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d89",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d90": {
@@ -9377,6 +9764,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d90",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d91": {
@@ -9404,6 +9793,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d91",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c105": {
@@ -9431,6 +9822,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "c105",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "f74": {
@@ -9462,6 +9855,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "f74",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b104": {
@@ -9490,6 +9885,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "id": "b104",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e99": {
@@ -9517,6 +9914,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e99",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d92": {
@@ -9544,6 +9943,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "d92",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e100": {
@@ -9571,6 +9972,8 @@ module.exports = {
          "stage": 2,
          "substage": 2,
          "id": "e100",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "f73": {
@@ -9602,6 +10005,8 @@ module.exports = {
          "stage": 2,
          "substage": 1,
          "id": "f73",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e37": {
@@ -9663,7 +10068,9 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "a117",
-         "sex": "female"
+         "sex": "female",
+         "father": "beta",
+         "pollinated": false,
       },
       "d93": {
          "owner": "vcdragon",
@@ -9693,6 +10100,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "d93",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "b105": {
@@ -9724,6 +10133,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "b105",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c107": {
@@ -9754,6 +10165,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "c107",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "e101": {
@@ -9784,6 +10197,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "e101",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "a122": {
@@ -9818,6 +10233,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "a122",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "f75": {
@@ -9852,6 +10269,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "f75",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "d94": {
@@ -9882,6 +10301,8 @@ module.exports = {
             "Beta Seed"
          ],
          "id": "d94",
+         "father": "beta",
+         "pollinated": false,
          "sex": "female"
       },
       "c108": {
@@ -9912,6 +10333,8 @@ module.exports = {
          "planted": 41102826,
          "stage": 1,
          "substage": 6,
+         "father": "beta",
+         "pollinated": false,
          "id": "c108"
       },
       "e103": {
@@ -9928,6 +10351,8 @@ module.exports = {
          "planted": 41106266,
          "stage": 1,
          "substage": 2,
+         "father": "beta",
+         "pollinated": false,
          "id": "e103"
       },
       "d96": {
@@ -9938,7 +10363,9 @@ module.exports = {
          "aff": [],
          "planted": 41113851,
          "stage": 1,
-         "substage": 0
+         "substage": 0,
+         "father": "beta",
+         "pollinated": false,
       },
       "a121": {
          "owner": "russia-btc",
@@ -9964,7 +10391,9 @@ module.exports = {
          ],
          "terps": [],
          "pollinated": true,
-         "id": "a121"
+         "id": "a121",
+         "father": "beta",
+         "pollinated": false,
       },
       "c106": {
          "owner": "russia-btc",
@@ -9985,7 +10414,9 @@ module.exports = {
          ],
          "terps": [],
          "pollinated": true,
-         "id": "c106"
+         "id": "c106",
+         "father": "beta",
+         "pollinated": false,
       },
       "a124": {
          "owner": "nupulse",
@@ -10015,7 +10446,9 @@ module.exports = {
          "planted": 41151843,
          "stage": 1,
          "substage": 6,
-         "id": "a124"
+         "id": "a124",
+         "father": "beta",
+         "pollinated": false,
       },
       "e90": {
          "owner": "d00k13",
@@ -10030,7 +10463,8 @@ module.exports = {
             "Genesis seed"
          ],
          "terps": [],
-         "pollinated": true
+         "father": "beta",
+         "pollinated": false
       },
       "f76": {
          "owner": "theb0red1",
@@ -10053,7 +10487,8 @@ module.exports = {
          "traits": [
             "Beta Seeds"
          ],
-         "pollinated": true
+         "father": "beta",
+         "pollinated": false
       },
       "c110": {
          "owner": "d00k13",
@@ -10068,7 +10503,8 @@ module.exports = {
             "Genesis seed"
          ],
          "terps": [],
-         "pollinated": true
+         "father": "beta",
+         "pollinated": false
       },
       "d97": {
          "owner": "d00k13",
@@ -10078,7 +10514,9 @@ module.exports = {
          "aff": [],
          "planted": 41209831,
          "stage": 1,
-         "substage": 2
+         "substage": 2,
+         "father": "beta",
+         "pollinated": false,
       },
       "e89": {
          "owner": "jonyoudyer",
@@ -10092,7 +10530,8 @@ module.exports = {
          "traits": [
             "Beta Seeds"
          ],
-         "pollinated": true
+         "father": "beta",
+         "pollinated": false,
       },
       "e104": {
          "owner": "badpupper",
@@ -10121,6 +10560,8 @@ module.exports = {
          "planted": 41269952,
          "stage": 1,
          "substage": 1,
+         "father": "beta",
+         "pollinated": false,
          "id": "e104"
       },
       "a125": {
@@ -10149,6 +10590,8 @@ module.exports = {
          "planted": 41270438,
          "stage": 1,
          "substage": 1,
+         "father": "beta",
+         "pollinated": false,
          "id": "a125"
       }
    },
