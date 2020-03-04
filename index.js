@@ -960,10 +960,13 @@ function startApp() {
                 state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                 plantnames += `${plants}`;
                 try {
-                    if(state.land[pollen].owner === from) {
-                        state.land[pollen].owner.splice(0, 1)[0];
-                        break;
-                    }
+                state.users.pollen.splice(i, 1)[0];
+                var pollenState = {
+                    father: pollenName,
+                    pollinated: true
+                }
+                state.land[plants].push(pollenState)
+               
                 } catch (e) {
                     state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
                 }
