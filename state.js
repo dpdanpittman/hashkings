@@ -2115,7 +2115,7 @@ module.exports = {
          "quality": [],
          "id": "c46",
          "traits": [
-            "beta pollinated seed"
+            "beta seed"
          ],
          "terps": [],
          "planted": 41325586,
@@ -3798,7 +3798,7 @@ module.exports = {
          "stage": 1,
          "substage": 0,
          "traits": [
-            "beta pollinated seed"
+            "beta seed"
          ],
          "pollinated": false,
          "terps": [],
@@ -10255,7 +10255,7 @@ module.exports = {
                "strain": "cg",
                "xp": 2250,
                "traits": [
-                  "beta pollinated seed"
+                  "beta seed"
                ],
                "terps": [],
                "familyTree": "cgundefined",
@@ -10289,7 +10289,7 @@ module.exports = {
                "strain": "aca",
                "xp": 2250,
                "traits": [
-                  "beta pollinated seed"
+                  "beta seed"
                ],
                "terps": [],
                "familyTree": "acaundefined",
@@ -11372,7 +11372,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta pollinated seed"
+                  "beta seed"
                ],
                "terps": []
             },
@@ -11380,7 +11380,7 @@ module.exports = {
                "strain": "mis",
                "xp": 50,
                "traits": [
-                  "beta pollinated seed"
+                  "beta seed"
                ],
                "terps": []
             }
