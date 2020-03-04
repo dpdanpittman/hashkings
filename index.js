@@ -269,7 +269,7 @@ app.get('/pollen/:user', (req, res, next) => {
 });
 
 //shows buds by user
-app.get('/bud/:user', (req, res, next) => {
+app.get('/buds/:user', (req, res, next) => {
     let user = req.params.user, arr = []
     res.setHeader('Content-Type', 'application/json');
     if(state.users[user]){
@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41302932; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41353185; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41302932;
+const ago = ENV.ago || 41353185;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
