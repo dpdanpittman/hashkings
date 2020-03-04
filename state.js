@@ -8377,7 +8377,7 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "stage": 2,
+         "stage": 3,
          "substage": 2,
          "id": "e91",
          "sex": "female",
