@@ -949,33 +949,21 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
 
-
     processor.on('pollinate', function(json, from) {
-            let plants = json.plants,
-                plantnames = '',
-                pollenName = json.pollen
-                indexPlants = state.users[from].addrs.indexOf(json.plants)
-                if (indexPlants >= 0 && plants) {
-                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants}`
-                }
-            // remove pollen used
-            var index, pollen = ''
-            try{
-                index = state.users[from].addrs.indexOf(json.plants)
-                if (index >= 0 && pollen) {
-                for (var i = 0; i < state.users[from].pollen.length; i++){
-                    if(state.users[from].pollen.strain === json.pollen) {
-                        pollen=state.users[from].pollen.splice(i, 1)[0];
-                        break;
-                    }
-                }
+        let plants = json.plants,
+            plantnames = ''
+        for (var i = 0; i < plants.length; i++) {
+            try {
+            if (state.land[plants[i]].owner === from) {
+                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                plantnames += `${plants[i]} `
             }
-            } catch (e) {
-                state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
-        });
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
+    });
     
 /*
     processor.on('return', function(json, from) {
