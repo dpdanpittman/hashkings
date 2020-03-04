@@ -957,7 +957,7 @@ function startApp() {
             pollenName = ''
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.land[plants].owner === from && state.land[plants].stage > 2) {
+            if (state.land[plants].owner === from && state.land[plants].stage > 2 && state.users[from].pollen) {
                 state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                 plantnames += `${plants}`;
                 pollenName += `${pollen}`;
@@ -1034,11 +1034,11 @@ function startApp() {
           try{
               for (var i = 0;i < state.users[from].seeds.length; i++){
                   if (json.qual){
-                    if(state.users[from].seeds[i].strain == json.seed && state.users[from].seeds[i].xp == json.qual){
+                    if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
                       seed=state.users[from].seeds.splice(i, 1)[0]
                       break
                     }
-                  } else if(state.users[from].seeds[i].strain == json.seed){
+                  } else if(state.users[from].seeds[i].strain === json.seed){
                     seed=state.users[from].seeds.splice(i, 1)[0]
                     break
                   }
@@ -1053,6 +1053,9 @@ function startApp() {
                   pollen: [],
                   inv: [],
                   stats: [],
+                  terps: [],
+                  traits: [seed.traits],
+                  pollinated: false,
                   v: 0
                 }
               } else {
@@ -1067,17 +1070,17 @@ function startApp() {
 
     //send pollen
     processor.on('give_pollen', function(json, from) {
-        var pollens=''
+        var pollen = ''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].pollen.length; i++){
                   if (json.qual){
-                    if(state.users[from].pollen[i].strain == json.pollens && state.users[from].pollen[i].xp == json.qual){
-                      pollens=state.users[from].pollen.splice(i, 1)[0]
+                    if(state.users[from].pollen[i].strain == json.pollen && state.users[from].pollen[i].xp == json.qual){
+                      pollen = state.users[from].pollen.splice(i, 1)[0]
                       break
                     }
-                  } else if(state.users[from].pollen[i].strain == json.pollens){
-                    pollens=state.users[from].pollen.splice(i, 1)[0]
+                  } else if(state.users[from].pollen[i].strain === json.pollen){
+                    pollen = state.users[from].pollen.splice(i, 1)[0]
                     break
                   }
               }
@@ -1091,12 +1094,15 @@ function startApp() {
                   pollen: [pollens],
                   inv: [],
                   stats: [],
+                  terps: [],
+                  traits: [pollens.traits],
+                  pollinated: false,
                   v: 0
                 }
               } else {
-                  state.users[json.to].pollen.push(pollens)
+                  state.users[json.to].pollen.push(pollen)
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent ${pollens.strain} pollen to ${json.to}`
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${pollen.strain} pollen to ${json.to}`
           } else {
               state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that pollen`
           }
@@ -1106,17 +1112,17 @@ function startApp() {
     
    //send buds
     processor.on('give_buds', function(json, from) {
-        var bud=''
+        var buds = ''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
                   if (json.qual){
-                    if(state.users[from].buds[i].strain == json.bud && state.users[from].buds[i].xp == json.qual){
-                        bud=state.users[from].buds.splice(i, 1)[0]
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].buds[i].xp == json.qual){
+                        buds = state.users[from].buds.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].buds[i].strain == json.buds){
-                    bud=state.users[from].buds.splice(i, 1)[0]
+                    buds = state.users[from].buds.splice(i, 1)[0]
                     break
                   }
               }
@@ -1127,15 +1133,18 @@ function startApp() {
                   addrs: [],
                   seeds: [],
                   pollen: [],
-                  buds: [bud],
+                  buds: [buds],
                   inv: [],
                   stats: [],
+                  terps: [buds.terps],
+                  traits: [buds.traits],
+                  pollinated: false,
                   v: 0
                 }
               } else {
                   state.users[json.to].buds.push(bud)
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent ${bud.strain} buds to ${json.to}`
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${buds.strain} buds to ${json.to}`
           } else {
               state.cs[`${json.block_num}:${from}`] = `${from} doesn't own those buds`
           }
@@ -1164,11 +1173,11 @@ function startApp() {
                     xp: seed.xp,
                     care: [],
                     aff: [],
+                    terps: [seed.terps],
+                    traits: [seed.traits],
                     planted: processor.getCurrentBlockNumber(),
                     stage: 1,
                     substage: 0,
-                    traits: seed.traits,
-                    terps: seed.terps,
                     pollinated: seed.pollinated,
                     father: seed.father,
                 }
@@ -1179,11 +1188,11 @@ function startApp() {
                 state.land[json.addr].xp = seed.xp
                 state.land[json.addr].care = []
                 state.land[json.addr].aff = []
+                state.land[json.addr].traits = seed.traits || []
+                state.land[json.addr].terps = seed.terps || []
                 state.land[json.addr].planted = processor.getCurrentBlockNumber()
                 state.land[json.addr].stage = 1
                 state.land[json.addr].substage = 0
-                state.land[json.addr].traits = seed.traits || []
-                state.land[json.addr].terps = seed.terps || []
                 state.land[json.addr].pollinated = seed.pollinated
                 state.land[json.addr].father = seed.father
             } else {
@@ -1255,6 +1264,8 @@ function startApp() {
         buds: [],
         inv: [],
         stats: [],
+        traits:[],
+        terps:[],
         v: 0
         }
         var availible = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
@@ -1305,6 +1316,8 @@ function startApp() {
                 buds: [],
                 inv: [],
                 stats: [],
+                traits:[],
+                terps:[],
                 v: 0,
                 a: 0,
                 u: 0
@@ -1884,6 +1897,8 @@ function daily(addr) {
                       stage: -1,
                       substage: 0,
                       traits: [],
+                      terps: [],
+                      stats: [],
                       pollinated: false
                   }
                   state.land[addr] = parcel
@@ -1928,6 +1943,8 @@ function daily(addr) {
                             stage: -1,
                             substage: 0,
                             traits: [],
+                            terps: [],
+                            stats: [],
                             pollinated: false
                         }
                         state.land[addr] = parcel
@@ -1970,6 +1987,8 @@ function daily(addr) {
                       xp: 0,
                       care: [[processor.getCurrentBlockNumber(),'tilled']],
                       aff: [],
+                      terps: [],
+                      stats: [],
                       stage: -1,
                       substage: 0,
                       pollinated: false
