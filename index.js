@@ -954,15 +954,15 @@ function startApp() {
             plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
-            if (state.land[plants[i]].owner === from) {
-                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                plantnames += `${plants[i]} `
+            if (state.land[plants[0]].owner === from) {
+                state.land[plants[0]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                plantnames += `${plants[0]} `
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
             }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames}`
     });
     
 /*
