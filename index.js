@@ -1848,8 +1848,6 @@ function daily(addr) {
 //              if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
                 kudo(state.land[addr].owner);
-                state.land[addr].pollinated = true;
-                state.land[addr].father = state.land[addr].pollen;
             }
                 //female harvested pollinated plant
                 try {
