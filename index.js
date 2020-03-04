@@ -961,7 +961,7 @@ function startApp() {
                 plantnames += `${plants}`;
                 try {
                     if(state.land[pollen].owner === from) {
-                        state.land[pollen].splice(i, 1)[0];
+                        state.land[pollen].owner.splice(0, 1)[0];
                         break;
                     }
                 } catch (e) {
