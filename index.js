@@ -964,13 +964,13 @@ function startApp() {
             }
         }
         // remove pollen used
-        var index, pollen = ''
+        var index, pollen = json.pollen, pollenSplice = ''
         try{
             index = state.users[from].addrs.indexOf(json.pollen)
-            if (index >= 0 && pollen) {
+            if (index >= 0 && pollenSplice) {
             for (var i = 0; i < 1; i++){
-                if(state.users[from].pollen.strain === json.pollen) {
-                    pollen=state.users[from].pollen.splice(i, 1)[0];
+                if(state.land[pollen].owner === from) {
+                    pollenSplice=state.users[from].pollen.splice(i, 1)[0];
                     break;
                 }
             }
