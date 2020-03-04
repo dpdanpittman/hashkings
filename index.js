@@ -958,7 +958,7 @@ function startApp() {
                 try {
                 if (state.users[from].land.plants === json.plants) {
                     state.land.plants[i].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames = `${json.plants}`
+                    plantnames = `${plants}`
                 }
                 } catch (e){
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
