@@ -955,14 +955,10 @@ function startApp() {
                 plantnames = '',
                 pollenName = json.pollen
                 for (var i = 0; i < plants.length; i++) {
-                try {
-                if (state.users[from].land.plants === json.plants) {
+                
                     state.land.plants[i].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames = `${plants}`
-                }
-                } catch (e){
-                state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
-                }
+                    plantnames = `${plants[i]}`
+               
             }
             // remove pollen used
             var index, pollen = ''
