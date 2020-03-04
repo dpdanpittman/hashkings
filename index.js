@@ -940,7 +940,7 @@ function startApp() {
             try {
             if (state.land[plants[i]].owner === from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
-                plantnames += `${json.plants} `
+                plantnames += `${plants[i]} `
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
