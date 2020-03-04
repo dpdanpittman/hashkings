@@ -8378,9 +8378,8 @@ module.exports = {
          "stage": 3,
          "substage": 2,
          "id": "e91",
-         "father": "mis",
          "sex": "female",
-         "pollinated": true
+         "pollinated": false
       },
       "d83": {
          "owner": "nupulse",
