@@ -968,7 +968,7 @@ function startApp() {
         try{
             index = state.users[from].addrs.indexOf(json.pollen)
             if (index >= 0 && pollen) {
-            for (var i = 0; i < state.users[from].pollen.length; i++){
+            for (var i = 0; i < 1; i++){
                 if(state.users[from].pollen.strain === json.pollen) {
                     pollen=state.users[from].pollen.splice(i, 1)[0];
                     break;
