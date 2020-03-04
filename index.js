@@ -955,9 +955,9 @@ function startApp() {
                 plantnames = '',
                 pollenName = json.pollen
                 
-                    state.land.plants[i].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants[i]}`
-                    
+                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${plants}`
+
             // remove pollen used
             var index, pollen = ''
             try{
