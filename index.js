@@ -956,7 +956,7 @@ function startApp() {
             pollenName = ''
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.land[plants].owner === from) {
+            if (state.land[plants].owner === from && state.land[plants].stage > 2) {
                 state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                 plantnames += `${plants}`;
                 pollenName += `${pollen}`;
