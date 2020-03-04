@@ -951,7 +951,8 @@ function startApp() {
 
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
-            plantnames = ''
+            plantnames = '',
+            pollenName = json.pollen
         for (var i = 0; i < 1; i++) {
             try {
             if (state.land[plants].owner === from) {
@@ -978,7 +979,7 @@ function startApp() {
             state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
         }
 
-        state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollen} `
+        state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName} `
     });
     
 /*
