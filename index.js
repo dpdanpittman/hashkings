@@ -973,7 +973,7 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
+            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plants} with ${pollenName}`
         });
     
 /*
