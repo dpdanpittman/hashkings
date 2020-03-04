@@ -916,7 +916,7 @@ function startApp() {
             }
     }
   })
-    // search for qwoyn_harvest from user on blockchain since genesis
+    // searches for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
             plantnames = ''
@@ -933,7 +933,7 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
     });
     
-    // search for qwoyn_water from user on blockchain since genesis
+    // searches for qwoyn_water from user on blockchain since genesis
     processor.on('water', function(json, from) {
         let plants = json.plants,
             plantnames = ''
@@ -949,7 +949,8 @@ function startApp() {
         }
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
-    // search for qwoyn_pollinate from user on blockchain since genesis
+
+    // searches for qwoyn_pollinate from user on blockchain since genesis
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
             plantnames = '',
@@ -962,7 +963,7 @@ function startApp() {
                 plantnames += `${plants}`;
                 pollenName += `${pollen}`;
              
-                state.users[from].pollen[pollen].splice(i, 1)[0];
+                state.users[from].pollen.strain[pollen].splice(i, 1)[0];
                 state.land[plants].pollinated = true;
                 state.land[plants].father = pollenName;       
             }
