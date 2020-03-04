@@ -954,9 +954,6 @@ function startApp() {
             plantnames = '',
             pollen = json.pollen,
             pollenName = ''
-        var pollenState = {
-            father: pollenName
-        }      
         for (var i = 0; i < 1; i++) {
             try {
             if (state.land[plants].owner === from) {
@@ -966,6 +963,7 @@ function startApp() {
              
                 state.users[from].pollen.splice(i, 1)[0];
                 state.land[plants].pollinated = true;
+                state.land[plants].father = pollenName;
                 state.land[plants].push(pollenState);          
             }
             } catch (e){
