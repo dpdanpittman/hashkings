@@ -954,9 +954,9 @@ function startApp() {
             plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
-            if (state.land[plants[0]].owner === from) {
-                state.land[plants[0]].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                plantnames += `${plants[0]} `
+            if (state.land[plants].owner === from) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                plantnames += `${plants} `
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
