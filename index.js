@@ -955,9 +955,8 @@ function startApp() {
                 plantnames = '',
                 pollenName = json.pollen
                 
-                    state.land.plants.care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants}`
-
+                    state.land.plants[0].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+                    plantnames += `${plants[0]}`
             // remove pollen used
             var index, pollen = ''
             try{
@@ -973,7 +972,7 @@ function startApp() {
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
             }
-            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plants} with ${pollenName}`
+            state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
         });
     
 /*
