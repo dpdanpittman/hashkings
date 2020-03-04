@@ -974,17 +974,8 @@ function startApp() {
               state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
             }
         }
-        // remove pollen used
-    
-        try{            
-            
-                
-            
-        
-        
-
-        state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
-    });
+        // remove pollen used  
+        });
     
 /*
     processor.on('return', function(json, from) {
