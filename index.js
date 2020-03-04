@@ -966,12 +966,12 @@ function startApp() {
         // remove pollen used
         var pollen = json.pollen
         try{            
-            for (var i = 0; i < 1; i++){
+            
                 if(state.land[pollen].owner === from) {
-                    state.land[pollen].splice(i, 1)[0];
+                    state.land[pollen].splice(0, 1)[0];
                     break;
                 }
-            }
+            
         
         } catch (e) {
             state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
