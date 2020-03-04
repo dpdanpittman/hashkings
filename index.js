@@ -952,26 +952,20 @@ function startApp() {
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
             plantnames = '',
-            pollenName = json.pollen,
-            pollen = json.pollen
+            pollenName = json.pollen
+        var pollenState = {
+            father: pollenName,
+            pollinated: true
+        }      
         for (var i = 0; i < 1; i++) {
             try {
             if (state.land[plants].owner === from) {
                 state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
                 plantnames += `${plants}`;
-                try {
+             
                 state.users.pollen.splice(i, 1)[0];
-                var pollenState = {
-                    father: pollenName,
-                    pollinated: true
-                }
-                state.land[plants].push(pollenState)
-               
-                } catch (e) {
-                    state.cs[`${json.block_num}:${from}`] = `${from} didn't reduce pollen count`
-                }
-
                 
+                state.land[plants].push(pollenState);             
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
