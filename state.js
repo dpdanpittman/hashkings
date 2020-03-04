@@ -836,6 +836,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "terps": [],
+         "father": "mis",
          "id": "c49"
       },
       "a55": {
@@ -850,6 +851,7 @@ module.exports = {
             "Genesis Seed"
          ],
          "terps": [],
+         "father": "mis",
          "id": "a55"
       },
       "a2": {
@@ -8379,6 +8381,7 @@ module.exports = {
          "substage": 2,
          "id": "e91",
          "sex": "female",
+         "father": "kbr",
          "pollinated": false
       },
       "d83": {
