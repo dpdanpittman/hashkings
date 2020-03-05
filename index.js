@@ -1035,8 +1035,9 @@ function startApp() {
         
         function createBuds(){
             var buds = [];
-            
-            for (var i = 0; i < 5; ++i) {
+            var packCount = 5;
+
+            for (var i = 0; i < packCount; ++i) {
                 buds[i] = {
                     strain: state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)],
                     xp: 50,
@@ -1052,8 +1053,9 @@ function startApp() {
 
         function createPollen(){
             var pollen = [];
-            
-            for (var i = 0; i < 5; ++i) {
+            var packCount = 5;
+
+            for (var i = 0; i < packCount; ++i) {
                 pollen[i] = {
                     strain: state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)],
                     xp: 50,
@@ -1069,8 +1071,9 @@ function startApp() {
 
         function createSeeds(){
             var seeds = [];
-            
-            for (var i = 0; i < 5; ++i) {
+            var packCount = 5;
+
+            for (var i = 0; i < packCount; ++i) {
                 seeds[i] = {
                     strain: state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)],
                     xp: 50,
