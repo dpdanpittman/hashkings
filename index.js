@@ -1051,7 +1051,7 @@ function startApp() {
         }
 
         const seed2 = {
-            strain: 'lbr',
+            strain: 'lb',
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1078,7 +1078,7 @@ function startApp() {
         }
 
         const pollen0 = {
-            strain: 'acg',
+            strain: 'aca',
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -2042,7 +2042,7 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       pollinated: false,
                       father: state.land[addr].pollen
                   }
@@ -2051,7 +2051,7 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       pollinated: false,
                       father: state.land[addr].pollen
                   }
