@@ -1020,7 +1020,7 @@ function startApp() {
     });
 
     processor.on('patreon_tier3', function(json, from) {
-        state.cs[`${json.block_num}:${json.delegator}`] = `${json.to} received monthly patreon tier3 reward` 
+        state.cs[`${json.block_num}:${json.to}`] = ` received monthly patreon tier3 reward` 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
         seeds: [],
