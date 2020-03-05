@@ -10608,6 +10608,15 @@ module.exports = {
          "stats": [],
          "v": 0
       },
+      "gabiausfranken": {
+         "addrs": [],
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "inv": [],
+         "stats": [],
+         "v": 0
+      },
       "shinedojo": {
          "addrs": [
             "e1"
