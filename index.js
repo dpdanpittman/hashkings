@@ -1022,10 +1022,10 @@ function startApp() {
     processor.on('patreon_tier3', function(json, from) {
         function random_strain()
         {
-            return state.stats.strains[Math.floor(Math.random()*17)];
+            return state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains)];
         }
         
-        var randomStrain = state.stats.strains
+        var randomStrain = state.stats.supply.strains
 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
@@ -1049,7 +1049,7 @@ function startApp() {
         }
 
         const seed1 = {
-            strain: 'hk',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1058,7 +1058,7 @@ function startApp() {
         }
 
         const seed2 = {
-            strain: 'lb',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1067,7 +1067,7 @@ function startApp() {
         }
         
         const seed3 = {
-            strain: 'mis',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1076,7 +1076,7 @@ function startApp() {
         }
 
         const seed4 = {
-            strain: 'sog',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1085,7 +1085,7 @@ function startApp() {
         }
 
         const pollen0 = {
-            strain: 'aca',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1094,7 +1094,7 @@ function startApp() {
         }
 
         const pollen1 = {
-            strain: 'cg',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1103,7 +1103,7 @@ function startApp() {
         }
 
         const pollen2 = {
-            strain: 'mis',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1112,7 +1112,7 @@ function startApp() {
         }
 
         const pollen3 = {
-            strain: 'cht',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1121,7 +1121,7 @@ function startApp() {
         }
 
         const pollen4 = {
-            strain: 'tha',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1130,7 +1130,7 @@ function startApp() {
         }
 
         const buds0 = {
-            strain: 'mis',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1139,7 +1139,7 @@ function startApp() {
         }
 
         const buds1 = {
-            strain: 'cg',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1148,7 +1148,7 @@ function startApp() {
         }
 
         const buds2 = {
-            strain: 'dp',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1157,7 +1157,7 @@ function startApp() {
         }
 
         const buds3 = {
-            strain: 'hk',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1166,7 +1166,7 @@ function startApp() {
         }
 
         const buds4 = {
-            strain: 'sog',
+            strain: random_strain(randomStrain),
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
