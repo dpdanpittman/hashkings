@@ -1034,162 +1034,64 @@ function startApp() {
         terps:[],
         v: 0
         }
-
-        const seed0 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const seed1 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const seed2 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
         
-        const seed3 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
+        function createBuds(){
+            var buds = [];
+            
+            for (var i = 0; i < 5; ++i) {
+                buds[i] = {
+                    strain: randomStrain,
+                    xp: 50,
+                    traits: ['patreon genesis bud'],
+                    terps: [],
+                    pollinated: false,
+                    father: 'sensimilla'
+                }
+            }
+            
+            return buds;
+            }
 
-        const seed4 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
+        function createPollen(){
+            var pollen = [];
+            
+            for (var i = 0; i < 5; ++i) {
+                pollen[i] = {
+                    strain: randomStrain,
+                    xp: 50,
+                    traits: ['patreon genesis pollen'],
+                    terps: [],
+                    pollinated: false,
+                    father: 'sensimilla'
+                }
+            }
+            
+            return pollen;
+            }
 
-        const pollen0 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
+        function createSeeds(){
+            var seeds = [];
+            
+            for (var i = 0; i < 5; ++i) {
+                seeds[i] = {
+                    strain: randomStrain,
+                    xp: 50,
+                    traits: ['patreon genesis seed'],
+                    terps: [],
+                    pollinated: false,
+                    father: 'sensimilla'
+                }
+            }
+            
+            return seeds;
+            }
 
-        const pollen1 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
+            for(i = 0; i < 5; i++){
+                if(from=='hashkings'){state.users[json.to].seeds.push(seed[i])}
+                if(from=='hashkings'){state.users[json.to].pollen.push(pollen[i])}
+                if(from=='hashkings'){state.users[json.to].buds.push(buds[i])}
+                }
 
-        const pollen2 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const pollen3 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const pollen4 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const buds0 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const buds1 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const buds2 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const buds3 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-
-        const buds4 = {
-            strain: randomStrain,
-            xp: 50,
-            traits: ['patreon genesis seed'],
-            terps: [],
-            pollinated: false,
-            father: 'sensimilla'
-        }
-        
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed0)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen0)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds0)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed1)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen1)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds1)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed2)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen2)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds2)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed3)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen3)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds3)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed4)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen4)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds4)}
-        
         state.cs[`${json.block_num}:${json.to}`] = `received monthly patreon tier3 reward` 
     });
     
