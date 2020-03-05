@@ -1167,20 +1167,26 @@ function startApp() {
             father: 'sensimilla'
         }
         
-        for(i = 0; i < 5; i++) {
+        if(from=='hashkings'){state.users[json.to].seeds.push(seed0)}
+        if(from=='hashkings'){state.users[json.to].pollen.push(pollen0)}
+        if(from=='hashkings'){state.users[json.to].buds.push(buds0)}
+
+        if(from=='hashkings'){state.users[json.to].seeds.push(seed1)}
+        if(from=='hashkings'){state.users[json.to].pollen.push(pollen1)}
+        if(from=='hashkings'){state.users[json.to].buds.push(buds1)}
+
+        if(from=='hashkings'){state.users[json.to].seeds.push(seed2)}
+        if(from=='hashkings'){state.users[json.to].pollen.push(pollen2)}
+        if(from=='hashkings'){state.users[json.to].buds.push(buds2)}
+
+        if(from=='hashkings'){state.users[json.to].seeds.push(seed3)}
+        if(from=='hashkings'){state.users[json.to].pollen.push(pollen3)}
+        if(from=='hashkings'){state.users[json.to].buds.push(buds3)}
+
+        if(from=='hashkings'){state.users[json.to].seeds.push(seed4)}
+        if(from=='hashkings'){state.users[json.to].pollen.push(pollen4)}
+        if(from=='hashkings'){state.users[json.to].buds.push(buds4)}
         
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed + i)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen + i)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds + i)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed + i)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen + i)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds + i)}
-
-        if(from=='hashkings'){state.users[json.to].seeds.push(seed + i)}
-        if(from=='hashkings'){state.users[json.to].pollen.push(pollen + i)}
-        if(from=='hashkings'){state.users[json.to].buds.push(buds + i)}
-        }
         state.cs[`${json.block_num}:${json.to}`] = `received monthly patreon tier3 reward` 
     });
     
