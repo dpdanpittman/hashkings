@@ -1022,7 +1022,7 @@ function startApp() {
     processor.on('patreon_tier3', function(json, from) {
         function random_strain()
         {
-            return state.stats.strains[Math.floor(Math.random()*state.stats.strains.length)];
+            return state.stats.strains[Math.floor(Math.random()*17)];
         }
         
         var randomStrain = state.stats.strains
