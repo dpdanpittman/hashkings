@@ -417,7 +417,7 @@ module.exports = {
       {
          "delegator": "qwoyn",
          "vests": 0,
-         "availible": 2,
+         "availible": 0,
          "used": 2
       },
       {
