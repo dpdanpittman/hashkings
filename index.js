@@ -1020,6 +1020,8 @@ function startApp() {
     });
 
     processor.on('patreon_tier3', function(json, from) {
+        var randomStrain = state.strains[ Math.floor(Math.random() * state.strains.length) ]
+
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
         seeds: [],
@@ -1033,7 +1035,7 @@ function startApp() {
         }
 
         const seed0 = {
-            strain: 'cg',
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
