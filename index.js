@@ -1021,8 +1021,6 @@ function startApp() {
 
     processor.on('patreon_tier3', function(json, from) {
 
-        var randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)];
-
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
         seeds: [],
@@ -1057,7 +1055,7 @@ function startApp() {
             
             for (var i = 0; i < 5; ++i) {
                 pollen[i] = {
-                    strain: randomStrain,
+                    strain: state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)],
                     xp: 50,
                     traits: ['patreon genesis pollen'],
                     terps: [],
@@ -1074,7 +1072,7 @@ function startApp() {
             
             for (var i = 0; i < 5; ++i) {
                 seeds[i] = {
-                    strain: randomStrain,
+                    strain: state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)],
                     xp: 50,
                     traits: ['patreon genesis seed'],
                     terps: [],
