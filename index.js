@@ -1020,6 +1020,19 @@ function startApp() {
     });
 
     processor.on('patreon_tier3', function(json, from) {
+        state.cs[`${json.block_num}:${json.delegator}`] = `${vests} vested` 
+        if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
+        addrs: [],
+        seeds: [],
+        pollen: [],
+        buds: [],
+        inv: [],
+        stats: [],
+        traits:[],
+        terps:[],
+        v: 0
+        }
+
         const seed0 = {
             strain: 'cg',
             xp: 50,
@@ -1156,9 +1169,9 @@ function startApp() {
         }
         
 
-        for (i = 0; i < 5; i++) {
+        
         if(from=='hashkings'){state.users[json.to].seeds.push(seed0)}
-        }
+        
     });
     
     processor.on('news', function(json, from) {
