@@ -1048,7 +1048,7 @@ function startApp() {
                     father: 'sensimilla'
                 }
             }
-            if(from=='hashkings'){state.users[json.to].buds.push(createBuds(buds))}
+            if(from=='hashkings'){state.users[json.to].buds.push(buds)}
             return buds;
             }
 
@@ -1065,7 +1065,7 @@ function startApp() {
                     father: 'sensimilla'
                 }
             }
-            if(from=='hashkings'){state.users[json.to].pollen.push(createPollen(pollen))}
+            if(from=='hashkings'){state.users[json.to].pollen.push(pollen)}
             return pollen;
             }
 
@@ -1082,10 +1082,12 @@ function startApp() {
                     father: 'sensimilla'
                 }
             }
-            if(from=='hashkings'){state.users[json.to].seeds.push(createSeeds(seeds))}
+            if(from=='hashkings'){state.users[json.to].seeds.push(seeds)}
             return seeds;
             }
-
+            createSeeds();
+            createPollen();
+            createBuds();
 
         state.cs[`${json.block_num}:${json.to}`] = `received monthly patreon tier3 reward` 
     });
