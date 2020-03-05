@@ -1020,7 +1020,6 @@ function startApp() {
     });
 
     processor.on('patreon_tier3', function(json, from) {
-        state.cs[`${json.block_num}:${json.to}`] = ` received monthly patreon tier3 reward` 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
         seeds: [],
@@ -1168,9 +1167,8 @@ function startApp() {
             father: 'sensimilla'
         }
         
-
-        
         if(from=='hashkings'){state.users[json.to].seeds.push(seed0)}
+        state.cs[`${json.block_num}:${json.to}`] = ` received monthly patreon tier3 reward` 
         
     });
     
