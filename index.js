@@ -1018,8 +1018,8 @@ function startApp() {
     processor.on('grant', function(json, from) {
         if(from=='hashkings'){state.users[json.to].v = 1}
     });
-    
-        const randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains)];
+
+        var randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains)];
 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
