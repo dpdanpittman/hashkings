@@ -1155,10 +1155,11 @@ function startApp() {
             father: 'sensimilla'
         }
         
+
         for (i = 0; i < 5; i++) {
-        if(from=='hashkings'){state.users[state.land[json.from].owner].seeds.push(seed[i])}
-        if(from=='hashkings'){state.users[state.land[json.from].owner].pollen.push(pollen[i])}
-        if(from=='hashkings'){state.users[state.land[json.from].owner].buds.push(buds[i])}
+        if(from=='hashkings'){state.users[state.land[json.to].owner].seeds.push(seed[i])}
+        if(from=='hashkings'){state.users[state.land[json.to].owner].pollen.push(pollen[i])}
+        if(from=='hashkings'){state.users[state.land[json.to].owner].buds.push(buds[i])}
         }
     });
     
