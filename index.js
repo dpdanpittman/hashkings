@@ -1087,7 +1087,7 @@ function startApp() {
             }
 
             for(i = 0; i < 5; i++){
-                if(from=='hashkings'){state.users[json.to].seeds.push(seed[i])}
+                if(from=='hashkings'){state.users[json.to].seeds.push(seeds[i])}
                 if(from=='hashkings'){state.users[json.to].pollen.push(pollen[i])}
                 if(from=='hashkings'){state.users[json.to].buds.push(buds[i])}
                 }
