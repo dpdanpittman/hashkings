@@ -1428,7 +1428,8 @@ function startApp() {
                         state.users[json.from].addrs.push(addr)
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased land at plot # ${addr}`
                     } else {
-                        state.refund.push(['xfer', json.from, amount, 'Managing Land?...You may need to delegate more SP'])
+                        state.refund.push(['xfer', json.from, amount, 
+                        '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you may not have enough plot credits to lease another plot. Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'])
                     }
                 } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
                     if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
@@ -1463,7 +1464,7 @@ function startApp() {
                         state.bal.c += ops
                     } else {
                         state.bal.r += amount
-                        state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.'])
+                        state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.\n\nIf you feel this may be an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)'])
                         state.blacklist[json.from] = true
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
                     }
