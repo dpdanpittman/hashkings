@@ -1021,7 +1021,7 @@ function startApp() {
 
     processor.on('patreon_tier3', function(json, from) {
 
-        var randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains)];
+        var randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains.length)];
 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
