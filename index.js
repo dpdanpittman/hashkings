@@ -1019,6 +1019,8 @@ function startApp() {
         if(from=='hashkings'){state.users[json.to].v = 1}
     });
 
+    processor.on('patreon_tier3', function(json, from) {
+
         var randomStrain = state.stats.supply.strains[Math.floor(Math.random()*state.stats.supply.strains)];
 
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
@@ -1034,7 +1036,7 @@ function startApp() {
         }
 
         const seed0 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1043,7 +1045,7 @@ function startApp() {
         }
 
         const seed1 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1052,7 +1054,7 @@ function startApp() {
         }
 
         const seed2 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1061,7 +1063,7 @@ function startApp() {
         }
         
         const seed3 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1070,7 +1072,7 @@ function startApp() {
         }
 
         const seed4 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1079,7 +1081,7 @@ function startApp() {
         }
 
         const pollen0 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1088,7 +1090,7 @@ function startApp() {
         }
 
         const pollen1 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1097,7 +1099,7 @@ function startApp() {
         }
 
         const pollen2 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1106,7 +1108,7 @@ function startApp() {
         }
 
         const pollen3 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1115,7 +1117,7 @@ function startApp() {
         }
 
         const pollen4 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1124,7 +1126,7 @@ function startApp() {
         }
 
         const buds0 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1133,7 +1135,7 @@ function startApp() {
         }
 
         const buds1 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1142,7 +1144,7 @@ function startApp() {
         }
 
         const buds2 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1151,7 +1153,7 @@ function startApp() {
         }
 
         const buds3 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
@@ -1160,7 +1162,7 @@ function startApp() {
         }
 
         const buds4 = {
-            strain: random_strain(randomStrain),
+            strain: randomStrain,
             xp: 50,
             traits: ['patreon genesis seed'],
             terps: [],
