@@ -1166,8 +1166,9 @@ function startApp() {
             pollinated: false,
             father: 'sensimilla'
         }
-        var seed = seed + `${i}`
+        
         for(i = 0; i < 5; i++)
+        var seed = seed + `${i}`
         if(from=='hashkings'){state.users[json.to].seeds.push(seed)}
         state.cs[`${json.block_num}:${json.to}`] = `received monthly patreon tier3 reward` 
         
