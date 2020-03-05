@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41376060; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41385300; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41376060;
+const ago = ENV.ago || 41385300;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1019,8 +1019,10 @@ function startApp() {
         if(from=='hashkings'){state.users[json.to].v = 1}
     });
 
+    // This checks for a json from hashkings and sends seeds, pollen and buds to users requested
     processor.on('patreon_tier3', function(json, from) {
 
+        // if the user has not delegated then create user in state.users
         if (!state.users[json.delegator] && json.to == username) state.users[json.delegator] = {
         addrs: [],
         seeds: [],
@@ -1033,6 +1035,7 @@ function startApp() {
         v: 0
         }
         
+        // randomize and send 5 buds to user
         function createBuds(){
             var buds = [];
             var packCount = 5;
@@ -1051,6 +1054,7 @@ function startApp() {
             return buds;
             }
 
+        // randomize and send 5 pollen to user
         function createPollen(){
             var pollen = [];
             var packCount = 5;
@@ -1069,6 +1073,7 @@ function startApp() {
             return pollen;
             }
 
+        // randomize and send 5 seeds to user
         function createSeeds(){
             var seeds = [];
             var packCount = 5;
@@ -1086,6 +1091,7 @@ function startApp() {
             if(from=='hashkings'){state.users[json.to].seeds.push(seeds)}
             return seeds;
             }
+
             createSeeds();
             createPollen();
             createBuds();
@@ -1093,6 +1099,7 @@ function startApp() {
         state.cs[`${json.block_num}:${json.to}`] = `received monthly patreon tier3 reward` 
     });
     
+    //creates the weather reports
     processor.on('news', function(json, from) {
         if(from=='hashkings'){
             if(!state.news){
@@ -1102,6 +1109,7 @@ function startApp() {
          }
     });
 
+    //checks for qwoyn_give_seed and allows users to send each other seeds
     processor.on('give_seed', function(json, from) {
         var seed=''
         if(json.to && json.to.length > 2){
@@ -1142,7 +1150,7 @@ function startApp() {
         }
     });
 
-    //send pollen
+    //checks for json qwoyn_give_pollen and allows users to send each other pollen
     processor.on('give_pollen', function(json, from) {
         var pollen = ''
         if(json.to && json.to.length > 2){
@@ -1184,7 +1192,7 @@ function startApp() {
     });
 
     
-   //send buds
+   //checks for json qwoyn_give_buds and allows users to send each other buds
     processor.on('give_buds', function(json, from) {
         var buds = ''
         if(json.to && json.to.length > 2){
@@ -1225,6 +1233,7 @@ function startApp() {
         }
     });
 
+    // checks for qwoyn_plant and plants the seed
     processor.on('plant', function(json, from) {
         var index, seed=''
         try{
@@ -1281,6 +1290,7 @@ function startApp() {
         }
     });
 
+    //power up steem recieved from user minus cut
     processor.onOperation('transfer_to_vesting', function(json) {
         if (json.to == username && json.from == username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
@@ -1320,7 +1330,8 @@ function startApp() {
         }
     });
 
-    processor.onOperation('delegate_vesting_shares', function(json, from) { //grab posts to reward
+    //allows users to delegate for a plot
+    processor.onOperation('delegate_vesting_shares', function(json, from) { 
     const vests = parseInt(parseFloat(json.vesting_shares) * 1000000)
     var record = ''
     if(json.delegatee == username){
@@ -1373,6 +1384,7 @@ function startApp() {
         })
     }
     });
+
     processor.onOperation('transfer', function(json) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
@@ -1424,7 +1436,7 @@ function startApp() {
                         const num = state.stats.supply.land[sel]++
                         var addr = `${want}${num}`
                         state.users[json.from].addrs.push(addr)
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased land at plot # ${addr}`
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased land at plot #${addr}`
                     } else {
                         state.refund.push(['xfer', json.from, amount, 
                         '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you have used' + state.delegations.owner[json.from].used + 'out of' + state.delegations.owner[json.from].used + 'plot credits and may need to delegate more STEEM POWER. Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'])
