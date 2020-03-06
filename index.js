@@ -1473,7 +1473,14 @@ function startApp() {
                     if (want == 'spseed') xp = 200
                     var seed = {
                         strain: type,
-                        xp: xp
+                        xp: xp,
+                        traits: ['genesis seeds'],
+                        terps: [],
+                        thc: 'coming soon',
+                        cbd: 'coming soon',
+                        breeder: 'Landrace Strain',
+                        familyTree: 'Landrace Strain',
+                        pollinated: false
                     }
                     state.users[json.from].seeds.push(seed)
                     const c = parseInt(amount * 0.1)
