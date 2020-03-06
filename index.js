@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41404546; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41407895; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41404546;
+const ago = ENV.ago || 41407895;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1196,7 +1196,7 @@ function startApp() {
                   }
               }
           } catch (e) {}
-          if (pollens) {
+          if (pollen) {
               if (!state.users[json.to]) {
                 state.users[json.to] = {
                   addrs: [],
@@ -1226,7 +1226,7 @@ function startApp() {
    //checks for json qwoyn_give_buds and allows users to send each other buds
     processor.on('give_buds', function(json, from) {
         var buds = ''
-        if(json.to && json.to.length > 2){
+        if(json.to && json.to.length > 0){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
                   if (state.users[from].buds.length > 0){
