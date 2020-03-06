@@ -1229,7 +1229,7 @@ function startApp() {
                   }
               }
           } catch (e) {}
-          if (bud) {
+          if (buds) {
               if (!state.users[json.to]) {
                 state.users[json.to] = {
                   addrs: [],
@@ -1246,7 +1246,7 @@ function startApp() {
                   v: 0
                 }
               } else {
-                  state.users[json.to].buds.push(bud)
+                  state.users[json.to].buds.push(buds)
               }
               state.cs[`${json.block_num}:${from}`] = `${from} sent ${buds.strain} buds to ${json.to}`
           } else {
