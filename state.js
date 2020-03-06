@@ -10036,7 +10036,6 @@ module.exports = {
       "gabiausfranken": {
          "addrs": [],
          "seeds": [
-            [
                {
                   "strain": "kmj",
                   "xp": 50,
@@ -10087,10 +10086,8 @@ module.exports = {
                   "pollinated": false,
                   "father": "sensimilla"
                }
-            ]
          ],
          "pollen": [
-            [
                {
                   "strain": "lb",
                   "xp": 50,
@@ -10141,10 +10138,8 @@ module.exports = {
                   "pollinated": false,
                   "father": "sensimilla"
                }
-            ]
          ],
          "buds": [
-            [
                {
                   "strain": "hk",
                   "xp": 50,
@@ -10195,7 +10190,6 @@ module.exports = {
                   "pollinated": false,
                   "father": "sensimilla"
                }
-            ]
          ],
          "breeder": "",
          "inv": [],
