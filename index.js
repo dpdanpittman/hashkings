@@ -953,7 +953,7 @@ function startApp() {
     processor.on('breeder_name', function(json, from) {
         let breeder = json.breeder
         for (var i = 0; i < breeder.length; i++) {
-                state.users[from].breeder = breeder;
+                state.users[from].breeder = breeder[i];
                 plantnames += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
         }
