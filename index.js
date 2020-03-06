@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41385300; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41404546; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41385300;
+const ago = ENV.ago || 41404546;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -949,6 +949,17 @@ function startApp() {
         }
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
+    
+    processor.on('breeder_name', function(json, from) {
+        let breeder = json.breeder
+        for (var i = 0; i < breeder.length; i++) {
+                state.users[from].breeder = breeder;
+                plantnames += `${breeder[i]}`
+            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breeder}`
+    });
+
     // search for qwoyn_pollinate from user on blockchain since genesis
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
@@ -971,6 +982,8 @@ function startApp() {
             }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
+        
+        return pollenName;
     });
     
 /*
@@ -1943,7 +1956,7 @@ function daily(addr) {
                     console.log('An affliction happened', e.message)
                    }
                 }
-//              if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
+            //if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
                 kudo(state.land[addr].owner);
             }
@@ -1958,18 +1971,21 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      thc: [],  
+                      cbd: [],
+                      breeder: state.land[addr].owner,
+                      familyTree: state.land[addr].strain + '' + pollenName,
                       pollinated: false,
-                      father: state.land[addr].pollen
+                      father: pollenName
                   }
                   const seed2 = {
                       strain: state.land[addr].strain,
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      //familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
+                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       pollinated: false,
-                      father: state.land[addr].pollen
+                      father: pollenName
                   }
                   state.users[state.land[addr].owner].seeds.push(seed)
 
