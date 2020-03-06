@@ -10029,6 +10029,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10192,6 +10193,7 @@ module.exports = {
                }
          ],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10204,6 +10206,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -10279,6 +10282,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -10293,6 +10297,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -10306,6 +10311,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 2
@@ -10321,6 +10327,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 4
@@ -10343,6 +10350,7 @@ module.exports = {
          "buds": [],
          "inv": [],
          "breeder": "",
+         "farmer": 1,
          "stats": [],
          "v": 1
       },
@@ -10406,6 +10414,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10441,6 +10450,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10590,6 +10600,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10602,6 +10613,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -10682,6 +10694,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10696,6 +10709,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10712,6 +10726,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 5
@@ -10742,6 +10757,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -10757,6 +10773,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 4
@@ -10769,6 +10786,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -10781,6 +10799,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -10945,6 +10964,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11143,6 +11163,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 106
@@ -11155,6 +11176,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11167,6 +11189,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -11189,6 +11212,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11220,6 +11244,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11236,6 +11261,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 4
@@ -11248,6 +11274,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -11260,6 +11287,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11272,6 +11300,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -11294,6 +11323,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11328,6 +11358,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11340,6 +11371,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -11350,6 +11382,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11364,6 +11397,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11404,6 +11438,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1,
@@ -11418,6 +11453,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11430,6 +11466,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11442,6 +11479,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11454,6 +11492,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11466,6 +11505,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11478,6 +11518,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11492,6 +11533,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11518,6 +11560,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11530,6 +11573,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11544,6 +11588,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11583,6 +11628,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11624,6 +11670,7 @@ module.exports = {
          "buds": [],
          "inv": [],
          "breeder": "",
+         "farmer": 1,
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11646,6 +11693,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11669,6 +11717,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11692,6 +11741,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11704,6 +11754,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11743,6 +11794,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11773,6 +11825,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11804,6 +11857,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -11858,6 +11912,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13126,6 +13181,7 @@ module.exports = {
             }
          ],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13173,6 +13229,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13677,6 +13734,7 @@ module.exports = {
          ],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13693,6 +13751,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13703,6 +13762,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13724,6 +13784,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13738,6 +13799,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -13752,6 +13814,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13792,6 +13855,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13813,6 +13877,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13823,6 +13888,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13837,6 +13903,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13875,6 +13942,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 1
@@ -13885,6 +13953,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -13918,6 +13987,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13939,6 +14009,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -13955,6 +14026,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14466,6 +14538,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14493,6 +14566,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14503,6 +14577,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14518,6 +14593,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14564,6 +14640,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14574,6 +14651,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14589,6 +14667,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14612,6 +14691,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14639,6 +14719,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14651,6 +14732,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14663,6 +14745,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14726,6 +14809,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14736,6 +14820,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14748,6 +14833,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14896,6 +14982,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -14925,6 +15012,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15007,6 +15095,7 @@ module.exports = {
          ],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15019,6 +15108,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15031,6 +15121,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15041,6 +15132,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15065,6 +15157,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15087,6 +15180,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15097,6 +15191,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15396,6 +15491,7 @@ module.exports = {
          ],
          "pollen": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15406,6 +15502,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15418,6 +15515,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15433,6 +15531,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15446,6 +15545,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15456,6 +15556,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15479,6 +15580,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15511,6 +15613,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15521,6 +15624,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15535,6 +15639,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15559,6 +15664,7 @@ module.exports = {
          ],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15578,6 +15684,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15591,6 +15698,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15612,6 +15720,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15663,6 +15772,7 @@ module.exports = {
          ],
          "pollen": [],
          "breeder": "",
+         "farmer": 1,
          "buds": [],
          "inv": [],
          "stats": [],
@@ -15686,6 +15796,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15707,6 +15818,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15736,6 +15848,7 @@ module.exports = {
          ],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15748,6 +15861,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15767,6 +15881,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15787,6 +15902,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15844,6 +15960,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15904,6 +16021,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15919,6 +16037,7 @@ module.exports = {
          "buds": [],
          "inv": [],
          "breeder": "",
+         "farmer": 1,
          "stats": [],
          "v": 0
       },
@@ -15938,6 +16057,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15960,6 +16080,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -15992,6 +16113,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16002,6 +16124,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16016,6 +16139,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16026,6 +16150,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16036,6 +16161,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16049,6 +16175,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16061,6 +16188,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16077,6 +16205,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16091,6 +16220,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16101,6 +16231,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16116,6 +16247,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16128,6 +16260,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16174,6 +16307,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16190,6 +16324,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16200,6 +16335,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16212,6 +16348,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16224,6 +16361,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16239,6 +16377,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0
@@ -16249,6 +16388,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16263,6 +16403,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "breeder": "",
+         "farmer": 1,
          "inv": [],
          "stats": [],
          "traits": [],

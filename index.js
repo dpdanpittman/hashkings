@@ -1042,6 +1042,8 @@ function startApp() {
         seeds: [],
         pollen: [],
         buds: [],
+        breeder: '',
+        farmer: 1,
         inv: [],
         stats: [],
         traits:[],
@@ -1147,6 +1149,8 @@ function startApp() {
                   seeds: [seed],
                   buds: [],
                   pollen: [],
+                  breeder: breeder,
+                  farmer: farmer,
                   inv: [],
                   stats: [],
                   terps: [],
@@ -1188,6 +1192,8 @@ function startApp() {
                   seeds: [],
                   buds: [],
                   pollen: [pollens],
+                  breeder: breeder,
+                  farmer: farmer,
                   inv: [],
                   stats: [],
                   terps: [],
@@ -1230,6 +1236,8 @@ function startApp() {
                   seeds: [],
                   pollen: [],
                   buds: [buds],
+                  breeder: breeder,
+                  farmer: farmer,
                   inv: [],
                   stats: [],
                   terps: [buds.terps],
@@ -1361,6 +1369,8 @@ function startApp() {
         seeds: [],
         pollen: [],
         buds: [],
+        breeder: '',
+        farmer: 1,
         inv: [],
         stats: [],
         traits:[],
@@ -1972,8 +1982,8 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
-                      thc: [],  
-                      cbd: [],
+                      thc: 'coming soon',
+                      cbd: 'coming soon',
                       breeder: state.land[addr].owner,
                       familyTree: state.land[addr].strain + '' + pollenName,
                       pollinated: false,
@@ -1984,6 +1994,8 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
+                      thc: 'coming soon',
+                      cbd: 'coming soon',
                       familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
                       pollinated: false,
                       father: pollenName
@@ -2023,6 +2035,8 @@ function daily(addr) {
                             xp: state.land[addr].xp,
                             traits: ['Beta Buds'],
                             terps: [state.land[addr].strain.terps],
+                            thc: 'coming soon',
+                            cbd: 'coming soon',
                             familyTree: state.land[addr].strain,
                             father: 'Sensimilla'
                         }
@@ -2030,7 +2044,9 @@ function daily(addr) {
                             strain: state.land[addr].strain,
                             xp: state.land[addr].xp,
                             traits: ['Beta Buds'],
-                            terps: [],
+                            thc: 'coming soon',
+                            cbd: 'coming soon',
+                            terps: [state.land[addr].strain.terps],
                             familyTree: state.land[addr].strain,
                             father: 'Sensimilla'
                         }
@@ -2070,6 +2086,8 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['Beta Pollen'],
                       terps: [],
+                      thc: 'coming soon',
+                      cbd: 'coming soon',
                       familyTree: state.land[addr].strain,
                       father: 'Sensimilla'
                   }
@@ -2078,6 +2096,8 @@ function daily(addr) {
                       xp: state.land[addr].xp,
                       traits: ['Beta Pollen'],
                       terps: [],
+                      thc: 'coming soon',
+                      cbd: 'coming soon',
                       familyTree: state.land[addr].strain,
                       father: 'Sensimilla'
                   }
