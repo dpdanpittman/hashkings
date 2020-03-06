@@ -951,13 +951,14 @@ function startApp() {
     });
     
     processor.on('breeder_name', function(json, from) {
-        let breeder = json.breeder
+        let breeder = json.breeder,
+            breederName = ''
         for (var i = 0; i < breeder.length; i++) {
                 state.users[from].breeder = breeder[i];
-                plantnames += `${breeder[i]}`
+                breederName += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breeder}`
+        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
     });
 
     // search for qwoyn_pollinate from user on blockchain since genesis
