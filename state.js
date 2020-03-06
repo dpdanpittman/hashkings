@@ -10028,6 +10028,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10196,6 +10197,7 @@ module.exports = {
                }
             ]
          ],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10207,6 +10209,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -10281,6 +10284,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -10294,6 +10298,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -10306,6 +10311,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 2
@@ -10320,6 +10326,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 4
@@ -10341,6 +10348,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "inv": [],
+         "breeder": "",
          "stats": [],
          "v": 1
       },
@@ -10403,6 +10411,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10437,6 +10446,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10583,9 +10593,10 @@ module.exports = {
             "f19"
          ],
          "seeds": [],
-         "inv": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
+         "inv": [],
          "stats": [],
          "v": 0
       },
@@ -10596,6 +10607,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -10675,6 +10687,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10688,6 +10701,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10703,6 +10717,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 5
@@ -10732,6 +10747,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -10746,6 +10762,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 4
@@ -10757,6 +10774,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -10768,6 +10786,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -10931,6 +10950,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11128,6 +11148,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 106
@@ -11139,6 +11160,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11150,6 +11172,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -11171,6 +11194,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11201,6 +11225,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11216,6 +11241,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 4
@@ -11227,6 +11253,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -11238,6 +11265,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11249,6 +11277,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -11270,6 +11299,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11303,6 +11333,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11314,6 +11345,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -11323,6 +11355,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11336,6 +11369,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11375,6 +11409,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1,
@@ -11388,6 +11423,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11399,6 +11435,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11410,6 +11447,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11421,6 +11459,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11432,6 +11471,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11443,6 +11483,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11456,6 +11497,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11481,6 +11523,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11492,6 +11535,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11505,6 +11549,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11543,6 +11588,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11583,6 +11629,7 @@ module.exports = {
          ],
          "buds": [],
          "inv": [],
+         "breeder": "",
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11604,6 +11651,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11626,6 +11674,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -11648,6 +11697,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11659,6 +11709,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11697,6 +11748,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11726,6 +11778,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11756,6 +11809,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -11809,6 +11863,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -12797,58 +12852,56 @@ module.exports = {
                "familyTree": "chtundefined",
                "pollinated": false
             },
-            [
-               {
-                  "strain": "pam",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis seed"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "lkg",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis seed"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "afg",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis seed"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "cg",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis seed"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "cg",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis seed"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               }
-            ]
+            {
+               "strain": "pam",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "afg",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis seed"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            }
          ],
          "pollen": [
             {
@@ -13005,58 +13058,56 @@ module.exports = {
                "familyTree": "pam",
                "father": "Sensimilla"
             },
-            [
-               {
-                  "strain": "kbr",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis bud"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "cht",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis bud"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "cg",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis bud"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "lb",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis bud"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               },
-               {
-                  "strain": "ach",
-                  "xp": 50,
-                  "traits": [
-                     "patreon genesis bud"
-                  ],
-                  "terps": [],
-                  "pollinated": false,
-                  "father": "sensimilla"
-               }
-            ],
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis bud"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "cht",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis bud"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "cg",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis bud"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "lb",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis bud"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
+            {
+               "strain": "ach",
+               "xp": 50,
+               "traits": [
+                  "patreon genesis bud"
+               ],
+               "terps": [],
+               "pollinated": false,
+               "father": "sensimilla"
+            },
             {
                "strain": "kbr",
                "xp": 2250,
@@ -13080,6 +13131,7 @@ module.exports = {
                "father": "Sensimilla"
             }
          ],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13126,6 +13178,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13629,6 +13682,7 @@ module.exports = {
             }
          ],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13644,6 +13698,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13653,6 +13708,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13673,6 +13729,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13686,6 +13743,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -13699,6 +13757,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13738,6 +13797,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13758,6 +13818,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13767,6 +13828,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13780,6 +13842,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13817,6 +13880,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 1
@@ -13826,6 +13890,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -13858,6 +13923,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13878,6 +13944,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -13893,6 +13960,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14403,6 +14471,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14429,6 +14498,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14438,6 +14508,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14452,6 +14523,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14497,6 +14569,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14506,6 +14579,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14520,6 +14594,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14542,6 +14617,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14568,6 +14644,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14579,6 +14656,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14590,6 +14668,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14652,6 +14731,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14661,6 +14741,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14672,6 +14753,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14819,6 +14901,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14847,6 +14930,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14928,6 +15012,7 @@ module.exports = {
             }
          ],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14939,6 +15024,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14950,6 +15036,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -14959,6 +15046,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -14982,6 +15070,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15003,6 +15092,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15012,6 +15102,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15310,6 +15401,7 @@ module.exports = {
             }
          ],
          "pollen": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15319,6 +15411,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15330,6 +15423,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15344,6 +15438,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15356,6 +15451,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15365,6 +15461,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15387,6 +15484,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15418,6 +15516,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15427,6 +15526,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15440,6 +15540,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15463,6 +15564,7 @@ module.exports = {
             }
          ],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15481,6 +15583,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15493,6 +15596,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15513,6 +15617,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15563,6 +15668,7 @@ module.exports = {
             }
          ],
          "pollen": [],
+         "breeder": "",
          "buds": [],
          "inv": [],
          "stats": [],
@@ -15585,6 +15691,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15605,6 +15712,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15633,6 +15741,7 @@ module.exports = {
             }
          ],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15644,6 +15753,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15662,6 +15772,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15681,6 +15792,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15737,6 +15849,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15796,6 +15909,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15810,6 +15924,7 @@ module.exports = {
          "pollen": [],
          "buds": [],
          "inv": [],
+         "breeder": "",
          "stats": [],
          "v": 0
       },
@@ -15828,6 +15943,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15849,6 +15965,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15880,6 +15997,7 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15889,6 +16007,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15902,6 +16021,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15911,6 +16031,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15920,6 +16041,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15932,6 +16054,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15943,6 +16066,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15958,6 +16082,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15971,6 +16096,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -15980,6 +16106,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -15994,6 +16121,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -16005,6 +16133,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -16050,6 +16179,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16065,6 +16195,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -16074,6 +16205,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -16085,6 +16217,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16096,6 +16229,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16110,6 +16244,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0
@@ -16119,6 +16254,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "v": 0,
@@ -16132,6 +16268,7 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
+         "breeder": "",
          "inv": [],
          "stats": [],
          "traits": [],
