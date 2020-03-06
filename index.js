@@ -961,6 +961,17 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
     });
 
+    processor.on('farmer_type', function(json, from) {
+        let farmer = json.farmer,
+            farmerName = 1
+        for (var i = 0; i < farmer.length; i++) {
+                state.users[from].farmer = breeder[i];
+                farmerName += farmer[i]
+            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerName}`
+    });
+
     // search for qwoyn_pollinate from user on blockchain since genesis
     processor.on('pollinate', function(json, from) {
         let plants = json.plants,
@@ -1218,7 +1229,7 @@ function startApp() {
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
-                  if (json.qual){
+                  if (state.users[from].buds.length > 0){
                     if(state.users[from].buds[i].strain == json.buds && state.users[from].buds[i].xp == json.qual){
                         buds = state.users[from].buds.splice(i, 1)[0]
                       break
