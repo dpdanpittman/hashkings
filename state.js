@@ -688,9 +688,9 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 750,
-               "mid": 1500,
-               "top": 3000,
+               "reg": 5000,
+               "mid": 5000,
+               "top": 5000,
                "special": 10000
             },
             "supplies": {}
@@ -9946,7 +9946,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10110,7 +10139,36 @@ module.exports = {
          ],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10123,7 +10181,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -10199,7 +10286,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 1,
@@ -10214,7 +10330,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -10228,7 +10373,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 2
       },
@@ -10244,7 +10418,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 4
       },
@@ -10264,7 +10467,36 @@ module.exports = {
          ],
          "pollen": [],
          "buds": [],
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "stats": [],
@@ -10331,7 +10563,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10367,7 +10628,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10501,7 +10791,36 @@ module.exports = {
             }
          ],
          "breeder": "Willie",
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10515,7 +10834,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10528,7 +10876,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -10609,7 +10986,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10624,7 +11030,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10641,7 +11076,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 5
       },
@@ -10672,7 +11136,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -10688,7 +11181,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 4
       },
@@ -10701,7 +11223,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -10714,7 +11265,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -11078,7 +11658,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 106
       },
@@ -11091,7 +11700,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -11104,7 +11742,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -11127,11 +11794,38 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
-         "v": 0,
-         "a": 1,
-         "u": 0
+         "v": 0
       },
       "gregorypatrick": {
          "addrs": [
@@ -11159,7 +11853,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -11176,7 +11899,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 4
       },
@@ -11189,7 +11941,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -11202,7 +11983,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -11215,7 +12025,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -11238,7 +12077,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -11273,7 +12141,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -11286,7 +12183,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -11297,7 +12223,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11312,7 +12267,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11368,11 +12352,37 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
-         "v": 0,
-         "a": 0,
-         "u": 0
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
+         "v": 0
       },
       "smartsteem": {
          "addrs": [],
@@ -11381,8 +12391,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -11394,8 +12432,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -11407,8 +12473,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -11420,8 +12514,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -11433,8 +12555,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 2,
          "u": 0
@@ -11448,8 +12598,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -11475,8 +12653,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -11488,8 +12694,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -11503,8 +12737,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -11537,8 +12799,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
-         "stats": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -11576,9 +12866,38 @@ module.exports = {
             }
          ],
          "buds": [],
-         "inv": [],
          "breeder": "",
          "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11602,7 +12921,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11626,7 +12974,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0,
          "a": 0,
@@ -11650,7 +13027,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0
       },
@@ -11663,7 +13069,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0
       },
@@ -11703,7 +13138,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0
       },
@@ -11734,7 +13198,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0
       },
@@ -11766,7 +13259,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13114,7 +14636,36 @@ module.exports = {
          ],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13667,7 +15218,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],         
          "stats": [],
          "v": 0
       },
@@ -13695,7 +15275,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13717,7 +15326,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13732,7 +15370,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -13747,7 +15414,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13788,7 +15484,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13810,7 +15535,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13821,7 +15575,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13836,7 +15619,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13875,7 +15687,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1
       },
@@ -13886,7 +15727,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -13920,7 +15790,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13942,7 +15841,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -13959,7 +15887,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14471,7 +16428,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14499,7 +16485,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14510,7 +16525,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14526,7 +16570,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14573,7 +16646,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14584,7 +16686,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14600,7 +16731,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14624,7 +16784,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14652,7 +16841,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14665,7 +16883,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14678,7 +16925,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14742,7 +17018,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14753,7 +17058,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -14766,7 +17100,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14915,7 +17278,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14945,7 +17337,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15028,7 +17449,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15041,7 +17491,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15054,7 +17533,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15065,7 +17573,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15090,7 +17627,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15113,7 +17679,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15124,7 +17719,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15424,7 +18048,36 @@ module.exports = {
          "pollen": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15435,7 +18088,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15448,7 +18130,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15464,7 +18175,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15478,7 +18218,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15489,7 +18258,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15513,7 +18311,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15546,7 +18373,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15557,7 +18413,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15572,7 +18457,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15597,7 +18511,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15617,7 +18560,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15631,7 +18603,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15653,7 +18654,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15706,7 +18736,36 @@ module.exports = {
          "breeder": "",
          "farmer": 1,
          "buds": [],
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15729,7 +18788,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15751,7 +18839,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15781,7 +18898,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15794,7 +18940,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15814,7 +18989,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15835,7 +19039,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15893,7 +19126,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -15954,7 +19216,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15967,9 +19258,38 @@ module.exports = {
          "seeds": [],
          "pollen": [],
          "buds": [],
-         "inv": [],
          "breeder": "",
          "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15990,7 +19310,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16013,7 +19362,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16046,7 +19424,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16057,7 +19464,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16072,7 +19508,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16083,7 +19548,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16094,7 +19588,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16108,7 +19631,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16121,7 +19673,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16138,7 +19719,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16153,7 +19763,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16164,7 +19803,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16180,7 +19848,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16193,7 +19890,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16240,7 +19966,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16257,7 +20012,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16281,7 +20065,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16294,7 +20107,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16310,7 +20152,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -16321,7 +20192,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -16336,7 +20236,36 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+               }
+            ]
+            }
+         ],
          "stats": [],
          "traits": [],
          "terps": [],

@@ -1062,7 +1062,36 @@ function startApp() {
         buds: [],
         breeder: '',
         farmer: 1,
-        inv: [],
+        alliance: "",
+        friends: [],
+        inv: [
+          {
+              seeds: [],
+              pollen: [],
+              buds: [],
+              kief: [],
+              bubblehash: [],
+              oil: [],
+              edibles: [],
+              consumables: [
+              {
+                  joints: [],
+                  blunts: [],
+                  moonrocks: [],
+                  dippedjoints: [],
+                  cannagars: [],
+              }
+              ],
+              tools:[
+              {
+                  kiefbox: 0,
+                  vacoven: 0,
+                  bubblebags: 0,
+                  browniemix: 0,
+              }
+            ]
+          }
+        ],
         stats: [],
         traits:[],
         terps:[],
@@ -1169,7 +1198,36 @@ function startApp() {
                   pollen: [],
                   breeder: breeder,
                   farmer: farmer,
-                  inv: [],
+                  alliance: "",
+                  friends: [],
+                  inv: [
+                     {
+                         seeds: [],
+                         pollen: [],
+                         buds: [],
+                         kief: [],
+                         bubblehash: [],
+                         oil: [],
+                         edibles: [],
+                         consumables: [
+                             {
+                                 joints: [],
+                                 blunts: [],
+                                 moonrocks: [],
+                                 dippedjoints: [],
+                                 cannagars: [],
+                             }
+                        ],
+                         tools:[
+                             {
+                                 kiefbox: 0,
+                                 vacoven: 0,
+                                 bubblebags: 0,
+                                 browniemix: 0,
+                             }
+                         ]
+                     }
+                  ],
                   stats: [],
                   terps: [],
                   traits: [seed.traits],
@@ -1212,7 +1270,36 @@ function startApp() {
                   pollen: [pollen],
                   breeder: breeder,
                   farmer: farmer,
-                  inv: [],
+                  alliance: "",
+                  friends: [],
+                  inv: [
+                     {
+                     seeds: [],
+                     pollen: [],
+                     buds: [],
+                     kief: [],
+                     bubblehash: [],
+                     oil: [],
+                     edibles: [],
+                     consumables: [
+                        {
+                           joints: [],
+                           blunts: [],
+                           moonrocks: [],
+                           dippedjoints: [],
+                           cannagars: [],
+                        }
+                     ],
+                     tools:[
+                        {
+                           kiefbox: 0,
+                           vacoven: 0,
+                           bubblebags: 0,
+                           browniemix: 0,
+                        }
+                     ]
+                     }
+                  ],
                   stats: [],
                   terps: [],
                   traits: [pollens.traits],
@@ -1256,7 +1343,36 @@ function startApp() {
                   buds: [buds],
                   breeder: breeder,
                   farmer: farmer,
-                  inv: [],
+                  alliance: "",
+                  friends: [],
+                  inv: [
+                     {
+                     seeds: [],
+                     pollen: [],
+                     buds: [],
+                     kief: [],
+                     bubblehash: [],
+                     oil: [],
+                     edibles: [],
+                     consumables: [
+                        {
+                           joints: [],
+                           blunts: [],
+                           moonrocks: [],
+                           dippedjoints: [],
+                           cannagars: [],
+                        }
+                     ],
+                     tools:[
+                        {
+                           kiefbox: 0,
+                           vacoven: 0,
+                           bubblebags: 0,
+                           browniemix: 0,
+                        }
+                     ]
+                     }
+                  ],
                   stats: [],
                   terps: [buds.terps],
                   traits: [buds.traits],
@@ -1389,7 +1505,36 @@ function startApp() {
         buds: [],
         breeder: '',
         farmer: 1,
-        inv: [],
+        alliance: "",
+        friends: [],
+        inv: [
+            {
+                seeds: [],
+                pollen: [],
+                buds: [],
+                kief: [],
+                bubblehash: [],
+                oil: [],
+                edibles: [],
+                consumables: [
+                    {
+                        joints: [],
+                        blunts: [],
+                        moonrocks: [],
+                        dippedjoints: [],
+                        cannagars: [],
+                    }
+            ],
+                tools:[
+                    {
+                        kiefbox: 0,
+                        vacoven: 0,
+                        bubblebags: 0,
+                        browniemix: 0,
+                    }
+                ]
+            }
+        ],
         stats: [],
         traits:[],
         terps:[],
@@ -1442,7 +1587,36 @@ function startApp() {
                 seeds: [],
                 pollen: [],
                 buds: [],
-                inv: [],
+                alliance: "",
+                friends: [],
+                inv: [
+                  {
+                    seeds: [],
+                    pollen: [],
+                    buds: [],
+                    kief: [],
+                    bubblehash: [],
+                    oil: [],
+                    edibles: [],
+                    consumables: [
+                        {
+                            joints: [],
+                            blunts: [],
+                            moonrocks: [],
+                            dippedjoints: [],
+                            cannagars: [],
+                        }
+                    ],
+                    tools:[
+                        {
+                            kiefbox: 0,
+                            vacoven: 0,
+                            bubblebags: 0,
+                            browniemix: 0,
+                        }
+                    ]
+                  }
+                ],
                 stats: [],
                 traits:[],
                 terps:[],
@@ -1467,7 +1641,7 @@ function startApp() {
                             }
                         }
                     } else {
-                        const c = parseInt(amount * 0.025)
+                        const c = parseInt(amount * 0.75)
                         state.bal.c += c
                         state.bal.b += amount - c
                         allowed = true
@@ -1486,9 +1660,9 @@ function startApp() {
                 } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
                     if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
                     var xp = 1
-                    if (want == 'mseed') xp = 10
-                    if (want == 'tseed') xp = 50
-                    if (want == 'spseed') xp = 200
+                    if (want == 'mseed') xp = 1
+                    if (want == 'tseed') xp = 5
+                    if (want == 'spseed') xp = 20
                     var seed = {
                         strain: type,
                         xp: xp,
@@ -1501,12 +1675,11 @@ function startApp() {
                         pollinated: false
                     }
                     state.users[json.from].seeds.push(seed)
-                    const c = parseInt(amount * 0.1)
+                    const c = parseInt(amount * 0.75)
                     state.bal.c += c
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else {
-                    state.bal.r += amount
                     state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
                 }
