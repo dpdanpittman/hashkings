@@ -1058,7 +1058,7 @@ function startApp() {
                     members: 0,
                     memberNames: {from},
                 }
-                state.alliances.push(allianceState)
+                state.stats.alliances.push(allianceState)
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
