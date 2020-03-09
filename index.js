@@ -986,7 +986,7 @@ function startApp() {
 
     //search for qwoyn_add_friend from user on blockchain since genesis
     //steemconnect link
-    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_add_friend&json=%7B%22friend%22%3A%5B%22NAMEOFFriend%22%5D%7D
     processor.on('add_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
@@ -2546,56 +2546,97 @@ function daily(addr) {
             }
             
             //if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with pollination', e.message)
+            }
 
             //if json is crafted_kief give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_kief') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting kief', e.message)
+            }
 
             //if json is crafted_bubblehash give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_bubblehash') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting bubble hash', e.message)
+            }
 
             //if json is crafted_oil give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_oil') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting oil', e.message)
+            }
 
             //if json is crafted_joint give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_joint') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting joints', e.message)
+            }
 
             //if json is crafted_edibles give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_edibles') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting edibles', e.message)
+            }
 
             //if json is crafted_blunt give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_blunt') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting blunt', e.message)
+            }
 
             //if json is crafted_moonrock give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_moonrock') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting moonrock', e.message)
+            }
 
             //if json is crafted_dipped_joint give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_dipped_joint') {
                 kudo(state.land[addr].owner);
             }
+            } catch(e) {
+                console.log('something strange with crafting dipped joint', e.message)
+            }
 
             //if json is crafted_cannagar give kudos
+            try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_cannagar') {
                 kudo(state.land[addr].owner);
             }
-                //female harvested pollinated plant
-                try {
+            } catch(e) {
+                console.log('something strange with crafting cannagar', e.message)
+            }
+            
+            //female harvested pollinated plant
+            try {
               if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == true){
                 if (!harvested && state.land[addr].stage > 3){
                   harvested = true
