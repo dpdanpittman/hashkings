@@ -1036,7 +1036,7 @@ function startApp() {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
 
-                state.stats.alliances[{alliance}].members++;
+                state.stats.alliances.name[alliance].members++;
 
                 var newMember = {
                     memberName: from
