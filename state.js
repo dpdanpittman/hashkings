@@ -11677,7 +11677,22 @@ module.exports = {
          ],
          "breeder": "Willie",
          "alliance": "",
-         "friends": [],
+         "friends": [
+            {
+               "name": [
+                  "abrockman"
+               ],
+               "alliance": "",
+               "addedOn": 41495342
+            },
+            {
+               "name": [
+                  "jonyoudyer"
+               ],
+               "alliance": "",
+               "addedOn": 41495404
+            }
+         ],
          "inv": [
             {
                "seeds": [],
