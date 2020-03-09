@@ -958,7 +958,7 @@ function startApp() {
     processor.on('breeder_name', function(json, from) {
         let breeder = json.breeder,
             breederName = ''
-        for (var i = 0; i < breeder.length; i++) {
+        for (var i = 0; i < 1; i++) {
                 state.users[from].breeder = breeder[i];
                 breederName += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
@@ -974,7 +974,7 @@ function startApp() {
     processor.on('farmer_type', function(json, from) {
         let farmer = json.farmer,
             farmerName = 1
-        for (var i = 0; i < farmer.length; i++) {
+        for (var i = 0; i < 1; i++) {
                 state.users[from].farmer = farmer[i];
                 farmerName += farmer[i]
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
@@ -990,7 +990,7 @@ function startApp() {
     processor.on('add_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
-            for (var i = 0; i < friend.length; i++) {
+            for (var i = 0; i < 1; i++) {
                 friendName += friend[i]
 
                 var friends = {
@@ -1015,7 +1015,7 @@ function startApp() {
     processor.on('remove_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
-        for (var i = 0; i < friend.length; i++) {
+        for (var i = 0; i < 1; i++) {
             friendName += friend[i]
 
             state.users[from].friends.splice(i, 1)[0];// not removing correct friend
@@ -1032,7 +1032,7 @@ function startApp() {
     processor.on('join_alliance', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
-        for (var i = 0; i < alliance.length; i++) {
+        for (var i = 0; i < 1; i++) {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
 
