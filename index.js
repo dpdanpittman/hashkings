@@ -1057,7 +1057,7 @@ function startApp() {
     processor.on('create_alliance', function(json, from) {
         let newAlliance = json.newAlliance,
             newAllianceName = ''
-        for (var i = 0; i < newAlliance.length; i++) {
+        for (var i = 0; i < 1; i++) {
                 newAllianceName += newAlliance[i]
                 var allianceState = {
                     name: newAlliance,
