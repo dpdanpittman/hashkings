@@ -990,7 +990,6 @@ function startApp() {
     processor.on('add_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
-            if (state.user[from].friends == friend){
             for (var i = 0; i < friend.length; i++) {
                 friendName += friend[i]
 
@@ -1005,7 +1004,7 @@ function startApp() {
 
                 state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
             }
-            }
+            
         state.cs[`${json.block_num}:${from}`] = `${from} added ${friendName} as a friend`
     });
 
