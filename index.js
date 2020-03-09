@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41495500; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41511876; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41495500;
+const ago = ENV.ago || 41511876;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1105,7 +1105,7 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
-        for (var i = 0; i < 1; i++) {
+        for (var i = 0; i < state.users[from].buds.length; i++) {
             try {
             if (state.user[from].inv.tools.bubblebags > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
