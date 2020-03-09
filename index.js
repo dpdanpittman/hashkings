@@ -1042,7 +1042,7 @@ function startApp() {
                     memberName: from
                 }
 
-                state.stats.alliances[allianceName].memberNames.push(newMember);
+                state.stats.alliances[allianceName].push(newMember);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
