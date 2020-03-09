@@ -1032,17 +1032,17 @@ function startApp() {
     processor.on('join_alliance', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
-        for (var i = 0; i < 1; i++) {
+        for (var i = 0; i < state.stats.alliances.length; i++) {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
 
-                //state.stats.alliances.name[alliance].members++;
+                state.stats.alliances[i].members++;
 
                 var newMember = {
                     memberName: from
                 }
-
-                state.stats.alliances[allianceName].push(newMember);
+                
+                state.stats.alliances[i].push(newMember);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
