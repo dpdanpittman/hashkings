@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41409700; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41494458; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41409700;
+const ago = ENV.ago || 41494458;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -962,7 +962,7 @@ function startApp() {
                 state.users[from].breeder = breeder[i];
                 breederName += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
-            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
+            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
         }
         
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
@@ -979,31 +979,33 @@ function startApp() {
                 farmerName += farmer[i]
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
         }
-        state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
+        state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerName}`
     });
 
     //search for qwoyn_add_friend from user on blockchain since genesis
     //steemconnect link
-    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_add_friend&json=%7B%22friend%22%3A%5B%22NAMEOFFriend%22%5D%7D
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_add_friend&json=%7B%22friend%22%3A%5B%22jonyoudyer%22%5D%7D
     processor.on('add_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
-        for (var i = 0; i < friend.length; i++) {
-            friendName += friend[i]
+            if (state.user[from].friends == friend){
+            for (var i = 0; i < friend.length; i++) {
+                friendName += friend[i]
 
-            var friends = {
-                name: friend,
-                alliance: state.users[friend].alliance,
-                addedOn: json.block_num,
+                var friends = {
+                    name: friend,
+                    alliance: state.users[friend].alliance,
+                    addedOn: json.block_num,
+                }
+
+                state.users[from].friends.push(friends)
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'added_friend']);
+
+                state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
             }
-
-            state.users[from].friends.push(friends)
-            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'added_friend']);
-
-            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
-        }
+            }
         state.cs[`${json.block_num}:${from}`] = `${from} added ${friendName} as a friend`
     });
 
@@ -1017,7 +1019,7 @@ function startApp() {
             friendName += friend[i]
 
             state.users[from].friends.splice(i, 1)[0];
-            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
+            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
         }
@@ -1035,7 +1037,7 @@ function startApp() {
                 allianceName += alliance[i]
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
-        state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
+        state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
     });
@@ -1055,7 +1057,7 @@ function startApp() {
                     memberNames: {from},
                 }
                 state.alliances.push(allianceState)
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
         }
@@ -1096,7 +1098,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.bubblebags > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.bubblebags--;
@@ -1126,7 +1128,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.vacoven > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.vacoven--;
@@ -1156,7 +1158,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.kiefbox > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.kiefbox--;
@@ -1186,7 +1188,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.browniemix > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.browniemix--;
@@ -1216,7 +1218,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.papers > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.papers--;
@@ -1246,7 +1248,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].inv.tools.bluntwraps > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
                 state.users[from].inv.tools.bluntwraps--;
@@ -1279,7 +1281,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
@@ -1316,7 +1318,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.papers > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
@@ -1354,7 +1356,7 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.hempwraps > 0) {
-                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;;
                 kiefNames += `${kief}`;
@@ -2554,9 +2556,9 @@ function daily(addr) {
                 console.log('something strange with pollination', e.message)
             }
 
-            //if json is crafted_kief give kudos
+            /*//if json is crafted_kief give kudos
             try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_kief') {
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.users[from].stats[i][1] == 'crafted_kief') {
                 kudo(state.land[addr].owner);
             }
             } catch(e) {
@@ -2633,7 +2635,7 @@ function daily(addr) {
             }
             } catch(e) {
                 console.log('something strange with crafting cannagar', e.message)
-            }
+            }*/
             
             //female harvested pollinated plant
             try {

@@ -551,26 +551,35 @@ module.exports = {
          "vests": 39197422798,
          "availible": 0,
          "used": 1
+      },
+      {
+         "delegator": "fenngen",
+         "vests": 39190661517,
+         "availible": 0,
+         "used": 1
       }
    ],
    "kudos": {
-      "abrockman": 75,
-      "simgirl": 5,
+      "abrockman": 99,
       "romiferns": 2,
       "nutritree": 3,
+      "saboin": 23,
       "ecoinstats": 6,
-      "stever82": 2,
+      "stever82": 3,
       "anarcist69": 12,
       "vcdragon": 27,
-      "qwoyn": 1,
+      "ghosthunter1": 3,
+      "elemental010": 2,
       "russia-btc": 4,
-      "saboin": 11,
-      "rachaeldwatson": 3,
-      "nupulse": 2,
-      "cuko": 2,
-      "badpupper": 1,
-      "atomcollector": 1,
-      "jbsharkey": 1
+      "rachaeldwatson": 2,
+      "cuko": 4,
+      "nupulse": 1,
+      "badpupper": 2,
+      "chunkysoupsvc": 1,
+      "fenngen": 1,
+      "mcoinz79": 1,
+      "wdougwatson": 1,
+      "atomcollector": 1
    },
    "stats": {
       "vs": 1950,
@@ -590,14 +599,14 @@ module.exports = {
             "lat": "31.5",
             "lon": "64.1",
             "weather": {
-               "high": 291.5,
-               "low": 282.79,
-               "avg": "286.8",
-               "precip": 0,
-               "clouds": 0,
-               "humidity": 39,
-               "winds": 3.87,
-               "windd": 274
+               "high": 290.57,
+               "low": 282.24,
+               "avg": "286.2",
+               "precip": 0.44,
+               "clouds": 99,
+               "humidity": 56,
+               "winds": 4.8,
+               "windd": 192
             }
          },
          "b": {
@@ -605,14 +614,14 @@ module.exports = {
             "lat": "-3.2",
             "lon": "37.9",
             "weather": {
-               "high": 305.2,
-               "low": 295.22,
-               "avg": "299.5",
-               "precip": 0.19,
-               "clouds": 52,
-               "humidity": 75,
-               "winds": 0.91,
-               "windd": 187
+               "high": 302.66,
+               "low": 296.41,
+               "avg": "298.8",
+               "precip": 12.82,
+               "clouds": 96,
+               "humidity": 82,
+               "winds": 1.68,
+               "windd": 103
             }
          },
          "c": {
@@ -620,14 +629,14 @@ module.exports = {
             "lat": "18.1",
             "lon": "92.93",
             "weather": {
-               "high": 298.39,
-               "low": 297.78,
-               "avg": "298.1",
+               "high": 298.7,
+               "low": 298.24,
+               "avg": "298.5",
                "precip": 0,
-               "clouds": 40,
-               "humidity": 74,
-               "winds": 5.59,
-               "windd": 308
+               "clouds": 0,
+               "humidity": 73,
+               "winds": 7.35,
+               "windd": 323
             }
          },
          "d": {
@@ -635,14 +644,14 @@ module.exports = {
             "lat": "-22.9",
             "lon": "-43.2",
             "weather": {
-               "high": 296.92,
-               "low": 295.76,
-               "avg": "296.4",
-               "precip": 1.06,
-               "clouds": 28,
-               "humidity": 78,
-               "winds": 3.25,
-               "windd": 251
+               "high": 298.34,
+               "low": 295.08,
+               "avg": "297.0",
+               "precip": 0,
+               "clouds": 0,
+               "humidity": 86,
+               "winds": 3.73,
+               "windd": 38
             }
          },
          "e": {
@@ -650,14 +659,14 @@ module.exports = {
             "lat": "18.1",
             "lon": "-76.7",
             "weather": {
-               "high": 300.6,
-               "low": 291.76,
-               "avg": "295.5",
-               "precip": 2.13,
-               "clouds": 13,
-               "humidity": 88,
-               "winds": 0.86,
-               "windd": 17
+               "high": 296.79,
+               "low": 292.18,
+               "avg": "294.5",
+               "precip": 21.2,
+               "clouds": 49,
+               "humidity": 97,
+               "winds": 2.21,
+               "windd": 42
             }
          },
          "f": {
@@ -665,14 +674,14 @@ module.exports = {
             "lat": "25.8",
             "lon": "-108.2",
             "weather": {
-               "high": 307.85,
-               "low": 290.02,
-               "avg": "297.3",
+               "high": 304.91,
+               "low": 292.75,
+               "avg": "297.4",
                "precip": 0,
-               "clouds": 93,
-               "humidity": 36,
-               "winds": 2.44,
-               "windd": 71
+               "clouds": 100,
+               "humidity": 46,
+               "winds": 2.5,
+               "windd": 21
             }
          }
       },
@@ -707,8 +716,8 @@ module.exports = {
             "bc": 107,
             "c": 307,
             "cc": 113,
-            "d": 321,
-            "dc": 99,
+            "d": 320,
+            "dc": 100,
             "e": 315,
             "ec": 105,
             "f": 343,
@@ -751,12 +760,278 @@ module.exports = {
       "alliances": []
    },
    "bal": {
-      "r": -300,
-      "c": 0,
-      "b": 2700,
-      "p": 1483119
+      "r": 2700,
+      "c": 500,
+      "b": -2700,
+      "p": 1488519
    },
-   "refund": [],
+   "refund": [
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41410600",
+                  "title": "Farmers Guide | 41410600",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41410600",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41410600",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41413798",
+                  "title": "Hashkings Almanac for Asia | 41413798",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 26.6 Celsius. Winds will be out of the Northeast at 7.3 M/s. Relative humidity will be around 73% and a low of 26.1 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41413798",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41413798",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41439400",
+                  "title": "Farmers Guide | 41439400",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41439400",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41439400",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41442598",
+                  "title": "Hashkings Almanac for Asia | 41442598",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 26.6 Celsius. Winds will be out of the Northeast at 7.3 M/s. Relative humidity will be around 73% and a low of 26.1 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41442598",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41442598",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "xfer",
+         "qwoyn",
+         3000,
+         "jbsharkey sent a weird transfer...refund?"
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41492998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41494000",
+                  "title": "Farmers Guide | 41494000",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \n\n            \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @russia-btc with 83.30%\n* @ultratrain with 16.66%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41494000",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "russia-btc",
+                                 "weight": 8330
+                              },
+                              {
+                                 "account": "ultratrain",
+                                 "weight": 1666
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ]
+   ],
    "lands": {
       "forSale": [
          "e40",
@@ -805,28 +1080,10 @@ module.exports = {
          "owner": "qwoyn",
          "strain": "mis",
          "xp": 50,
-         "care": [
-            [
-               41407849,
-               "watered"
-            ],
-            [
-               41407849,
-               "watered"
-            ],
-            [
-               41379502,
-               "pollinated"
-            ],
-            [
-               41337724,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seeds"
          ],
@@ -841,15 +1098,10 @@ module.exports = {
          "owner": "qwoyn-fund",
          "strain": "mis",
          "xp": 50,
-         "care": [
-            [
-               41409070,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta seed"
          ],
@@ -999,10 +1251,16 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "kbr",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               41472925,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -1354,28 +1612,37 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403100,
-               "pollinated"
-            ],
-            [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403060,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41403100,
                "pollinated"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
          "terps": [],
          "id": "a50",
          "sex": "female",
-         "father": "hk",
+         "father": "pam",
          "pollinated": true
       },
       "c39": {
@@ -1384,27 +1651,36 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "planted": 41250124,
          "traits": [],
          "terps": [],
          "id": "c39",
-         "father": "beta"
+         "father": "beta",
+         "sex": "female"
       },
       "d33": {
          "owner": "abrockman",
@@ -1412,21 +1688,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
                41403105,
-               "pollinated"
-            ],
-            [
-               41403095,
-               "watered"
-            ],
-            [
-               41403064,
                "pollinated"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -1434,7 +1715,7 @@ module.exports = {
          "planted": 40707676,
          "id": "d33",
          "sex": "female",
-         "father": "kmj",
+         "father": "hk",
          "pollinated": true
       },
       "b43": {
@@ -1443,16 +1724,24 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ]
          ],
          "aff": [],
          "terps": [],
          "stats": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "pollinated": true,
          "id": "b43",
          "traits": [
@@ -1466,18 +1755,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403021,
+               41482516,
                "watered"
             ],
             [
-               41371483,
+               41454810,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -1599,14 +1888,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41212882,
+               41492648,
+               "watered"
+            ],
+            [
+               41464418,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -1623,14 +1916,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41212882,
+               41492648,
+               "watered"
+            ],
+            [
+               41464418,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -1767,22 +2064,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403110,
-               "pollinated"
-            ],
-            [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403070,
-               "pollinated"
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -1799,21 +2096,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403074,
-               "pollinated"
+               41485668,
+               "harvested"
             ],
             [
-               41403056,
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -1878,13 +2184,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "kmj",
          "xp": 2250,
-         "care": [
-            [
-               41385856,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32938707,
          "stage": 8,
@@ -1900,13 +2200,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "cht",
          "xp": 2250,
-         "care": [
-            [
-               41385856,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32938794,
          "stage": 6,
@@ -1923,13 +2217,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "aca",
          "xp": 750,
-         "care": [
-            [
-               41385856,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32938928,
          "stage": 8,
@@ -1945,13 +2233,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               41385856,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 32939019,
          "stage": 8,
@@ -2054,7 +2336,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -2065,8 +2347,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2083,11 +2365,11 @@ module.exports = {
          "xp": 750,
          "care": [
             [
-               41400755,
+               41486935,
                "watered"
             ],
             [
-               41372067,
+               41458192,
                "watered",
                ""
             ],
@@ -2098,8 +2380,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2114,19 +2396,10 @@ module.exports = {
          "owner": "qwoyn",
          "strain": "aca",
          "xp": 2250,
-         "care": [
-            [
-               41407849,
-               "watered"
-            ],
-            [
-               41407849,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "quality": [],
          "id": "c46",
          "traits": [
@@ -2242,57 +2515,60 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451561,
+               "pollinated"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
          "id": "a56",
          "planted": 40910014,
-         "father": "beta",
-         "sex": "female"
+         "father": "hk",
+         "sex": "female",
+         "pollinated": true
       },
       "b50": {
          "owner": "abrockman",
-         "strain": "cg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491813,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b50",
-         "planted": 40910034,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "c50": {
@@ -2301,22 +2577,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2365,17 +2649,21 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
@@ -2391,18 +2679,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485675,
+               "pollinated"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2410,8 +2706,8 @@ module.exports = {
          "id": "e38",
          "planted": 40910019,
          "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "father": "dp",
+         "pollinated": true
       },
       "f17": {
          "owner": "abrockman",
@@ -2419,22 +2715,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2450,22 +2754,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2481,22 +2793,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -2508,30 +2828,20 @@ module.exports = {
       },
       "b51": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491813,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b51",
-         "planted": 40910058,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "c52": {
@@ -2540,22 +2850,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -2571,18 +2889,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2599,22 +2921,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2630,21 +2960,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3135,13 +3470,7 @@ module.exports = {
          "owner": "simgirl",
          "strain": "mal",
          "xp": 2250,
-         "care": [
-            [
-               41385856,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 33537639,
          "stage": 7,
@@ -3176,21 +3505,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403173,
-               "pollinated"
-            ],
-            [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3207,22 +3545,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3234,30 +3580,20 @@ module.exports = {
       },
       "b58": {
          "owner": "abrockman",
-         "strain": "kbr",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491815,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b58",
-         "planted": 40910129,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "a65": {
@@ -3266,21 +3602,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403178,
-               "pollinated"
+               41485688,
+               "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403095,
                "watered"
-            ],
-            [
-               41403056,
-               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3297,18 +3642,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3325,17 +3674,21 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
@@ -3351,22 +3704,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3382,22 +3743,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3414,13 +3783,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3432,30 +3814,20 @@ module.exports = {
       },
       "b59": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491815,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b59",
-         "planted": 40910335,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "d47": {
@@ -3464,21 +3836,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3495,18 +3872,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3519,30 +3900,20 @@ module.exports = {
       },
       "b60": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491815,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b60",
-         "planted": 40910400,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "c59": {
@@ -3551,22 +3922,30 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [],
          "id": "c59",
          "planted": 41110011,
@@ -3580,22 +3959,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3611,18 +3998,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3639,21 +4030,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3739,18 +4135,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403021,
+               41482516,
                "watered"
             ],
             [
-               41371483,
+               41454810,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3814,10 +4210,16 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "kbr",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               41472925,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seeds"
          ],
@@ -3829,10 +4231,16 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "cg",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               41472925,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta seed"
          ],
@@ -3953,7 +4361,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41376487,
+               41485510,
                "watered",
                ""
             ],
@@ -3963,8 +4371,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3980,18 +4388,18 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41376487,
-               "watered",
-               ""
+               41485510,
+               "watered"
             ],
             [
-               41376487,
-               "watered"
+               41460154,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4007,7 +4415,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41376487,
+               41485510,
                "watered",
                ""
             ],
@@ -4017,8 +4425,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4051,22 +4459,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4082,18 +4498,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4109,22 +4529,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4140,22 +4568,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4171,21 +4607,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4201,18 +4642,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4272,14 +4717,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41380882,
+               41478210,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "quality": [],
          "id": "d56",
          "planted": 41104930,
@@ -4296,14 +4741,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41380882,
+               41478210,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "quality": [],
          "id": "e63",
          "planted": 41104912,
@@ -4320,14 +4765,14 @@ module.exports = {
          "xp": 10,
          "care": [
             [
-               41380882,
+               41478210,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -4344,22 +4789,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -4375,22 +4828,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4406,18 +4867,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4433,18 +4898,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4460,21 +4929,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4482,38 +4956,25 @@ module.exports = {
          "planted": 41146492,
          "terps": [],
          "father": "beta",
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "a78": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 50,
-         "care": [
-            [
-               41403255,
-               "pollinated"
-            ],
-            [
-               41403187,
-               "pollinated"
-            ],
-            [
-               41403095,
-               "watered"
-            ]
-         ],
+         "strain": "aca",
+         "xp": 2250,
+         "care": [],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "terps": [],
+         "stats": [],
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "inv": [],
          "traits": [
             "Beta Seed"
          ],
-         "terps": [],
-         "planted": 39615548,
-         "id": "a78",
-         "father": "undefined",
-         "sex": "male",
-         "pollinated": true
+         "planted": 41485681
       },
       "a79": {
          "owner": "abrockman",
@@ -4521,22 +4982,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4552,18 +5021,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4579,22 +5052,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4610,18 +5091,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4637,22 +5122,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4668,22 +5161,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4699,21 +5200,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4728,22 +5234,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4759,22 +5273,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4789,21 +5311,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4815,33 +5342,20 @@ module.exports = {
       },
       "e65": {
          "owner": "abrockman",
-         "strain": "",
-         "xp": 0,
+         "strain": "cg",
+         "xp": 50,
          "care": [
             [
-               41404215,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "terps": [],
-         "stats": [],
-         "stage": -1,
-         "substage": 0,
-         "pollinated": false
-      },
-      "e66": {
-         "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
-         "care": [
-            [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
@@ -4850,6 +5364,38 @@ module.exports = {
          "stats": [],
          "stage": 1,
          "substage": 2,
+         "pollinated": false,
+         "inv": [],
+         "traits": [
+            "patreon genesis seed"
+         ],
+         "planted": 41422101,
+         "father": "sensimilla"
+      },
+      "e66": {
+         "owner": "abrockman",
+         "strain": "aca",
+         "xp": 2250,
+         "care": [
+            [
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "terps": [],
+         "stats": [],
+         "stage": 1,
+         "substage": 5,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -4919,17 +5465,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41331019,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4942,34 +5485,26 @@ module.exports = {
       },
       "d61": {
          "owner": "saboin",
-         "strain": "aca",
+         "strain": "tha",
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41403735,
-               "pollinated"
-            ],
-            [
-               41403705,
-               "harvested"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 0,
-         "traits": [
-            "Genesis Seed"
-         ],
          "terps": [],
-         "planted": 39704079,
-         "id": "d61",
-         "father": "mis",
-         "sex": "male",
-         "pollinated": true
+         "stats": [],
+         "stage": 1,
+         "substage": 1,
+         "pollinated": true,
+         "inv": [],
+         "traits": [
+            "Beta Seed"
+         ],
+         "planted": 41466726
       },
       "f42": {
          "owner": "silverlining1",
@@ -5021,18 +5556,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5082,14 +5613,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -5106,21 +5637,27 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41403705,
+               41466761,
                "harvested"
             ],
             [
-               41331002,
-               "harvested"
+               41466742,
+               "watered",
+               ""
+            ],
+            [
+               41466713,
+               "pollinated"
+            ],
+            [
+               41434307,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 4,
+         "stage": 5,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -5128,8 +5665,8 @@ module.exports = {
          "planted": 40417692,
          "id": "a83",
          "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "father": "aca",
+         "pollinated": true
       },
       "f45": {
          "owner": "aggamun",
@@ -5186,17 +5723,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41331019,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5213,13 +5747,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5257,20 +5792,34 @@ module.exports = {
       },
       "b72": {
          "owner": "abrockman",
-         "strain": "",
-         "xp": 0,
+         "strain": "lkg",
+         "xp": 2250,
          "care": [
             [
-               41405418,
-               "tilled"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ]
          ],
          "aff": [],
          "terps": [],
          "stats": [],
-         "stage": -1,
-         "substage": 0,
-         "pollinated": false
+         "stage": 1,
+         "substage": 2,
+         "pollinated": true,
+         "inv": [],
+         "traits": [
+            "Beta Seed"
+         ],
+         "planted": 41422105
       },
       "c78": {
          "owner": "abrockman",
@@ -5278,22 +5827,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -5310,21 +5867,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -5341,18 +5903,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -5365,35 +5931,20 @@ module.exports = {
       },
       "c79": {
          "owner": "abrockman",
-         "strain": "kbr",
+         "strain": "cht",
          "xp": 2250,
-         "care": [
-            [
-               41403095,
-               "watered"
-            ],
-            [
-               41403056,
-               "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
+         "stage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "planted": 40019026,
-         "id": "c79",
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "stats": [],
+         "pollinated": true,
+         "inv": [],
+         "planted": 41485685
       },
       "f50": {
          "owner": "abrockman",
@@ -5401,22 +5952,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5440,30 +5999,20 @@ module.exports = {
       },
       "b73": {
          "owner": "abrockman",
-         "strain": "mal",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491818,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b73",
-         "planted": 40910442,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "e72": {
@@ -5488,14 +6037,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -5512,13 +6061,17 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41349730,
+               41482487,
+               "watered"
+            ],
+            [
+               41428298,
                "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -5586,18 +6139,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -5614,14 +6163,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5638,18 +6187,18 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41400227,
+               41485864,
                "watered",
                ""
             ],
             [
-               41383131,
-               "pollinated"
+               41465028,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seeds"
          ],
@@ -5870,21 +6419,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5901,18 +6455,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5929,22 +6487,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5957,30 +6523,20 @@ module.exports = {
       },
       "b75": {
          "owner": "abrockman",
-         "strain": "lkg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491818,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b75",
-         "planted": 40910490,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "e76": {
@@ -5989,18 +6545,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6017,22 +6577,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6045,30 +6613,20 @@ module.exports = {
       },
       "b76": {
          "owner": "abrockman",
-         "strain": "kbr",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491818,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b76",
-         "planted": 40910562,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "e77": {
@@ -6077,18 +6635,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6105,22 +6667,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6137,22 +6707,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6169,22 +6747,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6201,22 +6787,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6233,21 +6827,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6260,25 +6859,31 @@ module.exports = {
       },
       "e78": {
          "owner": "wdougwatson",
-         "strain": "afg",
-         "xp": 1,
-         "care": [],
-         "aff": [],
-         "planted": 37838718,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Genesis Seed"
+         "strain": "",
+         "xp": 0,
+         "care": [
+            [
+               41490620,
+               "tilled"
+            ]
          ],
-         "id": "e78",
-         "father": "beta",
-         "sex": "male"
+         "aff": [],
+         "terps": [],
+         "stats": [],
+         "stage": -1,
+         "substage": 0,
+         "pollinated": false
       },
       "c82": {
          "owner": "wdougwatson",
          "strain": "lb",
          "xp": 1,
-         "care": [],
+         "care": [
+            [
+               41473122,
+               "harvested"
+            ]
+         ],
          "aff": [],
          "planted": 37909137,
          "traits": [
@@ -6313,14 +6918,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6337,17 +6942,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41331019,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6364,17 +6966,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41331019,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6391,14 +6990,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6415,18 +7014,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -6439,30 +7034,20 @@ module.exports = {
       },
       "b80": {
          "owner": "abrockman",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491819,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b80",
-         "planted": 40910677,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "c85": {
@@ -6471,22 +7056,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6503,18 +7096,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6531,21 +7128,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6560,10 +7162,16 @@ module.exports = {
          "owner": "mcoinz79",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               41484382,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seeds"
          ],
@@ -6580,22 +7188,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41404039,
+               41475225,
                "watered"
+            ],
+            [
+               41445425,
+               "watered",
+               ""
             ],
             [
                41389275,
                "watered"
-            ],
-            [
-               41363688,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 1,
          "pollinated": true,
          "father": "beta",
          "planted": 41189273,
@@ -6603,7 +7211,8 @@ module.exports = {
             "Genesis Seed"
          ],
          "terps": [],
-         "id": "c86"
+         "id": "c86",
+         "sex": "female"
       },
       "c87": {
          "owner": "ecoinstats",
@@ -6611,11 +7220,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered"
             ],
             [
-               41370875,
+               41457001,
                "watered",
                ""
             ],
@@ -6626,8 +7235,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 38196458,
-         "stage": 8,
-         "substage": 4,
+         "stage": 9,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -6642,7 +7251,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered",
                ""
             ],
@@ -6653,8 +7262,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 38196473,
-         "stage": 9,
-         "substage": 4,
+         "stage": 10,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -6669,11 +7278,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered"
             ],
             [
-               41370875,
+               41457001,
                "watered",
                ""
             ],
@@ -6685,7 +7294,7 @@ module.exports = {
          "aff": [],
          "planted": 38196479,
          "stage": 10,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -6700,15 +7309,15 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "planted": 38196505,
-         "stage": 8,
-         "substage": 4,
+         "stage": 9,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -6723,7 +7332,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered",
                ""
             ],
@@ -6735,7 +7344,7 @@ module.exports = {
          "aff": [],
          "planted": 38196512,
          "stage": 7,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Genesis Seed"
          ],
@@ -6749,9 +7358,17 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
@@ -6759,8 +7376,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6768,8 +7385,8 @@ module.exports = {
          "id": "b83",
          "planted": 40910712,
          "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "father": "hk",
+         "pollinated": true
       },
       "c88": {
          "owner": "abrockman",
@@ -6777,22 +7394,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6809,22 +7434,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6837,30 +7470,20 @@ module.exports = {
       },
       "b84": {
          "owner": "abrockman",
-         "strain": "hk",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41403095,
-               "watered",
-               ""
-            ],
-            [
-               41403056,
-               "harvested"
+               41491820,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "b84",
-         "planted": 40911140,
-         "sex": "female",
-         "father": "beta",
+         "stats": [],
          "pollinated": false
       },
       "d74": {
@@ -6869,21 +7492,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6900,21 +7528,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403136,
-               "pollinated"
+               41485688,
+               "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403095,
                "watered"
-            ],
-            [
-               41403056,
-               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6931,19 +7568,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41361344,
-               "watered",
-               ""
+               41492648,
+               "watered"
             ],
             [
-               41212882,
+               41464418,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -6960,19 +7596,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41361344,
-               "watered",
-               ""
+               41492648,
+               "watered"
             ],
             [
-               41212882,
+               41464418,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -7003,7 +7638,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered",
                ""
             ],
@@ -7014,8 +7649,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 38433483,
-         "stage": 8,
-         "substage": 6,
+         "stage": 9,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -7030,7 +7665,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41399562,
+               41485742,
                "watered",
                ""
             ],
@@ -7042,7 +7677,7 @@ module.exports = {
          "aff": [],
          "planted": 38433779,
          "stage": 7,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -7069,14 +7704,22 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41374890,
+               41481945,
+               "watered"
+            ],
+            [
+               41453731,
                "watered",
                ""
+            ],
+            [
+               41453726,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -7138,13 +7781,14 @@ module.exports = {
          "xp": 10,
          "care": [
             [
-               41349730,
-               "watered"
+               41482487,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -7161,14 +7805,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41374890,
+               41481945,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -7185,14 +7829,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41374890,
+               41481945,
+               "watered"
+            ],
+            [
+               41453728,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 3,
          "traits": [],
          "id": "c95",
          "planted": 41109123,
@@ -7207,18 +7855,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -7295,14 +7939,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -7319,17 +7963,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41331019,
-               "watered"
+               41466742,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7346,14 +7987,14 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "quality": [],
          "id": "b89",
          "planted": 41131270,
@@ -7371,11 +8012,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
@@ -7383,7 +8020,7 @@ module.exports = {
          "aff": [],
          "planted": 40827506,
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -7398,22 +8035,24 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41403705,
+               41466761,
                "harvested"
             ],
             [
-               41331002,
-               "harvested"
+               41466742,
+               "watered",
+               ""
+            ],
+            [
+               41434307,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "planted": 39578613,
          "stage": 4,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -7428,22 +8067,24 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41403705,
+               41466761,
                "harvested"
             ],
             [
-               41331002,
-               "harvested"
+               41466742,
+               "watered",
+               ""
+            ],
+            [
+               41434307,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "planted": 39578627,
          "stage": 4,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -7458,18 +8099,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403752,
-               "watered"
-            ],
-            [
-               41222370,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7511,22 +8148,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -7576,23 +8221,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "planted": 39615181,
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -7607,22 +8260,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -7638,21 +8299,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 5,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -7667,22 +8333,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -7699,22 +8373,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7730,23 +8412,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373341,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "planted": 39615262,
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "id": "a102",
          "sex": "female",
          "father": "beta",
@@ -7758,12 +8448,16 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
@@ -7771,7 +8465,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 5,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -7785,21 +8479,26 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
-               "watered"
+               41485688,
+               "watered",
+               ""
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403056,
                "harvested"
-            ],
-            [
-               41373270,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -7816,18 +8515,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7844,21 +8547,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403129,
-               "pollinated"
+               41485688,
+               "watered"
+            ],
+            [
+               41485668,
+               "harvested"
+            ],
+            [
+               41451579,
+               "watered",
+               ""
+            ],
+            [
+               41451552,
+               "harvested"
             ],
             [
                41403095,
                "watered"
-            ],
-            [
-               41403056,
-               "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -7875,22 +8587,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7906,22 +8626,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41403095,
+               41485688,
                "watered"
             ],
             [
-               41403056,
+               41485668,
                "harvested"
             ],
             [
-               41373341,
+               41451579,
                "watered",
                ""
+            ],
+            [
+               41451552,
+               "harvested"
+            ],
+            [
+               41422084,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 5,
          "father": "beta",
          "pollinated": true,
          "id": "f62",
@@ -7935,7 +8663,12 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "dp",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               41472925,
+               "watered"
+            ]
+         ],
          "aff": [],
          "planted": 39630962,
          "stage": 2,
@@ -7954,22 +8687,18 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41400227,
+               41485864,
                "watered"
             ],
             [
-               41375309,
+               41465028,
                "watered",
                ""
-            ],
-            [
-               41223259,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 2,
          "pollinated": true,
          "father": "beta",
          "planted": 41223204,
@@ -8058,11 +8787,16 @@ module.exports = {
          "owner": "mcoinz79",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               41484382,
+               "watered"
+            ]
+         ],
          "aff": [],
          "planted": 40040184,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 0,
          "id": "a98",
          "sex": "male",
          "father": "beta",
@@ -8072,16 +8806,11 @@ module.exports = {
          "owner": "okean123",
          "strain": "hk",
          "xp": 50,
-         "care": [
-            [
-               41396916,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 40061164,
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Genesis Seed"
          ],
@@ -8108,25 +8837,26 @@ module.exports = {
       },
       "b90": {
          "owner": "jbsharkey",
-         "strain": "swz",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               41383355,
+               41474042,
+               "watered",
+               ""
+            ],
+            [
+               41443585,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "planted": 40254636,
-         "stage": 4,
+         "terps": [],
+         "stats": [],
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b90",
-         "father": "beta",
-         "sex": "male"
+         "pollinated": false
       },
       "c99": {
          "owner": "tsnaks",
@@ -8168,18 +8898,21 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400716,
+               41479543,
+               "harvested"
+            ],
+            [
+               41479537,
                "watered",
                ""
             ],
             [
-               41393792,
+               41455423,
+               "harvested"
+            ],
+            [
+               41422157,
                "watered"
-            ],
-            [
-               41347077,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
@@ -8187,8 +8920,8 @@ module.exports = {
          "traits": [
             "Genesis Seed"
          ],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "id": "e91",
          "sex": "female",
          "father": "mis",
@@ -8196,50 +8929,17 @@ module.exports = {
       },
       "d83": {
          "owner": "nupulse",
-         "strain": "pam",
-         "xp": 50,
-         "care": [
-            [
-               41408499,
-               "harvested"
-            ],
-            [
-               41408488,
-               "harvested"
-            ],
-            [
-               41408479,
-               "watered"
-            ],
-            [
-               41408476,
-               "watered"
-            ],
-            [
-               41386161,
-               "watered",
-               ""
-            ],
-            [
-               41379029,
-               "watered"
-            ],
-            [
-               41267317,
-               "watered"
-            ]
-         ],
+         "strain": "",
+         "xp": 0,
+         "care": [],
          "aff": [],
-         "planted": 40778449,
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d83",
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "d83"
       },
       "b91": {
          "owner": "atomcollector",
@@ -8247,7 +8947,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41389097,
+               41468286,
                "watered",
                ""
             ]
@@ -8255,7 +8955,7 @@ module.exports = {
          "aff": [],
          "planted": 40794325,
          "stage": 3,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Genesis Seed"
          ],
@@ -8270,7 +8970,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ]
@@ -8278,7 +8978,7 @@ module.exports = {
          "aff": [],
          "planted": 40809789,
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -8293,7 +8993,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -8305,8 +9005,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809799,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -8321,7 +9021,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -8333,8 +9033,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809802,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -8349,11 +9049,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered"
             ],
             [
-               41372067,
+               41458192,
                "watered",
                ""
             ],
@@ -8365,8 +9065,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809807,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
@@ -8381,11 +9081,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered"
             ],
             [
-               41372067,
+               41458192,
                "watered",
                ""
             ],
@@ -8397,8 +9097,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809812,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
@@ -8413,7 +9113,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ]
@@ -8421,7 +9121,7 @@ module.exports = {
          "aff": [],
          "planted": 40809816,
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -8436,11 +9136,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered"
             ],
             [
-               41372067,
+               41458192,
                "watered",
                ""
             ],
@@ -8452,8 +9152,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809834,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
@@ -8468,7 +9168,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -8480,8 +9180,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809839,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -8496,7 +9196,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -8508,8 +9208,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809843,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "id": "e93",
          "father": "beta",
          "sex": "female",
@@ -8521,7 +9221,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400755,
+               41486935,
                "watered",
                ""
             ],
@@ -8533,8 +9233,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 40809860,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "id": "e94",
          "sex": "female",
          "father": "beta",
@@ -8544,19 +9244,10 @@ module.exports = {
          "owner": "qwoyn",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               41407849,
-               "watered"
-            ],
-            [
-               41407849,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -8571,15 +9262,15 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41403021,
+               41482516,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "planted": 40931201,
-         "stage": 3,
-         "substage": 4,
+         "stage": 4,
+         "substage": 0,
          "id": "e95",
          "sex": "female",
          "father": "beta",
@@ -8605,11 +9296,17 @@ module.exports = {
          "owner": "stever82",
          "strain": "kbr",
          "xp": 2250,
-         "care": [],
+         "care": [
+            [
+               41481945,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "planted": 40989764,
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -8641,19 +9338,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41400716,
+               41479537,
                "watered",
                ""
             ],
             [
-               41393792,
+               41422157,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 40999925,
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "id": "b95",
          "father": "beta",
          "sex": "female",
@@ -8665,22 +9362,23 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               41479537,
+               "watered",
+               ""
+            ],
+            [
+               41455418,
+               "watered"
+            ],
+            [
                41400716,
-               "watered"
-            ],
-            [
-               41393792,
-               "watered"
-            ],
-            [
-               41336022,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41002416,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "traits": [
             "Beta Seeds"
          ],
@@ -8695,11 +9393,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -8711,8 +9409,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41029783,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "id": "a116",
          "sex": "female",
          "father": "beta",
@@ -8724,15 +9422,15 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41403752,
+               41466742,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "planted": 41062298,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 1,
          "id": "b97",
          "sex": "female",
          "father": "beta",
@@ -8744,19 +9442,23 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41403095,
+               41485688,
                "watered",
                ""
             ],
             [
-               41403056,
+               41485668,
+               "harvested"
+            ],
+            [
+               41451552,
                "harvested"
             ]
          ],
          "aff": [],
          "planted": 41063384,
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "father": "beta",
          "pollinated": false,
          "id": "b98",
@@ -8768,11 +9470,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -8784,8 +9486,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41063913,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "c101",
          "father": "beta",
          "pollinated": false,
@@ -8797,7 +9499,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -8809,8 +9511,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41063919,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "e97",
          "father": "beta",
          "pollinated": false,
@@ -8822,11 +9524,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -8838,8 +9540,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064192,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "a118",
          "father": "beta",
          "pollinated": false,
@@ -8851,7 +9553,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
@@ -8859,7 +9561,7 @@ module.exports = {
          "aff": [],
          "planted": 41064198,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "id": "b100",
          "father": "beta",
          "pollinated": false,
@@ -8871,7 +9573,7 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -8883,8 +9585,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064336,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "e98",
          "father": "beta",
          "pollinated": false,
@@ -8896,7 +9598,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -8908,8 +9610,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064345,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d87",
          "father": "beta",
          "pollinated": false,
@@ -8921,11 +9623,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -8937,8 +9639,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064475,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "a119",
          "father": "beta",
          "pollinated": false,
@@ -8950,7 +9652,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
@@ -8958,7 +9660,7 @@ module.exports = {
          "aff": [],
          "planted": 41064569,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "id": "b101",
          "father": "beta",
          "pollinated": false,
@@ -8970,11 +9672,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -8986,8 +9688,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064573,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "c102",
          "father": "beta",
          "pollinated": false,
@@ -8999,7 +9701,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
@@ -9007,7 +9709,7 @@ module.exports = {
          "aff": [],
          "planted": 41064614,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "id": "b102",
          "father": "beta",
          "pollinated": false,
@@ -9019,11 +9721,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9035,8 +9737,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064621,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "c103",
          "father": "beta",
          "pollinated": false,
@@ -9048,7 +9750,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9060,8 +9762,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064624,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d88",
          "father": "beta",
          "pollinated": false,
@@ -9073,7 +9775,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
@@ -9081,7 +9783,7 @@ module.exports = {
          "aff": [],
          "planted": 41064642,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "id": "b103",
          "father": "beta",
          "pollinated": false,
@@ -9093,11 +9795,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9109,8 +9811,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064645,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "c104",
          "father": "beta",
          "pollinated": false,
@@ -9122,7 +9824,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9134,8 +9836,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064648,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d89",
          "father": "beta",
          "pollinated": false,
@@ -9147,7 +9849,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9159,8 +9861,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064702,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d90",
          "father": "beta",
          "pollinated": false,
@@ -9172,7 +9874,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9184,8 +9886,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064924,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d91",
          "father": "beta",
          "pollinated": false,
@@ -9197,11 +9899,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9213,8 +9915,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064927,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "c105",
          "father": "beta",
          "pollinated": false,
@@ -9226,11 +9928,11 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9242,8 +9944,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064930,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "f74",
          "father": "beta",
          "pollinated": false,
@@ -9255,7 +9957,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
@@ -9263,7 +9965,7 @@ module.exports = {
          "aff": [],
          "planted": 41064939,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "id": "b104",
          "father": "beta",
          "pollinated": false,
@@ -9275,7 +9977,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9287,8 +9989,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064942,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "e99",
          "father": "beta",
          "pollinated": false,
@@ -9300,7 +10002,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9312,8 +10014,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064945,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "d92",
          "father": "beta",
          "pollinated": false,
@@ -9325,7 +10027,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9337,8 +10039,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41064954,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "e100",
          "father": "beta",
          "pollinated": false,
@@ -9350,11 +10052,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9366,8 +10068,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41066539,
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "id": "f73",
          "father": "beta",
          "pollinated": false,
@@ -9393,11 +10095,11 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9409,8 +10111,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087918,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9425,7 +10127,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9437,8 +10139,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087921,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9453,15 +10155,15 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "planted": 41087924,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -9476,11 +10178,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9492,8 +10194,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087928,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9508,7 +10210,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9520,8 +10222,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087931,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9536,11 +10238,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9552,8 +10254,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087943,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9568,11 +10270,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered"
             ],
             [
-               41371615,
+               41459586,
                "watered",
                ""
             ],
@@ -9584,8 +10286,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087950,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9600,7 +10302,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41401606,
+               41489014,
                "watered",
                ""
             ],
@@ -9612,8 +10314,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 41087956,
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9628,43 +10330,27 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41408028,
+               41453562,
+               "watered",
+               ""
+            ],
+            [
+               41442887,
                "watered"
             ],
             [
-               41408024,
-               "watered"
-            ],
-            [
-               41407588,
+               41436640,
                "watered"
             ],
             [
                41408027,
                "watered"
-            ],
-            [
-               41408024,
-               "watered"
-            ],
-            [
-               41407588,
-               "watered"
-            ],
-            [
-               41393840,
-               "watered"
-            ],
-            [
-               41224930,
-               "watered",
-               ""
             ]
          ],
          "aff": [],
          "planted": 41102826,
          "stage": 2,
-         "substage": 0,
+         "substage": 3,
          "father": "beta",
          "pollinated": false,
          "id": "c108",
@@ -9688,7 +10374,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41380882,
+               41478210,
                "watered",
                ""
             ]
@@ -9696,7 +10382,7 @@ module.exports = {
          "aff": [],
          "planted": 41129895,
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -9712,19 +10398,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41380882,
-               "watered",
-               ""
+               41478210,
+               "watered"
             ],
             [
-               41360812,
-               "watered"
+               41446991,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "planted": 41129909,
          "stage": 2,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -9740,31 +10426,23 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41408479,
+               41494346,
                "watered"
             ],
             [
-               41408476,
-               "watered"
-            ],
-            [
-               41386161,
+               41466372,
                "watered",
                ""
             ],
             [
-               41379029,
-               "watered"
-            ],
-            [
-               41267317,
+               41466370,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41151843,
          "stage": 2,
-         "substage": 3,
+         "substage": 6,
          "id": "a124",
          "father": "beta",
          "pollinated": false,
@@ -9850,30 +10528,27 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41410013,
+               41491023,
                "watered"
             ],
             [
-               41396089,
+               41462256,
                "watered",
                ""
             ],
             [
-               41396066,
-               "watered"
-            ],
-            [
-               41293894,
+               41410013,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41269952,
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 1,
          "father": "beta",
          "pollinated": false,
-         "id": "e104"
+         "id": "e104",
+         "sex": "female"
       },
       "a125": {
          "owner": "badpupper",
@@ -9881,44 +10556,37 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41410013,
+               41491023,
                "watered"
             ],
             [
-               41396089,
+               41462256,
+               "watered",
+               ""
+            ],
+            [
+               41422998,
                "watered"
             ],
             [
                41396066,
                "watered"
-            ],
-            [
-               41293894,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41270438,
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "father": "beta",
          "pollinated": false,
-         "id": "a125"
+         "id": "a125",
+         "sex": "female"
       },
       "c112": {
          "owner": "songokubg",
          "strain": "cht",
          "xp": 50,
-         "care": [
-            [
-               41387044,
-               "harvested"
-            ],
-            [
-               41387031,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "terps": [
             null
@@ -9928,8 +10596,34 @@ module.exports = {
          ],
          "planted": 41386520,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "id": "c112"
+      },
+      "d99": {
+         "owner": "fenngen",
+         "strain": "hk",
+         "xp": 50,
+         "care": [
+            [
+               41486751,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seeds"
+            ]
+         ],
+         "planted": 41486735,
+         "stage": 1,
+         "substage": 1,
+         "pollinated": true
       }
    },
    "users": {
@@ -9951,33 +10645,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10147,33 +10841,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10192,33 +10886,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10300,33 +10994,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10347,33 +11041,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10393,33 +11087,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10441,33 +11135,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10493,33 +11187,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "breeder": "",
@@ -10592,33 +11286,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10660,33 +11354,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -10700,22 +11394,6 @@ module.exports = {
             "e37"
          ],
          "seeds": [
-            {
-               "strain": "mis",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "xp": 200,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": false
-            },
             {
                "strain": "sog",
                "xp": 200,
@@ -10773,14 +11451,6 @@ module.exports = {
          ],
          "buds": [
             {
-               "strain": "hk",
-               "xp": 2250,
-               "traits": [
-                  "beta buds"
-               ],
-               "terps": []
-            },
-            {
                "strain": "sog",
                "xp": 2250,
                "traits": [
@@ -11003,40 +11673,40 @@ module.exports = {
                   "beta buds"
                ],
                "terps": []
-            },
+            }
          ],
          "breeder": "Willie",
          "alliance": "",
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 10,
-                  "vacoven": 10,
-                  "bubblebags": 10,
-                  "browniemix": 10,
-                  "papers": 10,
-                  "bluntwraps": 10,
-                  "hempwraps": 10
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 10,
+                     "vacoven": 10,
+                     "bubblebags": 10,
+                     "browniemix": 10,
+                     "papers": 10,
+                     "bluntwraps": 10,
+                     "hempwraps": 10
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11056,33 +11726,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11101,33 +11771,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11214,33 +11884,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11261,33 +11931,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11310,33 +11980,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11373,33 +12043,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11421,33 +12091,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11466,33 +12136,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11511,33 +12181,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11907,33 +12577,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11952,33 +12622,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -11997,33 +12667,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12052,33 +12722,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12114,33 +12784,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12163,33 +12833,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12208,33 +12878,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12253,33 +12923,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12298,33 +12968,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12353,33 +13023,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12420,33 +13090,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12465,33 +13135,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12508,33 +13178,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12555,33 +13225,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12626,33 +13296,33 @@ module.exports = {
          "farmer": 1,
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -12673,35 +13343,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -12716,35 +13386,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -12761,35 +13431,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -12806,35 +13476,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -12851,35 +13521,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -12896,35 +13566,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 2,
@@ -12943,35 +13613,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 1,
@@ -13002,35 +13672,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 1,
@@ -13047,35 +13717,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 1,
@@ -13094,35 +13764,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 1,
@@ -13160,35 +13830,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -13233,33 +13903,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -13289,35 +13959,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -13345,35 +14015,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0,
          "a": 0,
@@ -13401,35 +14071,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -13446,35 +14116,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -13518,35 +14188,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -13581,35 +14251,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -13645,33 +14315,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -13731,33 +14401,33 @@ module.exports = {
          "alliance": "",
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -13880,22 +14550,6 @@ module.exports = {
                "pollinated": true
             },
             {
-               "strain": "aca",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "mal",
                "xp": 2250,
                "traits": [
@@ -14033,14 +14687,6 @@ module.exports = {
             },
             {
                "strain": "mis",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lkg",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14769,16 +15415,6 @@ module.exports = {
             },
             {
                "strain": "afg",
-               "xp": 50,
-               "traits": [
-                  "patreon genesis seed"
-               ],
-               "terps": [],
-               "pollinated": false,
-               "father": "sensimilla"
-            },
-            {
-               "strain": "cg",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -14800,47 +15436,15 @@ module.exports = {
          ],
          "pollen": [
             {
-               "strain": "pam",
+               "strain": "dp",
                "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "familyTree": "pam",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "pam",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "familyTree": "pam",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "hk",
-               "xp": 2250,
                "traits": [
                   "Beta Pollen"
                ],
                "terps": [],
                "thc": "coming soon",
                "cbd": "coming soon",
-               "familyTree": "hk",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "hk",
-               "xp": 2250,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "hk",
+               "familyTree": "dp",
                "father": "Sensimilla"
             }
          ],
@@ -15048,6 +15652,314 @@ module.exports = {
                "terps": [],
                "familyTree": "kbr",
                "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lkg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lkg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mal",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "mal",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 2250,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "hk",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "hk",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "hk",
+               "father": "Sensimilla"
             }
          ],
          "breeder": "",
@@ -15056,33 +15968,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15136,33 +16048,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15673,35 +16585,35 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
-         ],         
+         ],
          "stats": [],
          "v": 0
       },
@@ -15722,33 +16634,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15765,33 +16677,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15819,33 +16731,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15866,33 +16778,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15913,33 +16825,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -15986,33 +16898,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16040,33 +16952,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16083,33 +16995,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16130,33 +17042,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16201,33 +17113,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16244,33 +17156,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16310,33 +17222,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16364,33 +17276,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16413,33 +17325,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -16957,33 +17869,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17017,33 +17929,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17060,33 +17972,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17108,33 +18020,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17187,33 +18099,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17230,33 +18142,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17278,33 +18190,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17334,33 +18246,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17394,33 +18306,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17439,33 +18351,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17484,33 +18396,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17548,14 +18460,6 @@ module.exports = {
                "pollinated": true
             },
             {
-               "strain": "hk",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "cg",
                "xp": 50,
                "traits": [
@@ -17580,33 +18484,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17623,33 +18527,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17668,33 +18572,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17849,33 +18753,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -17911,33 +18815,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18026,33 +18930,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18071,33 +18975,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18116,33 +19020,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18159,33 +19063,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18216,33 +19120,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18271,33 +19175,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18314,33 +19218,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18374,14 +19278,6 @@ module.exports = {
             "b97"
          ],
          "seeds": [
-            {
-               "strain": "tha",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
             {
                "strain": "dp",
                "xp": 50,
@@ -18639,40 +19535,53 @@ module.exports = {
                "pollinated": true
             }
          ],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "aca",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "father": "Sensimilla"
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18689,33 +19598,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18734,33 +19643,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18782,33 +19691,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18828,33 +19737,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18871,33 +19780,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18927,33 +19836,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -18992,33 +19901,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19035,33 +19944,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19082,33 +19991,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19139,33 +20048,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19181,43 +20090,60 @@ module.exports = {
                   "Genesis Seed"
                ],
                "pollinated": true
+            },
+            {
+               "strain": "sog",
+               "xp": 200,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
-         "buds": [],
+         "buds": [
+            {
+               "strain": "hk",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19229,7 +20155,32 @@ module.exports = {
             "c82"
          ],
          "seeds": [],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "afg",
+               "xp": 1,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "xp": 1,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            }
+         ],
          "buds": [],
          "breeder": "",
          "farmer": 1,
@@ -19237,33 +20188,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19291,33 +20242,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19376,33 +20327,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19431,33 +20382,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19485,33 +20436,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19547,33 +20498,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19592,33 +20543,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19644,33 +20595,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19697,33 +20648,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19787,33 +20738,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19880,33 +20831,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19927,33 +20878,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -19980,33 +20931,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20035,33 +20986,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20100,33 +21051,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20143,33 +21094,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20190,33 +21141,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20233,33 +21184,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20276,33 +21227,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20322,33 +21273,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20359,7 +21310,32 @@ module.exports = {
             "b90"
          ],
          "seeds": [],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "swz",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            }
+         ],
          "buds": [],
          "breeder": "",
          "farmer": 1,
@@ -20367,33 +21343,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20416,33 +21392,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20454,7 +21430,16 @@ module.exports = {
             "b95",
             "a115"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "mis",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            }
+         ],
          "pollen": [],
          "buds": [],
          "breeder": "",
@@ -20463,33 +21448,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20506,33 +21491,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20547,40 +21532,69 @@ module.exports = {
          ],
          "seeds": [],
          "pollen": [],
-         "buds": [],
+         "buds": [
+            {
+               "strain": "pam",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20599,33 +21613,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20678,33 +21692,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20727,33 +21741,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20783,33 +21797,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20828,33 +21842,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20876,33 +21890,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20919,33 +21933,33 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -20966,33 +21980,77 @@ module.exports = {
          "friends": [],
          "inv": [
             {
-            "seeds": [],
-            "pollen": [],
-            "buds": [],
-            "kief": [],
-            "bubblehash": [],
-            "oil": [],
-            "edibles": [],
-            "consumables": [
-               {
-                  "joints": [],
-                  "blunts": [],
-                  "moonrocks": [],
-                  "dippedjoints": [],
-                  "cannagars": [],
-               }
-            ],
-            "tools":[
-               {
-                  "kiefbox": 0,
-                  "vacoven": 0,
-                  "bubblebags": 0,
-                  "browniemix": 0,
-                  "papers": 0,
-                  "bluntwraps": 0,
-                  "hempwraps": 0
-               }
-            ]
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0,
+                     "papers": 0,
+                     "bluntwraps": 0,
+                     "hempwraps": 0
+                  }
+               ]
+            }
+         ],
+         "stats": [],
+         "traits": [],
+         "terps": [],
+         "v": 0
+      },
+      "fenngen": {
+         "addrs": [
+            "d99"
+         ],
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+               "seeds": [],
+               "pollen": [],
+               "buds": [],
+               "kief": [],
+               "bubblehash": [],
+               "oil": [],
+               "edibles": [],
+               "consumables": [
+                  {
+                     "joints": [],
+                     "blunts": [],
+                     "moonrocks": [],
+                     "dippedjoints": [],
+                     "cannagars": []
+                  }
+               ],
+               "tools": [
+                  {
+                     "kiefbox": 0,
+                     "vacoven": 0,
+                     "bubblebags": 0,
+                     "browniemix": 0
+                  }
+               ]
             }
          ],
          "stats": [],
@@ -21014,92 +22072,81 @@ module.exports = {
       "e": []
    },
    "payday": [
-      [],
-      [],
-      [],
-      []
+      [
+         {
+            "account": "vcdragon",
+            "weight": 9702
+         },
+         {
+            "account": "atomcollector",
+            "weight": 294
+         }
+      ],
+      [
+         {
+            "account": "anarcist69",
+            "weight": 9228
+         },
+         {
+            "account": "nupulse",
+            "weight": 769
+         }
+      ],
+      [
+         {
+            "account": "ecoinstats",
+            "weight": 8750
+         },
+         {
+            "account": "chunkysoupsvc",
+            "weight": 1250
+         }
+      ]
    ],
    "blacklist": {
       "zonguin": true,
       "steembeem": true
    },
    "cs": {
-      "41377374:gabiausfranken": "received monthly patreon tier3 reward",
-      "41379028:nupulse": "nupulse watered d83 a124 ",
-      "41379045:abrockman": "received monthly patreon tier3 reward",
-      "41379501:qwoyn": "qwoyn pollinated a10 with hk",
-      "41380049:qwoyn": "planted on harvested plot a100 ",
-      "41380880:russia-btc": "russia-btc watered e63 d56 a75 a121 c106 ",
-      "41383070:songokubg": "39197422798 vested",
-      "41383129:rachaeldwatson": "rachaeldwatson pollinated e73 with mal",
-      "41383354:jbsharkey": "jbsharkey watered b90 ",
-      "41383573:songokubg": "songokubg purchased land at plot # c112",
-      "41383708:songokubg": "songokubg purchased cht",
-      "41383973:songokubg": "songokubg is managing",
-      "41385854:simgirl": "simgirl watered e31 f13 b47 d35 e45 ",
-      "41385918:qwoyn": "qwoyn is managing",
-      "41386161:nupulse": "nupulse watered d83 a124 ",
-      "41386377:qwoyn-dev": "qwoyn-dev refunded successfully",
-      "41386502:qwoyn-fund": "qwoyn-fund refunded successfully",
-      "41386520:songokubg": "planted on empty plot c112",
-      "41386628:qwoyn": "qwoyn refunded successfully",
-      "41387031:songokubg": "songokubg watered c112 ",
-      "41387044:songokubg": "songokubg harvested c112 ",
-      "41389097:atomcollector": "atomcollector watered b91 ",
-      "41389275:ultratrain": "ultratrain watered c86 ",
-      "41393792:cuko": "cuko watered e91 b95 a115 ",
-      "41393840:cwow2": "cwow2 watered c108 ",
-      "41396066:badpupper": "badpupper watered e104 a125 ",
-      "41396089:badpupper": "badpupper watered e104 a125 ",
-      "41396916:okean123": "okean123 watered a112 ",
-      "41399562:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
-      "41400227:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
-      "41400716:cuko": "cuko watered e91 b95 a115 ",
-      "41400755:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
-      "41401606:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
-      "41403021:romiferns": "romiferns watered c40 f21 e95 ",
-      "41403056:abrockman": "abrockman harvested a50 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "41403060:abrockman": "abrockman pollinated a50 with kbr",
-      "41403064:abrockman": "abrockman pollinated d33 with aca",
-      "41403070:abrockman": "abrockman pollinated e29 with hk",
-      "41403074:abrockman": "abrockman pollinated f12 with kmj",
-      "41403078:abrockman": "planted on harvested plot b43 ",
-      "41403082:abrockman": "planted on harvested plot a66 ",
-      "41403095:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "41403100:abrockman": "abrockman pollinated a50 with hk",
-      "41403105:abrockman": "abrockman pollinated d33 with kmj",
-      "41403110:abrockman": "abrockman pollinated e29 with swz",
-      "41403129:abrockman": "abrockman pollinated a104 with kmj",
-      "41403136:abrockman": "abrockman pollinated a103 with swz",
-      "41403173:abrockman": "abrockman pollinated c57 with swz",
-      "41403178:abrockman": "abrockman pollinated a65 with mal",
-      "41403187:abrockman": "abrockman pollinated a78 with undefined",
-      "41403255:abrockman": "abrockman pollinated a78 with undefined",
-      "41403705:saboin": "saboin harvested d61 a83 a91 a97 ",
-      "41403735:saboin": "saboin pollinated d61 with mis",
-      "41403752:saboin": "saboin watered c75 d61 f44 a83 b71 c77 d62 e70 a91 f55 b74 a96 b78 c83 a97 b79 c84 f66 c97 b88 a111 b89 f70 b97 ",
-      "41404039:ultratrain": "ultratrain watered c86 ",
-      "41405230:qwoyn": "qwoyn changed their breeder name to Snoop",
-      "41405596:qwoyn": "qwoyn changed their breeder name to Willie",
-      "41407586:cwow2": "cwow2 watered c108 ",
-      "41407847:qwoyn": "qwoyn watered a10 c46 a100 ",
-      "41408022:cwow2": "cwow2 watered c108 ",
-      "41408026:cwow2": "cwow2 watered c108 ",
-      "41408042:qwoyn": "qwoyn doesn't own that seed",
-      "41408081:qwoyn": "qwoyn doesn't own those buds",
-      "41408301:qwoyn": "qwoyn doesn't own that pollen",
-      "41408475:nupulse": "nupulse watered d83 a124 ",
-      "41408478:nupulse": "nupulse watered d83 a124 ",
-      "41408487:nupulse": "nupulse harvested d83 ",
-      "41408497:nupulse": "nupulse harvested d83 ",
-      "41408531:qwoyn-fund": "qwoyn-fund sent a 2250 xp aca to qwoyn",
-      "41408574:qwoyn": "qwoyn doesn't own those buds",
-      "41408941:qwoyn": "qwoyn sent hk buds to qwoyn-fund",
-      "41408955:qwoyn": "qwoyn sent sog pollen to qwoyn-fund",
-      "41408970:qwoyn-fund": "qwoyn-fund sent hk buds to qwoyn",
-      "41408974:qwoyn-fund": "qwoyn-fund sent sog pollen to qwoyn",
-      "41409059:qwoyn-fund": "planted on harvested plot e13 ",
-      "41409069:qwoyn-fund": "qwoyn-fund watered e13 ",
-      "41410011:badpupper": "badpupper watered e104 a125 "
+      "41464416:elemental010": "elemental010 watered c38 c91 a120 a52 ",
+      "41465027:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
+      "41466368:nupulse": "nupulse watered a124 ",
+      "41466371:nupulse": "nupulse watered a124 ",
+      "41466711:saboin": "saboin pollinated a83 with aca",
+      "41466725:saboin": "planted on harvested plot d61 ",
+      "41466740:saboin": "saboin watered c75 d61 f44 a83 b71 c77 d62 e70 a91 f55 b74 a96 b78 c83 a97 b79 c84 f66 c97 b88 a111 b89 f70 b97 ",
+      "41466760:saboin": "saboin harvested a83 a97 a91 ",
+      "41468285:atomcollector": "atomcollector watered b91 ",
+      "41472502:hashkings": "5400 to vesting",
+      "41472923:ghosthunter1": "ghosthunter1 watered a9 b1 e7 c94 ",
+      "41473120:wdougwatson": "wdougwatson harvested e78 c82 ",
+      "41474040:jbsharkey": "jbsharkey watered b90 ",
+      "41475223:ultratrain": "ultratrain watered c86 ",
+      "41478209:russia-btc": "russia-btc watered e63 d56 a75 a121 c106 ",
+      "41479536:cuko": "cuko watered e91 b95 a115 ",
+      "41479542:cuko": "cuko harvested e91 ",
+      "41481943:stever82": "stever82 watered f63 d81 c95 e96 ",
+      "41482485:chunkysoupsvc": "chunkysoupsvc watered f52 d80 ",
+      "41482515:romiferns": "romiferns watered c40 f21 e95 ",
+      "41484381:mcoinz79": "mcoinz79 watered a98 e80 ",
+      "41485509:nutritree": "nutritree watered d54 e58 f33 ",
+      "41485667:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "41485674:abrockman": "abrockman pollinated e38 with dp",
+      "41485680:abrockman": "planted on harvested plot a78 ",
+      "41485683:abrockman": "planted on harvested plot c79 ",
+      "41485686:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "41485741:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
+      "41485764:fenngen": "39190661517 vested",
+      "41485782:fenngen": "fenngen purchased land at plot #d99",
+      "41485842:qwoyn": "qwoyn sent a 2250 xp mis to cuko",
+      "41485862:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
+      "41486193:nutritree": "nutritree sent a 50 xp hk to fenngen",
+      "41486733:fenngen": "planted on empty plot d99",
+      "41486749:fenngen": "fenngen watered d99 ",
+      "41486933:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
+      "41489013:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
+      "41491022:badpupper": "badpupper watered e104 a125 ",
+      "41492647:elemental010": "elemental010 watered c38 c91 a120 a52 ",
+      "41494344:nupulse": "nupulse watered a124 "
    }
 }
