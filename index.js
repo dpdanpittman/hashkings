@@ -1055,15 +1055,15 @@ function startApp() {
                 var allianceState = {
                     name: newAlliance,
                     founder: from,
-                    members: 0,
-                    memberNames: {from},
+                    members: 1,
+                    memberNames: [from],
                 }
                 state.stats.alliances.push(allianceState)
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} changed created alliance named ${newAllianceName}`
+        state.cs[`${json.block_num}:${from}`] = `${from} created alliance named ${newAllianceName}`
     });
 
     // search for qwoyn_pollinate from user on blockchain since genesis
