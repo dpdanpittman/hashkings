@@ -1004,10 +1004,11 @@ function startApp() {
 
                 state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
             }
-            
+
         state.cs[`${json.block_num}:${from}`] = `${from} added ${friendName} as a friend`
     });
 
+    //****ISSUE*****//
     //search for qwoyn_remove_friend from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
@@ -1017,7 +1018,7 @@ function startApp() {
         for (var i = 0; i < friend.length; i++) {
             friendName += friend[i]
 
-            state.users[from].friends.splice(i, 1)[0];
+            state.users[from].friends.splice(i, 1)[0];// not removing correct friend
             state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
@@ -1034,6 +1035,8 @@ function startApp() {
         for (var i = 0; i < alliance.length; i++) {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
+
+                state.alliances[alliance].members++;
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
@@ -1050,9 +1053,9 @@ function startApp() {
         for (var i = 0; i < newAlliance.length; i++) {
                 newAllianceName += newAlliance[i]
                 var allianceState = {
-                    name: type,
+                    name: newAlliance,
                     founder: from,
-                    members: 1,
+                    members: 0,
                     memberNames: {from},
                 }
                 state.alliances.push(allianceState)
