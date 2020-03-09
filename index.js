@@ -1026,6 +1026,7 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} removed ${friendName} as a friend`
     });
 
+    //****ISSUE****//
     //search for qwoyn_join_alliance from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
@@ -1036,13 +1037,13 @@ function startApp() {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
 
-                state.stats.alliances[alliance].members++;
+                //state.stats.alliances[alliance].members++; //not updating correct alliance
 
                 var newMember = {
                     memberName: from
                 }
 
-                state.stats.alliances[alliance].push(newMember);
+                //state.stats.alliances[alliance].push(newMember); //not updating membernames
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
@@ -1106,7 +1107,7 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.bubblebags > 0) {
+            if (state.user[from].buds && state.user[from].inv.tools.bubblebags > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
