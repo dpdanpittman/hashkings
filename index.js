@@ -383,7 +383,7 @@ steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
   }
 });
 
-//assigns kudos to user. kudos determine who has properly watered their plants and 
+//assigns kudos to user. kudos determine who has properly cared for their plants and 
 //increments kudos accordingly
 function kudo(user) {
     console.log('Kudos: ' + user)
@@ -962,9 +962,12 @@ function startApp() {
                 state.users[from].breeder = breeder[i];
                 breederName += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
         }
+        
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
     });
+
     //search for qwoyn_farmer_type from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_farmer_type&json=%7B%22breeder%22%3A%5B%22TYPE%22%5D%7D
@@ -972,11 +975,91 @@ function startApp() {
         let farmer = json.farmer,
             farmerName = 1
         for (var i = 0; i < farmer.length; i++) {
-                state.users[from].farmer = breeder[i];
+                state.users[from].farmer = farmer[i];
                 farmerName += farmer[i]
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
         }
+        state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
+
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerName}`
+    });
+
+    //search for qwoyn_add_friend from user on blockchain since genesis
+    //steemconnect link
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
+    processor.on('add_friend', function(json, from) {
+        let friend = json.friend,
+            friendName = ''
+        for (var i = 0; i < friend.length; i++) {
+            friendName += friend[i]
+
+            var friends = {
+                name: friend,
+                alliance: state.users[friend].alliance,
+                addedOn: json.block_num,
+            }
+
+            state.users[from].friends.push(friends)
+            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'added_friend']);
+
+            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} added ${friendName} as a friend`
+    });
+
+    //search for qwoyn_remove_friend from user on blockchain since genesis
+    //steemconnect link
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
+    processor.on('remove_friend', function(json, from) {
+        let friend = json.friend,
+            friendName = ''
+        for (var i = 0; i < friend.length; i++) {
+            friendName += friend[i]
+
+            state.users[from].friends.splice(i, 1)[0];
+            state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
+
+            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} removed ${friendName} as a friend`
+    });
+
+    //search for qwoyn_join_alliance from user on blockchain since genesis
+    //steemconnect link
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
+    processor.on('join_alliance', function(json, from) {
+        let alliance = json.alliance,
+            allianceName = ''
+        for (var i = 0; i < alliance.length; i++) {
+                state.users[from].alliance = alliance[i];
+                allianceName += alliance[i]
+            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
+        }
+        state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
+
+        state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
+    });
+
+    //search for qwoyn_alliance from user on blockchain since genesis
+    //steemconnect link
+    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_create_alliance&json=%7B%22newAlliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
+    processor.on('create_alliance', function(json, from) {
+        let newAlliance = json.newAlliance,
+            newAllianceName = ''
+        for (var i = 0; i < newAlliance.length; i++) {
+                newAllianceName += newAlliance[i]
+                var allianceState = {
+                    name: type,
+                    founder: from,
+                    members: 1,
+                    memberNames: {from},
+                }
+                state.alliances.push(allianceState)
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
+
+            state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} changed created alliance named ${newAllianceName}`
     });
 
     // search for qwoyn_pollinate from user on blockchain since genesis
@@ -997,13 +1080,307 @@ function startApp() {
                 state.land[plants].father = pollenName;       
             }
             } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
+              state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
             }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
         
         return pollenName;
     });
+
+    // search for qwoyn_craft_bubblehash from user on blockchain since genesis
+    processor.on('craft_bubblehash', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.bubblebags > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.bubblebags--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var bubbleHash = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.bubbleHash.push(bubbleHash)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created bubble hash with ${budNames}`
+    });
+
+    // search for qwoyn_craft_oil from user on blockchain since genesis
+    processor.on('craft_oil', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.vacoven > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.vacoven--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var oil = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.push(oil)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created hash oil with ${budNames}`
+    });
+
+    // search for qwoyn_craft_kief from user on blockchain since genesis
+    processor.on('craft_kief', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.kiefbox > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.kiefbox--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var kief = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.push(kief)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created kief with ${budNames}`
+    });
+
+    // search for qwoyn_craft_kief from user on blockchain since genesis
+    processor.on('craft_edibles', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.browniemix > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.browniemix--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var edibles = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.push(edibles)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created edibles with ${budNames}`
+    });
+
+    // search for qwoyn_craft_joint from user on blockchain since genesis
+    processor.on('craft_joint', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.papers > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.papers--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var joint = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.consumables.joints.push(joint)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} rolled a joint with ${budNames}`
+    });
+
+    // search for qwoyn_craft_joint from user on blockchain since genesis
+    processor.on('craft_blunt', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            dateCreated = json.block_num
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].inv.tools.bluntwraps > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
+                budNames += `${buds}`;
+             
+                state.users[from].inv.tools.bluntwraps--;
+                state.users[from].buds.splice(i, 1)[0];
+
+                var blunt = {
+                    strain: buds,
+                    createdBy: from,
+                    createdOn: dateCreated
+                }
+
+                state.users[from].inv.consumables.blunts.push(blunt)
+
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} rolled a blunt with ${budNames}`
+    });
+
+    // search for qwoyn_pollinate from user on blockchain since genesis
+    processor.on('craft_moonrocks', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            oil = json.oil,
+            oilNames = '',
+            kief = json.kief,
+            kiefNames = ''
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
+                budNames += `${buds}`;
+                oilNames += `${oil}`;
+                kiefNames += `${kief}`;
+             
+                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].buds.splice(i, 1)[0];
+                state.users[from].inv.kief.splice(i, 1)[0];
+                
+                var craftedMoonrock = {
+                    buds: buds,
+                    oil: oil,
+                    kief: kief,
+                    createdBy: from,
+                    createdOn: json.block_num
+                }
+
+                state.users[from].inv.consumables.moonrocks.push(craftedMoonrock)
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created a moonrock from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+    });
+
+    // search for qwoyn_craft_moonrocks from user on blockchain since genesis
+    processor.on('craft_dipped_joint', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            oil = json.oil,
+            oilNames = '',
+            kief = json.kief,
+            kiefNames = ''
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.papers > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
+                budNames += `${buds}`;
+                oilNames += `${oil}`;
+                kiefNames += `${kief}`;
+             
+                state.users[from].inv.tools.papers--;
+                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].buds.splice(i, 1)[0];
+                state.users[from].inv.kief.splice(i, 1)[0];
+                
+                var dippedJoint = {
+                    buds: buds,
+                    oil: oil,
+                    kief: kief,
+                    createdBy: from,
+                    createdOn: json.block_num
+                }
+
+                state.users[from].inv.consumables.dippedjoints.push(dippedJoint)
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created a dipped joint from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+    });
+
+     // search for qwoyn_craft_cannagar from user on blockchain since genesis
+     processor.on('craft_cannagar', function(json, from) {
+        let buds = json.buds,
+            budNames = '',
+            oil = json.oil,
+            oilNames = '',
+            kief = json.kief,
+            kiefNames = ''
+        for (var i = 0; i < 1; i++) {
+            try {
+            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.hempwraps > 0) {
+                state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
+                budNames += `${buds}`;
+                oilNames += `${oil}`;;
+                kiefNames += `${kief}`;
+             
+                state.users[from].inv.tools.papers--;
+                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].buds.splice(i, 1)[0];
+                state.users[from].inv.kief.splice(i, 1)[0];
+                
+                var cannagar = {
+                    buds: buds,
+                    oil: oil,
+                    kief: kief,
+                    createdBy: from,
+                    createdOn: json.block_num
+                }
+
+                state.users[from].inv.consumables.cannagar.push(cannagar)
+            }
+            } catch (e){
+              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+    });
+
     
 /*
     processor.on('return', function(json, from) {
@@ -1412,6 +1789,7 @@ function startApp() {
                     xp: seed.xp,
                     care: [],
                     aff: [],
+                    inv: [],
                     terps: [seed.terps],
                     traits: [seed.traits],
                     planted: processor.getCurrentBlockNumber(),
@@ -1427,6 +1805,7 @@ function startApp() {
                 state.land[json.addr].xp = seed.xp
                 state.land[json.addr].care = []
                 state.land[json.addr].aff = []
+                state.land[json.addr].inv = []
                 state.land[json.addr].traits = seed.traits || []
                 state.land[json.addr].terps = seed.terps || []
                 state.land[json.addr].planted = processor.getCurrentBlockNumber()
@@ -2155,7 +2534,6 @@ function daily(addr) {
                     state.land[addr].substage = 7
                 }
                 for (var j = 0; j < state.land[addr].aff.length; j++) {
-                    
                     try {
                     if (state.land[addr].aff[j][0] > processor.getCurrentBlockNumber() - 86400 && state.land[addr].aff[j][1] == 'over') {
                         state.land[addr].stage = -1;
@@ -2165,8 +2543,55 @@ function daily(addr) {
                     console.log('An affliction happened', e.message)
                    }
                 }
+            }
+            
             //if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
-            } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_kief give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_kief') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_bubblehash give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_bubblehash') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_oil give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_oil') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_joint give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_joint') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_edibles give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_edibles') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_blunt give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_blunt') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_moonrock give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_moonrock') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_dipped_joint give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_dipped_joint') {
+                kudo(state.land[addr].owner);
+            }
+
+            //if json is crafted_cannagar give kudos
+            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_cannagar') {
                 kudo(state.land[addr].owner);
             }
                 //female harvested pollinated plant

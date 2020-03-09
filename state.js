@@ -747,7 +747,8 @@ module.exports = {
             "Terpinolene"
          ]
       },
-      "gardeners": 142
+      "gardeners": 142,
+      "alliances": []
    },
    "bal": {
       "r": -300,
@@ -9972,6 +9973,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10165,6 +10169,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10207,6 +10214,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10312,6 +10322,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10356,6 +10369,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10399,6 +10415,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10444,6 +10463,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10493,6 +10515,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10589,6 +10614,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10654,6 +10682,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10817,6 +10848,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10860,6 +10894,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -10902,6 +10939,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11012,6 +11052,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11056,6 +11099,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11102,6 +11148,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11162,6 +11211,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11207,6 +11259,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11249,6 +11304,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11291,6 +11349,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11684,6 +11745,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11726,6 +11790,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11768,6 +11835,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11820,6 +11890,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11879,6 +11952,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11925,6 +12001,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -11967,6 +12046,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12009,6 +12091,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12051,6 +12136,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12103,6 +12191,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12167,6 +12258,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12209,6 +12303,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12249,6 +12346,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12293,6 +12393,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12337,7 +12440,37 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 1,
          "a": 0,
@@ -12378,10 +12511,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0
       },
       "smartsteem": {
@@ -12417,10 +12554,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -12458,10 +12599,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -12499,10 +12644,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -12540,10 +12689,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -12581,10 +12734,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 2,
          "u": 0
@@ -12624,10 +12781,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -12679,10 +12840,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -12720,10 +12885,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -12763,10 +12932,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 1,
          "u": 0
@@ -12825,10 +12998,14 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
-         ],         "stats": [],
+         ],         
+         "stats": [],
          "v": 0,
          "a": 0,
          "u": 0
@@ -12894,6 +13071,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -12947,6 +13127,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13000,6 +13183,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13053,6 +13239,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13095,6 +13284,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13164,6 +13356,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13224,6 +13419,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13285,6 +13483,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -13343,7 +13544,38 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -14662,6 +14894,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -14713,7 +14948,39 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15244,6 +15511,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15264,7 +15534,39 @@ module.exports = {
          "buds": [],
          "breeder": "",
          "farmer": 1,
-         "inv": [],
+         "alliance": "",
+         "friends": [],
+         "inv": [
+            {
+            "seeds": [],
+            "pollen": [],
+            "buds": [],
+            "kief": [],
+            "bubblehash": [],
+            "oil": [],
+            "edibles": [],
+            "consumables": [
+               {
+                  "joints": [],
+                  "blunts": [],
+                  "moonrocks": [],
+                  "dippedjoints": [],
+                  "cannagars": [],
+               }
+            ],
+            "tools":[
+               {
+                  "kiefbox": 0,
+                  "vacoven": 0,
+                  "bubblebags": 0,
+                  "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
+               }
+            ]
+            }
+         ],
          "stats": [],
          "v": 0
       },
@@ -15301,6 +15603,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15352,6 +15657,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15396,6 +15704,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15440,6 +15751,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15510,6 +15824,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15561,6 +15878,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15601,6 +15921,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15645,6 +15968,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15713,6 +16039,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15753,6 +16082,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15816,6 +16148,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15867,6 +16202,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -15913,6 +16251,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16454,6 +16795,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16511,6 +16855,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16551,6 +16898,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16596,6 +16946,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16672,6 +17025,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16712,6 +17068,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16757,6 +17116,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16810,6 +17172,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16867,6 +17232,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16909,6 +17277,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -16951,6 +17322,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17044,6 +17418,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17084,6 +17461,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17126,6 +17506,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17304,6 +17687,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17363,6 +17749,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17475,6 +17864,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17517,6 +17909,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17559,6 +17954,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17599,6 +17997,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17653,6 +18054,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17705,6 +18109,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -17745,6 +18152,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18074,6 +18484,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18114,6 +18527,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18156,6 +18572,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18201,6 +18620,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18244,6 +18666,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18284,6 +18709,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18337,6 +18765,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18399,6 +18830,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18439,6 +18873,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18483,6 +18920,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18537,6 +18977,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18586,6 +19029,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18629,6 +19075,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18680,6 +19129,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18762,6 +19214,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18814,6 +19269,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18865,6 +19323,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18924,6 +19385,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -18966,6 +19430,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19015,6 +19482,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19065,6 +19535,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19152,6 +19625,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19242,6 +19718,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19286,6 +19765,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19336,6 +19818,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19388,6 +19873,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19450,6 +19938,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19490,6 +19981,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19534,6 +20028,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19574,6 +20071,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19614,6 +20114,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19657,6 +20160,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19699,6 +20205,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19745,6 +20254,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19789,6 +20301,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19829,6 +20344,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19874,6 +20392,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19916,6 +20437,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -19992,6 +20516,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20038,6 +20565,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20091,6 +20621,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20133,6 +20666,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20178,6 +20714,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20218,6 +20757,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
@@ -20262,6 +20804,9 @@ module.exports = {
                   "vacoven": 0,
                   "bubblebags": 0,
                   "browniemix": 0,
+                  "papers": 0,
+                  "bluntwraps": 0,
+                  "hempwraps": 0
                }
             ]
             }
