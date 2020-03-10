@@ -1206,7 +1206,7 @@ function startApp() {
                 budNames += `${buds}`;
              
                 state.users[from].papers--;
-                state.users[from].buds.splice(i, 1)[0];
+                seed = state.users[from].buds.splice(i, 1)[0];
 
                 var joint = {
                     strain: buds,
@@ -1223,14 +1223,26 @@ function startApp() {
    // search for qwoyn_joint from user on blockchain since genesis
     processor.on('craft_blunt', function(json, from) {
         let buds = json.buds,
-            budNames = '',
+            budNames = ''
             dateCreated = json.block_num
+        var bud = ''
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].seeds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
                 state.users[from].bluntwraps--;
-                state.users[from].buds.splice(i, 1)[0];
 
                 var blunt = {
                     strain: buds,
