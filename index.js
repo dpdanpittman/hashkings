@@ -1102,9 +1102,9 @@ function startApp() {
 
     // search for qwoyn_craft_bubblehash from user on blockchain since genesis
     processor.on('craft_bubblehash', function(json, from) {
-        var bags, bud=''
+        var bud=''
         try{
-            bags = state.users[from].inv.tools.bubblebags
+            
             for (var i = 0;i < state.users[from].buds.length; i++){
                 if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
             }
@@ -1114,14 +1114,16 @@ function startApp() {
                 if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
             }catch (e) {}
         }
-        if (bags >= 1 && bud) {
+        bags = state.users[from].inv.tools.bubblebags;
+        bags--;
+        if (bud) {
             var bubblehash = {
                 name: buds,
                 createdBy: from,
                 createdOn: json.block_num
             }
             state.users[from].inv.bubblehash.push(bubblehash);
-            bags--;
+            
 
             state.cs[`${json.block_num}:${from}`] = `crafted bubblehash with ${json.buds}`
 
