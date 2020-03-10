@@ -1102,32 +1102,39 @@ function startApp() {
 
     // search for qwoyn_craft_bubblehash from user on blockchain since genesis
     processor.on('craft_bubblehash', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            dateCreated = json.block_num
-        for (var i = 0; i < 3; i++) {
-            try {
-        
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
-                budNames += `${buds[i]}`;
-             
-                state.users[from].inv.tools.bubblebags--;
-                state.users[from].buds.splice(i, 1)[0];
-
-                var bubbleHash = {
-                    strain: buds,
-                    createdBy: from,
-                    createdOn: dateCreated
-                }
-
-                state.users[from].inv.bubbleHash.push(bubbleHash)
-
-            
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
+        var bags, buds=''
+        try{
+            bags = state.users[from].inv.tools.bubblebags
+            for (var i = 0;i < state.users[from].buds.length; i++){
+                if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
             }
+        } catch (e) {}
+        if (!bud){
+            try {
+                if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+            }catch (e) {}
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} created bubble hash with ${budNames}`
+        if (bags >= 1 && bud) {
+            var bubblehash = {
+                name: buds,
+                createdBy: from,
+                createdOn: json.block_num
+            }
+            state.users[from].inv.bubblehash.push(bubblehash);
+            bags--;
+
+            state.cs[`${json.block_num}:${from}`] = `crafted bubblehash with ${json.buds}`
+
+            /* if (state.users[from].xp < 0) {
+                state.users[from].seeds.unshift(seed);
+                state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
+            }*/
+        } else if (bud) {
+            state.users[from].buds.unshift(bud);
+            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that plot`
+        } else {
+            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a bud!`
+        }
     });
 
     // search for qwoyn_craft_oil from user on blockchain since genesis
