@@ -1102,11 +1102,11 @@ function startApp() {
 
     // search for qwoyn_craft_bubblehash from user on blockchain since genesis
     processor.on('craft_bubblehash', function(json, from) {
-        var bud=''
+        let bud=''
         try{
             
             for (var i = 0;i < state.users[from].buds.length; i++){
-                if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                if(state.users[from].buds[i].strain === json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
             }
         } catch (e) {}
         if (!bud){
@@ -1114,7 +1114,7 @@ function startApp() {
                 if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
             }catch (e) {}
         }
-        state.users[from].inv.tools.bubblebags--;
+
         if (bud) {
             var bubblehash = {
                 name: buds,
@@ -1122,7 +1122,7 @@ function startApp() {
                 createdOn: json.block_num
             }
             state.users[from].inv.bubblehash.push(bubblehash);
-            
+            state.users[from].inv.tools.bubblebags--;
 
             state.cs[`${json.block_num}:${from}`] = `crafted bubblehash with ${json.buds}`
 
