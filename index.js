@@ -1106,8 +1106,6 @@ function startApp() {
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].bubblebags > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
@@ -1122,10 +1120,6 @@ function startApp() {
 
                 state.users[from].bubblehash.push(bubblehash)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created bubblehash with ${budNames}`
     });
