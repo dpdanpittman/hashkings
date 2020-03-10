@@ -1018,7 +1018,19 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             friendName += friend[i]
 
-            state.users[from].friends.splice(i, 1)[0];// not removing correct friend
+            var friends = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].friends.length; i++){
+                        if(state.users[from].pollen[i].strain == json.friends){friends=state.users[from].friends.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!friends){
+                    try {
+                        if(state.users[from].friends.length)friends == state.users[from].friends.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
             state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
@@ -1694,10 +1706,12 @@ function startApp() {
               for (var i = 0;i < state.users[from].seeds.length; i++){
                   if (json.qual){
                     if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
+                      state.users[from].seeds[i].owner = json.to;
                       seed=state.users[from].seeds.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].seeds[i].strain === json.seed){
+                    state.users[from].seeds[i].owner = json.to;
                     seed=state.users[from].seeds.splice(i, 1)[0]
                     break
                   }
@@ -1754,10 +1768,12 @@ function startApp() {
               for (var i = 0;i < state.users[from].pollen.length; i++){
                   if (json.qual){
                     if(state.users[from].pollen[i].strain == json.pollen && state.users[from].pollen[i].xp == json.qual){
+                      state.users[from].pollen[i].owner = json.to;
                       pollen = state.users[from].pollen.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].pollen[i].strain === json.pollen){
+                    state.users[from].pollen[i].owner = json.to;
                     pollen = state.users[from].pollen.splice(i, 1)[0]
                     break
                   }
@@ -1815,10 +1831,12 @@ function startApp() {
               for (var i = 0;i < state.users[from].buds.length; i++){
                   if (json.qual){
                     if(state.users[from].buds[i].strain == json.buds && state.users[from].buds[i].xp == json.qual){
+                        state.users[from].buds[i].owner = json.to;
                         buds = state.users[from].buds.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].buds[i].strain == json.buds){
+                    state.users[from].buds[i].owner = json.to;
                     buds = state.users[from].buds.splice(i, 1)[0]
                     break
                   }
@@ -2123,6 +2141,7 @@ function startApp() {
                     if (want == 'spseed') xp = 20
                     var seed = {
                         strain: type,
+                        owner: json.from,
                         xp: xp,
                         traits: ['genesis seeds'],
                         terps: [],
@@ -2722,6 +2741,7 @@ function daily(addr) {
                   kudo(state.land[addr].owner)
                   const seed = {
                       strain: state.land[addr].strain,
+                      owner: state.land[addr].owner,
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
@@ -2734,6 +2754,7 @@ function daily(addr) {
                   }
                   const seed2 = {
                       strain: state.land[addr].strain,
+                      owner: state.land[addr].owner,
                       xp: state.land[addr].xp,
                       traits: ['beta pollinated seed'],
                       terps: [],
@@ -2775,6 +2796,7 @@ function daily(addr) {
                         kudo(state.land[addr].owner)
                         const bud1 = {
                             strain: state.land[addr].strain,
+                            owner: state.land[addr].owner,
                             xp: state.land[addr].xp,
                             traits: ['Beta Buds'],
                             terps: [state.land[addr].strain.terps],
@@ -2785,6 +2807,7 @@ function daily(addr) {
                         }
                         const bud2 = {
                             strain: state.land[addr].strain,
+                            owner: state.land[addr].owner,
                             xp: state.land[addr].xp,
                             traits: ['Beta Buds'],
                             thc: 'coming soon',
@@ -2826,6 +2849,7 @@ function daily(addr) {
                   kudo(state.land[addr].owner)
                   const pollen1 = {
                       strain: state.land[addr].strain,
+                      owner: state.land[addr].owner,
                       xp: state.land[addr].xp,
                       traits: ['Beta Pollen'],
                       terps: [],
@@ -2836,6 +2860,7 @@ function daily(addr) {
                   }
                   const pollen2 = {
                       strain: state.land[addr].strain,
+                      owner: state.land[addr].owner,
                       xp: state.land[addr].xp,
                       traits: ['Beta Pollen'],
                       terps: [],
