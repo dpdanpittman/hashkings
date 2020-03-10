@@ -1108,19 +1108,19 @@ function startApp() {
         for (var i = 0; i < 1; i++) {
             try {
             if (state.user[from].bubblebags > 0) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
                 state.users[from].bubblebags--;
                 state.users[from].buds.splice(i, 1)[0];
 
-                var oil = {
+                var bubblehash = {
                     strain: buds,
                     createdBy: from,
                     createdOn: dateCreated
                 }
 
-                state.users[from].oil.push(oil)
+                state.users[from].bubblehash.push(bubblehash)
 
             }
             } catch (e){
