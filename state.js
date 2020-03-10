@@ -896,6 +896,11 @@ module.exports = {
    ],
    "lands": {
       "forSale": [
+         "d45",
+         "c56",
+         "b49",
+         "d37",
+         "f16",
          "e40",
          "f23",
          "e41",
@@ -2276,55 +2281,6 @@ module.exports = {
          "father": "beta",
          "pollinated": true
       },
-      "b49": {
-         "owner": "hotsauceislethal",
-         "strain": "afg",
-         "xp": 2250,
-         "care": [],
-         "aff": [],
-         "planted": 33081456,
-         "stage": 4,
-         "substage": 6,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b49",
-         "father": "beta",
-         "sex": "male"
-      },
-      "f16": {
-         "owner": "hotsauceislethal",
-         "strain": "aca",
-         "xp": 2250,
-         "care": [],
-         "aff": [],
-         "planted": 33081480,
-         "stage": 5,
-         "substage": 4,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "f16",
-         "father": "beta",
-         "sex": "male"
-      },
-      "d37": {
-         "owner": "hotsauceislethal",
-         "strain": "pam",
-         "xp": 2250,
-         "care": [],
-         "aff": [],
-         "planted": 33081510,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d37",
-         "sex": "female",
-         "father": "beta",
-         "pollinated": true
-      },
       "a56": {
          "owner": "abrockman",
          "strain": "cg",
@@ -3187,33 +3143,6 @@ module.exports = {
          "sex": "female",
          "father": "beta",
          "pollinated": true
-      },
-      "d45": {
-         "owner": "yabapmatt",
-         "strain": "hk",
-         "xp": 2250,
-         "care": [],
-         "aff": [],
-         "planted": 33456211,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d45",
-         "father": "beta",
-         "sex": "male"
-      },
-      "c56": {
-         "owner": "yabapmatt",
-         "strain": "lb",
-         "xp": 2250,
-         "care": [],
-         "aff": [],
-         "planted": 33456234,
-         "stage": 1,
-         "substage": 0,
-         "father": "beta"
       },
       "e43": {
          "owner": "chronocrypto",
@@ -10039,13 +9968,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10056,6 +9985,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kmj",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -10066,6 +9996,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -10076,6 +10007,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -10086,6 +10018,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -10096,6 +10029,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -10108,6 +10042,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "lb",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis pollen"
@@ -10118,6 +10053,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis pollen"
@@ -10128,6 +10064,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis pollen"
@@ -10138,6 +10075,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis pollen"
@@ -10148,6 +10086,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis pollen"
@@ -10160,6 +10099,7 @@ module.exports = {
          "buds": [
             {
                "strain": "hk",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -10170,6 +10110,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -10180,6 +10121,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -10190,6 +10132,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -10200,6 +10143,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "gabiausfranken",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -10223,13 +10167,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10256,13 +10200,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10281,6 +10225,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cht",
+               "owner": "jonyoudyer",
                "xp": 750,
                "traits": [
                   "Beta Seeds"
@@ -10289,6 +10234,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "jonyoudyer",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -10297,6 +10243,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "jonyoudyer",
                "xp": 1,
                "traits": [
                   "Beta Seeds"
@@ -10305,6 +10252,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "jonyoudyer",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -10313,6 +10261,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "jonyoudyer",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -10321,6 +10270,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "jonyoudyer",
                "xp": 750,
                "traits": [
                   "Beta Seeds"
@@ -10329,6 +10279,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "jonyoudyer",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -10352,13 +10303,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10387,13 +10338,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10421,13 +10372,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10457,13 +10408,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10476,6 +10427,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "tha",
+               "owner": "besancia",
                "xp": 10,
                "traits": [
                   "Beta Seeds"
@@ -10497,13 +10449,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "breeder": "",
@@ -10521,6 +10473,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "prettynicevideo",
                "xp": 2250,
                "traits": [
                   "Genesis Seeds"
@@ -10529,6 +10482,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "prettynicevideo",
                "xp": 2250,
                "traits": [
                   "Genesis Seeds"
@@ -10537,6 +10491,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "prettynicevideo",
                "xp": 50,
                "traits": [
                   "Genesis Seeds"
@@ -10545,6 +10500,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "prettynicevideo",
                "xp": 50,
                "traits": [
                   "Genesis Seeds"
@@ -10553,6 +10509,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "prettynicevideo",
                "xp": 50,
                "traits": [
                   "Genesis Seeds"
@@ -10561,6 +10518,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "prettynicevideo",
                "xp": 50,
                "traits": [
                   "Genesis Seeds"
@@ -10584,13 +10542,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10606,6 +10564,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "ghosthunter1",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -10614,6 +10573,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "ghosthunter1",
                "xp": 2250,
                "traits": [
                   "beta seed"
@@ -10640,13 +10600,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -10662,6 +10622,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "sog", 
+               "owner": "qwoyn",
                "xp": 200,
                "traits": [
                   "Beta Seed"
@@ -10670,6 +10631,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -10680,6 +10642,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "Beta Pollen"
@@ -10689,6 +10652,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "Beta Pollen"
@@ -10698,6 +10662,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "Beta Pollen"
@@ -10707,6 +10672,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "Beta Pollen"
@@ -10718,6 +10684,7 @@ module.exports = {
          "buds": [
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10726,6 +10693,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10734,6 +10702,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10742,6 +10711,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10750,6 +10720,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10758,6 +10729,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10766,6 +10738,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10774,6 +10747,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10782,6 +10756,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10790,6 +10765,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10798,6 +10774,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10806,6 +10783,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10814,6 +10792,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10822,6 +10801,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10830,6 +10810,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10838,6 +10819,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10846,6 +10828,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10854,6 +10837,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10862,6 +10846,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10870,6 +10855,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10878,6 +10864,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10886,6 +10873,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10894,6 +10882,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10902,6 +10891,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10910,6 +10900,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10918,6 +10909,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10926,6 +10918,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10934,6 +10927,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "qwoyn",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -10976,8 +10970,8 @@ module.exports = {
          "papers": 10,
          "bluntwraps": 10,
          "hempwraps": 10,
-         "cloningkit": 0,
-         "indoorvegkit": 0,
+         "cloningkit": 10,
+         "indoorvegkit": 10,
          "stats": [
             [
                41496859,
@@ -11012,13 +11006,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11045,13 +11039,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11067,6 +11061,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11075,6 +11070,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11083,6 +11079,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11091,6 +11088,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11099,6 +11097,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11107,6 +11106,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11115,6 +11115,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11123,6 +11124,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "bluntsmasha",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11146,13 +11148,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11181,13 +11183,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11218,13 +11220,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11238,6 +11240,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "owner": "highroadseeds",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11246,6 +11249,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "highroadseeds",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11269,13 +11273,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11305,13 +11309,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11338,13 +11342,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11371,13 +11375,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11393,6 +11397,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11401,6 +11406,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11409,6 +11415,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11417,10 +11424,15 @@ module.exports = {
             },
             {
                "strain": "dp",
-               "xp": 50
+               "owner": "luegenbaron",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
             },
             {
                "strain": "aca",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11429,6 +11441,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11437,6 +11450,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11445,6 +11459,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11453,6 +11468,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11461,6 +11477,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11469,6 +11486,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11477,6 +11495,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11485,6 +11504,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -11493,6 +11513,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -11501,6 +11522,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "luegenbaron",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -11509,6 +11531,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11517,6 +11540,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11525,6 +11549,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11533,6 +11558,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "luegenbaron",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -11554,13 +11580,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11678,6 +11704,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11686,6 +11713,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11694,6 +11722,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11702,6 +11731,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11710,6 +11740,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11718,6 +11749,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11726,6 +11758,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11734,6 +11767,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11742,6 +11776,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11750,6 +11785,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "ngc",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11773,13 +11809,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11806,13 +11842,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11839,13 +11875,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11859,6 +11895,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
+               "owner": "fracasgrimm",
                "xp": 750,
                "traits": [
                   "Genesis Seed"
@@ -11882,13 +11919,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11901,6 +11938,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "gregorypatrick",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11909,6 +11947,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "gregorypatrick",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -11932,13 +11971,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -11969,13 +12008,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12002,13 +12041,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12035,13 +12074,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12068,13 +12107,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12088,6 +12127,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "eldun",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12111,13 +12151,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12135,6 +12175,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
+               "owner": "napoleon2702",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12143,6 +12184,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "napoleon2702",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12166,13 +12208,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12199,13 +12241,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12230,13 +12272,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12265,13 +12307,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12287,6 +12329,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "onthewayout",
                "xp": 1,
                "traits": [
                   "Beta Seed"
@@ -12295,6 +12338,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "onthewayout",
                "xp": 1,
                "traits": [
                   "Beta Seed"
@@ -12303,6 +12347,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "onthewayout",
                "xp": 1,
                "traits": [
                   "Beta Seed"
@@ -12324,13 +12369,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12359,13 +12404,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12390,13 +12435,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12423,13 +12468,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12456,13 +12501,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12489,13 +12534,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12522,13 +12567,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12557,13 +12602,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12581,6 +12626,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kmj",
+               "owner": "mondoshawan",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -12604,13 +12650,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12637,13 +12683,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12672,13 +12718,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12693,6 +12739,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
+               "owner": "qwoyn-fund",
                "xp": 50,
                "traits": [
                   "beta seed"
@@ -12701,6 +12748,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "qwoyn-fund",
                "xp": 2250,
                "traits": [
                   "beta seed"
@@ -12726,13 +12774,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12747,6 +12795,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
+               "owner": "qwoyn-dev",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12757,6 +12806,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "mis",
+               "owner": "qwoyn-dev",
                "xp": 50,
                "traits": [
                   "beta pollen"
@@ -12765,6 +12815,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "qwoyn-dev",
                "xp": 50,
                "traits": [
                   "beta pollen"
@@ -12787,13 +12838,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12808,6 +12859,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
+               "owner": "qwoyn-chest",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12831,13 +12883,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12852,59 +12904,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
-               "xp": 2250,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            }
-         ],
-         "pollen": [],
-         "buds": [],
-         "breeder": "",
-         "farmer": 1,
-         "alliance": "a",
-         "friends": [],
-         "inv": [],
-         "kief": [],
-         "bubblehash": [],
-         "oil": [],
-         "edibles": [],
-         "joints": [],
-         "blunts": [],
-         "moonrocks": [],
-         "dippedjoints": [],
-         "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
-         "cloningkit": 0,
-         "indoorvegkit": 0,
-         "stats": [
-            [
-               41496916,
-               "joined_alliance"
-            ],
-            [
-               41495842,
-               "joined_alliance"
-            ]
-         ],
-         "v": 0,
-         "a": 0,
-         "u": 0
-      },
-      "jrawsthorne": {
-         "addrs": [
-            "f8"
-         ],
-         "seeds": [
-            {
-               "strain": "aca",
+               "owner": "hashkings",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -12928,13 +12928,58 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "jrawsthorne": {
+         "addrs": [
+            "f8"
+         ],
+         "seeds": [
+            {
+               "strain": "aca",
+               "owner": "jrawsthorne",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": true
+            }
+         ],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12961,13 +13006,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -12982,6 +13027,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "fbmtek23",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -12990,6 +13036,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "fbmtek23",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -12998,6 +13045,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "fbmtek23",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13021,13 +13069,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -13041,6 +13089,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "elamental",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13049,6 +13098,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "elamental",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13072,13 +13122,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -13093,6 +13143,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "ecoinstar",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13101,6 +13152,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "ecoinstar",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13124,13 +13176,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -13144,6 +13196,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
+               "owner": "choosefreedom",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -13152,6 +13205,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "choosefreedom",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -13160,6 +13214,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "choosefreedom",
                "xp": 750,
                "traits": [
                   "Beta Seed"
@@ -13168,6 +13223,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "choosefreedom",
                "xp": 750,
                "traits": [
                   "Beta Seed"
@@ -13176,6 +13232,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "choosefreedom",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -13198,13 +13255,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -13320,6 +13377,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13328,6 +13386,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13336,6 +13395,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13344,6 +13404,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13352,6 +13413,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 1,
                "traits": [
                   "Beta Seed"
@@ -13360,6 +13422,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 1,
                "traits": [
                   "Beta Seed"
@@ -13368,6 +13431,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13376,6 +13440,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13384,6 +13449,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13392,6 +13458,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13400,6 +13467,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13408,6 +13476,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13416,6 +13485,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13424,6 +13494,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13432,6 +13503,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13440,6 +13512,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13448,6 +13521,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13456,6 +13530,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13464,6 +13539,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13472,6 +13548,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13480,6 +13557,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13488,6 +13566,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13496,6 +13575,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13504,6 +13584,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13512,6 +13593,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13520,6 +13602,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13528,6 +13611,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13536,6 +13620,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13544,6 +13629,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13552,6 +13638,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13560,6 +13647,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13568,6 +13656,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13576,6 +13665,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13584,6 +13674,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13592,6 +13683,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13600,6 +13692,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13608,6 +13701,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13616,6 +13710,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13624,6 +13719,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13632,6 +13728,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13640,6 +13737,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13648,6 +13746,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13656,6 +13755,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13664,6 +13764,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13672,6 +13773,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13680,6 +13782,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13688,6 +13791,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13696,6 +13800,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13704,6 +13809,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13712,6 +13818,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13720,6 +13827,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13728,6 +13836,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13736,6 +13845,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13744,6 +13854,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13752,6 +13863,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13760,6 +13872,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13768,6 +13881,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13776,6 +13890,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -13784,6 +13899,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13792,6 +13908,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13800,6 +13917,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13808,6 +13926,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13816,6 +13935,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13824,6 +13944,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -13832,6 +13953,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13840,6 +13962,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13848,6 +13971,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -13856,6 +13980,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -13864,6 +13989,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13872,6 +13998,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13880,6 +14007,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13888,6 +14016,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13896,6 +14025,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13904,6 +14034,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13912,6 +14043,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13920,6 +14052,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13928,6 +14061,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13936,6 +14070,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13944,6 +14079,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13952,6 +14088,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13960,6 +14097,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13968,6 +14106,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13976,6 +14115,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13984,6 +14124,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -13992,6 +14133,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14000,6 +14142,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -14008,6 +14151,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -14016,6 +14160,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14024,6 +14169,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14032,6 +14178,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14040,6 +14187,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14048,6 +14196,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -14056,6 +14205,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -14064,6 +14214,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14072,6 +14223,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14080,6 +14232,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14088,6 +14241,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -14096,6 +14250,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14105,6 +14260,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14114,6 +14270,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -14123,6 +14280,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -14132,6 +14290,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "beta pollinated seed"
@@ -14142,6 +14301,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "beta pollinated seed"
@@ -14152,6 +14312,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "beta pollinated seed"
@@ -14162,6 +14323,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "beta pollinated seed"
@@ -14172,6 +14334,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -14182,6 +14345,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -14192,6 +14356,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -14202,6 +14367,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis seed"
@@ -14214,6 +14380,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "dp",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -14228,6 +14395,7 @@ module.exports = {
          "buds": [
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14240,6 +14408,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14250,6 +14419,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14262,6 +14432,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14272,6 +14443,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14284,6 +14456,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14294,6 +14467,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14306,6 +14480,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14316,6 +14491,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14328,6 +14504,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14338,6 +14515,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14350,6 +14528,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14360,6 +14539,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -14370,6 +14550,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -14380,6 +14561,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -14390,6 +14572,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -14400,6 +14583,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "patreon genesis bud"
@@ -14410,6 +14594,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14422,6 +14607,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14432,6 +14618,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14446,6 +14633,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14460,6 +14648,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14474,6 +14663,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14488,6 +14678,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14502,6 +14693,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14516,6 +14708,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14530,6 +14723,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14544,6 +14738,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14558,6 +14753,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14572,6 +14768,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14586,6 +14783,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14600,6 +14798,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14614,6 +14813,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14628,6 +14828,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14642,6 +14843,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14656,6 +14858,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14670,6 +14873,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14684,6 +14888,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14698,6 +14903,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "abrockman",
                "xp": 2250,
                "traits": [
                   "Beta Buds"
@@ -14712,6 +14918,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14726,6 +14933,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "abrockman",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -14753,13 +14961,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -14774,6 +14982,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "swz",
+               "owner": "romiferns",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14782,6 +14991,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "romiferns",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14790,6 +15000,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "romiferns",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14798,6 +15009,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "romiferns",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14821,13 +15033,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -14862,6 +15074,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -14870,6 +15083,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -14878,6 +15092,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -14886,6 +15101,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -14894,6 +15110,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14902,6 +15119,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14910,6 +15128,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14918,6 +15137,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14926,6 +15146,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14934,6 +15155,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14942,6 +15164,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14950,6 +15173,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14958,6 +15182,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14966,6 +15191,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14974,6 +15200,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14982,6 +15209,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14990,6 +15218,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -14998,6 +15227,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15006,6 +15236,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15014,6 +15245,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15022,6 +15254,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15030,6 +15263,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15038,6 +15272,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15046,6 +15281,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15054,6 +15290,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15062,6 +15299,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15070,6 +15308,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15078,6 +15317,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15086,6 +15326,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15094,6 +15335,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15102,6 +15344,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15110,6 +15353,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15118,6 +15362,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15126,6 +15371,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15134,6 +15380,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15142,6 +15389,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15150,6 +15398,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15158,6 +15407,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15166,6 +15416,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15174,6 +15425,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15182,6 +15434,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15190,6 +15443,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15198,6 +15452,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15206,6 +15461,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "mulletwang",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15214,6 +15470,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15222,6 +15479,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15230,6 +15488,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15238,6 +15497,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15246,6 +15506,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15254,6 +15515,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15262,6 +15524,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15270,6 +15533,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15278,6 +15542,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15286,6 +15551,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "mulletwang",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -15296,6 +15562,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -15305,6 +15572,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -15314,6 +15582,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -15323,6 +15592,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "mulletwang",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -15346,13 +15616,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15383,13 +15653,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15414,13 +15684,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15433,6 +15703,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "richardcrill",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -15456,13 +15727,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15491,13 +15762,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15526,13 +15797,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15556,6 +15827,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kmj",
+               "owner": "anarcist69",
                "xp": 750,
                "traits": [
                   "Beta Seed"
@@ -15564,6 +15836,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "anarcist69",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15587,13 +15860,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15606,6 +15879,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "gamewatch",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -15629,13 +15903,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15660,24 +15934,20 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
          "v": 0
       },
       "hotsauceislethal": {
-         "addrs": [
-            "b49",
-            "d37",
-            "f16"
-         ],
+         "addrs": [],
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15695,13 +15965,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15715,27 +15985,30 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "aggamun",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             },
             {
                "strain": "afg",
+               "owner": "aggamun",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             },
             {
                "strain": "cht",
+               "owner": "aggamun",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -15754,13 +16027,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15785,13 +16058,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15808,6 +16081,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "guiltyparties",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -15816,6 +16090,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "guiltyparties",
                "xp": 2250,
                "traits": [
                   "Genesis Seed"
@@ -15839,13 +16114,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15858,6 +16133,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "faustofraser",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -15881,13 +16157,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15918,13 +16194,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -15971,6 +16247,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15979,6 +16256,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15987,6 +16265,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -15995,10 +16274,16 @@ module.exports = {
             },
             {
                "strain": "afg",
-               "xp": 50
+               "owner": "chronocrypto",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
             },
             {
                "strain": "tha",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16007,10 +16292,12 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "chronocrypto",
                "xp": 50
             },
             {
                "strain": "afg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16019,6 +16306,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16027,6 +16315,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16035,6 +16324,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16043,6 +16333,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16051,6 +16342,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16059,6 +16351,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16067,6 +16360,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16075,6 +16369,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16083,6 +16378,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16091,6 +16387,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16099,6 +16396,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16107,6 +16405,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16115,6 +16414,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16123,6 +16423,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16131,6 +16432,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16139,6 +16441,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16147,6 +16450,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16155,6 +16459,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -16163,6 +16468,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16171,6 +16477,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16179,6 +16486,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16187,6 +16495,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16195,6 +16504,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "chronocrypto",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16203,6 +16513,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "chronocrypto",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16211,6 +16522,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16219,6 +16531,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "chronocrypto",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16227,6 +16540,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16235,6 +16549,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16243,6 +16558,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16251,6 +16567,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16259,6 +16576,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16267,6 +16585,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16275,6 +16594,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16283,6 +16603,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16291,6 +16612,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16299,6 +16621,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16307,6 +16630,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16315,6 +16639,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16323,6 +16648,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16331,6 +16657,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16339,6 +16666,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16347,6 +16675,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16355,6 +16684,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16363,6 +16693,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16371,6 +16702,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16379,6 +16711,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16387,6 +16720,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16395,6 +16729,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16403,6 +16738,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16411,6 +16747,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16419,6 +16756,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16427,6 +16765,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chronocrypto",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16450,13 +16789,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16467,6 +16806,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
+               "owner": "coffeebuds",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -16475,6 +16815,7 @@ module.exports = {
             },
             {
                "strain": "lkg",
+               "owner": "coffeebuds",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -16498,13 +16839,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16529,13 +16870,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16544,10 +16885,7 @@ module.exports = {
          "u": 0
       },
       "yabapmatt": {
-         "addrs": [
-            "d45",
-            "c56"
-         ],
+         "addrs": [],
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -16565,13 +16903,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16585,6 +16923,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "pam",
+               "owner": "bauloewe",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16593,6 +16932,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "bauloewe",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16601,6 +16941,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "bauloewe",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16609,6 +16950,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "bauloewe",
                "xp": 2250,
                "traits": [
                   "Beta Seeds"
@@ -16632,13 +16974,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16663,13 +17005,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16699,13 +17041,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16720,6 +17062,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "heremonium",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -16743,13 +17086,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16760,6 +17103,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
+               "owner": "unity3377",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -16768,6 +17112,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "unity3377",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -16791,13 +17136,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16824,13 +17169,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16857,13 +17202,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16878,6 +17223,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "owner": "nutritree",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -16886,6 +17232,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "nutritree",
                "xp": 1,
                "traits": [
                   "Beta Seeds"
@@ -16894,6 +17241,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "nutritree",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16902,6 +17250,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "nutritree",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16910,6 +17259,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "nutritree",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -16933,13 +17283,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16964,13 +17314,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -16997,13 +17347,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17023,6 +17373,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17031,6 +17382,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17039,6 +17391,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17047,6 +17400,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17055,6 +17409,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17063,6 +17418,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17071,6 +17427,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17079,6 +17436,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17087,6 +17445,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17095,6 +17454,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17103,6 +17463,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17111,6 +17472,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17119,6 +17481,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17127,6 +17490,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17135,6 +17499,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17143,6 +17508,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "silverlining1",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17166,13 +17532,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17185,6 +17551,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "owner": "road2nowhere",
                "xp": 10,
                "traits": [
                   "Beta Seed"
@@ -17193,6 +17560,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "road2nowhere",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -17216,13 +17584,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17241,6 +17609,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -17251,6 +17620,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "pam",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17260,6 +17630,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17269,6 +17640,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17278,6 +17650,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17287,6 +17660,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17296,6 +17670,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "russia-btc",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17319,13 +17694,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17352,13 +17727,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17385,13 +17760,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17416,13 +17791,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17437,6 +17812,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "owner": "gerber",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -17461,13 +17837,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17480,6 +17856,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
+               "owner": "agr8buzz",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -17504,13 +17881,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17535,13 +17912,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17577,6 +17954,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "dp",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17585,6 +17963,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17593,6 +17972,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17601,6 +17981,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17609,6 +17990,7 @@ module.exports = {
             },
             {
                "strain": "ach",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17617,6 +17999,7 @@ module.exports = {
             },
             {
                "strain": "tha",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17625,6 +18008,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17633,6 +18017,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17641,6 +18026,7 @@ module.exports = {
             },
             {
                "strain": "kmj",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17649,6 +18035,7 @@ module.exports = {
             },
             {
                "strain": "mis",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17657,6 +18044,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17665,6 +18053,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17673,6 +18062,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17681,6 +18071,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17689,6 +18080,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17697,6 +18089,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17705,6 +18098,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17713,6 +18107,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -17721,6 +18116,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17729,6 +18125,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17737,6 +18134,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17745,6 +18143,7 @@ module.exports = {
             },
             {
                "strain": "lb",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17753,6 +18152,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17761,6 +18161,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17769,6 +18170,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17777,6 +18179,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17785,6 +18188,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17793,6 +18197,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -17801,6 +18206,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "saboin",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -17809,6 +18215,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "saboin",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -17817,6 +18224,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "saboin",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -17825,6 +18233,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "saboin",
                "xp": 200,
                "traits": [
                   "Genesis Seed"
@@ -17835,6 +18244,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "aca",
+               "owner": "saboin",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -17860,13 +18270,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17891,13 +18301,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17924,13 +18334,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17960,13 +18370,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -17994,13 +18404,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18025,13 +18435,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18046,6 +18456,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "monsterbuster",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18069,13 +18480,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18089,6 +18500,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cg",
+               "owner": "chunkysoupsvc",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -18098,6 +18510,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "chunkysoupsvc",
                "xp": 10,
                "traits": [
                   "Beta Seed"
@@ -18122,13 +18535,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18153,13 +18566,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18188,13 +18601,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18209,6 +18622,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "mal",
+               "owner": "rachaeldwatson",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -18233,13 +18647,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18250,6 +18664,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "fucksteak",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18258,6 +18673,7 @@ module.exports = {
             },
             {
                "strain": "sog",
+               "owner": "fucksteak",
                "xp": 200,
                "traits": [
                   "Beta Seed"
@@ -18269,6 +18685,7 @@ module.exports = {
          "buds": [
             {
                "strain": "hk",
+               "owner": "fucksteak",
                "xp": 2250,
                "traits": [
                   "beta buds"
@@ -18290,13 +18707,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18311,6 +18728,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "afg",
+               "owner": "wdougwatson",
                "xp": 1,
                "traits": [
                   "Beta Pollen"
@@ -18323,6 +18741,7 @@ module.exports = {
             },
             {
                "strain": "afg",
+               "owner": "wdougwatson",
                "xp": 1,
                "traits": [
                   "Beta Pollen"
@@ -18349,13 +18768,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18368,6 +18787,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "afg",
+               "owner": "ocupation",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18391,13 +18811,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18417,6 +18837,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "ecoinstats",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18425,6 +18846,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "ecoinstats",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18433,6 +18855,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "ecoinstats",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18441,6 +18864,7 @@ module.exports = {
             },
             {
                "strain": "cg",
+               "owner": "ecoinstats",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18464,13 +18888,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18484,6 +18908,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "mcoinz79",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18507,13 +18932,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18526,6 +18951,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "lkg",
+               "owner": "taskmaster4450",
                "xp": 1,
                "traits": [
                   "Genesis Seed"
@@ -18549,13 +18975,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18569,6 +18995,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "cht",
+               "owner": "ultratrain",
                "xp": 50,
                "traits": [
                   "beta pollen"
@@ -18577,6 +19004,7 @@ module.exports = {
             },
             {
                "strain": "cht",
+               "owner": "ultratrain",
                "xp": 50,
                "traits": [
                   "beta pollen"
@@ -18599,13 +19027,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18632,13 +19060,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18649,6 +19077,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "hk",
+               "owner": "justinashby",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18672,13 +19101,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18694,6 +19123,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "sog",
+               "owner": "elemental010",
                "xp": 200
             }
          ],
@@ -18713,13 +19143,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18744,6 +19174,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "jeffjagoe",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18752,6 +19183,7 @@ module.exports = {
             },
             {
                "strain": "dp",
+               "owner": "jeffjagoe",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18760,6 +19192,7 @@ module.exports = {
             },
             {
                "strain": "hk",
+               "owner": "jeffjagoe",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18768,6 +19201,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "jeffjagoe",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18791,13 +19225,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18815,6 +19249,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kbr",
+               "owner": "stever82",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18823,6 +19258,7 @@ module.exports = {
             },
             {
                "strain": "kbr",
+               "owner": "stever82",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18831,6 +19267,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "stever82",
                "xp": 50,
                "traits": [
                   "Beta Seeds"
@@ -18839,6 +19276,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "stever82",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -18848,6 +19286,7 @@ module.exports = {
             },
             {
                "strain": "aca",
+               "owner": "stever82",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -18872,13 +19311,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18907,13 +19346,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18924,6 +19363,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "cht",
+               "owner": "yonilkar",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
@@ -18948,13 +19388,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -18967,6 +19407,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
+               "owner": "braaiboy",
                "xp": 50,
                "traits": [
                   "Genesis seed"
@@ -18991,13 +19432,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19011,6 +19452,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "kmj",
+               "owner": "tsnaks",
                "xp": 50,
                "traits": [
                   "Beta Seed"
@@ -19020,6 +19462,7 @@ module.exports = {
             },
             {
                "strain": "mal",
+               "owner": "tsnaks",
                "xp": 50,
                "traits": [
                   "Genesis seed"
@@ -19044,13 +19487,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19075,13 +19518,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19110,13 +19553,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19141,13 +19584,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19172,13 +19615,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19206,13 +19649,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19226,6 +19669,7 @@ module.exports = {
          "pollen": [
             {
                "strain": "swz",
+               "owner": "jbsharkey",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -19238,6 +19682,7 @@ module.exports = {
             },
             {
                "strain": "swz",
+               "owner": "jbsharkey",
                "xp": 50,
                "traits": [
                   "Beta Pollen"
@@ -19264,13 +19709,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19301,13 +19746,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19322,6 +19767,7 @@ module.exports = {
          "seeds": [
             {
                "strain": "mis",
+               "owner": "cuko",
                "xp": 2250,
                "traits": [
                   "Beta Seed"
@@ -19345,13 +19791,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19376,13 +19822,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19400,6 +19846,7 @@ module.exports = {
          "buds": [
             {
                "strain": "pam",
+               "owner": "nupulse",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -19414,6 +19861,7 @@ module.exports = {
             },
             {
                "strain": "pam",
+               "owner": "nupulse",
                "xp": 50,
                "traits": [
                   "Beta Buds"
@@ -19441,13 +19889,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19474,13 +19922,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19541,13 +19989,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19578,13 +20026,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19607,13 +20055,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19640,13 +20088,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19673,13 +20121,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19709,13 +20157,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19740,13 +20188,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19775,13 +20223,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
@@ -19810,13 +20258,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 10,
-         "vacoven": 10,
-         "bubblebags": 10,
-         "browniemix": 10,
-         "papers": 10,
-         "bluntwraps": 10,
-         "hempwraps": 10,
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
