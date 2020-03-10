@@ -1107,7 +1107,7 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < state.users[from].buds.length; i++) {
             try {
-            if (state.user[from].inv.tools.bubblebags > 0) {
+            if (state.user[from].inv.tools.bubblebags) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds[i]}`;
              
