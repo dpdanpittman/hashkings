@@ -1500,7 +1500,8 @@ function startApp() {
                 oilNames += `${oil}`;;
                 kiefNames += `${kief}`;
              
-                state.users[from].papers--;
+                state.users[from].hempwraps--;
+                
             var bud = ''
 
                 try{
