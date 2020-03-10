@@ -1107,7 +1107,7 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].bubblebags > 0) {
+            if (state.user[from].bubblebags > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
@@ -1127,7 +1127,7 @@ function startApp() {
               state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
             }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} created hash oil with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} created bubblehash with ${budNames}`
     });
 
     // search for qwoyn_craft_oil from user on blockchain since genesis
