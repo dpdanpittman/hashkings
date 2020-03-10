@@ -9949,6 +9949,7 @@ module.exports = {
             "f24",
             "f27"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -9982,6 +9983,7 @@ module.exports = {
       },
       "gabiausfranken": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kmj",
@@ -10183,6 +10185,7 @@ module.exports = {
          "addrs": [
             "e1"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -10222,6 +10225,7 @@ module.exports = {
             "d36",
             "e89"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cht",
@@ -10321,6 +10325,7 @@ module.exports = {
          "addrs": [
             "e2"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -10355,6 +10360,7 @@ module.exports = {
             "a4",
             "e3"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -10391,6 +10397,7 @@ module.exports = {
             "d2",
             "e5"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -10424,6 +10431,7 @@ module.exports = {
          "addrs": [
             "a6"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "tha",
@@ -10470,6 +10478,7 @@ module.exports = {
             "e6",
             "f1"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -10561,6 +10570,7 @@ module.exports = {
             "e7",
             "c94"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -10619,6 +10629,7 @@ module.exports = {
             "a100",
             "e37"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "sog", 
@@ -10989,6 +11000,7 @@ module.exports = {
             "e8",
             "f19"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11022,6 +11034,7 @@ module.exports = {
          "addrs": [
             "e12"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11058,6 +11071,7 @@ module.exports = {
             "c1",
             "f2"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -11166,6 +11180,7 @@ module.exports = {
             "b46",
             "e30"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11203,6 +11218,7 @@ module.exports = {
             "c3",
             "c4"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11237,6 +11253,7 @@ module.exports = {
             "c5",
             "c6"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "dp",
@@ -11292,6 +11309,7 @@ module.exports = {
             "c7",
             "d3"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11325,6 +11343,7 @@ module.exports = {
          "addrs": [
             "b4"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11358,6 +11377,7 @@ module.exports = {
          "addrs": [
             "a16"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11394,6 +11414,7 @@ module.exports = {
             "a89",
             "d65"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "afg",
@@ -11701,6 +11722,7 @@ module.exports = {
             "d28",
             "d29"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "lkg",
@@ -11825,6 +11847,7 @@ module.exports = {
          "addrs": [
             "b32"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11858,6 +11881,7 @@ module.exports = {
          "addrs": [
             "b33"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -11892,6 +11916,7 @@ module.exports = {
             "b34",
             "b40"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -11935,6 +11960,7 @@ module.exports = {
          "addrs": [
             "a43"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -11991,6 +12017,7 @@ module.exports = {
             "d30",
             "e10"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12024,6 +12051,7 @@ module.exports = {
          "addrs": [
             "a45"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12057,6 +12085,7 @@ module.exports = {
          "addrs": [
             "a46"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12090,6 +12119,7 @@ module.exports = {
          "addrs": [
             "b36"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12124,6 +12154,7 @@ module.exports = {
             "b37",
             "f3"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -12172,6 +12203,7 @@ module.exports = {
             "e9",
             "f4"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -12224,6 +12256,7 @@ module.exports = {
          "addrs": [
             "f5"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12255,6 +12288,7 @@ module.exports = {
       },
       "greenhouseradio": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12290,6 +12324,7 @@ module.exports = {
          "addrs": [
             "c36"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12326,6 +12361,8 @@ module.exports = {
             "f6",
             "f15"
          ],
+         "xps": 1,
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -12387,6 +12424,7 @@ module.exports = {
          "addrs": [
             "a48"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12418,6 +12456,7 @@ module.exports = {
       },
       "smartsteem": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12451,6 +12490,7 @@ module.exports = {
       },
       "booster": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12484,6 +12524,7 @@ module.exports = {
       },
       "steemvotesio": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12517,6 +12558,7 @@ module.exports = {
       },
       "steemlike": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12550,6 +12592,7 @@ module.exports = {
       },
       "blocktrades": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12585,6 +12628,7 @@ module.exports = {
          "addrs": [
             "a60"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12623,6 +12667,7 @@ module.exports = {
             "b41",
             "f37"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kmj",
@@ -12666,6 +12711,7 @@ module.exports = {
       },
       "stephanus": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12701,6 +12747,7 @@ module.exports = {
          "addrs": [
             "a49"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -12736,6 +12783,7 @@ module.exports = {
          "addrs": [
             "e13"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "mis",
@@ -12792,6 +12840,7 @@ module.exports = {
          "addrs": [
             "e57"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -12856,6 +12905,7 @@ module.exports = {
          "addrs": [
             "c49"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -12901,6 +12951,7 @@ module.exports = {
          "addrs": [
             "a55"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -12946,6 +12997,7 @@ module.exports = {
          "addrs": [
             "f8"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -12989,6 +13041,7 @@ module.exports = {
          "addrs": [
             "e17"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -13024,6 +13077,7 @@ module.exports = {
             "b96",
             "c66"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -13086,6 +13140,7 @@ module.exports = {
             "c66",
             "c91"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -13140,6 +13195,7 @@ module.exports = {
             "b48",
             "e32"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -13193,6 +13249,7 @@ module.exports = {
             "f11",
             "e35"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "afg",
@@ -13374,6 +13431,7 @@ module.exports = {
             "a104",
             "b98"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "aca",
@@ -14979,6 +15037,7 @@ module.exports = {
             "f21",
             "e95"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "swz",
@@ -15071,6 +15130,7 @@ module.exports = {
             "f48",
             "f49"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "tha",
@@ -15636,6 +15696,7 @@ module.exports = {
             "d35",
             "e45"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15667,6 +15728,7 @@ module.exports = {
       },
       "tygertyger": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15700,6 +15762,7 @@ module.exports = {
          "addrs": [
             "e33"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -15745,6 +15808,7 @@ module.exports = {
             "c47",
             "a64"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15780,6 +15844,7 @@ module.exports = {
          "addrs": [
             "c45"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15824,6 +15889,7 @@ module.exports = {
             "e93",
             "e94"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kmj",
@@ -15876,6 +15942,7 @@ module.exports = {
          "addrs": [
             "c48"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -15917,6 +15984,7 @@ module.exports = {
       },
       "patrickulrich": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15948,6 +16016,7 @@ module.exports = {
       },
       "hotsauceislethal": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -15982,6 +16051,7 @@ module.exports = {
             "d38",
             "f45"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -16041,6 +16111,7 @@ module.exports = {
       },
       "steembeem": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -16078,6 +16149,7 @@ module.exports = {
             "d39",
             "e52"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -16130,6 +16202,7 @@ module.exports = {
          "addrs": [
             "d43"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -16177,6 +16250,7 @@ module.exports = {
             "c96",
             "e88"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -16244,6 +16318,7 @@ module.exports = {
             "a86",
             "a87"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "lkg",
@@ -16803,6 +16878,7 @@ module.exports = {
       },
       "coffeebuds": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "afg",
@@ -16853,6 +16929,7 @@ module.exports = {
       },
       "steem-peg": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -16886,6 +16963,7 @@ module.exports = {
       },
       "yabapmatt": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -16920,6 +16998,7 @@ module.exports = {
             "c61",
             "c62"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "pam",
@@ -16988,6 +17067,7 @@ module.exports = {
       },
       "makogr4": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17024,6 +17104,7 @@ module.exports = {
             "e50",
             "d51"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17059,6 +17140,7 @@ module.exports = {
          "addrs": [
             "e51"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -17100,6 +17182,7 @@ module.exports = {
       },
       "unity3377": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "mis",
@@ -17152,6 +17235,7 @@ module.exports = {
       },
       "crypto.piotr": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17185,6 +17269,7 @@ module.exports = {
       },
       "mistakili": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17220,6 +17305,7 @@ module.exports = {
             "e58",
             "f33"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "dp",
@@ -17297,6 +17383,7 @@ module.exports = {
       },
       "cgame": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17330,6 +17417,7 @@ module.exports = {
       },
       "sgt-dan": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17370,6 +17458,7 @@ module.exports = {
             "b70",
             "f43"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -17548,6 +17637,7 @@ module.exports = {
          "addrs": [
             "b81"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "dp",
@@ -17606,6 +17696,7 @@ module.exports = {
             "a121",
             "c106"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -17710,6 +17801,7 @@ module.exports = {
       },
       "ttg": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17743,6 +17835,7 @@ module.exports = {
       },
       "nathen007": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17774,6 +17867,7 @@ module.exports = {
       },
       "stmpay": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17809,6 +17903,7 @@ module.exports = {
          "addrs": [
             "a81"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "dp",
@@ -17853,6 +17948,7 @@ module.exports = {
          "addrs": [
             "e67"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "mis",
@@ -17895,6 +17991,7 @@ module.exports = {
       },
       "zonguin": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -17951,6 +18048,7 @@ module.exports = {
             "f70",
             "b97"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "dp",
@@ -18284,6 +18382,7 @@ module.exports = {
       },
       "dtube": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18317,6 +18416,7 @@ module.exports = {
       },
       "steem-hodler": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18353,6 +18453,7 @@ module.exports = {
             "f54",
             "f76"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18387,6 +18488,7 @@ module.exports = {
             "e69",
             "a84"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18418,6 +18520,7 @@ module.exports = {
       },
       "ginabot": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18453,6 +18556,7 @@ module.exports = {
          "addrs": [
             "d63"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -18497,6 +18601,7 @@ module.exports = {
             "f52",
             "d80"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cg",
@@ -18549,6 +18654,7 @@ module.exports = {
       },
       "martie7": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18584,6 +18690,7 @@ module.exports = {
          "addrs": [
             "e72"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -18618,6 +18725,7 @@ module.exports = {
             "e73",
             "a94"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [
             {
@@ -18661,6 +18769,7 @@ module.exports = {
       },
       "fucksteak": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -18724,6 +18833,7 @@ module.exports = {
             "e78",
             "c82"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [
             {
@@ -18784,6 +18894,7 @@ module.exports = {
          "addrs": [
             "b77"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "afg",
@@ -18834,6 +18945,7 @@ module.exports = {
             "d76",
             "d77"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -18905,6 +19017,7 @@ module.exports = {
             "a98",
             "e80"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -18948,6 +19061,7 @@ module.exports = {
       },
       "taskmaster4450": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "lkg",
@@ -18991,6 +19105,7 @@ module.exports = {
          "addrs": [
             "c86"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [
             {
@@ -19043,6 +19158,7 @@ module.exports = {
          "addrs": [
             "d75"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19074,6 +19190,7 @@ module.exports = {
       },
       "justinashby": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "hk",
@@ -19120,6 +19237,7 @@ module.exports = {
             "a120",
             "a52"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "sog",
@@ -19171,6 +19289,7 @@ module.exports = {
             "d79",
             "a107"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -19246,6 +19365,7 @@ module.exports = {
             "c95",
             "e96"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kbr",
@@ -19329,6 +19449,7 @@ module.exports = {
             "e87",
             "a109"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19360,6 +19481,7 @@ module.exports = {
       },
       "yonilkar": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "cht",
@@ -19404,6 +19526,7 @@ module.exports = {
       },
       "braaiboy": {
          "addrs": [],
+         "xps": 1,
          "seeds": [
             {
                "strain": "mis",
@@ -19449,6 +19572,7 @@ module.exports = {
             "c99",
             "d82"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "kmj",
@@ -19501,6 +19625,7 @@ module.exports = {
       },
       "project.hope": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19536,6 +19661,7 @@ module.exports = {
          "addrs": [
             "a112"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19567,6 +19693,7 @@ module.exports = {
       },
       "christoryan": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19598,6 +19725,7 @@ module.exports = {
       },
       "efathenub": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19632,6 +19760,7 @@ module.exports = {
             "c98",
             "f67"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19665,6 +19794,7 @@ module.exports = {
          "addrs": [
             "b90"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [
             {
@@ -19729,6 +19859,7 @@ module.exports = {
             "d98",
             "c111"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19764,6 +19895,7 @@ module.exports = {
             "b95",
             "a115"
          ],
+         "xps": 1,
          "seeds": [
             {
                "strain": "mis",
@@ -19805,6 +19937,7 @@ module.exports = {
       },
       "beemengine": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19841,6 +19974,7 @@ module.exports = {
             "d83",
             "a124"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [
@@ -19905,6 +20039,7 @@ module.exports = {
          "addrs": [
             "b91"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -19972,6 +20107,7 @@ module.exports = {
             "e101",
             "f75"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20009,6 +20145,7 @@ module.exports = {
             "a123",
             "c109"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20040,6 +20177,7 @@ module.exports = {
       },
       "skylinebuds": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20071,6 +20209,7 @@ module.exports = {
          "addrs": [
             "d96"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20104,6 +20243,7 @@ module.exports = {
       },
       "resteemyou": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20140,6 +20280,7 @@ module.exports = {
             "e104",
             "a125"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20171,6 +20312,7 @@ module.exports = {
       },
       "creativeblue": {
          "addrs": [],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20206,6 +20348,7 @@ module.exports = {
          "addrs": [
             "c112"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -20241,6 +20384,7 @@ module.exports = {
          "addrs": [
             "d99"
          ],
+         "xps": 1,
          "seeds": [],
          "pollen": [],
          "buds": [],

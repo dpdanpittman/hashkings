@@ -965,8 +965,8 @@ function startApp() {
                     father: pollenName
                 }
                 state.users[state.land[plots[i]].owner].seeds.push(seed)
-
                 state.users[state.land[plots[i]].owner].seeds.push(seed2)
+                state.users[from].xps += 25;
 
                 const parcel = {
                     owner: state.land[plants[i]].owner,
@@ -1018,6 +1018,7 @@ function startApp() {
 
                     state.users[state.land[plants[i]].owner].buds.push(bud1)
                     state.users[state.land[plants[i]].owner].buds.push(bud2)
+                    state.users[from].xps += 25;
 
                     const parcel = {
                         owner: state.land[plants[i]].owner,
@@ -1070,6 +1071,8 @@ function startApp() {
                 state.users[state.land[plants[i]].owner].pollen.push(pollen1)
 
                 state.users[state.land[plants[i]].owner].pollen.push(pollen2)
+
+                state.users[from].xps += 25;
 
                 const parcel = {
                     owner: state.land[plants[i]].owner,
@@ -1856,7 +1859,7 @@ function startApp() {
             ediblesName = '',
             friend1 = json.friend1,
             friend1Name = '',
-            friend2 = json.friend2,
+            friend2 = json.friend2
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
                 ediblesName += `${edibles}`;
