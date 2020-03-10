@@ -1355,29 +1355,29 @@ function startApp() {
                     }catch (e) {}
                 }
 
-            var kief = ''
+            var kiefs = ''
 
                 try{
-                    for (var i = 0;i < state.users[from].buds.length; i++){
-                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    for (var i = 0;i < state.users[from].kief.length; i++){
+                        if(state.users[from].kief[i].strain == json.kief){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!kief){
+                if (!kiefs){
                     try {
-                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                        if(state.users[from].kief.length)kiefs == state.users[from].kief.splice(0, 1)[0]
                     }catch (e) {}
                 }
 
-            var oil = ''
+            var oils = ''
 
                 try{
                     for (var i = 0;i < state.users[from].oil.length; i++){
-                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                        if(state.users[from].oil[i].strain == json.oil){oils=state.users[from].oil.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!oil){
+                if (!oils){
                     try {
-                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                        if(state.users[from].oil.length)oils == state.users[from].oil.splice(0, 1)[0]
                     }catch (e) {}
                 }
 
@@ -1423,29 +1423,29 @@ function startApp() {
                     }catch (e) {}
                 }
 
-            var kief = ''
+            var kiefs = ''
 
                 try{
-                    for (var i = 0;i < state.users[from].buds.length; i++){
-                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    for (var i = 0;i < state.users[from].kief.length; i++){
+                        if(state.users[from].kief[i].strain == json.buds){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!kief){
+                if (!kiefs){
                     try {
-                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                        if(state.users[from].kief.length)kiefs == state.users[from].kief.splice(0, 1)[0]
                     }catch (e) {}
                 }
 
-            var oil = ''
+            var oils = ''
 
                 try{
                     for (var i = 0;i < state.users[from].oil.length; i++){
-                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                        if(state.users[from].oil[i].strain == json.oil){oils=state.users[from].oil.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!oil){
+                if (!oils){
                     try {
-                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                        if(state.users[from].oil.length)oils == state.users[from].oil.splice(0, 1)[0]
                     }catch (e) {}
                 }
                 
@@ -1491,29 +1491,29 @@ function startApp() {
                     }catch (e) {}
                 }
 
-            var kief = ''
+            var kiefs = ''
 
                 try{
-                    for (var i = 0;i < state.users[from].buds.length; i++){
-                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    for (var i = 0;i < state.users[from].kief.length; i++){
+                        if(state.users[from].kief[i].strain == json.buds){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!kief){
+                if (!kiefs){
                     try {
-                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                        if(state.users[from].kief.length)kiefs == state.users[from].kief.splice(0, 1)[0]
                     }catch (e) {}
                 }
 
-            var oil = ''
+            var oils = ''
 
                 try{
                     for (var i = 0;i < state.users[from].oil.length; i++){
-                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                        if(state.users[from].oil[i].strain == json.oil){oils=state.users[from].oil.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!oil){
+                if (!oils){
                     try {
-                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                        if(state.users[from].oil.length)oils == state.users[from].oil.splice(0, 1)[0]
                     }catch (e) {}
                 }
                 
