@@ -10783,7 +10783,7 @@ module.exports = {
          ],
          "seeds": [
             {
-               "strain": "sog",
+               "strain": "sog", 
                "xp": 200,
                "traits": [
                   "Beta Seed"
@@ -11082,9 +11082,6 @@ module.exports = {
             }
          ],
          "inv": [],
-         "seeds": [],
-         "pollen": [],
-         "buds": [],
          "kief": [],
          "bubblehash": [],
          "oil": [],
