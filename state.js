@@ -696,7 +696,14 @@ module.exports = {
                "top": 5000,
                "special": 10000
             },
-            "supplies": {}
+            "supplies": {
+               "papers": 5000,
+               "keifbox": 5000,
+               "vacoven": 5000,
+               "bluntwraps": 5000,
+               "browniemix": 5000,
+               "hempwraps": 5000
+            }
          },
          "purchase": {
             "land": 19500
@@ -10629,7 +10636,7 @@ module.exports = {
             "a100",
             "e37"
          ],
-         "xps": 1,
+         "xps": 500000,
          "seeds": [
             {
                "strain": "sog", 

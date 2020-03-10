@@ -2509,6 +2509,7 @@ function startApp() {
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
+                xps: 0,
                 pollen: [],
                 buds: [],
                 alliance: "",
@@ -2593,6 +2594,20 @@ function startApp() {
                     state.bal.c += c
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
+                } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100|| want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
+                    if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
+                    var xp = 1
+                    if (want == 'papers') state.users[json.from].papers++;
+                    if (want == 'kiefbox') state.users[json.from].kiefbox++;
+                    if (want == 'vacoven') state.users[json.from].vacoven++; 
+                    if (want == 'bluntwraps') state.users[json.from].bluntwraps++;
+                    if (want == 'browniemix') state.users[json.from].browniemix++;
+                    if (want == 'hempwraps') state.users[json.from].hempwraps++; 
+                    if (want == 'kiefbox') state.users[json.from].kiefbox++; 
+                    const c = parseInt(amount * 0.75)
+                    state.bal.c += c
+                    state.bal.b += amount - c
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                 } else {
                     state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
