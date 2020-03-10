@@ -1087,7 +1087,19 @@ function startApp() {
                 plantnames += `${plants}`;
                 pollenName += `${pollen}`;
              
-                state.users[from].pollen.splice(i, 1)[0];
+                var pollen = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].pollen.length; i++){
+                        if(state.users[from].pollen[i].strain == json.pollen){pollen=state.users[from].pollen.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!pollen){
+                    try {
+                        if(state.users[from].buds.length)pollen == state.users[from].pollen.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
                 state.land[plants].pollinated = true;
                 state.land[plants].father = pollenName;       
             }
@@ -1105,12 +1117,24 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
+        var bud = ''
+
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
                 state.users[from].bubblebags--;
-                state.users[from].buds.splice(i, 1)[0];
 
                 var bubblehash = {
                     strain: buds,
@@ -1129,12 +1153,24 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
+        var bud = ''
+
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
                 state.users[from].vacoven--;
-                state.users[from].buds.splice(i, 1)[0];
 
                 var oil = {
                     strain: buds,
@@ -1153,12 +1189,24 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
+        var bud = ''
+
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
                 state.users[from].kiefbox--;
-                state.users[from].buds.splice(i, 1)[0];
 
                 var kief = {
                     strain: buds,
@@ -1177,12 +1225,24 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
+        var bud = ''
+
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
                 budNames += `${buds}`;
              
                 state.users[from].browniemix--;
-                state.users[from].buds.splice(i, 1)[0];
 
                 var edibles = {
                     strain: buds,
@@ -1201,12 +1261,24 @@ function startApp() {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
+        var bud = ''
+        
+            try{
+                for (var i = 0;i < state.users[from].buds.length; i++){
+                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                }
+            } catch (e) {}
+            if (!bud){
+                try {
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                }catch (e) {}
+            }
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
                 budNames += `${buds}`;
              
                 state.users[from].papers--;
-                seed = state.users[from].buds.splice(i, 1)[0];
 
                 var joint = {
                     strain: buds,
@@ -1226,6 +1298,7 @@ function startApp() {
             budNames = ''
             dateCreated = json.block_num
         var bud = ''
+
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
                     if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
@@ -1233,10 +1306,9 @@ function startApp() {
             } catch (e) {}
             if (!bud){
                 try {
-                    if(state.users[from].seeds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                    if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
                 }catch (e) {}
             }
-
 
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
@@ -1269,11 +1341,46 @@ function startApp() {
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
-             
-                state.users[from].oil.splice(i, 1)[0];
-                state.users[from].buds.splice(i, 1)[0];
-                state.users[from].kief.splice(i, 1)[0];
-                
+         
+            var bud = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!bud){
+                    try {
+                        if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var kief = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!kief){
+                    try {
+                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var oil = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].oil.length; i++){
+                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!oil){
+                    try {
+                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
                 var craftedMoonrock = {
                     buds: buds,
                     oil: oil,
@@ -1302,9 +1409,45 @@ function startApp() {
                 kiefNames += `${kief}`;
              
                 state.users[from].papers--;
-                state.users[from].oil.splice(i, 1)[0];
-                state.users[from].buds.splice(i, 1)[0];
-                state.users[from].splice(i, 1)[0];
+
+            var bud = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!bud){
+                    try {
+                        if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var kief = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!kief){
+                    try {
+                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var oil = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].oil.length; i++){
+                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!oil){
+                    try {
+                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                    }catch (e) {}
+                }
                 
                 var dippedJoint = {
                     buds: buds,
@@ -1327,6 +1470,7 @@ function startApp() {
             oilNames = '',
             kief = json.kief,
             kiefNames = ''
+
         for (var i = 0; i < 1; i++) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
                 budNames += `${buds}`;
@@ -1334,9 +1478,44 @@ function startApp() {
                 kiefNames += `${kief}`;
              
                 state.users[from].papers--;
-                state.users[from].oil.splice(i, 1)[0];
-                state.users[from].buds.splice(i, 1)[0];
-                state.users[from].kief.splice(i, 1)[0];
+            var bud = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!bud){
+                    try {
+                        if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var kief = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].buds.length; i++){
+                        if(state.users[from].kief[i].strain == json.buds){kief=state.users[from].kief.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!kief){
+                    try {
+                        if(state.users[from].kief.length)kief == state.users[from].kief.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+
+            var oil = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].oil.length; i++){
+                        if(state.users[from].oil[i].strain == json.oil){oil=state.users[from].oil.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!oil){
+                    try {
+                        if(state.users[from].oil.length)bud == state.users[from].oil.splice(0, 1)[0]
+                    }catch (e) {}
+                }
                 
                 var cannagar = {
                     buds: buds,
