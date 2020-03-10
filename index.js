@@ -1051,12 +1051,14 @@ function startApp() {
                 try{
                     for (var i = 0;i < state.users[from].alliance.length; i++){
                         var myAlliance = {
-                            alliance: allianceName
+                            alliance: json.alliance
                         }
+                        // not properly updating the name
                         if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance.push(myAlliance);break;}
                     }
                 } catch (e) {}
 
+                //not updating membernames in alliances
                 try{
                     for (var i = 0;i < state.users[from].alliance.length; i++){
                         var newMember = {
@@ -1065,8 +1067,7 @@ function startApp() {
                         if(state.users[from].alliance[i] == json.alliance){state.stats.alliances[alliance].push(newMember);break;}
                     }
                 } catch (e) {}
-
-                //state.stats.alliances[alliance].push(newMember); //not updating membernames
+                
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
@@ -1553,7 +1554,266 @@ function startApp() {
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
+
+    // search for qwoyn_smoke_moonrock from user on blockchain since genesis
+    processor.on('smoke_moonrock', function(json, from) {
+        let moonrock = json.moonrock,
+            moonrockName = '',
+            friend1 = json.friend1,
+            friend1Name = '',
+            friend2 = json.friend2,
+            friend2Name = '',
+            friend3 = json.friend3,
+            friend3Name = ''
+        for (var i = 0; i < 1; i++) {
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_moonrock']);
+                moonrockName += `${moonrock}`;
+                friend1Name += `${friend1}`;
+                friend2Name += `${friend2}`;
+                friend3Name += `${friend3}`;
+
+                state.users[from].xps += 75;
+                state.users[friend1].xps += 25;
+                state.users[friend2].xps += 25;
+                state.users[friend3].xps += 25;
+            
+                
+            var moonrocks = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].moonrocks.length; i++){
+                        if(state.users[from].moonrocks[i].strain == json.moonrock){moonrocks=state.users[from].moonrocks.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!moonrocks){
+                    try {
+                        if(state.users[from].moonrocks.length)moonrocks == state.users[from].moonrocks.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${moonrockName} moonrock with ${friend1Name}, ${friend2Name} and ${friend3Name}`
+    });
+
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
+    processor.on('smoke_joint', function(json, from) {
+        let joint = json.joint,
+            jointName = '',
+            friend1 = json.friend1,
+            friend1Name = '',
+            friend2 = json.friend2,
+            friend2Name = '',
+            friend3 = json.friend3,
+            friend3Name = '',
+            friend4 = json.friend4,
+            friend4Name = '',
+            friend5 = json.friend5,
+            friend5Name = ''
+        for (var i = 0; i < 1; i++) {
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_joint']);
+                jointName += `${joint}`;
+                friend1Name += `${friend1}`;
+                friend2Name += `${friend2}`;
+                friend3Name += `${friend3}`;
+                friend4Name += `${friend4}`;
+                friend5Name += `${friend5}`;
+
+                state.users[from].xps += 25;
+                state.users[friend1].xps += 5;
+                state.users[friend2].xps += 5;
+                state.users[friend3].xps += 5;
+                state.users[friend4].xps += 5;
+                state.users[friend5].xps += 5;
+            
+                
+            var joints = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].joints.length; i++){
+                        if(state.users[from].joints[i].strain == json.joint){joints=state.users[from].joints.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!joints){
+                    try {
+                        if(state.users[from].joints.length)joints == state.users[from].joints.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${jointName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+    });
+
+    // search for qwoyn_smoke_blunt from user on blockchain since genesis
+    processor.on('smoke_blunt', function(json, from) {
+        let blunt = json.blunt,
+            bluntName = '',
+            friend1 = json.friend1,
+            friend1Name = '',
+            friend2 = json.friend2,
+            friend2Name = '',
+            friend3 = json.friend3,
+            friend3Name = '',
+            friend4 = json.friend4,
+            friend4Name = '',
+            friend5 = json.friend5,
+            friend5Name = ''
+        for (var i = 0; i < 1; i++) {
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
+                bluntName += `${blunt}`;
+                friend1Name += `${friend1}`;
+                friend2Name += `${friend2}`;
+                friend3Name += `${friend3}`;
+                friend4Name += `${friend4}`;
+                friend5Name += `${friend5}`;
+
+                state.users[from].xps += 50;
+                state.users[friend1].xps += 10;
+                state.users[friend2].xps += 10;
+                state.users[friend3].xps += 10;
+                state.users[friend4].xps += 10;
+                state.users[friend5].xps += 10;
+            
+                
+            var blunts = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].blunts.length; i++){
+                        if(state.users[from].blunts[i].strain == json.blunt){blunts=state.users[from].blunts.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!blunts){
+                    try {
+                        if(state.users[from].blunts.length)blunts == state.users[from].blunts.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${bluntName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+    });
+
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
+    processor.on('eat_edibles', function(json, from) {
+        let edibles = json.edibles,
+            ediblesName = '',
+            friend1 = json.friend1,
+            friend1Name = '',
+            friend2 = json.friend2,
+        for (var i = 0; i < 1; i++) {
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
+                ediblesName += `${edibles}`;
+                friend1Name += `${friend1}`;
+                friend2Name += `${friend2}`;
+
+                state.users[from].xps += 50;
+                state.users[friend1].xps += 25;
+                state.users[friend2].xps += 25;
+                
+            var edible = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].blunts.length; i++){
+                        if(state.users[from].edibles[i].strain == json.edibles){edible=state.users[from].edibles.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!edible){
+                    try {
+                        if(state.users[from].edibles.length)edible == state.users[from].edibles.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} ate a ${ediblesName} brownie with ${friend1Name} and ${friend2Name}`
+    });
+
+    // search for qwoyn_smoke_blunt from user on blockchain since genesis
+    processor.on('smoked_dipped_joint', function(json, from) {
+        let dippedJoint = json.dippedJoint,
+            dippedJointName = '',
+            friend1 = json.friend1,
+            friend1Name = '',
+            friend2 = json.friend2,
+            friend2Name = '',
+            friend3 = json.friend3,
+            friend3Name = '',
+            friend4 = json.friend4,
+            friend4Name = '',
+            friend5 = json.friend5,
+            friend5Name = ''
+        for (var i = 0; i < 1; i++) {
+                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_dipped_joint']);
+                dippedJointName += `${dippedJoint}`;
+                friend1Name += `${friend1}`;
+                friend2Name += `${friend2}`;
+                friend3Name += `${friend3}`;
+                friend4Name += `${friend4}`;
+                friend5Name += `${friend5}`;
+
+                state.users[from].xps += 100;
+                state.users[friend1].xps += 20;
+                state.users[friend2].xps += 20;
+                state.users[friend3].xps += 20;
+                state.users[friend4].xps += 20;
+                state.users[friend5].xps += 20;
+            
+                
+            var dippedJoints = ''
+
+                try{
+                    for (var i = 0;i < state.users[from].blunts.length; i++){
+                        if(state.users[from].dippedjoints[i].strain == json.dippedJoint){dippedJoints=state.users[from].dippedJoints.splice(i, 1)[0];break;}
+                    }
+                } catch (e) {}
+                if (!dippedJoints){
+                    try {
+                        if(state.users[from].dippedjoints.length)dippedJoints == state.users[from].dippedjoints.splice(0, 1)[0]
+                    }catch (e) {}
+                }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${dippedJointName} dipped joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+    });
     
+        // search for qwoyn_smoke_blunt from user on blockchain since genesis
+        processor.on('smoked_cannagar', function(json, from) {
+            let cannagar = json.cannagar,
+                cannagarName = '',
+                friend1 = json.friend1,
+                friend1Name = '',
+                friend2 = json.friend2,
+                friend2Name = '',
+                friend3 = json.friend3,
+                friend3Name = '',
+                friend4 = json.friend4,
+                friend4Name = '',
+                friend5 = json.friend5,
+                friend5Name = ''
+            for (var i = 0; i < 1; i++) {
+                    state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_cannagar']);
+                    cannagarName += `${cannagar}`;
+                    friend1Name += `${friend1}`;
+                    friend2Name += `${friend2}`;
+                    friend3Name += `${friend3}`;
+                    friend4Name += `${friend4}`;
+                    friend5Name += `${friend5}`;
+    
+                    state.users[from].xps += 200;
+                    state.users[friend1].xps += 40;
+                    state.users[friend2].xps += 40;
+                    state.users[friend3].xps += 40;
+                    state.users[friend4].xps += 40;
+                    state.users[friend5].xps += 40;
+                
+                    
+                var cannagars = ''
+    
+                    try{
+                        for (var i = 0;i < state.users[from].cannagars.length; i++){
+                            if(state.users[from].cannagars[i].strain == json.cannagar){cannagars=state.users[from].cannagars.splice(i, 1)[0];break;}
+                        }
+                    } catch (e) {}
+                    if (!cannagars){
+                        try {
+                            if(state.users[from].cannagars.length)cannagars == state.users[from].cannagars.splice(0, 1)[0]
+                        }catch (e) {}
+                    }
+            }
+            state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${cannagarName} cannagar with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+        });
 /*
     processor.on('return', function(json, from) {
         let lands = json.lands,
