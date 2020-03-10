@@ -773,7 +773,7 @@ module.exports = {
    "bal": {
       "r": 2700,
       "c": 0,
-      "b": -2700,
+      "b": 2700,
       "p": 1488519
    },
    "refund": [
@@ -10029,6 +10029,8 @@ module.exports = {
          "friends": [],
          "inv": [
             {
+               "mothers": [],
+               "clones": [],
                "seeds": [],
                "pollen": [],
                "buds": [],
@@ -10053,7 +10055,9 @@ module.exports = {
                      "browniemix": 0,
                      "papers": 0,
                      "bluntwraps": 0,
-                     "hempwraps": 0
+                     "hempwraps": 0,
+                     "cloningkit": 0,
+                     "indoorvegkit": 0,
                   }
                ]
             }
@@ -11077,37 +11081,26 @@ module.exports = {
                "addedOn": 41495404
             }
          ],
-         "inv": [
-            {
-               "seeds": [],
-               "pollen": [],
-               "buds": [],
-               "kief": [],
-               "bubblehash": [],
-               "oil": [],
-               "edibles": [],
-               "consumables": [
-                  {
-                     "joints": [],
-                     "blunts": [],
-                     "moonrocks": [],
-                     "dippedjoints": [],
-                     "cannagars": []
-                  }
-               ],
-               "tools": [
-                  {
-                     "kiefbox": 10,
-                     "vacoven": 10,
-                     "bubblebags": 10,
-                     "browniemix": 10,
-                     "papers": 10,
-                     "bluntwraps": 10,
-                     "hempwraps": 10
-                  }
-               ]
-            }
-         ],
+         "inv": [],
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 10,
+         "vacoven": 10,
+         "bubblebags": 10,
+         "browniemix": 10,
+         "papers": 10,
+         "bluntwraps": 10,
+         "hempwraps": 10,
          "stats": [
             [
                41496859,

@@ -1121,8 +1121,8 @@ function startApp() {
                 createdBy: from,
                 createdOn: json.block_num
             }
-            state.users[from].inv.bubblehash.push(bubblehash);
-            state.users[from].inv.tools.bubblebags--;
+            state.users[from].bubblehash.push(bubblehash);
+            state.users[from].bubblebags--;
 
             state.cs[`${json.block_num}:${from}`] = `crafted bubblehash with ${json.buds}`
 
