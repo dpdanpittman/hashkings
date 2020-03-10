@@ -1102,7 +1102,7 @@ function startApp() {
 
     // search for qwoyn_craft_bubblehash from user on blockchain since genesis
     processor.on('craft_bubblehash', function(json, from) {
-        var bags, buds=''
+        var bags, bud=''
         try{
             bags = state.users[from].inv.tools.bubblebags
             for (var i = 0;i < state.users[from].buds.length; i++){
