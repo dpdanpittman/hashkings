@@ -1114,8 +1114,7 @@ function startApp() {
                 if(state.users[from].buds.length)bud == state.users[from].buds.splice(0, 1)[0]
             }catch (e) {}
         }
-        bags = state.users[from].inv.tools.bubblebags;
-        bags--;
+        state.users[from].inv.tools.bubblebags--;
         if (bud) {
             var bubblehash = {
                 name: buds,
