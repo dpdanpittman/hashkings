@@ -1214,14 +1214,14 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].joint.push(joint)
+                state.users[from].joints.push(joint)
 
         }
         state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
     });
 
-    // search for qwoyn_blunts from user on blockchain since genesis
-    processor.on('craft_blunts', function(json, from) {
+   // search for qwoyn_joint from user on blockchain since genesis
+    processor.on('craft_blunt', function(json, from) {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
@@ -1229,7 +1229,7 @@ function startApp() {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
-                state.users[from].hempwraps--;
+                state.users[from].bluntwraps--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var blunt = {
@@ -1241,7 +1241,7 @@ function startApp() {
                 state.users[from].blunts.push(blunt)
 
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} crafted blunt with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted a blunt with ${budNames}`
     });
 
     // search for qwoyn_pollinate from user on blockchain since genesis
