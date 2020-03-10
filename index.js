@@ -1109,7 +1109,7 @@ function startApp() {
             try {
             if (state.user[from].inv.tools.bubblebags > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
-                budNames += `${buds}`;
+                budNames += `${buds[i]}`;
              
                 state.users[from].inv.tools.bubblebags--;
                 state.users[from].buds.splice(i, 1)[0];
