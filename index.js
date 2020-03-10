@@ -1117,7 +1117,7 @@ function startApp() {
 
         if (bud) {
             var bubblehash = {
-                name: buds,
+                name: bud,
                 createdBy: from,
                 createdOn: json.block_num
             }
