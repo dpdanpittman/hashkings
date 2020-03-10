@@ -930,6 +930,168 @@ function startApp() {
               state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
             }
         }
+
+///---------------------------------------------------------------------------------------
+        var harvested = false
+
+        //female harvested pollinated plant
+            try {
+            if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == true){
+            if (!harvested && state.land[plants[i]].stage > 3){
+                harvested = true
+                const seed = {
+                    strain: state.land[plants[i]].strain,
+                    owner: state.land[plants[i]].owner,
+                    xp: state.land[plants[i]].xp,
+                    traits: ['beta pollinated seed'],
+                    terps: [],
+                    thc: 'coming soon',
+                    cbd: 'coming soon',
+                    breeder: state.land[plants[i]].owner,
+                    familyTree: state.land[plants[i]].strain + '' + pollenName,
+                    pollinated: false,
+                    father: pollenName
+                }
+                const seed2 = {
+                    strain: state.land[plants[i]].strain,
+                    owner: state.land[plants[i]].owner,
+                    xp: state.land[plants[i]].xp,
+                    traits: ['beta pollinated seed'],
+                    terps: [],
+                    thc: 'coming soon',
+                    cbd: 'coming soon',
+                    familyTree: state.land[plants[i]].strain + '' + state.land[plants[i]].pollen,
+                    pollinated: false,
+                    father: pollenName
+                }
+                state.users[state.land[plots[i]].owner].seeds.push(seed)
+
+                state.users[state.land[plots[i]].owner].seeds.push(seed2)
+
+                const parcel = {
+                    owner: state.land[plants[i]].owner,
+                    strain: '',
+                    xp: 0,
+                    care: [[processor.getCurrentBlockNumber(),'tilled']],
+                    aff: [],
+                    stage: -1,
+                    substage: 0,
+                    traits: [],
+                    terps: [],
+                    stats: [],
+                    pollinated: false
+                }
+                state.land[plants[i]] = parcel
+                
+            }}
+            } catch(e) {
+                console.log('', e.message)
+                }
+                
+                //harvest buds if female not pollinated
+                try {
+                if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == false){
+                    if (!harvested && state.land[plants[i]].stage > 3){
+                    harvested = true
+                    const bud1 = {
+                        strain: state.land[plants[i]].strain,
+                        owner: state.land[plants[i]].owner,
+                        xp: state.land[addr].xp,
+                        traits: ['Beta Buds'],
+                        terps: [state.land[plants[i]].strain.terps],
+                        thc: 'coming soon',
+                        cbd: 'coming soon',
+                        familyTree: state.land[plants[i]].strain,
+                        father: 'Sensimilla'
+                    }
+                    const bud2 = {
+                        strain: state.land[plants[i]].strain,
+                        owner: state.land[plants[i]].owner,
+                        xp: state.land[plants[i]].xp,
+                        traits: ['Beta Buds'],
+                        thc: 'coming soon',
+                        cbd: 'coming soon',
+                        terps: [state.land[plants[i]].strain.terps],
+                        familyTree: state.land[plants[i]].strain,
+                        father: 'Sensimilla'
+                    }
+
+                    state.users[state.land[plants[i]].owner].buds.push(bud1)
+                    state.users[state.land[plants[i]].owner].buds.push(bud2)
+
+                    const parcel = {
+                        owner: state.land[plants[i]].owner,
+                        strain: '',
+                        xp: 0,
+                        care: [[processor.getCurrentBlockNumber(),'tilled']],
+                        aff: [],
+                        stage: -1,
+                        substage: 0,
+                        traits: [],
+                        terps: [],
+                        stats: [],
+                        pollinated: false
+                    }
+                    state.land[plants[i]] = parcel
+                    
+                    }}
+                    } catch(e) {
+                        console.log('buds harvested', e.message)
+                    }
+                    
+
+            //pollen at harvest if male
+            try {
+            if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'male'){
+            if (!harvested && state.land[plants[i]].stage > 3){
+                harvested = true
+                const pollen1 = {
+                    strain: state.land[plants[i]].strain,
+                    owner: state.land[plants[i]].owner,
+                    xp: state.land[plants[i]].xp,
+                    traits: ['Beta Pollen'],
+                    terps: [],
+                    thc: 'coming soon',
+                    cbd: 'coming soon',
+                    familyTree: state.land[plants[i]].strain,
+                    father: 'Sensimilla'
+                }
+                const pollen2 = {
+                    strain: state.land[plants[i]].strain,
+                    owner: state.land[plants[i]].owner,
+                    xp: state.land[plants[i]].xp,
+                    traits: ['Beta Pollen'],
+                    terps: [],
+                    thc: 'coming soon',
+                    cbd: 'coming soon',
+                    familyTree: state.land[plants[i]].strain,
+                    father: 'Sensimilla'
+                }
+                state.users[state.land[plants[i]].owner].pollen.push(pollen1)
+
+                state.users[state.land[plants[i]].owner].pollen.push(pollen2)
+
+                const parcel = {
+                    owner: state.land[plants[i]].owner,
+                    strain: '',
+                    xp: 0,
+                    care: [[processor.getCurrentBlockNumber(),'tilled']],
+                    aff: [],
+                    terps: [],
+                    stats: [],
+                    stage: -1,
+                    substage: 0,
+                    pollinated: false
+                }
+                state.land[plants[i]] = parcel
+                
+            }}
+            } catch(e) {
+                console.log('pollen harvested', e.message)
+                }
+
+///----------------------------------------------------------------------------------------
+
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
     });
     
@@ -2874,7 +3036,7 @@ function sexing (){
 }
 
 function daily(addr) {
-    var grown = false, harvested = false
+    var grown = false
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
@@ -3004,165 +3166,7 @@ function daily(addr) {
             } catch(e) {
                 console.log('something strange with crafting cannagar', e.message)
             }*/
-            
-            //female harvested pollinated plant
-            try {
-              if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == true){
-                if (!harvested && state.land[addr].stage > 3){
-                  harvested = true
-                  kudo(state.land[addr].owner)
-                  const seed = {
-                      strain: state.land[addr].strain,
-                      owner: state.land[addr].owner,
-                      xp: state.land[addr].xp,
-                      traits: ['beta pollinated seed'],
-                      terps: [],
-                      thc: 'coming soon',
-                      cbd: 'coming soon',
-                      breeder: state.land[addr].owner,
-                      familyTree: state.land[addr].strain + '' + pollenName,
-                      pollinated: false,
-                      father: pollenName
-                  }
-                  const seed2 = {
-                      strain: state.land[addr].strain,
-                      owner: state.land[addr].owner,
-                      xp: state.land[addr].xp,
-                      traits: ['beta pollinated seed'],
-                      terps: [],
-                      thc: 'coming soon',
-                      cbd: 'coming soon',
-                      familyTree: state.land[addr].strain + '' + state.land[addr].pollen,
-                      pollinated: false,
-                      father: pollenName
-                  }
-                  state.users[state.land[addr].owner].seeds.push(seed)
-
-                  state.users[state.land[addr].owner].seeds.push(seed2)
-
-                  const parcel = {
-                      owner: state.land[addr].owner,
-                      strain: '',
-                      xp: 0,
-                      care: [[processor.getCurrentBlockNumber(),'tilled']],
-                      aff: [],
-                      stage: -1,
-                      substage: 0,
-                      traits: [],
-                      terps: [],
-                      stats: [],
-                      pollinated: false
-                  }
-                  state.land[addr] = parcel
-                  
-                }}
-                } catch(e) {
-                    console.log('', e.message)
-                   }
-                   
-                   //harvest buds if female not pollinated
-                   try {
-                    if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'female' && state.land[addr].pollinated == false){
-                      if (!harvested && state.land[addr].stage > 3){
-                        harvested = true
-                        kudo(state.land[addr].owner)
-                        const bud1 = {
-                            strain: state.land[addr].strain,
-                            owner: state.land[addr].owner,
-                            xp: state.land[addr].xp,
-                            traits: ['Beta Buds'],
-                            terps: [state.land[addr].strain.terps],
-                            thc: 'coming soon',
-                            cbd: 'coming soon',
-                            familyTree: state.land[addr].strain,
-                            father: 'Sensimilla'
-                        }
-                        const bud2 = {
-                            strain: state.land[addr].strain,
-                            owner: state.land[addr].owner,
-                            xp: state.land[addr].xp,
-                            traits: ['Beta Buds'],
-                            thc: 'coming soon',
-                            cbd: 'coming soon',
-                            terps: [state.land[addr].strain.terps],
-                            familyTree: state.land[addr].strain,
-                            father: 'Sensimilla'
-                        }
-
-                        state.users[state.land[addr].owner].buds.push(bud1)
-                        state.users[state.land[addr].owner].buds.push(bud2)
-      
-                        const parcel = {
-                            owner: state.land[addr].owner,
-                            strain: '',
-                            xp: 0,
-                            care: [[processor.getCurrentBlockNumber(),'tilled']],
-                            aff: [],
-                            stage: -1,
-                            substage: 0,
-                            traits: [],
-                            terps: [],
-                            stats: [],
-                            pollinated: false
-                        }
-                        state.land[addr] = parcel
-                        
-                      }}
-                      } catch(e) {
-                          console.log('buds harvested', e.message)
-                         }
-                         
-
-                //pollen at harvest if male
-                try {
-              if (state.land[addr].care[i][1] == 'harvested' && state.land[addr].sex == 'male'){
-                if (!harvested && state.land[addr].stage > 3){
-                  harvested = true
-                  kudo(state.land[addr].owner)
-                  const pollen1 = {
-                      strain: state.land[addr].strain,
-                      owner: state.land[addr].owner,
-                      xp: state.land[addr].xp,
-                      traits: ['Beta Pollen'],
-                      terps: [],
-                      thc: 'coming soon',
-                      cbd: 'coming soon',
-                      familyTree: state.land[addr].strain,
-                      father: 'Sensimilla'
-                  }
-                  const pollen2 = {
-                      strain: state.land[addr].strain,
-                      owner: state.land[addr].owner,
-                      xp: state.land[addr].xp,
-                      traits: ['Beta Pollen'],
-                      terps: [],
-                      thc: 'coming soon',
-                      cbd: 'coming soon',
-                      familyTree: state.land[addr].strain,
-                      father: 'Sensimilla'
-                  }
-                  state.users[state.land[addr].owner].pollen.push(pollen1)
-
-                  state.users[state.land[addr].owner].pollen.push(pollen2)
-
-                  const parcel = {
-                      owner: state.land[addr].owner,
-                      strain: '',
-                      xp: 0,
-                      care: [[processor.getCurrentBlockNumber(),'tilled']],
-                      aff: [],
-                      terps: [],
-                      stats: [],
-                      stage: -1,
-                      substage: 0,
-                      pollinated: false
-                  }
-                  state.land[addr] = parcel
-                  
-                }}
-                } catch(e) {
-                    console.log('pollen harvested', e.message)
-                   }
+        
             }
                 }
             }
