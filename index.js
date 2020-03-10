@@ -1525,11 +1525,10 @@ function startApp() {
                     createdOn: json.block_num
                 }
 
-                state.users[from].cannagar.push(cannagar)
+                state.users[from].cannagars.push(cannagar)
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
-
     
 /*
     processor.on('return', function(json, from) {
