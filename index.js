@@ -1107,7 +1107,7 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < state.users[from].buds.length; i++) {
             try {
-            if (state.user[from].inv.tools.bubblebags) {
+        
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds[i]}`;
              
@@ -1122,7 +1122,7 @@ function startApp() {
 
                 state.users[from].inv.bubbleHash.push(bubbleHash)
 
-            }
+            
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
             }
