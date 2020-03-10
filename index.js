@@ -1130,8 +1130,6 @@ function startApp() {
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].vacoven > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
@@ -1146,22 +1144,16 @@ function startApp() {
 
                 state.users[from].oil.push(oil)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} created hash oil with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} created oil with ${budNames}`
     });
 
-    // search for qwoyn_craft_kief from user on blockchain since genesis
+    // search for qwoyn_kief from user on blockchain since genesis
     processor.on('craft_kief', function(json, from) {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].kiefbox > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
@@ -1176,22 +1168,16 @@ function startApp() {
 
                 state.users[from].kief.push(kief)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} created kief with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted kief with ${budNames}`
     });
 
-    // search for qwoyn_craft_kief from user on blockchain since genesis
+    // search for qwoyn_edibles from user on blockchain since genesis
     processor.on('craft_edibles', function(json, from) {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].browniemix > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
                 budNames += `${buds}`;
              
@@ -1206,22 +1192,16 @@ function startApp() {
 
                 state.users[from].edibles.push(edibles)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} created edibles with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
     });
 
-    // search for qwoyn_craft_joint from user on blockchain since genesis
+    // search for qwoyn_joint from user on blockchain since genesis
     processor.on('craft_joint', function(json, from) {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].papers > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
                 budNames += `${buds}`;
              
@@ -1234,28 +1214,22 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].joints.push(joint)
+                state.users[from].joint.push(joint)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} rolled a joint with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
     });
 
-    // search for qwoyn_craft_joint from user on blockchain since genesis
-    processor.on('craft_blunt', function(json, from) {
+    // search for qwoyn_blunts from user on blockchain since genesis
+    processor.on('craft_blunts', function(json, from) {
         let buds = json.buds,
             budNames = '',
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].bluntwraps > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
-                state.users[from].bluntwraps--;
+                state.users[from].hempwraps--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var blunt = {
@@ -1266,12 +1240,8 @@ function startApp() {
 
                 state.users[from].blunts.push(blunt)
 
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
-        state.cs[`${json.block_num}:${from}`] = `${from} rolled a blunt with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted blunt with ${budNames}`
     });
 
     // search for qwoyn_pollinate from user on blockchain since genesis
@@ -1283,8 +1253,6 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
@@ -1303,10 +1271,6 @@ function startApp() {
                 }
 
                 state.users[from].moonrocks.push(craftedMoonrock)
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a moonrock from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
@@ -1320,8 +1284,6 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].papers > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
@@ -1341,10 +1303,6 @@ function startApp() {
                 }
 
                 state.users[from].dippedjoints.push(dippedJoint)
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a dipped joint from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
@@ -1358,8 +1316,6 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
-            try {
-            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].hempwraps > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;;
@@ -1379,10 +1335,6 @@ function startApp() {
                 }
 
                 state.users[from].cannagar.push(cannagar)
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
-            }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
