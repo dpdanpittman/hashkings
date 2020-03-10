@@ -1087,16 +1087,16 @@ function startApp() {
                 plantnames += `${plants}`;
                 pollenName += `${pollen}`;
              
-                var pollen = ''
+                var pollens = ''
 
                 try{
                     for (var i = 0;i < state.users[from].pollen.length; i++){
-                        if(state.users[from].pollen[i].strain == json.pollen){pollen=state.users[from].pollen.splice(i, 1)[0];break;}
+                        if(state.users[from].pollen[i].strain == json.pollen){pollens=state.users[from].pollen.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
-                if (!pollen){
+                if (!pollens){
                     try {
-                        if(state.users[from].buds.length)pollen == state.users[from].pollen.splice(0, 1)[0]
+                        if(state.users[from].buds.length)pollens == state.users[from].pollen.splice(0, 1)[0]
                     }catch (e) {}
                 }
 
