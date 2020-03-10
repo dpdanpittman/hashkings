@@ -1145,11 +1145,11 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.vacoven > 0) {
+            if (state.user[from].buds === from && state.user[from].vacoven > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
-                state.users[from].inv.tools.vacoven--;
+                state.users[from].vacoven--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var oil = {
@@ -1158,7 +1158,7 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].inv.push(oil)
+                state.users[from].oil.push(oil)
 
             }
             } catch (e){
@@ -1175,11 +1175,11 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.kiefbox > 0) {
+            if (state.user[from].buds === from && state.user[from].kiefbox > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
-                state.users[from].inv.tools.kiefbox--;
+                state.users[from].kiefbox--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var kief = {
@@ -1188,7 +1188,7 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].inv.push(kief)
+                state.users[from].kief.push(kief)
 
             }
             } catch (e){
@@ -1205,11 +1205,11 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.browniemix > 0) {
+            if (state.user[from].buds === from && state.user[from].browniemix > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
                 budNames += `${buds}`;
              
-                state.users[from].inv.tools.browniemix--;
+                state.users[from].browniemix--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var edibles = {
@@ -1218,7 +1218,7 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].inv.push(edibles)
+                state.users[from].edibles.push(edibles)
 
             }
             } catch (e){
@@ -1235,11 +1235,11 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.papers > 0) {
+            if (state.user[from].buds === from && state.user[from].papers > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
                 budNames += `${buds}`;
              
-                state.users[from].inv.tools.papers--;
+                state.users[from].papers--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var joint = {
@@ -1248,7 +1248,7 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].inv.consumables.joints.push(joint)
+                state.users[from].joints.push(joint)
 
             }
             } catch (e){
@@ -1265,11 +1265,11 @@ function startApp() {
             dateCreated = json.block_num
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].inv.tools.bluntwraps > 0) {
+            if (state.user[from].buds === from && state.user[from].bluntwraps > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
-                state.users[from].inv.tools.bluntwraps--;
+                state.users[from].bluntwraps--;
                 state.users[from].buds.splice(i, 1)[0];
 
                 var blunt = {
@@ -1278,7 +1278,7 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
-                state.users[from].inv.consumables.blunts.push(blunt)
+                state.users[from].blunts.push(blunt)
 
             }
             } catch (e){
@@ -1304,9 +1304,9 @@ function startApp() {
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
              
-                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].oil.splice(i, 1)[0];
                 state.users[from].buds.splice(i, 1)[0];
-                state.users[from].inv.kief.splice(i, 1)[0];
+                state.users[from].kief.splice(i, 1)[0];
                 
                 var craftedMoonrock = {
                     buds: buds,
@@ -1316,7 +1316,7 @@ function startApp() {
                     createdOn: json.block_num
                 }
 
-                state.users[from].inv.consumables.moonrocks.push(craftedMoonrock)
+                state.users[from].moonrocks.push(craftedMoonrock)
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
@@ -1335,16 +1335,16 @@ function startApp() {
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.papers > 0) {
+            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].papers > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
              
-                state.users[from].inv.tools.papers--;
-                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].papers--;
+                state.users[from].oil.splice(i, 1)[0];
                 state.users[from].buds.splice(i, 1)[0];
-                state.users[from].inv.kief.splice(i, 1)[0];
+                state.users[from].splice(i, 1)[0];
                 
                 var dippedJoint = {
                     buds: buds,
@@ -1354,7 +1354,7 @@ function startApp() {
                     createdOn: json.block_num
                 }
 
-                state.users[from].inv.consumables.dippedjoints.push(dippedJoint)
+                state.users[from].dippedjoints.push(dippedJoint)
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
@@ -1373,16 +1373,16 @@ function startApp() {
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
             try {
-            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].inv.tools.hempwraps > 0) {
+            if (state.user[from].buds === from && state.user[from].oil === from && state.user[from].kief === from && state.user[from].hempwraps > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;;
                 kiefNames += `${kief}`;
              
-                state.users[from].inv.tools.papers--;
-                state.users[from].inv.oil.splice(i, 1)[0];
+                state.users[from].papers--;
+                state.users[from].oil.splice(i, 1)[0];
                 state.users[from].buds.splice(i, 1)[0];
-                state.users[from].inv.kief.splice(i, 1)[0];
+                state.users[from].kief.splice(i, 1)[0];
                 
                 var cannagar = {
                     buds: buds,
@@ -1392,7 +1392,7 @@ function startApp() {
                     createdOn: json.block_num
                 }
 
-                state.users[from].inv.consumables.cannagar.push(cannagar)
+                state.users[from].cannagar.push(cannagar)
             }
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't craft with what is not theirs`
@@ -1461,34 +1461,23 @@ function startApp() {
         farmer: 1,
         alliance: "",
         friends: [],
-        inv: [
-          {
-              seeds: [],
-              pollen: [],
-              buds: [],
-              kief: [],
-              bubblehash: [],
-              oil: [],
-              edibles: [],
-              consumables: [
-              {
-                  joints: [],
-                  blunts: [],
-                  moonrocks: [],
-                  dippedjoints: [],
-                  cannagars: [],
-              }
-              ],
-              tools:[
-              {
-                  kiefbox: 0,
-                  vacoven: 0,
-                  bubblebags: 0,
-                  browniemix: 0,
-              }
-            ]
-          }
-        ],
+        inv: [],
+        seeds: [],
+        pollen: [],
+        buds: [],
+        kief: [],
+        bubblehash: [],
+        oil: [],
+        edibles: [],
+        joints: [],
+        blunts: [],
+        moonrocks: [],
+        dippedjoints: [],
+        cannagars: [],
+        kiefbox: 0,
+        vacoven: 0,
+        bubblebags: 0,
+        browniemix: 0,
         stats: [],
         traits:[],
         terps:[],
@@ -1597,38 +1586,26 @@ function startApp() {
                   farmer: farmer,
                   alliance: "",
                   friends: [],
-                  inv: [
-                     {
-                         seeds: [],
-                         pollen: [],
-                         buds: [],
-                         kief: [],
-                         bubblehash: [],
-                         oil: [],
-                         edibles: [],
-                         consumables: [
-                             {
-                                 joints: [],
-                                 blunts: [],
-                                 moonrocks: [],
-                                 dippedjoints: [],
-                                 cannagars: [],
-                             }
-                        ],
-                         tools:[
-                             {
-                                 kiefbox: 0,
-                                 vacoven: 0,
-                                 bubblebags: 0,
-                                 browniemix: 0,
-                             }
-                         ]
-                     }
-                  ],
+                  inv: [],
+                  seeds: [],
+                  pollen: [],
+                  buds: [],
+                  kief: [],
+                  bubblehash: [],
+                  oil: [],
+                  edibles: [],
+                  joints: [],
+                  blunts: [],
+                  moonrocks: [],
+                  dippedjoints: [],
+                  cannagars: [],
+                  kiefbox: 0,
+                  vacoven: 0,
+                  bubblebags: 0,
+                  browniemix: 0,
                   stats: [],
-                  terps: [],
-                  traits: [seed.traits],
-                  pollinated: false,
+                  traits:[],
+                  terps:[],
                   v: 0
                 }
               } else {
@@ -1669,38 +1646,26 @@ function startApp() {
                   farmer: farmer,
                   alliance: "",
                   friends: [],
-                  inv: [
-                     {
-                     seeds: [],
-                     pollen: [],
-                     buds: [],
-                     kief: [],
-                     bubblehash: [],
-                     oil: [],
-                     edibles: [],
-                     consumables: [
-                        {
-                           joints: [],
-                           blunts: [],
-                           moonrocks: [],
-                           dippedjoints: [],
-                           cannagars: [],
-                        }
-                     ],
-                     tools:[
-                        {
-                           kiefbox: 0,
-                           vacoven: 0,
-                           bubblebags: 0,
-                           browniemix: 0,
-                        }
-                     ]
-                     }
-                  ],
+                  inv: [],
+                  seeds: [],
+                  pollen: [],
+                  buds: [],
+                  kief: [],
+                  bubblehash: [],
+                  oil: [],
+                  edibles: [],
+                  joints: [],
+                  blunts: [],
+                  moonrocks: [],
+                  dippedjoints: [],
+                  cannagars: [],
+                  kiefbox: 0,
+                  vacoven: 0,
+                  bubblebags: 0,
+                  browniemix: 0,
                   stats: [],
-                  terps: [],
-                  traits: [pollens.traits],
-                  pollinated: false,
+                  traits:[],
+                  terps:[],
                   v: 0
                 }
               } else {
@@ -1742,38 +1707,26 @@ function startApp() {
                   farmer: farmer,
                   alliance: "",
                   friends: [],
-                  inv: [
-                     {
-                     seeds: [],
-                     pollen: [],
-                     buds: [],
-                     kief: [],
-                     bubblehash: [],
-                     oil: [],
-                     edibles: [],
-                     consumables: [
-                        {
-                           joints: [],
-                           blunts: [],
-                           moonrocks: [],
-                           dippedjoints: [],
-                           cannagars: [],
-                        }
-                     ],
-                     tools:[
-                        {
-                           kiefbox: 0,
-                           vacoven: 0,
-                           bubblebags: 0,
-                           browniemix: 0,
-                        }
-                     ]
-                     }
-                  ],
+                  inv: [],
+                  seeds: [],
+                  pollen: [],
+                  buds: [],
+                  kief: [],
+                  bubblehash: [],
+                  oil: [],
+                  edibles: [],
+                  joints: [],
+                  blunts: [],
+                  moonrocks: [],
+                  dippedjoints: [],
+                  cannagars: [],
+                  kiefbox: 0,
+                  vacoven: 0,
+                  bubblebags: 0,
+                  browniemix: 0,
                   stats: [],
-                  terps: [buds.terps],
-                  traits: [buds.traits],
-                  pollinated: false,
+                  traits:[],
+                  terps:[],
                   v: 0
                 }
               } else {
@@ -1906,34 +1859,23 @@ function startApp() {
         farmer: 1,
         alliance: "",
         friends: [],
-        inv: [
-            {
-                seeds: [],
-                pollen: [],
-                buds: [],
-                kief: [],
-                bubblehash: [],
-                oil: [],
-                edibles: [],
-                consumables: [
-                    {
-                        joints: [],
-                        blunts: [],
-                        moonrocks: [],
-                        dippedjoints: [],
-                        cannagars: [],
-                    }
-            ],
-                tools:[
-                    {
-                        kiefbox: 0,
-                        vacoven: 0,
-                        bubblebags: 0,
-                        browniemix: 0,
-                    }
-                ]
-            }
-        ],
+        inv: [],
+        seeds: [],
+        pollen: [],
+        buds: [],
+        kief: [],
+        bubblehash: [],
+        oil: [],
+        edibles: [],
+        joints: [],
+        blunts: [],
+        moonrocks: [],
+        dippedjoints: [],
+        cannagars: [],
+        kiefbox: 0,
+        vacoven: 0,
+        bubblebags: 0,
+        browniemix: 0,
         stats: [],
         traits:[],
         terps:[],
@@ -1988,34 +1930,23 @@ function startApp() {
                 buds: [],
                 alliance: "",
                 friends: [],
-                inv: [
-                  {
-                    seeds: [],
-                    pollen: [],
-                    buds: [],
-                    kief: [],
-                    bubblehash: [],
-                    oil: [],
-                    edibles: [],
-                    consumables: [
-                        {
-                            joints: [],
-                            blunts: [],
-                            moonrocks: [],
-                            dippedjoints: [],
-                            cannagars: [],
-                        }
-                    ],
-                    tools:[
-                        {
-                            kiefbox: 0,
-                            vacoven: 0,
-                            bubblebags: 0,
-                            browniemix: 0,
-                        }
-                    ]
-                  }
-                ],
+                inv: [],
+                seeds: [],
+                pollen: [],
+                buds: [],
+                kief: [],
+                bubblehash: [],
+                oil: [],
+                edibles: [],
+                joints: [],
+                blunts: [],
+                moonrocks: [],
+                dippedjoints: [],
+                cannagars: [],
+                kiefbox: 0,
+                vacoven: 0,
+                bubblebags: 0,
+                browniemix: 0,
                 stats: [],
                 traits:[],
                 terps:[],
