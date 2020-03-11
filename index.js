@@ -1218,17 +1218,10 @@ function startApp() {
                         }
                         // not properly updating the name
                         if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance = myAlliance;break;}
-                    }
-                } catch (e) {}
-
-                //not updating membernames in alliances
-                try{
-                    for (var i = 0;i < state.users[from].alliance.length; i++){
                         var newMember = json.from
                         if(state.users[from].alliance[i] == json.alliance){state.stats.alliances[alliance].push(newMember);break;}
                     }
                 } catch (e) {}
-                
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
