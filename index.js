@@ -932,13 +932,12 @@ function startApp() {
         }
 
 ///---------------------------------------------------------------------------------------
-        var harvested = false
+        
 
         //female harvested pollinated plant
             try {
-            if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == true){
-            if (!harvested && state.land[plants[i]].stage > 3){
-                harvested = true
+            if (state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == true){
+            if (state.land[plants[i]].stage > 3){
                 const seed = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
@@ -990,9 +989,9 @@ function startApp() {
                 
                 //harvest buds if female not pollinated
                 try {
-                if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == false){
-                    if (!harvested && state.land[plants[i]].stage > 3){
-                    harvested = true
+                if (state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated === false){
+                    if (state.land[plants[i]].stage > 3){
+                
                     const bud1 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
@@ -1043,9 +1042,8 @@ function startApp() {
 
             //pollen at harvest if male
             try {
-            if (state.land[plants[i]].care[1] == 'harvested' && state.land[plants[i]].sex == 'male'){
-            if (!harvested && state.land[plants[i]].stage > 3){
-                harvested = true
+            if (state.land[plants[i]].sex == 'male'){
+            if (state.land[plants[i]].stage > 3){
                 const pollen1 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
@@ -3101,7 +3099,7 @@ function daily(addr) {
                 kudo(state.land[addr].owner);
             }
             } catch(e) {
-                console.log('something strange with pollination', e.message)
+                console.log('something strange with giving kudos for pollination', e.message)
             }
 
             /*//if json is crafted_kief give kudos
