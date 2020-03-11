@@ -228,7 +228,7 @@ app.get('/a/:user', (req, res, next) => {
     res.send(JSON.stringify(arr, null, 3))
 });
 
-//overal game stats i.e. number of gardeners, number of plots available, seed prices, land price, weather info
+//overal game stats i.e. number of gardeners, number of plants available, seed prices, land price, weather info
 //at each location such as mexico or jamaica etc.
 app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
@@ -956,8 +956,8 @@ function startApp() {
                     pollinated: false,
                     father: [],
                 }
-                state.users[state.land[plots[i]].owner].seeds.push(seed)
-                state.users[state.land[plots[i]].owner].seeds.push(seed2)
+                state.users[state.land[plants[i]].owner].seeds.push(seed)
+                state.users[state.land[plants[i]].owner].seeds.push(seed2)
                 state.users[from].xps += 25;
 
                 const parcel = {
