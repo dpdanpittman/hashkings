@@ -1,6 +1,6 @@
 {
   "name": "hashkings-api",
-  "version": "0.0.9.4",
+  "version": "0.9.4",
   "description": "Steem Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
