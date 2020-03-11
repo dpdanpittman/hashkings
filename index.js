@@ -925,10 +925,7 @@ function startApp() {
             if (state.land[plants[i]].owner === from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'harvested']);
                 plantnames += `${plants[i]} `
-            }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
-            }
+            
 ///---------------------------------------------------------------------------------------
         //female harvested pollinated plant
             try {
@@ -1088,6 +1085,11 @@ function startApp() {
                 console.log('pollen harvested', e.message)
                 }
             }
+        } catch (e){
+          state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
+        }
+            }
+            
 ///----------------------------------------------------------------------------------------
 
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
