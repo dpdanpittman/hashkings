@@ -929,7 +929,7 @@ function startApp() {
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
             }
-        }
+        
 
 ///---------------------------------------------------------------------------------------
         
@@ -1090,7 +1090,7 @@ function startApp() {
             } catch(e) {
                 console.log('pollen harvested', e.message)
                 }
-
+            }
 ///----------------------------------------------------------------------------------------
 
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
