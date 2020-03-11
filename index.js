@@ -1217,16 +1217,14 @@ function startApp() {
                             alliance: json.alliance
                         }
                         // not properly updating the name
-                        if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance.push(myAlliance);break;}
+                        if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance = myAlliance;break;}
                     }
                 } catch (e) {}
 
                 //not updating membernames in alliances
                 try{
                     for (var i = 0;i < state.users[from].alliance.length; i++){
-                        var newMember = {
-                            memberName: from
-                        }
+                        var newMember = json.from
                         if(state.users[from].alliance[i] == json.alliance){state.stats.alliances[alliance].push(newMember);break;}
                     }
                 } catch (e) {}
