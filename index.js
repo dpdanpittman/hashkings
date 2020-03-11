@@ -929,14 +929,10 @@ function startApp() {
             } catch (e){
               state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
             }
-        
-
 ///---------------------------------------------------------------------------------------
-        
-
         //female harvested pollinated plant
             try {
-            if (state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated == true){
+            if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === true){
             if (state.land[plants[i]].stage > 3){
                 const seed = {
                     strain: state.land[plants[i]].strain,
@@ -980,6 +976,7 @@ function startApp() {
                     stats: [],
                     pollinated: false
                 }
+
                 state.land[plants[i]] = parcel
                 
             }}
@@ -989,7 +986,7 @@ function startApp() {
                 
                 //harvest buds if female not pollinated
                 try {
-                if (state.land[plants[i]].sex == 'female' && state.land[plants[i]].pollinated === false){
+                if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === false){
                     if (state.land[plants[i]].stage > 3){
                 
                     const bud1 = {
@@ -1204,7 +1201,7 @@ function startApp() {
     //search for qwoyn_join_alliance from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
-    processor.on('join_alliance', function(json, from) {
+   /* processor.on('join_alliance', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
         for (var i = 0; i < state.stats.alliances.length; i++) {
@@ -1228,7 +1225,7 @@ function startApp() {
         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
-    });
+    });*/
 
     //search for qwoyn_alliance from user on blockchain since genesis
     //steemconnect link
