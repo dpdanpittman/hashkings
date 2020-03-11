@@ -990,7 +990,7 @@ function startApp() {
                     const bud1 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
-                        xp: state.land[addr].xp,
+                        xp: state.land[plants[i]].xp,
                         traits: ['Beta Buds'],
                         terps: [state.land[plants[i]].strain.terps],
                         thc: 'coming soon',

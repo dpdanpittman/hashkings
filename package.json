@@ -1,6 +1,6 @@
 {
   "name": "hashkings-api",
-  "version": "5.7.5",
+  "version": "0.0.9.4",
   "description": "Steem Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "keywords": [
     "dlux",
     "steem",
-    "qwoyn",
     "hashkings"
   ],
   "author": "disregardfiat, qwoyn",
