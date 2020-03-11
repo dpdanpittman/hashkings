@@ -940,9 +940,9 @@ function startApp() {
                     thc: 'coming soon',
                     cbd: 'coming soon',
                     breeder: state.land[plants[i]].owner,
-                    familyTree: state.land[plants[i]].strain + '' + pollenName,
+                    familyTree: state.land[plants[i]].strain,
                     pollinated: false,
-                    father: pollenName
+                    father: [],
                 }
                 const seed2 = {
                     strain: state.land[plants[i]].strain,
@@ -952,9 +952,9 @@ function startApp() {
                     terps: [],
                     thc: 'coming soon',
                     cbd: 'coming soon',
-                    familyTree: state.land[plants[i]].strain + '' + state.land[plants[i]].pollen,
+                    familyTree: state.land[plants[i]].strain,
                     pollinated: false,
-                    father: pollenName
+                    father: [],
                 }
                 state.users[state.land[plots[i]].owner].seeds.push(seed)
                 state.users[state.land[plots[i]].owner].seeds.push(seed2)
@@ -974,7 +974,8 @@ function startApp() {
                     pollinated: false
                 }
 
-                state.land[plants[i]] = parcel
+                state.land[plants[i]] = parcel;
+                kudo(state.land[plants[i]].owner);
                 
             }}
             } catch(e) {
@@ -1026,7 +1027,8 @@ function startApp() {
                         stats: [],
                         pollinated: false
                     }
-                    state.land[plants[i]] = parcel
+                    state.land[plants[i]] = parcel;
+                    kudo(state.land[plants[i]].owner);
                     
                     }}
                     } catch(e) {
@@ -1036,7 +1038,7 @@ function startApp() {
 
             //pollen at harvest if male
             try {
-            if (state.land[plants[i]].sex == 'male'){
+            if (state.land[plants[i]].sex === 'male'){
             if (state.land[plants[i]].stage > 3){
                 const pollen1 = {
                     strain: state.land[plants[i]].strain,
@@ -1078,7 +1080,8 @@ function startApp() {
                     substage: 0,
                     pollinated: false
                 }
-                state.land[plants[i]] = parcel
+                state.land[plants[i]] = parcel;
+                kudo(state.land[plants[i]].owner);
                 
             }}
             } catch(e) {
