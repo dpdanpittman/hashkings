@@ -2486,7 +2486,7 @@ function startApp() {
     }
     });
 
-    processor.onOperation('transfer', function(json) {
+    processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
@@ -2580,6 +2580,7 @@ function startApp() {
                     }
                     state.users[from].xps += 1;
                     state.users[json.from].seeds.push(seed)
+
                     const c = parseInt(amount * 0.75)
                     state.bal.c += c
                     state.bal.b += amount - c
