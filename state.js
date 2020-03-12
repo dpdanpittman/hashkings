@@ -788,14 +788,14 @@ module.exports = {
    "bal": {
       "r": 0,
       "c": 0,
-      "b": 0,
+      "b": 10,
       "p": 1493719
    },
    "refund": [
       [
          "power",
          "hashkings",
-         0,
+         10,
          "Power to the people!"
       ],
       [
