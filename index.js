@@ -990,7 +990,6 @@ function startApp() {
                     const bud1 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
-                        xp: state.land[plants[i]].xp,
                         traits: ['Beta Buds'],
                         terps: [state.land[plants[i]].strain.terps],
                         thc: 'coming soon',
@@ -1001,7 +1000,6 @@ function startApp() {
                     const bud2 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
-                        xp: state.land[plants[i]].xp,
                         traits: ['Beta Buds'],
                         thc: 'coming soon',
                         cbd: 'coming soon',
@@ -1017,7 +1015,6 @@ function startApp() {
                     const parcel = {
                         owner: state.land[plants[i]].owner,
                         strain: '',
-                        xp: 0,
                         care: [[processor.getCurrentBlockNumber(),'tilled']],
                         aff: [],
                         stage: -1,
@@ -1043,7 +1040,6 @@ function startApp() {
                 const pollen1 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
-                    xp: state.land[plants[i]].xp,
                     traits: ['Beta Pollen'],
                     terps: [],
                     thc: 'coming soon',
@@ -1054,7 +1050,6 @@ function startApp() {
                 const pollen2 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
-                    xp: state.land[plants[i]].xp,
                     traits: ['Beta Pollen'],
                     terps: [],
                     thc: 'coming soon',
