@@ -929,12 +929,10 @@ function startApp() {
 ///---------------------------------------------------------------------------------------
         //female harvested pollinated plant
             try {
-            if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === true){
-            if (state.land[plants[i]].stage > 3){
-                const seed = {
+            if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === true && state.land[plants[i]].stage > 3){
+                var seed = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
-                    xp: state.land[plants[i]].xp,
                     traits: ['beta pollinated seed'],
                     terps: [],
                     thc: 'coming soon',
@@ -944,10 +942,9 @@ function startApp() {
                     pollinated: false,
                     father: [],
                 }
-                const seed2 = {
+                var seed2 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
-                    xp: state.land[plants[i]].xp,
                     traits: ['beta pollinated seed'],
                     terps: [],
                     thc: 'coming soon',
@@ -956,9 +953,6 @@ function startApp() {
                     pollinated: false,
                     father: [],
                 }
-                state.users[json.from].seeds.push(seed)
-                state.users[json.from].seeds.push(seed2)
-                state.users[json.from].xps += 25;
 
                 const parcel = {
                     owner: state.land[plants[i]].owner,
@@ -977,17 +971,19 @@ function startApp() {
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
                 
-            }}
+                state.users[json.from].seeds.push(seed)
+                state.users[json.from].seeds.push(seed2)
+                state.users[json.from].xps += 25;
+                
+            }
             } catch(e) {
                 console.log('', e.message)
                 }
                 
                 //harvest buds if female not pollinated
                 try {
-                if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === false){
-                    if (state.land[plants[i]].stage > 3){
-                
-                    const bud1 = {
+                if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === false && state.land[plants[i]].stage > 3){                
+                    var bud1 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
                         traits: ['Beta Buds'],
@@ -997,7 +993,7 @@ function startApp() {
                         familyTree: state.land[plants[i]].strain,
                         father: 'Sensimilla'
                     }
-                    const bud2 = {
+                    var bud2 = {
                         strain: state.land[plants[i]].strain,
                         owner: state.land[plants[i]].owner,
                         traits: ['Beta Buds'],
@@ -1007,10 +1003,6 @@ function startApp() {
                         familyTree: state.land[plants[i]].strain,
                         father: 'Sensimilla'
                     }
-
-                    state.users[json.from].buds.push(bud1)
-                    state.users[json.from].buds.push(bud2)
-                    state.users[json.from].xps += 25;
 
                     const parcel = {
                         owner: state.land[plants[i]].owner,
@@ -1026,8 +1018,12 @@ function startApp() {
                     }
                     state.land[plants[i]] = parcel;
                     kudo(state.land[plants[i]].owner);
+
+                    state.users[json.from].buds.push(bud1)
+                    state.users[json.from].buds.push(bud2)
+                    state.users[json.from].xps += 25;
                     
-                    }}
+                    }
                     } catch(e) {
                         console.log('buds harvested', e.message)
                     }
@@ -1035,9 +1031,8 @@ function startApp() {
 
             //pollen at harvest if male
             try {
-            if (state.land[plants[i]].sex === 'male'){
-            if (state.land[plants[i]].stage > 3){
-                const pollen1 = {
+            if (state.land[plants[i]].sex === 'male' && state.land[plants[i]].stage > 3){
+                var pollen1 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
                     traits: ['Beta Pollen'],
@@ -1047,7 +1042,7 @@ function startApp() {
                     familyTree: state.land[plants[i]].strain,
                     father: 'Sensimilla'
                 }
-                const pollen2 = {
+                var pollen2 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
                     traits: ['Beta Pollen'],
@@ -1057,11 +1052,6 @@ function startApp() {
                     familyTree: state.land[plants[i]].strain,
                     father: 'Sensimilla'
                 }
-                state.users[json.from].pollen.push(pollen1)
-
-                state.users[json.from].pollen.push(pollen2)
-
-                state.users[json.from].xps += 25;
 
                 const parcel = {
                     owner: state.land[plants[i]].owner,
@@ -1078,7 +1068,11 @@ function startApp() {
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
                 
-            }}
+                state.users[json.from].pollen.push(pollen1)
+                state.users[json.from].pollen.push(pollen2)
+                state.users[json.from].xps += 25;
+                
+            }
             } catch(e) {
                 console.log('pollen harvested', e.message)
                 }
