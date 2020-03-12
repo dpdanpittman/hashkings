@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 41511876; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 41585173; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 41511876;
+const ago = ENV.ago || 41585173;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -3090,7 +3090,7 @@ function daily(addr) {
                 }
             }
             
-            //if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
+            /*//if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
             try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
                 kudo(state.land[addr].owner);
@@ -3099,7 +3099,7 @@ function daily(addr) {
                 console.log('something strange with giving kudos for pollination', e.message)
             }
 
-            /*//if json is crafted_kief give kudos
+            //if json is crafted_kief give kudos
             try {
             if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.users[from].stats[i][1] == 'crafted_kief') {
                 kudo(state.land[addr].owner);
