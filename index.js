@@ -956,8 +956,8 @@ function startApp() {
                     pollinated: false,
                     father: [],
                 }
-                state.users[state.land[plants[i]].owner].seeds.push(seed)
-                state.users[state.land[plants[i]].owner].seeds.push(seed2)
+                state.users[from].seeds.push(seed)
+                state.users[from].seeds.push(seed2)
                 state.users[from].xps += 25;
 
                 const parcel = {
@@ -1008,8 +1008,8 @@ function startApp() {
                         father: 'Sensimilla'
                     }
 
-                    state.users[state.land[plants[i]].owner].buds.push(bud1)
-                    state.users[state.land[plants[i]].owner].buds.push(bud2)
+                    state.users[from].buds.push(bud1)
+                    state.users[from].buds.push(bud2)
                     state.users[from].xps += 25;
 
                     const parcel = {
@@ -1057,9 +1057,9 @@ function startApp() {
                     familyTree: state.land[plants[i]].strain,
                     father: 'Sensimilla'
                 }
-                state.users[state.land[plants[i]].owner].pollen.push(pollen1)
+                state.users[from].pollen.push(pollen1)
 
-                state.users[state.land[plants[i]].owner].pollen.push(pollen2)
+                state.users[from].pollen.push(pollen2)
 
                 state.users[from].xps += 25;
 
