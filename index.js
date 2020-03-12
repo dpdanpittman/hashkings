@@ -919,7 +919,8 @@ function startApp() {
     // search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
-            plantnames = ''
+            plantnames = '',
+            harvester = json.from
         for (var i = 0; i < plants.length; i++) {
             try {
             if (state.land[plants[i]].owner === from) {
@@ -971,9 +972,9 @@ function startApp() {
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
 
-                state.users[from].seeds.push(harvestedSeed)
-                state.users[from].seeds.push(harvestedSeed2)
-                state.users[from].xps += 25;
+                state.users[state.land[plants[i]].owner].seeds.push(harvestedSeed)
+                state.users[state.land[plants[i]].owner].seeds.push(harvestedSeed2)
+                state.users[state.land[plants[i]].owner].xps += 25;
                 
             }
             } catch(e) {
@@ -1019,9 +1020,9 @@ function startApp() {
                     state.land[plants[i]] = parcel;
                     kudo(state.land[plants[i]].owner);
 
-                    state.users[from].buds.push(bud1)
-                    state.users[from].buds.push(bud2)
-                    state.users[from].xps += 25;
+                    state.users[state.land[plants[i]].owner].buds.push(bud1)
+                    state.users[state.land[plants[i]].owner].buds.push(bud2)
+                    state.users[state.land[plants[i]].owner].xps += 25;
                     
                     }
                     } catch(e) {
@@ -1068,9 +1069,9 @@ function startApp() {
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
                 
-                state.users[from].pollen.push(pollen1)
-                state.users[from].pollen.push(pollen2)
-                state.users[from].xps += 25;
+                state.users[state.land[plants[i]].owner].pollen.push(pollen1)
+                state.users[state.land[plants[i]].owner].pollen.push(pollen2)
+                state.users[state.land[plants[i]].owner].xps += 25;
                 
             }
             } catch(e) {
