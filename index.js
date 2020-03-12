@@ -930,7 +930,7 @@ function startApp() {
         //female harvested pollinated plant
             try {
             if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === true && state.land[plants[i]].stage > 3){
-                var seed = {
+                var harvestedSeed = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
                     traits: ['beta pollinated seed'],
@@ -942,7 +942,7 @@ function startApp() {
                     pollinated: false,
                     father: [],
                 }
-                var seed2 = {
+                var harvestedSeed2 = {
                     strain: state.land[plants[i]].strain,
                     owner: state.land[plants[i]].owner,
                     traits: ['beta pollinated seed'],
@@ -970,10 +970,10 @@ function startApp() {
 
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
-                
-                state.users[json.from].seeds.push(seed)
-                state.users[json.from].seeds.push(seed2)
-                state.users[json.from].xps += 25;
+
+                state.users[from].seeds.push(harvestedSeed)
+                state.users[from].seeds.push(harvestedSeed2)
+                state.users[from].xps += 25;
                 
             }
             } catch(e) {
@@ -1019,9 +1019,9 @@ function startApp() {
                     state.land[plants[i]] = parcel;
                     kudo(state.land[plants[i]].owner);
 
-                    state.users[json.from].buds.push(bud1)
-                    state.users[json.from].buds.push(bud2)
-                    state.users[json.from].xps += 25;
+                    state.users[from].buds.push(bud1)
+                    state.users[from].buds.push(bud2)
+                    state.users[from].xps += 25;
                     
                     }
                     } catch(e) {
@@ -1068,9 +1068,9 @@ function startApp() {
                 state.land[plants[i]] = parcel;
                 kudo(state.land[plants[i]].owner);
                 
-                state.users[json.from].pollen.push(pollen1)
-                state.users[json.from].pollen.push(pollen2)
-                state.users[json.from].xps += 25;
+                state.users[from].pollen.push(pollen1)
+                state.users[from].pollen.push(pollen2)
+                state.users[from].xps += 25;
                 
             }
             } catch(e) {
