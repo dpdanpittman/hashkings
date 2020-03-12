@@ -1332,7 +1332,7 @@ function startApp() {
 
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -1352,10 +1352,11 @@ function startApp() {
                     createdBy: from,
                     createdOn: dateCreated
                 }
-
+                if(state.users[from].xps > 999) {
                 state.users[from].oil.push(oil)
-
+                }
         }
+        state.users[from].xps += 100;
         state.cs[`${json.block_num}:${from}`] = `${from} created oil with ${budNames}`
     });
 
@@ -1365,10 +1366,10 @@ function startApp() {
             budNames = '',
             dateCreated = json.block_num
         var bud = ''
-
+        
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -1388,10 +1389,12 @@ function startApp() {
                     createdBy: from,
                     createdOn: dateCreated
                 }
-
+                if(state.users[from].xps > 99){
                 state.users[from].kief.push(kief)
-
+                }
         }
+
+        state.users[from].xps += 50;
         state.cs[`${json.block_num}:${from}`] = `${from} crafted kief with ${budNames}`
     });
 
@@ -1440,7 +1443,7 @@ function startApp() {
         
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -1461,9 +1464,11 @@ function startApp() {
                     createdOn: dateCreated
                 }
 
+                if(state.users[from].xps > 99){
                 state.users[from].joints.push(joint)
-
+                }
         }
+        state.users[from].xps += 25;
         state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
     });
 
@@ -1473,10 +1478,10 @@ function startApp() {
             budNames = ''
             dateCreated = json.block_num
         var bud = ''
-
+        
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -1496,10 +1501,12 @@ function startApp() {
                     createdBy: from,
                     createdOn: dateCreated
                 }
-
+                if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999){
                 state.users[from].blunts.push(blunt)
+                }
 
         }
+        state.users[from].xps += 250;
         state.cs[`${json.block_num}:${from}`] = `${from} crafted a blunt with ${budNames}`
     });
 
@@ -1586,10 +1593,10 @@ function startApp() {
                 state.users[from].papers--;
 
             var bud = ''
-
+            
                 try{
                     for (var i = 0;i < state.users[from].buds.length; i++){
-                        if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                        if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!bud){
@@ -1602,7 +1609,7 @@ function startApp() {
 
                 try{
                     for (var i = 0;i < state.users[from].kief.length; i++){
-                        if(state.users[from].kief[i].strain == json.buds){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
+                        if(state.users[from].kief[i].strain == json.kief && state.users[from].xps > 99999){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!kiefs){
@@ -1615,7 +1622,7 @@ function startApp() {
 
                 try{
                     for (var i = 0;i < state.users[from].oil.length; i++){
-                        if(state.users[from].oil[i].strain == json.oil){oils=state.users[from].oil.splice(i, 1)[0];break;}
+                        if(state.users[from].oil[i].strain == json.oil && state.users[from].xps > 99999){oils=state.users[from].oil.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!oils){
@@ -1631,8 +1638,9 @@ function startApp() {
                     createdBy: from,
                     createdOn: json.block_num
                 }
-
+                if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99999){
                 state.users[from].dippedjoints.push(dippedJoint)
+                }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a dipped joint from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
@@ -1658,7 +1666,7 @@ function startApp() {
 
                 try{
                     for (var i = 0;i < state.users[from].buds.length; i++){
-                        if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                        if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 999999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!bud){
@@ -1671,7 +1679,7 @@ function startApp() {
 
                 try{
                     for (var i = 0;i < state.users[from].kief.length; i++){
-                        if(state.users[from].kief[i].strain == json.buds){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
+                        if(state.users[from].kief[i].strain == json.kief && state.users[from].xps > 999999){kiefs=state.users[from].kief.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!kiefs){
@@ -1684,7 +1692,7 @@ function startApp() {
 
                 try{
                     for (var i = 0;i < state.users[from].oil.length; i++){
-                        if(state.users[from].oil[i].strain == json.oil){oils=state.users[from].oil.splice(i, 1)[0];break;}
+                        if(state.users[from].oil[i].strain == json.oil && state.users[from].xps > 999999){oils=state.users[from].oil.splice(i, 1)[0];break;}
                     }
                 } catch (e) {}
                 if (!oils){
@@ -1700,8 +1708,9 @@ function startApp() {
                     createdBy: from,
                     createdOn: json.block_num
                 }
-
+                if(state.users[from].xps > 999999){
                 state.users[from].cannagars.push(cannagar)
+                }
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
@@ -2566,7 +2575,6 @@ function startApp() {
                     var seed = {
                         strain: type,
                         owner: json.from,
-                        xp: xp,
                         traits: ['genesis seeds'],
                         terps: [],
                         thc: 'coming soon',
@@ -2575,6 +2583,7 @@ function startApp() {
                         familyTree: 'Landrace Strain',
                         pollinated: false
                     }
+                    state.users[from].xps += 1;
                     state.users[json.from].seeds.push(seed)
                     const c = parseInt(amount * 0.75)
                     state.bal.c += c
@@ -2588,8 +2597,13 @@ function startApp() {
                     if (want == 'vacoven') state.users[json.from].vacoven++; 
                     if (want == 'bluntwraps') state.users[json.from].bluntwraps++;
                     if (want == 'browniemix') state.users[json.from].browniemix++;
-                    if (want == 'hempwraps') state.users[json.from].hempwraps++; 
-                    if (want == 'kiefbox') state.users[json.from].kiefbox++; 
+                    if (want == 'hempwraps') state.users[json.from].hempwraps++;
+                    if (want == 'papers') state.users[from].xps += 1;;
+                    if (want == 'kiefbox') state.users[from].xps += 1;;
+                    if (want == 'vacoven') state.users[from].xps += 10;; 
+                    if (want == 'bluntwraps') state.users[from].xps += 50;;
+                    if (want == 'browniemix') state.users[from].xps += 100;;
+                    if (want == 'hempwraps') state.users[from].xps += 250;;
                     const c = parseInt(amount * 0.75)
                     state.bal.c += c
                     state.bal.b += amount - c
