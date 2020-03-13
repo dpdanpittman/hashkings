@@ -8743,8 +8743,8 @@ module.exports = {
       },
       "b90": {
          "owner": "jbsharkey",
-         "strain": "",
-         "xp": 0,
+         "strain": "kbr",
+         "xp": 1,
          "care": [
             [
                41563629,
@@ -8755,10 +8755,29 @@ module.exports = {
          "aff": [],
          "terps": [],
          "stats": [],
-         "stage": -1,
-         "substage": 0,
+         "stage": 1,
+         "substage": 3,
          "pollinated": false,
          "id": "b90"
+      },
+      "a126": {
+         "owner": "jbsharkey",
+         "strain": "afg",
+         "xp": 1,
+         "care": [
+            [
+               41563629,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "terps": [],
+         "stats": [],
+         "stage": 1,
+         "substage": 3,
+         "pollinated": false,
+         "id": "a126"
       },
       "c99": {
          "owner": "tsnaks",
@@ -20529,7 +20548,17 @@ module.exports = {
             "a126"
          ],
          "xps": 1,
-         "seeds": [],
+         "seeds": [
+            {
+            "strain": "afg",
+            "owner": "jbsharkey",
+            "xp": 50,
+            "traits": [
+               "Beta Seeds"
+            ],
+            "pollinated": false
+         },
+      ],
          "pollen": [
             {
                "strain": "swz",
