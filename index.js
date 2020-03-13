@@ -2607,12 +2607,12 @@ function startApp() {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                 } else {
                     state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
                 }
-            } else if (amount > 10) {
+            } else if (amount > 10000) {
                 state.bal.r += amount
                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
-                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer...please check wallet`
+                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds/tools or managing land...please check wallet`
             }
                 } else {
                     if (state.blacklist[json.from]){
