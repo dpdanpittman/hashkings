@@ -2524,6 +2524,7 @@ function startApp() {
                 stats: [],
                 traits:[],
                 terps:[],
+                blacklist: true,
                 v: 0,
                 a: 0,
                 u: 0
@@ -2578,7 +2579,7 @@ function startApp() {
                         familyTree: 'Landrace Strain',
                         pollinated: false
                     }
-                    state.users[from].xps += 1;
+                    state.users[json.from].xps += 1;
                     state.users[json.from].seeds.push(seed)
 
                     const c = parseInt(amount * 0.75)
@@ -2594,12 +2595,12 @@ function startApp() {
                     if (want == 'bluntwraps') state.users[json.from].bluntwraps++;
                     if (want == 'browniemix') state.users[json.from].browniemix++;
                     if (want == 'hempwraps') state.users[json.from].hempwraps++;
-                    if (want == 'papers') state.users[from].xps += 1;;
-                    if (want == 'kiefbox') state.users[from].xps += 1;;
-                    if (want == 'vacoven') state.users[from].xps += 10;; 
-                    if (want == 'bluntwraps') state.users[from].xps += 50;;
-                    if (want == 'browniemix') state.users[from].xps += 100;;
-                    if (want == 'hempwraps') state.users[from].xps += 250;;
+                    if (want == 'papers') state.users[json.from].xps += 1;;
+                    if (want == 'kiefbox') state.users[json.from].xps += 1;;
+                    if (want == 'vacoven') state.users[json.from].xps += 10;; 
+                    if (want == 'bluntwraps') state.users[json.from].xps += 50;;
+                    if (want == 'browniemix') state.users[json.from].xps += 100;;
+                    if (want == 'hempwraps') state.users[json.from].xps += 250;;
                     const c = parseInt(amount * 0.75)
                     state.bal.c += c
                     state.bal.b += amount - c
