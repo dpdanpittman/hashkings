@@ -265,12 +265,6 @@ module.exports = {
          "used": 0
       },
       {
-         "delegator": "wdougwatson",
-         "vests": 78971254943,
-         "availible": 0,
-         "used": 2
-      },
-      {
          "delegator": "rachaeldwatson",
          "vests": 78961153897,
          "availible": 0,
@@ -517,12 +511,6 @@ module.exports = {
          "used": 4
       },
       {
-         "delegator": "badpupper",
-         "vests": 78410701832,
-         "availible": 0,
-         "used": 2
-      },
-      {
          "delegator": "ganjafarmer",
          "vests": 392032681240,
          "availible": 7,
@@ -531,12 +519,6 @@ module.exports = {
       {
          "delegator": "songokubg",
          "vests": 39197422798,
-         "availible": 0,
-         "used": 1
-      },
-      {
-         "delegator": "fenngen",
-         "vests": 39190661517,
          "availible": 0,
          "used": 1
       },
@@ -563,21 +545,36 @@ module.exports = {
          "vests": 156724543516,
          "availible": 0,
          "used": 4
+      },
+      {
+         "delegator": "wdougwatson",
+         "vests": 0,
+         "availible": 0,
+         "used": 0
+      },
+      {
+         "delegator": "fenngen",
+         "vests": 0,
+         "availible": 0,
+         "used": 0
+      },
+      {
+         "delegator": "badpupper",
+         "vests": 117515971301,
+         "availible": 0,
+         "used": 3
       }
    ],
    "kudos": {
-      "abrockman": 1,
-      "romiferns": 1,
+      "abrockman": 34,
       "chronocrypto": 6,
-      "saboin": 5,
+      "chunkysoupsvc": 1,
       "ecoinstats": 1,
       "stever82": 1,
-      "anarcist69": 4,
-      "jeffjagoe": 1,
-      "vcdragon": 7,
-      "ghosthunter1": 1,
-      "cuko": 1,
-      "nupulse": 1,
+      "vcdragon": 8,
+      "elemental010": 2,
+      "anarcist69": 1,
+      "russia-btc": 2,
       "jbsharkey": 1,
       "badpupper": 1
    },
@@ -599,14 +596,14 @@ module.exports = {
             "lat": "31.5",
             "lon": "64.1",
             "weather": {
-               "high": 298.6,
-               "low": 289.92,
-               "avg": "294.0",
+               "high": 300.9,
+               "low": 292.25,
+               "avg": "296.7",
                "precip": 0,
-               "clouds": 82,
-               "humidity": 39,
-               "winds": 4.05,
-               "windd": 79
+               "clouds": 87,
+               "humidity": 30,
+               "winds": 4.64,
+               "windd": 70
             }
          },
          "b": {
@@ -614,14 +611,14 @@ module.exports = {
             "lat": "-3.2",
             "lon": "37.9",
             "weather": {
-               "high": 304.1,
-               "low": 295.26,
-               "avg": "299.4",
-               "precip": 0.94,
-               "clouds": 72,
-               "humidity": 75,
-               "winds": 2.01,
-               "windd": 50
+               "high": 303,
+               "low": 294.15,
+               "avg": "298.0",
+               "precip": 0,
+               "clouds": 100,
+               "humidity": 80,
+               "winds": 2.53,
+               "windd": 40
             }
          },
          "c": {
@@ -629,14 +626,14 @@ module.exports = {
             "lat": "18.1",
             "lon": "92.93",
             "weather": {
-               "high": 299.79,
-               "low": 299.07,
+               "high": 299.7,
+               "low": 299.15,
                "avg": "299.5",
                "precip": 0,
-               "clouds": 3,
-               "humidity": 76,
-               "winds": 4.49,
-               "windd": 340
+               "clouds": 30,
+               "humidity": 71,
+               "winds": 4.17,
+               "windd": 336
             }
          },
          "d": {
@@ -644,14 +641,14 @@ module.exports = {
             "lat": "-22.9",
             "lon": "-43.2",
             "weather": {
-               "high": 302.19,
-               "low": 297.02,
-               "avg": "299.2",
+               "high": 301.1,
+               "low": 296.85,
+               "avg": "298.7",
                "precip": 0,
-               "clouds": 15,
+               "clouds": 22,
                "humidity": 85,
-               "winds": 1.51,
-               "windd": 69
+               "winds": 3.85,
+               "windd": 55
             }
          },
          "e": {
@@ -659,14 +656,14 @@ module.exports = {
             "lat": "18.1",
             "lon": "-76.7",
             "weather": {
-               "high": 296.08,
-               "low": 292.5,
-               "avg": "294.5",
-               "precip": 2.94,
-               "clouds": 31,
-               "humidity": 74,
-               "winds": 2.51,
-               "windd": 18
+               "high": 298.8,
+               "low": 293,
+               "avg": "295.5",
+               "precip": 4.51,
+               "clouds": 22,
+               "humidity": 70,
+               "winds": 2.48,
+               "windd": 19
             }
          },
          "f": {
@@ -674,14 +671,14 @@ module.exports = {
             "lat": "25.8",
             "lon": "-108.2",
             "weather": {
-               "high": 306.21,
-               "low": 291.7,
-               "avg": "298.0",
-               "precip": 0,
-               "clouds": 95,
-               "humidity": 12,
-               "winds": 3.43,
-               "windd": 248
+               "high": 301.75,
+               "low": 291.37,
+               "avg": "295.7",
+               "precip": 0.25,
+               "clouds": 98,
+               "humidity": 32,
+               "winds": 3.97,
+               "windd": 121
             }
          }
       },
@@ -719,8 +716,8 @@ module.exports = {
          "land": {
             "a": 293,
             "ac": 127,
-            "b": 312,
-            "bc": 108,
+            "b": 311,
+            "bc": 109,
             "c": 307,
             "cc": 113,
             "d": 320,
@@ -784,154 +781,12 @@ module.exports = {
       ]
    },
    "bal": {
-      "r": -998,
+      "r": -0,
       "c": 0,
       "b": 0,
       "p": 1497479
    },
    "refund": [
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h41669800",
-                  "title": "Farmers Guide | 41669800",
-                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @chronocrypto with 30.72%\n* @vcdragon with 69.12%\n",
-                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41669800",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": [
-                              {
-                                 "account": "chronocrypto",
-                                 "weight": 3072
-                              },
-                              {
-                                 "account": "vcdragon",
-                                 "weight": 6912
-                              }
-                           ]
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41669800",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h41672998",
-                  "title": "Hashkings Almanac for Asia | 41672998",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 27.6 Celsius. Winds will be out of the Northeast at 4.5 M/s. Relative humidity will be around 76% and a low of 26.9 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @anarcist69 with 79.92%\n* @nutritree with 19.98%\n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41672998",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": [
-                              {
-                                 "account": "anarcist69",
-                                 "weight": 7992
-                              },
-                              {
-                                 "account": "nutritree",
-                                 "weight": 1998
-                              }
-                           ]
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h41672998",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "xfer",
-         "qwoyn-dev",
-         125,
-         "Dev Cut"
-      ],
-      [
-         "xfer",
-         "qwoyn-fund",
-         250,
-         "Funds"
-      ],
-      [
-         "xfer",
-         "qwoyn",
-         125,
-         "Producer Cut"
-      ],
-      [
-         "power",
-         "hashkings",
-         0,
-         "Power to the people!"
-      ],
       [
          "ssign",
          [
@@ -1041,6 +896,1555 @@ module.exports = {
                }
             ]
          ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41692198",
+                  "title": "Hashkings Almanac for South America | 41692198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nSouth America Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 29.0 Celsius. Winds will be out of the Southwest at 3.9 M/s. Relative humidity will be around 85% and a low of 24.8 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @tsnaks with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41692198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "tsnaks",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41692198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41693398",
+                  "title": "Hashkings Almanac for Jamaica | 41693398",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nJamaica Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 26.7 Celsius. Winds will be out of the Northeast at 2.5 M/s. Models predict 4.51mm of rain. Relative humidity will be around 70% and a low of 20.9 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @saboin with 99.99%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41693398",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "saboin",
+                                 "weight": 9999
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41693600",
+                  "title": "Farmers Guide | 41693600",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n        \n\n        \n<center><h1>What is Kief?</h1></center>\n        \n\n        \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n        \n>\n        \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n        \n>\n        \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n        \n\n        \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n        \n\n        \n\n        \n<center><h1>Kief Specs</h1></center>\n        \n\n        \n**Total Supply: 4,200,000 KFQ**\n        \n**Decimals: 8**\n        \n\n        \n<u>Distribution</u>|<u>Capabilities</u>|\n        \n-|-|\n        \nAirdrop: 444,719 KFQ| Staking|\n        \nDev Fund: 15%| Mining|\n        \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n        \nAvailable: 1,697,281 KFQ| |\n        \n\n        \n\n        \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n        \n\n        \n<h4><u>In-Game Currency</u></h4>\n        \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n        \n\n        \n<h4><u>Staking</u></h4>\n        \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n        \n\n        \n\n        \n<center><h1>What are the benefits of Kief Token?</h1></center>\n        \n<h4>Farmers Association Board</h4>\n        \n\n        \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n        \n\n        \nDuties of the Board Members include but are not limited to\n        \n- Voting on Strains\n        \n- Voting on Regions\n        \n- Voting on HashKings Features\n        \n- Voting on Item Prices\n        \n\n        \n<h4>Staking Rewards</h4>\n        \n\n        \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n        \n\n        \n_The table below describes the weekly payout._\n        \n\n        \nStaked Amount| Payout\n        \n-|-\n        \n500 KFQ| 10 KFQ\n        \n1000 KFQ| 25 KFQ\n        \n2500 KFQ| 50 KFQ\n        \n5000 KFQ| 100 KFQ\n        \n10000 KFQ| 200 KFQ\n        \n21000 KFQ | 500 KFQ\n        \n\n        \n<h4>Discounts</h4>\n        \n\n        \nStaking the tokens earns you discounts in the HashKings Dispensary.\n        \n\n        \n<u>Staked Amount</u>|<u>Discount</u>|\n        \n-|-|\n        \n1000  KFQ| 1%|\n        \n2500  KFQ| 5%|\n        \n5000  KFQ| 10%|\n        \n10000 KFQ| 15%|\n        \n21000 KFQ| 25%\n        \n\n        \n\n        \n<center><h1>Why Kief Tokens?</h1></center>\n        \n\n        \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n        \n \n        \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n        \n\n        \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n        \n\n        \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n        \n\n        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n        \n\n        \n<center>[Hashkings Web App](https://www.hashkings.app)    \n        \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n        \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n        \n\n        \n        \n        \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n        \n        \n        \n<center><h1>STEEM Community Showcase</h1></center>\n        \n\n        \n       \n        \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n        \n\n        \n<center>\n        <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n        \n\n        \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n        \n\n        \n       \n        \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n        \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @jeffjagoe with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41693600",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "jeffjagoe",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41693398",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41693600",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41694598",
+                  "title": "Hashkings Almanac for Africa | 41694598",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 30.9 Celsius. Winds will be out of the Southeast at 2.5 M/s. Relative humidity will be around 80% and a low of 22.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @badpupper with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41694598",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "badpupper",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41694598",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41695600",
+                  "title": "Farmers Guide | 41695600",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \n\n            \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @jbsharkey with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41695600",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "jbsharkey",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41695600",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41698600",
+                  "title": "Farmers Guide | 41698600",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @d00k13 with 50.00%\n* @nupulse with 50.00%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41698600",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "d00k13",
+                                 "weight": 5000
+                              },
+                              {
+                                 "account": "nupulse",
+                                 "weight": 5000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41698600",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41701798",
+                  "title": "Hashkings Almanac for Asia | 41701798",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 27.6 Celsius. Winds will be out of the Northeast at 4.2 M/s. Relative humidity will be around 71% and a low of 27.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @fenngen with 50.00%\n* @cwow2 with 50.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41701798",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "cwow2",
+                                 "weight": 5000
+                              },
+                              {
+                                 "account": "fenngen",
+                                 "weight": 5000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41701798",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41708998",
+                  "title": "Hashkings Almanac for Mexico | 41708998",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nMexico Growers Daily News\n\n## Todays Weather\nYou can expect cloudy skies with a high of 29.6 Celsius. Winds will be out of the Northeast at 4.5 M/s. Models predict 0.25mm of rain. Relative humidity will be around 31% and a low of 18.5 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @abrockman with 96.25%\n* @muru with 1.75%\n* @songokubg with 1.75%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41708998",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "abrockman",
+                                 "weight": 9625
+                              },
+                              {
+                                 "account": "muru",
+                                 "weight": 175
+                              },
+                              {
+                                 "account": "songokubg",
+                                 "weight": 175
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41708998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41711398",
+                  "title": "Hashkings Almanac for Afganistan | 41711398",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfganistan Growers Daily News\n\n## Todays Weather\nYou can expect mostly cloudy skies with a high of 28.8 Celsius. Winds will be out of the South at 1.7 M/s. Relative humidity will be around 32% and a low of 19.6 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @d00k13 with 66.66%\n* @fenngen with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41711398",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "d00k13",
+                                 "weight": 6666
+                              },
+                              {
+                                 "account": "fenngen",
+                                 "weight": 3333
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41711398",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41720998",
+                  "title": "Hashkings Almanac for South America | 41720998",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nSouth America Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 29.0 Celsius. Winds will be out of the Southwest at 3.9 M/s. Relative humidity will be around 85% and a low of 24.8 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @tsnaks with 66.66%\n* @chunkysoupsvc with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41720998",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "chunkysoupsvc",
+                                 "weight": 3333
+                              },
+                              {
+                                 "account": "tsnaks",
+                                 "weight": 6666
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41720998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41722198",
+                  "title": "Hashkings Almanac for Jamaica | 41722198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nJamaica Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 26.7 Celsius. Winds will be out of the Northeast at 2.5 M/s. Models predict 4.51mm of rain. Relative humidity will be around 70% and a low of 20.9 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @nutritree with 66.66%\n* @nupulse with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41722198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "nupulse",
+                                 "weight": 3333
+                              },
+                              {
+                                 "account": "nutritree",
+                                 "weight": 6666
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41722400",
+                  "title": "Farmers Guide | 41722400",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n        \n\n        \n<center><h1>What is Kief?</h1></center>\n        \n\n        \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n        \n>\n        \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n        \n>\n        \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n        \n\n        \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n        \n\n        \n\n        \n<center><h1>Kief Specs</h1></center>\n        \n\n        \n**Total Supply: 4,200,000 KFQ**\n        \n**Decimals: 8**\n        \n\n        \n<u>Distribution</u>|<u>Capabilities</u>|\n        \n-|-|\n        \nAirdrop: 444,719 KFQ| Staking|\n        \nDev Fund: 15%| Mining|\n        \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n        \nAvailable: 1,697,281 KFQ| |\n        \n\n        \n\n        \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n        \n\n        \n<h4><u>In-Game Currency</u></h4>\n        \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n        \n\n        \n<h4><u>Staking</u></h4>\n        \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n        \n\n        \n\n        \n<center><h1>What are the benefits of Kief Token?</h1></center>\n        \n<h4>Farmers Association Board</h4>\n        \n\n        \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n        \n\n        \nDuties of the Board Members include but are not limited to\n        \n- Voting on Strains\n        \n- Voting on Regions\n        \n- Voting on HashKings Features\n        \n- Voting on Item Prices\n        \n\n        \n<h4>Staking Rewards</h4>\n        \n\n        \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n        \n\n        \n_The table below describes the weekly payout._\n        \n\n        \nStaked Amount| Payout\n        \n-|-\n        \n500 KFQ| 10 KFQ\n        \n1000 KFQ| 25 KFQ\n        \n2500 KFQ| 50 KFQ\n        \n5000 KFQ| 100 KFQ\n        \n10000 KFQ| 200 KFQ\n        \n21000 KFQ | 500 KFQ\n        \n\n        \n<h4>Discounts</h4>\n        \n\n        \nStaking the tokens earns you discounts in the HashKings Dispensary.\n        \n\n        \n<u>Staked Amount</u>|<u>Discount</u>|\n        \n-|-|\n        \n1000  KFQ| 1%|\n        \n2500  KFQ| 5%|\n        \n5000  KFQ| 10%|\n        \n10000 KFQ| 15%|\n        \n21000 KFQ| 25%\n        \n\n        \n\n        \n<center><h1>Why Kief Tokens?</h1></center>\n        \n\n        \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n        \n \n        \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n        \n\n        \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n        \n\n        \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n        \n\n        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n        \n\n        \n<center>[Hashkings Web App](https://www.hashkings.app)    \n        \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n        \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n        \n\n        \n        \n        \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n        \n        \n        \n<center><h1>STEEM Community Showcase</h1></center>\n        \n\n        \n       \n        \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n        \n\n        \n<center>\n        <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n        \n\n        \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n        \n\n        \n       \n        \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n        \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @badpupper with 66.66%\n* @stever82 with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41722400",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "badpupper",
+                                 "weight": 6666
+                              },
+                              {
+                                 "account": "stever82",
+                                 "weight": 3333
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41722198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41722400",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41723398",
+                  "title": "Hashkings Almanac for Africa | 41723398",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 30.9 Celsius. Winds will be out of the Southeast at 2.5 M/s. Relative humidity will be around 80% and a low of 22.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @jbsharkey with 66.66%\n* @romiferns with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41723398",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "jbsharkey",
+                                 "weight": 6666
+                              },
+                              {
+                                 "account": "romiferns",
+                                 "weight": 3333
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41723398",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41724400",
+                  "title": "Farmers Guide | 41724400",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \n\n            \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @chronocrypto with 66.60%\n* @cuko with 33.30%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41724400",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "chronocrypto",
+                                 "weight": 6660
+                              },
+                              {
+                                 "account": "cuko",
+                                 "weight": 3330
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41724400",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41727400",
+                  "title": "Farmers Guide | 41727400",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @ghosthunter1 with 19.04%\n* @saboin with 80.92%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41727400",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "ghosthunter1",
+                                 "weight": 1904
+                              },
+                              {
+                                 "account": "saboin",
+                                 "weight": 8092
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41727400",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41730598",
+                  "title": "Hashkings Almanac for Asia | 41730598",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 27.6 Celsius. Winds will be out of the Northeast at 4.2 M/s. Relative humidity will be around 71% and a low of 27.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @vcdragon with 56.25%\n* @ecoinstats with 43.75%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41730598",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "ecoinstats",
+                                 "weight": 4375
+                              },
+                              {
+                                 "account": "vcdragon",
+                                 "weight": 5625
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41730598",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41737798",
+                  "title": "Hashkings Almanac for Mexico | 41737798",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nMexico Growers Daily News\n\n## Todays Weather\nYou can expect cloudy skies with a high of 29.6 Celsius. Winds will be out of the Northeast at 4.5 M/s. Models predict 0.25mm of rain. Relative humidity will be around 31% and a low of 18.5 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @abrockman with 99.82%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41737798",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "abrockman",
+                                 "weight": 9982
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41737798",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41740198",
+                  "title": "Hashkings Almanac for Afganistan | 41740198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfganistan Growers Daily News\n\n## Todays Weather\nYou can expect mostly cloudy skies with a high of 28.8 Celsius. Winds will be out of the South at 1.7 M/s. Relative humidity will be around 32% and a low of 19.6 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @russia-btc with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41740198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "russia-btc",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41740198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41749798",
+                  "title": "Hashkings Almanac for South America | 41749798",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nSouth America Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 29.0 Celsius. Winds will be out of the Southwest at 3.9 M/s. Relative humidity will be around 85% and a low of 24.7 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @cuko with 99.99%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41749798",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "cuko",
+                                 "weight": 9999
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41749798",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41750998",
+                  "title": "Hashkings Almanac for Jamaica | 41750998",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nJamaica Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 26.7 Celsius. Winds will be out of the Northeast at 2.5 M/s. Models predict 4.51mm of rain. Relative humidity will be around 70% and a low of 20.9 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @chronocrypto with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41750998",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "chronocrypto",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41751200",
+                  "title": "Farmers Guide | 41751200",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n        \n\n        \n<center><h1>What is Kief?</h1></center>\n        \n\n        \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n        \n>\n        \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n        \n>\n        \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n        \n\n        \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n        \n\n        \n\n        \n<center><h1>Kief Specs</h1></center>\n        \n\n        \n**Total Supply: 4,200,000 KFQ**\n        \n**Decimals: 8**\n        \n\n        \n<u>Distribution</u>|<u>Capabilities</u>|\n        \n-|-|\n        \nAirdrop: 444,719 KFQ| Staking|\n        \nDev Fund: 15%| Mining|\n        \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n        \nAvailable: 1,697,281 KFQ| |\n        \n\n        \n\n        \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n        \n\n        \n<h4><u>In-Game Currency</u></h4>\n        \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n        \n\n        \n<h4><u>Staking</u></h4>\n        \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n        \n\n        \n\n        \n<center><h1>What are the benefits of Kief Token?</h1></center>\n        \n<h4>Farmers Association Board</h4>\n        \n\n        \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n        \n\n        \nDuties of the Board Members include but are not limited to\n        \n- Voting on Strains\n        \n- Voting on Regions\n        \n- Voting on HashKings Features\n        \n- Voting on Item Prices\n        \n\n        \n<h4>Staking Rewards</h4>\n        \n\n        \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n        \n\n        \n_The table below describes the weekly payout._\n        \n\n        \nStaked Amount| Payout\n        \n-|-\n        \n500 KFQ| 10 KFQ\n        \n1000 KFQ| 25 KFQ\n        \n2500 KFQ| 50 KFQ\n        \n5000 KFQ| 100 KFQ\n        \n10000 KFQ| 200 KFQ\n        \n21000 KFQ | 500 KFQ\n        \n\n        \n<h4>Discounts</h4>\n        \n\n        \nStaking the tokens earns you discounts in the HashKings Dispensary.\n        \n\n        \n<u>Staked Amount</u>|<u>Discount</u>|\n        \n-|-|\n        \n1000  KFQ| 1%|\n        \n2500  KFQ| 5%|\n        \n5000  KFQ| 10%|\n        \n10000 KFQ| 15%|\n        \n21000 KFQ| 25%\n        \n\n        \n\n        \n<center><h1>Why Kief Tokens?</h1></center>\n        \n\n        \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n        \n \n        \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n        \n\n        \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n        \n\n        \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n        \n\n        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n        \n\n        \n<center>[Hashkings Web App](https://www.hashkings.app)    \n        \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n        \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n        \n\n        \n        \n        \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n        \n        \n        \n<center><h1>STEEM Community Showcase</h1></center>\n        \n\n        \n       \n        \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n        \n\n        \n<center>\n        <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n        \n\n        \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n        \n\n        \n       \n        \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n        \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @badpupper with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41751200",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "badpupper",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41750998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41751200",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41752198",
+                  "title": "Hashkings Almanac for Africa | 41752198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 30.9 Celsius. Winds will be out of the Southeast at 2.5 M/s. Relative humidity will be around 80% and a low of 22.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @nupulse with 66.66%\n* @cwow2 with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41752198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "cwow2",
+                                 "weight": 3333
+                              },
+                              {
+                                 "account": "nupulse",
+                                 "weight": 6666
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41752198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41753200",
+                  "title": "Farmers Guide | 41753200",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \n\n            \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @anarcist69 with 66.66%\n* @ultratrain with 33.33%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41753200",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "anarcist69",
+                                 "weight": 6666
+                              },
+                              {
+                                 "account": "ultratrain",
+                                 "weight": 3333
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41753200",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41756200",
+                  "title": "Farmers Guide | 41756200",
+                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @elemental010 with 80.00%\n* @jbsharkey with 20.00%\n",
+                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41756200",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "elemental010",
+                                 "weight": 8000
+                              },
+                              {
+                                 "account": "jbsharkey",
+                                 "weight": 2000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41756200",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41759398",
+                  "title": "Hashkings Almanac for Asia | 41759398",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 27.6 Celsius. Winds will be out of the Northeast at 4.2 M/s. Relative humidity will be around 71% and a low of 27.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @atomcollector with 50.00%\n* @muru with 50.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41759398",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "atomcollector",
+                                 "weight": 5000
+                              },
+                              {
+                                 "account": "muru",
+                                 "weight": 5000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41759398",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41766598",
+                  "title": "Hashkings Almanac for Mexico | 41766598",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nMexico Growers Daily News\n\n## Todays Weather\nYou can expect cloudy skies with a high of 29.6 Celsius. Winds will be out of the Northeast at 4.0 M/s. Models predict 0.25mm of rain. Relative humidity will be around 32% and a low of 19.2 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @abrockman with 99.96%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41766598",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "abrockman",
+                                 "weight": 9996
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41766598",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h41768998",
+                  "title": "Hashkings Almanac for Afganistan | 41768998",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfganistan Growers Daily News\n\n## Todays Weather\nYou can expect cloudy skies with a high of 28.8 Celsius. Winds will be out of the West at 4.6 M/s. Relative humidity will be around 30% and a low of 20.1 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @cuko with 99.99%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41768998",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "cuko",
+                                 "weight": 9999
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h41768998",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
       ]
    ],
    "lands": {
@@ -1088,22 +2492,28 @@ module.exports = {
          "b99",
          "b106",
          "e102",
-         "e103"
+         "e103",
+         "e78",
+         "d99"
       ]
    },
    "land": {
       "a10": {
          "owner": "qwoyn",
-         "strain": "",
-         "xp": 0,
+         "strain": "mis",
          "care": [],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "inv": [],
+         "planted": 41715396,
+         "father": []
       },
       "e13": {
          "owner": "qwoyn-fund",
@@ -1257,13 +2667,7 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "kbr",
          "xp": 50,
-         "care": [
-            [
-               41677863,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 3,
          "substage": 4,
@@ -1609,41 +3013,39 @@ module.exports = {
       },
       "a50": {
          "owner": "abrockman",
-         "strain": "mal",
-         "xp": 50,
+         "strain": "mis",
+         "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
+               41741376,
+               "watered",
+               ""
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
-            "Beta Seeds"
+            "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a50",
-         "sex": "female",
-         "father": "pam",
-         "pollinated": true
+         "inv": [],
+         "planted": 41719233
       },
       "c39": {
          "owner": "abrockman",
@@ -1651,29 +3053,30 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 5,
+         "stage": 3,
+         "substage": 1,
          "planted": 41250124,
          "traits": [],
          "terps": [],
@@ -1683,29 +3086,43 @@ module.exports = {
       },
       "d33": {
          "owner": "abrockman",
-         "strain": "",
-         "xp": 0,
+         "strain": "afg",
+         "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "inv": [],
+         "planted": 41718491,
+         "id": "d33"
       },
       "b43": {
          "owner": "abrockman",
@@ -1713,27 +3130,28 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
@@ -1741,7 +3159,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 2,
          "pollinated": true,
          "id": "b43",
          "traits": [
@@ -1756,7 +3174,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41673588,
+               41769484,
                "harvested"
             ]
          ],
@@ -1884,13 +3302,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41612303,
-               "watered"
+               41756845,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seeds"
          ],
@@ -1907,13 +3326,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41612303,
-               "watered"
+               41756845,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seeds"
          ],
@@ -2050,21 +3470,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2072,7 +3505,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "inv": [],
-         "planted": 41656797
+         "planted": 41656797,
+         "id": "e29"
       },
       "f12": {
          "owner": "abrockman",
@@ -2080,17 +3514,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -2098,7 +3545,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "inv": [],
-         "planted": 41678370
+         "planted": 41678370,
+         "id": "f12"
       },
       "e30": {
          "owner": "thehermitmonk",
@@ -2305,14 +3753,14 @@ module.exports = {
          "strain": "hk",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2321,21 +3769,22 @@ module.exports = {
          "pollinated": true,
          "xp": 2250,
          "inv": [],
-         "planted": 41555285
+         "planted": 41555285,
+         "sex": "female"
       },
       "a53": {
          "owner": "anarcist69",
          "strain": "kmj",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2344,7 +3793,8 @@ module.exports = {
          "pollinated": true,
          "xp": 750,
          "inv": [],
-         "planted": 41555281
+         "planted": 41555281,
+         "sex": "female"
       },
       "c46": {
          "owner": "qwoyn",
@@ -2416,42 +3866,39 @@ module.exports = {
       },
       "a56": {
          "owner": "abrockman",
-         "strain": "cg",
-         "xp": 50,
+         "strain": "dp",
+         "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
+               41741376,
+               "watered",
+               ""
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a56",
-         "planted": 40910014,
-         "father": "hk",
-         "sex": "female",
-         "pollinated": true
+         "inv": [],
+         "planted": 41719600
       },
       "b50": {
          "owner": "abrockman",
@@ -2459,33 +3906,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -2502,29 +3950,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 4,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2574,32 +4023,29 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered",
+               ""
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
@@ -2616,17 +4062,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2634,7 +4097,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "inv": [],
-         "planted": 41678373
+         "planted": 41678373,
+         "id": "e38"
       },
       "f17": {
          "owner": "abrockman",
@@ -2642,29 +4106,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2681,29 +4146,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2719,29 +4185,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -2757,33 +4224,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "patreon genesis seed"
          ],
@@ -2801,29 +4269,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2835,28 +4304,43 @@ module.exports = {
       },
       "e39": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "swz",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "xp": 2250,
+         "inv": [],
+         "planted": 41718495,
+         "id": "e39"
       },
       "a59": {
          "owner": "abrockman",
@@ -2864,29 +4348,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2898,51 +4383,43 @@ module.exports = {
       },
       "d41": {
          "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 2250,
+         "strain": "lb",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
-               "harvested"
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "d41",
-         "planted": 40910068,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 50,
+         "inv": [],
+         "planted": 41719237
       },
       "f19": {
          "owner": "disregardfiat",
@@ -3209,14 +4686,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3224,7 +4701,8 @@ module.exports = {
          "id": "a61",
          "inv": [],
          "planted": 41532314,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "c54": {
          "owner": "chronocrypto",
@@ -3232,14 +4710,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -3247,7 +4725,8 @@ module.exports = {
          "id": "c54",
          "inv": [],
          "planted": 41532344,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "e42": {
          "owner": "chronocrypto",
@@ -3255,23 +4734,20 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41665269,
-               "watered"
-            ],
-            [
-               41640231,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [],
          "terps": [],
          "id": "e42",
          "inv": [],
-         "planted": 41532356
+         "planted": 41532356,
+         "sex": "female"
       },
       "d43": {
          "owner": "faustofraser",
@@ -3307,14 +4783,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -3322,7 +4798,8 @@ module.exports = {
          "id": "c55",
          "inv": [],
          "planted": 41534137,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "d44": {
          "owner": "chronocrypto",
@@ -3330,18 +4807,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
-               "watered"
-            ],
-            [
-               41640231,
+               41745757,
                "watered",
                ""
+            ],
+            [
+               41720392,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3357,14 +4834,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3372,7 +4849,8 @@ module.exports = {
          "id": "f25",
          "inv": [],
          "planted": 41533493,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "a62": {
          "owner": "chronocrypto",
@@ -3380,14 +4858,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3395,7 +4873,8 @@ module.exports = {
          "id": "a62",
          "inv": [],
          "planted": 41534108,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "a47": {
          "owner": "napoleon2702",
@@ -3469,18 +4948,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
-               "watered"
-            ],
-            [
-               41640231,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3488,7 +4963,8 @@ module.exports = {
          "id": "e43",
          "inv": [],
          "planted": 41532612,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "e45": {
          "owner": "simgirl",
@@ -3529,21 +5005,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3551,7 +5036,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "inv": [],
-         "planted": 41656800
+         "planted": 41656800,
+         "id": "c57"
       },
       "f28": {
          "owner": "abrockman",
@@ -3559,29 +5045,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3597,33 +5084,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3640,29 +5128,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3675,28 +5164,43 @@ module.exports = {
       },
       "e47": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "cht",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "id": "e47",
+         "xp": 50,
+         "inv": [],
+         "planted": 41719239
       },
       "d46": {
          "owner": "abrockman",
@@ -3704,32 +5208,29 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered",
+               ""
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
@@ -3746,29 +5247,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3783,29 +5285,30 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3823,29 +5326,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3853,7 +5357,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "id": "a66",
-         "planted": 41403082
+         "planted": 41403082,
+         "sex": "female"
       },
       "b59": {
          "owner": "abrockman",
@@ -3861,33 +5366,34 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3900,76 +5406,83 @@ module.exports = {
       },
       "d47": {
          "owner": "abrockman",
-         "strain": "cg",
-         "xp": 2250,
+         "strain": "hk",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
-               "harvested"
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "d47",
-         "planted": 40910080,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 2250,
+         "inv": [],
+         "planted": 41719603
       },
       "e48": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "lb",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "id": "e48",
+         "xp": 50,
+         "inv": [],
+         "planted": 41719606
       },
       "b60": {
          "owner": "abrockman",
@@ -3977,33 +5490,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4020,29 +5534,30 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [],
          "id": "c59",
          "planted": 41110011,
@@ -4056,29 +5571,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -4090,76 +5606,83 @@ module.exports = {
       },
       "e49": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "cht",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "d48": {
-         "owner": "abrockman",
-         "strain": "pam",
-         "xp": 50,
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
-               "harvested"
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "e49",
+         "xp": 50,
+         "inv": [],
+         "planted": 41720971
+      },
+      "d48": {
+         "owner": "abrockman",
+         "strain": "mis",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "d48",
-         "planted": 40910348,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 2250,
+         "inv": [],
+         "planted": 41720968
       },
       "f30": {
          "owner": "chronocrypto",
@@ -4236,9 +5759,8 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41673594,
-               "watered",
-               ""
+               41769484,
+               "harvested"
             ]
          ],
          "aff": [],
@@ -4307,15 +5829,10 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "kbr",
          "xp": 2250,
-         "care": [
-            [
-               41677863,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seeds"
          ],
@@ -4327,15 +5844,10 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "cg",
          "xp": 2250,
-         "care": [
-            [
-               41677863,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta seed"
          ],
@@ -4386,18 +5898,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
-               "watered"
-            ],
-            [
-               41640231,
+               41745757,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4405,7 +5913,8 @@ module.exports = {
          "id": "e44",
          "inv": [],
          "planted": 41534132,
-         "pollinated": true
+         "pollinated": true,
+         "sex": "female"
       },
       "d50": {
          "owner": "chronocrypto",
@@ -4471,13 +5980,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41681731,
+               41770722,
                "watered"
+            ],
+            [
+               41733254,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4493,13 +6007,17 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41681731,
+               41770722,
+               "watered"
+            ],
+            [
+               41715201,
                "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4515,13 +6033,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41681731,
+               41770722,
                "watered"
+            ],
+            [
+               41733254,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 4,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4554,29 +6077,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4592,21 +6116,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4614,7 +6151,8 @@ module.exports = {
          "stats": [],
          "pollinated": true,
          "inv": [],
-         "planted": 41656808
+         "planted": 41656808,
+         "id": "b64"
       },
       "f35": {
          "owner": "abrockman",
@@ -4622,29 +6160,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4660,29 +6199,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4698,38 +6238,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4745,33 +6281,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4809,18 +6346,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41652294,
+               41751749,
                "watered",
                ""
-            ],
-            [
-               41652283,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 6,
          "quality": [],
          "id": "c69",
          "inv": [],
@@ -4848,18 +6381,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41652294,
-               "watered",
-               ""
+               41751777,
+               "pollinated"
             ],
             [
-               41652283,
+               41751749,
                "watered"
+            ],
+            [
+               41727005,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 5,
          "quality": [],
          "id": "d56",
          "planted": 41104930,
@@ -4867,8 +6404,9 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
-         "father": "beta",
-         "sex": "female"
+         "father": "aca",
+         "sex": "female",
+         "pollinated": true
       },
       "e63": {
          "owner": "russia-btc",
@@ -4876,18 +6414,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41652294,
-               "watered",
-               ""
+               41751764,
+               "pollinated"
             ],
             [
-               41652283,
+               41751749,
                "watered"
+            ],
+            [
+               41727005,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 5,
          "quality": [],
          "id": "e63",
          "planted": 41104912,
@@ -4895,8 +6437,9 @@ module.exports = {
             "Beta Seed"
          ],
          "terps": [],
-         "father": "beta",
-         "sex": "female"
+         "father": "pam",
+         "sex": "female",
+         "pollinated": true
       },
       "a75": {
          "owner": "russia-btc",
@@ -4904,20 +6447,25 @@ module.exports = {
          "xp": 10,
          "care": [
             [
-               41652283,
-               "watered"
+               41751794,
+               "pollinated"
+            ],
+            [
+               41751749,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
          "id": "a75",
          "planted": 41129928,
          "terps": [],
-         "father": "beta",
+         "father": "pam",
          "pollinated": true,
          "sex": "female"
       },
@@ -4927,29 +6475,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -4966,29 +6515,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -5005,33 +6555,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5047,33 +6598,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5089,38 +6641,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -5137,23 +6685,24 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
@@ -5161,7 +6710,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "pollinated": true,
          "inv": [],
          "traits": [
@@ -5176,29 +6725,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5214,33 +6764,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -5256,29 +6807,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5294,33 +6846,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5336,29 +6889,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5375,29 +6929,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5413,38 +6968,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5459,29 +7010,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5497,29 +7049,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -5534,38 +7087,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5581,71 +7130,28 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
-               "harvested"
-            ]
-         ],
-         "aff": [],
-         "terps": [],
-         "stats": [],
-         "stage": 1,
-         "substage": 5,
-         "pollinated": false,
-         "inv": [],
-         "traits": [
-            "patreon genesis seed"
-         ],
-         "planted": 41422101,
-         "father": "sensimilla",
-         "id": "e65"
-      },
-      "e66": {
-         "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
-         "care": [
-            [
-               41685747,
+               41723755,
                "watered"
             ],
             [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
@@ -5653,7 +7159,53 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "inv": [],
+         "traits": [
+            "patreon genesis seed"
+         ],
+         "planted": 41422101,
+         "father": "sensimilla",
+         "id": "e65",
+         "sex": "female"
+      },
+      "e66": {
+         "owner": "abrockman",
+         "strain": "aca",
+         "xp": 2250,
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "terps": [],
+         "stats": [],
+         "stage": 2,
+         "substage": 3,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -5722,16 +7274,10 @@ module.exports = {
          "owner": "saboin",
          "strain": "cht",
          "xp": 50,
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -5748,7 +7294,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
@@ -5757,7 +7303,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 6,
          "pollinated": true,
          "inv": [],
          "traits": [
@@ -5814,16 +7360,10 @@ module.exports = {
          "owner": "saboin",
          "strain": "kbr",
          "xp": 50,
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -5872,14 +7412,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5895,16 +7435,10 @@ module.exports = {
          "owner": "saboin",
          "strain": "dp",
          "xp": 50,
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5968,16 +7502,10 @@ module.exports = {
       "c77": {
          "owner": "saboin",
          "strain": "pam",
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -5995,18 +7523,22 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41682859,
+               41723368,
                "harvested"
             ],
             [
-               41657371,
+               41723356,
                "watered",
                ""
+            ],
+            [
+               41686555,
+               "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6048,63 +7580,74 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "terps": [],
          "stats": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "pollinated": true,
          "inv": [],
          "traits": [
             "Beta Seed"
          ],
          "planted": 41422105,
-         "id": "b72"
+         "id": "b72",
+         "sex": "female"
       },
       "c78": {
          "owner": "abrockman",
          "strain": "afg",
          "care": [
             [
-               41678366,
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
                "harvested"
             ],
             [
-               41656793,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6121,21 +7664,34 @@ module.exports = {
          "strain": "pam",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
@@ -6144,36 +7700,42 @@ module.exports = {
          "pollinated": true,
          "xp": 50,
          "inv": [],
-         "planted": 41656811
+         "planted": 41656811,
+         "id": "d64"
       },
       "e71": {
          "owner": "abrockman",
          "strain": "mal",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6191,29 +7753,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 4,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -6222,7 +7785,8 @@ module.exports = {
          "pollinated": true,
          "inv": [],
          "planted": 41485685,
-         "id": "c79"
+         "id": "c79",
+         "sex": "female"
       },
       "f50": {
          "owner": "abrockman",
@@ -6230,29 +7794,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6280,33 +7845,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -6338,14 +7904,14 @@ module.exports = {
          "strain": "mal",
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6363,13 +7929,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41684185,
+               41770162,
                "watered"
+            ],
+            [
+               41742194,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -6449,14 +8020,14 @@ module.exports = {
          "strain": "tha",
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -6471,13 +8042,7 @@ module.exports = {
       "e73": {
          "owner": "rachaeldwatson",
          "strain": "hk",
-         "care": [
-            [
-               41641085,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 3,
@@ -6697,101 +8262,119 @@ module.exports = {
       },
       "d67": {
          "owner": "abrockman",
-         "strain": "pam",
-         "xp": 50,
+         "strain": "ach",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
-               "harvested"
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
-            "Beta Seed"
+            "beta pollinated seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": false,
          "id": "d67",
-         "planted": 40910482,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "inv": [],
+         "planted": 41722737,
+         "father": []
       },
       "e75": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "cg",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e75",
+         "inv": [],
+         "planted": 41722740,
+         "father": []
       },
       "f56": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "ach",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "inv": [],
+         "planted": 41718499,
+         "father": [],
+         "id": "f56"
       },
       "b75": {
          "owner": "abrockman",
@@ -6799,33 +8382,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -6838,67 +8422,79 @@ module.exports = {
       },
       "e76": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "kbr",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "a92": {
-         "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 50,
-         "care": [
+               41741376,
+               "watered",
+               ""
+            ],
             [
-               41685747,
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
                "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
-               "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "id": "a92",
-         "planted": 40910416,
-         "father": "beta",
+         "stats": [],
+         "pollinated": true,
+         "id": "e76",
+         "xp": 50,
+         "inv": [],
+         "planted": 41723073
+      },
+      "a92": {
+         "owner": "abrockman",
+         "strain": "tha",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "beta pollinated seed"
+         ],
+         "terps": [],
+         "stats": [],
          "pollinated": false,
-         "sex": "female"
+         "id": "a92",
+         "inv": [],
+         "planted": 41722744,
+         "father": []
       },
       "b76": {
          "owner": "abrockman",
@@ -6906,33 +8502,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -6945,45 +8542,69 @@ module.exports = {
       },
       "e77": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mis",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "id": "e77",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41723744
       },
       "c80": {
          "owner": "abrockman",
          "strain": "lkg",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -6992,142 +8613,156 @@ module.exports = {
          "pollinated": true,
          "xp": 2250,
          "inv": [],
-         "planted": 41678377
+         "planted": 41678377,
+         "id": "c80"
       },
       "f57": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mis",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "c81": {
-         "owner": "abrockman",
-         "strain": "",
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41633909,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "f58": {
-         "owner": "abrockman",
-         "strain": "",
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "d68": {
-         "owner": "abrockman",
-         "strain": "mal",
-         "xp": 50,
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "id": "d68",
-         "planted": 40910575,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "stats": [],
+         "pollinated": true,
+         "id": "f57",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41719611
       },
-      "e78": {
-         "owner": "wdougwatson",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+      "c81": {
+         "owner": "abrockman",
+         "strain": "pam",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ]
+         ],
          "aff": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "Beta Seeds"
+         ],
          "terps": [],
          "stats": [],
-         "stage": -1,
-         "substage": 0,
-         "pollinated": false
+         "pollinated": true,
+         "xp": 50,
+         "inv": [],
+         "planted": 41718508,
+         "id": "c81"
+      },
+      "f58": {
+         "owner": "abrockman",
+         "strain": "afg",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "f58",
+         "xp": 50,
+         "inv": [],
+         "planted": 41720980
+      },
+      "d68": {
+         "owner": "abrockman",
+         "strain": "aca",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "Beta Seeds"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "d68",
+         "xp": 50,
+         "inv": [],
+         "planted": 41723076
       },
       "c82": {
          "owner": "wdougwatson",
@@ -7163,14 +8798,14 @@ module.exports = {
          "strain": "aca",
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -7184,41 +8819,23 @@ module.exports = {
       },
       "c83": {
          "owner": "saboin",
-         "strain": "kbr",
-         "xp": 50,
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "strain": "",
+         "care": [],
          "aff": [],
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
+         "traits": [],
          "terps": [],
-         "planted": 40944585,
-         "id": "c83",
-         "father": "beta",
-         "sex": "female",
+         "stats": [],
          "pollinated": false
       },
       "c84": {
          "owner": "saboin",
          "strain": "cg",
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -7262,33 +8879,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -7301,110 +8919,118 @@ module.exports = {
       },
       "c85": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mal",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41633909,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "e79": {
-         "owner": "abrockman",
-         "strain": "",
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "d70": {
-         "owner": "abrockman",
-         "strain": "kbr",
-         "xp": 50,
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "c85",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41719246
+      },
+      "e79": {
+         "owner": "abrockman",
+         "strain": "mis",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "e79",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41741364
+      },
+      "d70": {
+         "owner": "abrockman",
+         "strain": "pam",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 1,
+         "traits": [
+            "patreon genesis seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
          "id": "d70",
-         "planted": 40910630,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 50,
+         "inv": [],
+         "planted": 41723747,
+         "father": "sensimilla"
       },
       "e80": {
          "owner": "mcoinz79",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               41736380,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 4,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seeds"
          ],
@@ -7421,23 +9047,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41664311,
-               "watered",
-               ""
-            ],
-            [
-               41647126,
-               "watered"
-            ],
-            [
-               41620416,
+               41734577,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "pollinated": true,
          "father": "cht",
          "planted": 41189273,
@@ -7454,7 +9071,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ]
@@ -7462,7 +9083,7 @@ module.exports = {
          "aff": [],
          "planted": 38196458,
          "stage": 10,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -7477,7 +9098,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ],
@@ -7488,8 +9113,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 38196473,
-         "stage": 10,
-         "substage": 6,
+         "stage": 11,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -7504,7 +9129,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ],
@@ -7515,8 +9144,8 @@ module.exports = {
          ],
          "aff": [],
          "planted": 38196479,
-         "stage": 11,
-         "substage": 4,
+         "stage": 12,
+         "substage": 0,
          "traits": [
             "Genesis Seed"
          ],
@@ -7531,15 +9160,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "planted": 38196505,
-         "stage": 9,
-         "substage": 6,
+         "stage": 10,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -7554,7 +9187,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ],
@@ -7566,7 +9203,7 @@ module.exports = {
          "aff": [],
          "planted": 38196512,
          "stage": 8,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -7580,33 +9217,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -7619,81 +9257,23 @@ module.exports = {
       },
       "c88": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "kbr",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41633909,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "f61": {
-         "owner": "abrockman",
-         "strain": "",
-         "care": [
-            [
-               41685747,
-               "watered"
+               41741376,
+               "watered",
+               ""
             ],
             [
-               41685744,
-               "harvested"
-            ],
-            [
-               41656793,
-               "tilled"
-            ]
-         ],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false
-      },
-      "b84": {
-         "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41741359,
                "harvested"
             ]
          ],
@@ -7706,96 +9286,153 @@ module.exports = {
          "terps": [],
          "stats": [],
          "pollinated": true,
+         "id": "c88",
+         "xp": 50,
+         "inv": [],
+         "planted": 41719616
+      },
+      "f61": {
+         "owner": "abrockman",
+         "strain": "mal",
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "f61",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41722748
+      },
+      "b84": {
+         "owner": "abrockman",
+         "strain": "aca",
+         "xp": 2250,
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
+               "harvested"
+            ],
+            [
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 4,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
          "inv": [],
          "planted": 41575280,
          "id": "b84"
       },
       "d74": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 2250,
+         "strain": "swz",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
+               "harvested"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "d74",
+         "xp": 2250,
+         "inv": [],
+         "planted": 41741368
+      },
+      "a103": {
+         "owner": "abrockman",
+         "strain": "swz",
+         "xp": 2250,
+         "care": [
+            [
+               41772056,
+               "watered"
+            ],
+            [
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "id": "d74",
-         "planted": 40910642,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
-      },
-      "a103": {
-         "owner": "abrockman",
-         "strain": "pam",
-         "xp": 2250,
-         "care": [
-            [
-               41685747,
-               "watered"
-            ],
-            [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
-               "harvested"
-            ]
-         ],
-         "aff": [],
-         "stage": 3,
-         "substage": 6,
-         "traits": [
-            "Beta Seed"
-         ],
-         "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a103",
-         "planted": 40910579,
-         "father": "swz",
-         "sex": "female",
-         "pollinated": true
+         "inv": [],
+         "planted": 41723752
       },
       "c38": {
          "owner": "elemental010",
@@ -7803,14 +9440,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41648181,
+               41756845,
                "watered",
                ""
+            ],
+            [
+               41706302,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -7827,14 +9468,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41648181,
+               41756845,
                "watered",
                ""
+            ],
+            [
+               41706302,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -7865,7 +9510,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ],
@@ -7877,7 +9526,7 @@ module.exports = {
          "aff": [],
          "planted": 38433483,
          "stage": 10,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -7892,7 +9541,11 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658223,
+               41773226,
+               "watered"
+            ],
+            [
+               41744467,
                "watered",
                ""
             ],
@@ -7904,7 +9557,7 @@ module.exports = {
          "aff": [],
          "planted": 38433779,
          "stage": 8,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Genesis Seed"
          ],
@@ -7931,14 +9584,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41657086,
+               41763790,
                "watered",
                ""
+            ],
+            [
+               41763778,
+               "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -7956,28 +9613,11 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647231,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seeds"
          ],
@@ -7985,7 +9625,8 @@ module.exports = {
          "planted": 40983628,
          "father": "beta",
          "pollinated": false,
-         "id": "c92"
+         "id": "c92",
+         "sex": "female"
       },
       "f64": {
          "owner": "jeffjagoe",
@@ -7999,7 +9640,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
@@ -8017,28 +9658,11 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647231,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -8054,13 +9678,18 @@ module.exports = {
          "xp": 10,
          "care": [
             [
-               41684185,
+               41770162,
                "watered"
+            ],
+            [
+               41742194,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -8077,9 +9706,12 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41657084,
-               "watered",
-               ""
+               41763781,
+               "watered"
+            ],
+            [
+               41763778,
+               "watered"
             ]
          ],
          "aff": [],
@@ -8101,9 +9733,12 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41657083,
-               "watered",
-               ""
+               41763784,
+               "watered"
+            ],
+            [
+               41763778,
+               "watered"
             ]
          ],
          "aff": [],
@@ -8245,16 +9880,10 @@ module.exports = {
       "a91": {
          "owner": "saboin",
          "strain": "ach",
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -8269,16 +9898,10 @@ module.exports = {
       "a97": {
          "owner": "saboin",
          "strain": "lb",
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seeds"
          ],
@@ -8292,27 +9915,15 @@ module.exports = {
       },
       "a111": {
          "owner": "saboin",
-         "strain": "cg",
-         "xp": 50,
-         "care": [
-            [
-               41657371,
-               "watered",
-               ""
-            ]
-         ],
+         "strain": "",
+         "care": [],
          "aff": [],
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
+         "traits": [],
          "terps": [],
-         "planted": 40944599,
-         "id": "a111",
-         "father": "beta",
-         "pollinated": false,
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "e88": {
          "owner": "meowgan",
@@ -8341,59 +9952,45 @@ module.exports = {
       },
       "a88": {
          "owner": "abrockman",
-         "strain": "lb",
-         "xp": 50,
+         "strain": "hk",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
+               41741376,
+               "watered",
+               ""
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a88",
-         "planted": 40910144,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 2250,
+         "inv": [],
+         "planted": 41720977
       },
       "a106": {
          "owner": "jeffjagoe",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41647231,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -8410,29 +10007,12 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647231,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39605855,
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Genesis Seed"
          ],
@@ -8446,29 +10026,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -8485,29 +10066,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -8524,38 +10106,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 4,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -8567,42 +10145,39 @@ module.exports = {
       },
       "a99": {
          "owner": "abrockman",
-         "strain": "cht",
-         "xp": 2250,
+         "strain": "lkg",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
+               41741376,
+               "watered",
+               ""
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41741359,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 2,
          "traits": [
-            "Beta Seed"
+            "Beta Seeds"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a99",
-         "planted": 40910495,
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
+         "xp": 50,
+         "inv": [],
+         "planted": 41723080
       },
       "f59": {
          "owner": "abrockman",
@@ -8610,29 +10185,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -8648,21 +10224,30 @@ module.exports = {
          "strain": "aca",
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
+               "harvested"
+            ],
+            [
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 3,
          "traits": [
             "Beta Seeds"
          ],
@@ -8671,7 +10256,8 @@ module.exports = {
          "pollinated": true,
          "xp": 50,
          "inv": [],
-         "planted": 41656815
+         "planted": 41656815,
+         "id": "a102"
       },
       "e82": {
          "owner": "abrockman",
@@ -8679,27 +10265,28 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
@@ -8707,7 +10294,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 3,
          "pollinated": true,
          "traits": [
             "Beta Seed"
@@ -8722,38 +10309,34 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633912,
+               41741376,
                "watered",
                ""
             ],
             [
-               41633909,
+               41741359,
                "harvested"
             ],
             [
-               41602231,
+               41723755,
+               "watered"
+            ],
+            [
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -8770,33 +10353,34 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -8809,42 +10393,30 @@ module.exports = {
       },
       "a104": {
          "owner": "abrockman",
-         "strain": "tha",
+         "strain": "dp",
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
-               "harvested"
-            ],
-            [
-               41678366,
-               "harvested"
-            ],
-            [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41772002,
                "harvested"
             ]
          ],
          "aff": [],
-         "stage": 3,
-         "substage": 6,
+         "stage": 1,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
+         "stats": [],
+         "pollinated": true,
          "id": "a104",
-         "planted": 40910613,
-         "sex": "female",
-         "father": "kmj",
-         "pollinated": true
+         "inv": [],
+         "planted": 41741372
       },
       "c89": {
          "owner": "abrockman",
@@ -8852,29 +10424,30 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -8891,29 +10464,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
-            ],
-            [
-               41633909,
+               41718487,
                "harvested"
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 5,
          "father": "beta",
          "pollinated": true,
          "id": "f62",
@@ -8928,16 +10502,11 @@ module.exports = {
          "owner": "ghosthunter1",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               41677863,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 39630962,
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -8972,29 +10541,12 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647231,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 39724099,
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -9007,27 +10559,7 @@ module.exports = {
          "owner": "jeffjagoe",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered",
-               ""
-            ],
-            [
-               41647231,
-               "watered",
-               ""
-            ],
-            [
-               41647222,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "terps": [],
          "stats": [],
@@ -9084,7 +10616,7 @@ module.exports = {
          "aff": [],
          "planted": 40040184,
          "stage": 4,
-         "substage": 4,
+         "substage": 5,
          "id": "a98",
          "sex": "male",
          "father": "beta",
@@ -9098,7 +10630,7 @@ module.exports = {
          "aff": [],
          "planted": 40061164,
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Genesis Seed"
          ],
@@ -9129,11 +10661,11 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41678236,
+               41772357,
                "watered"
             ],
             [
-               41648623,
+               41741007,
                "watered",
                ""
             ]
@@ -9141,10 +10673,11 @@ module.exports = {
          "aff": [],
          "terps": [],
          "stats": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 1,
          "pollinated": false,
-         "id": "b90"
+         "id": "b90",
+         "sex": "female"
       },
       "a126": {
          "owner": "jbsharkey",
@@ -9152,44 +10685,41 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               41678236,
-               "watered",
-               ""
+               41772357,
+               "watered"
             ],
             [
-               41629022,
-               "watered"
+               41741007,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "terps": [],
          "stats": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "pollinated": false,
-         "id": "a126"
+         "id": "a126",
+         "sex": "female"
       },
       "c99": {
          "owner": "tsnaks",
          "strain": "kmj",
          "care": [
             [
-               41672804,
+               41771198,
                "watered"
             ],
             [
-               41652917,
+               41732932,
                "watered",
                ""
-            ],
-            [
-               41586663,
-               "watered"
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 5,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -9198,29 +10728,26 @@ module.exports = {
          "pollinated": true,
          "xp": 50,
          "inv": [],
-         "planted": 41570250
+         "planted": 41570250,
+         "sex": "female"
       },
       "d82": {
          "owner": "tsnaks",
          "strain": "mal",
          "care": [
             [
-               41672804,
+               41771198,
                "watered"
             ],
             [
-               41652917,
+               41732932,
                "watered",
                ""
-            ],
-            [
-               41586663,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 6,
          "traits": [
             "Genesis seed"
          ],
@@ -9237,11 +10764,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41685562,
-               "watered"
-            ],
-            [
-               41661260,
+               41738804,
                "watered",
                ""
             ],
@@ -9252,7 +10775,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -9279,283 +10802,222 @@ module.exports = {
       },
       "b91": {
          "owner": "atomcollector",
-         "strain": "hk",
-         "xp": 50,
+         "strain": "",
          "care": [],
          "aff": [],
-         "planted": 40794325,
-         "stage": 4,
-         "substage": 2,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b91",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "b92": {
          "owner": "anarcist69",
-         "strain": "cg",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
+            ],
+            [
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809789,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b92",
-         "father": "beta",
-         "sex": "female",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "d84": {
          "owner": "anarcist69",
-         "strain": "pam",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ],
             [
-               41229188,
-               "watered",
-               ""
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809799,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d84",
-         "father": "beta",
-         "sex": "female",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "e92": {
          "owner": "anarcist69",
-         "strain": "cht",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ],
             [
-               41229188,
-               "watered",
-               ""
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809802,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "e92",
-         "father": "beta",
-         "sex": "female",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "f68": {
          "owner": "anarcist69",
-         "strain": "cg",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
-               "watered",
-               ""
-            ],
-            [
-               41229188,
+               41745664,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "planted": 40809807,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "f68",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "a113": {
          "owner": "anarcist69",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
-               "watered",
-               ""
-            ],
-            [
-               41229188,
+               41745664,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "planted": 40809812,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "a113",
-         "father": "beta",
-         "sex": "female",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "b93": {
          "owner": "anarcist69",
-         "strain": "aca",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
+            ],
+            [
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809816,
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "b93",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "f69": {
          "owner": "anarcist69",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
-               "watered",
-               ""
-            ],
-            [
-               41229188,
+               41745664,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "planted": 40809834,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "f69",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "d85": {
          "owner": "anarcist69",
-         "strain": "lb",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ],
             [
-               41229188,
-               "watered",
-               ""
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809839,
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Genesis Seed"
-         ],
-         "id": "d85",
-         "father": "beta",
-         "pollinated": false,
-         "sex": "female"
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false
       },
       "e93": {
          "owner": "anarcist69",
-         "strain": "mis",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ],
             [
-               41229188,
-               "watered",
-               ""
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809843,
-         "stage": 4,
-         "substage": 1,
-         "id": "e93",
-         "father": "beta",
-         "sex": "female",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "e94": {
          "owner": "anarcist69",
-         "strain": "lkg",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               41659419,
+               41745664,
                "watered",
                ""
             ],
             [
-               41229188,
-               "watered",
-               ""
+               41700923,
+               "tilled"
             ]
          ],
          "aff": [],
-         "planted": 40809860,
-         "stage": 4,
-         "substage": 1,
-         "id": "e94",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "a100": {
@@ -9584,7 +11046,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e95"
       },
       "e86": {
          "owner": "jeffjagoe",
@@ -9594,29 +11057,12 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647231,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 40983635,
          "stage": 2,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
@@ -9631,9 +11077,12 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41657080,
-               "watered",
-               ""
+               41763786,
+               "watered"
+            ],
+            [
+               41763778,
+               "watered"
             ]
          ],
          "aff": [],
@@ -9656,19 +11105,6 @@ module.exports = {
             [
                41680779,
                "watered"
-            ],
-            [
-               41657473,
-               "watered",
-               ""
-            ],
-            [
-               41650731,
-               "watered"
-            ],
-            [
-               41647205,
-               "watered"
             ]
          ],
          "aff": [],
@@ -9677,22 +11113,19 @@ module.exports = {
             "Beta Seeds"
          ],
          "planted": 40990618,
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 1,
          "id": "f65",
          "father": "beta",
-         "pollinated": false
+         "pollinated": false,
+         "sex": "female"
       },
       "b95": {
          "owner": "cuko",
          "strain": "kbr",
          "care": [
             [
-               41685562,
-               "watered"
-            ],
-            [
-               41661260,
+               41738804,
                "watered",
                ""
             ],
@@ -9703,7 +11136,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "beta pollinated seed"
          ],
@@ -9717,57 +11150,39 @@ module.exports = {
       },
       "a115": {
          "owner": "cuko",
-         "strain": "mis",
-         "xp": 50,
-         "care": [
-            [
-               41685562,
-               "watered"
-            ],
-            [
-               41661260,
-               "watered",
-               ""
-            ],
-            [
-               41508819,
-               "watered"
-            ]
-         ],
-         "aff": [],
-         "planted": 41002416,
-         "stage": 4,
-         "substage": 0,
-         "traits": [
-            "Beta Seeds"
-         ],
-         "id": "a115",
-         "sex": "female",
-         "father": "beta",
-         "pollinated": false
-      },
-      "a116": {
-         "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
          "traits": [],
          "terps": [],
          "stats": [],
+         "pollinated": false
+      },
+      "a116": {
+         "owner": "vcdragon",
+         "strain": "sog",
+         "care": [
+            [
+               41756357,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "beta pollinated seed"
+         ],
+         "terps": [],
+         "stats": [],
          "pollinated": false,
-         "id": "a116"
+         "id": "a116",
+         "inv": [],
+         "planted": 41717292,
+         "father": []
       },
       "b97": {
          "owner": "saboin",
@@ -9775,7 +11190,7 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41657371,
+               41723356,
                "watered",
                ""
             ]
@@ -9783,7 +11198,7 @@ module.exports = {
          "aff": [],
          "planted": 41062298,
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "id": "b97",
          "sex": "female",
          "father": "beta",
@@ -9795,34 +11210,35 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41685747,
+               41772056,
                "watered"
             ],
             [
-               41685744,
+               41772002,
                "harvested"
             ],
             [
-               41678366,
+               41741376,
+               "watered",
+               ""
+            ],
+            [
+               41741359,
                "harvested"
             ],
             [
-               41656793,
-               "harvested"
+               41723755,
+               "watered"
             ],
             [
-               41633909,
-               "harvested"
-            ],
-            [
-               41602231,
+               41685745,
                "harvested"
             ]
          ],
          "aff": [],
          "planted": 41063384,
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "father": "beta",
          "pollinated": false,
          "id": "b98",
@@ -9834,23 +11250,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41063913,
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "id": "c101",
          "father": "beta",
          "pollinated": false,
@@ -9862,23 +11274,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41063919,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "e97",
          "father": "beta",
          "pollinated": false,
@@ -9890,23 +11298,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064192,
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "id": "a118",
          "father": "beta",
          "pollinated": false,
@@ -9915,17 +11319,7 @@ module.exports = {
       "b100": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -9941,23 +11335,19 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064336,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "e98",
          "father": "beta",
          "pollinated": false,
@@ -9969,23 +11359,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064345,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d87",
          "father": "beta",
          "pollinated": false,
@@ -9997,23 +11383,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064475,
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "id": "a119",
          "father": "beta",
          "pollinated": false,
@@ -10022,17 +11404,7 @@ module.exports = {
       "b101": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10044,41 +11416,32 @@ module.exports = {
       },
       "c102": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "sog",
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "tilled"
             ]
          ],
          "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "c102"
+         "id": "c102",
+         "inv": [],
+         "planted": 41717695,
+         "father": []
       },
       "b102": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10091,17 +11454,7 @@ module.exports = {
       "c103": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10117,23 +11470,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064624,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d88",
          "father": "beta",
          "pollinated": false,
@@ -10142,17 +11491,7 @@ module.exports = {
       "b103": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10165,17 +11504,7 @@ module.exports = {
       "c104": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10191,23 +11520,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064648,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d89",
          "father": "beta",
          "pollinated": false,
@@ -10219,23 +11544,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064702,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d90",
          "father": "beta",
          "pollinated": false,
@@ -10247,23 +11568,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064924,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d91",
          "father": "beta",
          "pollinated": false,
@@ -10272,17 +11589,7 @@ module.exports = {
       "c105": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10295,45 +11602,30 @@ module.exports = {
       "f74": {
          "owner": "vcdragon",
          "strain": "sog",
-         "xp": 200,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
-         "planted": 41064930,
-         "stage": 4,
-         "substage": 0,
-         "id": "f74",
-         "father": "beta",
+         "stage": 1,
+         "substage": 2,
+         "traits": [
+            "beta pollinated seed"
+         ],
+         "terps": [],
+         "stats": [],
          "pollinated": false,
-         "sex": "female"
+         "inv": [],
+         "planted": 41717689,
+         "father": []
       },
       "b104": {
          "owner": "vcdragon",
          "strain": "",
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -10349,23 +11641,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064942,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "e99",
          "father": "beta",
          "pollinated": false,
@@ -10377,23 +11665,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064945,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "d92",
          "father": "beta",
          "pollinated": false,
@@ -10405,23 +11689,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41064954,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 1,
          "id": "e100",
          "father": "beta",
          "pollinated": false,
@@ -10433,23 +11713,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41066539,
          "stage": 4,
-         "substage": 0,
+         "substage": 3,
          "id": "f73",
          "father": "beta",
          "pollinated": false,
@@ -10475,33 +11751,15 @@ module.exports = {
       },
       "a117": {
          "owner": "vcdragon",
-         "strain": "sog",
-         "xp": 200,
-         "care": [
-            [
-               41658269,
-               "watered",
-               ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
-            ]
-         ],
+         "strain": "",
+         "xp": 0,
+         "care": [],
          "aff": [],
-         "planted": 41087918,
-         "stage": 3,
-         "substage": 6,
-         "traits": [
-            "Beta Seed"
-         ],
-         "id": "a117",
-         "sex": "female",
-         "father": "beta",
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
          "pollinated": false
       },
       "d93": {
@@ -10510,23 +11768,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087921,
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -10541,23 +11795,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087924,
          "stage": 4,
-         "substage": 0,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -10572,23 +11822,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087928,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -10603,23 +11849,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087931,
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -10634,23 +11876,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087943,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -10665,23 +11903,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
                "watered",
                ""
             ],
             [
                41657576,
                "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087950,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -10696,23 +11930,19 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41658269,
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
                "watered",
                ""
-            ],
-            [
-               41657576,
-               "harvested"
-            ],
-            [
-               41657535,
-               "watered"
             ]
          ],
          "aff": [],
          "planted": 41087956,
-         "stage": 3,
-         "substage": 5,
+         "stage": 4,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -10727,16 +11957,16 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41669298,
+               41772026,
+               "watered"
+            ],
+            [
+               41757245,
                "watered",
                ""
             ],
             [
-               41659091,
-               "watered"
-            ],
-            [
-               41659087,
+               41701923,
                "watered"
             ],
             [
@@ -10747,7 +11977,7 @@ module.exports = {
          "aff": [],
          "planted": 41102826,
          "stage": 3,
-         "substage": 4,
+         "substage": 6,
          "father": "beta",
          "pollinated": false,
          "id": "c108",
@@ -10771,21 +12001,26 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41652283,
-               "watered"
+               41751769,
+               "pollinated"
+            ],
+            [
+               41751749,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "planted": 41129895,
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "pollinated": false,
+         "pollinated": true,
          "id": "a121",
-         "father": "beta",
+         "father": "hk",
          "sex": "female"
       },
       "c106": {
@@ -10794,51 +12029,39 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41652294,
-               "watered",
-               ""
+               41751787,
+               "pollinated"
             ],
             [
-               41652283,
-               "watered"
+               41751749,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "planted": 41129909,
          "stage": 3,
-         "substage": 2,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
          "terps": [],
-         "pollinated": false,
+         "pollinated": true,
          "id": "c106",
-         "father": "beta",
+         "father": "hk",
          "sex": "female"
       },
       "a124": {
          "owner": "nupulse",
-         "strain": "afg",
-         "xp": 50,
-         "care": [
-            [
-               41666890,
-               "watered",
-               ""
-            ],
-            [
-               41580459,
-               "watered"
-            ]
-         ],
+         "strain": "",
+         "care": [],
          "aff": [],
-         "planted": 41151843,
-         "stage": 3,
-         "substage": 6,
-         "id": "a124",
-         "father": "beta",
-         "pollinated": false,
-         "sex": "female"
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false
       },
       "e90": {
          "owner": "d00k13",
@@ -10846,18 +12069,23 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41679067,
+               41773229,
                "watered"
             ],
             [
-               41670239,
+               41744472,
+               "watered",
+               ""
+            ],
+            [
+               41679067,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41188048,
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "traits": [
             "Genesis seed"
          ],
@@ -10884,13 +12112,7 @@ module.exports = {
          "owner": "d00k13",
          "strain": "dp",
          "xp": 50,
-         "care": [
-            [
-               41670239,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 41209831,
          "stage": 1,
@@ -10906,16 +12128,11 @@ module.exports = {
          "owner": "d00k13",
          "strain": "sog",
          "xp": 200,
-         "care": [
-            [
-               41670239,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "planted": 41209831,
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "father": "beta",
          "pollinated": false
       },
@@ -10940,31 +12157,35 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41684997,
+               41773233,
                "watered"
             ],
             [
-               41656809,
+               41769498,
+               "watered"
+            ],
+            [
+               41767459,
+               "watered"
+            ],
+            [
+               41744135,
                "watered",
                ""
             ],
             [
+               41738362,
+               "watered"
+            ],
+            [
                41651814,
-               "watered"
-            ],
-            [
-               41635812,
-               "watered"
-            ],
-            [
-               41600152,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41269952,
          "stage": 3,
-         "substage": 0,
+         "substage": 3,
          "father": "beta",
          "pollinated": false,
          "id": "e104",
@@ -10976,27 +12197,31 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               41684997,
+               41773233,
                "watered"
             ],
             [
-               41656809,
+               41769498,
+               "watered"
+            ],
+            [
+               41767459,
                "watered",
                ""
             ],
             [
-               41635812,
+               41744135,
                "watered"
             ],
             [
-               41600152,
+               41711944,
                "watered"
             ]
          ],
          "aff": [],
          "planted": 41270438,
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 2,
          "father": "beta",
          "pollinated": false,
          "id": "a125",
@@ -11006,12 +12231,7 @@ module.exports = {
          "owner": "songokubg",
          "strain": "cht",
          "xp": 50,
-         "care": [
-            [
-               41679604,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "terps": [
             null
@@ -11021,42 +12241,8 @@ module.exports = {
          ],
          "planted": 41386520,
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "id": "c112"
-      },
-      "d99": {
-         "owner": "fenngen",
-         "strain": "hk",
-         "xp": 50,
-         "care": [
-            [
-               41662999,
-               "watered"
-            ],
-            [
-               41634406,
-               "watered",
-               ""
-            ],
-            [
-               41634395,
-               "watered"
-            ]
-         ],
-         "aff": [],
-         "inv": [],
-         "terps": [
-            null
-         ],
-         "traits": [
-            [
-               "Beta Seeds"
-            ]
-         ],
-         "planted": 41486735,
-         "stage": 1,
-         "substage": 5,
-         "pollinated": true
       },
       "a85": {
          "owner": "chronocrypto",
@@ -11064,7 +12250,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
@@ -11080,9 +12266,10 @@ module.exports = {
             ]
          ],
          "planted": 41532282,
-         "stage": 1,
-         "substage": 5,
-         "pollinated": true
+         "stage": 2,
+         "substage": 0,
+         "pollinated": true,
+         "sex": "female"
       },
       "a86": {
          "owner": "chronocrypto",
@@ -11090,7 +12277,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
@@ -11106,9 +12293,10 @@ module.exports = {
             ]
          ],
          "planted": 41532293,
-         "stage": 1,
-         "substage": 5,
-         "pollinated": true
+         "stage": 2,
+         "substage": 0,
+         "pollinated": true,
+         "sex": "female"
       },
       "a87": {
          "owner": "chronocrypto",
@@ -11116,7 +12304,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               41665269,
+               41745757,
                "watered",
                ""
             ]
@@ -11132,37 +12320,38 @@ module.exports = {
             ]
          ],
          "planted": 41532308,
-         "stage": 1,
-         "substage": 5,
-         "pollinated": true
+         "stage": 2,
+         "substage": 0,
+         "pollinated": true,
+         "sex": "female"
       },
       "e105": {
          "owner": "muru",
          "strain": "sog",
          "care": [
             [
-               41671798,
+               41758506,
                "watered"
             ],
             [
-               41656186,
+               41738648,
                "watered",
                ""
             ],
             [
+               41738624,
+               "watered"
+            ],
+            [
+               41738612,
+               "watered"
+            ],
+            [
+               41738598,
+               "watered"
+            ],
+            [
                41650377,
-               "watered"
-            ],
-            [
-               41646110,
-               "watered"
-            ],
-            [
-               41646005,
-               "watered"
-            ],
-            [
-               41594015,
                "watered"
             ]
          ],
@@ -11178,7 +12367,7 @@ module.exports = {
          ],
          "planted": 41594003,
          "stage": 1,
-         "substage": 3,
+         "substage": 6,
          "pollinated": false
       },
       "b107": {
@@ -11186,8 +12375,9 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
-               41685562,
-               "watered"
+               41738804,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -11202,10 +12392,98 @@ module.exports = {
          ],
          "planted": 41661257,
          "stage": 1,
-         "substage": 0,
+         "substage": 3,
          "pollinated": false,
          "father": [],
          "id": "b107"
+      },
+      "a63": {
+         "owner": "vcdragon",
+         "strain": "kbr",
+         "xp": 50,
+         "care": [
+            [
+               41756357,
+               "watered",
+               ""
+            ],
+            [
+               41687805,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seeds"
+            ]
+         ],
+         "planted": 41687715,
+         "stage": 1,
+         "substage": 3,
+         "pollinated": true
+      },
+      "d95": {
+         "owner": "vcdragon",
+         "strain": "sog",
+         "care": [
+            [
+               41756357,
+               "watered"
+            ],
+            [
+               41726614,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 41717159,
+         "stage": 1,
+         "substage": 1,
+         "pollinated": false,
+         "father": []
+      },
+      "b108": {
+         "owner": "badpupper",
+         "strain": "cht",
+         "care": [
+            [
+               41773233,
+               "watered"
+            ],
+            [
+               41769498,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "genesis seeds"
+            ]
+         ],
+         "planted": 41769456,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false
       }
    },
    "users": {
@@ -11909,20 +13187,6 @@ module.exports = {
                "terps": [],
                "thc": "coming soon",
                "cbd": "coming soon",
-               "breeder": "qwoyn",
-               "familyTree": "mis",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "mis",
-               "owner": "qwoyn",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
                "familyTree": "mis",
                "pollinated": false,
                "father": []
@@ -11942,26 +13206,6 @@ module.exports = {
             }
          ],
          "pollen": [
-            {
-               "strain": "sog",
-               "owner": "qwoyn",
-               "xp": 2250,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 2250
-            },
-            {
-               "strain": "sog",
-               "owner": "qwoyn",
-               "xp": 2250,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 2250
-            },
             {
                "strain": "sog",
                "owner": "qwoyn",
@@ -12127,6 +13371,34 @@ module.exports = {
                   "beta buds"
                ],
                "terps": []
+            },
+            {
+               "strain": "hk",
+               "owner": "qwoyn",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "hk",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "owner": "qwoyn",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mal",
+               "father": "Sensimilla"
             }
          ],
          "breeder": "Willie",
@@ -14745,171 +16017,9 @@ module.exports = {
             "a104",
             "b98"
          ],
-         "xps": 751,
+         "xps": 1101,
          "seeds": [
             {
-               "strain": "afg",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "afg",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "kmj",
                "owner": "abrockman",
                "xp": 2250,
@@ -14919,207 +16029,9 @@ module.exports = {
                "pollinated": true
             },
             {
-               "strain": "kmj",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "swz",
                "owner": "abrockman",
                "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kmj",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kmj",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "afg",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "afg",
-               "owner": "abrockman",
-               "xp": 50,
                "traits": [
                   "Beta Seed"
                ],
@@ -15135,378 +16047,528 @@ module.exports = {
                "pollinated": true
             },
             {
-               "strain": "mis",
+               "strain": "cg",
                "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mal",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lb",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lkg",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "lkg",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "terps": [],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "abrockman",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "terps": [],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "terps": [],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "terps": [],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 50,
                "traits": [
                   "beta pollinated seed"
                ],
                "terps": [],
-               "familyTree": "hkundefined",
-               "pollinated": false
-            },
-            {
-               "strain": "hk",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "familyTree": "hkundefined",
-               "pollinated": false
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "familyTree": "chtundefined",
-               "pollinated": false
-            },
-            {
-               "strain": "cht",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "familyTree": "chtundefined",
-               "pollinated": false
-            },
-            {
-               "strain": "pam",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "patreon genesis seed"
-               ],
-               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
                "pollinated": false,
-               "father": "sensimilla"
+               "father": []
+            },
+            {
+               "strain": "tha",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "tha",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "swz",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "swz",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "swz",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "terps": [],
+               "pollinated": true
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "terps": [],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "terps": [],
+               "pollinated": true
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "terps": [],
+               "pollinated": true
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "familyTree": "hkundefined",
+               "pollinated": false
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "familyTree": "hkundefined",
+               "pollinated": false
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "familyTree": "chtundefined",
+               "pollinated": false
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "familyTree": "chtundefined",
+               "pollinated": false
             },
             {
                "strain": "lkg",
@@ -15720,33 +16782,6 @@ module.exports = {
                "father": []
             },
             {
-               "strain": "ach",
-               "owner": "abrockman",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "abrockman",
-               "familyTree": "ach",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "ach",
-               "owner": "abrockman",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "ach",
-               "pollinated": false,
-               "father": []
-            },
-            {
                "strain": "kbr",
                "owner": "abrockman",
                "traits": [
@@ -15770,6 +16805,60 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "mal",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mal",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "pam",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
                "pollinated": false,
                "father": []
             }
@@ -16915,6 +18004,286 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mal",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "mal",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "afg",
                "father": "Sensimilla"
             }
          ],
@@ -17831,7 +19200,7 @@ module.exports = {
             "e93",
             "e94"
          ],
-         "xps": 51,
+         "xps": 301,
          "seeds": [],
          "pollen": [],
          "buds": [
@@ -17889,6 +19258,286 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "pam",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "dp",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "dp",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "dp",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "dp",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "aca",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mis",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mis",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mis",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "mis",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lkg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "owner": "anarcist69",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lkg",
                "father": "Sensimilla"
             }
          ],
@@ -19576,57 +21225,7 @@ module.exports = {
          "seeds": [],
          "pollen": [
             {
-               "strain": "pam",
-               "owner": "russia-btc",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
-            },
-            {
-               "strain": "pam",
-               "owner": "russia-btc",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
-            },
-            {
                "strain": "aca",
-               "owner": "russia-btc",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
-            },
-            {
-               "strain": "aca",
-               "owner": "russia-btc",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
-            },
-            {
-               "strain": "hk",
-               "owner": "russia-btc",
-               "xp": 50,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 50
-            },
-            {
-               "strain": "hk",
                "owner": "russia-btc",
                "xp": 50,
                "traits": [
@@ -20035,15 +21634,6 @@ module.exports = {
             },
             {
                "strain": "lb",
-               "owner": "saboin",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
                "owner": "saboin",
                "xp": 50,
                "traits": [
@@ -20642,7 +22232,6 @@ module.exports = {
       },
       "wdougwatson": {
          "addrs": [
-            "e78",
             "c82"
          ],
          "xps": 26,
@@ -21817,12 +23406,12 @@ module.exports = {
             "a115",
             "b107"
          ],
-         "xps": 51,
+         "xps": 176,
          "seeds": [],
          "pollen": [],
          "buds": [
             {
-               "strain": "swz",
+               "strain": "mis",
                "owner": "cuko",
                "traits": [
                   "Beta Buds"
@@ -21832,11 +23421,11 @@ module.exports = {
                ],
                "thc": "coming soon",
                "cbd": "coming soon",
-               "familyTree": "swz",
+               "familyTree": "mis",
                "father": "Sensimilla"
             },
             {
-               "strain": "swz",
+               "strain": "mis",
                "owner": "cuko",
                "traits": [
                   "Beta Buds"
@@ -21846,7 +23435,7 @@ module.exports = {
                "terps": [
                   null
                ],
-               "familyTree": "swz",
+               "familyTree": "mis",
                "father": "Sensimilla"
             }
          ],
@@ -21859,21 +23448,45 @@ module.exports = {
          "bubblehash": [],
          "oil": [],
          "edibles": [],
-         "joints": [],
+         "joints": [
+            {
+               "strain": "swz",
+               "createdBy": "cuko",
+               "createdOn": 41688815
+            },
+            {
+               "strain": "swz",
+               "createdBy": "cuko",
+               "createdOn": 41688819
+            }
+         ],
          "blunts": [],
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 1,
+         "kiefbox": 0,
          "vacoven": 0,
          "bubblebags": 0,
          "browniemix": 0,
-         "papers": 1,
+         "papers": -1,
          "bluntwraps": 0,
          "hempwraps": 0,
          "cloningkit": 0,
          "indoorvegkit": 0,
-         "stats": [],
+         "stats": [
+            [
+               41688820,
+               "crafted_joint"
+            ],
+            [
+               41688817,
+               "crafted_joint"
+            ],
+            [
+               41688814,
+               "crafted_kief"
+            ]
+         ],
          "v": 0
       },
       "beemengine": {
@@ -21915,7 +23528,7 @@ module.exports = {
             "d83",
             "a124"
          ],
-         "xps": 1,
+         "xps": 26,
          "seeds": [],
          "pollen": [],
          "buds": [
@@ -21947,6 +23560,34 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "owner": "nupulse",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "afg",
+               "owner": "nupulse",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "afg",
                "father": "Sensimilla"
             }
          ],
@@ -21980,10 +23621,39 @@ module.exports = {
          "addrs": [
             "b91"
          ],
-         "xps": 1,
+         "xps": 26,
          "seeds": [],
          "pollen": [],
-         "buds": [],
+         "buds": [
+            {
+               "strain": "hk",
+               "owner": "atomcollector",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "hk",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "hk",
+               "owner": "atomcollector",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "hk",
+               "father": "Sensimilla"
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
@@ -22048,7 +23718,7 @@ module.exports = {
             "e101",
             "f75"
          ],
-         "xps": 251,
+         "xps": 301,
          "seeds": [],
          "pollen": [],
          "buds": [
@@ -22058,20 +23728,6 @@ module.exports = {
                "traits": [
                   "Beta Buds"
                ],
-               "terps": [
-                  null
-               ],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "hk",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "hk",
-               "owner": "vcdragon",
-               "traits": [
-                  "Beta Buds"
-               ],
                "thc": "coming soon",
                "cbd": "coming soon",
                "terps": [
@@ -22114,20 +23770,6 @@ module.exports = {
                "traits": [
                   "Beta Buds"
                ],
-               "terps": [
-                  null
-               ],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "mal",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "mal",
-               "owner": "vcdragon",
-               "traits": [
-                  "Beta Buds"
-               ],
                "thc": "coming soon",
                "cbd": "coming soon",
                "terps": [
@@ -22162,20 +23804,6 @@ module.exports = {
                   null
                ],
                "familyTree": "aca",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "kbr",
-               "owner": "vcdragon",
-               "traits": [
-                  "Beta Buds"
-               ],
-               "terps": [
-                  null
-               ],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "kbr",
                "father": "Sensimilla"
             },
             {
@@ -22500,9 +24128,10 @@ module.exports = {
       "badpupper": {
          "addrs": [
             "e104",
-            "a125"
+            "a125",
+            "b108"
          ],
-         "xps": 1,
+         "xps": 2,
          "seeds": [],
          "pollen": [],
          "buds": [],
@@ -22603,9 +24232,7 @@ module.exports = {
          "v": 0
       },
       "fenngen": {
-         "addrs": [
-            "d99"
-         ],
+         "addrs": [],
          "xps": 1,
          "seeds": [],
          "pollen": [],
@@ -22701,18 +24328,6 @@ module.exports = {
       ],
       [
          {
-            "account": "saboin",
-            "weight": 9999
-         }
-      ],
-      [
-         {
-            "account": "jeffjagoe",
-            "weight": 10000
-         }
-      ],
-      [
-         {
             "account": "badpupper",
             "weight": 10000
          }
@@ -22725,31 +24340,35 @@ module.exports = {
       ],
       [
          {
-            "account": "nupulse",
-            "weight": 5000
-         },
-         {
-            "account": "d00k13",
-            "weight": 5000
+            "account": "okean123",
+            "weight": 10000
          }
       ],
       [
          {
             "account": "fenngen",
-            "weight": 5000
-         },
+            "weight": 10000
+         }
+      ],
+      [
          {
-            "account": "cwow2",
-            "weight": 5000
+            "account": "d00k13",
+            "weight": 10000
          }
       ],
       [
          {
             "account": "muru",
+            "weight": 10000
+         }
+      ],
+      [
+         {
+            "account": "ultratrain",
             "weight": 5000
          },
          {
-            "account": "ultratrain",
+            "account": "cwow2",
             "weight": 5000
          }
       ]
@@ -22759,78 +24378,103 @@ module.exports = {
       "steembeem": true
    },
    "cs": {
-      "41638903:nupulse": "nupulse watered a124 ",
-      "41640230:chronocrypto": "chronocrypto watered a61 c54 e42 e43 f25 d44 a62 c55 e44 a85 a86 a87 ",
-      "41640309:cwow2": "cwow2 watered c108 ",
-      "41641084:rachaeldwatson": "rachaeldwatson watered e73 a94 ",
-      "41646004:muru": "muru watered e105 ",
-      "41646108:muru": "muru watered e105 ",
-      "41647125:ultratrain": "ultratrain watered c86 ",
-      "41647204:jeffjagoe": "jeffjagoe watered b85 c92 a106 e85 b86 c93 f65 e86 ",
-      "41647212:jeffjagoe": "planted on harvested plot f64 ",
-      "41647221:jeffjagoe": "jeffjagoe harvested e85 a106 ",
-      "41647230:jeffjagoe": "jeffjagoe watered b85 c92 a106 e85 b86 c93 f65 e86 ",
-      "41648179:elemental010": "elemental010 watered c38 c91 a120 a52 ",
-      "41648621:jbsharkey": "jbsharkey watered b90 a126 ",
-      "41650375:muru": "muru watered e105 ",
-      "41650729:jeffjagoe": "jeffjagoe watered b85 c92 a106 e85 b86 c93 f65 e86 ",
-      "41651813:badpupper": "badpupper watered e104 a125 ",
-      "41652282:russia-btc": "russia-btc watered e63 c69 d56 a75 a121 c106 ",
-      "41652293:russia-btc": "russia-btc watered e63 c69 d56 a75 a121 c106 ",
-      "41652916:tsnaks": "tsnaks watered c99 d82 ",
-      "41656185:muru": "muru watered e105 ",
-      "41656791:abrockman": "abrockman harvested a50 b43 c39 d33 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 e76 e77 f57 f58 d68 d69 a99 b80 e79 f59 d70 b83 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "41656795:abrockman": "planted on harvested plot e29 ",
-      "41656798:abrockman": "planted on harvested plot c57 ",
-      "41656805:abrockman": "planted on harvested plot b64 ",
-      "41656807:badpupper": "badpupper watered e104 a125 ",
-      "41656809:abrockman": "planted on harvested plot d64 ",
-      "41656814:abrockman": "planted on harvested plot a102 ",
-      "41657079:stever82": "stever82 watered e96 ",
-      "41657081:stever82": "stever82 watered c95 ",
-      "41657083:stever82": "stever82 watered d81 ",
-      "41657085:stever82": "stever82 watered f63 ",
-      "41657370:saboin": "saboin watered c75 d61 f44 a83 b71 c77 d62 e70 a91 b74 b78 c83 a97 c84 a111 b97 ",
-      "41657472:jeffjagoe": "jeffjagoe watered b85 c92 a106 e85 b86 c93 f65 e86 ",
-      "41657534:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
-      "41657574:vcdragon": "vcdragon harvested a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
-      "41658222:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
-      "41658267:vcdragon": "vcdragon watered a116 c101 e97 a117 a118 b100 d87 e98 f73 a119 b101 b102 b103 c102 c103 c104 d88 d89 d90 b104 c105 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 e101 f75 ",
-      "41659086:cwow2": "cwow2 watered c108 ",
-      "41659089:cwow2": "cwow2 watered c108 ",
-      "41659417:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
-      "41661250:cuko": "cuko purchased land at plot #b107",
-      "41661255:cuko": "planted on empty plot b107",
-      "41661259:cuko": "cuko watered e91 b95 a115 ",
-      "41662998:fenngen": "fenngen watered d99 ",
-      "41664309:ultratrain": "ultratrain watered c86 ",
-      "41665268:chronocrypto": "chronocrypto watered a61 c54 e42 e43 f25 d44 a62 c55 e44 a85 a86 a87 ",
-      "41666889:nupulse": "nupulse watered a124 ",
-      "41669296:cwow2": "cwow2 watered c108 ",
-      "41670238:d00k13": "d00k13 watered e90 d97 c110 ",
-      "41671796:muru": "muru watered e105 ",
-      "41672803:tsnaks": "tsnaks watered c99 d82 ",
-      "41673586:romiferns": "romiferns harvested c40 ",
-      "41673592:romiferns": "romiferns watered f21 ",
-      "41677862:ghosthunter1": "ghosthunter1 watered a9 b1 e7 c94 ",
-      "41678235:jbsharkey": "jbsharkey watered b90 a126 ",
-      "41678365:abrockman": "abrockman harvested a50 b43 c39 d33 e29 a56 b50 c50 d40 f17 a58 b51 c52 d41 f18 a59 b58 c57 d46 f28 a65 b59 c58 d47 f29 a66 a67 b60 c59 d48 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 a92 a93 b75 b76 d68 d69 a99 b80 f59 d70 a102 b83 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "41678369:abrockman": "planted on harvested plot f12 ",
-      "41678372:abrockman": "planted on harvested plot e38 ",
-      "41678375:abrockman": "planted on harvested plot c80 ",
-      "41678379:abrockman": "abrockman can't plant that.",
-      "41679062:thecrazygm": "thecrazygm watered ",
-      "41679063:mulletwang": "mulletwang watered ",
-      "41679066:d00k13": "d00k13 watered e90 ",
-      "41679603:songokubg": "songokubg watered c112 ",
-      "41680777:jeffjagoe": "jeffjagoe watered b85 c92 f64 b86 c93 f65 e86 ",
-      "41681729:nutritree": "nutritree watered d54 e58 f33 ",
-      "41682856:saboin": "saboin harvested d62 ",
-      "41684183:chunkysoupsvc": "chunkysoupsvc watered f52 d80 ",
-      "41684996:badpupper": "badpupper watered e104 a125 ",
-      "41685561:cuko": "cuko watered e91 b95 a115 b107 ",
-      "41685739:abrockman": "abrockman can't plant that.",
-      "41685743:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "41685746:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 "
+      "41722736:abrockman": "planted on harvested plot d67 ",
+      "41722739:abrockman": "planted on harvested plot e75 ",
+      "41722743:abrockman": "planted on harvested plot a92 ",
+      "41722747:abrockman": "planted on harvested plot f61 ",
+      "41722752:abrockman": "abrockman can't plant that.",
+      "41722756:abrockman": "abrockman can't plant that.",
+      "41722760:abrockman": "abrockman can't plant that.",
+      "41722763:abrockman": "abrockman can't plant that.",
+      "41723071:abrockman": "planted on harvested plot e76 ",
+      "41723075:abrockman": "planted on harvested plot d68 ",
+      "41723078:abrockman": "planted on harvested plot a99 ",
+      "41723082:abrockman": "abrockman can't plant that.",
+      "41723087:abrockman": "abrockman can't plant that.",
+      "41723355:saboin": "saboin watered c75 d61 f44 a83 b71 c77 d62 e70 a91 b74 b78 a97 c84 b97 ",
+      "41723366:saboin": "saboin harvested d62 ",
+      "41723743:abrockman": "planted on harvested plot e77 ",
+      "41723746:abrockman": "planted on harvested plot d70 ",
+      "41723750:abrockman": "planted on harvested plot a103 ",
+      "41723753:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 f57 f58 d68 d69 a99 b80 c85 f59 a102 b83 c88 f61 e82 d72 b84 c89 e83 f62 b98 ",
+      "41724855:nupulse": "nupulse watered a124 ",
+      "41725103:nupulse": "nupulse harvested a124 ",
+      "41726612:vcdragon": "vcdragon watered a116 c101 e97 a118 d87 e98 f73 a119 c102 d88 d89 d90 a63 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 d95 e101 f75 ",
+      "41727003:russia-btc": "russia-btc watered e63 c69 d56 a75 a121 c106 ",
+      "41727591:cwow2": "cwow2 watered c108 ",
+      "41732931:tsnaks": "tsnaks watered c99 d82 ",
+      "41733253:nutritree": "nutritree watered d54 e58 f33 ",
+      "41734575:ultratrain": "ultratrain watered c86 ",
+      "41735302:okean123": "okean123 watered a112 ",
+      "41736379:mcoinz79": "mcoinz79 watered a98 e80 ",
+      "41738360:badpupper": "badpupper watered e104 a125 ",
+      "41738596:muru": "muru watered e105 ",
+      "41738611:muru": "muru watered e105 ",
+      "41738622:muru": "muru watered e105 ",
+      "41738647:muru": "muru watered e105 ",
+      "41738803:cuko": "cuko watered e91 b95 b107 ",
+      "41741006:jbsharkey": "jbsharkey watered b90 a126 ",
+      "41741358:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 e83 f62 b98 ",
+      "41741362:abrockman": "planted on harvested plot e79 ",
+      "41741367:abrockman": "planted on harvested plot d74 ",
+      "41741371:abrockman": "planted on harvested plot a104 ",
+      "41741375:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 e83 f62 b98 ",
+      "41742000:fenngen": "fenngen watered d99 ",
+      "41742018:fenngen": "fenngen watered d99 ",
+      "41742028:fenngen": "fenngen watered d99 ",
+      "41742042:fenngen": "fenngen watered d99 ",
+      "41742193:chunkysoupsvc": "chunkysoupsvc watered f52 d80 ",
+      "41744134:badpupper": "badpupper watered e104 a125 ",
+      "41744466:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
+      "41744467:thecrazygm": "thecrazygm watered ",
+      "41744467:mulletwang": "mulletwang watered ",
+      "41744470:d00k13": "d00k13 watered e90 ",
+      "41745663:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
+      "41745755:chronocrypto": "chronocrypto watered a61 c54 e42 e43 f25 d44 a62 c55 e44 a85 a86 a87 ",
+      "41751748:russia-btc": "russia-btc watered e63 c69 d56 a75 a121 c106 ",
+      "41751762:russia-btc": "russia-btc pollinated e63 with pam",
+      "41751768:russia-btc": "russia-btc pollinated a121 with hk",
+      "41751775:russia-btc": "russia-btc pollinated d56 with aca",
+      "41751786:russia-btc": "russia-btc pollinated c106 with hk",
+      "41751792:russia-btc": "russia-btc pollinated a75 with pam",
+      "41756356:vcdragon": "vcdragon watered a116 c101 e97 a118 d87 e98 f73 a119 c102 d88 d89 d90 a63 d91 d92 e99 f74 e100 d93 d94 a122 b105 c107 d95 e101 f75 ",
+      "41756844:elemental010": "elemental010 watered c38 c91 a120 a52 ",
+      "41757244:cwow2": "cwow2 watered c108 ",
+      "41758505:muru": "muru watered e105 ",
+      "41763776:stever82": "stever82 watered f63 d81 c95 e96 ",
+      "41763779:stever82": "stever82 watered d81 ",
+      "41763782:stever82": "stever82 watered c95 ",
+      "41763785:stever82": "stever82 watered e96 ",
+      "41763788:stever82": "stever82 watered f63 ",
+      "41767086:fenngen": "0 vested",
+      "41767457:badpupper": "badpupper watered e104 a125 ",
+      "41768080:badpupper": "117515971301 vested",
+      "41768090:badpupper": "badpupper purchased land at plot #b108",
+      "41769444:badpupper": "badpupper purchased cht",
+      "41769454:badpupper": "planted on empty plot b108",
+      "41769482:romiferns": "romiferns harvested c40 f21 ",
+      "41769496:badpupper": "badpupper watered e104 a125 b108 ",
+      "41770161:chunkysoupsvc": "chunkysoupsvc watered f52 d80 ",
+      "41770721:nutritree": "nutritree watered d54 e58 f33 ",
+      "41771196:tsnaks": "tsnaks watered c99 d82 ",
+      "41772001:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "41772024:cwow2": "cwow2 watered c108 ",
+      "41772055:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "41772355:jbsharkey": "jbsharkey watered b90 a126 ",
+      "41772864:abrockman": "abrockman can't plant that.",
+      "41772868:abrockman": "abrockman can't plant that.",
+      "41772871:abrockman": "abrockman can't plant that.",
+      "41772874:abrockman": "abrockman can't plant that.",
+      "41772877:abrockman": "abrockman can't plant that.",
+      "41772884:abrockman": "abrockman can't plant that.",
+      "41772887:abrockman": "abrockman can't plant that.",
+      "41772959:abrockman": "abrockman can't plant that.",
+      "41772962:abrockman": "abrockman can't plant that.",
+      "41772965:abrockman": "abrockman can't plant that.",
+      "41773224:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
+      "41773224:thecrazygm": "thecrazygm watered ",
+      "41773225:mulletwang": "mulletwang watered ",
+      "41773228:d00k13": "d00k13 watered e90 ",
+      "41773231:badpupper": "badpupper watered e104 a125 b108 "
    }
 }
