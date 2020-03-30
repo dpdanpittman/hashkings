@@ -1,7 +1,7 @@
 {
-  "name": "hashkings-api",
-  "version": "0.9.4",
-  "description": "Steem Cannabis Farming Interface API",
+  "name": "hashkings-api-hive",
+  "version": "0.0.1",
+  "description": "Hive Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,17 @@
   },
   "keywords": [
     "dlux",
-    "steem",
+    "hive",
     "hashkings"
   ],
-  "author": "disregardfiat, qwoyn",
+  "author": "qwoyn",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dsteem": "^0.11.2",
     "express": "^4.16.4",
     "ipfs-http-client": "^42.0.0-pre.2",
-    "steem": "^0.7.7",
+    "steem": "0.7.7",
     "steem-state": "1.3.2",
     "steem-transact": "^1.0.2"
   }
