@@ -1,7 +1,7 @@
 {
-  "name": "hashkings-api-hive",
-  "version": "0.0.1",
-  "description": "Hive Cannabis Farming Interface API",
+  "name": "hashkings-api",
+  "version": "0.9.5",
+  "description": "STEEM Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "dlux",
-    "hive",
+    "steem",
     "hashkings"
   ],
   "author": "qwoyn",
