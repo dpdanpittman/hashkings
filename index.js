@@ -1374,6 +1374,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
+            if(state.users[from].kiefbox > 0) {
                 state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
@@ -1387,9 +1388,9 @@ function startApp() {
                 if(state.users[from].xps > 99){
                 state.users[from].kief.push(kief)
                 }
+            }
         }
 
-        state.users[from].xps += 50;
         state.cs[`${json.block_num}:${from}`] = `${from} crafted kief with ${budNames}`
     });
 
