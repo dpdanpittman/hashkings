@@ -2496,7 +2496,7 @@ function startApp() {
                 return response.json();
             })
             .then(function(myJson) {
-                if(myJson.blacklisted.length == 0 || json.from == 'news-today'){
+                if(myJson.blacklisted.length == 0 || json.from == 'darthknight' || json.from == 'steempress' || json.from == 'roelandp' || json.from == 'good-karma' || json.from == 'gtg' || json.from == 'blocktrades' || json.from == 'pumpkin' || json.from == 'freedom'){
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
