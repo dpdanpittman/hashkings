@@ -1438,7 +1438,7 @@ function startApp() {
         
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].papers > 0 && state.users[from].xps > 99){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -1464,7 +1464,7 @@ function startApp() {
                 }
         }
         state.users[from].xps += 25;
-        state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted joint with ${budNames}`
     });
 
    // search for qwoyn_joint from user on blockchain since genesis
@@ -1476,7 +1476,7 @@ function startApp() {
         
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].bluntwraps > 0 && state.users[from].xps > 4999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
