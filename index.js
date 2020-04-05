@@ -1117,7 +1117,6 @@ function startApp() {
                 state.users[from].breeder = breeder[i];
                 breederName += `${breeder[i]}`
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
         }
         
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
@@ -1196,7 +1195,7 @@ function startApp() {
     //search for qwoyn_join_alliance from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
-   /* processor.on('join_alliance', function(json, from) {
+   processor.on('join_alliance', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
         for (var i = 0; i < state.stats.alliances.length; i++) {
@@ -1204,7 +1203,7 @@ function startApp() {
                 allianceName += alliance[i]
 
                 try{
-                    for (var i = 0;i < state.users[from].alliance.length; i++){
+                    for (var i = 0; i < state.users[from].alliance.length; i++){
                         var myAlliance = {
                             alliance: json.alliance
                         }
@@ -1220,7 +1219,7 @@ function startApp() {
         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
-    });*/
+    });
 
     //search for qwoyn_alliance from user on blockchain since genesis
     //steemconnect link
@@ -3047,7 +3046,7 @@ function listBens (bens){
 function sexing (){
     var sexAtBirth = 'Not Sexed';
 
-    sex = state.land.length % 1;
+    sex = state.land.length % 1.90;
 
     if(sex > 0){
         sexAtBirth = "male";
