@@ -21557,7 +21557,71 @@ module.exports = {
             "c42",
          ],
          "xps": 326,
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "afg",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "mis",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "lb",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "aca",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "swz",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "cg",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "pam",
+               "owner": "qwoyn-chest",
+               "xp": 2250,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false
+            },
+         ],
          "pollen": [
             {
                "strain": "mis",
