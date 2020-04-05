@@ -777,18 +777,6 @@ module.exports = {
    "refund": [],
    "lands": {
       "forSale": [
-         "c43",
-         "b57",
-         "f26",
-         "d66",
-         "e74",
-         "c44",
-         "f14",
-         "a73",
-         "b65",
-         "f36",
-         "b66",
-         "c42",
          "d57",
          "a105",
          "c51",
@@ -9355,6 +9343,162 @@ module.exports = {
          "stats": [],
          "pollinated": false,
          "id": "b100"
+      },
+      "c43": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "c43"
+      },
+      "c42": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "c42"
+      },
+      "b66": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "b66"
+      },
+      "f36": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "f36"
+      },
+      "b65": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "b65"
+      },
+      "a73": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "a73"
+      },
+      "f14": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "f14"
+      },
+      "c44": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "c44"
+      },
+      "e74": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "e74"
+      },
+      "d66": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "d66"
+      },
+      "f26": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "f26"
+      },
+      "b57": {
+         "owner": "vcdragon",
+         "strain": "",
+         "care": [],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "b57"
       },
       "e98": {
          "owner": "vcdragon",
@@ -21413,13 +21557,106 @@ module.exports = {
             "d93",
             "a122",
             "c107",
-            "e101"
+            "e101",
+
+            "c43",
+            "b57",
+            "f26",
+            "d66",
+            "e74",
+            "c44",
+            "f14",
+            "a73",
+            "b65",
+            "f36",
+            "b66",
+            "c42",
          ],
          "xps": 326,
          "seeds": [],
          "pollen": [
             {
+               "strain": "mis",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
                "strain": "tha",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "pam",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "mis",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "tha",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "hk",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "mis",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "dp",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "hk",
                "owner": "vcdragon",
                "xp": 50,
                "traits": [
