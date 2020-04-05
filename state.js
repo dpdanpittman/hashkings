@@ -9793,18 +9793,6 @@ module.exports = {
          "father": "beta",
          "pollinated": false
       },
-      "d97": {
-         "owner": "d00k13",
-         "strain": "sog",
-         "xp": 200,
-         "care": [],
-         "aff": [],
-         "planted": 41209831,
-         "stage": 1,
-         "substage": 3,
-         "father": "beta",
-         "pollinated": false
-      },
       "e89": {
          "owner": "jonyoudyer",
          "strain": "kbr",
@@ -21224,10 +21212,7 @@ module.exports = {
          "v": 0
       },
       "d00k13": {
-         "addrs": [
-            "d97",
-            "d98"
-         ],
+         "addrs": [],
          "xps": 1,
          "seeds": [],
          "pollen": [],
@@ -21558,7 +21543,6 @@ module.exports = {
             "a122",
             "c107",
             "e101",
-
             "c43",
             "b57",
             "f26",
@@ -21577,6 +21561,36 @@ module.exports = {
          "pollen": [
             {
                "strain": "mis",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "hk",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "sog",
+               "owner": "vcdragon",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50
+            },
+            {
+               "strain": "pam",
                "owner": "vcdragon",
                "xp": 50,
                "traits": [
@@ -22375,7 +22389,6 @@ module.exports = {
       "42227854:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
       "42227855:thecrazygm": "thecrazygm watered ",
       "42227856:mulletwang": "mulletwang watered ",
-      "42227863:d00k13": "d00k13 watered ",
       "42227868:badpupper": "badpupper watered a125 ",
       "42228867:saboin": "saboin watered d61 a83 c77 e70 ",
       "42229034:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",

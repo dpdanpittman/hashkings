@@ -939,7 +939,7 @@ function startApp() {
                     thc: 'coming soon',
                     cbd: 'coming soon',
                     breeder: state.land[plants[i]].owner,
-                    familyTree: state.land[plants[i]].strain,
+                    familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                     pollinated: false,
                     father: [],
                 }
@@ -950,7 +950,7 @@ function startApp() {
                     terps: [],
                     thc: 'coming soon',
                     cbd: 'coming soon',
-                    familyTree: state.land[plants[i]].strain,
+                    familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                     pollinated: false,
                     father: [],
                 }
@@ -991,7 +991,7 @@ function startApp() {
                         terps: [state.land[plants[i]].strain.terps],
                         thc: 'coming soon',
                         cbd: 'coming soon',
-                        familyTree: state.land[plants[i]].strain,
+                        familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                         father: 'Sensimilla'
                     }
                     var bud2 = {
@@ -1001,7 +1001,7 @@ function startApp() {
                         thc: 'coming soon',
                         cbd: 'coming soon',
                         terps: [state.land[plants[i]].strain.terps],
-                        familyTree: state.land[plants[i]].strain,
+                        familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                         father: 'Sensimilla'
                     }
 
@@ -1040,7 +1040,7 @@ function startApp() {
                     terps: [],
                     thc: 'coming soon',
                     cbd: 'coming soon',
-                    familyTree: state.land[plants[i]].strain,
+                    familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                     father: 'Sensimilla'
                 }
                 var pollen2 = {
@@ -1050,7 +1050,7 @@ function startApp() {
                     terps: [],
                     thc: 'coming soon',
                     cbd: 'coming soon',
-                    familyTree: state.land[plants[i]].strain,
+                    familyTree: state.land[plants[i]].strain + ' ' + state.land[plants[i]].father,
                     father: 'Sensimilla'
                 }
 
