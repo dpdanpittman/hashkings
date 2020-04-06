@@ -780,7 +780,144 @@ module.exports = {
       "b": 0,
       "p": 1497479
    },
-   "refund": [],
+   "refund": [
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h42256198",
+                  "title": "Hashkings Almanac for Mexico | 42256198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nMexico Growers Daily News\n\n## Todays Weather\nYou can expect cloudy skies with a high of 29.2 Celsius. Winds will be out of the Northeast at 3.8 M/s. Relative humidity will be around 36% and a low of 22.1 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h42256198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h42256198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h42258598",
+                  "title": "Hashkings Almanac for Afganistan | 42258598",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfganistan Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 27.1 Celsius. Winds will be out of the Southwest at 4.9 M/s. Relative humidity will be around 33% and a low of 17.2 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h42258598",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h42258598",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ],
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h42268198",
+                  "title": "Hashkings Almanac for South America | 42268198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nSouth America Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 29.0 Celsius. Winds will be out of the Northeast at 4.5 M/s. Relative humidity will be around 83% and a low of 22.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h42268198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": []
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ]
+   ],
    "lands": {
       "forSale": [
          "d57",
@@ -21710,4 +21847,773 @@ module.exports = {
                "level": 50
             }
          ],
-         "buds"
+         "buds": [
+            {
+               "strain": "hk",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "hk",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lb",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lb",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "mal",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "mal",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "aca",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kbr",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kbr",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "swz",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "swz",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cht",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cht",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "cg",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "cg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "kmj",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "kmj",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lkg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "lkg",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "lkg",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca beta",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "aca",
+               "owner": "vcdragon",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "aca beta",
+               "father": "Sensimilla"
+            }
+         ],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "cwow2": {
+         "addrs": [
+            "c108",
+            "a123"
+         ],
+         "xps": 26,
+         "seeds": [],
+         "pollen": [],
+         "buds": [
+            {
+               "strain": "sog",
+               "owner": "cwow2",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "sog",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "sog",
+               "owner": "cwow2",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "sog",
+               "father": "Sensimilla"
+            }
+         ],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0
+      },
+      "skylinebuds": {
+         "addrs": [],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0
+      },
+      "ericwilson": {
+         "addrs": [
+            "d96"
+         ],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "resteemyou": {
+         "addrs": [],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "badpupper": {
+         "addrs": [
+            "a125"
+         ],
+         "xps": 2,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0
+      },
+      "creativeblue": {
+         "addrs": [],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "v": 0,
+         "a": 0,
+         "u": 0
+      },
+      "songokubg": {
+         "addrs": [
+            "c112"
+         ],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "traits": [],
+         "terps": [],
+         "v": 0
+      },
+      "fenngen": {
+         "addrs": [],
+         "xps": 1,
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "papers": 0,
+         "bluntwraps": 0,
+         "hempwraps": 0,
+         "cloningkit": 0,
+         "indoorvegkit": 0,
+         "stats": [],
+         "traits": [],
+         "terps": [],
+         "v": 0
+      },
+      "muru": {
+         "addrs": [
+            "e105"
+         ],
+         "seeds": [
+            {
+               "strain": "sog",
+               "owner": "muru",
+               "xp": 200,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            }
+         ],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "stats": [],
+         "traits": [],
+         "terps": [],
+         "v": 0,
+         "xps": null
+      }
+   },
+   "news": {
+      "a": [],
+      "b": [],
+      "c": [],
+      "d": [],
+      "f": [],
+      "g": [],
+      "h": [],
+      "i": [],
+      "t": [],
+      "e": []
+   },
+   "payday": [
+      [
+         {
+            "account": "abrockman",
+            "weight": 9996
+         }
+      ],
+      [
+         {
+            "account": "muru",
+            "weight": 10000
+         }
+      ],
+      [
+         {
+            "account": "stever82",
+            "weight": 10000
+         }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+   ],
+   "blacklist": {
+      "zonguin": true,
+      "steembeem": true
+   },
+   "cs": {
+      "42245656:nutritree": "nutritree watered d54 e58 f33 ",
+      "42245778:nutritree": "nutritree harvested d54 e58 f33 ",
+      "42247718:jeffjagoe": "jeffjagoe watered b85 c92 f64 f65 e86 ",
+      "42248863:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "42248867:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "42250921:saboin": "planted on harvested plot a96 ",
+      "42250926:saboin": "planted on harvested plot b79 ",
+      "42250933:saboin": "planted on harvested plot c83 ",
+      "42250948:saboin": "planted on harvested plot d45 ",
+      "42250963:saboin": "planted on harvested plot a76 ",
+      "42250968:saboin": "planted on harvested plot e40 ",
+      "42250984:saboin": "planted on harvested plot b88 ",
+      "42250994:saboin": "planted on harvested plot f55 ",
+      "42251007:saboin": "saboin watered d61 a83 c77 e70 f55 a96 c83 b79 b88 d45 e40 a76 ",
+      "42255145:muru": "muru watered e105 ",
+      "42255910:ecoinstats": "ecoinstats watered d71 d76 d77 b82 c87 e81 f60 ",
+      "42255910:thecrazygm": "thecrazygm watered ",
+      "42255912:mulletwang": "mulletwang watered ",
+      "42255918:d00k13": "d00k13 watered ",
+      "42256374:cuko": "cuko watered e91 b95 b107 ",
+      "42257081:anarcist69": "anarcist69 watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
+      "42266242:gamewatch": "gamewatch watered c48 ",
+      "42266254:gamewatch": "gamewatch harvested c48 ",
+      "42266277:gamewatch": "planted on harvested plot c48 ",
+      "42266293:gamewatch": "gamewatch watered c48 ",
+      "42266779:vcdragon": "vcdragon pollinated d89 with tha",
+      "42266793:vcdragon": "vcdragon harvested d89 ",
+      "42266815:vcdragon": "planted on harvested plot c104 ",
+      "42266985:vcdragon": "vcdragon pollinated d93 with mis",
+      "42266993:vcdragon": "vcdragon pollinated a122 with tha",
+      "42266998:vcdragon": "vcdragon pollinated d92 with pam",
+      "42267304:vcdragon": "vcdragon harvested a119 ",
+      "42267342:vcdragon": "vcdragon pollinated e101 with mis",
+      "42267347:vcdragon": "vcdragon harvested e101 ",
+      "42267358:vcdragon": "vcdragon pollinated a122 with hk",
+      "42267365:vcdragon": "vcdragon harvested a122 ",
+      "42267386:vcdragon": "vcdragon pollinated d93 with mis",
+      "42267394:vcdragon": "vcdragon harvested d93 ",
+      "42267410:vcdragon": "vcdragon pollinated e97 with dp",
+      "42267415:vcdragon": "vcdragon harvested e97 ",
+      "42267429:vcdragon": "vcdragon pollinated d92 with hk",
+      "42267434:vcdragon": "vcdragon harvested d92 ",
+      "42267625:vcdragon": "planted on harvested plot e97 ",
+      "42267678:vcdragon": "planted on harvested plot a117 ",
+      "42267688:vcdragon": "planted on harvested plot b100 ",
+      "42267706:vcdragon": "planted on harvested plot e98 ",
+      "42267713:vcdragon": "planted on harvested plot a119 ",
+      "42267729:vcdragon": "planted on harvested plot c105 ",
+      "42267748:vcdragon": "vcdragon pollinated c107 with sog",
+      "42267753:vcdragon": "vcdragon harvested c107 ",
+      "42267771:vcdragon": "vcdragon pollinated c101 with pam",
+      "42267775:vcdragon": "vcdragon harvested c101 ",
+      "42267812:vcdragon": "vcdragon can't plant that.",
+      "42267819:vcdragon": "vcdragon can't plant that.",
+      "42267825:vcdragon": "vcdragon can't plant that.",
+      "42267831:vcdragon": "vcdragon can't plant that.",
+      "42267849:vcdragon": "planted on harvested plot f26 ",
+      "42267854:vcdragon": "planted on harvested plot d66 ",
+      "42268156:vcdragon": "planted on harvested plot b102 ",
+      "42268166:vcdragon": "vcdragon can't plant that.",
+      "42268209:vcdragon": "planted on harvested plot c101 ",
+      "42268339:vcdragon": "planted on harvested plot d89 ",
+      "42268349:vcdragon": "planted on harvested plot a122 ",
+      "42268408:vcdragon": "planted on harvested plot d92 ",
+      "42268417:vcdragon": "planted on harvested plot d93 ",
+      "42268448:vcdragon": "planted on harvested plot f14 ",
+      "42268454:vcdragon": "planted on harvested plot a73 ",
+      "42268616:vcdragon": "planted on harvested plot c107 ",
+      "42268624:vcdragon": "planted on harvested plot e101 ",
+      "42268628:vcdragon": "planted on harvested plot b57 ",
+      "42268639:vcdragon": "planted on harvested plot c43 ",
+      "42268643:vcdragon": "planted on harvested plot e74 ",
+      "42268647:vcdragon": "planted on harvested plot b65 ",
+      "42268654:vcdragon": "vcdragon did something unexpected with a plant!",
+      "42268664:vcdragon": "vcdragon watered a116 c101 e97 a117 b100 e98 a119 b102 c102 c104 d89 a63 c105 d92 f74 d93 a122 c107 e101 c43 b57 f26 d66 e74 f14 a73 b65 ",
+      "42275242:elemental010": "elemental010 watered c38 c91 a120 a52 ",
+      "42276072:stever82": "stever82 watered f63 d81 c95 e96 ",
+      "42276080:stever82": "stever82 harvested f63 c95 ",
+      "42280170:tsnaks": "tsnaks watered d82 ",
+      "42281271:abrockman": "abrockman harvested a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "42281275:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "42283046:saboin": "saboin watered d61 a83 c77 e70 f55 a96 c83 b79 b88 d45 e40 a76 ",
+      "42284115:mulletwang": "mulletwang watered ",
+      "42284121:d00k13": "d00k13 watered "
+   }
+}
