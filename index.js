@@ -2257,13 +2257,7 @@ function startApp() {
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
-                  if (json.qual){
-                    if(state.users[from].buds[i].strain == json.bud && state.users[from].buds[i].xp == json.qual){
-                        state.users[from].buds[i].owner = json.to;
-                        bud = state.users[from].buds.splice(i, 1)[0]
-                      break
-                    }
-                  } else if(state.users[from].buds[i].strain == json.buds){
+                  if(state.users[from].buds[i].strain == json.buds){
                     state.users[from].buds[i].owner = json.to;
                     bud = state.users[from].buds.splice(i, 1)[0]
                     break
