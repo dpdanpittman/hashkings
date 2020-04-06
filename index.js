@@ -2270,7 +2270,7 @@ function startApp() {
                   addrs: [],
                   seeds: [],
                   pollen: [],
-                  buds: [buds],
+                  buds: [bud],
                   breeder: breeder,
                   farmer: farmer,
                   alliance: "",
