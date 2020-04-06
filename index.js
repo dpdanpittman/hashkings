@@ -2253,24 +2253,24 @@ function startApp() {
     
    //checks for json qwoyn_give_buds and allows users to send each other buds
     processor.on('give_buds', function(json, from) {
-        var buds = ''
+        var bud = ''
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].buds.length; i++){
                   if (json.qual){
-                    if(state.users[from].buds[i].strain == json.buds && state.users[from].buds[i].xp == json.qual){
+                    if(state.users[from].buds[i].strain == json.bud && state.users[from].buds[i].xp == json.qual){
                         state.users[from].buds[i].owner = json.to;
-                        buds = state.users[from].buds.splice(i, 1)[0]
+                        bud = state.users[from].buds.splice(i, 1)[0]
                       break
                     }
                   } else if(state.users[from].buds[i].strain == json.buds){
                     state.users[from].buds[i].owner = json.to;
-                    buds = state.users[from].buds.splice(i, 1)[0]
+                    bud = state.users[from].buds.splice(i, 1)[0]
                     break
                   }
               }
           } catch (e) {}
-          if (buds) {
+          if (bud) {
               if (!state.users[json.to]) {
                 state.users[json.to] = {
                   addrs: [],
@@ -2305,10 +2305,10 @@ function startApp() {
                 }
               } else {
                   try {
-                  state.users[json.to].buds.push(buds)
+                  state.users[json.to].buds.push(bud)
                 } catch {'trying to send buds that dont belong to them'}
               }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent ${buds.strain} buds to ${json.to}`
+              state.cs[`${json.block_num}:${from}`] = `${from} sent ${bud.strain} buds to ${json.to}`
           } else {
               state.cs[`${json.block_num}:${from}`] = `${from} doesn't own those buds`
           }
