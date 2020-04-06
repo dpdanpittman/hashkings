@@ -351,13 +351,13 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42249349; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 42284328; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42249349;
+const ago = ENV.ago || 42284328;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const clientURL = ENV.APIURL || 'https://api.steemit.com/' // can be changed to another node
+const clientURL = ENV.APIURL || 'https://sn1.steemit.com/' // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
 var recents = [];
