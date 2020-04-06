@@ -19695,6 +19695,7 @@ module.exports = {
             }
          ],
          "pollen": [],
+         "buds": [],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
