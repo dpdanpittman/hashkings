@@ -2241,6 +2241,7 @@ function startApp() {
                 }
               } else {
                   state.users[json.to].pollen.push(pollen)
+                  
               }
               state.cs[`${json.block_num}:${from}`] = `${from} sent ${pollen.strain} pollen to ${json.to}`
           } else {
@@ -2303,7 +2304,9 @@ function startApp() {
                   v: 0
                 }
               } else {
+                  try {
                   state.users[json.to].buds.push(buds)
+                } catch {'trying to send buds that dont belong to them'}
               }
               state.cs[`${json.block_num}:${from}`] = `${from} sent ${buds.strain} buds to ${json.to}`
           } else {
