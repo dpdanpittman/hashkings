@@ -357,7 +357,7 @@ const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
 const ago = ENV.ago || 42329686;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const clientURL = ENV.APIURL || 'https://api.steemit.com/' // can be changed to another node
+const clientURL = ENV.APIURL || 'https://steemd.privex.io' //'https://api.steemit.com/' // can be changed to another node
 var client = new steem.Client(clientURL);
 var processor;
 var recents = [];
@@ -1393,7 +1393,7 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} crafted kief with ${budNames}`
     });
 
-    // search for qwoyn_edibles from user on blockchain since genesis
+    // search for craft_edibles from user on blockchain since genesis
     processor.on('craft_edibles', function(json, from) {
         let buds = json.buds,
             budNames = '',
@@ -1429,7 +1429,7 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
     });
 
-    // search for qwoyn_joint from user on blockchain since genesis
+    // search for craft_joint from user on blockchain since genesis
     processor.on('craft_joint', function(json, from) {
         let buds = json.buds,
             budNames = '',
