@@ -21528,8 +21528,18 @@ module.exports = {
             "a115",
             "b107"
          ],
-         "xps": 176,
-         "seeds": [],
+         "xps": 500,
+         "seeds": [
+            {
+               "strain": "sog",
+               "owner": "cuko",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": false
+            }
+         ],
          "pollen": [],
          "buds": [
             {
