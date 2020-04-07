@@ -58,7 +58,7 @@ module.exports = {
          "delegator": "romiferns",
          "vests": 79733439788,
          "availible": 0,
-         "used": 2
+         "used": 3
       },
       {
          "delegator": "simgirl",
@@ -1169,7 +1169,8 @@ module.exports = {
          "substage": 0,
          "terps": [],
          "father": "beta",
-         "id": "a11"
+         "id": "a11",
+         "pollinated": false
       },
       "b2": {
          "owner": "bluntsmasha",
@@ -1634,20 +1635,16 @@ module.exports = {
       },
       "c40": {
          "owner": "romiferns",
-         "strain": "dp",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
          "terps": [],
-         "planted": 40895479,
-         "id": "c40",
          "father": "beta",
-         "sex": "female"
+         "id": "c40",
+         "pollinated": false
       },
       "a51": {
          "owner": "mulletwang",
@@ -4152,20 +4149,16 @@ module.exports = {
       },
       "f21": {
          "owner": "romiferns",
-         "strain": "swz",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [],
          "aff": [],
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
          "terps": [],
-         "planted": 40895485,
-         "id": "f21",
          "father": "beta",
-         "sex": "female"
+         "id": "f21",
+         "pollinated": false
       },
       "e32": {
          "owner": "ecoinstar",
@@ -16243,7 +16236,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             },
             {
                "strain": "swz",
@@ -16252,7 +16245,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             },
             {
                "strain": "dp",
@@ -16261,7 +16254,7 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
             },
             {
                "strain": "dp",
@@ -16270,7 +16263,43 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false
+            },
+            {
+               "strain": "swz",
+               "owner": "romiferns",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "swz",
+               "owner": "romiferns",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "dp",
+               "owner": "romiferns",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "dp",
+               "owner": "romiferns",
+               "xp": 2250,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
