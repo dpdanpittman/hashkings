@@ -15,7 +15,8 @@
   "author": "qwoyn",
   "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
+    "core-js": "^3.6.4",
+    "cors": "2.8.5",
     "dsteem": "^0.11.2",
     "express": "^4.16.4",
     "ipfs-http-client": "^42.0.0-pre.2",
