@@ -1107,9 +1107,9 @@ function startApp() {
                 }
             }
             } catch {
-                (console.log(from + 'tried to water but an error occured'))
+                (console.log(from + ' tried to water ' + plantnames +' but an error occured'))
             }
-        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} succesfully watered ${plantnames}`
     });
     
     //search for qwoyn_breeder_name from user on blockchain since genesis
@@ -1118,11 +1118,15 @@ function startApp() {
     processor.on('breeder_name', function(json, from) {
         let breeder = json.breeder,
             breederName = ''
-        for (var i = 0; i < 1; i++) {
-                state.users[from].breeder = breeder[i];
-                breederName += `${breeder[i]}`
-            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
-        }
+            try {
+                for (var i = 0; i < 1; i++) {
+                        state.users[from].breeder = breeder[i];
+                        breederName += `${breeder[i]}`
+                    state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+                } 
+            } catch {
+                (console.log(from + ' tried to change their breeder name to ' + breederName + ' but an error occured'))
+            }
         
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${breederName}`
     });
@@ -1132,15 +1136,19 @@ function startApp() {
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_farmer_type&json=%7B%22breeder%22%3A%5B%22TYPE%22%5D%7D
     processor.on('farmer_type', function(json, from) {
         let farmer = json.farmer,
-            farmerName = 1
-        for (var i = 0; i < 1; i++) {
-                state.users[from].farmer = farmer[i];
-                farmerName += farmer[i]
-            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+            farmerType = 1
+            try {
+                for (var i = 0; i < 1; i++) {
+                        state.users[from].farmer = farmer[i];
+                        farmerType += farmer[i]
+                    state.cs[`${json.block_num}:${from}`] = `${from} can't change another users name`
+                }
+             } catch {
+            (console.log(from + ' tried to change their farmyer type to ' + farmerType + ' but an error occured'))
         }
         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
 
-        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerName}`
+        state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerType}`
     });
 
     //search for qwoyn_add_friend from user on blockchain since genesis
@@ -1149,6 +1157,7 @@ function startApp() {
     processor.on('add_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
+            try {
             for (var i = 0; i < 1; i++) {
                 friendName += friend[i]
 
@@ -1163,6 +1172,9 @@ function startApp() {
 
                 state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
             }
+        } catch {
+            (console.log(from + ' tried to add ' + friendName + ' as a friend but an error occured'))
+        }
 
         state.cs[`${json.block_num}:${from}`] = `${from} added ${friendName} as a friend`
     });
@@ -1173,26 +1185,27 @@ function startApp() {
     processor.on('remove_friend', function(json, from) {
         let friend = json.friend,
             friendName = ''
-        for (var i = 0; i < 1; i++) {
-            friendName += friend[i]
+            try{
+                for (var i = 0; i < 1; i++) {
+                    friendName += friend[i]
 
-            var friends = ''
+                    var friends = ''
 
-                try{
-                    for (var i = 0;i < state.users[from].friends.length; i++){
-                        if(state.users[from].pollen[i].strain == json.friends){friends=state.users[from].friends.splice(i, 1)[0];break;}
-                    }
-                } catch (e) {}
-                if (!friends){
-                    try {
-                        if(state.users[from].friends.length)friends == state.users[from].friends.splice(0, 1)[0]
-                    }catch (e) {}
+                        try{
+                            for (var i = 0;i < state.users[from].friends.length; i++){
+                                if(state.users[from].pollen[i].strain == json.friends){friends=state.users[from].friends.splice(i, 1)[0];break;}
+                            }
+                        } catch (e) {}
+                        if (!friends){
+                            try {
+                                if(state.users[from].friends.length)friends == state.users[from].friends.splice(0, 1)[0]
+                            }catch (e) {}
+                        }
+                    state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
                 }
+            } catch {
+                (console.log(from + ' tried to remove ' + friendName + ' as a friend but an error occured'))    }
 
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'removed_friend']);
-
-            state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
-        }
         state.cs[`${json.block_num}:${from}`] = `${from} removed ${friendName} as a friend`
     });
 
@@ -1203,6 +1216,7 @@ function startApp() {
    processor.on('join_alliance', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
+            try {
         for (var i = 0; i < state.stats.alliances.length; i++) {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
@@ -1221,6 +1235,9 @@ function startApp() {
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
         }
+    } catch {
+        (console.log(from + ' tried to join the ' + allianceName + ' alliance but an error occured'))
+    }
         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
@@ -2587,11 +2604,11 @@ function startApp() {
                 } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100|| want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
                     if (want == 'papers') {
                         state.users[json.from].papers++;
-                        state.users[json.from].xps += 1;
+                        state.users[json.from].xps += 10;
                     }
                     if (want == 'kiefbox') {
                         state.users[json.from].kiefbox++; 
-                        state.users[json.from].xps += 1; 
+                        state.users[json.from].xps += 10; 
                     }
                     if (want == 'vacoven') {
                         state.users[json.from].vacoven++; 
@@ -2654,7 +2671,6 @@ function startApp() {
     });
 
     processor.start();
-
 
     //var transactor = steemTransact(client, steem, prefix);
     processor.on('return', function(json, from) {
@@ -3079,7 +3095,6 @@ function daily(addr) {
                     state.land[addr].substage = 0;
                     state.land[addr].stage++
                 }
-
                 //added sexing
                 if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = sexing()//state.land.length % 1
                 
@@ -3099,97 +3114,6 @@ function daily(addr) {
                    }
                 }
             }
-            
-            /*//if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with giving kudos for pollination', e.message)
-            }
-
-            //if json is crafted_kief give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.users[from].stats[i][1] == 'crafted_kief') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting kief', e.message)
-            }
-
-            //if json is crafted_bubblehash give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_bubblehash') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting bubble hash', e.message)
-            }
-
-            //if json is crafted_oil give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_oil') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting oil', e.message)
-            }
-
-            //if json is crafted_joint give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_joint') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting joints', e.message)
-            }
-
-            //if json is crafted_edibles give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_edibles') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting edibles', e.message)
-            }
-
-            //if json is crafted_blunt give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_blunt') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting blunt', e.message)
-            }
-
-            //if json is crafted_moonrock give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_moonrock') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting moonrock', e.message)
-            }
-
-            //if json is crafted_dipped_joint give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_dipped_joint') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting dipped joint', e.message)
-            }
-
-            //if json is crafted_cannagar give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_cannagar') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting cannagar', e.message)
-            }*/
-        
-            }
-                }
-            }
+        }
+    }
+}
