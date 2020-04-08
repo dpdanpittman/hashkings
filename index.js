@@ -1094,16 +1094,21 @@ function startApp() {
     processor.on('water', function(json, from) {
         let plants = json.plants,
             plantnames = ''
-        for (var i = 0; i < plants.length; i++) {
+            
             try {
-            if (state.land[plants[i]].owner === from) {
-                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
-                plantnames += `${plants[i]} `
+            for (var i = 0; i < plants.length; i++) {
+                try {
+                if (state.land[plants[i]].owner === from) {
+                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
+                    plantnames += `${plants[i]} `
+                }
+                } catch (e){
+                state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
+                }
             }
-            } catch (e){
-              state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
+            } catch {
+                (console.log(from + 'tried to water but an error occured'))
             }
-        }
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
     
