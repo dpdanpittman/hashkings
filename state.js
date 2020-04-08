@@ -10133,7 +10133,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -10144,7 +10145,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -10155,7 +10157,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -10166,7 +10169,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -10177,7 +10181,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -10190,7 +10195,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -10201,7 +10207,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -10212,7 +10219,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -10223,7 +10231,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -10234,7 +10243,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             }
          ],
          "buds": [
@@ -10247,7 +10257,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -10258,7 +10269,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -10269,7 +10281,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -10280,7 +10293,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -10291,7 +10305,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -10373,7 +10388,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10382,7 +10398,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -10391,7 +10408,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -10400,7 +10418,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10409,7 +10428,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -10418,7 +10438,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -10427,7 +10448,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -10579,7 +10601,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -10626,7 +10649,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -10635,7 +10659,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -10644,7 +10669,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10653,7 +10679,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -10662,7 +10689,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -10671,7 +10699,8 @@ module.exports = {
                "traits": [
                   "Genesis Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -10718,7 +10747,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -10730,7 +10760,8 @@ module.exports = {
                "terps": [],
                "familyTree": "cgundefined",
                "pollinated": false,
-               "father": "Beta Seed"
+               "father": "Beta Seed",
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -10781,7 +10812,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "mis",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -10794,7 +10826,8 @@ module.exports = {
                "cbd": "coming soon",
                "breeder": "Landrace Strain",
                "familyTree": "Landrace Strain",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -10806,7 +10839,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 2250
+               "level": 2250,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -10816,7 +10850,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 2250
+               "level": 2250,
+               "for_sale": 0
             }
          ],
          "buds": [
@@ -10827,7 +10862,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10836,7 +10872,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10845,7 +10882,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10854,7 +10892,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -10863,7 +10902,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -10872,7 +10912,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -10881,7 +10922,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -10890,7 +10932,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -10899,7 +10942,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -10908,7 +10952,8 @@ module.exports = {
                "traits": [
                   "beta buds"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -10916,13 +10961,12 @@ module.exports = {
                "traits": [
                   "Beta Buds"
                ],
-               "terps": [
-                  null
-               ],
+               "terps": [],
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -10930,13 +10974,12 @@ module.exports = {
                "traits": [
                   "Beta Buds"
                ],
-               "terps": [
-                  null
-               ],
+               "terps": [],
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "Willie",
@@ -11201,7 +11244,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -11210,7 +11254,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -11219,7 +11264,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -11228,7 +11274,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11237,7 +11284,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11246,7 +11294,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -11255,7 +11304,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -11264,7 +11314,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -11383,7 +11434,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11392,7 +11444,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -11544,7 +11597,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -11553,7 +11607,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -11562,7 +11617,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -11579,7 +11635,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -11588,7 +11645,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -11597,7 +11655,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -11606,7 +11665,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -11615,7 +11675,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -11624,7 +11685,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -11633,7 +11695,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -11642,7 +11705,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -11651,7 +11715,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -11660,7 +11725,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -11669,7 +11735,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11678,7 +11745,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11687,7 +11755,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -11696,7 +11765,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -11705,7 +11775,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -11852,7 +11923,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -11861,7 +11933,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -11870,7 +11943,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -11879,7 +11953,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -11888,7 +11963,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -11897,7 +11973,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -11906,7 +11983,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -11915,7 +11993,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -11924,7 +12003,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -11933,7 +12013,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12046,7 +12127,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12090,7 +12172,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -12099,7 +12182,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12284,7 +12368,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12333,7 +12418,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -12342,7 +12428,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12490,7 +12577,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -12499,7 +12587,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -12508,7 +12597,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -12795,7 +12885,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -12958,7 +13049,8 @@ module.exports = {
                "traits": [
                   "beta seed"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -12969,7 +13061,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "acaundefined",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13015,7 +13108,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -13026,7 +13120,8 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -13035,7 +13130,8 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -13080,7 +13176,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13126,7 +13223,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13172,7 +13270,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13250,7 +13349,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -13259,7 +13359,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13268,7 +13369,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13313,7 +13415,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -13322,7 +13425,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13368,7 +13472,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -13377,7 +13482,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13422,7 +13528,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -13431,7 +13538,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13440,7 +13548,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13449,7 +13558,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13458,7 +13568,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -13604,7 +13715,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -13613,7 +13725,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -13622,7 +13735,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13631,7 +13745,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13640,7 +13755,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13649,7 +13765,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13658,7 +13775,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -13667,7 +13785,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -13676,7 +13795,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -13685,7 +13805,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -13694,7 +13815,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -13703,7 +13825,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -13712,7 +13835,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13721,7 +13845,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13730,7 +13855,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -13739,7 +13865,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -13748,7 +13875,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -13757,7 +13885,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -13766,7 +13895,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -13775,7 +13905,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -13784,7 +13915,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13793,7 +13925,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13802,7 +13935,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -13811,7 +13945,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -13820,7 +13955,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -13829,7 +13965,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -13838,7 +13975,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -13847,7 +13985,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -13856,7 +13995,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -13865,7 +14005,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -13874,7 +14015,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13883,7 +14025,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13892,7 +14035,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13901,7 +14045,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -13910,7 +14055,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -13919,7 +14065,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -13928,7 +14075,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -13937,7 +14085,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -13946,7 +14095,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13955,7 +14105,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -13964,7 +14115,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13973,7 +14125,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -13982,7 +14135,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -13991,7 +14145,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14000,7 +14155,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14009,7 +14165,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14019,7 +14176,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14029,7 +14187,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14039,7 +14198,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14049,7 +14209,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14060,7 +14221,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "hkundefined",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14071,7 +14233,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "hkundefined",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -14082,7 +14245,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "chtundefined",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -14093,7 +14257,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "chtundefined",
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14104,7 +14269,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14115,7 +14281,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14129,7 +14296,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "lkg",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14142,7 +14310,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lkg",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14156,7 +14325,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "hk",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14169,7 +14339,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "hk",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14183,7 +14354,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "aca",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14196,7 +14368,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "aca",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14210,7 +14383,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "kbr",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14223,7 +14397,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "kbr",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14237,7 +14412,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "pam",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14250,7 +14426,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "pam",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14264,7 +14441,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "dp",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14277,7 +14455,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "dp",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -14291,7 +14470,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "mal",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -14304,7 +14484,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "mal",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14318,7 +14499,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "kbr",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14331,7 +14513,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "kbr",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -14345,7 +14528,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "mal",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -14358,7 +14542,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "mal",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14372,7 +14557,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "pam",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14385,7 +14571,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "pam",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14399,7 +14586,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "dp",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -14412,7 +14600,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "dp",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14426,7 +14615,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "aca",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -14439,7 +14629,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "aca",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -14453,7 +14644,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "lb undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -14466,7 +14658,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lb undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14480,7 +14673,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "afg undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14493,7 +14687,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "afg undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14507,7 +14702,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "hk undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14520,7 +14716,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "hk undefined",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14534,7 +14731,8 @@ module.exports = {
                "breeder": "abrockman",
                "familyTree": "lkg beta",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -14547,7 +14745,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lkg beta",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -14563,7 +14762,8 @@ module.exports = {
                   null
                ],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14574,7 +14774,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -14587,7 +14788,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -14598,7 +14800,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14611,7 +14814,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14622,7 +14826,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14635,7 +14840,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14646,7 +14852,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14659,7 +14866,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -14670,7 +14878,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14683,7 +14892,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -14694,7 +14904,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14705,7 +14916,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -14716,7 +14928,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -14727,7 +14940,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -14738,7 +14952,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "ach",
@@ -14749,7 +14964,8 @@ module.exports = {
                ],
                "terps": [],
                "pollinated": false,
-               "father": "sensimilla"
+               "father": "sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14762,7 +14978,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14773,7 +14990,8 @@ module.exports = {
                ],
                "terps": [],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14788,7 +15006,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14803,7 +15022,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14818,7 +15038,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -14833,7 +15054,8 @@ module.exports = {
                   null
                ],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -14848,7 +15070,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -14863,7 +15086,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14878,7 +15102,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14893,7 +15118,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14908,7 +15134,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -14923,7 +15150,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14938,7 +15166,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14953,22 +15182,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
-            },
-            {
-               "strain": "kbr",
-               "owner": "abrockman",
-               "xp": 50,
-               "traits": [
-                  "Beta Buds"
-               ],
-               "terps": [
-                  null
-               ],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -14977,13 +15192,30 @@ module.exports = {
                "traits": [
                   "Beta Buds"
                ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kbr",
+               "father": "Sensimilla",
+               "for_sale": 0
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Buds"
+               ],
                "thc": "coming soon",
                "cbd": "coming soon",
                "terps": [
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0  
             },
             {
                "strain": "lkg",
@@ -14998,7 +15230,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -15013,7 +15246,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15028,7 +15262,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15043,7 +15278,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15058,7 +15294,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15073,7 +15310,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -15088,7 +15326,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -15103,7 +15342,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -15117,7 +15357,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -15131,7 +15372,8 @@ module.exports = {
                   null
                ],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -15145,7 +15387,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -15159,7 +15402,8 @@ module.exports = {
                   null
                ],
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15173,7 +15417,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15187,7 +15432,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15201,7 +15447,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15215,7 +15462,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -15229,7 +15477,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "tha",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -15243,7 +15492,8 @@ module.exports = {
                   null
                ],
                "familyTree": "tha",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15257,7 +15507,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15271,7 +15522,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -15285,7 +15537,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -15299,7 +15552,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15313,7 +15567,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15327,7 +15582,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -15341,7 +15597,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -15355,7 +15612,8 @@ module.exports = {
                   null
                ],
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15369,7 +15627,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15383,7 +15642,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15397,7 +15657,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15411,7 +15672,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15425,7 +15687,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15439,7 +15702,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15453,7 +15717,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15467,7 +15732,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15481,7 +15747,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15495,7 +15762,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15509,7 +15777,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15523,7 +15792,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -15537,7 +15807,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -15551,7 +15822,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15565,7 +15837,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -15579,7 +15852,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -15593,7 +15867,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -15607,7 +15882,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15621,7 +15897,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15635,7 +15912,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -15649,7 +15927,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -15663,7 +15942,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15677,7 +15957,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15691,7 +15972,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15705,7 +15987,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15719,7 +16002,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -15733,7 +16017,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -15747,7 +16032,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15761,7 +16047,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15775,7 +16062,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15789,7 +16077,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15803,7 +16092,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15817,7 +16107,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -15831,7 +16122,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15845,7 +16137,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -15859,7 +16152,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15873,7 +16167,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -15887,7 +16182,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15901,7 +16197,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -15915,7 +16212,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -15929,7 +16227,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -15943,7 +16242,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -15957,7 +16257,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -15971,7 +16272,8 @@ module.exports = {
                   null
                ],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15985,7 +16287,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -15999,7 +16302,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16013,7 +16317,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "sog",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16027,7 +16332,8 @@ module.exports = {
                   null
                ],
                "familyTree": "sog",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16041,7 +16347,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16055,7 +16362,8 @@ module.exports = {
                   null
                ],
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -16099,7 +16407,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -16108,7 +16417,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16117,7 +16427,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16126,7 +16437,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -16135,7 +16447,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -16144,7 +16457,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16153,7 +16467,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16162,7 +16477,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -16179,7 +16495,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -16193,7 +16510,8 @@ module.exports = {
                   null
                ],
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -16257,7 +16575,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16266,7 +16585,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -16275,7 +16595,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -16284,7 +16605,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -16293,7 +16615,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -16302,7 +16625,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -16311,7 +16635,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -16320,7 +16645,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -16329,7 +16655,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -16338,7 +16665,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -16347,7 +16675,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -16356,7 +16685,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -16365,7 +16695,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16374,7 +16705,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16383,7 +16715,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -16392,7 +16725,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -16401,7 +16735,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -16410,7 +16745,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -16419,7 +16755,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -16428,7 +16765,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -16437,7 +16775,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -16446,7 +16785,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -16455,7 +16795,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "ach",
@@ -16464,7 +16805,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "ach",
@@ -16473,7 +16815,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16482,7 +16825,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16491,7 +16835,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16500,7 +16845,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16509,7 +16855,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16518,7 +16865,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16527,7 +16875,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16536,7 +16885,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16545,7 +16895,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16554,7 +16905,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -16563,7 +16915,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16572,7 +16925,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16581,7 +16935,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16590,7 +16945,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16599,7 +16955,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16608,7 +16965,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16617,7 +16975,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16626,7 +16985,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16635,7 +16995,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16644,7 +17005,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16653,7 +17015,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -16666,7 +17029,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "sog",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -16678,7 +17042,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 50
+               "level": 50,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16688,7 +17053,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 50
+               "level": 50,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16700,7 +17066,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "tha",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -16712,7 +17079,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "tha",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -16825,7 +17193,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -16959,7 +17328,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -16973,7 +17343,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -16987,7 +17358,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -17001,7 +17373,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -17015,7 +17388,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -17029,7 +17403,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -17043,7 +17418,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -17057,7 +17433,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17071,7 +17448,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17085,7 +17463,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -17099,7 +17478,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -17113,7 +17493,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17127,7 +17508,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17141,7 +17523,8 @@ module.exports = {
                   null
                ],
                "familyTree": "dp",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -17155,7 +17538,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -17169,7 +17553,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -17183,7 +17568,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -17211,7 +17597,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17225,7 +17612,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -17239,7 +17627,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -17253,7 +17642,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -17267,7 +17657,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -17281,7 +17672,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -17323,7 +17715,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -17336,7 +17729,8 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "kbr beta",
                "pollinated": false,
-               "father": []
+               "father": [],
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -17445,7 +17839,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -17454,7 +17849,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17463,7 +17859,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -17541,7 +17938,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -17550,7 +17948,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -17594,7 +17993,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -17710,7 +18110,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -17719,7 +18120,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -17728,7 +18130,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -17737,7 +18140,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -17746,7 +18150,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -17755,7 +18160,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -17764,7 +18170,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17773,7 +18180,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17782,7 +18190,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17791,7 +18200,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17800,7 +18210,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17809,7 +18220,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -17818,7 +18230,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17827,7 +18240,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17836,7 +18250,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17845,7 +18260,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17854,7 +18270,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17863,7 +18280,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -17872,7 +18290,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17881,7 +18300,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -17890,7 +18310,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -17899,7 +18320,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "tha",
@@ -17908,7 +18330,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -17917,7 +18340,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -17926,7 +18350,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -17935,7 +18360,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -17944,7 +18370,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -17953,7 +18380,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -17962,7 +18390,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17971,7 +18400,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17980,7 +18410,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17989,7 +18420,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -17998,7 +18430,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18007,7 +18440,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18016,7 +18450,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -18025,7 +18460,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -18034,7 +18470,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -18043,7 +18480,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -18052,7 +18490,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -18061,7 +18500,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -18070,7 +18510,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -18079,7 +18520,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -18088,7 +18530,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18097,7 +18540,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18106,7 +18550,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18115,7 +18560,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18124,7 +18570,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18166,7 +18613,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -18175,7 +18623,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18286,7 +18735,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -18295,7 +18745,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -18304,7 +18755,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -18313,7 +18765,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18428,7 +18881,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18470,7 +18924,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -18479,7 +18934,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18593,7 +19049,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -18602,7 +19059,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -18611,7 +19069,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -18620,7 +19079,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -18629,7 +19089,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18746,7 +19207,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -18755,7 +19217,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -18764,7 +19227,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -18773,7 +19237,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -18782,7 +19247,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -18791,7 +19257,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -18800,7 +19267,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -18809,7 +19277,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -18818,7 +19287,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -18827,7 +19297,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -18836,7 +19307,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -18845,7 +19317,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -18854,7 +19327,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -18863,7 +19337,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "ach",
@@ -18872,7 +19347,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "ach",
@@ -18881,7 +19357,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18925,7 +19402,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -18934,7 +19412,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -18988,6 +19467,7 @@ module.exports = {
                "breeder": "russia-btc",
                "familyTree": "cht",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19001,6 +19481,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "cht",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19015,6 +19496,7 @@ module.exports = {
                "breeder": "russia-btc",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19028,6 +19510,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19042,6 +19525,7 @@ module.exports = {
                "breeder": "russia-btc",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19055,6 +19539,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19069,6 +19554,7 @@ module.exports = {
                "breeder": "russia-btc",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19082,6 +19568,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19096,6 +19583,7 @@ module.exports = {
                "breeder": "russia-btc",
                "familyTree": "cht",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19109,6 +19597,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "cht",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -19121,7 +19610,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 50
+               "level": 50,
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -19267,7 +19757,8 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -19312,7 +19803,8 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -19326,6 +19818,7 @@ module.exports = {
                "breeder": "agr8buzz",
                "familyTree": "dp",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19339,6 +19832,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "dp",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -19439,7 +19933,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -19448,7 +19943,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -19457,7 +19953,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -19466,7 +19963,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -19475,7 +19973,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -19484,7 +19983,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -19493,7 +19993,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -19502,7 +20003,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -19511,7 +20013,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -19520,7 +20023,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -19529,7 +20033,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -19538,7 +20043,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -19547,7 +20053,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -19556,7 +20063,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -19570,6 +20078,7 @@ module.exports = {
                "breeder": "saboin",
                "familyTree": "mal",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -19583,6 +20092,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "mal",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -19798,7 +20308,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -19844,7 +20355,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -19854,7 +20366,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -19970,6 +20483,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "hk",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -20024,7 +20538,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -20033,7 +20548,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20092,6 +20608,7 @@ module.exports = {
                "breeder": "wdougwatson",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20105,6 +20622,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lb",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -20120,7 +20638,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -20133,7 +20652,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -20176,7 +20696,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20227,7 +20748,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -20236,7 +20758,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -20245,7 +20768,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -20254,7 +20778,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20299,7 +20824,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20343,7 +20869,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20388,7 +20915,8 @@ module.exports = {
                "traits": [
                   "beta pollen"
                ],
-               "terps": []
+               "terps": [],
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -20463,7 +20991,8 @@ module.exports = {
                "traits": [
                   "Genesis Seed"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20514,6 +21043,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lkg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20528,6 +21058,7 @@ module.exports = {
                "breeder": "elemental010",
                "familyTree": "lkg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20541,6 +21072,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "lkg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20555,6 +21087,7 @@ module.exports = {
                "breeder": "elemental010",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20568,6 +21101,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -20624,7 +21158,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "dp",
@@ -20633,7 +21168,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -20642,7 +21178,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -20656,6 +21193,7 @@ module.exports = {
                "breeder": "jeffjagoe",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             },
             {
@@ -20669,6 +21207,7 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "afg",
                "pollinated": false,
+               "for_sale": 0,
                "father": []
             }
          ],
@@ -20683,7 +21222,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -20695,7 +21235,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -20707,7 +21248,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -20719,7 +21261,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "buds": [
@@ -20735,7 +21278,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -20749,7 +21293,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -20796,7 +21341,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -20805,7 +21351,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -20815,7 +21362,8 @@ module.exports = {
                   "Beta Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -20832,7 +21380,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -20846,7 +21395,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -20860,7 +21410,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -20874,7 +21425,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -20888,7 +21440,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mis beta",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -20902,7 +21455,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis beta",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -20977,7 +21531,8 @@ module.exports = {
                   "Genesis Seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -21022,7 +21577,8 @@ module.exports = {
                   "Genesis seed"
                ],
                "terps": [],
-               "pollinated": true
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -21073,7 +21629,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -21087,7 +21644,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -21101,7 +21659,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -21115,7 +21674,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -21323,7 +21883,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [
@@ -21338,7 +21899,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -21351,7 +21913,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "buds": [],
@@ -21429,7 +21992,8 @@ module.exports = {
                "traits": [
                   "Beta Seeds"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
@@ -21446,7 +22010,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mis",
@@ -21460,7 +22025,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mis",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -21569,7 +22135,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "pam",
@@ -21584,7 +22151,8 @@ module.exports = {
                   null
                ],
                "familyTree": "pam",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -21598,7 +22166,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "afg",
@@ -21612,7 +22181,8 @@ module.exports = {
                   null
                ],
                "familyTree": "afg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -21659,7 +22229,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "hk",
@@ -21673,7 +22244,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -21747,7 +22319,8 @@ module.exports = {
                   "Beta Pollen"
                ],
                "terps": [],
-               "level": 50
+               "level": 50,
+               "for_sale": 0
             }
          ],
          "buds": [
@@ -21763,7 +22336,8 @@ module.exports = {
                   null
                ],
                "familyTree": "hk",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -21777,7 +22351,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lb",
@@ -21791,7 +22366,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lb",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "mal",
@@ -21805,7 +22381,8 @@ module.exports = {
                   null
                ],
                "familyTree": "mal",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -21819,7 +22396,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -21833,7 +22411,8 @@ module.exports = {
                   null
                ],
                "familyTree": "aca",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kbr",
@@ -21847,7 +22426,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kbr",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -21861,7 +22441,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "swz",
@@ -21875,7 +22456,8 @@ module.exports = {
                   null
                ],
                "familyTree": "swz",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -21889,7 +22471,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cht",
@@ -21903,7 +22486,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cht",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -21917,7 +22501,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "cg",
@@ -21931,7 +22516,8 @@ module.exports = {
                   null
                ],
                "familyTree": "cg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -21945,7 +22531,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "kmj",
@@ -21959,7 +22546,8 @@ module.exports = {
                   null
                ],
                "familyTree": "kmj",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -21973,7 +22561,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "lkg",
@@ -21987,7 +22576,8 @@ module.exports = {
                   null
                ],
                "familyTree": "lkg",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -22001,7 +22591,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "aca beta",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "aca",
@@ -22015,7 +22606,8 @@ module.exports = {
                   null
                ],
                "familyTree": "aca beta",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -22067,7 +22659,8 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "sog",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             },
             {
                "strain": "sog",
@@ -22081,7 +22674,8 @@ module.exports = {
                   null
                ],
                "familyTree": "sog",
-               "father": "Sensimilla"
+               "father": "Sensimilla",
+               "for_sale": 0
             }
          ],
          "breeder": "",
@@ -22360,7 +22954,8 @@ module.exports = {
                "traits": [
                   "Beta Seed"
                ],
-               "pollinated": false
+               "pollinated": false,
+               "for_sale": 0
             }
          ],
          "pollen": [],
