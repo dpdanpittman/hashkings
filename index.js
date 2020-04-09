@@ -935,7 +935,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from[seeds[i]].owner === from && state.users.from[seeds[i]].forSale === 0) {
-                state.users.from[seeds[i]].forSale+=1;
+                state.users.from[seeds[i]].forSale = 1;
                 seednames += `${seed[i]} `
             }
             } catch (e){
@@ -955,7 +955,7 @@ processor.on('market_post_pollen', function(json, from) {
         for (var i = 0; i < pollen.length; i++) {
             try {
             if (state.users.from[pollen[i]].owner === from && state.users.from[pollen[i]].forSale === 0) {
-                state.users.from[pollen[i]].forSale++
+                state.users.from[pollen[i]].forSale = 1;
                 pollennames += `${pollen[i]} `
             }
             } catch (e){
@@ -975,7 +975,7 @@ processor.on('market_post_buds', function(json, from) {
         for (var i = 0; i < buds.length; i++) {
             try {
             if (state.users.from[buds[i]].owner === from && state.users.from[buds[i]].forSale === 0) {
-                state.users.from[buds[i]].forSale++
+                state.users.from[buds[i]].forSale = 1;
                 budNames += `${buds[i]} `
             }
             } catch (e){
@@ -997,7 +997,7 @@ processor.on('market_cancel_seed', function(json, from) {
         for (var i = 0; i < seeds.length; i++) {
             try {
             if (state.users.from[seeds[i]].owner === from) {
-                state.users.from[seeds[i]].forSale = 0
+                state.users.from[seeds[i]].forSale = 0;
                 seednames += `${seeds[i]} `
             }
             } catch (e){
@@ -1017,7 +1017,7 @@ processor.on('market_cancel_pollen', function(json, from) {
         for (var i = 0; i < pollen.length; i++) {
             try {
             if (state.users.from[pollen[i]].owner === from) {
-                state.users.from[pollen[i]].forSale = 0
+                state.users.from[pollen[i]].forSale = 0;
                 pollennames += `${pollen[i]} `
             }
             } catch (e){
@@ -1037,7 +1037,7 @@ processor.on('market_cancel_buds', function(json, from) {
         for (var i = 0; i < buds.length; i++) {
             try {
             if (state.users.from[buds[i]].owner === from) {
-                state.users.from[buds[i]].forSale = 0
+                state.users.from[buds[i]].forSale = 0;
                 budNames += `${buds[i]} `
             }
             } catch (e){
