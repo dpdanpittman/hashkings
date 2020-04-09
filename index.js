@@ -932,10 +932,10 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seeds,
         seednames = ''
         try {
-        for (var i = 0; i < seeds.length; i++) {
+        for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from[seeds[i]].owner === from && state.users.from[seeds[i]].forSale === 0) {
-                state.users.from[seeds[i]].forSale  += 1;
+                state.users.from[seeds[i]].forSale++;
                 seednames += `${seed[i]} `
             }
             } catch (e){
@@ -1058,8 +1058,7 @@ processor.on('market_cancel_buds', function(json, from) {
 // search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
-            plantnames = '',
-            harvester = json.from
+            plantnames = ''
         for (var i = 0; i < plants.length; i++) {
             try {
             if (state.land[plants[i]].owner === from) {
@@ -1229,7 +1228,6 @@ processor.on('market_cancel_buds', function(json, from) {
     processor.on('water', function(json, from) {
         let plants = json.plants,
             plantnames = ''
-            
             try {
             for (var i = 0; i < plants.length; i++) {
                 try {
