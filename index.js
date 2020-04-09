@@ -934,7 +934,7 @@ processor.on('market_post_seed', function(json, from) {
         try {
         for (var i = 0; i < seeds.length; i++) {
             try {
-            if (state.users.from[seeds[i]].owner === from) {
+            if (state.users.from[seeds[i]].owner === from && state.users.from[seeds[i]].forSale === 0) {
                 state.users.from[seeds[i]].forSale++
                 seednames += `${seeds[i]} `
             }
@@ -954,7 +954,7 @@ processor.on('market_post_pollen', function(json, from) {
         try {
         for (var i = 0; i < pollen.length; i++) {
             try {
-            if (state.users.from[pollen[i]].owner === from) {
+            if (state.users.from[pollen[i]].owner === from && state.users.from[pollen[i]].forSale === 0) {
                 state.users.from[pollen[i]].forSale++
                 pollennames += `${pollen[i]} `
             }
@@ -974,7 +974,7 @@ processor.on('market_post_buds', function(json, from) {
         try {
         for (var i = 0; i < buds.length; i++) {
             try {
-            if (state.users.from[buds[i]].owner === from) {
+            if (state.users.from[buds[i]].owner === from && state.users.from[buds[i]].forSale === 0) {
                 state.users.from[buds[i]].forSale++
                 budNames += `${buds[i]} `
             }
@@ -997,7 +997,7 @@ processor.on('market_cancel_seed', function(json, from) {
         for (var i = 0; i < seeds.length; i++) {
             try {
             if (state.users.from[seeds[i]].owner === from) {
-                state.users.from[seeds[i]].forSale--
+                state.users.from[seeds[i]].forSale = 0
                 seednames += `${seeds[i]} `
             }
             } catch (e){
@@ -1017,7 +1017,7 @@ processor.on('market_cancel_pollen', function(json, from) {
         for (var i = 0; i < pollen.length; i++) {
             try {
             if (state.users.from[pollen[i]].owner === from) {
-                state.users.from[pollen[i]].forSale++
+                state.users.from[pollen[i]].forSale = 0
                 pollennames += `${pollen[i]} `
             }
             } catch (e){
@@ -1037,7 +1037,7 @@ processor.on('market_cancel_buds', function(json, from) {
         for (var i = 0; i < buds.length; i++) {
             try {
             if (state.users.from[buds[i]].owner === from) {
-                state.users.from[buds[i]].forSale++
+                state.users.from[buds[i]].forSale = 0
                 budNames += `${buds[i]} `
             }
             } catch (e){
@@ -1051,192 +1051,11 @@ processor.on('market_cancel_buds', function(json, from) {
 });
 
 //--------purchasing----------//
-
-processor.on('market_purchase_seed', function(json, from) {
-    var seed=''
-        if(json.to && json.to.length > 2){
-          try{
-              for (var i = 0;i < state.users[from].seeds.length; i++){
-                  if (json.qual){
-                    if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
-                      state.users[from].seeds[i].owner = json.to;
-                      seed=state.users[from].seeds.splice(i, 1)[0]
-                      break
-                    }
-                  } else if(state.users[from].seeds[i].strain === json.seed){
-                    state.users[from].seeds[i].owner = json.to;
-                    seed=state.users[from].seeds.splice(i, 1)[0]
-                    break
-                  }
-              }
-          } catch (e) {}
-          if (seed) {
-              if (!state.users[json.to]) {
-                state.users[json.to] = {
-                  addrs: [],
-                  seeds: [seed],
-                  buds: [],
-                  pollen: [],
-                  breeder: breeder,
-                  farmer: farmer,
-                  alliance: "",
-                  friends: [],
-                  inv: [],
-                  seeds: [],
-                  pollen: [],
-                  buds: [],
-                  kief: [],
-                  bubblehash: [],
-                  oil: [],
-                  edibles: [],
-                  joints: [],
-                  blunts: [],
-                  moonrocks: [],
-                  dippedjoints: [],
-                  cannagars: [],
-                  kiefbox: 0,
-                  vacoven: 0,
-                  bubblebags: 0,
-                  browniemix: 0,
-                  stats: [],
-                  traits:[],
-                  terps:[],
-                  v: 0
-                }
-              } else {
-                  state.users[json.to].seeds.push(seed)
-              }
-              state.cs[`${json.block_num}:${from}`] = `${from} sent a ${seed.xp} xp ${seed.strain} to ${json.to}`
-          } else {
-              state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
-          }
-        }
-    });
-
-    processor.on('market_purchase_buds', function(json, from) {
-        var seed=''
-            if(json.to && json.to.length > 2){
-              try{
-                  for (var i = 0;i < state.users[from].seeds.length; i++){
-                      if (json.qual){
-                        if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
-                          state.users[from].seeds[i].owner = json.to;
-                          seed=state.users[from].seeds.splice(i, 1)[0]
-                          break
-                        }
-                      } else if(state.users[from].seeds[i].strain === json.seed){
-                        state.users[from].seeds[i].owner = json.to;
-                        seed=state.users[from].seeds.splice(i, 1)[0]
-                        break
-                      }
-                  }
-              } catch (e) {}
-              if (seed) {
-                  if (!state.users[json.to]) {
-                    state.users[json.to] = {
-                      addrs: [],
-                      seeds: [seed],
-                      buds: [],
-                      pollen: [],
-                      breeder: breeder,
-                      farmer: farmer,
-                      alliance: "",
-                      friends: [],
-                      inv: [],
-                      seeds: [],
-                      pollen: [],
-                      buds: [],
-                      kief: [],
-                      bubblehash: [],
-                      oil: [],
-                      edibles: [],
-                      joints: [],
-                      blunts: [],
-                      moonrocks: [],
-                      dippedjoints: [],
-                      cannagars: [],
-                      kiefbox: 0,
-                      vacoven: 0,
-                      bubblebags: 0,
-                      browniemix: 0,
-                      stats: [],
-                      traits:[],
-                      terps:[],
-                      v: 0
-                    }
-                  } else {
-                      state.users[json.to].seeds.push(seed)
-                  }
-                  state.cs[`${json.block_num}:${from}`] = `${from} sent a ${seed.xp} xp ${seed.strain} to ${json.to}`
-              } else {
-                  state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
-              }
-            }
-        });
-
-    processor.on('market_purchase_pollen', function(json, from) {
-            var seed=''
-        if(json.to && json.to.length > 2){
-            try{
-                for (var i = 0;i < state.users[from].seeds.length; i++){
-                    if (json.qual){
-                    if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
-                        state.users[from].seeds[i].owner = json.to;
-                        seed=state.users[from].seeds.splice(i, 1)[0]
-                        break
-                    }
-                    } else if(state.users[from].seeds[i].strain === json.seed){
-                    state.users[from].seeds[i].owner = json.to;
-                    seed=state.users[from].seeds.splice(i, 1)[0]
-                    break
-                    }
-                }
-            } catch (e) {}
-            if (seed) {
-                if (!state.users[json.to]) {
-                state.users[json.to] = {
-                    addrs: [],
-                    seeds: [seed],
-                    buds: [],
-                    pollen: [],
-                    breeder: breeder,
-                    farmer: farmer,
-                    alliance: "",
-                    friends: [],
-                    inv: [],
-                    seeds: [],
-                    pollen: [],
-                    buds: [],
-                    kief: [],
-                    bubblehash: [],
-                    oil: [],
-                    edibles: [],
-                    joints: [],
-                    blunts: [],
-                    moonrocks: [],
-                    dippedjoints: [],
-                    cannagars: [],
-                    kiefbox: 0,
-                    vacoven: 0,
-                    bubblebags: 0,
-                    browniemix: 0,
-                    stats: [],
-                    traits:[],
-                    terps:[],
-                    v: 0
-                }
-                } else {
-                    state.users[json.to].seeds.push(seed)
-                }
-                state.cs[`${json.block_num}:${from}`] = `${from} sent a ${seed.xp} xp ${seed.strain} to ${json.to}`
-            } else {
-                state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
-            }
-        }
-    });
+// found on line 2825
 
 //---------------------End Market---------------------------------------------------------
-    // search for qwoyn_harvest from user on blockchain since genesis
+    
+// search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
             plantnames = '',
@@ -1247,7 +1066,6 @@ processor.on('market_purchase_seed', function(json, from) {
                 state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'harvested']);
                 plantnames += `${plants[i]} `
             
-///---------------------------------------------------------------------------------------
         //female harvested pollinated plant
             try {
             if (state.land[plants[i]].sex === 'female' && state.land[plants[i]].pollinated === true && state.land[plants[i]].stage > 3){
@@ -1402,9 +1220,6 @@ processor.on('market_purchase_seed', function(json, from) {
           state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
         }
             }
-            
-///----------------------------------------------------------------------------------------
-
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
     });
     
@@ -3028,11 +2843,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3085,11 +2902,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3142,11 +2961,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3199,11 +3020,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3256,11 +3079,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3313,11 +3138,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3370,11 +3197,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3427,11 +3256,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3484,11 +3315,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3541,11 +3374,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3598,11 +3433,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3655,11 +3492,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3712,11 +3551,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3769,11 +3610,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3826,11 +3669,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3883,11 +3728,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3940,11 +3787,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -3997,11 +3846,13 @@ processor.on('market_purchase_seed', function(json, from) {
                                 if (json.want){
                                   if(state.users[from].seeds[i].strain === type){
                                     state.users[from].seeds[i].owner = seller;
+                                    state.users[seller].seeds[type].forSale--;
                                     type=state.users[from].seeds.splice(i, 1)[0]
                                     break
                                   }
                                 } else if(state.users[from].seeds[i].strain === type){
                                   state.users[from].seeds[i].owner = seller;
+                                  state.users[seller].seeds[type].forSale--;
                                   type=state.users[from].seeds.splice(i, 1)[0]
                                   break
                                 }
@@ -4082,11 +3933,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4139,11 +3992,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4196,11 +4051,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4253,11 +4110,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4310,11 +4169,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4367,11 +4228,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4424,11 +4287,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4481,11 +4346,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4538,11 +4405,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4595,11 +4464,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4652,11 +4523,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4709,11 +4582,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4766,11 +4641,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4823,11 +4700,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4880,11 +4759,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4937,11 +4818,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -4994,11 +4877,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5051,11 +4936,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5136,11 +5023,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5193,11 +5082,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5250,11 +5141,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5307,11 +5200,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5364,11 +5259,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5421,11 +5318,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5478,11 +5377,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5535,11 +5436,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5592,11 +5495,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5649,11 +5554,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5706,11 +5613,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5763,11 +5672,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5820,11 +5731,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5877,11 +5790,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5934,11 +5849,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -5991,11 +5908,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -6048,11 +5967,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
@@ -6105,11 +6026,13 @@ processor.on('market_purchase_seed', function(json, from) {
                              if (json.want){
                                if(state.users[from].seeds[i].strain === type){
                                  state.users[from].seeds[i].owner = seller;
+                                 state.users[seller].seeds[type].forSale--;
                                  type=state.users[from].seeds.splice(i, 1)[0]
                                  break
                                }
                              } else if(state.users[from].seeds[i].strain === type){
                                state.users[from].seeds[i].owner = seller;
+                               state.users[seller].seeds[type].forSale--;
                                type=state.users[from].seeds.splice(i, 1)[0]
                                break
                              }
