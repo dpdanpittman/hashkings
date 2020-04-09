@@ -2870,7 +2870,7 @@ processor.on('market_purchase_seed', function(json, from) {
             }
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || '',
-                seller = json.memo.split(" ")[1] || ''
+                seller = json.memo.split(" ")[2] || ''
             if (
                 state.stats.prices.listed[want] == amount ||
                 // leasing fee 
@@ -4056,7 +4056,2115 @@ processor.on('market_purchase_seed', function(json, from) {
                     //pay seller
                     state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
-                    }
+                    //bud sales
+                 } else if (
+                        want == 'post_bud_hk'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_dp'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_lb'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_afg' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_lkg' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_mis' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_bud_kbr' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_aca' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_swz' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_kmj' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_mal' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_bud_pam' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_cg'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_ach' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_tha' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_bud_cht' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_bud_sog' && state.users[seller].seeds[type].forSale === 1
+                        ) {
+                 if (want == 'post_bud_hk') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_dp') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_lb') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_afg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_lkg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_mis') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_kbr') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_aca') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_swz') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_kmj') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_dp') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_mal') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_pam') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_cg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_ach') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_tha') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_cht') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_bud_sog') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 //pay hashkings
+                 const c = parseInt(amount * 0.01)
+                 state.bal.c += c
+                 state.bal.b += amount - c
+                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
+                 //pay seller
+                 state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
+                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
+                    //pollen sales
+                    } else if (
+                        want == 'post_pollen_hk'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_dp'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_lb'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_afg' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_lkg' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_mis' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_pollen_kbr' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_aca' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_swz' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_kmj' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_mal' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_pollen_pam' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_cg'  && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_ach' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_tha' && state.users[seller].seeds[type].forSale === 1 || 
+                        want == 'post_pollen_cht' && state.users[seller].seeds[type].forSale === 1 ||
+                        want == 'post_pollen_sog' && state.users[seller].seeds[type].forSale === 1
+                        ) {
+                 if (want == 'post_pollen_hk') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_dp') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_lb') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_afg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_lkg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_mis') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_kbr') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_aca') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_swz') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_kmj') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_dp') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_mal') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_pam') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_cg') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_ach') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_tha') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_cht') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 if (want == 'post_pollen_sog') {
+                     try{
+                         for (var i = 0;i < state.users[from].seeds.length; i++){
+                             if (json.want){
+                               if(state.users[from].seeds[i].strain === type){
+                                 state.users[from].seeds[i].owner = seller;
+                                 type=state.users[from].seeds.splice(i, 1)[0]
+                                 break
+                               }
+                             } else if(state.users[from].seeds[i].strain === type){
+                               state.users[from].seeds[i].owner = seller;
+                               type=state.users[from].seeds.splice(i, 1)[0]
+                               break
+                             }
+                         }
+                     } catch (e) {}
+                     if (type) {
+                         if (!state.users[seller]) {
+                           state.users[seller] = {
+                             addrs: [],
+                             seeds: [type],
+                             buds: [],
+                             pollen: [],
+                             breeder: breeder,
+                             farmer: farmer,
+                             alliance: "",
+                             friends: [],
+                             inv: [],
+                             seeds: [],
+                             pollen: [],
+                             buds: [],
+                             kief: [],
+                             bubblehash: [],
+                             oil: [],
+                             edibles: [],
+                             joints: [],
+                             blunts: [],
+                             moonrocks: [],
+                             dippedjoints: [],
+                             cannagars: [],
+                             kiefbox: 0,
+                             vacoven: 0,
+                             bubblebags: 0,
+                             browniemix: 0,
+                             stats: [],
+                             traits:[],
+                             terps:[],
+                             v: 0
+                           }
+                         } else {
+                             state.users[seller].seeds.push(type)
+                         }
+                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
+                     } else {
+                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
+                     }
+                 }
+                 //pay hashkings
+                 const c = parseInt(amount * 0.01)
+                 state.bal.c += c
+                 state.bal.b += amount - c
+                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
+                 //pay seller
+                 state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
+                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
+                 }
                     else {
                         state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
