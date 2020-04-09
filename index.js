@@ -929,14 +929,14 @@ function startApp() {
 //---------posting sales-----------//
 
 processor.on('market_post_seed', function(json, from) {
-    let seeds = json.seeds,
+    let seed = json.seeds,
         seednames = ''
         try {
         for (var i = 0; i < seeds.length; i++) {
             try {
             if (state.users.from[seeds[i]].owner === from && state.users.from[seeds[i]].forSale === 0) {
                 state.users.from[seeds[i]].forSale++
-                seednames += `${seeds[i]} `
+                seednames += `${seed[i]} `
             }
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
