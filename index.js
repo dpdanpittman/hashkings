@@ -916,6 +916,81 @@ function startApp() {
             }
     }
   })
+
+//----------------------------------------------------------------------------------------
+//
+//===========================================
+//                                          |
+//         ****Hashkings Market****         |
+//                                          |
+//===========================================
+
+
+processor.on('market_post_sale', function(json, from) {
+    let category = json.category,
+        categoryName = '',
+        item = json.item,
+        itemName = ''
+
+        try {
+        for (var i = 0; i < plants.length; i++) {
+            try {
+            if (state.land[category[i]].owner === from) {
+                state.land[category[i]].care.unshift([processor.getCurrentBlockNumber(), 'posted for sale']);
+                categoryName += `${category[i]} `
+            }
+            } catch (e){
+            state.cs[`${json.block_num}:${from}`] = `${from} can't sell what is not theirs`
+            }
+        }
+        } catch {
+            (console.log(from + ' tried to post the sale of a ' + itemName + '' + categoryName + ' but an error occured'))
+        }
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted ${itemName} ${categoryName} for sale`
+});
+
+processor.on('market_purchase', function(json, from) {
+    let plants = json.plants,
+        plantnames = ''
+        
+        try {
+        for (var i = 0; i < plants.length; i++) {
+            try {
+            if (state.land[plants[i]].owner === from) {
+                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
+                plantnames += `${plants[i]} `
+            }
+            } catch (e){
+            state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
+            }
+        }
+        } catch {
+            (console.log(from + ' tried to water ' + plantnames +' but an error occured'))
+        }
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully watered ${plantnames}`
+});
+
+processor.on('market_cancel', function(json, from) {
+    let items = json.item,
+        itemNames = ''
+        try {
+        for (var i = 0; i < plants.length; i++) {
+            try {
+            if (state.land[plants[i]].owner === from) {
+                state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
+                plantnames += `${plants[i]} `
+            }
+            } catch (e){
+            state.cs[`${json.block_num}:${from}`] = `${from} can't cancel another users sale`
+            }
+        }
+        } catch {
+            (console.log(from + ' tried to cancel the sale of ' + itemNames +' but an error occured'))
+        }
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully canceled the sale of ${itemNames}`
+});
+
+//---------------------End Market---------------------------------------------------------
     // search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
@@ -1146,7 +1221,7 @@ function startApp() {
              } catch {
             (console.log(from + ' tried to change their farmyer type to ' + farmerType + ' but an error occured'))
         }
-        state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
+        //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'changed_farmer_type']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their breeder name to ${farmerType}`
     });
@@ -1168,7 +1243,7 @@ function startApp() {
                 }
 
                 state.users[from].friends.push(friends)
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'added_friend']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'added_friend']);
 
                 state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
             }
@@ -1238,7 +1313,7 @@ function startApp() {
     } catch {
         (console.log(from + ' tried to join the ' + allianceName + ' alliance but an error occured'))
     }
-        state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
+        //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
 
         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
     });
@@ -1258,7 +1333,7 @@ function startApp() {
                     memberNames: [from],
                 }
                 state.stats.alliances.push(allianceState)
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'created_alliance']);
 
             state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
         }
@@ -1322,7 +1397,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_bubblehash']);
                 budNames += `${buds}`;
              
                 state.users[from].bubblebags--;
@@ -1358,7 +1433,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_oil']);
                 budNames += `${buds}`;
              
                 state.users[from].vacoven--;
@@ -1396,7 +1471,7 @@ function startApp() {
 
         for (var i = 0; i < 1; i++) {
             if(state.users[from].kiefbox > 0) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
                 budNames += `${buds}`;
              
                 state.users[from].kiefbox--;
@@ -1434,7 +1509,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_edibles']);
                 budNames += `${buds}`;
              
                 state.users[from].browniemix--;
@@ -1470,7 +1545,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
                 budNames += `${buds}`;
              
                 state.users[from].papers--;
@@ -1508,7 +1583,7 @@ function startApp() {
             }
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
                 budNames += `${buds}`;
              
                 state.users[from].bluntwraps--;
@@ -1536,7 +1611,7 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
@@ -1602,7 +1677,7 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;
                 kiefNames += `${kief}`;
@@ -1672,7 +1747,7 @@ function startApp() {
             kiefNames = ''
 
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
                 budNames += `${buds}`;
                 oilNames += `${oil}`;;
                 kiefNames += `${kief}`;
@@ -1743,7 +1818,7 @@ function startApp() {
             friend3 = json.friend3,
             friend3Name = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_moonrock']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_moonrock']);
                 moonrockName += `${moonrock}`;
                 friend1Name += `${friend1}`;
                 friend2Name += `${friend2}`;
@@ -1786,7 +1861,7 @@ function startApp() {
             friend5 = json.friend5,
             friend5Name = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_joint']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_joint']);
                 jointName += `${joint}`;
                 friend1Name += `${friend1}`;
                 friend2Name += `${friend2}`;
@@ -1833,7 +1908,7 @@ function startApp() {
             friend5 = json.friend5,
             friend5Name = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
                 bluntName += `${blunt}`;
                 friend1Name += `${friend1}`;
                 friend2Name += `${friend2}`;
@@ -1873,7 +1948,7 @@ function startApp() {
             friend1Name = '',
             friend2 = json.friend2
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'ate edibles']);
                 ediblesName += `${edibles}`;
                 friend1Name += `${friend1}`;
                 friend2Name += `${friend2}`;
@@ -1913,7 +1988,7 @@ function startApp() {
             friend5 = json.friend5,
             friend5Name = ''
         for (var i = 0; i < 1; i++) {
-                state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_dipped_joint']);
+                //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_dipped_joint']);
                 dippedJointName += `${dippedJoint}`;
                 friend1Name += `${friend1}`;
                 friend2Name += `${friend2}`;
@@ -1960,7 +2035,7 @@ function startApp() {
                 friend5 = json.friend5,
                 friend5Name = ''
             for (var i = 0; i < 1; i++) {
-                    state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_cannagar']);
+                   // state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_cannagar']);
                     cannagarName += `${cannagar}`;
                     friend1Name += `${friend1}`;
                     friend2Name += `${friend2}`;
@@ -2380,13 +2455,13 @@ function startApp() {
                 state.land[json.addr].father = seed.father
             } else {
                 state.users[from].seeds.unshift(seed);
-                state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
+                state.cs[`${json.block_num}:${from}`] = `${from} can't plant ${seed} on ${index}.`
             }
         } else if (seed) {
             state.users[from].seeds.unshift(seed);
-            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that plot`
+            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own ${seed}`
         } else {
-            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a plant!`
+            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a ${seed} at ${index}!`
         }
     });
 
@@ -2514,7 +2589,7 @@ function startApp() {
                 return response.json();
             })
             .then(function(myJson) {
-                if(myJson.blacklisted.length == 0 || json.from == 'darthknight' || json.from == 'steempress' || json.from == 'roelandp' || json.from == 'good-karma' || json.from == 'gtg' || json.from == 'blocktrades' || json.from == 'pumpkin' || json.from == 'freedom'){
+                if(myJson.blacklisted.length == 0){
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
@@ -2603,23 +2678,23 @@ function startApp() {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100|| want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
                     if (want == 'papers') {
-                        state.users[json.from].papers++;
+                        state.users[json.from].papers+=10;
                         state.users[json.from].xps += 10;
                     }
                     if (want == 'kiefbox') {
-                        state.users[json.from].kiefbox++; 
+                        state.users[json.from].kiefbox+=10; 
                         state.users[json.from].xps += 10; 
                     }
                     if (want == 'vacoven') {
-                        state.users[json.from].vacoven++; 
+                        state.users[json.from].vacoven+=10; 
                         state.users[json.from].xps += 10; 
                     }
                     if (want == 'bluntwraps') {
-                        state.users[json.from].bluntwraps++; 
+                        state.users[json.from].bluntwraps+=5; 
                         state.users[json.from].xps += 50; 
                     }
                     if (want == 'browniemix') {
-                        state.users[json.from].browniemix++; 
+                        state.users[json.from].browniemix+=5; 
                         state.users[json.from].xps += 100; 
                     }
                     if (want == 'hempwraps') { 
@@ -2634,7 +2709,7 @@ function startApp() {
                     state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
                 }
-            } else if (amount > 10000) {
+            } else if (amount > 10000000) {
                 state.bal.r += amount
                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds/tools or managing land...please check wallet`
@@ -3106,7 +3181,7 @@ function daily(addr) {
                 for (var j = 0; j < state.land[addr].aff.length; j++) {
                     try {
                     if (state.land[addr].aff[j][0] > processor.getCurrentBlockNumber() - 86400 && state.land[addr].aff[j][1] == 'over') {
-                        state.land[addr].stage = -1;
+                        state.land[addr].substage--;
                         break;
                     }
                 } catch(e) {

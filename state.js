@@ -694,9 +694,9 @@ module.exports = {
                "special": 10000
             },
             "supplies": {
-               "papers": 5000,
-               "keifbox": 5000,
-               "vacoven": 5000,
+               "papers": 10000,
+               "keifbox": 10000,
+               "vacoven": 10000,
                "bluntwraps": 5000,
                "browniemix": 5000,
                "hempwraps": 5000
