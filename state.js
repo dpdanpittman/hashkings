@@ -785,208 +785,7 @@ module.exports = {
       "b": 0,
       "p": 1497479
    },
-   "refund": [
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h42356000",
-                  "title": "Farmers Guide | 42356000",
-                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n        \n\n        \n<center><h1>What is Kief?</h1></center>\n        \n\n        \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n        \n>\n        \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n        \n>\n        \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n        \n\n        \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n        \n\n        \n\n        \n<center><h1>Kief Specs</h1></center>\n        \n\n        \n**Total Supply: 4,200,000 KFQ**\n        \n**Decimals: 8**\n        \n\n        \n<u>Distribution</u>|<u>Capabilities</u>|\n        \n-|-|\n        \nAirdrop: 444,719 KFQ| Staking|\n        \nDev Fund: 15%| Mining|\n        \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n        \nAvailable: 1,697,281 KFQ| |\n        \n\n        \n\n        \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n        \n\n        \n<h4><u>In-Game Currency</u></h4>\n        \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n        \n\n        \n<h4><u>Staking</u></h4>\n        \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n        \n\n        \n\n        \n<center><h1>What are the benefits of Kief Token?</h1></center>\n        \n<h4>Farmers Association Board</h4>\n        \n\n        \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n        \n\n        \nDuties of the Board Members include but are not limited to\n        \n- Voting on Strains\n        \n- Voting on Regions\n        \n- Voting on HashKings Features\n        \n- Voting on Item Prices\n        \n\n        \n<h4>Staking Rewards</h4>\n        \n\n        \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n        \n\n        \n_The table below describes the weekly payout._\n        \n\n        \nStaked Amount| Payout\n        \n-|-\n        \n500 KFQ| 10 KFQ\n        \n1000 KFQ| 25 KFQ\n        \n2500 KFQ| 50 KFQ\n        \n5000 KFQ| 100 KFQ\n        \n10000 KFQ| 200 KFQ\n        \n21000 KFQ | 500 KFQ\n        \n\n        \n<h4>Discounts</h4>\n        \n\n        \nStaking the tokens earns you discounts in the HashKings Dispensary.\n        \n\n        \n<u>Staked Amount</u>|<u>Discount</u>|\n        \n-|-|\n        \n1000  KFQ| 1%|\n        \n2500  KFQ| 5%|\n        \n5000  KFQ| 10%|\n        \n10000 KFQ| 15%|\n        \n21000 KFQ| 25%\n        \n\n        \n\n        \n<center><h1>Why Kief Tokens?</h1></center>\n        \n\n        \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n        \n \n        \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n        \n\n        \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n        \n\n        \n- **Limited supply** once they are gone the only way to purchase them is on an exchange. \n        \n\n        \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n        \n\n        \n<center>[Hashkings Web App](https://www.hashkings.app)    \n        \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n        \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n        \n\n        \n        \n        \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n        \n        \n        \n<center><h1>STEEM Community Showcase</h1></center>\n        \n\n        \n       \n        \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n        \n\n        \n<center>\n        <a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n        \n\n        \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n        \n\n        \n       \n        \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n        \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42356000",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": []
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h42356998",
-                  "title": "Hashkings Almanac for Africa | 42356998",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect mostly clear skies with a high of 28.9 Celsius. Winds will be out of the Northeast at 2.3 M/s. Models predict 1.00mm of rain. Relative humidity will be around 46% and a low of 20.0 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42356998",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": []
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42356998",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42358000",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h42361000",
-                  "title": "Farmers Guide | 42361000",
-                  "body": "\nhttps://i.imgur.com/jTxih7O.png\n            \n\n            \n<center><h1>What is Kief?</h1></center>\n            \n\n            \n>Ever wonder what to call all those tiny, sticky crystals that cover cannabis flower? They’re called kief, also known as dry sift or pollen.\n            \n>\n            \n>Kief refers to the resin glands which contain the terpenes and cannabinoids that make cannabis so unique. While marijuana sans kief still contains cannabinoids, the resin glands that develop on flower buds pack the biggest punch.*\n            \n>\n            \n><h8>_Source: [Leafly](https://www.leafly.com)_</h8>\n            \n\n            \n***The Kief(KFQ) in-game currency is just that, a sticky terpene filled resin gland loaded with cannabanoids aka, The Life Blood of HashKings.***\n            \n\n            \n\n            \n<center><h1>Kief Specs</h1></center>\n            \n\n            \n**Total Supply: 4,200,000 KFQ**\n            \n**Decimals: 8**\n            \n\n            \n<u>Distribution</u>|<u>Capabilities</u>|\n            \n-|-|\n            \nAirdrop: 444,719 KFQ| Staking|\n            \nDev Fund: 15%| Mining|\n            \n60/40 Split: 1,680,000 KFQ (Locked)|\t|\n            \nAvailable: 1,697,281 KFQ| |\n            \n\n            \n\n            \n<center><h1>What is Kief Token(KFQ) used for?</h1></center>\n            \n\n            \n<h4><u>In-Game Currency</u></h4>\n            \nKief is an in-game currency used to buy nutrients, greenhouses, soil and various farm equipment.\n            \n\n            \n<h4><u>Staking</u></h4>\n            \nKief can also be used to help the HashKings Economy by becoming an active participant in the survival of the Game.  Stake your tokens to earn many of the benefits listed in the next section.\n            \n\n            \n\n            \n<center><h1>What are the benefits of Kief Token?</h1></center>\n            \n<h4>Farmers Association Board</h4>\n            \n\n            \nBecome a board member and vote on important decisions in the HashKings ecosystem. The minimum stake for applying to become part of the board is 21,000 KFQ.\n            \n\n            \nDuties of the Board Members include but are not limited to\n            \n- Voting on Strains\n            \n- Voting on Regions\n            \n- Voting on HashKings Features\n            \n- Voting on Item Prices\n            \n\n            \n<h4>Staking Rewards</h4>\n            \n\n            \nStaking is the easiest way to earn KFQ has a 4 week cooldown period and rewards are halved every 100,000 Kief Tokens.\n            \n\n            \n_The table below describes the weekly payout._\n            \n\n            \nStaked Amount| Payout\n            \n-|-\n            \n500 KFQ| 10 KFQ\n            \n1000 KFQ| 25 KFQ\n            \n2500 KFQ| 50 KFQ\n            \n5000 KFQ| 100 KFQ\n            \n10000 KFQ| 200 KFQ\n            \n21000 KFQ | 500 KFQ\n            \n\n            \n<h4>Discounts</h4>\n            \n\n            \nStaking the tokens earns you discounts in the HashKings Dispensary.\n            \n\n            \n<u>Staked Amount</u>|<u>Discount</u>|\n            \n-|-|\n            \n1000  KFQ| 1%|\n            \n2500  KFQ| 5%|\n            \n5000  KFQ| 10%|\n            \n10000 KFQ| 15%|\n            \n21000 KFQ| 25%\n            \n\n            \n\n            \n<center><h1>Why Kief Tokens?</h1></center>\n            \n\n            \n- This in-game currency has a very low supply of 4.2 million which makes it extremely rare and the value of in-game items are determined by the market.\n            \n \n            \n- Staking KFQ is the only way to become a board member with a minimum entry of 21,000. \n            \n\n            \n- HashKings is a top 100 dApp out of 2500+ according to [Stateofthedapps.com](https://www.stateofthedapps.com).  \n            \nd supply** once they are gone the only way to purchase them is on an exchange. \n            \n\n            \n- We are partnered with the #1 Cannabis Curation Trail and Community on STEEM, Canna-Curate.\n\n<center><h1>Hashkings Official Links</h1></center>\n            \n\n            \n<center>[Hashkings Web App](https://www.hashkings.app)    \n            \n[Hashkings Discord](https://discord.gg/QW6tWF9)      \n            \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)</center>\n            \n\n            \n        \n            \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n            \n        \n            \n<center><h1>STEEM Community Showcase</h1></center>\n            \n\n            \n       \n            \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n            \n\n            \n<center>\n            \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\"></center>\n            \n\n            \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n            \n\n            \n       \n            \n### Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!\n            \n\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hashkings\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42361000",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": []
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42361000",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ],
-      [
-         "ssign",
-         [
-            [
-               "comment",
-               {
-                  "parent_author": "",
-                  "parent_permlink": "hashkings",
-                  "author": "hk-stream",
-                  "permlink": "h42364198",
-                  "title": "Hashkings Almanac for Asia | 42364198",
-                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAsia Growers Daily News\n\n## Todays Weather\nYou can expect clear skies with a high of 28.9 Celsius. Winds will be out of the Northeast at 4.2 M/s. Relative humidity will be around 75% and a low of 28.2 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n",
-                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
-               }
-            ],
-            [
-               "comment_options",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42364198",
-                  "max_accepted_payout": "1000000.000 SBD",
-                  "percent_steem_dollars": 10000,
-                  "allow_votes": true,
-                  "allow_curation_rewards": true,
-                  "extensions": [
-                     [
-                        0,
-                        {
-                           "beneficiaries": []
-                        }
-                     ]
-                  ]
-               }
-            ]
-         ]
-      ],
-      [
-         "sign",
-         [
-            [
-               "vote",
-               {
-                  "author": "hk-stream",
-                  "permlink": "h42364198",
-                  "voter": "hashkings",
-                  "weight": 10000
-               }
-            ]
-         ]
-      ]
-   ],
+   "refund": [],
    "lands": {
       "forSale": [
          "d57",
@@ -16348,7 +16147,437 @@ module.exports = {
                "father": []
             }
          ],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "kbr",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "tha",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "tha",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "tha",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "cht",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "tha",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "xp": 50,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 50,
+               "forSale": 0
+            },
+         ],
          "buds": [
             {
                "strain": "afg",
