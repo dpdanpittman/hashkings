@@ -11403,7 +11403,7 @@ module.exports = {
             ]
          ],
          "planted": 41594003,
-         "stage": 3,
+         "stage": 4,
          "substage": 1,
          "pollinated": false,
          "sex": "female",
@@ -18283,7 +18283,12 @@ module.exports = {
          "buds": [
             {
                "strain": "aca",
-               "owner": "romiferns",
+               "owner": [
+                  {
+                     "ownerName": "romiferns",
+                     "forSale": 0
+                  }
+               ],
                "traits": [
                   "Beta Buds"
                ],
@@ -18294,7 +18299,6 @@ module.exports = {
                "cbd": "coming soon",
                "familyTree": "aca",
                "father": "Sensimilla",
-               "forSale": 0
             },
             {
                "strain": "aca",
@@ -24759,7 +24763,41 @@ module.exports = {
                "forSale": 0
             }
          ],
-         "pollen": [],
+         "pollen": [
+            {
+               "strain": "hk",
+               "owner": "qwoyn",
+               "xp": 2250,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 2250,
+               "forSale": 0
+            },
+            {
+               "strain": "dp",
+               "owner": "qwoyn",
+               "xp": 2250,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 2250,
+               "forSale": 0
+            },
+            {
+               "strain": "sog",
+               "owner": "qwoyn",
+               "xp": 2250,
+               "traits": [
+                  "Beta Pollen"
+               ],
+               "terps": [],
+               "level": 2250,
+               "forSale": 0
+            }
+         ],
          "buds": [],
          "breeder": "",
          "farmer": 1,
