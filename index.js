@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42379071; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 42483528; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42379071;
+const ago = ENV.ago || 42483528;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com/' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -927,15 +927,15 @@ function startApp() {
 
 
 //---------posting sales-----------//
-
+//https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_market_post_seed&json=%7B%22seed%22%3A%5B%22hk%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seeds,
         seednames = ''
         try {
         for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from.seeds[i].owner === from && state.users.from.seeds[i].forSale === 0) {
-                state.users.from.seeds[i].forSale = 1;
+            if (state.users.from[seeds[i]].forSale === 0) {
+                state.users.from[seeds[i]].forSale = 1;
                 seednames += `${seed[i]} `
             }
             } catch (e){
