@@ -313,7 +313,7 @@ module.exports = {
          "used": 0
       },
       {
-         "delegator": "steem-supporters",
+         "delegator": "steem-supporter",
          "vests": 0,
          "availible": 0,
          "used": 0
@@ -21192,13 +21192,13 @@ module.exports = {
          "stats": [],
          "v": 0
       },
-      "steem-supporters": {
+      "steem-supporter": {
          "addrs": [],
          "xps": 25,
          "seeds": [
             {
                "strain": "kbr",
-               "owner": "steem-supporters",
+               "owner": "steem-supporter",
                "xp": 50,
                "traits": [
                   "Genesis Seed"
