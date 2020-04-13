@@ -435,7 +435,7 @@ function startApp() {
                 td.push(`${o}${((sun-state.stats.offsets[o])*4)}`, `${o}${((sun-state.stats.offsets[o])*4)-1}`, `${o}${((sun-state.stats.offsets[o])*4)-2}`, `${o}${((sun-state.stats.offsets[o])*4)-3}`);
             }
             if (sun - state.stats.offsets[o] == 1200) {
-               popWeather(o).then((r)=>{console.log(r);autoPoster(r,num)}).catch((e)=>{console.log(e)})
+               popWeather(o).then((r)=>{console.log(r);/*autoPoster(r,num)*/}).catch((e)=>{console.log(e)})
             }
             if (sun - state.stats.offsets[o] == 1500) {
                //state.refund.push(['sign',[["vote",{"author":streamname,"permlink":`h${num-300}`,"voter":username,"weight":10000}]]])
@@ -6096,7 +6096,7 @@ function popWeather (loc){
     })
 }
 
-function autoPoster (loc, num) {
+/*function autoPoster (loc, num) {
     var body = `\nhttps://source.unsplash.com/user/kimzy/1600x900# \n${state.stats.env[loc].name} Growers Daily News\n`, bens = ''
     var footer = `\n<center><h1>Hashkings Official Links</h1>
     \n[Hashkings Web App](https://www.hashkings.app)
@@ -6141,7 +6141,7 @@ function autoPoster (loc, num) {
         state.payday.shift()
     }
     state.refund.push(['ssign',ops])
-}
+}*/
 
 function cloudy(per){
     const range = parseInt(per/20)
