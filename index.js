@@ -618,11 +618,15 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seeds,
         seednames = ''
+    
+    const saleState = {
+        forSale: 1
+    }
         try {
         for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from[seeds[i]].forSale === 0) {
-                state.users.from[seeds[i]].forSale = 1;
+                state.users.from[seeds[i]].push(saleState);
                 seednames += `${seed[i]} `
             }
             } catch (e){
