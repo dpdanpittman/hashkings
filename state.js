@@ -7,6 +7,12 @@ module.exports = {
          "used": 2
       },
       {
+         "delegator": "bakedmakrura",
+         "vests": 156972543212,
+         "availible": 0,
+         "used": 0
+      },
+      {
          "delegator": "fbmtek23",
          "vests": 0,
          "availible": 0,
