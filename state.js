@@ -11299,21 +11299,19 @@ module.exports = {
          "xps": 501376,
          "seeds": [
             {
-               "strain": "mis" [
-                  {
-                     "owner": "qwoyn",
-                     "traits": [
-                        "beta pollinated seed"
-                     ],
-                     "terps": [],
-                     "thc": "coming soon",
-                     "cbd": "coming soon",
-                     "familyTree": "mis",
-                     "pollinated": false,
-                     "father": [],
-                     "forSale": 0
-                  }
-               ],
+               "mis": {
+                  "owner": "qwoyn",
+                  "traits": [
+                     "beta pollinated seed"
+                  ],
+                  "terps": [],
+                  "thc": "coming soon",
+                  "cbd": "coming soon",
+                  "familyTree": "mis",
+                  "pollinated": false,
+                  "father": [],
+                  "forSale": 0
+               },
             }
          ],
          "pollen": [
