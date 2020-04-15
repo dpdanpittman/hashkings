@@ -19114,7 +19114,7 @@ module.exports = {
             "a86",
             "a87"
          ],
-         "xps": 1,
+         "xps": 5001,
          "seeds": [
             {
                "strain": "cg",
