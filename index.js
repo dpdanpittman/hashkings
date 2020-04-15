@@ -619,20 +619,20 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seeds,
         seednames = ''
     
-    const saleState = {
+    var saleState = {
         forSale: 1
     }
         try {
-        for (var i = 0; i < seed.length; i++) {
+        //for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from[seeds[i]].forSale === 0) {
-                state.users.from[seeds[i]].forSale.push(saleState);
-                seednames += `${seed[i]} `
+            if (state.users.from[seeds[seed]].forSale === 0) {
+                state.users.from[seeds[seed]].forSale = 1 /*.push(saleState)*/;
+                seednames += `${seed}`
             }
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
             }
-        }
+        //}
         } catch {
             (console.log(from + ' tried to post a ' + seednames +' seed for sale but an error occured'))
         }
