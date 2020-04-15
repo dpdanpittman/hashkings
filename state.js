@@ -10616,28 +10616,34 @@ module.exports = {
          "xps": 1,
          "seeds": [
             {
-               "strain": "kmj",
-               "owner": "gabiausfranken",
-               "xp": 50,
-               "traits": [
-                  "patreon genesis seed"
-               ],
-               "terps": [],
-               "pollinated": false,
-               "father": "sensimilla",
-               "forSale": 0
+               "strain": "kmj" [
+                  {
+                     "owner": "gabiausfranken",
+                     "xp": 50,
+                     "traits": [
+                        "patreon genesis seed"
+                     ],
+                     "terps": [],
+                     "pollinated": false,
+                     "father": "sensimilla",
+                     "forSale": 0
+                  }
+               ],               
             },
             {
-               "strain": "cht",
-               "owner": "gabiausfranken",
-               "xp": 50,
-               "traits": [
-                  "patreon genesis seed"
+               "strain": "cht" [
+                  {
+                     "owner": "gabiausfranken",
+                     "xp": 50,
+                     "traits": [
+                        "patreon genesis seed"
+                     ],
+                     "terps": [],
+                     "pollinated": false,
+                     "father": "sensimilla",
+                     "forSale": 0
+                  }
                ],
-               "terps": [],
-               "pollinated": false,
-               "father": "sensimilla",
-               "forSale": 0
             },
             {
                "strain": "hk",
@@ -11293,18 +11299,21 @@ module.exports = {
          "xps": 501376,
          "seeds": [
             {
-               "strain": "mis",
-               "owner": "qwoyn",
-               "traits": [
-                  "beta pollinated seed"
+               "strain": "mis" [
+                  {
+                     "owner": "qwoyn",
+                     "traits": [
+                        "beta pollinated seed"
+                     ],
+                     "terps": [],
+                     "thc": "coming soon",
+                     "cbd": "coming soon",
+                     "familyTree": "mis",
+                     "pollinated": false,
+                     "father": [],
+                     "forSale": 0
+                  }
                ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "mis",
-               "pollinated": false,
-               "father": [],
-               "forSale": 0
             }
          ],
          "pollen": [
