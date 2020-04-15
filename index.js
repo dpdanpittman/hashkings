@@ -626,7 +626,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from[seeds[i]].forSale === 0) {
-                state.users.from[seeds[i]].push(saleState);
+                state.users.from[seeds[i]].forSale.push(saleState);
                 seednames += `${seed[i]} `
             }
             } catch (e){
