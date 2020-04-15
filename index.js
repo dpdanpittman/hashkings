@@ -622,8 +622,8 @@ processor.on('market_post_seed', function(json, from) {
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from[seeds[seed]].forSale === 0) {
-                state.users.from[seeds[seed]].forSale++;
+            if (state.users.from.seeds.seed.forSale === 0) {
+                state.users.from.seeds.seed.forSale++;
                 (console.log(from + 's' + 'forSale status is ' + + state.users.from[seeds[seed]].forSale))
                 seednames += `${seed}`
             }
