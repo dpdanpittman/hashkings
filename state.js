@@ -8,7 +8,7 @@ module.exports = {
       },
       {
          "delegator": "bakedmakrura",
-         "vests": 156972543212,
+         "vests": 0,
          "availible": 0,
          "used": 0
       },
@@ -13183,7 +13183,18 @@ module.exports = {
       "bakedmakrura": {
          "addrs": [],
          "xps": 1,
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "sog",
+               "owner": "bakedmakrura",
+               "xp": 100,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false,
+               "forSale": 0
+            }
+         ],
          "pollen": [],
          "buds": [],
          "breeder": "",
