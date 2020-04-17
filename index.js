@@ -624,7 +624,6 @@ processor.on('market_post_seed', function(json, from) {
             try {
             if (state.users.from.seeds[seed].forSale === 0) {
                 state.users.from.seeds[seed].forSale++;
-                (console.log(from + 's' + 'forSale status is ' + + state.users.from[seeds[seed]].forSale))
                 seednames += `${seed}`
             }
             } catch (e){
@@ -2438,6 +2437,39 @@ processor.on('market_cancel_buds', function(json, from) {
                         familyTree: 'Landrace Strain',
                         pollinated: false
                     }
+                    if (!state.users[json.to]) {
+                        state.users[json.to] = {
+                          addrs: [],
+                          seeds: [seed],
+                          buds: [],
+                          pollen: [],
+                          breeder: breeder,
+                          farmer: farmer,
+                          alliance: "",
+                          friends: [],
+                          inv: [],
+                          seeds: [],
+                          pollen: [],
+                          buds: [],
+                          kief: [],
+                          bubblehash: [],
+                          oil: [],
+                          edibles: [],
+                          joints: [],
+                          blunts: [],
+                          moonrocks: [],
+                          dippedjoints: [],
+                          cannagars: [],
+                          kiefbox: 0,
+                          vacoven: 0,
+                          bubblebags: 0,
+                          browniemix: 0,
+                          stats: [],
+                          traits:[],
+                          terps:[],
+                          v: 0
+                        }
+                      }
                     state.users[json.from].xps += 1;
                     state.users[json.from].seeds.push(seed)
 
@@ -2463,6 +2495,39 @@ processor.on('market_cancel_buds', function(json, from) {
                         familyTree: 'Landrace Strain',
                         pollinated: false
                     }
+                    if (!state.users[json.to]) {
+                        state.users[json.to] = {
+                          addrs: [],
+                          seeds: [seed],
+                          buds: [],
+                          pollen: [],
+                          breeder: breeder,
+                          farmer: farmer,
+                          alliance: "",
+                          friends: [],
+                          inv: [],
+                          seeds: [],
+                          pollen: [],
+                          buds: [],
+                          kief: [],
+                          bubblehash: [],
+                          oil: [],
+                          edibles: [],
+                          joints: [],
+                          blunts: [],
+                          moonrocks: [],
+                          dippedjoints: [],
+                          cannagars: [],
+                          kiefbox: 0,
+                          vacoven: 0,
+                          bubblebags: 0,
+                          browniemix: 0,
+                          stats: [],
+                          traits:[],
+                          terps:[],
+                          v: 0
+                        }
+                      }
                     state.users[json.from].xps += 1;
                     state.users[json.from].seeds.push(seed)
 
