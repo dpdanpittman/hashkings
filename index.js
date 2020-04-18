@@ -619,14 +619,12 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
     
-        var postedSeed = {
-            forSale: 1
-        }
+        
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from.seeds[seed].forSale === 0) {
-                state.users.from.seeds.seed.push(postedSeed);
+                state.users.from.seeds.seed.forSale++;
                 seednames += `${seed}`
             }
             } catch (e){
@@ -636,7 +634,7 @@ processor.on('market_post_seed', function(json, from) {
         } catch {
             (console.log(from + ' tried to post a ' + seednames +' seed for sale but an error occured'))
         }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seed} seed for sale`
 });
 
 processor.on('market_post_pollen', function(json, from) {
