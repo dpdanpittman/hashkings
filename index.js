@@ -624,7 +624,7 @@ processor.on('market_post_seed', function(json, from) {
             try {
             if (state.users.from[seed].owner === from && state.users.from.seed.forSale === false) {
                 state.users.from[seed].forSale = true;
-                seednames += `${seed}`
+                seednames += `${seed} `
                 //state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
             }
             } catch (e){
