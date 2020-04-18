@@ -623,7 +623,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from.seeds[seed[i]].owner === from && state.users.from.seeds[seed[i]].forSale === 0) {
-                state.users.from.seeds[seed[i]].forSale = 1;
+                state.users.from.seeds[seed[i]].forSale += 1;
                 seednames += `${seed[i]} `
             }
             } catch (e){
