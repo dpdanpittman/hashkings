@@ -619,9 +619,11 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
 
+    let poster = json.from
+
       //  for (var i = 0; i < seed.length; i++) {
            // try {
-                var theState = state.users.from.seed.forSale
+                var theState = state.users.poster.seed.forSale;
                 state.cs[`${json.block_num}:${from}`] = `you're looking for this --> ${theState} `
             //if (state.users.from.seed.owner === from && state.users.from.seed.forSale === false) {
                 state.users.from.seed.forSale = true;
