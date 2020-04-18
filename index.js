@@ -625,10 +625,10 @@ processor.on('market_post_seed', function(json, from) {
         try {
         for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from[seed[i]].owner === from && state.users.from[seed[i]].forSale === 0) {
-                state.users.from[seed[i]].push(posted);
+            if (state.users[from[seed[i]]].owner === from && state.users[from[seed[i]]].forSale === 0) {
+                state.users[from[seed[i]]].push(posted);
                 seednames += `${seed[i]} `
-                state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
+                //state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
             }
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
