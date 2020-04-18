@@ -22839,7 +22839,7 @@ module.exports = {
                "terps": []
             },
             {
-               "strain": "soq",
+               "strain": "sog",
                "owner": "saboin",
                "xp": 2250,
                "traits": [
