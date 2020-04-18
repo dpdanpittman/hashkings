@@ -622,11 +622,11 @@ processor.on('market_post_seed', function(json, from) {
         try {
         for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from.seeds[seed[i]].owner === from && state.users.from.seeds[seed[i]].forSale === 0) {
+            //if (state.users.from.seeds[seed[i]].owner === from && state.users.from.seeds[seed[i]].forSale === 0) {
                 state.users.from.seeds[seed[i]].forSale += 1;
                 seednames += `${seed[i]} `
             }
-            } catch (e){
+             catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
             }
         }
