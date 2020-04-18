@@ -623,7 +623,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users[state.users[from]].seed.owner === from && state.users[state.users[from]].seed.forSale === false) {
-                state.users[state.users[from[seed]]].forSale = true;
+                state.users[state.users[from]].seed.forSale = true;
                 //state.users[from[seed].forSale] = true;
                 seednames += `${seed} `
                 //state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
