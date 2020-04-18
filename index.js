@@ -616,25 +616,23 @@ function startApp() {
 //---------posting sales-----------//
 //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_market_post_seed&json=%7B%22seed%22%3A%5B%22hk%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
-    let seed = json.seed,
+    let seed = json.pollen,
         seednames = ''
-
-    let poster = json.from
-
-      //  for (var i = 0; i < seed.length; i++) {
-           // try {
-            //if (state.users.from.seed.owner === from && state.users.from.seed.forSale === false) {
-                state.users.poster.seed.forSale = true;
-                
-                state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-                //state.users[from[seed].forSale] = true;
-                seednames += `${seed} `
-                //state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
-            //}
-         /*   } catch (e){
+        try {
+        for (var i = 0; i < seed.length; i++) {
+            try {
+            if (state.users.from[seed[i]].owner === from && state.users.from[seed[i]].forSale === false) {
+                state.users.from[seed[i]].forSale = true;
+                seednames += `${seed[i]} `
+            }
+            } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }*/
-       // }
+            }
+        }
+        } catch {
+            (console.log(from + ' tried to post ' + seednames +' seed for sale but an error occured'))
+        }
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
 });
 
 processor.on('market_post_pollen', function(json, from) {
