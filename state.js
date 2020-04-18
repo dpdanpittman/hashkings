@@ -10836,7 +10836,7 @@ module.exports = {
                      "familyTree": "mis",
                      "pollinated": false,
                      "father": "",
-                     "forSale": 0
+                     "forSale": false
                   }
                
             }
