@@ -10835,8 +10835,7 @@ module.exports = {
                      "cbd": "coming soon",
                      "familyTree": "mis",
                      "pollinated": false,
-                     "father": "",
-                     "forSale": 0
+                     "father": ""
                   }
                
             }
