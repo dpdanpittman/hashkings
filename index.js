@@ -623,8 +623,8 @@ processor.on('market_post_seed', function(json, from) {
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
-            
-                state.users.from.seeds[seed].forsale++;
+                state.users[state.land[plants[i]].owner].xps += 25;
+                state.users[from.seeds[seed]].forsale++;
                 seednames += `${seed}`
             
             } catch (e){
