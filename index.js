@@ -619,12 +619,10 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
 
-    let poster = json.from
-
       //  for (var i = 0; i < seed.length; i++) {
            // try {
             //if (state.users.from.seed.owner === from && state.users.from.seed.forSale === false) {
-                state.users[from[seed]].forSale = true;
+                state.users.from[seed].forSale = true;
                 
                 state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
                 //state.users[from[seed].forSale] = true;
