@@ -620,7 +620,7 @@ processor.on('market_post_seed', function(json, from) {
         seednames = ''
 
       //  for (var i = 0; i < seed.length; i++) {
-            try {
+           // try {
                 var theState = state.users.from.seed.forSale
                 state.cs[`${json.block_num}:${from}`] = `you're looking for this --> ${theState} `
             //if (state.users.from.seed.owner === from && state.users.from.seed.forSale === false) {
@@ -631,9 +631,9 @@ processor.on('market_post_seed', function(json, from) {
                 seednames += `${seed} `
                 //state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
             //}
-            } catch (e){
+         /*   } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }
+            }*/
        // }
 });
 
