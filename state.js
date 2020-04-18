@@ -22828,7 +22828,44 @@ module.exports = {
             }
          ],
          "pollen": [],
-         "buds": [],
+         "buds": [
+            {
+               "strain": "sog",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            },
+            {
+               "strain": "soq",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            },
+            {
+               "strain": "sog",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            },
+            {
+               "strain": "sog",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            }
+         ],
          "breeder": "",
          "farmer": 1,
          "alliance": "",
