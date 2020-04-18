@@ -619,11 +619,14 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
     
+        var postedSeed = {
+            forSale: 1
+        }
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users.from.seeds[seed].forSale === 0) {
-                state.users.from.seeds[seed].forSale++;
+                state.users.from.seeds[seed].push(postedSeed);
                 seednames += `${seed}`
             }
             } catch (e){
