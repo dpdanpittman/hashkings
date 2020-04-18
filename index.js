@@ -616,16 +616,16 @@ function startApp() {
 //---------posting sales-----------//
 //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_market_post_seed&json=%7B%22seed%22%3A%5B%22hk%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
-    let seed = json.seed,
+    let seedPosted = json.seed,
         seednames = ''
 
         try {
-        for (var i = 0; i < seed.length; i++) {
+        for (var i = 0; i < seedPosted.length; i++) {
             try {
             //if (state.users.from.seeds[seed[i]].owner === from && state.users.from.seeds[seed[i]].forSale === 0) {
                 //state.users.from.seeds[seed[i]].forSale += 1;
-                state.users[state.users.from[seed[i]]].forsale += 1;
-                seednames += `${seed[i]} `
+                state.users[state.users.from[seedPosted[i]]].forsale += 1;
+                seednames += `${seedPosted[i]} `
             }
              catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
