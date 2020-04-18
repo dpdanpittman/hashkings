@@ -10822,9 +10822,9 @@ module.exports = {
             "e37"
          ],
          "xps": 501376,
-         "seeds": [
+         "seeds": 
             {
-               "mis": [
+               "mis": 
                   {
                      "owner": "qwoyn",
                      "traits": [
@@ -10838,9 +10838,9 @@ module.exports = {
                      "father": "",
                      "forSale": 0
                   }
-               ]
+               
             }
-         ],
+         ,
          "pollen": [
             {
                "strain": "sog",
