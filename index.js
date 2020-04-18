@@ -624,7 +624,7 @@ processor.on('market_post_seed', function(json, from) {
             try {
             //if (state.users.from.seeds[seed[i]].owner === from && state.users.from.seeds[seed[i]].forSale === 0) {
                 //state.users.from.seeds[seed[i]].forSale += 1;
-                state.users[state.users[from[seed[i]]]].forsale += 1;
+                state.users[state.users.from[seed[i]]].forsale += 1;
                 seednames += `${seed[i]} `
             }
              catch (e){
@@ -634,7 +634,7 @@ processor.on('market_post_seed', function(json, from) {
         } catch {
             (console.log(from + ' tried to post a ' + seednames +' seed for sale but an error occured'))
         }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seed} seed for sale`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
 });
 
 processor.on('market_post_pollen', function(json, from) {
