@@ -620,7 +620,7 @@ processor.on('market_post_seed', function(json, from) {
         seednames = ''
 
         try {
-        for (var i = 0; i < seed.length; i++) {
+        //for (var i = 0; i < seed.length; i++) {
             try {
             if (state.users[from[seeds]].seed.owner === from && state.users[from[seeds]].seed.forSale === false) {
                 state.users[from[seeds]].seed.forSale = true;
@@ -629,7 +629,7 @@ processor.on('market_post_seed', function(json, from) {
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
             }
-        }
+        //}
         } catch {
             (console.log(from + ' tried to post ' + seednames +' seed for sale but an error occured'))
         }
