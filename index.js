@@ -618,11 +618,12 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.pollen,
         seednames = ''
+
         try {
         for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users.from.seeds[seed].owner === from && state.users.from.seeds[seed].forSale === false) {
-                state.users.from.seeds[seed].forSale = true;
+            if (state.users[from].seeds.seed.owner === from && state.users.[from].seeds.seed.forSale === false) {
+                state.users.[from].seeds.seed.forSale = true;
                 seednames += `${seed[i]} `
             }
             } catch (e){
