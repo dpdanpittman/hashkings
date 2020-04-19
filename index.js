@@ -622,7 +622,7 @@ processor.on('market_post_seed', function(json, from) {
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
-            if (state.users[from] === from) {
+            if (state.users.from === from) {
                 state.cs[`${json.block_num}:${from}`] = `${from} entered if statement`
                 state.users[from].seeds[seed].forSale = true;
                 seednames += `${seed[i]} `
