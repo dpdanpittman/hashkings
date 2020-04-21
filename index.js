@@ -624,7 +624,7 @@ processor.on('market_post_seed', function(json, from) {
             try {
            
                 state.cs[`${json.block_num}:${from}`] = `${from} entered if statement`
-                state.users[from].seeds[seed].forSale = true;
+                state.users[from].seeds[seed[i]].forSale = true;
                 seednames += `${seed[i]} `
             
             } catch (e){
