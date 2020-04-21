@@ -622,11 +622,11 @@ processor.on('market_post_seed', function(json, from) {
         try {
         //for (var i = 0; i < seed.length; i++) {
             try {
-            if (from) {
+           
                 state.cs[`${json.block_num}:${from}`] = `${from} entered if statement`
                 state.users[from].seeds[seed].forSale = true;
                 seednames += `${seed[i]} `
-            }
+            
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
             }
