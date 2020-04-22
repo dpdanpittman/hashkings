@@ -244,6 +244,12 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
+//market output
+app.get('/market', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state.market, null, 3))
+});
+
 //shows seeds by user
 app.get('/seeds/:user', (req, res, next) => {
     let user = req.params.user, arr = []
@@ -614,9 +620,9 @@ function startApp() {
 
 
 //---------posting sales-----------//
-//https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_market_post_seed&json=%7B%22seed%22%3A%5B%22hk%22%5D%7D
+// https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%22PRICE%22%2C%22seed%22%3A0%7D
 processor.on('market_post_seed', function(json, from) {
-    let seed = json.pollen,
+    let seed = json.seed,
         seednames = ''
     let price = json.price,
         amount = 0
@@ -2166,7 +2172,7 @@ processor.on('market_cancel_buds', function(json, from) {
           }
         }
     });
-
+    // https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22jonyoudyer%22%5D&id=qwoyn_plant&json=%7B%22addr%22%3A%22a2%22%2C%22seed%22%3A0%7D
     // checks for qwoyn_plant and plants the seed
     processor.on('plant', function(json, from) {
         var index, seed=''
