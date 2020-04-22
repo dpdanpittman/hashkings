@@ -802,8 +802,18 @@ module.exports = {
    "bal": {
       "r": 0,
       "c": 0,
-      "b": 7446 ,
+      "b": 7446,
       "p": 1499487
+   },
+   "market": {
+      "forSale": [
+         {
+            "strain": "",
+            "owner": "",
+            "price": "",
+            "posted": 0
+         }
+      ]
    },
    "refund": [],
    "lands": {
@@ -25257,10 +25267,7 @@ module.exports = {
    "payday": [
       []
    ],
-   "blacklist": {
-      "zonguin": true,
-      "steembeem": true
-   },
+   "blacklist": {},
    "cs": {
       "42705056:ecoinstats": "ecoinstats succesfully watered d71 d76 d77 b82 c87 e81 f60 ",
       "42706216:anarcist69": "anarcist69 succesfully watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
