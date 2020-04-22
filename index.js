@@ -629,23 +629,27 @@ processor.on('market_post_seed', function(json, from) {
 
         try {
         for (var i = 0; i < seed.length; i++) {
-            
+            state.users[json.from].addrs.push(addr)
             try {
-            if (state.users[from]) {
-                state.users[from].seeds[seed].forSale = true;
+            if (state.users[json.from]) {
+                state.users[json.from].seeds[json.seed].forSale = true;
                 amount += `${price[i]}`;
                 seednames += `${seed[i]} `;
 
                 var postedToMarket = {
-                    seed: [
+                    from: [
                         {
-                            price:  amount,
-                            posted: json.block_num
+                        seed: [
+                            {
+                                price:  amount,
+                                posted: json.block_num
+                            }
+                        ]
                         }
                     ]
                 }
 
-                state.market.seeds[from].push(postedToMarket)
+                state.market.seeds.push(postedToMarket)
                 
             }
             } catch (e){
