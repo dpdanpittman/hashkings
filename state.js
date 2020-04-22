@@ -573,8 +573,8 @@ module.exports = {
       {
          "delegator": "jbsharkey",
          "vests": 195514626060,
-         "availible": 3,
-         "used": 2
+         "availible": 0,
+         "used": 4
       }
    ],
    "kudos": {
@@ -871,9 +871,7 @@ module.exports = {
          "a57",
          "e52",
          "e73",
-         "a121",
          "e104",
-         "b108",
          "c75",
          "f44",
          "b71",
@@ -8955,6 +8953,44 @@ module.exports = {
          "stats": [],
          "pollinated": false,
          "id": "b90"
+      },
+      "b108": {
+         "owner": "jbsharkey",
+         "strain": "",
+         "xp": 0,
+         "care": [
+            [
+               42731616,
+               "tilled"
+            ]
+         ],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "b108"
+      },
+      "a121": {
+         "owner": "jbsharkey",
+         "strain": "",
+         "xp": 0,
+         "care": [
+            [
+               42731616,
+               "tilled"
+            ]
+         ],
+         "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "a121"
       },
       "a126": {
          "owner": "jbsharkey",
@@ -23960,7 +23996,9 @@ module.exports = {
       "jbsharkey": {
          "addrs": [
             "b90",
-            "a126"
+            "a126",
+            "a121",
+            "b108"
          ],
          "xps": 26,
          "seeds": [
