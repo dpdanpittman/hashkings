@@ -620,7 +620,7 @@ function startApp() {
 
 
 //---------posting sales-----------//
-// https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%22PRICE%22%2C%22seed%22%3A0%7D
+// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%5B%225000%22%5D,%22seed%22%3A%5B%22mis%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
