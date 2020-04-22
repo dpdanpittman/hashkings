@@ -627,6 +627,19 @@ processor.on('market_post_seed', function(json, from) {
     let price = json.price,
         amount = 0
 
+        var postedToMarket = {
+            from: [
+                {
+                seed: [
+                    {
+                        price:  amount,
+                        posted: json.block_num
+                    }
+                ]
+                }
+            ]
+        }
+
         try {
         for (var i = 0; i < seed.length; i++) {
             state.users[json.from].addrs.push(addr)
@@ -635,19 +648,6 @@ processor.on('market_post_seed', function(json, from) {
                 state.users[json.from].seeds[json.seed].forSale = true;
                 amount += `${price[i]}`;
                 seednames += `${seed[i]} `;
-
-                var postedToMarket = {
-                    from: [
-                        {
-                        seed: [
-                            {
-                                price:  amount,
-                                posted: json.block_num
-                            }
-                        ]
-                        }
-                    ]
-                }
 
                 state.market.seeds.push(postedToMarket)
                 
