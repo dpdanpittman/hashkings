@@ -633,14 +633,16 @@ processor.on('market_post_seed', function(json, from) {
             try {
             if (state.users[from].seeds[seed].owner === from) {
                 state.users[from].seeds[seed].forSale = true;
-                price += `${price[i]}`;
+                amount += `${price[i]}`;
                 seednames += `${seed[i]} `;
 
                 var postedToMarket = {
-                    owner:  from,
-                    strain: seed,
-                    price:  amount,
-                    posted: json.block_num
+                    seed: [
+                        {
+                            price:  amount,
+                            posted: json.block_num
+                        }
+                    ]
                 }
 
                 state.market.seeds[from].push(postedToMarket)
