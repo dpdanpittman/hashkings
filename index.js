@@ -632,7 +632,7 @@ processor.on('market_post_seed', function(json, from) {
                 {
                 seed: [
                     {
-                        price:  amount,
+                        price:  json.price,
                         posted: json.block_num
                     }
                 ]
@@ -642,10 +642,9 @@ processor.on('market_post_seed', function(json, from) {
 
         try {
         for (var i = 0; i < seed.length; i++) {
-            state.users[json.from].addrs.push(addr)
             try {
             if (state.users[json.from]) {
-                state.users[json.from].seeds[json.seed].forSale = true;
+                state.users[json.from].seeds[json.seed[i]].forSale = true;
                 amount += `${price[i]}`;
                 seednames += `${seed[i]} `;
 
