@@ -625,25 +625,26 @@ processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
 
-    const postedToMarket = {
-        from: [
-            {
-            seed: [
-                {
-                    price:  json.price,
-                    posted: json.block_num
-                }
-            ]
-            }
-        ]
-    }
-
     try {
     if (state.users[json.from].seeds[seed].owner === from) {
         state.users[json.from].seeds[seed].forSale = true;
         seednames += `${seed[i]} `;
 
-        state.market.seeds.push(postedToMarket)
+        const postedToMarket = {
+            from: [
+                {
+                  seed: [
+                      {
+                          price:  json.price,
+                          posted: json.block_num
+                      }
+                  ]
+                }
+            ]
+        }
+
+        state.market.seeds.push(postedToMarket);
+
         
     }
     } catch (e){
