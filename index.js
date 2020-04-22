@@ -624,38 +624,32 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
-    let price = json.price
 
-        try {
-        for (var i = 0; i < seed.length; i++) {
-            try {
-            if (state.users[json.from]) {
-                state.users[json.from].seeds[json.seed].forSale = true;
-                seednames += `${seed[i]} `;
+    try {
+    if (state.users[json.from]) {
+        state.users[json.from].seeds[json.seed].forSale = true;
+        seednames += `${seed[i]} `;
 
-                var postedToMarket = {
-                    from: [
-                        {
-                        seed: [
-                            {
-                                price:  json.price,
-                                posted: json.block_num
-                            }
-                        ]
-                        }
-                    ]
+        const postedToMarket = {
+            from: [
+                {
+                seed: [
+                    {
+                        price:  json.price,
+                        posted: json.block_num
+                    }
+                ]
                 }
+            ]
+        }
 
-                state.market.seeds.push(postedToMarket)
-                
-            }
-            } catch (e){
-            state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }
-        }
-        } catch {
-            (console.log(from + ' tried to post ' + seednames +' seed for sale but an error occured'))
-        }
+        state.market.seeds.push(postedToMarket)
+        
+    }
+    } catch (e){
+    state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
+    }
+    
     state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale for ${json.price} STEEM`
 });
 
