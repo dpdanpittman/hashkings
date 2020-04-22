@@ -618,14 +618,27 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.pollen,
         seednames = ''
+    let price = json.price,
+        amount = 0
 
         try {
         for (var i = 0; i < seed.length; i++) {
+            
             try {
             if (state.users[from].seeds[seed].owner === from) {
-                state.cs[`${json.block_num}:${from}`] = `${from} entered if statement`
                 state.users[from].seeds[seed].forSale = true;
-                seednames += `${seed[i]} `
+                price += `${price[i]}`;
+                seednames += `${seed[i]} `;
+
+                var postedToMarket = {
+                    owner:  from,
+                    strain: seed,
+                    price:  amount,
+                    posted: json.block_num
+                }
+
+                state.market.seeds[from].push(postedToMarket)
+                
             }
             } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
@@ -634,7 +647,7 @@ processor.on('market_post_seed', function(json, from) {
         } catch {
             (console.log(from + ' tried to post ' + seednames +' seed for sale but an error occured'))
         }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale for ${price} STEEM`
 });
 
 processor.on('market_post_pollen', function(json, from) {
@@ -748,6 +761,7 @@ processor.on('market_cancel_buds', function(json, from) {
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
             plantnames = ''
+
         for (var i = 0; i < plants.length; i++) {
             try {
             if (state.land[plants[i]].owner === from) {

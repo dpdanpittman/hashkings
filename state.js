@@ -806,14 +806,37 @@ module.exports = {
       "p": 1499487
    },
    "market": {
-      "forSale": [
+      "seeds": [
          {
-            "strain": "",
-            "owner": "",
-            "price": "",
-            "posted": 0
-         }
-      ]
+            "qwoyn-chest": [
+               {
+                  "mis": [
+                     {
+                     "price": 0,
+                     "posted": 0
+                     }
+                  ]
+               }
+            ],
+            "qwoyn-fund": [
+               {
+                  "mis": [
+                     {
+                     "price": 0,
+                     "posted": 0
+                     }
+                  ]
+               }
+            ],            
+         },
+      ],
+      "pollen": [],
+      "buds": [],
+      "joints": [],
+      "blunts": [],
+      "edibles": [],
+      "cannagars": [],
+      "dippedJoints": []
    },
    "refund": [],
    "lands": {
