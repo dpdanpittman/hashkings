@@ -620,7 +620,7 @@ function startApp() {
 
 
 //---------posting sales-----------//
-// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%5B%225000%22%5D,%22seed%22%3A%5B%22mis%22%5D%7D
+// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%5B5000%5D,%22seed%22%3A%5B%22mis%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
@@ -631,7 +631,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {
             
             try {
-            if (state.users[from].seeds[seed].owner === from) {
+            if (state.users[from]) {
                 state.users[from].seeds[seed].forSale = true;
                 amount += `${price[i]}`;
                 seednames += `${seed[i]} `;
