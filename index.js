@@ -626,7 +626,7 @@ processor.on('market_post_seed', function(json, from) {
         seednames = ''
 
     try {
-        for (var i = 0; i < pollen.length; i++) {   
+        for (var i = 0; i < seed.length; i++) {   
         try {
             if (state.users[json.from].seeds[seed].owner === from) {
                 state.users[json.from].seeds[seed].forSale = true;
