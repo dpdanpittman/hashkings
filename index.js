@@ -651,7 +651,7 @@ processor.on('market_post_seed', function(json, from) {
         }
         }
     } catch {
-        (console.log(from + ' tried to post ' + pollennames +' pollen for sale but an error occured'))
+        (console.log(from + ' tried to post ' + seednames +' pollen for sale but an error occured'))
     }
 
     state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale for ${json.price} STEEM`
