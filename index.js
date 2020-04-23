@@ -631,7 +631,7 @@ processor.on('market_post_seed', function(json, from) {
         for (var i = 0; i < seed.length; i++) {   
         try {
             if (state.users[json.from].seeds[seed[i]].owner === from) {
-                sstate.users[json.from].seeds[seed[i]].forSale = true;
+                state.users[json.from].seeds[seed[i]].forSale = true;
                 seednames += `${seed[i]} `;
 
                 const postedToMarket = {
