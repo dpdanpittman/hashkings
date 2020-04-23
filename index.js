@@ -624,7 +624,7 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
-    let seller = json.from,
+    let price = json.from,
         sellerName = ''
 
         const postedToMarket = {
@@ -632,7 +632,7 @@ processor.on('market_post_seed', function(json, from) {
                 {
                 [seed]: [
                     {
-                        price:  json.price,
+                        price:  price,
                         posted: json.block_num
                     }
                 ]
@@ -640,12 +640,13 @@ processor.on('market_post_seed', function(json, from) {
             ]
         }
         state.market.seeds.push(postedToMarket);
+        state.users[from].seeds[seed].forSale = true;
 
    /* try {
         for (var i = 0; i < seed.length; i++) {   
         try {
-            if (state.users[json.from].seeds[seed[i]].owner === from) {
-                state.users[json.from].seeds[seed[i]].forSale = true;
+            if (state.users[from].seeds[seed[i]].owner === from) {
+                state.users[from].seeds[seed[i]].forSale = true;
                 seednames += `${seed[i]} `;
             }
         } catch (e){
