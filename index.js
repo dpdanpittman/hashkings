@@ -624,13 +624,13 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
-    let amount = json.price,
-        saleAmount = ''
+    let seller = json.from,
+        sellerName = ''
 
         const postedToMarket = {
-            from: [
+            [seller]: [
                 {
-                seed: [
+                [seed]: [
                     {
                         price:  json.price,
                         posted: json.block_num
