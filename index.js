@@ -627,26 +627,26 @@ processor.on('market_post_seed', function(json, from) {
     let amount = json.price,
         saleAmount = ''
 
-    try {
+        const postedToMarket = {
+            from: [
+                {
+                seed: [
+                    {
+                        price:  json.price,
+                        posted: json.block_num
+                    }
+                ]
+                }
+            ]
+        }
+        state.market.seeds.push(postedToMarket);
+
+   /* try {
         for (var i = 0; i < seed.length; i++) {   
         try {
             if (state.users[json.from].seeds[seed[i]].owner === from) {
                 state.users[json.from].seeds[seed[i]].forSale = true;
                 seednames += `${seed[i]} `;
-
-                const postedToMarket = {
-                    from: [
-                        {
-                        seed: [
-                            {
-                                price:  json.price,
-                                posted: json.block_num
-                            }
-                        ]
-                        }
-                    ]
-                }
-                state.market.seeds.push(postedToMarket);
             }
         } catch (e){
         state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
@@ -654,9 +654,9 @@ processor.on('market_post_seed', function(json, from) {
         }
     } catch {
         (console.log(from + ' tried to post a ' + seednames +' seed for sale but an error occured'))
-    }
+    }*/
 
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale for ${json.price} STEEM`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seed} seed for sale for ${json.price} STEEM`
 });
 
 processor.on('market_post_pollen', function(json, from) {
