@@ -628,7 +628,7 @@ processor.on('market_post_seed', function(json, from) {
         sellerName = ''
 
         const postedToMarket = {
-            [seller]: [
+            [from]: [
                 {
                 [seed]: [
                     {
