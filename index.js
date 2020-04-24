@@ -645,8 +645,8 @@ processor.on('market_post_seed', function(json, from) {
             TEST: true
         }
       
-        state.users[from].seeds[postedSeed].push(postedForSale)
-        console.log(state.users[from].seeds[postedSeed])
+        state.users[from].seeds[postedSeed].forSale = true;
+        console.log(state.users[from].seeds.postedSeed)
 
 
    /* try {
