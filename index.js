@@ -2443,7 +2443,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 want == 'browniemix' && amount == state.stats.prices.listed.seeds.special ||
                 want == 'hempwraps' && amount == state.stats.prices.listed.seeds.special ||
                 // market seeds
-                want == 'marketseed' && amount == state.users[from].seeds[0][seednames].price
+                want == 'marketseed' && amount == state.users[seller].seeds[0][type].price
                 ) {
                 if (state.stats.supply.land[want]) {
                     var allowed = false
@@ -2549,7 +2549,11 @@ processor.on('market_cancel_buds', function(json, from) {
                         cbd: 'coming soon',
                         breeder: 'Landrace Strain',
                         familyTree: 'Landrace Strain',
-                        pollinated: false
+                        pollinated: false,
+                        price: 0,
+                        pastValue: [],
+                        forSale: false,
+                        datePosted: 0,
                     }
                     if (!state.users[json.to]) {
                         state.users[json.to] = {
@@ -2628,8 +2632,8 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                     } else if (
                     // Purchase seed from the market
-                    // marketseed mis qwoyn    
-                    want == 'marketseed' &&  amount == state.users[seller].seeds[0][type].price && state.users[from].seeds[0][type].forSale === true
+                    // marketseed type seller    
+                    want == 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[from].seeds[0][type].forSale === true
                     ) {
                     if (want == 'marketseed') {
 
@@ -2637,21 +2641,21 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                       if(seller && state.users[seller].seeds[0][type].owner === seller && state.users[from].seeds[0][type].forSale === true){
+                       if(state.users[seller].seeds[0][type].owner === seller && state.users[seller].seeds[0][type].forSale === true){
                          try{
                              for (var i = 0;i < 1; i++){
                                  if (type){
                                    if(state.users[seller].seeds[0][type] === type){
+
+                                    var pastValue = {
+                                    [json.block_num]: state.users[seller].seeds[0][type].price
+                                    }
+                                    state.users[seller].seeds[0][type].push(pastValue)
+                                    state.users[seller].seeds[0][type].price = 0;
+                                    state.users[seller].seeds[0][type].datePosted = 0;
+
                                      state.users[seller].seeds[0][type].owner = from;
                                      purchasedSeed=state.users[seller].seeds[0][type].splice(i, 1)[0]
-
-                                     var pastValue = {
-                                        [json.block_num]: state.users[from].seeds[0][type].price
-                                       }
-                                       state.users[seller].seeds[0][type].push(pastValue)
-                                       state.users[seller].seeds[0][type].price = 0;
-                                       state.users[seller].seeds[0][type].datePosted = 0;
-
                                      break
                                    }
                                  } 
