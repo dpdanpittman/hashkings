@@ -646,7 +646,7 @@ processor.on('market_post_seed', function(json, from) {
         }
       
         //state.users[from].seeds[postedSeed[i]].push(postedForSale)
-        console.log(state.users[from].seeds[seedPosted])
+        console.log(state.users[from].seeds[postedSeed])
 
 
    /* try {
