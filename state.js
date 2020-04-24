@@ -806,14 +806,7 @@ module.exports = {
       "p": 1125418
    },
    "market": {
-      "seeds": [],
-      "pollen": [],
-      "buds": [],
-      "joints": [],
-      "blunts": [],
-      "edibles": [],
-      "cannagars": [],
-      "dippedJoints": []
+      "users": [],
    },
    "refund": [],
    "lands": {
