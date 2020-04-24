@@ -731,34 +731,18 @@ processor.on('market_post_buds', function(json, from) {
 });
 
 //---------cancel sales-----------//
-
+// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_cancel_seed&json=%7B%22seedToCancel%22%3A%5B%22mis%22%5D%7D
 processor.on('market_cancel_seed', function(json, from) {
-    let cancelSeed = json.seedCancel,
+    let cancelSeed = json.seedToCancel,
         seednames = ''
 
         seednames += `${cancelSeed}`;
 
         try {
             if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === true) {
-                
-                state.users[from].buds[0][budnames].forSale = true;
 
-                cancelSeed = state.market.seeds[from].details.splice(0, 1)[0]
-                break
-                /* remove seed from market
-                const postedToMarket = {
-                    [from]: [
-                        {
-                        [cancelSeed]: [
-                            {
-                                price:  json.price,
-                                posted: json.block_num
-                            }
-                        ]
-                        }
-                    ]
-                }
-                state.market.buds.push(postedToMarket);*/
+                // remove seed from market
+                cancelSeed = state.market.seeds[from].seeds[0][seednames].splice(0, 1)[0]
 
                 // set canceled seed forSale to false in users inventory
                 state.users[from].seeds[0][seednames].forSale = true;
@@ -768,7 +752,7 @@ processor.on('market_cancel_seed', function(json, from) {
             state.cs[`${json.block_num}:${from}`] = `${from} can't cancel what is not theirs`
         }
 
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully canceled a ${json.seedCancel} seed sale.`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully canceled a ${json.seedToCancel} seed sale.`
 });
 
 processor.on('market_cancel_pollen', function(json, from) {
@@ -2048,17 +2032,13 @@ processor.on('market_cancel_buds', function(json, from) {
         if(json.to && json.to.length > 2){
           try{
               for (var i = 0;i < state.users[from].seeds.length; i++){
-                  if (json.qual){
-                    if(state.users[from].seeds[i].strain === json.seed && state.users[from].seeds[i].xp == json.qual){
+                  if (json.seed){
+                    if(state.users[from].seeds[i].strain === json.seed){
                       state.users[from].seeds[i].owner = json.to;
                       seed=state.users[from].seeds.splice(i, 1)[0]
                       break
                     }
-                  } else if(state.users[from].seeds[i].strain === json.seed){
-                    state.users[from].seeds[i].owner = json.to;
-                    seed=state.users[from].seeds.splice(i, 1)[0]
-                    break
-                  }
+                  } 
               }
           } catch (e) {}
           if (seed) {
