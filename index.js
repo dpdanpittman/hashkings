@@ -630,24 +630,16 @@ processor.on('market_post_seed', function(json, from) {
         try {
             if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === false) {
 
-                // add seed to market
+               /* // add seed to market
                 const postedToMarket = {
-                    [from]: [
-                        {
-                        seeds: [
-                        {
-                            [postedSeed]: [
-                                {
-                                    price:  json.price,
-                                    posted: json.block_num
-                                }
-                            ]
-                        }
-                        ]   
-                        }
-                    ]
+                    price:  json.price,
+                    posted: json.block_num
                 }
-                state.market.users.push(postedToMarket);
+                state.users[from].seeds[0][seednames].push(postedToMarket);*/
+
+                // set price and when it was posted
+                state.users[from].seeds[0][seednames].price = json.price;
+                state.users[from].seeds[0][seednames].datePosted = json.block_num;
 
                 // set posted seed forSale to true in users inventory
                 state.users[from].seeds[0][seednames].forSale = true;
@@ -743,8 +735,9 @@ processor.on('market_cancel_seed', function(json, from) {
         try {
             if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === true) {
 
-                // remove seed from market
-                seed = state.market.users[from].seeds[0][seednames].splice(0, 1)[0]
+                // reset price and posted time to 0
+                state.users[from].seeds[0][seednames].price = 0;
+                state.users[from].seeds[0][seednames].datePosted = 0;
 
                 // set canceled seed forSale to false in users inventory
                 state.users[from].seeds[0][seednames].forSale = false;

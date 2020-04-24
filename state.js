@@ -805,9 +805,6 @@ module.exports = {
       "b": 15279,
       "p": 1125418
    },
-   "market": {
-      "users": [],
-   },
    "refund": [],
    "lands": {
       "forSale": [
@@ -11810,7 +11807,10 @@ module.exports = {
                   "familyTree": "mis",
                   "pollinated": false,
                   "father": "",
-                  "forSale": false
+                  "forSale": false,
+                  "price": 0,
+                  "pastValue": [],
+                  "datePosted": 0,
                }
             }
          ],
