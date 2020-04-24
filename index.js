@@ -625,6 +625,8 @@ processor.on('market_post_seed', function(json, from) {
     let postedSeed = json.seedPosted,
         seednames = ''
 
+        seednames += `${postedSeed}`;
+
         try {
             if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === false) {
 
@@ -645,8 +647,6 @@ processor.on('market_post_seed', function(json, from) {
 
                 // set posted seed forSale to true in users inventory
                 state.users[from].seeds[0][seednames].forSale = true;
-
-                seednames += `${postedSeed}`;
 
             }
         } catch (e){
