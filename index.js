@@ -636,8 +636,12 @@ processor.on('market_post_seed', function(json, from) {
                         {
                         [postedSeed]: [
                             {
-                                price:  json.price,
-                                posted: json.block_num
+                                seeds: [
+                                    {
+                                        price:  json.price,
+                                        posted: json.block_num
+                                    }
+                                ]
                             }
                         ]
                         }
@@ -729,23 +733,42 @@ processor.on('market_post_buds', function(json, from) {
 //---------cancel sales-----------//
 
 processor.on('market_cancel_seed', function(json, from) {
-    let seeds = json.seeds,
+    let cancelSeed = json.seedCancel,
         seednames = ''
+
+        seednames += `${cancelSeed}`;
+
         try {
-        for (var i = 0; i < seeds.length; i++) {
-            try {
-            if (state.users.from[seeds[i]].owner === from) {
-                state.users.from[seeds[i]].forSale = 0;
-                seednames += `${seeds[i]} `
+            if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === true) {
+                
+                state.users[from].buds[0][budnames].forSale = true;
+
+                cancelSeed = state.market.seeds[from].seeds.splice(0, 1)[0]
+                break
+                /* remove seed from market
+                const postedToMarket = {
+                    [from]: [
+                        {
+                        [cancelSeed]: [
+                            {
+                                price:  json.price,
+                                posted: json.block_num
+                            }
+                        ]
+                        }
+                    ]
+                }
+                state.market.buds.push(postedToMarket);*/
+
+                // set canceled seed forSale to false in users inventory
+                state.users[from].seeds[0][seednames].forSale = true;
+
             }
-            } catch (e){
-            state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }
+        } catch (e){
+            state.cs[`${json.block_num}:${from}`] = `${from} can't cancel what is not theirs`
         }
-        } catch {
-            (console.log(from + ' tried to post a ' + seednames +' for sale but an error occured'))
-        }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${seednames} seed for sale`
+
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully canceled a ${json.seedCancel} seed sale.`
 });
 
 processor.on('market_cancel_pollen', function(json, from) {
