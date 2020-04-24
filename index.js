@@ -745,7 +745,7 @@ processor.on('market_cancel_seed', function(json, from) {
                 cancelSeed = state.market.seeds[from].seeds[0][seednames].splice(0, 1)[0]
 
                 // set canceled seed forSale to false in users inventory
-                state.users[from].seeds[0][seednames].forSale = true;
+                state.users[from].seeds[0][seednames].forSale = false;
 
             }
         } catch (e){
