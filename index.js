@@ -624,18 +624,8 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let postedSeed = json.seedPosted,
         seednames = ''
-        
     let price = json.price,
         sellerName = ''
-    
-        let posted;
-        if (
-            state && state.users && state.users[from] &&
-            state.users[from].seeds[postedSeed].forSale
-           ) {
-            posted = state.users[from].seeds[postedSeed].forSale;
-            posted = true;
-        }
 
         const postedToMarket = {
             [from]: [
@@ -651,12 +641,12 @@ processor.on('market_post_seed', function(json, from) {
         }
         state.market.seeds.push(postedToMarket);
 
-       /* const postedForSale = {
+        const postedForSale = {
             TEST: true
         }
       
         //state.users[from].seeds[postedSeed[i]].push(postedForSale)
-        console.log(state.users[from].seeds[postedSeed])*/
+        console.log(state.users[from].seeds[postedSeed])
 
 
    /* try {
