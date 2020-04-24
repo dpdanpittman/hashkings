@@ -634,16 +634,16 @@ processor.on('market_post_seed', function(json, from) {
                 const postedToMarket = {
                     [from]: [
                         {
-                        [postedSeed]: [
-                            {
-                                details: [
-                                    {
-                                        price:  json.price,
-                                        posted: json.block_num
-                                    }
-                                ]
-                            }
-                        ]
+                        seeds: [
+                        {
+                            [postedSeed]: [
+                                {
+                                    price:  json.price,
+                                    posted: json.block_num
+                                }
+                            ]
+                        }
+                        ]   
                         }
                     ]
                 }
@@ -743,7 +743,7 @@ processor.on('market_cancel_seed', function(json, from) {
                 
                 state.users[from].buds[0][budnames].forSale = true;
 
-                cancelSeed = state.market.seeds[from].seeds.splice(0, 1)[0]
+                cancelSeed = state.market.seeds[from].details.splice(0, 1)[0]
                 break
                 /* remove seed from market
                 const postedToMarket = {
