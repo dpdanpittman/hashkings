@@ -11843,7 +11843,7 @@ module.exports = {
          "xps": 501376,
          "seeds": [
             {
-               "mis": [
+               "mis": 
                   {
                      "owner": "qwoyn",
                      "traits": [
@@ -11857,7 +11857,7 @@ module.exports = {
                      "father": "",
                      "forSale": false
                   }
-               ]
+               
             },
             {
                "mis": {
