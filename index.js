@@ -2538,28 +2538,28 @@ processor.on('market_cancel_buds', function(json, from) {
                            want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000
                            ) {
                     if (want == 'papers') {
-                        state.users[json.from].papers+=10;
-                        state.users[json.from].xps += 10;
+                        state.users[from].papers+=10;
+                        state.users[from].xps += 10;
                     }
                     if (want == 'kiefbox') {
-                        state.users[json.from].kiefbox+=10; 
-                        state.users[json.from].xps += 10; 
+                        state.users[from].kiefbox+=10; 
+                        state.users[from].xps += 10; 
                     }
                     if (want == 'vacoven') {
-                        state.users[json.from].vacoven+=10; 
-                        state.users[json.from].xps += 10; 
+                        state.users[from].vacoven+=10; 
+                        state.users[from].xps += 10; 
                     }
                     if (want == 'bluntwraps') {
-                        state.users[json.from].bluntwraps+=5; 
-                        state.users[json.from].xps += 50; 
+                        state.users[from].bluntwraps+=5; 
+                        state.users[from].xps += 50; 
                     }
                     if (want == 'browniemix') {
-                        state.users[json.from].browniemix+=5; 
-                        state.users[json.from].xps += 100; 
+                        state.users[from].browniemix+=5; 
+                        state.users[from].xps += 100; 
                     }
                     if (want == 'hempwraps') { 
-                        state.users[json.from].hempwraps++; 
-                        state.users[json.from].xps += 250; 
+                        state.users[from].hempwraps++; 
+                        state.users[from].xps += 250; 
                     }
                     const c = parseInt(amount * 0.75)
                     state.bal.c += c
@@ -2575,7 +2575,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
                        if(state.users[seller].seeds[0][type].owner === seller && state.users[seller].seeds[0][type].forSale === true){
                          try{
-                             for (var i = 0;i < 1; i++){
+                             for (var i = 0;i < state.users[seller].seeds.length; i++){
                                  if (type){
                                    if(state.users[seller].seeds[0][type] === type){
 
@@ -2588,7 +2588,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                      state.users[seller].seeds[0][type].datePosted = 0;
 
                                      state.users[seller].seeds[0][type].owner = from;
-                                     purchasedSeed=state.users[seller].seeds[0][type].splice(i, 1)[0]
+                                     purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0]
                                      break
                                    }
                                  } 
@@ -2649,7 +2649,6 @@ processor.on('market_cancel_buds', function(json, from) {
                  } 
                 else {
                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
-                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
             }
             } else if (amount > 10000000) {
                 state.bal.r += amount
