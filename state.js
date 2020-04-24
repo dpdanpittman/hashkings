@@ -25598,6 +25598,5 @@ module.exports = {
       "42789081:ecoinstats": "ecoinstats succesfully watered d71 d76 d77 b82 c87 e81 f60 ",
       "42790246:anarcist69": "anarcist69 succesfully watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
       "42790943:nutritree": "nutritree succesfully watered d54 e58 f33 ",
-      "42793281:qwoyn": "qwoyn succesfully posted a undefined seed for sale for 5000 STEEM"
    }
 }

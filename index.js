@@ -657,43 +657,73 @@ processor.on('market_post_seed', function(json, from) {
 });
 
 processor.on('market_post_pollen', function(json, from) {
-    let pollen = json.pollen,
+    let postedPollen = json.pollenPosted,
         pollennames = ''
+
+        pollennames += `${postedPollen}`;
+
         try {
-        for (var i = 0; i < pollen.length; i++) {
-            try {
-            if (state.users.from[pollen[i]].owner === from && state.users.from[pollen[i]].forSale === 0) {
-                state.users.from[pollen[i]].forSale = 1;
-                pollennames += `${pollen[i]} `
+            if (state.users[from].pollen[0][pollennames].owner === from && state.users[from].pollen[0][pollennames].forSale === false) {
+
+                // add pollen to market
+                const postedToMarket = {
+                    [from]: [
+                        {
+                        [postedPollen]: [
+                            {
+                                price:  json.price,
+                                posted: json.block_num
+                            }
+                        ]
+                        }
+                    ]
+                }
+                state.market.pollen.push(postedToMarket);
+
+                // set posted pollen forSale to true in users inventory
+                state.users[from].pollen[0][pollennames].forSale = true;
+
             }
-            } catch (e){
+        } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }
         }
-        } catch {
-            (console.log(from + ' tried to post ' + pollennames +' pollen for sale but an error occured'))
-        }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted ${pollennames} pollen for sale`
-});
+
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted ${json.pollenPosted} pollen for sale for ${json.price / 1000} STEEM`
+}); 
 
 processor.on('market_post_buds', function(json, from) {
-    let buds = json.buds,
-        budNames = ''
+    let postedBud = json.budPosted,
+        budnames = ''
+
+        budnames += `${postedBud}`;
+
         try {
-        for (var i = 0; i < buds.length; i++) {
-            try {
-            if (state.users.from[buds[i]].owner === from && state.users.from[buds[i]].forSale === 0) {
-                state.users.from[buds[i]].forSale = 1;
-                budNames += `${buds[i]} `
+            if (state.users[from].buds[0][budnames].owner === from && state.users[from].buds[0][budnames].forSale === false) {
+
+                // add bud to market
+                const postedToMarket = {
+                    [from]: [
+                        {
+                        [postedBud]: [
+                            {
+                                price:  json.price,
+                                posted: json.block_num
+                            }
+                        ]
+                        }
+                    ]
+                }
+                state.market.buds.push(postedToMarket);
+
+                // set posted bud forSale to true in users inventory
+                state.users[from].buds[0][budnames].forSale = true;
+
             }
-            } catch (e){
+        } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
-            }
         }
-        } catch {
-            (console.log(from + ' tried to post a ' + budNames +' bud for sale but an error occured'))
-        }
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${budNames} bud for sale`
+
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.budPosted} bud for sale for ${json.price / 1000} STEEM`
 });
 
 //---------cancel sales-----------//
