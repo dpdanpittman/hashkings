@@ -806,44 +806,7 @@ module.exports = {
       "p": 1125418
    },
    "market": {
-      "seeds": [
-         {
-            "qwoyn": [
-               {
-                  "undefined": [
-                     {
-                        "price": 5000,
-                        "posted": 42790117
-                     }
-                  ]
-               }
-            ]
-         },
-         {
-            "qwoyn": [
-               {
-                  "undefined": [
-                     {
-                        "price": 5000,
-                        "posted": 42793011
-                     }
-                  ]
-               }
-            ]
-         },
-         {
-            "qwoyn": [
-               {
-                  "undefined": [
-                     {
-                        "price": 5000,
-                        "posted": 42793120
-                     }
-                  ]
-               }
-            ]
-         }
-      ],
+      "seeds": [],
       "pollen": [],
       "buds": [],
       "joints": [],
@@ -11843,8 +11806,7 @@ module.exports = {
          "xps": 501376,
          "seeds": [
             {
-               "mis": 
-               {
+               "mis": {
                   "owner": "qwoyn",
                   "traits": [
                      "beta seed"
@@ -25635,6 +25597,7 @@ module.exports = {
       "42787909:vcdragon": "vcdragon succesfully watered ",
       "42789081:ecoinstats": "ecoinstats succesfully watered d71 d76 d77 b82 c87 e81 f60 ",
       "42790246:anarcist69": "anarcist69 succesfully watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
-      "42790943:nutritree": "nutritree succesfully watered d54 e58 f33 "
+      "42790943:nutritree": "nutritree succesfully watered d54 e58 f33 ",
+      "42793281:qwoyn": "qwoyn succesfully posted a undefined seed for sale for 5000 STEEM"
    }
 }
