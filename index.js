@@ -2419,7 +2419,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 a: 0,
                 u: 0
             }
-            var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
+            var want = json.memo.split(" ")[0].toLowerCase(),
                 type = json.memo.split(" ")[1] || '',
                 seller = json.memo.split(" ")[2] || ''
             if (
@@ -2487,7 +2487,10 @@ processor.on('market_cancel_buds', function(json, from) {
                         cbd: 'coming soon',
                         breeder: 'Landrace Strain',
                         familyTree: 'Landrace Strain',
-                        pollinated: false
+                        pollinated: false,
+                        price: 0,
+                        forSale: false,
+                        pastValue: []
                     }
                     if (!state.users[json.to]) {
                         state.users[json.to] = {
