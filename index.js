@@ -640,12 +640,9 @@ processor.on('market_post_seed', function(json, from) {
             ]
         }
         state.market.seeds.push(postedToMarket);
-
-        const postedForSale = {
-            TEST: true
-        }
-      
-        state.users[from].seeds[0][json.seedPosted].forSale = true;
+        
+        seednames += `${seedPosted}`;
+        state.users[from].seeds[0][seednames].forSale = true;
 
 
    /* try {
