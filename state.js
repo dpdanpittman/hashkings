@@ -14297,7 +14297,37 @@ module.exports = {
                   "Genesis Seed"
                ],
                "pollinated": false,
-               "forSale": 0
+               "forSale": false
+            },
+            {
+               "strain": "sog",
+               "owner": "bakedmakrura",
+               "xp": 100,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false,
+               "forSale": false
+            },
+            {
+               "strain": "tha",
+               "owner": "bakedmakrura",
+               "xp": 100,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false,
+               "forSale": false
+            },
+            {
+               "strain": "thai",
+               "owner": "bakedmakrura",
+               "xp": 100,
+               "traits": [
+                  "Genesis Seed"
+               ],
+               "pollinated": false,
+               "forSale": false
             }
          ],
          "pollen": [],
