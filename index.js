@@ -641,10 +641,11 @@ processor.on('market_post_seed', function(json, from) {
         }
         state.market.seeds.push(postedToMarket);
 
-        /*const postedForSale = {
-            forSale: true
-        }*/
-        console.log(state.users[from].seeds)
+        const postedForSale = {
+            TEST: true
+        }
+        state.users[from].seeds.push(postedForSale)
+        console.log(state.users[from].seeds.TEST)
 
    /* try {
         for (var i = 0; i < seed.length; i++) {   
