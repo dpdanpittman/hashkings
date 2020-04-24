@@ -2637,13 +2637,13 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                       if(json.seller && state.users[json.seller].seeds[0][seednames].owner === json.seller && state.users[from].seeds[0][seednames].forSale === true){
+                       if(seller && state.users[seller].seeds[0][type].owner === seller && state.users[from].seeds[0][type].forSale === true){
                          try{
                              for (var i = 0;i < 1; i++){
-                                 if (json.seedPosted){
-                                   if(state.users[json.seller].seeds[0][seednames] === json.seedPosted){
-                                     state.users[json.seller].seeds[0][seednames].owner = json.from;
-                                     purchasedSeed=state.users[json.seller].seeds[0][seednames].splice(i, 1)[0]
+                                 if (type){
+                                   if(state.users[seller].seeds[0][type] === type){
+                                     state.users[seller].seeds[0][type].owner = json.from;
+                                     purchasedSeed=state.users[seller].seeds[0][type].splice(i, 1)[0]
                                      break
                                    }
                                  } 
@@ -2684,7 +2684,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                }
 
                                var pastValue = {
-                                [json.block_num]: state.users[from].seeds[0][seednames].price
+                                [json.block_num]: state.users[from].seeds[0][type].price
                                }
                                state.users[from].seeds[0][seednames].push(pastValue)
                                state.users[from].seeds[0][seednames].price = 0;
@@ -2693,7 +2693,7 @@ processor.on('market_cancel_buds', function(json, from) {
                              } else {
                                  state.users[json.from].seeds.push(purchasedSeed)
                              }
-                             state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${json.seedPosted} from ${json.seller}`
+                             state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} from ${seller}`
                          } else {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
                          }
@@ -2701,7 +2701,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
                        //-----
 
-                    }
+                    
                     //pay hashkings
                     const c = parseInt(amount * 0.01)
                     state.bal.c += c
@@ -2710,6 +2710,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     //pay seller
                     state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
+                    }
                     //bud sales
                  } else if (
                         want == 'market_bud'  && state.users[seller].seeds[type].forSale === 1) {
