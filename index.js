@@ -630,7 +630,7 @@ processor.on('market_post_seed', function(json, from) {
         const postedToMarket = {
             [from]: [
                 {
-                [seed]: [
+                [postedSeed]: [
                     {
                         price:  json.price,
                         posted: json.block_num
