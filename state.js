@@ -806,7 +806,44 @@ module.exports = {
       "p": 1125418
    },
    "market": {
-      "seeds": [],
+      "seeds": [
+         {
+            "qwoyn": [
+               {
+                  "undefined": [
+                     {
+                        "price": 5000,
+                        "posted": 42790117
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "qwoyn": [
+               {
+                  "undefined": [
+                     {
+                        "price": 5000,
+                        "posted": 42793011
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "qwoyn": [
+               {
+                  "undefined": [
+                     {
+                        "price": 5000,
+                        "posted": 42793120
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
       "pollen": [],
       "buds": [],
       "joints": [],
@@ -2195,6 +2232,10 @@ module.exports = {
          "strain": "kmj",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -2218,6 +2259,10 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "kmj",
          "care": [
+            [
+               42790247,
+               "watered"
+            ],
             [
                42762223,
                "watered",
@@ -4531,7 +4576,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "cg",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               42790944,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 6,
          "substage": 1,
@@ -4548,7 +4598,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "dp",
          "xp": 1,
-         "care": [],
+         "care": [
+            [
+               42790944,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 5,
          "substage": 3,
@@ -4565,7 +4620,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               42790944,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 5,
          "substage": 6,
@@ -9430,6 +9490,10 @@ module.exports = {
          "strain": "hk",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9453,6 +9517,10 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "hk",
          "care": [
+            [
+               42790247,
+               "watered"
+            ],
             [
                42762223,
                "watered",
@@ -9478,6 +9546,10 @@ module.exports = {
          "strain": "",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9502,6 +9574,10 @@ module.exports = {
          "strain": "",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9525,6 +9601,10 @@ module.exports = {
          "strain": "",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9547,6 +9627,10 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "care": [
+            [
+               42790247,
+               "watered"
+            ],
             [
                42762223,
                "watered",
@@ -9572,6 +9656,10 @@ module.exports = {
          "strain": "",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9594,6 +9682,10 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "care": [
+            [
+               42790247,
+               "watered"
+            ],
             [
                42762223,
                "watered",
@@ -9619,6 +9711,10 @@ module.exports = {
          "strain": "",
          "care": [
             [
+               42790247,
+               "watered"
+            ],
+            [
                42762223,
                "watered",
                ""
@@ -9642,6 +9738,10 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "care": [
+            [
+               42790247,
+               "watered"
+            ],
             [
                42762223,
                "watered",
@@ -11745,17 +11845,17 @@ module.exports = {
             {
                "mis": [
                   {
-                  "owner": "qwoyn",
-                  "traits": [
-                     "beta seed"
-                  ],
-                  "terps": [],
-                  "thc": "coming soon",
-                  "cbd": "coming soon",
-                  "familyTree": "mis",
-                  "pollinated": false,
-                  "father": "",
-                  "forSale": false
+                     "owner": "qwoyn",
+                     "traits": [
+                        "beta seed"
+                     ],
+                     "terps": [],
+                     "thc": "coming soon",
+                     "cbd": "coming soon",
+                     "familyTree": "mis",
+                     "pollinated": false,
+                     "father": "",
+                     "forSale": false
                   }
                ]
             },
@@ -25714,6 +25814,8 @@ module.exports = {
       "42787878:jbsharkey": "planted on harvested plot a126 ",
       "42787890:jbsharkey": "jbsharkey succesfully watered a126 ",
       "42787909:vcdragon": "vcdragon succesfully watered ",
-      "42789081:ecoinstats": "ecoinstats succesfully watered d71 d76 d77 b82 c87 e81 f60 "
+      "42789081:ecoinstats": "ecoinstats succesfully watered d71 d76 d77 b82 c87 e81 f60 ",
+      "42790246:anarcist69": "anarcist69 succesfully watered a53 e36 b92 d84 e92 f68 f69 a113 b93 d85 e93 e94 ",
+      "42790943:nutritree": "nutritree succesfully watered d54 e58 f33 "
    }
 }

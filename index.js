@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42789519; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 42792723; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42789519;
+const ago = ENV.ago || 42792723;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com/' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -645,8 +645,8 @@ processor.on('market_post_seed', function(json, from) {
             TEST: true
         }
         for(i = 0; i = 1; i++) {
-        state.users[from].seeds.postedSeed[i].push(postedForSale)
-        console.log(state.users[from].seeds.postedSeed[i].TEST)
+        state.users[from].seeds[postedSeed[i]].push(postedForSale)
+        console.log(state.users[from].seeds[postedSeed[i]].TEST)
         }
 
    /* try {
