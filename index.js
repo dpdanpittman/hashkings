@@ -645,7 +645,7 @@ processor.on('market_post_seed', function(json, from) {
             TEST: true
         }
       
-        state.users[from].seeds[0]["mis"].forSale = true;
+        state.users[from].seeds[0][json.seedPosted].forSale = true;
 
 
    /* try {
