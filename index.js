@@ -2629,6 +2629,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     } else if (
                     // Purchase seed from the market
                     // {"seller":"hashkings","seedPosted":["mis"]}    
+                    want == 'marketseed' &&  amount == state.users[json.seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
                     ) {
                     if (want == 'marketseed') {
 
