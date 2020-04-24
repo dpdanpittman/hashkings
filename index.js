@@ -742,7 +742,7 @@ processor.on('market_cancel_seed', function(json, from) {
             if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === true) {
 
                 // remove seed from market
-                cancelSeed = state.market.seeds[from].seeds[0][seednames].splice(0, 1)[0]
+                //cancelSeed = state.market.seeds[from].seeds[0][seednames].splice(0, 1)[0]
 
                 // set canceled seed forSale to false in users inventory
                 state.users[from].seeds[0][seednames].forSale = false;
