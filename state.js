@@ -11743,7 +11743,8 @@ module.exports = {
          "xps": 501376,
          "seeds": [
             {
-               "mis": {
+               "mis": [
+                  {
                   "owner": "qwoyn",
                   "traits": [
                      "beta seed"
@@ -11757,7 +11758,8 @@ module.exports = {
                   "pollinated": false,
                   "father": "",
                   "forSale": false
-               }
+                  }
+               ]
             },
             {
                "mis": {
