@@ -624,8 +624,6 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let postedSeed = json.seedPosted,
         seednames = ''
-    let price = json.price,
-        sellerName = ''
 
         const postedToMarket = {
             [from]: [
@@ -640,8 +638,8 @@ processor.on('market_post_seed', function(json, from) {
             ]
         }
         state.market.seeds.push(postedToMarket);
-        
-        seednames += `${seedPosted}`;
+
+        seednames += `${postedSeed}`;
         state.users[from].seeds[0][seednames].forSale = true;
 
 
