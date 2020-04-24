@@ -2379,6 +2379,7 @@ processor.on('market_cancel_buds', function(json, from) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
+
             fetch(`http://blacklist.usesteem.com/user/${json.from}`)
             .then(function(response) {
                 return response.json();
@@ -2564,9 +2565,8 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.bal.c += c
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
-                    } else if (
-                    // Purchase seed from the market
-                    // marketseed type seller    
+
+                    } else if ( 
                     want === 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want === 'marketseed') {
@@ -2579,12 +2579,13 @@ processor.on('market_cancel_buds', function(json, from) {
                                  if (type){
                                    if(state.users[seller].seeds[0][type] === type){
 
-                                    var pastValue = {
-                                        price: state.users[seller].seeds[0][type].price
-                                    }
-                                    state.users[seller].seeds[0][type].push(pastValue)
-                                    state.users[seller].seeds[0][type].price = 0;
-                                    state.users[seller].seeds[0][type].datePosted = 0;
+                                     var pastValue = {
+                                         price: state.users[seller].seeds[0][type].price
+                                     }
+
+                                     state.users[seller].seeds[0][type].push(pastValue)
+                                     state.users[seller].seeds[0][type].price = 0;
+                                     state.users[seller].seeds[0][type].datePosted = 0;
 
                                      state.users[seller].seeds[0][type].owner = from;
                                      purchasedSeed=state.users[seller].seeds[0][type].splice(i, 1)[0]
@@ -2630,167 +2631,26 @@ processor.on('market_cancel_buds', function(json, from) {
                              } else {
                                  state.users[from].seeds.push(purchasedSeed)
                              }
-                             state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} from ${seller}`
+                             state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
                          }
                        }
                     
-                    //pay hashkings
-                    const c = parseInt(amount * 0.01)
-                    state.bal.c += c
-                    state.bal.b += amount - c
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
-                    //pay seller
-                    state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
+                        //pay hashkings
+                        const c = parseInt(amount * 0.01)
+                        state.bal.c += c
+                        state.bal.b += amount - c
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
+                        //pay seller
+                        state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
                     }
-                    //bud sales
-                 } else if (
-                        want == 'market_bud'  && state.users[seller].seeds[type].forSale === 1) {
-                 if (want == 'market_bud') {
-                     try{
-                         for (var i = 0;i < state.users[from].seeds.length; i++){
-                             if (json.want){
-                               if(state.users[from].seeds[i].strain === type){
-                                 state.users[from].seeds[i].owner = seller;
-                                 state.users[seller].seeds[type].forSale--;
-                                 type=state.users[from].seeds.splice(i, 1)[0]
-                                 break
-                               }
-                             } else if(state.users[from].seeds[i].strain === type){
-                               state.users[from].seeds[i].owner = seller;
-                               state.users[seller].seeds[type].forSale--;
-                               type=state.users[from].seeds.splice(i, 1)[0]
-                               break
-                             }
-                         }
-                     } catch (e) {}
-                     if (type) {
-                         if (!state.users[seller]) {
-                           state.users[seller] = {
-                             addrs: [],
-                             seeds: [type],
-                             buds: [],
-                             pollen: [],
-                             breeder: breeder,
-                             farmer: farmer,
-                             alliance: "",
-                             friends: [],
-                             inv: [],
-                             seeds: [],
-                             pollen: [],
-                             buds: [],
-                             kief: [],
-                             bubblehash: [],
-                             oil: [],
-                             edibles: [],
-                             joints: [],
-                             blunts: [],
-                             moonrocks: [],
-                             dippedjoints: [],
-                             cannagars: [],
-                             kiefbox: 0,
-                             vacoven: 0,
-                             bubblebags: 0,
-                             browniemix: 0,
-                             stats: [],
-                             traits:[],
-                             terps:[],
-                             v: 0
-                           }
-                         } else {
-                             state.users[seller].seeds.push(type)
-                         }
-                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
-                     } else {
-                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
-                     }
-                    
-                 //pay hashkings
-                 const c = parseInt(amount * 0.01)
-                 state.bal.c += c
-                 state.bal.b += amount - c
-                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
-                 //pay seller
-                 state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
-                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
-                    }
-                 //market pollen sales
-                    } else if (
-                        want == 'market_pollen'  && state.users[seller].seeds[type].forSale === 1) {
-                 if (want == 'market_pollen') {
-                     try{
-                         for (var i = 0;i < state.users[from].seeds.length; i++){
-                             if (json.want){
-                               if(state.users[from].seeds[i].strain === type){
-                                 state.users[from].seeds[i].owner = seller;
-                                 state.users[seller].seeds[type].forSale--;
-                                 type=state.users[from].seeds.splice(i, 1)[0]
-                                 break
-                               }
-                             } else if(state.users[from].seeds[i].strain === type){
-                               state.users[from].seeds[i].owner = seller;
-                               state.users[seller].seeds[type].forSale--;
-                               type=state.users[from].seeds.splice(i, 1)[0]
-                               break
-                             }
-                         }
-                     } catch (e) {}
-                     if (type) {
-                         if (!state.users[seller]) {
-                           state.users[seller] = {
-                             addrs: [],
-                             seeds: [type],
-                             buds: [],
-                             pollen: [],
-                             breeder: breeder,
-                             farmer: farmer,
-                             alliance: "",
-                             friends: [],
-                             inv: [],
-                             seeds: [],
-                             pollen: [],
-                             buds: [],
-                             kief: [],
-                             bubblehash: [],
-                             oil: [],
-                             edibles: [],
-                             joints: [],
-                             blunts: [],
-                             moonrocks: [],
-                             dippedjoints: [],
-                             cannagars: [],
-                             kiefbox: 0,
-                             vacoven: 0,
-                             bubblebags: 0,
-                             browniemix: 0,
-                             stats: [],
-                             traits:[],
-                             terps:[],
-                             v: 0
-                           }
-                         } else {
-                             state.users[seller].seeds.push(type)
-                         }
-                         state.cs[`${json.block_num}:${from}`] = `${from} bought a ${type.strain} from ${seller}`
-                     } else {
-                         state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
-                     }
-                 //pay hashkings
-                 const c = parseInt(amount * 0.01)
-                 state.bal.c += c
-                 state.bal.b += amount - c
-                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
-                 //pay seller
-                 state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
-                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
-                    } 
-                }
-                    else {
-                        state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
-                    }
+                 } 
+                else {
+                state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
+                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
+            }
             } else if (amount > 10000000) {
                 state.bal.r += amount
                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
