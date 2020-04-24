@@ -624,7 +624,7 @@ function startApp() {
 processor.on('market_post_seed', function(json, from) {
     let seed = json.seed,
         seednames = ''
-    let price = json.from,
+    let price = json.price,
         sellerName = ''
 
         const postedToMarket = {
@@ -645,7 +645,7 @@ processor.on('market_post_seed', function(json, from) {
             forSale: true,
     
         }
-        state.users[json.from].seeds[seed].forSale += true;
+        state.users.from.seeds.seed.forSale += true;
 
    /* try {
         for (var i = 0; i < seed.length; i++) {   
