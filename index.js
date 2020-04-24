@@ -2628,8 +2628,8 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                     } else if (
                     // Purchase seed from the market
-                    // {"seller":"hashkings","seedPosted":"mis"}    
-                    want == 'market_seed' &&  amount == state.users[seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
+                    // {"seller":"hashkings","seedPosted":["mis"]}    
+                    want == 'market_seed' &&  amount == state.users[json.seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
                     ) {
                     if (want == 'market_seed') {
 
