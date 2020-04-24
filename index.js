@@ -626,10 +626,7 @@ processor.on('market_post_seed', function(json, from) {
         seednames = ''
 
         try {
-            if (state.users[from].seeds[0][seednames].owner === from &&
-                state.users[from].seeds[0][seednames].forSale === false &&
-                state.users[from]
-               ) {
+            if (state.users[from].seeds[0][seednames].owner === from && state.users[from].seeds[0][seednames].forSale === false) {
 
                 // add seed to market
                 const postedToMarket = {
@@ -650,7 +647,7 @@ processor.on('market_post_seed', function(json, from) {
                 state.users[from].seeds[0][seednames].forSale = true;
 
                 seednames += `${postedSeed}`;
-                
+
             }
         } catch (e){
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
