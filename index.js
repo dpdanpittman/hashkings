@@ -2528,68 +2528,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.bal.c += c
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
-                   
-                }  else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg || 
-                            want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || 
-                            want == 'tseed' && amount == state.stats.prices.listed.seeds.top || 
-                            want == 'spseed' && amount == state.stats.prices.listed.seeds.special
-                            ) {
-                    if (state.stats.supply.strains.indexOf(type) < 0){ type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length -1)]}
-                    var seed = {
-                        strain: type,
-                        owner: json.from,
-                        traits: ['genesis seeds'],
-                        terps: [],
-                        thc: 'coming soon',
-                        cbd: 'coming soon',
-                        breeder: 'Landrace Strain',
-                        familyTree: 'Landrace Strain',
-                        pollinated: false,
-                        price: 0,
-                        pastValue: [],
-                        forSale: false,
-                        datePosted: 0,
-                    }
-                    if (!state.users[json.to]) {
-                        state.users[json.to] = {
-                          addrs: [],
-                          seeds: [seed],
-                          buds: [],
-                          pollen: [],
-                          breeder: breeder,
-                          farmer: farmer,
-                          alliance: "",
-                          friends: [],
-                          inv: [],
-                          seeds: [],
-                          pollen: [],
-                          buds: [],
-                          kief: [],
-                          bubblehash: [],
-                          oil: [],
-                          edibles: [],
-                          joints: [],
-                          blunts: [],
-                          moonrocks: [],
-                          dippedjoints: [],
-                          cannagars: [],
-                          kiefbox: 0,
-                          vacoven: 0,
-                          bubblebags: 0,
-                          browniemix: 0,
-                          stats: [],
-                          traits:[],
-                          terps:[],
-                          v: 0
-                        }
-                      }
-                    state.users[json.from].xps += 1;
-                    state.users[json.from].seeds.push(seed)
 
-                    const c = parseInt(amount * 0.75)
-                    state.bal.c += c
-                    state.bal.b += amount - c
-                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                 } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || 
                            want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || 
                            want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || 
@@ -2641,7 +2580,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                    if(state.users[seller].seeds[0][type] === type){
 
                                     var pastValue = {
-                                    [json.block_num]: state.users[seller].seeds[0][type].price
+                                        price: state.users[seller].seeds[0][type].price
                                     }
                                     state.users[seller].seeds[0][type].push(pastValue)
                                     state.users[seller].seeds[0][type].price = 0;
