@@ -2633,11 +2633,9 @@ processor.on('market_cancel_buds', function(json, from) {
                     } else if (
                     // Purchase seed from the market
                     // marketseed type seller    
-                    want == 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[from].seeds[0][type].forSale === true
+                    want == 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want == 'marketseed') {
-
-                       //------
                         
                        var purchasedSeed=''
 
@@ -2703,9 +2701,6 @@ processor.on('market_cancel_buds', function(json, from) {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
                          }
                        }
-
-                       //-----
-
                     
                     //pay hashkings
                     const c = parseInt(amount * 0.01)
