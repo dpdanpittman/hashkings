@@ -2629,7 +2629,6 @@ processor.on('market_cancel_buds', function(json, from) {
                     } else if (
                     // Purchase seed from the market
                     // {"seller":"hashkings","seedPosted":["mis"]}    
-                    want == 'marketseed' &&  amount == state.users[json.seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
                     ) {
                     if (want == 'marketseed') {
 
@@ -2772,7 +2771,7 @@ processor.on('market_cancel_buds', function(json, from) {
                      } else {
                          state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
                      }
-                 }    
+                    
                  //pay hashkings
                  const c = parseInt(amount * 0.01)
                  state.bal.c += c
@@ -2781,7 +2780,8 @@ processor.on('market_cancel_buds', function(json, from) {
                  //pay seller
                  state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
                  state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
-                 //pollen sales
+                    }
+                 //market pollen sales
                     } else if (
                         want == 'market_pollen'  && state.users[seller].seeds[type].forSale === 1) {
                  if (want == 'market_pollen') {
@@ -2842,7 +2842,6 @@ processor.on('market_cancel_buds', function(json, from) {
                      } else {
                          state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that seed`
                      }
-                 }
                  //pay hashkings
                  const c = parseInt(amount * 0.01)
                  state.bal.c += c
@@ -2851,7 +2850,8 @@ processor.on('market_cancel_buds', function(json, from) {
                  //pay seller
                  state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
                  state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
-                 }
+                    } 
+                }
                     else {
                         state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
