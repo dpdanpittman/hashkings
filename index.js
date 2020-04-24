@@ -620,45 +620,43 @@ function startApp() {
 
 
 //---------posting sales-----------//
-// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A%5B5000%5D,%22seed%22%3A%5B%22mis%22%5D%7D
+// https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22qwoyn%22%5D&id=qwoyn_market_post_seed&json=%7B%22price%22%3A5000,%22seedPosted%22%3A%5B%22mis%22%5D%7D
 processor.on('market_post_seed', function(json, from) {
     let postedSeed = json.seedPosted,
         seednames = ''
 
-        const postedToMarket = {
-            [from]: [
-                {
-                [postedSeed]: [
-                    {
-                        price:  json.price,
-                        posted: json.block_num
-                    }
-                ]
-                }
-            ]
-        }
-        state.market.seeds.push(postedToMarket);
-
-        seednames += `${postedSeed}`;
-        state.users[from].seeds[0][seednames].forSale = true;
-
-
-   /* try {
-        for (var i = 0; i < seed.length; i++) {   
         try {
-            if (state.users[from].seeds[seed[i]].owner === from) {
-                state.users[from].seeds[seed[i]].forSale = true;
-                seednames += `${seed[i]} `;
+            if (state.users[from].seeds[0][seednames].owner === from &&
+                state.users[from].seeds[0][seednames].forSale === false &&
+                state.users[from]
+               ) {
+
+                // add seed to market
+                const postedToMarket = {
+                    [from]: [
+                        {
+                        [postedSeed]: [
+                            {
+                                price:  json.price,
+                                posted: json.block_num
+                            }
+                        ]
+                        }
+                    ]
+                }
+                state.market.seeds.push(postedToMarket);
+
+                // set posted seed forSale to true in users inventory
+                state.users[from].seeds[0][seednames].forSale = true;
+
+                seednames += `${postedSeed}`;
+                
             }
         } catch (e){
-        state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
+            state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
         }
-        }
-    } catch {
-        (console.log(from + ' tried to post a ' + seednames +' seed for sale but an error occured'))
-    }*/
 
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seed} seed for sale for ${json.price} STEEM`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seedPosted} seed for sale for ${json.price} STEEM`
 });
 
 processor.on('market_post_pollen', function(json, from) {
