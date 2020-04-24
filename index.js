@@ -2376,6 +2376,11 @@ processor.on('market_cancel_buds', function(json, from) {
     });
 
     processor.onOperation('transfer', function(json, from) {
+        let postedSeed = json.seedPosted,
+        seednames = ''
+
+        seednames += `${postedSeed}`;
+
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
@@ -2620,7 +2625,6 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                     } else if (
-
                     // Purchase seed from the market
                     // {"seller":"hashkings","seedPosted":"mis"}    
                     want == 'market_seed' &&  amount == state.users[seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
@@ -2628,10 +2632,6 @@ processor.on('market_cancel_buds', function(json, from) {
                     if (want == 'market_seed') {
 
                        //------
-                        let postedSeed = json.seedPosted,
-                        seednames = ''
-
-                        seednames += `${postedSeed}`;
                         
                        var purchasedSeed=''
 
