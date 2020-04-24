@@ -11749,9 +11749,7 @@ module.exports = {
                   "traits": [
                      "beta seed"
                   ],
-                  "terps": [
-                     ""
-                  ],
+                  "terps": [],
                   "thc": "coming soon",
                   "cbd": "coming soon",
                   "familyTree": "mis",
