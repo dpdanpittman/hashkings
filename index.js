@@ -644,7 +644,11 @@ processor.on('market_post_seed', function(json, from) {
         /*const postedForSale = {
             forSale: true
         }*/
+        try {
         state.users[from].seeds[seed].forSale = true;
+    } catch {
+        (console.log(state.users[from].seeds[seed].forSale))
+    }
 
    /* try {
         for (var i = 0; i < seed.length; i++) {   
