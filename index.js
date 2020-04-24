@@ -653,7 +653,7 @@ processor.on('market_post_seed', function(json, from) {
             state.cs[`${json.block_num}:${from}`] = `${from} can't post what is not theirs`
         }
 
-    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seedPosted} seed for sale for ${json.price} STEEM`
+    state.cs[`${json.block_num}:${from}`] = `${from} succesfully posted a ${json.seedPosted} seed for sale for ${json.price / 1000} STEEM`
 });
 
 processor.on('market_post_pollen', function(json, from) {
