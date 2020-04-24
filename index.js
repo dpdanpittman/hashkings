@@ -2443,7 +2443,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 want == 'browniemix' && amount == state.stats.prices.listed.seeds.special ||
                 want == 'hempwraps' && amount == state.stats.prices.listed.seeds.special ||
                 // market seeds
-                want == 'market_seed' && amount == state.users[from].seeds[0][seednames].price
+                want == 'marketseed' && amount == state.users[from].seeds[0][seednames].price
                 ) {
                 if (state.stats.supply.land[want]) {
                     var allowed = false
@@ -2629,9 +2629,9 @@ processor.on('market_cancel_buds', function(json, from) {
                     } else if (
                     // Purchase seed from the market
                     // {"seller":"hashkings","seedPosted":["mis"]}    
-                    want == 'market_seed' &&  amount == state.users[json.seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
+                    want == 'marketseed' &&  amount == state.users[json.seller].seeds[0][seednames].price && state.users[from].seeds[0][seednames].forSale === true
                     ) {
-                    if (want == 'market_seed') {
+                    if (want == 'marketseed') {
 
                        //------
                         
