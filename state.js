@@ -12672,30 +12672,38 @@ module.exports = {
          "xps": 2,
          "seeds": [
             {
-               "strain": "aca",
-               "owner": "hashkings",
-               "xp": 2250,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": false,
-               "forSale": 0
-            },
-            {
-               "strain": "hk",
-               "owner": "hashkings",
-               "traits": [
-                  "genesis seeds"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "Landrace Strain",
-               "familyTree": "Landrace Strain",
-               "pollinated": false,
-               "price": 0,
-               "forSale": false,
-               "pastValue": []
+               "aca": {
+                  "owner": "hashkings",
+                  "traits": [
+                     "Genesis Seed"
+                  ],
+                  "terps": [],
+                  "thc": "coming soon",
+                  "cbd": "coming soon",
+                  "familyTree": "mis",
+                  "pollinated": false,
+                  "father": "",
+                  "forSale": false,
+                  "price": 0,
+                  "pastValue": [],
+                  "datePosted": 0
+               },
+               "hk": {
+                  "owner": "hashkings",
+                  "traits": [
+                     "Genesis Seed"
+                  ],
+                  "terps": [],
+                  "thc": "coming soon",
+                  "cbd": "coming soon",
+                  "familyTree": "mis",
+                  "pollinated": false,
+                  "father": "",
+                  "forSale": true,
+                  "price": 0,
+                  "pastValue": [],
+                  "datePosted": 0
+               }
             }
          ],
          "pollen": [],
