@@ -2414,7 +2414,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 u: 0
             }
             var want = json.memo.split(" ")[0].toLowerCase(),
-                type = json.memo.split(" ")[1]// || '',
+                type = json.memo.split(" ")[1] || '',
                 seller = json.memo.split(" ")[2] || ''
             if (
                 state.stats.prices.listed[want] == amount ||
