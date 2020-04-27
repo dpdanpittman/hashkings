@@ -2570,17 +2570,20 @@ processor.on('market_cancel_buds', function(json, from) {
                     state.bal.b += amount - c
                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
 
-                    } else if ( 
+                    } else {
+                        state.cs[`${json.block_num}:${from}`] = `${from} tried to buy tools but didn't have the requirements`
+                    }
+                    if ( 
                     want === 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want === 'marketseed') {
                         var seed=''
-                       // try{
-                           // for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                seed=state.users[seller].seeds[0][type].splice(0, 1)[0];
-                          //      break;
-                          //  }
-                       // } catch (e) {console.log('splice is not a function')}
+                        try{
+                            for (var i = 0;i < state.users[seller].seeds.length; i++){
+                                seed=state.users[seller].seeds[0][type].splice(i, 1);
+                                break;
+                            }
+                        } catch (e) {console.log('splice is not a function')}
                          if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
