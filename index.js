@@ -2568,7 +2568,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     ) {
                     if (want === 'marketseed') {
                         
-                       var purchasedSeed=''
+                       var purchasedSeed='';
 
                         
 
@@ -2586,7 +2586,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
                                     state.users[seller].seeds[0][type].owner = from;
                                     purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0];
-                                    break
+                                  
                                 }
 
                          if (purchasedSeed) {
