@@ -13664,7 +13664,7 @@ module.exports = {
             "a104",
             "b98"
          ],
-         "xps": 3626,
+         "xps": 13626,
          "seeds": [
             {
                "strain": "lkg",
@@ -17749,13 +17749,13 @@ module.exports = {
          "moonrocks": [],
          "dippedjoints": [],
          "cannagars": [],
-         "kiefbox": 0,
-         "vacoven": 0,
+         "kiefbox": 10,
+         "vacoven": 10,
          "bubblebags": 0,
          "browniemix": 0,
-         "papers": 0,
-         "bluntwraps": 0,
-         "hempwraps": 0,
+         "papers": 10,
+         "bluntwraps": 10,
+         "hempwraps": 10,
          "cloningkit": 0,
          "indoorvegkit": 0,
          "stats": [],
