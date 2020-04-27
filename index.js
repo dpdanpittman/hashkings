@@ -2592,7 +2592,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
                         state.users[from].seeds.push(seed)
                         
-                        /* if (seed) {
+                      /*   if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
                                  addrs: [],
@@ -2627,7 +2627,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                }
                              } else {
                                  state.users[from].seeds.push(seed)
-                             }*/
+                             }
 
                              
                             //delete state.users[seller].seeds[0][type];
@@ -2635,7 +2635,7 @@ processor.on('market_cancel_buds', function(json, from) {
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
-                         }
+                         }*/
                        
                         //pay hashkings
                         const c = parseInt(amount * 0.01)
