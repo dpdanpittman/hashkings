@@ -1092,9 +1092,13 @@ processor.on('market_cancel_buds', function(json, from) {
                         var myAlliance = {
                             alliance: json.alliance
                         }
-                        // not properly updating the name
+                        
                         if(state.users[from].alliance != json.alliance){state.users[from].alliance = myAlliance;break;}
-                        var newMember = json.from;
+                        
+                        var newMember ={
+                            memberNames: [json.from]
+                        }
+                        state.stats.alliances[alliance].members++;
                         state.stats.alliances[alliance].push(newMember);
                         break;
                     }
