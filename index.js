@@ -2577,7 +2577,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     want === 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want === 'marketseed') {
-                        var seed=''
+                        var seed= {}
                        /* try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
                                 
