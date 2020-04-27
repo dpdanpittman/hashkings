@@ -2573,22 +2573,21 @@ processor.on('market_cancel_buds', function(json, from) {
                        if(type){
                          try{
                              for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                 if (type){
 
-                                     var pastValue = {
-                                         price: state.users[seller].seeds[0][type].price
-                                     }
+                            var pastValue = {
+                                        price: state.users[seller].seeds[0][type].price
+                                    }
 
-                                     state.users[seller].seeds[0][type].forSale = false
-                                     state.users[seller].seeds[0][type].push(pastValue)
-                                     state.users[seller].seeds[0][type].price = 0;
-                                     state.users[seller].seeds[0][type].datePosted = 0;
+                                    state.users[seller].seeds[0][type].forSale = false;
+                                    state.users[seller].seeds[0][type].push(pastValue);
+                                    state.users[seller].seeds[0][type].price = 0;
+                                    state.users[seller].seeds[0][type].datePosted = 0;
 
-                                     state.users[seller].seeds[0][type].owner = from;
-                                     purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0]
-                                     break
-                                 } 
+                                    state.users[seller].seeds[0][type].owner = from;
+                                    purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0];
+                                    break
                              }
+                             
                          } catch (e) {}
                          if (purchasedSeed) {
                              if (!state.users[from]) {
