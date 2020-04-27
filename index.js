@@ -2627,12 +2627,12 @@ processor.on('market_cancel_buds', function(json, from) {
                                 price: state.users[seller].seeds[0][type].price
                             }
 
-                            /*state.users[seller].seeds[0][type].push(pastValue);
-                            state.users[serller].seeds[0][type].forSale = false;
-                            state.users[serller].seeds[0][type].owner = from;
-                            state.users[serller].seeds[0][type].price = 0;
+                            state.users[seller].seeds[0][type].pastValue.push(pastValue);
+                            state.users[seller].seeds[0][type].forSale = false;
+                            state.users[seller].seeds[0][type].owner = from;
+                            state.users[seller].seeds[0][type].price = 0;
                             state.users[seller].seeds[0][type].datePosted = 0
-                            state.users[seller].seeds[0][type].owner = from;*/
+                            state.users[seller].seeds[0][type].owner = from;
 
                             delete state.users[seller].seeds[0][type];
 
