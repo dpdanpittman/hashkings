@@ -2570,7 +2570,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                       if(state.users[seller].seeds[0][type].owner === seller && state.users[seller].seeds[0][type].forSale === true){
+                       if(state.users[seller].seeds[0][type].forSale === true){
                          try{
                              for (var i = 0;i < state.users[seller].seeds.length; i++){
                                  if (type){
