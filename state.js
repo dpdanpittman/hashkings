@@ -23297,7 +23297,21 @@ module.exports = {
                "familyTree": "sog kbr",
                "pollinated": false,
                "father": []
+            },
+            {
+               "strain": "kbr",
+               "owner": "vcdragon",
+               "traits": [
+                  "beta seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "",
+               "pollinated": false,
+               "father": []
             }
+
          ],
          "pollen": [
             {
