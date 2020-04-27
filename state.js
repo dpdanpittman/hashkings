@@ -10310,7 +10310,24 @@ module.exports = {
          ],
          "xps": 501376,
          "seeds": [
-            {}
+            {
+               "mis": {
+                  "owner": "qwoyn",
+                  "traits": [
+                     "beta seed"
+                  ],
+                  "terps": [],
+                  "thc": "coming soon",
+                  "cbd": "coming soon",
+                  "familyTree": "mis",
+                  "pollinated": false,
+                  "father": "",
+                  "forSale": true,
+                  "price": 5000,
+                  "pastValue": [],
+                  "datePosted": 42798828
+               }
+            }
          ],
          "pollen": [
             {
