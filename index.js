@@ -2570,17 +2570,17 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                       if(type){
                          try{
                              for (var i = 0;i < state.users[seller].seeds.length; i++){
 
-                            var pastValue = {
+                                    var pastValue = {
                                         price: state.users[seller].seeds[0][type].price
                                     }
+
                                     state.users[seller].seeds[0][type].push(pastValue);
 
                                     state.users[seller].seeds[0][type].forSale = false;
-                                    state.users[seller].seeds[0][type].owner = json.from;
+                                    state.users[seller].seeds[0][type].owner = from;
 
                                     state.users[seller].seeds[0][type].price = 0;
                                     state.users[seller].seeds[0][type].datePosted = 0;
@@ -2588,7 +2588,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                     state.users[seller].seeds[0][type].owner = from;
                                     purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0];
                                     break
-                             }
+                                }
 
                          } catch (e) {}
                          if (purchasedSeed) {
@@ -2624,7 +2624,6 @@ processor.on('market_cancel_buds', function(json, from) {
                                  terps:[],
                                  v: 0
                                }
-
                              } else {
                                  state.users[from].seeds.push(purchasedSeed)
                              }
@@ -2632,8 +2631,7 @@ processor.on('market_cancel_buds', function(json, from) {
                          } else {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
                          }
-                       }
-                    
+                       
                         //pay hashkings
                         const c = parseInt(amount * 0.01)
                         state.bal.c += c
