@@ -2044,7 +2044,7 @@ processor.on('market_cancel_buds', function(json, from) {
                   seeds: [seed],
                   buds: [],
                   pollen: [],
-                  breeder: breeder,
+                  breeder: "",
                   farmer: farmer,
                   alliance: "",
                   friends: [],
@@ -2575,13 +2575,12 @@ processor.on('market_cancel_buds', function(json, from) {
                     ) {
                     if (want === 'marketseed') {
                         var seed=''
-                        const item = state.users[seller].seeds[0][type];
-                        /*try{
-                            for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                seed=item.splice(i, 1)[0];
-                                break;
+                        try{
+                            for (var i = 0;i < 1; i++){
+                                seed=state.users[seller].seeds[0][type].splice(i, 1)[0]
+                                break
                             }
-                        } catch (e) {console.log('splice is not a function')}*/
+                        } catch (e) {console.log('splice is not a function')}
                          if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
