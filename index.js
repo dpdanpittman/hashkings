@@ -2577,12 +2577,12 @@ processor.on('market_cancel_buds', function(json, from) {
                         var seed=''
                         try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                console.log('line 2580 still working')
-                                seed=state.users[seller].seeds[i].splice(i, 1)[0];
+                                seed=state.users[seller].seeds[0][type].splice(i, 1)[0];
                                 break;
                             }
                         } catch (e) {console.log('splice is not a function')}
                          if (seed) {
+                            console.log('line 2585')
                              if (!state.users[from]) {
                                state.users[from] = {
                                  addrs: [],
