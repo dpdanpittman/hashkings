@@ -2582,8 +2582,8 @@ processor.on('market_cancel_buds', function(json, from) {
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
                                 seed=item.splice(i, 1)[0];
                                 break;
-                            }*/
-                        } catch (e) {console.log('splice is not a function')}
+                            }
+                        } catch (e) {console.log('splice is not a function')}*/
                          if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
