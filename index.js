@@ -2389,7 +2389,7 @@ processor.on('market_cancel_buds', function(json, from) {
             })
             .then(function(myJson) {
                 //if(myJson.blacklisted.length == 0){*/
-                    if (!state.users[json.from]) state.users[json.from] = {
+                /*    if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
                 xps: 0,
@@ -2421,7 +2421,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 v: 0,
                 a: 0,
                 u: 0
-            }
+            }*/
             var want = json.memo.split(" ")[0].toLowerCase(),
                 type = json.memo.split(" ")[1] || '',
                 seller = json.memo.split(" ")[2] || ''
@@ -2501,8 +2501,8 @@ processor.on('market_cancel_buds', function(json, from) {
                           seeds: [seed],
                           buds: [],
                           pollen: [],
-                          breeder: breeder,
-                          farmer: farmer,
+                          breeder: "",
+                          farmer: 1,
                           alliance: "",
                           friends: [],
                           inv: [],
@@ -2578,11 +2578,11 @@ processor.on('market_cancel_buds', function(json, from) {
                     if (want === 'marketseed') {
                         var seed=''
                         const item = state.users[seller].seeds[0][type];
-                        try{
+                        /*try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
                                 seed=item.splice(i, 1)[0];
                                 break;
-                            }
+                            }*/
                         } catch (e) {console.log('splice is not a function')}
                          if (seed) {
                              if (!state.users[from]) {
@@ -2591,8 +2591,8 @@ processor.on('market_cancel_buds', function(json, from) {
                                  seeds: [seed],
                                  buds: [],
                                  pollen: [],
-                                 breeder: breeder,
-                                 farmer: farmer,
+                                 breeder: "",
+                                 farmer: 1,
                                  alliance: "",
                                  friends: [],
                                  inv: [],
