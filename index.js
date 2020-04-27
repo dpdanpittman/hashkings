@@ -2379,7 +2379,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 return response.json();
             })
             .then(function(myJson) {
-                if(myJson.blacklisted.length == 0){
+                //if(myJson.blacklisted.length == 0){
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
@@ -2650,7 +2650,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds/tools or managing land...please check wallet`
             }
-                } else {
+                /*} else {
                     if (state.blacklist[json.from]){
                         var users = parseInt(amount/2),
                             ops = parseInt(amount - users)
@@ -2662,7 +2662,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         state.blacklist[json.from] = true
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
                     }
-                }
+                }*/
             })
 
         } else if (json.from == username) {
