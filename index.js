@@ -2577,7 +2577,8 @@ processor.on('market_cancel_buds', function(json, from) {
                     want === 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want === 'marketseed') {
-                        var seed= {
+
+                        var seedPosted= {
                             [type]: {
                                 owner: from,
                                 traits: [
@@ -2598,7 +2599,7 @@ processor.on('market_cancel_buds', function(json, from) {
                              }
                         }
 
-                        state.users[from].seeds.push(seed)
+                        state.users[from].seeds.push(seedPosted)
                         
                       /*   if (seed) {
                              if (!state.users[from]) {
