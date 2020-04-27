@@ -633,13 +633,13 @@ module.exports = {
             "lon": "37.9",
             "weather": {
                "high": 300.05,
-               "low": 292.77,
-               "avg": "295.8",
+               "low": 292.31,
+               "avg": "295.7",
                "precip": 0.7300000000000001,
-               "clouds": 83,
-               "humidity": 67,
-               "winds": 1.38,
-               "windd": 195
+               "clouds": 87,
+               "humidity": 69,
+               "winds": 0.8,
+               "windd": 190
             }
          },
          "c": {
@@ -803,8 +803,8 @@ module.exports = {
    },
    "bal": {
       "r": 0,
-      "c": 0,
-      "b": 15279,
+      "c": 3800,
+      "b": 14796,
       "p": 1125418
    },
    "refund": [],
@@ -7217,6 +7217,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               42875230,
+               "watered"
+            ],
+            [
                42875229,
                "watered"
             ]
@@ -7330,6 +7334,10 @@ module.exports = {
          "owner": "stever82",
          "strain": "aca",
          "care": [
+            [
+               42875230,
+               "watered"
+            ],
             [
                42875229,
                "watered"
@@ -8739,6 +8747,10 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
+               42875230,
+               "watered"
+            ],
+            [
                42875229,
                "watered"
             ]
@@ -8840,6 +8852,10 @@ module.exports = {
          "strain": "",
          "xp": 0,
          "care": [
+            [
+               42875389,
+               "harvested"
+            ],
             [
                42875387,
                "tilled"
@@ -9481,6 +9497,10 @@ module.exports = {
          "xp": 0,
          "care": [
             [
+               42875445,
+               "harvested"
+            ],
+            [
                42875444,
                "tilled"
             ]
@@ -9924,6 +9944,10 @@ module.exports = {
          "strain": "",
          "xp": 0,
          "care": [
+            [
+               42875389,
+               "harvested"
+            ],
             [
                42875387,
                "tilled"
@@ -13038,7 +13062,7 @@ module.exports = {
          "addrs": [
             "a55"
          ],
-         "xps": 1,
+         "xps": 2,
          "seeds": [
             {
                "strain": "aca",
@@ -13049,6 +13073,22 @@ module.exports = {
                ],
                "pollinated": false,
                "forSale": 0
+            },
+            {
+               "strain": "hk",
+               "owner": "hashkings",
+               "traits": [
+                  "genesis seeds"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "Landrace Strain",
+               "familyTree": "Landrace Strain",
+               "pollinated": false,
+               "price": 0,
+               "forSale": false,
+               "pastValue": []
             }
          ],
          "pollen": [],
@@ -24638,9 +24678,13 @@ module.exports = {
       "42874570:saboin": "saboin succesfully watered b89 ",
       "42875229:stever82": "stever82 succesfully watered f63 d81 e96 ",
       "42875387:vcdragon": "vcdragon harvested a116 a63 ",
-      "42875431:vcdragon": "vcdragon pollinated f74 with kbr",
+      "42875431:vcdragon": "vcdragon pollinated  with ",
       "42875444:vcdragon": "vcdragon harvested f74 ",
-      "42875470:vcdragon": "planted on harvested plot c44 ",
-      "42875547:vcdragon": "vcdragon succesfully watered "
+      "42875470:vcdragon": "vcdragon can't plant [object Object] on 24.",
+      "42875547:vcdragon": "vcdragon succesfully watered ",
+      "42875267:hashkings": "hashkings purchased hk",
+      "42875953:undefined": "undefined doesn't have enough STEEM to purchase a seed",
+      "42875953:hashkings": "hashkings succesfully completed a purchase with qwoyn | mis",
+      "42876003:qwoyn": "qwoyn refunded successfully"
    }
 }
