@@ -2570,8 +2570,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                         try{
-                             for (var i = 0;i < state.users[seller].seeds.length; i++){
+                        
 
                                     var pastValue = {
                                         price: state.users[seller].seeds[0][type].price
@@ -2590,7 +2589,6 @@ processor.on('market_cancel_buds', function(json, from) {
                                     break
                                 }
 
-                         } catch (e) {}
                          if (purchasedSeed) {
                              if (!state.users[from]) {
                                state.users[from] = {
@@ -2639,7 +2637,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want} from ${seller}`
                         //pay seller
                         state.refund.push(['xfer', seller, amount * 0.99, 'You succesfully completed a purchase from' + seller + "|" + want])
-                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${want}`
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} succesfully completed a purchase with ${seller} | ${type}`
                     }
                  } 
                 else {
