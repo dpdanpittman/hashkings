@@ -2577,18 +2577,26 @@ processor.on('market_cancel_buds', function(json, from) {
                     want === 'marketseed' &&  amount === state.users[seller].seeds[0][type].price && state.users[seller].seeds[0][type].forSale === true
                     ) {
                     if (want === 'marketseed') {
-                        var seed= {}
-                       /* try{
-                            for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                
-                                break;
-                            }
-                        } catch (e) {console.log(state.users[seller].seeds[0][type])}*/
-                        seed=state.users[seller].seeds[0][type];
-
-                        state.users[seller].seeds[0][type].price = 0;
-                        state.users[seller].seeds[0][type].forSale = false;
-                        state.users[seller].seeds[0][type].datePosted = 0;
+                        var seed= {
+                            [type]: {
+                                owner: from,
+                                traits: [
+                                   "beta seed"
+                                ],
+                                terps: [],
+                                thc: state.users[seller].seeds[0][type].thc,
+                                cbd: state.users[seller].seeds[0][type].cbd,
+                                familyTree: state.users[seller].seeds[0][type].familyTree,
+                                pollinated: false,
+                                father: state.users[seller].seeds[0][type].father,
+                                forSale: false,
+                                price: 0,
+                                pastValue: [
+                                    state.users[seller].seeds[0][type].price,
+                                ],
+                                datePosted: 0
+                             }
+                        }
 
                         state.users[from].seeds.push(seed)
                         
@@ -2630,13 +2638,15 @@ processor.on('market_cancel_buds', function(json, from) {
                              }
 
                              
-                            //delete state.users[seller].seeds[0][type];
+                            
 
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
                              state.cs[`${json.block_num}:${from}`] = `${from} doesn't have enough STEEM to purchase a seed`
                          }*/
-                       
+
+                        delete state.users[seller].seeds[0][type];
+                        
                         //pay hashkings
                         const c = parseInt(amount * 0.01)
                         state.bal.c += c
