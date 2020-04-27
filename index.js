@@ -1055,13 +1055,16 @@ processor.on('market_cancel_buds', function(json, from) {
             friendName = ''
             try{
                 for (var i = 0; i < 1; i++) {
-                    friendName += friend[i]
+                    friendName += json.friend
 
                     var friends = ''
 
                         try{
-                            for (var i = 0;i < state.users[from].friends.length; i++){
-                                if(state.users[from].pollen[i].strain == json.friends){friends=state.users[from].friends.splice(i, 1)[0];break;}
+                            for (var i = 0;i < state.users[from].friends.length; i++) {
+                                if(state.users[from].pollen[i].strain == json.friends) {
+                                    friends=state.users[from].friends.splice(i, 1)[0];
+                                    break;
+                                }
                             }
                         } catch (e) {}
                         if (!friends){
@@ -1149,8 +1152,11 @@ processor.on('market_cancel_buds', function(json, from) {
                 var pollens = ''
 
                 try{
-                    for (var i = 0;i < state.users[from].pollen.length; i++){
-                        if(state.users[from].pollen[i].strain == json.pollen){pollens=state.users[from].pollen.splice(i, 1)[0];break;}
+                    for (var i = 0;i < state.users[from].pollen.length; i++) {
+                        if(state.users[from].pollen[i].strain == json.pollen) {
+                            pollens=state.users[from].pollen.splice(i, 1)[0];
+                            break;
+                        }
                     }
                 } catch (e) {}
                 if (!pollens){
@@ -1179,8 +1185,11 @@ processor.on('market_cancel_buds', function(json, from) {
         var bud = ''
 
             try{
-                for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                for (var i = 0;i < state.users[from].buds.length; i++) {
+                    if(state.users[from].buds[i].strain == json.buds) {
+                        bud=state.users[from].buds.splice(i, 1)[0];
+                        break;
+                    }
                 }
             } catch (e) {}
             if (!bud){
@@ -2571,11 +2580,10 @@ processor.on('market_cancel_buds', function(json, from) {
                        var seed=''
 
                        //  try{
-                             for (var i = 0;i < state.users[seller].seeds.length; i++){
-
-                                    seed = state.users[seller].seeds[0][type].splice(i, 1)[0];
-                                    break;
-                                }
+                        for (var i = 0;i < state.users[seller].seeds.length; i++){
+                            seed=state.users[seller].seeds[0][type].splice(i, 1)[0];
+                            break;
+                        }
 
                        //  } catch (e) {}
                          if (seed) {
