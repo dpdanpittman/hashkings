@@ -537,8 +537,8 @@ module.exports = {
       {
          "delegator": "vcdragon",
          "vests": 1213724199824,
-         "availible": 31,
-         "used": 0
+         "availible": 0,
+         "used": 31
       },
       {
          "delegator": "russia-btc",
