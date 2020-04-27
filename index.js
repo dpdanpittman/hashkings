@@ -2623,7 +2623,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                  state.users[from].seeds.push(seed)
                              }
 
-                            delete state.users[seller].seeds[0][type];
+                            //delete state.users[seller].seeds[0][type];
 
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
