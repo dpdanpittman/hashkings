@@ -785,7 +785,7 @@ processor.on('market_cancel_buds', function(json, from) {
 });
 
 //--------purchasing----------//
-// found on line 2825
+// found on transfer
 
 //---------------------End Market---------------------------------------------------------
     
@@ -901,7 +901,6 @@ processor.on('market_cancel_buds', function(json, from) {
                         console.log('buds harvested', e.message)
                     }
                     
-
             //pollen at harvest if male
             try {
             if (state.land[plants[i]].sex === 'male' && state.land[plants[i]].stage > 3){
@@ -957,7 +956,7 @@ processor.on('market_cancel_buds', function(json, from) {
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
     });
     
-    // search for qwoyn_water from user on blockchain since genesis
+    //search for qwoyn_water from user on blockchain since genesis
     //steemconnect link
     //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_water&json=%7B%22plants%22%3A%5B%22c35%22%5D%7D
     processor.on('water', function(json, from) {
@@ -1067,11 +1066,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                 }
                             }
                         } catch (e) {}
-                        if (!friends){
-                            try {
-                                if(state.users[from].friends.length)friends == state.users[from].friends.splice(0, 1)[0]
-                            }catch (e) {}
-                        }
+                        
                     state.cs[`${json.block_num}:${from}`] = `${from} can't change another users friend list`
                 }
             } catch {
@@ -1088,7 +1083,7 @@ processor.on('market_cancel_buds', function(json, from) {
         let alliance = json.alliance,
             allianceName = ''
             try {
-        for (var i = 0; i < state.stats.alliances.length; i++) {
+        for (var i = 0; i < 1; i++) {
                 state.users[from].alliance = alliance[i];
                 allianceName += alliance[i]
 
@@ -1098,9 +1093,10 @@ processor.on('market_cancel_buds', function(json, from) {
                             alliance: json.alliance
                         }
                         // not properly updating the name
-                        if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance = myAlliance;break;}
-                        var newMember = json.from
-                        if(state.users[from].alliance[i] == json.alliance){state.stats.alliances[alliance].push(newMember);break;}
+                        if(state.users[from].alliance != json.alliance){state.users[from].alliance = myAlliance;break;}
+                        var newMember = json.from;
+                        state.stats.alliances[alliance].push(newMember);
+                        break;
                     }
                 } catch (e) {}
 
@@ -1109,9 +1105,7 @@ processor.on('market_cancel_buds', function(json, from) {
     } catch {
         (console.log(from + ' tried to join the ' + allianceName + ' alliance but an error occured'))
     }
-        //state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
-
-        state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
+    state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
     });
 
     //search for qwoyn_alliance from user on blockchain since genesis
@@ -2591,7 +2585,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                  seeds: [seed],
                                  buds: [],
                                  pollen: [],
-                                 breeder: "",
+                                 breeder: from,
                                  farmer: 1,
                                  alliance: "",
                                  friends: [],
