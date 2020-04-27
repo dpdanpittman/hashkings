@@ -2585,6 +2585,10 @@ processor.on('market_cancel_buds', function(json, from) {
                             }
                         } catch (e) {console.log(state.users[seller].seeds[0][type])}*/
                         seed=state.users[seller].seeds[0][type];
+
+                        state.users[seller].seeds[0][type].price = 0;
+                        state.users[seller].seeds[0][type].forSale = false;
+                        state.users[seller].seeds[0][type].datePosted = 0;
                         
                          if (seed) {
                              if (!state.users[from]) {
@@ -2623,9 +2627,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                  state.users[from].seeds.push(seed)
                              }
 
-                             state.users[seller].seeds[0][type].price = 0;
-                             state.users[seller].seeds[0][type].forSale = false;
-                             state.users[seller].seeds[0][type].datePosted = 0;
+                             
                             //delete state.users[seller].seeds[0][type];
 
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
