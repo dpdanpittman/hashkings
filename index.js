@@ -2580,7 +2580,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         var seed=''
                         try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                seed=state.users[seller].seeds[0][type].splice(i, 1)[0];
+                                seed=state.users[seller].seeds[0][type];
                                 break;
                             }
                         } catch (e) {console.log(state.users[seller].seeds[0][type])}
@@ -2631,6 +2631,8 @@ processor.on('market_cancel_buds', function(json, from) {
                             state.users[from].seeds[0][type].price = 0;
                             state.users[from].seeds[0][type].datePosted = 0
                             state.users[from].seeds[0][type].owner = from;
+
+                            delete state.users[seller].seeds[0][type];
 
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
