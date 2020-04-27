@@ -2568,21 +2568,21 @@ processor.on('market_cancel_buds', function(json, from) {
                     ) {
                     if (want === 'marketseed') {
                         
-                       var purchasedSeed=''
+                       var seed=''
 
                        //  try{
                              for (var i = 0;i < state.users[seller].seeds.length; i++){
 
-                                    purchasedSeed = state.users[seller].seeds[0][type].splice(i, 1)[0];
+                                    seed = state.users[seller].seeds[0][type].splice(i, 1)[0];
                                     break;
                                 }
 
                        //  } catch (e) {}
-                         if (purchasedSeed) {
+                         if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
                                  addrs: [],
-                                 seeds: [purchasedSeed],
+                                 seeds: [seed],
                                  buds: [],
                                  pollen: [],
                                  breeder: breeder,
@@ -2612,7 +2612,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                  v: 0
                                }
                              } else {
-                                 state.users[from].seeds.push(purchasedSeed)
+                                 state.users[from].seeds.push(seed)
                              }
 
                              var pastValue = {
