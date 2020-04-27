@@ -2578,12 +2578,14 @@ processor.on('market_cancel_buds', function(json, from) {
                     ) {
                     if (want === 'marketseed') {
                         var seed=''
-                        try{
+                       /* try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                seed=state.users[seller].seeds[0][type];
+                                
                                 break;
                             }
-                        } catch (e) {console.log(state.users[seller].seeds[0][type])}
+                        } catch (e) {console.log(state.users[seller].seeds[0][type])}*/
+                        seed=state.users[seller].seeds[0][type];
+                        
                          if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
