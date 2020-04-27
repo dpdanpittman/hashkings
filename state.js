@@ -10326,6 +10326,22 @@ module.exports = {
                   "price": 5000,
                   "pastValue": [],
                   "datePosted": 42798828
+               },
+               "mis": {
+                  "owner": "qwoyn",
+                  "traits": [
+                     "beta seed"
+                  ],
+                  "terps": [],
+                  "thc": "coming soon",
+                  "cbd": "coming soon",
+                  "familyTree": "mis",
+                  "pollinated": false,
+                  "father": "",
+                  "forSale": true,
+                  "price": 1000,
+                  "pastValue": [],
+                  "datePosted": 42798828
                }
             }
          ],
