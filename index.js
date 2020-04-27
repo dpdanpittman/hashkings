@@ -2589,8 +2589,10 @@ processor.on('market_cancel_buds', function(json, from) {
                         state.users[seller].seeds[0][type].price = 0;
                         state.users[seller].seeds[0][type].forSale = false;
                         state.users[seller].seeds[0][type].datePosted = 0;
+
+                        state.users[from].seeds.push(seed)
                         
-                         if (seed) {
+                        /* if (seed) {
                              if (!state.users[from]) {
                                state.users[from] = {
                                  addrs: [],
@@ -2625,7 +2627,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                }
                              } else {
                                  state.users[from].seeds.push(seed)
-                             }
+                             }*/
 
                              
                             //delete state.users[seller].seeds[0][type];
