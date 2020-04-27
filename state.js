@@ -784,15 +784,16 @@ module.exports = {
       "gardeners": 146,
       "alliances": [
          {
-            "name": "Canna-Curate",
-            "founder": "qwoyn",
+            "name": "canna-curate",
+            "founder": "jonyoudyer",
             "members": 1,
             "memberNames": [
+               "jonyoudyer",
                "qwoyn"
             ]
          },
          {
-            "name": "Hashkings",
+            "name": "hashkings",
             "founder": "qwoyn",
             "members": 1,
             "memberNames": [
