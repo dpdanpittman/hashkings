@@ -2570,7 +2570,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         
                        var purchasedSeed=''
 
-                       if(state.users[seller].seeds[0][type].forSale === true){
+                       if(type){
                          try{
                              for (var i = 0;i < state.users[seller].seeds.length; i++){
                                  if (type){
@@ -2579,7 +2579,7 @@ processor.on('market_cancel_buds', function(json, from) {
                                          price: state.users[seller].seeds[0][type].price
                                      }
 
-                                     state.users[seller].seeds[0][type].forSale = true
+                                     state.users[seller].seeds[0][type].forSale = false
                                      state.users[seller].seeds[0][type].push(pastValue)
                                      state.users[seller].seeds[0][type].price = 0;
                                      state.users[seller].seeds[0][type].datePosted = 0;
