@@ -244,12 +244,6 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
-//market output
-app.get('/market', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.market, null, 3))
-});
-
 //shows seeds by user
 app.get('/seeds/:user', (req, res, next) => {
     let user = req.params.user, arr = []
@@ -357,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42812406; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 42875071; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42812406;
+const ago = ENV.ago || 42875071;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.steemit.com/' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -1298,7 +1292,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
             try{
                 for (var i = 0;i < state.users[from].buds.length; i++){
-                    if(state.users[from].buds[i].strain == json.buds){bud=state.users[from].buds.splice(i, 1)[0];break;}
+                    if(state.users[from].buds[i].strain == json.buds && state.users[from].xps > 9999){bud=state.users[from].buds.splice(i, 1)[0];break;}
                 }
             } catch (e) {}
             if (!bud){
@@ -2420,7 +2414,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 u: 0
             }
             var want = json.memo.split(" ")[0].toLowerCase(),
-                type = json.memo.split(" ")[1] || '',
+                type = json.memo.split(" ")[1]// || '',
                 seller = json.memo.split(" ")[2] || ''
             if (
                 state.stats.prices.listed[want] == amount ||
@@ -2435,7 +2429,7 @@ processor.on('market_cancel_buds', function(json, from) {
                 want == 'papers' && amount == state.stats.prices.listed.seeds.special || 
                 want == 'kiefbox' && amount == state.stats.prices.listed.seeds.special || 
                 want == 'vacoven' && amount == state.stats.prices.listed.seeds.special || 
-                want == 'bluntwrap' && amount == state.stats.prices.listed.seeds.special ||
+                want == 'bluntwraps' && amount == state.stats.prices.listed.seeds.special ||
                 want == 'browniemix' && amount == state.stats.prices.listed.seeds.special ||
                 want == 'hempwraps' && amount == state.stats.prices.listed.seeds.special ||
                 // market seeds
@@ -2535,7 +2529,7 @@ processor.on('market_cancel_buds', function(json, from) {
 
                 } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || 
                            want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || 
-                           want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || 
+                           want == 'vacovens' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || 
                            want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || 
                            want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || 
                            want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000
@@ -2548,7 +2542,7 @@ processor.on('market_cancel_buds', function(json, from) {
                         state.users[from].kiefbox+=10; 
                         state.users[from].xps += 10; 
                     }
-                    if (want == 'vacoven') {
+                    if (want == 'vacovens') {
                         state.users[from].vacoven+=10; 
                         state.users[from].xps += 10; 
                     }
