@@ -2374,12 +2374,12 @@ processor.on('market_cancel_buds', function(json, from) {
         if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
 
-            fetch(`http://blacklist.usesteem.com/user/${json.from}`)
+            /*fetch(`http://blacklist.usesteem.com/user/${json.from}`)
             .then(function(response) {
                 return response.json();
             })
             .then(function(myJson) {
-                //if(myJson.blacklisted.length == 0){
+                //if(myJson.blacklisted.length == 0){*/
                     if (!state.users[json.from]) state.users[json.from] = {
                 addrs: [], 
                 seeds: [],
@@ -2662,8 +2662,8 @@ processor.on('market_cancel_buds', function(json, from) {
                         state.blacklist[json.from] = true
                         state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
                     }
-                }*/
-            })
+                }
+            })*/
 
         } else if (json.from == username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
