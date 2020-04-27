@@ -2577,10 +2577,11 @@ processor.on('market_cancel_buds', function(json, from) {
                             var pastValue = {
                                         price: state.users[seller].seeds[0][type].price
                                     }
+                                    state.users[seller].seeds[0][type].push(pastValue);
 
                                     state.users[seller].seeds[0][type].forSale = false;
-                                    state.users[seller].seeds[0].owner = json.from;
-                                    state.users[seller].seeds[0][type].push(pastValue);
+                                    state.users[seller].seeds[0][type].owner = json.from;
+
                                     state.users[seller].seeds[0][type].price = 0;
                                     state.users[seller].seeds[0][type].datePosted = 0;
 
