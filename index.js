@@ -2577,9 +2577,11 @@ processor.on('market_cancel_buds', function(json, from) {
                     ) {
                     if (want === 'marketseed') {
                         var seed=''
+                        const poster = state.users[seller];
+                        const item = seeds[0][type];
                         try{
                             for (var i = 0;i < state.users[seller].seeds.length; i++){
-                                seed=state.users[seller].seeds[0][type].splice(i, 1)[0];
+                                seed=poster.item.splice(i, 1)[0];
                                 break;
                             }
                         } catch (e) {console.log('splice is not a function')}
