@@ -2579,7 +2579,7 @@ processor.on('market_cancel_buds', function(json, from) {
                     if (want === 'marketseed') {
 
                         var seedPosted= {
-                            [type]: {
+                            type: {
                                 owner: from,
                                 traits: [
                                    "beta seed"
@@ -2637,9 +2637,6 @@ processor.on('market_cancel_buds', function(json, from) {
                              } else {
                                  state.users[from].seeds.push(seed)
                              }
-
-                             
-                            
 
                              state.cs[`${json.block_num}:${from}`] = `${from} purchased a ${type} seed from ${seller}`
                          } else {
