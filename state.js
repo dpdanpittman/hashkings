@@ -21904,6 +21904,24 @@ module.exports = {
                   "beta buds"
                ],
                "terps": []
+            },
+            {
+               "strain": "mal",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
+            },
+            {
+               "strain": "pam",
+               "owner": "saboin",
+               "xp": 2250,
+               "traits": [
+                  "beta buds"
+               ],
+               "terps": []
             }
          ],
          "breeder": "",
